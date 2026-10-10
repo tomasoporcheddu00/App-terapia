@@ -20,6 +20,8 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 STATI = {"placeholder", "source-review", "clinician-approved", "regulatory-review"}
 SEVERITA = {"contraindicated", "major", "moderate", "minor"}
+CLASSI_RACC = {"I", "IIa", "IIb", "III", None}
+LIVELLI = {"A", "B", "C", None}
 
 errori: list[str] = []
 avvisi: list[str] = []
@@ -62,6 +64,8 @@ def main() -> int:
     dosing = carica("dosing")
     interactions = carica("interactions")
     regulatory = carica("regulatory")
+    recommendations = carica("recommendations")
+    rules = carica("rules")
 
     if not drugs:
         err("nessuna scheda-farmaco trovata")
@@ -147,6 +151,62 @@ def main() -> int:
         if o.get("drugId") not in drugs:
             err(f"regulatory/{did}: drugId '{o.get('drugId')}' non esiste")
 
+    # ---- raccomandazioni della Mappa terapeutica ----
+    n_racc = 0
+    for slug, o in recommendations.items():
+        p = f"recommendations/{slug}"
+        meta = o.get("meta") or {}
+        if meta.get("id") != slug or o.get("pathology") != slug:
+            err(f"{p}: meta.id e pathology devono coincidere con il nome del file")
+        if stato(o) not in STATI:
+            err(f"{p}: stato editoriale sconosciuto '{stato(o)}'")
+        if not (meta.get("sources") or []):
+            err(f"{p}: nessuna fonte in meta.sources")
+        visti = set()
+        for g in o.get("groups") or []:
+            if not g.get("id") or not g.get("label"):
+                err(f"{p}: gruppo senza id o etichetta")
+            if g.get("id") in visti:
+                err(f"{p}: id di gruppo duplicato '{g.get('id')}'")
+            visti.add(g.get("id"))
+            ids = set()
+            for it in g.get("items") or []:
+                n_racc += 1
+                q = f"{p}/{g.get('id')}/{it.get('id')}"
+                if not it.get("id") or it["id"] in ids:
+                    err(f"{q}: id mancante o duplicato nel gruppo")
+                ids.add(it.get("id"))
+                if not it.get("text"):
+                    err(f"{q}: testo mancante")
+                if it.get("cor") not in CLASSI_RACC:
+                    err(f"{q}: classe di raccomandazione sconosciuta '{it.get('cor')}'")
+                if it.get("loe") not in LIVELLI:
+                    err(f"{q}: livello di evidenza sconosciuto '{it.get('loe')}'")
+                if it.get("loe") and not it.get("cor"):
+                    err(f"{q}: livello di evidenza senza classe")
+                for did in it.get("drugIds") or []:
+                    if did not in drugs:
+                        err(f"{q}: drugId '{did}' non esiste")
+                if it.get("cor") is None:
+                    avv(f"{q}: classe di raccomandazione non indicata")
+
+    for key, o in rules.items():
+        for r in o.get("rules") or []:
+            q = f"rules/{key}/{r.get('id')}"
+            if r.get("severity") not in SEVERITA:
+                err(f"{q}: gravità sconosciuta '{r.get('severity')}'")
+            if not r.get("message") or not r.get("source"):
+                err(f"{q}: messaggio o fonte mancante")
+            if len(r.get("all") or []) < 2:
+                err(f"{q}: una regola richiede almeno due condizioni")
+            for m in r.get("all") or []:
+                for cid in m.get("classes") or []:
+                    if cid not in classes:
+                        err(f"{q}: classe '{cid}' non esiste")
+                for did in m.get("drugs") or []:
+                    if did not in drugs:
+                        err(f"{q}: farmaco '{did}' non esiste")
+
     # ---- copertura ----
     popolati = [k for k, v in drugs.items() if stato(v) != "placeholder"]
     for did in popolati:
@@ -165,6 +225,9 @@ def main() -> int:
         "posologie": len(dosing),
         "interazioni": len(interactions),
         "regolatorio": len(regulatory),
+        "patologie con classi": len(recommendations),
+        "raccomandazioni": n_racc,
+        "regole associazioni": sum(len(o.get("rules") or []) for o in rules.values()),
         "errori": len(errori),
         "avvisi": len(avvisi),
     }

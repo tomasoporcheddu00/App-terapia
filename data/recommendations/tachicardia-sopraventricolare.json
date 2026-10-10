@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "id": "tachicardia-sopraventricolare",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2019 - Linee guida per la gestione delle tachicardie sopraventricolari",
+        "url": "https://academic.oup.com/eurheartj/article/41/5/655/5556821"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "tachicardia-sopraventricolare",
+  "groups": [
+    {
+      "id": "acuta",
+      "label": "Interruzione dell'episodio",
+      "items": [
+        {
+          "id": "cve",
+          "text": "Cardioversione elettrica sincronizzata se instabile",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": []
+        },
+        {
+          "id": "vagali",
+          "text": "Manovre vagali, preferibilmente in posizione supina con gambe sollevate",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": []
+        },
+        {
+          "id": "adeno",
+          "text": "Adenosina EV in bolo rapido (6–18 mg) se le manovre vagali falliscono",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "adenosine"
+          ]
+        },
+        {
+          "id": "ccb",
+          "text": "Verapamil o diltiazem EV, oppure betabloccante EV, se l'adenosina è inefficace o controindicata",
+          "cor": "IIa",
+          "loe": "B",
+          "drugIds": [
+            "verapamil",
+            "diltiazem",
+            "esmolol",
+            "metoprolol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cronica",
+      "label": "Prevenzione delle recidive",
+      "items": [
+        {
+          "id": "abla",
+          "text": "Ablazione transcatetere nella tachicardia da rientro sintomatica e ricorrente",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": []
+        },
+        {
+          "id": "farmaci",
+          "text": "Diltiazem, verapamil o betabloccante se l'ablazione non è desiderata o fattibile",
+          "cor": "IIa",
+          "loe": "B",
+          "drugIds": [
+            "diltiazem",
+            "verapamil",
+            "bisoprolol",
+            "metoprolol"
+          ]
+        }
+      ]
+    }
+  ]
+}

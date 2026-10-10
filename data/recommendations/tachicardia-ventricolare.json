@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "id": "tachicardia-ventricolare",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2022 - Linee guida per la gestione delle aritmie ventricolari e la prevenzione della morte cardiaca improvvisa",
+        "url": "https://academic.oup.com/eurheartj/article/43/40/3997/6675633"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "tachicardia-ventricolare",
+  "groups": [
+    {
+      "id": "acuta",
+      "label": "Fase acuta",
+      "items": [
+        {
+          "id": "cveinst",
+          "text": "Cardioversione elettrica nella TV sostenuta emodinamicamente non tollerata",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": []
+        },
+        {
+          "id": "cvestab",
+          "text": "Cardioversione elettrica come prima scelta nella TV tollerata, se il rischio di sedazione/anestesia è basso",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": []
+        },
+        {
+          "id": "proca",
+          "text": "Procainamide EV nella TV tollerata senza cardiopatia strutturale nota",
+          "cor": "IIa",
+          "loe": "B",
+          "drugIds": [
+            "procainamide"
+          ]
+        },
+        {
+          "id": "amio",
+          "text": "Amiodarone EV nella TV tollerata con cardiopatia strutturale (o sospetta)",
+          "cor": "IIb",
+          "loe": "B",
+          "drugIds": [
+            "amiodarone"
+          ]
+        },
+        {
+          "id": "verapno",
+          "text": "Verapamil EV nella tachicardia a QRS larghi di origine non chiarita",
+          "cor": "III",
+          "loe": "B",
+          "drugIds": [
+            "verapamil"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lungo",
+      "label": "Prevenzione",
+      "items": [
+        {
+          "id": "icd",
+          "text": "ICD nei sopravvissuti a FV o TV emodinamicamente non tollerata, in assenza di cause reversibili",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "abla",
+          "text": "Ablazione transcatetere nella TV ricorrente su cardiopatia ischemica nonostante amiodarone, preferita all'escalation antiaritmica",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": []
+        }
+      ]
+    }
+  ]
+}

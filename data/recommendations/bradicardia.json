@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "bradicardia",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2021 - Linee guida su pacing cardiaco e terapia di resincronizzazione",
+        "url": "https://academic.oup.com/eurheartj/article/42/35/3427/6358547"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "bradicardia",
+  "groups": [
+    {
+      "id": "acuta",
+      "label": "Bradicardia con compromissione emodinamica",
+      "items": [
+        {
+          "id": "atropina",
+          "text": "Atropina EV",
+          "cor": "IIa",
+          "loe": "C",
+          "drugIds": [
+            "atropine"
+          ]
+        },
+        {
+          "id": "crono",
+          "text": "Isoprenalina, dopamina o adrenalina se refrattaria all'atropina",
+          "cor": "IIb",
+          "loe": "C",
+          "drugIds": [
+            "isoprenaline",
+            "dopamine",
+            "adrenaline"
+          ]
+        },
+        {
+          "id": "pacingtemp",
+          "text": "Pacing transvenoso temporaneo se refrattaria ai farmaci",
+          "cor": "IIa",
+          "loe": "C",
+          "drugIds": []
+        },
+        {
+          "id": "cause",
+          "text": "Ricerca e correzione delle cause reversibili (farmaci, ischemia, iperkaliemia, ipotiroidismo)",
+          "cor": null,
+          "loe": null,
+          "drugIds": []
+        }
+      ]
+    },
+    {
+      "id": "definitiva",
+      "label": "Terapia definitiva",
+      "items": [
+        {
+          "id": "pmk",
+          "text": "Pacemaker nella malattia del nodo del seno con sintomi correlati alla bradicardia",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": []
+        }
+      ]
+    }
+  ]
+}

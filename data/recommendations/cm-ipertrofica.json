@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "id": "cm-ipertrofica",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2023 - Linee guida per la gestione delle cardiomiopatie",
+        "url": "https://academic.oup.com/eurheartj/article/44/37/3503/7246608"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "cm-ipertrofica",
+  "groups": [
+    {
+      "id": "ostruzione",
+      "label": "Ostruzione all'efflusso sintomatica",
+      "items": [
+        {
+          "id": "bb",
+          "text": "Betabloccante non vasodilatante come prima linea",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "bisoprolol",
+            "metoprolol",
+            "propranolol"
+          ]
+        },
+        {
+          "id": "ccb",
+          "text": "Verapamil o diltiazem se il betabloccante non è tollerato o è controindicato",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "verapamil",
+            "diltiazem"
+          ]
+        },
+        {
+          "id": "diso",
+          "text": "Disopiramide in aggiunta al betabloccante (o al calcioantagonista)",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "disopyramide"
+          ]
+        },
+        {
+          "id": "mava",
+          "text": "Mavacamten in aggiunta, se sintomatico nonostante la terapia di prima linea",
+          "cor": "IIa",
+          "loe": "A",
+          "drugIds": [
+            "mavacamten"
+          ]
+        },
+        {
+          "id": "srt",
+          "text": "Riduzione settale (miectomia o alcolizzazione) se gradiente ≥50 mmHg e NYHA III–IV nonostante terapia",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": []
+        },
+        {
+          "id": "vasodil",
+          "text": "Vasodilatatori arteriosi e venosi (nitrati, inibitori PDE5) e digossina in presenza di ostruzione",
+          "cor": null,
+          "loe": null,
+          "drugIds": [
+            "nitroglycerin",
+            "isosorbide-mononitrate",
+            "sildenafil",
+            "digoxin"
+          ],
+          "note": "Potenzialmente dannosi perché aumentano il gradiente: da evitare. Classe da verificare."
+        }
+      ]
+    },
+    {
+      "id": "fa",
+      "label": "Fibrillazione atriale",
+      "items": [
+        {
+          "id": "oac",
+          "text": "Anticoagulazione orale nella FA indipendentemente dal punteggio CHA₂DS₂-VA",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "apixaban",
+            "edoxaban",
+            "rivaroxaban",
+            "dabigatran",
+            "warfarin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scd",
+      "label": "Morte improvvisa",
+      "items": [
+        {
+          "id": "icd",
+          "text": "ICD in prevenzione secondaria dopo arresto cardiaco o TV sostenuta",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": []
+        }
+      ]
+    }
+  ]
+}

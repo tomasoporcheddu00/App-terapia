@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "id": "scompenso-acuto",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+        "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+      },
+      {
+        "label": "ESC 2023 - Focused Update delle linee guida 2021 sullo scompenso cardiaco",
+        "url": "https://academic.oup.com/eurheartj/article/44/37/3627/7246292"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "scompenso-acuto",
+  "groups": [
+    {
+      "id": "decong",
+      "label": "Decongestione",
+      "items": [
+        {
+          "id": "ansaev",
+          "text": "Diuretico dell'ansa EV in tutti i pazienti con sovraccarico di liquidi",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": [
+            "furosemide",
+            "torasemide",
+            "bumetanide"
+          ]
+        },
+        {
+          "id": "tiazide",
+          "text": "Associazione di un tiazidico se la risposta al diuretico dell'ansa è insufficiente",
+          "cor": "IIa",
+          "loe": "B",
+          "drugIds": [
+            "hydrochlorothiazide",
+            "metolazone",
+            "chlorthalidone"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emodinamica",
+      "label": "Supporto emodinamico",
+      "items": [
+        {
+          "id": "vasodil",
+          "text": "Vasodilatatore EV se PAS >110 mmHg, per il sollievo dei sintomi",
+          "cor": "IIb",
+          "loe": "B",
+          "drugIds": [
+            "nitroglycerin",
+            "isosorbide-dinitrate",
+            "sodium-nitroprusside"
+          ]
+        },
+        {
+          "id": "inotropi",
+          "text": "Inotropo se ipotensione (PAS <90 mmHg) con segni di ipoperfusione",
+          "cor": "IIb",
+          "loe": "C",
+          "drugIds": [
+            "dobutamine",
+            "levosimendan",
+            "milrinone"
+          ]
+        },
+        {
+          "id": "inotropino",
+          "text": "Inotropi di routine in assenza di ipotensione e ipoperfusione",
+          "cor": "III",
+          "loe": "C",
+          "drugIds": []
+        },
+        {
+          "id": "vasopress",
+          "text": "Vasopressore, preferibilmente noradrenalina, nello shock cardiogeno",
+          "cor": "IIb",
+          "loe": "B",
+          "drugIds": [
+            "noradrenaline"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "resp",
+      "label": "Supporto respiratorio e altro",
+      "items": [
+        {
+          "id": "o2",
+          "text": "Ossigeno se SpO₂ <90% o PaO₂ <60 mmHg",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": []
+        },
+        {
+          "id": "nippv",
+          "text": "Ventilazione non invasiva a pressione positiva nel distress respiratorio",
+          "cor": "IIa",
+          "loe": "B",
+          "drugIds": []
+        },
+        {
+          "id": "oppioidi",
+          "text": "Oppioidi di routine",
+          "cor": "III",
+          "loe": "C",
+          "drugIds": []
+        },
+        {
+          "id": "tev",
+          "text": "Profilassi del tromboembolismo venoso se non già anticoagulato",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "enoxaparin",
+            "fondaparinux",
+            "unfractionated-heparin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dimissione",
+      "label": "Transizione e dimissione",
+      "items": [
+        {
+          "id": "strong",
+          "text": "Avvio e titolazione rapida della terapia raccomandata prima della dimissione e nelle 6 settimane successive, con visite ravvicinate",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [],
+          "source": {
+            "label": "ESC 2023 - Focused Update delle linee guida 2021 sullo scompenso cardiaco",
+            "url": "https://academic.oup.com/eurheartj/article/44/37/3627/7246292"
+          }
+        },
+        {
+          "id": "follow",
+          "text": "Visita di controllo precoce entro 1–2 settimane dalla dimissione",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": []
+        }
+      ]
+    }
+  ]
+}

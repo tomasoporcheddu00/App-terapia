@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "id": "hfmref",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+        "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+      },
+      {
+        "label": "ESC 2023 - Focused Update delle linee guida 2021 sullo scompenso cardiaco",
+        "url": "https://academic.oup.com/eurheartj/article/44/37/3627/7246292"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "hfmref",
+  "groups": [
+    {
+      "id": "base",
+      "label": "Terapia raccomandata",
+      "items": [
+        {
+          "id": "sglt2",
+          "text": "SGLT2-inibitore (dapagliflozin o empagliflozin)",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "dapagliflozin",
+            "empagliflozin"
+          ],
+          "source": {
+            "label": "ESC 2023 - Focused Update delle linee guida 2021 sullo scompenso cardiaco",
+            "url": "https://academic.oup.com/eurheartj/article/44/37/3627/7246292"
+          }
+        },
+        {
+          "id": "ansa",
+          "text": "Diuretico dell'ansa in presenza di congestione",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": [
+            "furosemide",
+            "torasemide",
+            "bumetanide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "possibili",
+      "label": "Da considerare",
+      "items": [
+        {
+          "id": "acei",
+          "text": "ACE-inibitore",
+          "cor": "IIb",
+          "loe": "C",
+          "drugIds": [
+            "ramipril",
+            "perindopril",
+            "enalapril",
+            "lisinopril",
+            "zofenopril",
+            "captopril"
+          ]
+        },
+        {
+          "id": "arb",
+          "text": "Sartano",
+          "cor": "IIb",
+          "loe": "C",
+          "drugIds": [
+            "valsartan",
+            "candesartan",
+            "losartan",
+            "telmisartan",
+            "irbesartan",
+            "olmesartan"
+          ]
+        },
+        {
+          "id": "arni",
+          "text": "Sacubitril/valsartan",
+          "cor": "IIb",
+          "loe": "C",
+          "drugIds": [
+            "sacubitril-valsartan"
+          ]
+        },
+        {
+          "id": "bb",
+          "text": "Betabloccante",
+          "cor": "IIb",
+          "loe": "C",
+          "drugIds": [
+            "bisoprolol",
+            "carvedilol",
+            "metoprolol",
+            "nebivolol"
+          ]
+        },
+        {
+          "id": "mra",
+          "text": "Antagonista dei mineralcorticoidi",
+          "cor": "IIb",
+          "loe": "C",
+          "drugIds": [
+            "spironolactone",
+            "eplerenone"
+          ]
+        }
+      ]
+    }
+  ]
+}

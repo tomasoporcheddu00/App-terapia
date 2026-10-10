@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "id": "shock-cardiogeno",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+        "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+      },
+      {
+        "label": "ESC 2023 - Acute Coronary Syndromes Guidelines",
+        "url": "https://academic.oup.com/ehjacc/article/13/1/55/7280662"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "shock-cardiogeno",
+  "groups": [
+    {
+      "id": "diagnosi",
+      "label": "Diagnosi e causa",
+      "items": [
+        {
+          "id": "eco",
+          "text": "ECG ed ecocardiogramma immediati",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": []
+        },
+        {
+          "id": "pci",
+          "text": "Coronarografia urgente con PCI nello shock da sindrome coronarica acuta",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [],
+          "source": {
+            "label": "ESC 2023 - Acute Coronary Syndromes Guidelines",
+            "url": "https://academic.oup.com/ehjacc/article/13/1/55/7280662"
+          }
+        },
+        {
+          "id": "culprit",
+          "text": "PCI della sola lesione colpevole durante la procedura indice",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [],
+          "source": {
+            "label": "ESC 2023 - Acute Coronary Syndromes Guidelines",
+            "url": "https://academic.oup.com/ehjacc/article/13/1/55/7280662"
+          }
+        }
+      ]
+    },
+    {
+      "id": "farmaci",
+      "label": "Supporto farmacologico",
+      "items": [
+        {
+          "id": "inotropi",
+          "text": "Inotropo per aumentare la portata e migliorare la perfusione",
+          "cor": "IIb",
+          "loe": "C",
+          "drugIds": [
+            "dobutamine",
+            "levosimendan",
+            "milrinone"
+          ]
+        },
+        {
+          "id": "norad",
+          "text": "Noradrenalina come vasopressore se ipotensione persistente",
+          "cor": "IIb",
+          "loe": "B",
+          "drugIds": [
+            "noradrenaline"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mcs",
+      "label": "Supporto meccanico",
+      "items": [
+        {
+          "id": "mcs",
+          "text": "Supporto meccanico al circolo a breve termine nello shock refrattario, secondo età, comorbilità e funzione neurologica",
+          "cor": "IIa",
+          "loe": "C",
+          "drugIds": []
+        },
+        {
+          "id": "iabp",
+          "text": "Contropulsatore aortico di routine nello shock post-infartuale",
+          "cor": "III",
+          "loe": "B",
+          "drugIds": [],
+          "source": {
+            "label": "ESC 2023 - Acute Coronary Syndromes Guidelines",
+            "url": "https://academic.oup.com/ehjacc/article/13/1/55/7280662"
+          }
+        }
+      ]
+    }
+  ]
+}

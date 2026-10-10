@@ -78,6 +78,8 @@ def main() -> int:
     diff += confronta("classes", classes_html, carica("classes"), ["name", "memberDrugIds", "mechanismSummary"])
     diff += confronta("interactions", ix_html, carica("interactions"), ["items"])
     diff += confronta("regulatory", reg_html, carica("regulatory"), ["reimbursementClass", "supplyRegime", "marketed"])
+    diff += confronta("recommendations", d.get("recommendations", {}) or {}, carica("recommendations"), ["meta", "groups"])
+    diff += confronta("rules", d.get("rules", {}) or {}, carica("rules"), ["rules"])
 
     print(f"App: {len(drugs_html)} farmaci · {len(classes_html)} classi · "
           f"{len(d.get('pathologies', []))} patologie")
@@ -90,7 +92,7 @@ def main() -> int:
     if len(diff) > 60:
         print(f"  … e altre {len(diff) - 60}")
     print("\nRicorda: una modifica ai contenuti va riportata sia in data/ sia nell'oggetto DATA "
-          "dentro index.html.")
+          "dentro index.html (per recommendations/ e rules/: python3 tools/embed_data.py).")
     return 1
 
 

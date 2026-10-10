@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "id": "stemi",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2023 - Acute Coronary Syndromes Guidelines",
+        "url": "https://academic.oup.com/ehjacc/article/13/1/55/7280662"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "stemi",
+  "groups": [
+    {
+      "id": "riperf",
+      "label": "Riperfusione",
+      "items": [
+        {
+          "id": "riperf12",
+          "text": "Terapia riperfusiva in tutti i pazienti con sintomi ≤12 h e sopraslivellamento ST persistente",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "ppci",
+          "text": "PCI primaria se eseguibile entro 120 minuti dalla diagnosi ECG",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "lisi",
+          "text": "Fibrinolisi entro 12 h dall'esordio se la PCI primaria non è eseguibile entro 120 minuti, in assenza di controindicazioni",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "tenecteplase",
+            "alteplase"
+          ]
+        },
+        {
+          "id": "postlisi",
+          "text": "Dopo fibrinolisi: trasferimento a centro con PCI; PCI di salvataggio immediata se fallita, coronarografia entro 2–24 h se efficace",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "radiale",
+          "text": "Accesso radiale e impianto di stent medicato",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "completa",
+          "text": "Rivascolarizzazione completa nel multivasale, durante la procedura indice o entro 45 giorni",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        }
+      ]
+    },
+    {
+      "id": "antiagg",
+      "label": "Antiaggregazione",
+      "items": [
+        {
+          "id": "asa",
+          "text": "Acido acetilsalicilico: dose di carico, poi 75–100 mg/die a lungo termine",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "aspirin"
+          ]
+        },
+        {
+          "id": "p2y12",
+          "text": "Inibitore P2Y12 potente (prasugrel o ticagrelor) in aggiunta all'ASA per 12 mesi, salvo alto rischio emorragico",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "prasugrel",
+            "ticagrelor"
+          ],
+          "note": "Nei pazienti avviati a PCI il prasugrel va considerato preferenziale rispetto al ticagrelor (IIa B). Prasugrel controindicato con pregresso ictus/TIA."
+        },
+        {
+          "id": "clopi",
+          "text": "Clopidogrel se prasugrel o ticagrelor non sono disponibili, non tollerati o controindicati",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": [
+            "clopidogrel"
+          ]
+        },
+        {
+          "id": "pretratt",
+          "text": "Pretrattamento con inibitore P2Y12 prima della coronarografia nei candidati a PCI primaria",
+          "cor": "IIb",
+          "loe": "B",
+          "drugIds": []
+        },
+        {
+          "id": "gp",
+          "text": "Inibitori della GP IIb/IIIa come terapia di salvataggio (no-reflow o complicanza trombotica)",
+          "cor": "IIa",
+          "loe": "C",
+          "drugIds": [
+            "tirofiban",
+            "eptifibatide"
+          ]
+        },
+        {
+          "id": "cangrelor",
+          "text": "Cangrelor nei pazienti non pretrattati con P2Y12 sottoposti a PCI",
+          "cor": "IIb",
+          "loe": "A",
+          "drugIds": [
+            "cangrelor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anticoag",
+      "label": "Anticoagulazione",
+      "items": [
+        {
+          "id": "ufh",
+          "text": "Eparina non frazionata in bolo durante la PCI primaria",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": [
+            "unfractionated-heparin"
+          ]
+        },
+        {
+          "id": "enox",
+          "text": "Enoxaparina EV in alternativa all'eparina non frazionata durante la PCI primaria",
+          "cor": "IIa",
+          "loe": "B",
+          "drugIds": [
+            "enoxaparin"
+          ]
+        },
+        {
+          "id": "biv",
+          "text": "Bivalirudina con infusione a dose piena dopo la PCI in alternativa all'eparina non frazionata",
+          "cor": "IIa",
+          "loe": "A",
+          "drugIds": [
+            "bivalirudin"
+          ]
+        },
+        {
+          "id": "lisiac",
+          "text": "Anticoagulazione parenterale associata alla fibrinolisi fino alla rivascolarizzazione o per la durata del ricovero (fino a 8 giorni)",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "enoxaparin",
+            "unfractionated-heparin"
+          ]
+        },
+        {
+          "id": "fonda",
+          "text": "Fondaparinux durante la PCI primaria",
+          "cor": "III",
+          "loe": "B",
+          "drugIds": [
+            "fondaparinux"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sintomi",
+      "label": "Sintomi e supporto",
+      "items": [
+        {
+          "id": "o2",
+          "text": "Ossigeno se SpO₂ <90%",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": []
+        },
+        {
+          "id": "o2no",
+          "text": "Ossigeno di routine con SpO₂ ≥90%",
+          "cor": "III",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "oppioidi",
+          "text": "Oppioide EV titolato per il dolore",
+          "cor": "IIa",
+          "loe": "C",
+          "drugIds": [],
+          "note": "Può rallentare l'assorbimento degli antiaggreganti orali."
+        },
+        {
+          "id": "nitrati",
+          "text": "Nitrati sublinguali o EV per dolore ischemico persistente, ipertensione o scompenso",
+          "cor": null,
+          "loe": null,
+          "drugIds": [
+            "nitroglycerin"
+          ],
+          "note": "Non graduata nella linea guida 2023. Evitare in ipotensione, infarto del ventricolo destro, uso recente di inibitori della PDE5."
+        }
+      ]
+    },
+    {
+      "id": "bb",
+      "label": "Betabloccante",
+      "items": [
+        {
+          "id": "bbev",
+          "text": "Betabloccante EV (preferibilmente metoprololo) al momento della PCI primaria se PAS >120 mmHg e nessun segno di scompenso acuto",
+          "cor": "IIa",
+          "loe": "A",
+          "drugIds": [
+            "metoprolol"
+          ]
+        },
+        {
+          "id": "bbfe",
+          "text": "Betabloccante orale se FE ≤40%",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "bisoprolol",
+            "carvedilol",
+            "metoprolol",
+            "nebivolol"
+          ]
+        },
+        {
+          "id": "bbtutti",
+          "text": "Betabloccante orale di routine dopo infarto indipendentemente dalla FE",
+          "cor": "IIa",
+          "loe": "B",
+          "drugIds": [
+            "bisoprolol",
+            "metoprolol"
+          ],
+          "note": "Raccomandazione da rivalutare alla luce di REDUCE-AMI (2024) e REBOOT (2025), neutri con FE conservata."
+        }
+      ]
+    },
+    {
+      "id": "lipidi",
+      "label": "Terapia ipolipemizzante",
+      "items": [
+        {
+          "id": "statina",
+          "text": "Statina ad alta intensità il prima possibile, indipendentemente dal colesterolo basale",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "atorvastatin",
+            "rosuvastatin"
+          ]
+        },
+        {
+          "id": "target",
+          "text": "Obiettivo LDL-C <55 mg/dL con riduzione ≥50% dal basale",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "ezetimibe",
+          "text": "Ezetimibe se LDL-C non a target dopo 4–6 settimane di statina alla dose massima tollerata",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "ezetimibe"
+          ]
+        },
+        {
+          "id": "pcsk9",
+          "text": "Inibitore di PCSK9 se LDL-C non a target nonostante statina + ezetimibe",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "evolocumab",
+            "alirocumab"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raas",
+      "label": "Inibizione del sistema renina-angiotensina-aldosterone",
+      "items": [
+        {
+          "id": "acei",
+          "text": "ACE-inibitore (sartano se intollerante) con scompenso, FE ≤40%, diabete, ipertensione o malattia renale cronica",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "ramipril",
+            "perindopril",
+            "enalapril",
+            "lisinopril",
+            "zofenopril",
+            "captopril",
+            "valsartan",
+            "candesartan"
+          ]
+        },
+        {
+          "id": "aceitutti",
+          "text": "ACE-inibitore in tutti i pazienti con sindrome coronarica acuta",
+          "cor": "IIa",
+          "loe": "A",
+          "drugIds": [
+            "ramipril",
+            "perindopril",
+            "enalapril",
+            "lisinopril",
+            "zofenopril",
+            "captopril"
+          ]
+        },
+        {
+          "id": "mra",
+          "text": "Antagonista dei mineralcorticoidi se FE ≤40% con scompenso o diabete",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "eplerenone",
+            "spironolactone"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prev",
+      "label": "Prevenzione secondaria",
+      "items": [
+        {
+          "id": "riab",
+          "text": "Riabilitazione cardiologica strutturata",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "ppi",
+          "text": "Inibitore di pompa protonica in corso di terapia antitrombotica combinata se rischio di sanguinamento gastrointestinale aumentato",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "colch",
+          "text": "Colchicina a basse dosi (0,5 mg/die) in assenza di controindicazioni",
+          "cor": "IIb",
+          "loe": "A",
+          "drugIds": [
+            "colchicine"
+          ]
+        }
+      ]
+    }
+  ]
+}

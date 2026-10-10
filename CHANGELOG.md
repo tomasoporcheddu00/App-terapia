@@ -2,6 +2,28 @@
 
 Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/).
 
+## [1.1.0] — 2026-10-10
+
+### Aggiunto
+- **Mappa terapeutica** (nuova sezione): si selezionano le patologie del paziente e per ciascuna si
+  apre una mappa concettuale espandibile delle terapie raccomandate, con classe di raccomandazione
+  (I, IIa, IIb, III) e livello di evidenza (A, B, C) delle linee guida ESC citate. Le voci spuntate
+  (con scelta della molecola) formano un riepilogo testuale copiabile e stampabile.
+- **Avvisi su incongruenze e associazioni rischiose**: voci di classe III selezionate, 49 regole
+  farmaco-farmaco e farmaco-patologia con fonte (es. ACE-i + ARNI, diltiazem/verapamil nell'HFrEF,
+  bloccanti del nodo AV nella FA pre-eccitata, triplice antitrombotica, farmaci in gravidanza),
+  doppioni di classe, interazioni delle sezioni 4.5 e controindicazioni delle schede che nominano le
+  patologie scelte. Le associazioni raccomandate dalla stessa linea guida restano come note di
+  monitoraggio.
+- `data/recommendations/` (25 patologie, 250 raccomandazioni) e `data/rules/` (49 regole), in stato
+  `source-review`: dove la classe non è certa la voce è marcata «classe non indicata».
+- `tools/embed_data.py`: incorpora in `index.html` le due nuove cartelle; `validate_data.py` ed
+  `extract_data.py` controllano anche questi dati. Le patologie senza classi mostrano nella mappa
+  gli step del percorso e i farmaci collegati.
+
+### Modificato
+- Service worker: cache `v3`.
+
 ## [1.0.1] — 2026-09-28
 
 Preparazione alla pubblicazione su GitHub Pages.

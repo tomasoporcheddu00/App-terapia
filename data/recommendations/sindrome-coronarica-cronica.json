@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "id": "sindrome-coronarica-cronica",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2024 - Linee guida per la gestione delle sindromi coronariche croniche",
+        "url": "https://www.giornaledicardiologia.it/archivio/4375/articoli/43725/"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "sindrome-coronarica-cronica",
+  "groups": [
+    {
+      "id": "angina",
+      "label": "Terapia antianginosa",
+      "items": [
+        {
+          "id": "ntgsl",
+          "text": "Nitrati a breve durata d'azione per il sollievo immediato dell'angina",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "nitroglycerin"
+          ]
+        },
+        {
+          "id": "primalinea",
+          "text": "Betabloccante e/o calcioantagonista come prima linea, scelti in base a frequenza, pressione, FE e comorbilità",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "bisoprolol",
+            "metoprolol",
+            "amlodipine",
+            "diltiazem",
+            "verapamil"
+          ]
+        },
+        {
+          "id": "lan",
+          "text": "Nitrati a lunga durata d'azione in aggiunta o in alternativa",
+          "cor": "IIa",
+          "loe": "B",
+          "drugIds": [
+            "isosorbide-mononitrate",
+            "isosorbide-dinitrate"
+          ]
+        },
+        {
+          "id": "rano",
+          "text": "Ranolazina o nicorandil in aggiunta o in alternativa",
+          "cor": "IIa",
+          "loe": "B",
+          "drugIds": [
+            "ranolazine",
+            "nicorandil"
+          ]
+        },
+        {
+          "id": "tmz",
+          "text": "Trimetazidina in aggiunta",
+          "cor": "IIb",
+          "loe": "B",
+          "drugIds": [
+            "trimetazidine"
+          ]
+        },
+        {
+          "id": "ivab",
+          "text": "Ivabradina in aggiunta (ritmo sinusale, FC ≥70/min) se FE ≤40%",
+          "cor": "IIa",
+          "loe": "B",
+          "drugIds": [
+            "ivabradine"
+          ]
+        },
+        {
+          "id": "ivabno",
+          "text": "Ivabradina in aggiunta a betabloccante o calcioantagonista con FE >40% senza scompenso",
+          "cor": "III",
+          "loe": "B",
+          "drugIds": [
+            "ivabradine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antitromb",
+      "label": "Terapia antitrombotica",
+      "items": [
+        {
+          "id": "asa",
+          "text": "ASA 75–100 mg/die in prevenzione secondaria",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "aspirin"
+          ]
+        },
+        {
+          "id": "clopi",
+          "text": "Clopidogrel 75 mg/die come alternativa all'ASA",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "clopidogrel"
+          ]
+        },
+        {
+          "id": "dapt",
+          "text": "Dopo PCI elettiva: DAPT con clopidogrel per 6 mesi (1–3 mesi se alto rischio emorragico)",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "clopidogrel"
+          ]
+        },
+        {
+          "id": "cops",
+          "text": "Rivaroxaban 2,5 mg due volte al giorno + ASA se alto rischio ischemico senza alto rischio emorragico",
+          "cor": "IIa",
+          "loe": "A",
+          "drugIds": [
+            "rivaroxaban"
+          ]
+        },
+        {
+          "id": "oac",
+          "text": "Con indicazione all'anticoagulazione (es. FA): anticoagulante orale in monoterapia oltre 12 mesi dalla PCI",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "apixaban",
+            "edoxaban",
+            "rivaroxaban",
+            "dabigatran"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lipidi",
+      "label": "Terapia ipolipemizzante",
+      "items": [
+        {
+          "id": "statina",
+          "text": "Statina ad alta intensità",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "atorvastatin",
+            "rosuvastatin"
+          ]
+        },
+        {
+          "id": "target",
+          "text": "Obiettivo LDL-C <55 mg/dL con riduzione ≥50% dal basale",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "ezetimibe",
+          "text": "Ezetimibe se non a target con la statina",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "ezetimibe"
+          ]
+        },
+        {
+          "id": "pcsk9",
+          "text": "Inibitore di PCSK9 se non a target con statina + ezetimibe",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "evolocumab",
+            "alirocumab"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rischio",
+      "label": "Riduzione del rischio",
+      "items": [
+        {
+          "id": "acei",
+          "text": "ACE-inibitore (o sartano) con ipertensione, diabete, FE ≤40% o malattia renale cronica",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "ramipril",
+            "perindopril",
+            "enalapril",
+            "lisinopril",
+            "zofenopril",
+            "captopril",
+            "valsartan",
+            "candesartan",
+            "losartan",
+            "telmisartan",
+            "irbesartan",
+            "olmesartan"
+          ]
+        },
+        {
+          "id": "sglt2",
+          "text": "SGLT2-inibitore nel diabete tipo 2",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "empagliflozin",
+            "dapagliflozin"
+          ]
+        },
+        {
+          "id": "glp1dm",
+          "text": "Agonista del GLP-1 nel diabete tipo 2",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "semaglutide",
+            "liraglutide",
+            "dulaglutide"
+          ]
+        },
+        {
+          "id": "glp1ob",
+          "text": "Semaglutide nel sovrappeso/obesità (IMC >27) senza diabete",
+          "cor": "IIa",
+          "loe": "B",
+          "drugIds": [
+            "semaglutide"
+          ]
+        },
+        {
+          "id": "colch",
+          "text": "Colchicina a basse dosi (0,5 mg/die)",
+          "cor": "IIa",
+          "loe": "A",
+          "drugIds": [
+            "colchicine"
+          ]
+        },
+        {
+          "id": "stile",
+          "text": "Attività fisica regolare, cessazione del fumo, controllo del peso",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        }
+      ]
+    }
+  ]
+}

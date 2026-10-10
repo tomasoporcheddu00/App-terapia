@@ -24,7 +24,7 @@ Applicazione web statica, installabile e utilizzabile offline: nessun backend, n
 | Schede di interazioni (sez. 4.5) | **180** |
 | Record regolatori italiani | **181** |
 
-### Le otto sezioni
+### Le nove sezioni
 
 - **Farmaci** — monografie: indicazioni autorizzate e da linee guida, controindicazioni,
   avvertenze, effetti avversi, sovradosaggio e antidoto, popolazioni speciali, farmacocinetica
@@ -32,6 +32,11 @@ Applicazione web statica, installabile e utilizzabile offline: nessun backend, n
 - **Terapia per patologia** — 80 percorsi terapeutici a step con le raccomandazioni delle linee
   guida citate: cardiopatia ischemica, scompenso, aritmie, ipertensione, disionie, malattie
   strutturali, tromboembolismo, prevenzione, circolo polmonare, popolazioni speciali.
+- **Mappa terapeutica** — si selezionano le patologie del paziente e per ognuna si apre una mappa
+  concettuale delle terapie raccomandate, con **classe di raccomandazione e livello di evidenza**
+  (25 patologie, 250 raccomandazioni); le voci spuntate formano un riepilogo testuale e l'app
+  segnala incongruenze e associazioni rischiose (49 regole farmaco-farmaco e farmaco-patologia,
+  doppioni di classe, interazioni, controindicazioni delle schede).
 - **Simulazione** — profilo del paziente → voci pertinenti delle schede (vedi sotto).
 - **Confronto** — fino a sei farmaci affiancati per colonne su attributi omogenei.
 - **Interazioni** — «pinboard»: si aggiungono i farmaci del paziente e l'app confronta ogni coppia.
@@ -117,7 +122,8 @@ manifest.webmanifest, sw.js   installazione e funzionamento offline
 assets/                       icone e caratteri tipografici (licenza SIL OFL 1.1)
 data/                         contenuti clinici in JSON, versionabili e revisionabili
   drugs/ (186)  classes/ (76)  dosing/ (228)  interactions/ (180)  regulatory/ (181)
-tools/                        validate_data.py, extract_data.py
+  recommendations/ (25)  rules/ (1)   ← Mappa terapeutica
+tools/                        validate_data.py, extract_data.py, embed_data.py
 docs/                         architettura, politica dei contenuti, revisione clinica, storico
 .github/                      workflow Pages, modelli di segnalazione
 ```

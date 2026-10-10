@@ -71,6 +71,15 @@ Simulazione**, ed è la ragione per cui quella funzione non deve indovinare null
   `minor`), `agent`, `effect`, `management`.
 - `data/regulatory/<farmaco>.json` — classe di rimborsabilità, regime di fornitura, piano
   terapeutico, legge 648/96, restrizioni prescrittive.
+- `data/recommendations/<patologia>.json` — raccomandazioni della Mappa terapeutica, raggruppate
+  per tema: testo, classe (`cor`: I, IIa, IIb, III o `null`), livello di evidenza (`loe`), molecole
+  selezionabili (`drugIds`), nota e fonte facoltative. Lo slug coincide con quello della patologia.
+- `data/rules/combination-rules.json` — regole di associazione: ciascuna ha una gravità, un elenco
+  `all` di condizioni (`classes`, `drugs` o `pathologies`) che devono essere soddisfatte da entità
+  distinte, un messaggio, la gestione e la fonte.
+
+Queste due cartelle si incorporano in `index.html` con `python3 tools/embed_data.py`, che riscrive
+solo le chiavi `DATA.recommendations` e `DATA.rules`.
 
 ## Come funzionano le sezioni interattive
 
@@ -90,6 +99,15 @@ attive, ciascuna con un'etichetta, una gravità e un'espressione regolare. Per o
 Le espressioni distinguono i casi speculari: `iperkaliemi|iperpotassiem|sali di potassio|...` per il
 potassio alto e `ipokaliemi|ipopotassiem|...` per quello basso — senza questa separazione, un
 paziente iperkaliemico vedeva comparire le avvertenze sull'ipokaliemia di furosemide e acetazolamide.
+
+**Mappa terapeutica** (`mapGroups`, `mapAlerts`). Per ogni patologia scelta si usano le
+raccomandazioni di `data/recommendations`; se mancano, gli step del percorso e i farmaci collegati,
+senza classe. Gli avvisi nascono da cinque fonti, tutte deterministiche: voci di classe III
+selezionate; regole di `data/rules`; doppioni nella stessa classe; interazioni delle sezioni 4.5
+(non ripetute se una regola copre già la coppia, e declassate a nota se entrambi i farmaci sono
+raccomandati per la stessa patologia); controindicazioni assolute delle schede che nominano le
+patologie scelte (mappa `MAPRX`). Quando una voce offre più molecole, la scelta predefinita riusa
+quella già presente nella terapia, per evitare doppioni involontari tra patologie.
 
 **Calcolatori.** Formule pubblicate con citazione, calcolate nel browser: Cockcroft-Gault,
 CHA₂DS₂-VA, HAS-BLED, QTc.

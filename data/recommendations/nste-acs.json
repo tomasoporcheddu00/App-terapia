@@ -1,0 +1,318 @@
+{
+  "meta": {
+    "id": "nste-acs",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2023 - Acute Coronary Syndromes Guidelines",
+        "url": "https://academic.oup.com/ehjacc/article/13/1/55/7280662"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "nste-acs",
+  "groups": [
+    {
+      "id": "invasiva",
+      "label": "Strategia invasiva",
+      "items": [
+        {
+          "id": "immediata",
+          "text": "Coronarografia immediata (<2 h) se rischio molto alto: instabilità emodinamica, dolore refrattario, aritmie maligne, complicanze meccaniche, scompenso acuto, sottoslivellamento ST ricorrente",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": []
+        },
+        {
+          "id": "precoce",
+          "text": "Coronarografia precoce (<24 h) se rischio alto: NSTEMI confermato, alterazioni dinamiche ST-T, sopraslivellamento ST transitorio, GRACE >140",
+          "cor": "IIa",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "ricovero",
+          "text": "Strategia invasiva durante il ricovero nei pazienti con criteri di alto rischio",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "selettiva",
+          "text": "Strategia invasiva selettiva nei pazienti senza criteri di rischio alto o molto alto",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        }
+      ]
+    },
+    {
+      "id": "antiagg",
+      "label": "Antiaggregazione",
+      "items": [
+        {
+          "id": "asa",
+          "text": "Acido acetilsalicilico: dose di carico, poi 75–100 mg/die a lungo termine",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "aspirin"
+          ]
+        },
+        {
+          "id": "p2y12",
+          "text": "Inibitore P2Y12 potente (prasugrel o ticagrelor) in aggiunta all'ASA per 12 mesi, salvo alto rischio emorragico",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "prasugrel",
+            "ticagrelor"
+          ],
+          "note": "Prasugrel da considerare preferenziale nei pazienti avviati a PCI (IIa B). Prasugrel controindicato con pregresso ictus/TIA."
+        },
+        {
+          "id": "clopi",
+          "text": "Clopidogrel se prasugrel o ticagrelor non sono disponibili, non tollerati o controindicati",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": [
+            "clopidogrel"
+          ]
+        },
+        {
+          "id": "pretratt",
+          "text": "Pretrattamento di routine con P2Y12 se l'anatomia coronarica non è nota e la coronarografia è prevista entro 24 h",
+          "cor": "III",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "pretratt24",
+          "text": "Pretrattamento con P2Y12 se la coronarografia non è prevista entro 24 h",
+          "cor": "IIb",
+          "loe": "C",
+          "drugIds": []
+        },
+        {
+          "id": "hbr",
+          "text": "Nei pazienti ad alto rischio emorragico: monoterapia antiaggregante dopo 1 mese di DAPT",
+          "cor": "IIa",
+          "loe": "B",
+          "drugIds": []
+        },
+        {
+          "id": "deesc",
+          "text": "Passaggio a monoterapia con P2Y12 dopo 3–6 mesi di DAPT nei pazienti senza eventi e non ad alto rischio emorragico",
+          "cor": "IIa",
+          "loe": "A",
+          "drugIds": []
+        }
+      ]
+    },
+    {
+      "id": "anticoag",
+      "label": "Anticoagulazione",
+      "items": [
+        {
+          "id": "parent",
+          "text": "Anticoagulazione parenterale al momento della diagnosi",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "fondaparinux",
+            "enoxaparin",
+            "unfractionated-heparin"
+          ]
+        },
+        {
+          "id": "fonda",
+          "text": "Se la coronarografia non è immediata: fondaparinux (con bolo di eparina non frazionata alla PCI) preferito all'enoxaparina",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "fondaparinux"
+          ]
+        },
+        {
+          "id": "ufhpci",
+          "text": "Eparina non frazionata durante la PCI",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "unfractionated-heparin"
+          ]
+        },
+        {
+          "id": "stop",
+          "text": "Sospendere l'anticoagulazione parenterale subito dopo la procedura invasiva",
+          "cor": "IIa",
+          "loe": "C",
+          "drugIds": []
+        }
+      ]
+    },
+    {
+      "id": "sintomi",
+      "label": "Sintomi e supporto",
+      "items": [
+        {
+          "id": "o2",
+          "text": "Ossigeno se SpO₂ <90%",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": []
+        },
+        {
+          "id": "o2no",
+          "text": "Ossigeno di routine con SpO₂ ≥90%",
+          "cor": "III",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "nitrati",
+          "text": "Nitrati sublinguali o EV per angina persistente",
+          "cor": null,
+          "loe": null,
+          "drugIds": [
+            "nitroglycerin"
+          ],
+          "note": "Non graduata nella linea guida 2023. Evitare in ipotensione e con uso recente di inibitori della PDE5."
+        }
+      ]
+    },
+    {
+      "id": "bb",
+      "label": "Betabloccante",
+      "items": [
+        {
+          "id": "bbfe",
+          "text": "Betabloccante orale se FE ≤40%",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "bisoprolol",
+            "carvedilol",
+            "metoprolol",
+            "nebivolol"
+          ]
+        },
+        {
+          "id": "bbtutti",
+          "text": "Betabloccante orale di routine indipendentemente dalla FE",
+          "cor": "IIa",
+          "loe": "B",
+          "drugIds": [
+            "bisoprolol",
+            "metoprolol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lipidi",
+      "label": "Terapia ipolipemizzante",
+      "items": [
+        {
+          "id": "statina",
+          "text": "Statina ad alta intensità il prima possibile, indipendentemente dal colesterolo basale",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "atorvastatin",
+            "rosuvastatin"
+          ]
+        },
+        {
+          "id": "target",
+          "text": "Obiettivo LDL-C <55 mg/dL con riduzione ≥50% dal basale",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "ezetimibe",
+          "text": "Ezetimibe se LDL-C non a target dopo 4–6 settimane di statina alla dose massima tollerata",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "ezetimibe"
+          ]
+        },
+        {
+          "id": "pcsk9",
+          "text": "Inibitore di PCSK9 se LDL-C non a target nonostante statina + ezetimibe",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "evolocumab",
+            "alirocumab"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raas",
+      "label": "Inibizione del sistema renina-angiotensina-aldosterone",
+      "items": [
+        {
+          "id": "acei",
+          "text": "ACE-inibitore (sartano se intollerante) con scompenso, FE ≤40%, diabete, ipertensione o malattia renale cronica",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "ramipril",
+            "perindopril",
+            "enalapril",
+            "lisinopril",
+            "zofenopril",
+            "captopril",
+            "valsartan",
+            "candesartan"
+          ]
+        },
+        {
+          "id": "mra",
+          "text": "Antagonista dei mineralcorticoidi se FE ≤40% con scompenso o diabete",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "eplerenone",
+            "spironolactone"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prev",
+      "label": "Prevenzione secondaria",
+      "items": [
+        {
+          "id": "riab",
+          "text": "Riabilitazione cardiologica strutturata",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "ppi",
+          "text": "Inibitore di pompa protonica in corso di terapia antitrombotica combinata se rischio di sanguinamento gastrointestinale aumentato",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "colch",
+          "text": "Colchicina a basse dosi (0,5 mg/die) in assenza di controindicazioni",
+          "cor": "IIb",
+          "loe": "A",
+          "drugIds": [
+            "colchicine"
+          ]
+        }
+      ]
+    }
+  ]
+}

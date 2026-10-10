@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "id": "embolia-polmonare",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2019 - Linee guida per la diagnosi e la gestione dell'embolia polmonare acuta, in collaborazione con la European Respiratory Society",
+        "url": "https://www.giornaledicardiologia.it/archivio/3306/articoli/32765/"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "embolia-polmonare",
+  "groups": [
+    {
+      "id": "fase",
+      "label": "Fase acuta",
+      "items": [
+        {
+          "id": "parent",
+          "text": "Anticoagulazione parenterale immediata se probabilità clinica alta o intermedia, durante la diagnostica",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": [
+            "enoxaparin",
+            "fondaparinux",
+            "unfractionated-heparin"
+          ]
+        },
+        {
+          "id": "ebpm",
+          "text": "EBPM o fondaparinux preferiti all'eparina non frazionata",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "enoxaparin",
+            "fondaparinux"
+          ]
+        },
+        {
+          "id": "doac",
+          "text": "DOAC preferiti agli AVK all'avvio dell'anticoagulazione orale",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "apixaban",
+            "edoxaban",
+            "rivaroxaban",
+            "dabigatran"
+          ]
+        },
+        {
+          "id": "doacno",
+          "text": "DOAC in insufficienza renale grave, gravidanza, allattamento e sindrome da antifosfolipidi",
+          "cor": "III",
+          "loe": "C",
+          "drugIds": [
+            "apixaban",
+            "edoxaban",
+            "rivaroxaban",
+            "dabigatran"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "altorischio",
+      "label": "EP ad alto rischio",
+      "items": [
+        {
+          "id": "ufh",
+          "text": "Eparina non frazionata con bolo",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": [
+            "unfractionated-heparin"
+          ]
+        },
+        {
+          "id": "lisi",
+          "text": "Trombolisi sistemica",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "alteplase",
+            "tenecteplase"
+          ]
+        },
+        {
+          "id": "chir",
+          "text": "Embolectomia chirurgica o trattamento percutaneo se trombolisi controindicata o fallita",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": []
+        },
+        {
+          "id": "vaso",
+          "text": "Noradrenalina e/o dobutamina se ipotensione",
+          "cor": "IIa",
+          "loe": "C",
+          "drugIds": [
+            "noradrenaline",
+            "dobutamine"
+          ]
+        },
+        {
+          "id": "rescue",
+          "text": "Trombolisi di salvataggio se deterioramento emodinamico in anticoagulazione (rischio intermedio-alto)",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "alteplase",
+            "tenecteplase"
+          ]
+        },
+        {
+          "id": "lisino",
+          "text": "Trombolisi sistemica di routine nell'EP a rischio intermedio o basso",
+          "cor": "III",
+          "loe": "B",
+          "drugIds": []
+        }
+      ]
+    },
+    {
+      "id": "durata",
+      "label": "Durata",
+      "items": [
+        {
+          "id": "3mesi",
+          "text": "Anticoagulazione terapeutica per almeno 3 mesi in tutti i pazienti",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "stop",
+          "text": "Sospensione dopo 3 mesi se primo episodio con fattore di rischio maggiore transitorio",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": []
+        },
+        {
+          "id": "indef",
+          "text": "Anticoagulazione a tempo indefinito in caso di recidiva non associata a fattore di rischio maggiore transitorio",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": []
+        },
+        {
+          "id": "vcf",
+          "text": "Filtro cavale di routine",
+          "cor": "III",
+          "loe": "A",
+          "drugIds": []
+        }
+      ]
+    }
+  ]
+}

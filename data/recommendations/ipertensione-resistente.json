@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "id": "ipertensione-resistente",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2024 - Linee guida per la gestione della pressione arteriosa elevata e dell'ipertensione",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/elevated-blood-pressure-and-hypertension/"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "ipertensione-resistente",
+  "groups": [
+    {
+      "id": "gestione",
+      "label": "Gestione",
+      "items": [
+        {
+          "id": "spiro",
+          "text": "Spironolattone a basse dosi in aggiunta alla triplice terapia",
+          "cor": "IIa",
+          "loe": "B",
+          "drugIds": [
+            "spironolactone"
+          ]
+        },
+        {
+          "id": "alternative",
+          "text": "Betabloccante, alfa-bloccante o eplerenone se lo spironolattone non è tollerato o efficace",
+          "cor": "IIa",
+          "loe": "B",
+          "drugIds": [
+            "bisoprolol",
+            "doxazosin",
+            "eplerenone"
+          ]
+        },
+        {
+          "id": "rdn",
+          "text": "Denervazione renale in centri esperti, se PA non controllata con eGFR >40",
+          "cor": "IIb",
+          "loe": "B",
+          "drugIds": []
+        }
+      ]
+    }
+  ]
+}

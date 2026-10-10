@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "id": "iap",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC/ERS 2022 - Linee guida per la diagnosi e il trattamento dell'ipertensione polmonare",
+        "url": "https://publications.ersnet.org/content/erj/61/1/2200879"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "iap",
+  "groups": [
+    {
+      "id": "iniziale",
+      "label": "Terapia iniziale",
+      "items": [
+        {
+          "id": "vasoreatt",
+          "text": "Calcioantagonisti ad alte dosi nei pazienti vasoreattivi al test (IPAH, HPAH, DPAH)",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "nifedipine",
+            "diltiazem",
+            "amlodipine"
+          ]
+        },
+        {
+          "id": "ccbno",
+          "text": "Calcioantagonisti senza test di vasoreattività o nei non responsivi",
+          "cor": "III",
+          "loe": "C",
+          "drugIds": [
+            "nifedipine",
+            "diltiazem",
+            "amlodipine"
+          ]
+        },
+        {
+          "id": "doppia",
+          "text": "Combinazione iniziale ERA + PDE5-i nel rischio basso o intermedio senza comorbilità cardiopolmonari",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "macitentan",
+            "ambrisentan",
+            "tadalafil",
+            "sildenafil"
+          ]
+        },
+        {
+          "id": "prostev",
+          "text": "Combinazione iniziale con prostaciclina EV/SC nei pazienti ad alto rischio",
+          "cor": "IIa",
+          "loe": "C",
+          "drugIds": [
+            "epoprostenol",
+            "treprostinil"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "followup",
+      "label": "Escalation",
+      "items": [
+        {
+          "id": "selex",
+          "text": "Aggiunta di selexipag nel rischio intermedio-basso nonostante ERA + PDE5-i",
+          "cor": "IIa",
+          "loe": "B",
+          "drugIds": [
+            "selexipag"
+          ]
+        },
+        {
+          "id": "rioc",
+          "text": "Associazione riociguat + PDE5-i",
+          "cor": "III",
+          "loe": "B",
+          "drugIds": [
+            "riociguat"
+          ]
+        },
+        {
+          "id": "sota",
+          "text": "Sotatercept in aggiunta alla terapia di base",
+          "cor": null,
+          "loe": null,
+          "drugIds": [
+            "sotatercept"
+          ],
+          "note": "Approvato dopo la linea guida 2022: classe non disponibile nella fonte citata."
+        }
+      ]
+    },
+    {
+      "id": "supporto",
+      "label": "Supporto",
+      "items": [
+        {
+          "id": "diur",
+          "text": "Diuretici in presenza di ritenzione idrica",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": [
+            "furosemide",
+            "spironolactone"
+          ]
+        },
+        {
+          "id": "grav",
+          "text": "Evitare la gravidanza",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": []
+        }
+      ]
+    }
+  ]
+}

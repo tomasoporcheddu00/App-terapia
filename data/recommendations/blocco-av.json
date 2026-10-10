@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "id": "blocco-av",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2021 - Linee guida su pacing cardiaco e terapia di resincronizzazione",
+        "url": "https://academic.oup.com/eurheartj/article/42/35/3427/6358547"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "blocco-av",
+  "groups": [
+    {
+      "id": "acuta",
+      "label": "Fase acuta",
+      "items": [
+        {
+          "id": "atropina",
+          "text": "Atropina EV (efficace soprattutto nel blocco a livello nodale)",
+          "cor": "IIa",
+          "loe": "C",
+          "drugIds": [
+            "atropine"
+          ]
+        },
+        {
+          "id": "crono",
+          "text": "Isoprenalina, dopamina o adrenalina se refrattario all'atropina",
+          "cor": "IIb",
+          "loe": "C",
+          "drugIds": [
+            "isoprenaline",
+            "dopamine",
+            "adrenaline"
+          ]
+        },
+        {
+          "id": "pacingtemp",
+          "text": "Pacing transvenoso temporaneo se compromissione emodinamica refrattaria",
+          "cor": "IIa",
+          "loe": "C",
+          "drugIds": []
+        }
+      ]
+    },
+    {
+      "id": "definitiva",
+      "label": "Terapia definitiva",
+      "items": [
+        {
+          "id": "pmk",
+          "text": "Pacemaker nel BAV di III grado o di II grado tipo 2/avanzato, indipendentemente dai sintomi (escluse cause reversibili)",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": []
+        }
+      ]
+    }
+  ]
+}

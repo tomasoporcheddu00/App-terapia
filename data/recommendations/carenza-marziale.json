@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "id": "carenza-marziale",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2023 - Focused Update delle linee guida 2021 sullo scompenso cardiaco",
+        "url": "https://academic.oup.com/eurheartj/article/44/37/3627/7246292"
+      },
+      {
+        "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+        "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "carenza-marziale",
+  "groups": [
+    {
+      "id": "carenza",
+      "label": "Carenza marziale nello scompenso",
+      "items": [
+        {
+          "id": "screen",
+          "text": "Ricerca periodica di anemia e carenza marziale (emocromo, ferritina, saturazione della transferrina)",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": [],
+          "source": {
+            "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+            "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+          }
+        },
+        {
+          "id": "ferrosint",
+          "text": "Ferro EV nei pazienti sintomatici con FE ≤45% (o scompenso recente) per migliorare sintomi e qualità di vita",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "ferrohosp",
+          "text": "Ferro EV per ridurre il rischio di ospedalizzazione per scompenso",
+          "cor": "IIa",
+          "loe": "A",
+          "drugIds": []
+        }
+      ]
+    }
+  ]
+}

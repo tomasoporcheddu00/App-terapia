@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "id": "hfref",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+        "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+      },
+      {
+        "label": "ESC 2023 - Focused Update delle linee guida 2021 sullo scompenso cardiaco",
+        "url": "https://academic.oup.com/eurheartj/article/44/37/3627/7246292"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "hfref",
+  "groups": [
+    {
+      "id": "pilastri",
+      "label": "Quattro pilastri",
+      "items": [
+        {
+          "id": "acei",
+          "text": "ACE-inibitore per ridurre ospedalizzazioni e mortalità",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "enalapril",
+            "ramipril",
+            "lisinopril",
+            "captopril"
+          ]
+        },
+        {
+          "id": "arni",
+          "text": "Sacubitril/valsartan in sostituzione dell'ACE-inibitore",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "sacubitril-valsartan"
+          ],
+          "note": "Come prima scelta in pazienti naïve agli ACE-i: IIb B. Sospendere l'ACE-inibitore almeno 36 h prima."
+        },
+        {
+          "id": "bb",
+          "text": "Betabloccante (bisoprololo, carvedilolo, metoprololo succinato, nebivololo)",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "bisoprolol",
+            "carvedilol",
+            "metoprolol",
+            "nebivolol"
+          ]
+        },
+        {
+          "id": "mra",
+          "text": "Antagonista dei mineralcorticoidi",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "spironolactone",
+            "eplerenone"
+          ]
+        },
+        {
+          "id": "sglt2",
+          "text": "SGLT2-inibitore (dapagliflozin o empagliflozin)",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "dapagliflozin",
+            "empagliflozin"
+          ]
+        },
+        {
+          "id": "arb",
+          "text": "Sartano se intolleranza ad ACE-inibitore e ARNI",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "candesartan",
+            "valsartan",
+            "losartan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "congestione",
+      "label": "Congestione",
+      "items": [
+        {
+          "id": "ansa",
+          "text": "Diuretico dell'ansa nei pazienti con segni o sintomi di congestione",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": [
+            "furosemide",
+            "torasemide",
+            "bumetanide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "altri",
+      "label": "Terapie aggiuntive selezionate",
+      "items": [
+        {
+          "id": "ivab",
+          "text": "Ivabradina in ritmo sinusale con FC ≥70/min nonostante betabloccante alla dose massima tollerata",
+          "cor": "IIa",
+          "loe": "B",
+          "drugIds": [
+            "ivabradine"
+          ]
+        },
+        {
+          "id": "veric",
+          "text": "Vericiguat dopo episodio di peggioramento (NYHA II–IV) nonostante terapia ottimale",
+          "cor": "IIb",
+          "loe": "B",
+          "drugIds": [
+            "vericiguat"
+          ]
+        },
+        {
+          "id": "digo",
+          "text": "Digossina in ritmo sinusale se sintomatico nonostante terapia ottimale",
+          "cor": "IIb",
+          "loe": "B",
+          "drugIds": [
+            "digoxin"
+          ]
+        },
+        {
+          "id": "hisdn",
+          "text": "Idralazina + isosorbide dinitrato nei pazienti afrodiscendenti in NYHA III–IV nonostante terapia",
+          "cor": "IIa",
+          "loe": "B",
+          "drugIds": [
+            "hydralazine",
+            "isosorbide-dinitrate"
+          ],
+          "note": "Negli intolleranti ad ACE-i, sartani e ARNI: IIb B."
+        },
+        {
+          "id": "ferro",
+          "text": "Ferro EV (carbossimaltosio o derisomaltosio) se carenza marziale sintomatica, per migliorare sintomi e qualità di vita",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [],
+          "source": {
+            "label": "ESC 2023 - Focused Update delle linee guida 2021 sullo scompenso cardiaco",
+            "url": "https://academic.oup.com/eurheartj/article/44/37/3627/7246292"
+          }
+        }
+      ]
+    },
+    {
+      "id": "device",
+      "label": "Dispositivi",
+      "items": [
+        {
+          "id": "icdisch",
+          "text": "ICD in prevenzione primaria nella cardiopatia ischemica con FE ≤35% dopo ≥3 mesi di terapia ottimale",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "icdnon",
+          "text": "ICD in prevenzione primaria nella cardiomiopatia non ischemica con FE ≤35%",
+          "cor": "IIa",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "crt",
+          "text": "Resincronizzazione (CRT) se FE ≤35%, ritmo sinusale, QRS ≥150 ms con morfologia BBS",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        }
+      ]
+    },
+    {
+      "id": "evitare",
+      "label": "Da evitare",
+      "items": [
+        {
+          "id": "nondhp",
+          "text": "Calcioantagonisti non diidropiridinici (diltiazem, verapamil)",
+          "cor": "III",
+          "loe": "C",
+          "drugIds": [
+            "diltiazem",
+            "verapamil"
+          ]
+        },
+        {
+          "id": "tzd",
+          "text": "Tiazolidinedioni (glitazoni)",
+          "cor": "III",
+          "loe": "A",
+          "drugIds": [
+            "pioglitazone"
+          ]
+        },
+        {
+          "id": "fans",
+          "text": "FANS e inibitori selettivi della COX-2",
+          "cor": "III",
+          "loe": "B",
+          "drugIds": [
+            "ibuprofen"
+          ]
+        }
+      ]
+    }
+  ]
+}

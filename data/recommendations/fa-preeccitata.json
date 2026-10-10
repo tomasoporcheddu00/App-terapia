@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "id": "fa-preeccitata",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2019 - Linee guida per la gestione delle tachicardie sopraventricolari",
+        "url": "https://academic.oup.com/eurheartj/article/41/5/655/5556821"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "fa-preeccitata",
+  "groups": [
+    {
+      "id": "acuta",
+      "label": "Fase acuta",
+      "items": [
+        {
+          "id": "cve",
+          "text": "Cardioversione elettrica sincronizzata se instabile",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": []
+        },
+        {
+          "id": "farm",
+          "text": "Ibutilide o procainamide EV (in alternativa flecainide o propafenone) se emodinamicamente stabile",
+          "cor": "IIa",
+          "loe": "B",
+          "drugIds": [
+            "ibutilide",
+            "procainamide",
+            "flecainide",
+            "propafenone"
+          ]
+        },
+        {
+          "id": "amiono",
+          "text": "Amiodarone EV",
+          "cor": "III",
+          "loe": "B",
+          "drugIds": [
+            "amiodarone"
+          ]
+        },
+        {
+          "id": "avno",
+          "text": "Farmaci che bloccano il nodo AV (betabloccanti, diltiazem, verapamil, digossina, adenosina)",
+          "cor": "III",
+          "loe": null,
+          "drugIds": [
+            "verapamil",
+            "diltiazem",
+            "digoxin",
+            "adenosine",
+            "metoprolol"
+          ],
+          "note": "Possono accelerare la conduzione lungo la via accessoria fino alla fibrillazione ventricolare. Livello di evidenza da verificare."
+        }
+      ]
+    },
+    {
+      "id": "definitiva",
+      "label": "Terapia definitiva",
+      "items": [
+        {
+          "id": "abla",
+          "text": "Ablazione transcatetere della via accessoria",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": []
+        }
+      ]
+    }
+  ]
+}

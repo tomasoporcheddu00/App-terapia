@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "id": "ipertensione-arteriosa",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2024 - Linee guida per la gestione della pressione arteriosa elevata e dell'ipertensione",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/elevated-blood-pressure-and-hypertension/"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "ipertensione-arteriosa",
+  "groups": [
+    {
+      "id": "obiettivo",
+      "label": "Obiettivi e stile di vita",
+      "items": [
+        {
+          "id": "target",
+          "text": "Obiettivo di PAS 120–129 mmHg se ben tollerato",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "stile",
+          "text": "Riduzione del sodio, attività fisica, controllo del peso, limitazione dell'alcol",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        }
+      ]
+    },
+    {
+      "id": "farmaci",
+      "label": "Farmaci di prima linea",
+      "items": [
+        {
+          "id": "raas",
+          "text": "ACE-inibitore o sartano",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "ramipril",
+            "perindopril",
+            "lisinopril",
+            "valsartan",
+            "candesartan",
+            "telmisartan",
+            "olmesartan",
+            "irbesartan",
+            "losartan"
+          ]
+        },
+        {
+          "id": "ccb",
+          "text": "Calcioantagonista diidropiridinico",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "amlodipine",
+            "lercanidipine",
+            "felodipine",
+            "nifedipine"
+          ]
+        },
+        {
+          "id": "tiaz",
+          "text": "Diuretico tiazidico o simil-tiazidico",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "chlorthalidone",
+            "indapamide",
+            "hydrochlorothiazide"
+          ]
+        },
+        {
+          "id": "bb",
+          "text": "Betabloccante in presenza di indicazione specifica (angina, post-infarto, HFrEF, controllo della frequenza)",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "bisoprolol",
+            "nebivolol",
+            "metoprolol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strategia",
+      "label": "Strategia",
+      "items": [
+        {
+          "id": "combo",
+          "text": "Terapia di combinazione iniziale a basse dosi di due farmaci, preferibilmente in singola pillola",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": []
+        },
+        {
+          "id": "triplice",
+          "text": "Triplice associazione (RAAS-i + calcioantagonista + diuretico) se non a target",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": []
+        },
+        {
+          "id": "doppioraas",
+          "text": "Associazione di due bloccanti del RAAS (ACE-inibitore + sartano)",
+          "cor": "III",
+          "loe": "A",
+          "drugIds": []
+        }
+      ]
+    }
+  ]
+}

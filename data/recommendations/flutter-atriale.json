@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "id": "flutter-atriale",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2019 - Linee guida per la gestione delle tachicardie sopraventricolari",
+        "url": "https://academic.oup.com/eurheartj/article/41/5/655/5556821"
+      },
+      {
+        "label": "ESC/EACTS 2024 - Linee guida per la gestione della fibrillazione atriale (percorso AF-CARE)",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/atrial-fibrillation/"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "flutter-atriale",
+  "groups": [
+    {
+      "id": "acuto",
+      "label": "Fase acuta",
+      "items": [
+        {
+          "id": "cve",
+          "text": "Cardioversione elettrica sincronizzata se instabile",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": []
+        },
+        {
+          "id": "rate",
+          "text": "Betabloccante, diltiazem o verapamil EV per il controllo della frequenza",
+          "cor": "IIa",
+          "loe": "B",
+          "drugIds": [
+            "esmolol",
+            "metoprolol",
+            "diltiazem",
+            "verapamil"
+          ]
+        },
+        {
+          "id": "icno",
+          "text": "Flecainide o propafenone per la cardioversione del flutter",
+          "cor": "III",
+          "loe": "B",
+          "drugIds": [
+            "flecainide",
+            "propafenone"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lungo",
+      "label": "Lungo termine",
+      "items": [
+        {
+          "id": "oac",
+          "text": "Tromboprofilassi con gli stessi criteri della fibrillazione atriale",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "apixaban",
+            "edoxaban",
+            "rivaroxaban",
+            "dabigatran"
+          ]
+        },
+        {
+          "id": "cti",
+          "text": "Ablazione dell'istmo cavotricuspidale nel flutter tipico ricorrente",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        }
+      ]
+    }
+  ]
+}

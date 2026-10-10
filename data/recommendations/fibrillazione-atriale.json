@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "id": "fibrillazione-atriale",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC/EACTS 2024 - Linee guida per la gestione della fibrillazione atriale (percorso AF-CARE)",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/atrial-fibrillation/"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "fibrillazione-atriale",
+  "groups": [
+    {
+      "id": "ictus",
+      "label": "Prevenzione del tromboembolismo",
+      "items": [
+        {
+          "id": "cha2",
+          "text": "Anticoagulazione orale se CHA₂DS₂-VA ≥2",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": [
+            "apixaban",
+            "edoxaban",
+            "rivaroxaban",
+            "dabigatran"
+          ]
+        },
+        {
+          "id": "cha1",
+          "text": "Anticoagulazione orale se CHA₂DS₂-VA = 1",
+          "cor": "IIa",
+          "loe": "C",
+          "drugIds": [
+            "apixaban",
+            "edoxaban",
+            "rivaroxaban",
+            "dabigatran"
+          ]
+        },
+        {
+          "id": "doac",
+          "text": "DOAC preferiti agli AVK, eccetto protesi valvolari meccaniche e stenosi mitralica moderata-severa",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "apixaban",
+            "edoxaban",
+            "rivaroxaban",
+            "dabigatran"
+          ]
+        },
+        {
+          "id": "dosepiena",
+          "text": "DOAC alla dose piena, salvo criteri specifici di riduzione della singola molecola",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "apixaban",
+            "edoxaban",
+            "rivaroxaban",
+            "dabigatran"
+          ]
+        },
+        {
+          "id": "avk",
+          "text": "AVK (INR 2,0–3,0) nei portatori di protesi meccanica o con stenosi mitralica moderata-severa",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [
+            "warfarin"
+          ],
+          "note": "Livello di evidenza da verificare sul testo integrale."
+        },
+        {
+          "id": "emorragia",
+          "text": "Valutazione e correzione dei fattori di rischio emorragico modificabili",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": []
+        },
+        {
+          "id": "antiaggno",
+          "text": "Antiaggreganti come alternativa all'anticoagulante per la prevenzione dell'ictus",
+          "cor": "III",
+          "loe": "A",
+          "drugIds": [
+            "aspirin",
+            "clopidogrel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frequenza",
+      "label": "Controllo della frequenza",
+      "items": [
+        {
+          "id": "rate",
+          "text": "Betabloccante, diltiazem/verapamil o digossina come prima scelta, in base a FE e comorbilità",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "bisoprolol",
+            "metoprolol",
+            "diltiazem",
+            "verapamil",
+            "digoxin"
+          ],
+          "note": "Diltiazem e verapamil solo con FE >40%."
+        },
+        {
+          "id": "target",
+          "text": "Frequenza a riposo <110/min come obiettivo iniziale (controllo permissivo)",
+          "cor": "IIa",
+          "loe": "B",
+          "drugIds": []
+        },
+        {
+          "id": "amio",
+          "text": "Amiodarone EV per il controllo acuto della frequenza in pazienti instabili o con FE molto ridotta",
+          "cor": "IIb",
+          "loe": "B",
+          "drugIds": [
+            "amiodarone"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ritmo",
+      "label": "Controllo del ritmo",
+      "items": [
+        {
+          "id": "cveurg",
+          "text": "Cardioversione elettrica urgente nell'instabilità emodinamica",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": []
+        },
+        {
+          "id": "pericv",
+          "text": "Anticoagulazione per almeno 3 settimane prima della cardioversione elettiva se FA ≥24 h (in alternativa imaging per escludere trombi)",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "apixaban",
+            "edoxaban",
+            "rivaroxaban",
+            "dabigatran"
+          ]
+        },
+        {
+          "id": "ic",
+          "text": "Flecainide o propafenone per la cardioversione farmacologica in assenza di cardiopatia strutturale significativa, ipertrofia severa o coronaropatia",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "flecainide",
+            "propafenone"
+          ]
+        },
+        {
+          "id": "amiocv",
+          "text": "Amiodarone per la cardioversione in presenza di scompenso o cardiopatia strutturale",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "amiodarone"
+          ]
+        },
+        {
+          "id": "abla",
+          "text": "Ablazione transcatetere nella FA parossistica sintomatica, come prima linea o dopo fallimento degli antiaritmici",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "ablahf",
+          "text": "Ablazione nella FA con HFrEF ad alta probabilità di tachicardiomiopatia",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": []
+        }
+      ]
+    },
+    {
+      "id": "comorb",
+      "label": "Comorbilità e fattori di rischio",
+      "items": [
+        {
+          "id": "rf",
+          "text": "Gestione di ipertensione, scompenso, diabete, obesità, apnee notturne, alcol; attività fisica regolare",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": []
+        }
+      ]
+    },
+    {
+      "id": "evitare",
+      "label": "Da evitare",
+      "items": [
+        {
+          "id": "icno",
+          "text": "Flecainide o propafenone con disfunzione sistolica, ipertrofia severa o coronaropatia",
+          "cor": "III",
+          "loe": null,
+          "drugIds": [
+            "flecainide",
+            "propafenone"
+          ]
+        },
+        {
+          "id": "dronno",
+          "text": "Dronedarone nello scompenso NYHA III–IV o con recente scompensazione e nella FA permanente",
+          "cor": "III",
+          "loe": null,
+          "drugIds": [
+            "dronedarone"
+          ],
+          "note": "Controindicazione della RCP di dronedarone; livello di evidenza da verificare."
+        }
+      ]
+    }
+  ]
+}

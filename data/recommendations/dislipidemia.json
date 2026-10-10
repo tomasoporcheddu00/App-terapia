@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "id": "dislipidemia",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC/EAS 2019 - Linee guida per la gestione delle dislipidemie (target di LDL-C per categoria di rischio)",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/dyslipidaemias/"
+      },
+      {
+        "label": "ESC/EAS 2025 - Focused Update delle linee guida 2019 sulla gestione delle dislipidemie",
+        "url": "https://academic.oup.com/eurheartj/article/46/42/4359/8234482"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "dislipidemia",
+  "groups": [
+    {
+      "id": "target",
+      "label": "Obiettivi",
+      "items": [
+        {
+          "id": "molto",
+          "text": "Rischio molto alto: LDL-C <55 mg/dL e riduzione ≥50% dal basale",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "alto",
+          "text": "Rischio alto: LDL-C <70 mg/dL e riduzione ≥50% dal basale",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        }
+      ]
+    },
+    {
+      "id": "farmaci",
+      "label": "Terapia",
+      "items": [
+        {
+          "id": "statina",
+          "text": "Statina ad alta intensità fino alla dose massima tollerata",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "atorvastatin",
+            "rosuvastatin"
+          ]
+        },
+        {
+          "id": "ezetimibe",
+          "text": "Ezetimibe se non a target con la statina",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "ezetimibe"
+          ]
+        },
+        {
+          "id": "pcsk9",
+          "text": "Inibitore di PCSK9 nel rischio molto alto in prevenzione secondaria se non a target con statina + ezetimibe",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "evolocumab",
+            "alirocumab"
+          ]
+        },
+        {
+          "id": "bempe",
+          "text": "Acido bempedoico nei pazienti che non possono assumere statine, per raggiungere l'obiettivo",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "bempedoic-acid"
+          ],
+          "source": {
+            "label": "ESC/EAS 2025 - Focused Update delle linee guida 2019 sulla gestione delle dislipidemie",
+            "url": "https://academic.oup.com/eurheartj/article/46/42/4359/8234482"
+          }
+        },
+        {
+          "id": "icosa",
+          "text": "Icosapent etile 2 g due volte al giorno se trigliceridi 135–499 mg/dL nonostante statina, in alto rischio",
+          "cor": "IIb",
+          "loe": "B",
+          "drugIds": [
+            "icosapent-ethyl"
+          ]
+        }
+      ]
+    }
+  ]
+}

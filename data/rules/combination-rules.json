@@ -1,0 +1,1099 @@
+{
+  "meta": {
+    "id": "combination-rules",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "notes": "Regole deterministiche usate dalla Mappa terapeutica per segnalare associazioni rischiose fra farmaci e fra farmaci e patologie selezionate. Ogni regola cita la fonte; da verificare clinicamente."
+  },
+  "rules": [
+    {
+      "id": "acei-arb",
+      "severity": "contraindicated",
+      "all": [
+        {
+          "classes": [
+            "ace-inhibitors"
+          ]
+        },
+        {
+          "classes": [
+            "arb"
+          ]
+        }
+      ],
+      "message": "Doppio blocco del sistema renina-angiotensina (ACE-inibitore + sartano): più iperkaliemia, ipotensione e danno renale senza beneficio.",
+      "management": "Usare un solo bloccante del RAAS.",
+      "source": "ESC 2024 - Linee guida sull'ipertensione",
+      "cor": "III"
+    },
+    {
+      "id": "acei-arni",
+      "severity": "contraindicated",
+      "all": [
+        {
+          "classes": [
+            "ace-inhibitors"
+          ]
+        },
+        {
+          "classes": [
+            "arni"
+          ]
+        }
+      ],
+      "message": "ACE-inibitore + sacubitril/valsartan: rischio di angioedema.",
+      "management": "Sospendere l'ACE-inibitore almeno 36 ore prima di iniziare sacubitril/valsartan.",
+      "source": "RCP del farmaco (sezioni 4.3–4.5)"
+    },
+    {
+      "id": "arb-arni",
+      "severity": "contraindicated",
+      "all": [
+        {
+          "classes": [
+            "arb"
+          ]
+        },
+        {
+          "classes": [
+            "arni"
+          ]
+        }
+      ],
+      "message": "Sartano + sacubitril/valsartan: doppia somministrazione di sartano (il valsartan è già contenuto nell'ARNI).",
+      "management": "Sospendere il sartano.",
+      "source": "RCP del farmaco (sezioni 4.3–4.5)"
+    },
+    {
+      "id": "aliskiren-raas",
+      "severity": "major",
+      "all": [
+        {
+          "classes": [
+            "renin-inhibitors"
+          ]
+        },
+        {
+          "classes": [
+            "ace-inhibitors",
+            "arb",
+            "arni"
+          ]
+        }
+      ],
+      "message": "Aliskiren + ACE-inibitore/sartano/ARNI: controindicato nel diabete e con eGFR <60; aumenta iperkaliemia, ipotensione e danno renale.",
+      "management": "Evitare l'associazione.",
+      "source": "RCP del farmaco (sezioni 4.3–4.5)"
+    },
+    {
+      "id": "ivab-nondhp",
+      "severity": "contraindicated",
+      "all": [
+        {
+          "drugs": [
+            "ivabradine"
+          ]
+        },
+        {
+          "classes": [
+            "nondhp-ccb"
+          ]
+        }
+      ],
+      "message": "Ivabradina + verapamil/diltiazem: aumento delle concentrazioni di ivabradina e bradicardia marcata.",
+      "management": "Associazione controindicata: scegliere un'alternativa.",
+      "source": "RCP del farmaco (sezioni 4.3–4.5)"
+    },
+    {
+      "id": "bb-nondhp",
+      "severity": "major",
+      "all": [
+        {
+          "classes": [
+            "beta-blockers"
+          ]
+        },
+        {
+          "classes": [
+            "nondhp-ccb"
+          ]
+        }
+      ],
+      "message": "Betabloccante + verapamil/diltiazem: rischio di bradicardia grave, blocco AV, ipotensione e scompenso.",
+      "management": "Evitare, soprattutto per via EV o con disfunzione ventricolare; se indispensabile, monitorare ECG e PA.",
+      "source": "RCP del farmaco (sezioni 4.3–4.5)"
+    },
+    {
+      "id": "nitrati-pde5",
+      "severity": "contraindicated",
+      "all": [
+        {
+          "classes": [
+            "organic-nitrates"
+          ]
+        },
+        {
+          "classes": [
+            "pde5-inhibitors"
+          ]
+        }
+      ],
+      "message": "Nitrati + inibitori della PDE5: ipotensione grave potenzialmente fatale.",
+      "management": "Associazione controindicata; dopo sildenafil attendere 24 h, dopo tadalafil 48 h prima di un nitrato.",
+      "source": "RCP del farmaco (sezioni 4.3–4.5)"
+    },
+    {
+      "id": "nicorandil-pde5",
+      "severity": "contraindicated",
+      "all": [
+        {
+          "drugs": [
+            "nicorandil"
+          ]
+        },
+        {
+          "classes": [
+            "pde5-inhibitors"
+          ]
+        }
+      ],
+      "message": "Nicorandil + inibitori della PDE5: ipotensione grave.",
+      "management": "Associazione controindicata.",
+      "source": "RCP del farmaco (sezioni 4.3–4.5)"
+    },
+    {
+      "id": "riociguat-pde5",
+      "severity": "contraindicated",
+      "all": [
+        {
+          "drugs": [
+            "riociguat"
+          ]
+        },
+        {
+          "classes": [
+            "pde5-inhibitors"
+          ]
+        }
+      ],
+      "message": "Riociguat + inibitori della PDE5: ipotensione sistemica.",
+      "management": "Associazione controindicata.",
+      "source": "RCP del farmaco (sezioni 4.3–4.5)",
+      "cor": "III"
+    },
+    {
+      "id": "triplice",
+      "severity": "major",
+      "all": [
+        {
+          "classes": [
+            "factor-xa-inhibitors",
+            "vitamin-k-antagonists"
+          ]
+        },
+        {
+          "classes": [
+            "antiplatelets-cox-inhibitors"
+          ]
+        },
+        {
+          "classes": [
+            "p2y12-inhibitors"
+          ]
+        }
+      ],
+      "message": "Triplice terapia antitrombotica (anticoagulante orale + ASA + P2Y12): rischio emorragico molto alto.",
+      "management": "Limitare la triplice a 1 settimana (fino a 30 giorni se alto rischio ischemico), poi anticoagulante + clopidogrel; DOAC preferiti agli AVK; inibitore di pompa protonica.",
+      "source": "ESC 2023 - Linee guida sulle sindromi coronariche acute"
+    },
+    {
+      "id": "oac-potent",
+      "severity": "major",
+      "all": [
+        {
+          "classes": [
+            "factor-xa-inhibitors",
+            "vitamin-k-antagonists",
+            "direct-thrombin-inhibitors"
+          ]
+        },
+        {
+          "drugs": [
+            "prasugrel",
+            "ticagrelor"
+          ]
+        }
+      ],
+      "message": "Anticoagulante orale + prasugrel o ticagrelor: nella terapia combinata con anticoagulante il P2Y12 raccomandato è il clopidogrel.",
+      "management": "Sostituire con clopidogrel.",
+      "source": "ESC 2023 - Linee guida sulle sindromi coronariche acute",
+      "cor": "III"
+    },
+    {
+      "id": "doppio-anticoag",
+      "severity": "major",
+      "all": [
+        {
+          "classes": [
+            "factor-xa-inhibitors",
+            "vitamin-k-antagonists",
+            "low-molecular-weight-heparins",
+            "unfractionated-heparins",
+            "pentasaccharides",
+            "direct-thrombin-inhibitors"
+          ]
+        },
+        {
+          "classes": [
+            "factor-xa-inhibitors",
+            "vitamin-k-antagonists",
+            "low-molecular-weight-heparins",
+            "unfractionated-heparins",
+            "pentasaccharides",
+            "direct-thrombin-inhibitors"
+          ]
+        }
+      ],
+      "message": "Due anticoagulanti contemporaneamente.",
+      "management": "Verificare che si tratti di un passaggio da un farmaco all'altro (switch o bridging) e non di una sovrapposizione.",
+      "source": "RCP del farmaco (sezioni 4.3–4.5)"
+    },
+    {
+      "id": "fans-anticoag",
+      "severity": "major",
+      "all": [
+        {
+          "classes": [
+            "nsaids"
+          ]
+        },
+        {
+          "classes": [
+            "factor-xa-inhibitors",
+            "vitamin-k-antagonists",
+            "low-molecular-weight-heparins",
+            "unfractionated-heparins",
+            "pentasaccharides",
+            "direct-thrombin-inhibitors",
+            "p2y12-inhibitors",
+            "antiplatelets-cox-inhibitors"
+          ]
+        }
+      ],
+      "message": "FANS + antitrombotici: aumento del rischio di sanguinamento gastrointestinale.",
+      "management": "Evitare i FANS o usarli per il tempo più breve con gastroprotezione.",
+      "source": "RCP del farmaco (sezioni 4.3–4.5)"
+    },
+    {
+      "id": "qt-doppio",
+      "severity": "major",
+      "all": [
+        {
+          "drugs": [
+            "sotalol",
+            "dofetilide",
+            "ibutilide",
+            "amiodarone",
+            "dronedarone",
+            "quinidine",
+            "procainamide",
+            "disopyramide"
+          ]
+        },
+        {
+          "drugs": [
+            "sotalol",
+            "dofetilide",
+            "ibutilide",
+            "amiodarone",
+            "dronedarone",
+            "quinidine",
+            "procainamide",
+            "disopyramide"
+          ]
+        }
+      ],
+      "message": "Due farmaci che allungano l'intervallo QT: rischio di torsione di punta.",
+      "management": "Evitare l'associazione; se indispensabile, ECG seriati e potassio/magnesio nei limiti alti.",
+      "source": "ESC 2022 - Linee guida sulle aritmie ventricolari"
+    },
+    {
+      "id": "mra-k",
+      "severity": "major",
+      "all": [
+        {
+          "classes": [
+            "mra"
+          ]
+        },
+        {
+          "drugs": [
+            "potassium-chloride"
+          ]
+        }
+      ],
+      "message": "Antagonista dei mineralcorticoidi + supplementi di potassio: rischio di iperkaliemia.",
+      "management": "Evitare i supplementi salvo ipokaliemia documentata; controllare il potassio.",
+      "source": "RCP del farmaco (sezioni 4.3–4.5)"
+    },
+    {
+      "id": "mra-raas-k",
+      "severity": "moderate",
+      "all": [
+        {
+          "classes": [
+            "mra"
+          ]
+        },
+        {
+          "classes": [
+            "ace-inhibitors",
+            "arb",
+            "arni"
+          ]
+        }
+      ],
+      "message": "Antagonista dei mineralcorticoidi + ACE-i/sartano/ARNI: associazione raccomandata nell'HFrEF ma con rischio di iperkaliemia e peggioramento renale.",
+      "management": "Controllo di potassio e creatinina a 1 e 4 settimane da avvio o aumento di dose.",
+      "source": "ESC 2021 - Linee guida sullo scompenso cardiaco"
+    },
+    {
+      "id": "ic-bb",
+      "severity": "moderate",
+      "all": [
+        {
+          "classes": [
+            "aa-class-ic"
+          ]
+        },
+        {
+          "classes": [
+            "beta-blockers",
+            "nondhp-ccb"
+          ]
+        }
+      ],
+      "message": "Flecainide/propafenone + betabloccante o calcioantagonista non diidropiridinico: effetti additivi su conduzione e contrattilità.",
+      "management": "Associazione usata (per evitare la conduzione 1:1 del flutter), ma monitorare ECG e FE.",
+      "source": "ESC/EACTS 2024 - Linee guida sulla fibrillazione atriale"
+    },
+    {
+      "id": "amio-digo",
+      "severity": "moderate",
+      "all": [
+        {
+          "drugs": [
+            "amiodarone",
+            "dronedarone"
+          ]
+        },
+        {
+          "drugs": [
+            "digoxin"
+          ]
+        }
+      ],
+      "message": "Amiodarone/dronedarone + digossina: aumento della digossinemia e bradicardia.",
+      "management": "Ridurre la dose di digossina (circa del 50%) e dosare la digossinemia.",
+      "source": "RCP del farmaco (sezioni 4.3–4.5)"
+    },
+    {
+      "id": "amio-avk",
+      "severity": "moderate",
+      "all": [
+        {
+          "drugs": [
+            "amiodarone"
+          ]
+        },
+        {
+          "classes": [
+            "vitamin-k-antagonists"
+          ]
+        }
+      ],
+      "message": "Amiodarone + warfarin/acenocumarolo: aumento dell'INR.",
+      "management": "Ridurre la dose di AVK e controllare l'INR ravvicinato.",
+      "source": "RCP del farmaco (sezioni 4.3–4.5)"
+    },
+    {
+      "id": "nondhp-hf",
+      "severity": "contraindicated",
+      "all": [
+        {
+          "classes": [
+            "nondhp-ccb"
+          ]
+        },
+        {
+          "pathologies": [
+            "hfref",
+            "scompenso-acuto",
+            "edema-polmonare-acuto",
+            "shock-cardiogeno",
+            "cm-dilatativa"
+          ]
+        }
+      ],
+      "message": "Diltiazem/verapamil con FE ridotta o scompenso: effetto inotropo negativo, peggiorano lo scompenso.",
+      "management": "Evitare; per il controllo della frequenza preferire betabloccante o digossina.",
+      "source": "ESC 2021 - Linee guida sullo scompenso cardiaco",
+      "cor": "III"
+    },
+    {
+      "id": "tzd-hf",
+      "severity": "contraindicated",
+      "all": [
+        {
+          "classes": [
+            "thiazolidinediones"
+          ]
+        },
+        {
+          "pathologies": [
+            "hfref",
+            "hfmref",
+            "scompenso-acuto",
+            "edema-polmonare-acuto",
+            "shock-cardiogeno",
+            "cm-dilatativa",
+            "congestione",
+            "titolazione-post-dimissione",
+            "resistenza-diuretici",
+            "hfpef"
+          ]
+        }
+      ],
+      "message": "Pioglitazone nello scompenso: ritenzione idrica e peggioramento dello scompenso.",
+      "management": "Evitare.",
+      "source": "ESC 2021 - Linee guida sullo scompenso cardiaco",
+      "cor": "III"
+    },
+    {
+      "id": "fans-hf",
+      "severity": "major",
+      "all": [
+        {
+          "classes": [
+            "nsaids"
+          ]
+        },
+        {
+          "pathologies": [
+            "hfref",
+            "hfmref",
+            "scompenso-acuto",
+            "edema-polmonare-acuto",
+            "shock-cardiogeno",
+            "cm-dilatativa",
+            "congestione",
+            "titolazione-post-dimissione",
+            "resistenza-diuretici",
+            "hfpef"
+          ]
+        }
+      ],
+      "message": "FANS nello scompenso: ritenzione idrosalina, peggioramento renale e dello scompenso.",
+      "management": "Evitare.",
+      "source": "ESC 2021 - Linee guida sullo scompenso cardiaco",
+      "cor": "III"
+    },
+    {
+      "id": "dron-hf",
+      "severity": "contraindicated",
+      "all": [
+        {
+          "drugs": [
+            "dronedarone"
+          ]
+        },
+        {
+          "pathologies": [
+            "hfref",
+            "scompenso-acuto",
+            "edema-polmonare-acuto",
+            "shock-cardiogeno",
+            "cm-dilatativa"
+          ]
+        }
+      ],
+      "message": "Dronedarone con scompenso instabile o NYHA III–IV/FE ridotta: aumento della mortalità.",
+      "management": "Controindicato.",
+      "source": "RCP del farmaco (sezioni 4.3–4.5)"
+    },
+    {
+      "id": "ic-strutt",
+      "severity": "contraindicated",
+      "all": [
+        {
+          "classes": [
+            "aa-class-ic"
+          ]
+        },
+        {
+          "pathologies": [
+            "stemi",
+            "nste-acs",
+            "angina-instabile",
+            "sindrome-coronarica-cronica",
+            "prevenzione-secondaria",
+            "post-pci",
+            "post-cabg",
+            "minoca",
+            "hfref",
+            "scompenso-acuto",
+            "edema-polmonare-acuto",
+            "shock-cardiogeno",
+            "cm-dilatativa",
+            "cm-ipertrofica"
+          ]
+        }
+      ],
+      "message": "Flecainide/propafenone con coronaropatia, disfunzione ventricolare o ipertrofia severa: rischio proaritmico (studio CAST).",
+      "management": "Evitare; preferire amiodarone o altre opzioni secondo la cardiopatia.",
+      "source": "ESC/EACTS 2024 - Linee guida sulla fibrillazione atriale",
+      "cor": "III"
+    },
+    {
+      "id": "avblock-preecc",
+      "severity": "contraindicated",
+      "all": [
+        {
+          "classes": [
+            "beta-blockers",
+            "nondhp-ccb",
+            "cardiac-glycosides"
+          ]
+        },
+        {
+          "pathologies": [
+            "fa-preeccitata"
+          ]
+        }
+      ],
+      "message": "Bloccanti del nodo AV nella FA pre-eccitata: possono accelerare la conduzione sulla via accessoria fino alla fibrillazione ventricolare.",
+      "management": "Evitare; cardioversione elettrica se instabile, ibutilide o procainamide se stabile.",
+      "source": "ESC 2019 - Linee guida sulle tachicardie sopraventricolari",
+      "cor": "III"
+    },
+    {
+      "id": "adeno-preecc",
+      "severity": "contraindicated",
+      "all": [
+        {
+          "drugs": [
+            "adenosine",
+            "amiodarone"
+          ]
+        },
+        {
+          "pathologies": [
+            "fa-preeccitata"
+          ]
+        }
+      ],
+      "message": "Adenosina o amiodarone EV nella FA pre-eccitata: rischio di accelerazione della risposta ventricolare.",
+      "management": "Evitare.",
+      "source": "ESC 2019 - Linee guida sulle tachicardie sopraventricolari",
+      "cor": "III"
+    },
+    {
+      "id": "brady-drugs",
+      "severity": "major",
+      "all": [
+        {
+          "classes": [
+            "beta-blockers",
+            "nondhp-ccb",
+            "cardiac-glycosides",
+            "if-inhibitors"
+          ]
+        },
+        {
+          "pathologies": [
+            "bradicardia",
+            "blocco-av"
+          ]
+        }
+      ],
+      "message": "Farmaco cronotropo/dromotropo negativo in presenza di bradicardia o blocco AV.",
+      "management": "Sospendere o ridurre; valutare le cause reversibili prima del pacing definitivo.",
+      "source": "ESC 2021 - Linee guida su pacing cardiaco"
+    },
+    {
+      "id": "brady-aa",
+      "severity": "major",
+      "all": [
+        {
+          "drugs": [
+            "amiodarone",
+            "dronedarone",
+            "sotalol"
+          ]
+        },
+        {
+          "pathologies": [
+            "bradicardia",
+            "blocco-av"
+          ]
+        }
+      ],
+      "message": "Antiaritmico con effetto bradicardizzante in presenza di bradicardia o blocco AV.",
+      "management": "Evitare o rivalutare.",
+      "source": "ESC 2021 - Linee guida su pacing cardiaco"
+    },
+    {
+      "id": "shock-neg",
+      "severity": "contraindicated",
+      "all": [
+        {
+          "classes": [
+            "beta-blockers",
+            "nondhp-ccb"
+          ]
+        },
+        {
+          "pathologies": [
+            "shock-cardiogeno"
+          ]
+        }
+      ],
+      "message": "Betabloccante o calcioantagonista non diidropiridinico nello shock cardiogeno: ulteriore depressione della contrattilità.",
+      "management": "Controindicato in fase di shock.",
+      "source": "ESC 2021 - Linee guida sullo scompenso cardiaco"
+    },
+    {
+      "id": "qt-tdp",
+      "severity": "contraindicated",
+      "all": [
+        {
+          "drugs": [
+            "sotalol",
+            "dofetilide",
+            "ibutilide",
+            "amiodarone",
+            "dronedarone",
+            "quinidine",
+            "procainamide",
+            "disopyramide"
+          ]
+        },
+        {
+          "pathologies": [
+            "torsione-di-punta",
+            "ipokaliemia",
+            "ipomagnesiemia"
+          ]
+        }
+      ],
+      "message": "Farmaco che allunga il QT con torsione di punta, ipokaliemia o ipomagnesiemia.",
+      "management": "Sospendere il farmaco e correggere potassio e magnesio.",
+      "source": "ESC 2022 - Linee guida sulle aritmie ventricolari"
+    },
+    {
+      "id": "k-iperk",
+      "severity": "contraindicated",
+      "all": [
+        {
+          "classes": [
+            "mra"
+          ]
+        },
+        {
+          "pathologies": [
+            "iperkaliemia"
+          ]
+        }
+      ],
+      "message": "Antagonista dei mineralcorticoidi con iperkaliemia.",
+      "management": "Non iniziare (o sospendere) con potassio >5,0 mmol/L.",
+      "source": "RCP del farmaco (sezioni 4.3–4.5)"
+    },
+    {
+      "id": "raas-iperk",
+      "severity": "major",
+      "all": [
+        {
+          "classes": [
+            "ace-inhibitors",
+            "arb",
+            "arni",
+            "renin-inhibitors"
+          ]
+        },
+        {
+          "pathologies": [
+            "iperkaliemia"
+          ]
+        }
+      ],
+      "message": "Bloccante del RAAS con iperkaliemia.",
+      "management": "Correggere il potassio; valutare un legante del potassio per mantenere la terapia.",
+      "source": "ESC 2021 - Linee guida sullo scompenso cardiaco"
+    },
+    {
+      "id": "kcl-iperk",
+      "severity": "contraindicated",
+      "all": [
+        {
+          "drugs": [
+            "potassium-chloride"
+          ]
+        },
+        {
+          "pathologies": [
+            "iperkaliemia"
+          ]
+        }
+      ],
+      "message": "Supplemento di potassio con iperkaliemia.",
+      "management": "Sospendere.",
+      "source": "RCP del farmaco (sezioni 4.3–4.5)"
+    },
+    {
+      "id": "diur-ipok",
+      "severity": "moderate",
+      "all": [
+        {
+          "classes": [
+            "loop-diuretics",
+            "thiazide-diuretics"
+          ]
+        },
+        {
+          "pathologies": [
+            "ipokaliemia",
+            "ipomagnesiemia"
+          ]
+        }
+      ],
+      "message": "Diuretico dell'ansa o tiazidico con ipokaliemia/ipomagnesiemia: peggiorano la perdita di elettroliti.",
+      "management": "Correggere potassio e magnesio; valutare un risparmiatore di potassio.",
+      "source": "RCP del farmaco (sezioni 4.3–4.5)"
+    },
+    {
+      "id": "digo-ipok",
+      "severity": "major",
+      "all": [
+        {
+          "drugs": [
+            "digoxin"
+          ]
+        },
+        {
+          "pathologies": [
+            "ipokaliemia",
+            "ipomagnesiemia",
+            "ipercalcemia"
+          ]
+        }
+      ],
+      "message": "Digossina con ipokaliemia, ipomagnesiemia o ipercalcemia: aumento del rischio di tossicità digitalica.",
+      "management": "Correggere gli elettroliti; dosare la digossinemia.",
+      "source": "RCP del farmaco (sezioni 4.3–4.5)"
+    },
+    {
+      "id": "preg-raas",
+      "severity": "contraindicated",
+      "all": [
+        {
+          "classes": [
+            "ace-inhibitors",
+            "arb",
+            "arni",
+            "renin-inhibitors"
+          ]
+        },
+        {
+          "pathologies": [
+            "gravidanza",
+            "ipertensione-gravidanza"
+          ]
+        }
+      ],
+      "message": "Bloccanti del RAAS in gravidanza: fetotossici (soprattutto II–III trimestre).",
+      "management": "Controindicati: sostituire con labetalolo, nifedipina o metildopa.",
+      "source": "ESC 2025 - Linee guida sulle malattie cardiovascolari in gravidanza",
+      "cor": "III"
+    },
+    {
+      "id": "preg-era",
+      "severity": "contraindicated",
+      "all": [
+        {
+          "classes": [
+            "era",
+            "sgc-stimulators"
+          ]
+        },
+        {
+          "pathologies": [
+            "gravidanza",
+            "ipertensione-gravidanza"
+          ]
+        }
+      ],
+      "message": "Antagonisti recettoriali dell'endotelina e riociguat in gravidanza: teratogeni.",
+      "management": "Controindicati.",
+      "source": "ESC 2025 - Linee guida sulle malattie cardiovascolari in gravidanza",
+      "cor": "III"
+    },
+    {
+      "id": "preg-doac",
+      "severity": "contraindicated",
+      "all": [
+        {
+          "classes": [
+            "factor-xa-inhibitors",
+            "direct-thrombin-inhibitors"
+          ]
+        },
+        {
+          "pathologies": [
+            "gravidanza",
+            "ipertensione-gravidanza"
+          ]
+        }
+      ],
+      "message": "DOAC in gravidanza: dati insufficienti e passaggio placentare.",
+      "management": "Controindicati: usare EBPM.",
+      "source": "ESC 2025 - Linee guida sulle malattie cardiovascolari in gravidanza",
+      "cor": "III"
+    },
+    {
+      "id": "preg-avk",
+      "severity": "major",
+      "all": [
+        {
+          "classes": [
+            "vitamin-k-antagonists"
+          ]
+        },
+        {
+          "pathologies": [
+            "gravidanza",
+            "ipertensione-gravidanza"
+          ]
+        }
+      ],
+      "message": "AVK in gravidanza: rischio di embriopatia (I trimestre, dose-dipendente) e di emorragia fetale.",
+      "management": "Gestione specialistica; nelle protesi meccaniche schema concordato (AVK o EBPM con controllo anti-Xa).",
+      "source": "ESC 2025 - Linee guida sulle malattie cardiovascolari in gravidanza"
+    },
+    {
+      "id": "preg-amio",
+      "severity": "major",
+      "all": [
+        {
+          "drugs": [
+            "amiodarone"
+          ]
+        },
+        {
+          "pathologies": [
+            "gravidanza",
+            "ipertensione-gravidanza"
+          ]
+        }
+      ],
+      "message": "Amiodarone in gravidanza: tossicità tiroidea fetale.",
+      "management": "Riservare alle aritmie pericolose quando altre opzioni falliscono.",
+      "source": "ESC 2025 - Linee guida sulle malattie cardiovascolari in gravidanza"
+    },
+    {
+      "id": "preg-mava",
+      "severity": "contraindicated",
+      "all": [
+        {
+          "classes": [
+            "myosin-inhibitors",
+            "sglt2i",
+            "mra"
+          ]
+        },
+        {
+          "pathologies": [
+            "gravidanza",
+            "ipertensione-gravidanza"
+          ]
+        }
+      ],
+      "message": "Mavacamten, SGLT2-inibitori o antagonisti dei mineralcorticoidi in gravidanza: da evitare (teratogenicità o dati insufficienti).",
+      "management": "Sospendere e rivalutare.",
+      "source": "ESC 2025 - Linee guida sulle malattie cardiovascolari in gravidanza"
+    },
+    {
+      "id": "metf-ckd",
+      "severity": "major",
+      "all": [
+        {
+          "drugs": [
+            "metformin"
+          ]
+        },
+        {
+          "pathologies": [
+            "insufficienza-renale"
+          ]
+        }
+      ],
+      "message": "Metformina nell'insufficienza renale: controindicata con eGFR <30, dose ridotta con eGFR 30–45 (rischio di acidosi lattica).",
+      "management": "Verificare l'eGFR.",
+      "source": "RCP del farmaco (sezioni 4.3–4.5)"
+    },
+    {
+      "id": "doac-ms",
+      "severity": "contraindicated",
+      "all": [
+        {
+          "classes": [
+            "factor-xa-inhibitors",
+            "direct-thrombin-inhibitors"
+          ]
+        },
+        {
+          "pathologies": [
+            "stenosi-mitralica"
+          ]
+        }
+      ],
+      "message": "DOAC nella stenosi mitralica moderata-severa: non raccomandati (studio INVICTUS).",
+      "management": "Usare un AVK (INR 2,0–3,0).",
+      "source": "ESC/EACTS 2024 - Linee guida sulla fibrillazione atriale",
+      "cor": "III"
+    },
+    {
+      "id": "vasodil-cmi",
+      "severity": "major",
+      "all": [
+        {
+          "classes": [
+            "organic-nitrates",
+            "pde5-inhibitors",
+            "vasodilators",
+            "direct-vasodilators",
+            "dhp-ccb",
+            "cardiac-glycosides"
+          ]
+        },
+        {
+          "pathologies": [
+            "cm-ipertrofica"
+          ]
+        }
+      ],
+      "message": "Vasodilatatori o digossina nella cardiomiopatia ipertrofica: aumentano il gradiente all'efflusso se ostruttiva.",
+      "management": "Evitare in presenza di ostruzione.",
+      "source": "ESC 2023 - Linee guida sulle cardiomiopatie"
+    },
+    {
+      "id": "inotr-cmi",
+      "severity": "major",
+      "all": [
+        {
+          "classes": [
+            "inotropes"
+          ]
+        },
+        {
+          "pathologies": [
+            "cm-ipertrofica"
+          ]
+        }
+      ],
+      "message": "Inotropi positivi nella cardiomiopatia ipertrofica ostruttiva: peggiorano l'ostruzione.",
+      "management": "Evitare; nell'ipotensione preferire fluidi e vasocostrittori puri (es. fenilefrina).",
+      "source": "ESC 2023 - Linee guida sulle cardiomiopatie"
+    },
+    {
+      "id": "vasodil-sa",
+      "severity": "moderate",
+      "all": [
+        {
+          "classes": [
+            "organic-nitrates",
+            "vasodilators",
+            "pde5-inhibitors"
+          ]
+        },
+        {
+          "pathologies": [
+            "stenosi-aortica"
+          ]
+        }
+      ],
+      "message": "Vasodilatatori nella stenosi aortica severa: rischio di ipotensione marcata (gittata fissa).",
+      "management": "Usare con estrema cautela e a basse dosi.",
+      "source": "RCP del farmaco (sezioni 4.3–4.5)"
+    },
+    {
+      "id": "lisi-aorta",
+      "severity": "contraindicated",
+      "all": [
+        {
+          "classes": [
+            "fibrinolytics"
+          ]
+        },
+        {
+          "pathologies": [
+            "sindrome-aortica-acuta"
+          ]
+        }
+      ],
+      "message": "Fibrinolitico nella sindrome aortica acuta: emorragia potenzialmente fatale.",
+      "management": "Controindicato: escludere la dissezione prima della trombolisi.",
+      "source": "ESC 2024 - Linee guida sulle malattie arteriose periferiche e aortiche"
+    },
+    {
+      "id": "antitromb-aorta",
+      "severity": "major",
+      "all": [
+        {
+          "classes": [
+            "factor-xa-inhibitors",
+            "vitamin-k-antagonists",
+            "low-molecular-weight-heparins",
+            "unfractionated-heparins",
+            "pentasaccharides",
+            "direct-thrombin-inhibitors",
+            "p2y12-inhibitors",
+            "antiplatelets-cox-inhibitors",
+            "gpiib-iiia-inhibitors"
+          ]
+        },
+        {
+          "pathologies": [
+            "sindrome-aortica-acuta"
+          ]
+        }
+      ],
+      "message": "Antitrombotico nella sindrome aortica acuta: aumento del rischio emorragico.",
+      "management": "Rivalutare l'indicazione; nella dissezione tipo A sospendere prima della chirurgia.",
+      "source": "ESC 2024 - Linee guida sulle malattie arteriose periferiche e aortiche"
+    },
+    {
+      "id": "bb-vaso",
+      "severity": "moderate",
+      "all": [
+        {
+          "drugs": [
+            "propranolol",
+            "atenolol",
+            "metoprolol",
+            "bisoprolol"
+          ]
+        },
+        {
+          "pathologies": [
+            "angina-vasospastica"
+          ]
+        }
+      ],
+      "message": "Betabloccante nell'angina vasospastica: può favorire lo spasmo coronarico.",
+      "management": "Preferire calcioantagonisti e nitrati.",
+      "source": "RCP del farmaco (sezioni 4.3–4.5)"
+    }
+  ]
+}

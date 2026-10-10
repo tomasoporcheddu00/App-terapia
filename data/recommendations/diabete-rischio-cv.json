@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "id": "diabete-rischio-cv",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2023 - Linee guida per la gestione delle malattie cardiovascolari nei pazienti con diabete",
+        "url": "https://academic.oup.com/eurheartj/article/45/15/1298/7513467"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "diabete-rischio-cv",
+  "groups": [
+    {
+      "id": "cardioprot",
+      "label": "Farmaci con beneficio cardiovascolare",
+      "items": [
+        {
+          "id": "sglt2",
+          "text": "SGLT2-inibitore nel diabete tipo 2 con malattia aterosclerotica, indipendentemente da HbA1c",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "empagliflozin",
+            "dapagliflozin"
+          ]
+        },
+        {
+          "id": "glp1",
+          "text": "Agonista del GLP-1 con beneficio dimostrato nel diabete con malattia aterosclerotica, indipendentemente da HbA1c",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "semaglutide",
+            "liraglutide",
+            "dulaglutide"
+          ]
+        },
+        {
+          "id": "sglt2hf",
+          "text": "SGLT2-inibitore nel diabete con scompenso cardiaco",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "empagliflozin",
+            "dapagliflozin"
+          ]
+        },
+        {
+          "id": "sglt2ckd",
+          "text": "SGLT2-inibitore nel diabete con malattia renale cronica (eGFR ≥20)",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "empagliflozin",
+            "dapagliflozin"
+          ]
+        },
+        {
+          "id": "finer",
+          "text": "Finerenone nel diabete tipo 2 con malattia renale cronica e albuminuria, in aggiunta a ACE-i o sartano",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "finerenone"
+          ]
+        },
+        {
+          "id": "metf",
+          "text": "Metformina se necessaria ulteriore riduzione della glicemia",
+          "cor": "IIa",
+          "loe": "C",
+          "drugIds": [
+            "metformin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lipidi",
+      "label": "Lipidi",
+      "items": [
+        {
+          "id": "statina",
+          "text": "Statina nei pazienti con malattia cardiovascolare aterosclerotica",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "atorvastatin",
+            "rosuvastatin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evitare",
+      "label": "Da evitare",
+      "items": [
+        {
+          "id": "pioghf",
+          "text": "Pioglitazone nei pazienti con scompenso cardiaco",
+          "cor": "III",
+          "loe": null,
+          "drugIds": [
+            "pioglitazone"
+          ],
+          "note": "Livello di evidenza da verificare."
+        }
+      ]
+    }
+  ]
+}

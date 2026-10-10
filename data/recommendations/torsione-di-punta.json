@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "id": "torsione-di-punta",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2022 - Linee guida per la gestione delle aritmie ventricolari e la prevenzione della morte cardiaca improvvisa",
+        "url": "https://academic.oup.com/eurheartj/article/43/40/3997/6675633"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "torsione-di-punta",
+  "groups": [
+    {
+      "id": "gestione",
+      "label": "Gestione",
+      "items": [
+        {
+          "id": "stop",
+          "text": "Sospensione dei farmaci che allungano il QT e correzione di potassio e magnesio",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": []
+        },
+        {
+          "id": "mg",
+          "text": "Magnesio solfato EV",
+          "cor": null,
+          "loe": null,
+          "drugIds": [
+            "magnesium-sulfate"
+          ],
+          "note": "Classe da verificare sul testo integrale."
+        },
+        {
+          "id": "pacing",
+          "text": "Aumento della frequenza (pacing temporaneo o isoprenalina) se torsioni bradicardia- o pausa-dipendenti",
+          "cor": null,
+          "loe": null,
+          "drugIds": [
+            "isoprenaline"
+          ],
+          "note": "Classe da verificare sul testo integrale."
+        }
+      ]
+    }
+  ]
+}

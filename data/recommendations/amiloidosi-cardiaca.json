@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "id": "amiloidosi-cardiaca",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2023 - Linee guida per la gestione delle cardiomiopatie",
+        "url": "https://academic.oup.com/eurheartj/article/44/37/3503/7246608"
+      }
+    ],
+    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+  },
+  "pathology": "amiloidosi-cardiaca",
+  "groups": [
+    {
+      "id": "specifica",
+      "label": "Terapia specifica ATTR",
+      "items": [
+        {
+          "id": "tafa",
+          "text": "Tafamidis nell'amiloidosi ATTR (wild-type o variante) in NYHA I–II",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": [
+            "tafamidis"
+          ]
+        },
+        {
+          "id": "nuovi",
+          "text": "Acoramidis o vutrisiran",
+          "cor": null,
+          "loe": null,
+          "drugIds": [
+            "acoramidis",
+            "vutrisiran"
+          ],
+          "note": "Approvati dopo la linea guida 2023: classe non disponibile nella fonte citata."
+        }
+      ]
+    },
+    {
+      "id": "supporto",
+      "label": "Terapia di supporto",
+      "items": [
+        {
+          "id": "diur",
+          "text": "Diuretici dell'ansa per la congestione",
+          "cor": null,
+          "loe": null,
+          "drugIds": [
+            "furosemide",
+            "torasemide",
+            "bumetanide"
+          ],
+          "note": "Non graduata. Bilancio volemico delicato: possibile ipotensione per fisiologia restrittiva."
+        }
+      ]
+    }
+  ]
+}
