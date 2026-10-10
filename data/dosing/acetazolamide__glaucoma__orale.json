@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "id": "acetazolamide__glaucoma__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Acetazolamide (Diamox) - RCP/monografie (informazionisuifarmaci, materdomini) e trial ADVOR: indicazioni edema da scompenso, glaucoma, epilessia; dose; ruolo nella decongestione dello scompenso acuto.",
+        "url": "https://www.informazionisuifarmaci.it/acetazolamide",
+        "identifier": "Acetazolamide RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "ADVOR - acetazolamide in aggiunta ai diuretici dell'ansa nello scompenso scompensato con sovraccarico di volume (NEJM 2022).",
+        "url": "https://www.empillsblog.com/un-colpo-al-cerchio-e-un-colpo-alla-botte/",
+        "identifier": "ADVOR",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "acetazolamide",
+  "indication": "glaucoma",
+  "scenario": "Glaucoma",
+  "route": "orale",
+  "dose": {
+    "initial": "250-1000 mg al giorno suddivisi in piu' dosi",
+    "acute": "nel glaucoma acuto ad angolo chiuso dosi piu' frequenti (contesto oculistico)",
+    "max": "1000 mg al giorno"
+  },
+  "administration": {
+    "notes": "Per la riduzione della pressione intraoculare; gestione oculistica."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

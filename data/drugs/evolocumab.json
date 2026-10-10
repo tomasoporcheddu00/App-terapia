@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "id": "evolocumab",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Evolocumab (Repatha) - RCP EMA/AIFA (EC Europa/Torrinomedica/informazionisuifarmaci): anticorpo anti-PCSK9 SC, dose 140 mg ogni 2 settimane o 420 mg/mese, HoFH, ASCVD; FOURIER.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/repatha-siringa-preriempita/",
+        "identifier": "Repatha RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Evolocumab",
+    "inn": "evolocumab",
+    "brandExamplesIt": [
+      "Repatha"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Anticorpo monoclonale anti-PCSK9 (sottocutaneo)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "pcsk9-inhibitors"
+  ],
+  "quickSummary": {
+    "whatItIs": "Anticorpo monoclonale iniettabile che blocca la PCSK9, aumentando i recettori delle LDL e riducendo fortemente il colesterolo LDL; per pazienti ad alto rischio o con ipercolesterolemia familiare.",
+    "mainUses": [
+      "Ipercolesterolemia primaria/familiare e dislipidemia mista (in aggiunta a statina o da solo se intollerante)",
+      "Malattia cardiovascolare aterosclerotica accertata (riduzione degli eventi)",
+      "Ipercolesterolemia familiare omozigote (>=12 anni)"
+    ],
+    "mainRisks": [
+      "Reazioni nel sito di iniezione",
+      "Rinofaringite/sintomi simil-influenzali"
+    ],
+    "essentialMonitoring": [
+      "Profilo lipidico",
+      "Tollerabilita' locale"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Adulti con ipercolesterolemia primaria (familiare eterozigote e non familiare) o dislipidemia mista, in aggiunta alla dieta: in associazione a una statina (+/- altre terapie) o da solo/in associazione se intollerante o con controindicazione alle statine",
+      "Malattia cardiovascolare aterosclerotica accertata, per ridurre il rischio di eventi cardiovascolari",
+      "Ipercolesterolemia familiare omozigote negli adulti e negli adolescenti >=12 anni (in associazione ad altre terapie ipolipemizzanti)"
+    ],
+    "guidelineIndications": [
+      "Da aggiungere quando l'obiettivo di LDL non e' raggiunto con statina alla massima dose tollerata +/- ezetimibe, o in intolleranza alle statine; riduzione degli eventi in prevenzione secondaria (FOURIER) - confermare su ESC/EAS"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti"
+    ],
+    "warnings": [
+      "Reazioni nel sito di iniezione (eritema, dolore, ematoma)",
+      "Reazioni di ipersensibilita' (rare)",
+      "Nessun aggiustamento nell'anziano o nell'insufficienza renale; nell'insufficienza epatica moderata-grave dati limitati"
+    ],
+    "adverseEffects": [
+      "Reazioni nel sito di iniezione",
+      "Rinofaringite, infezioni delle vie respiratorie superiori",
+      "Mialgie",
+      "Reazioni di ipersensibilita' (rare)"
+    ],
+    "overdose": "Non e' previsto un antidoto specifico; l'effetto e' reversibile alla sospensione.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento (anche nella compromissione severa i dati sono limitati).",
+      "hepatic": "Nessun aggiustamento nella lieve; dati limitati nella moderata-grave.",
+      "elderly": "Nessun aggiustamento.",
+      "pregnancy": "Da evitare salvo necessita' (IgG che attraversa la placenta).",
+      "breastfeeding": "Valutare rischio/beneficio."
+    },
+    "alternativeDrugIds": [
+      "alirocumab",
+      "inclisiran",
+      "ezetimibe"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Una puntura sottocute ogni due settimane (o una al mese) che abbassa moltissimo il colesterolo LDL bloccando una proteina chiamata PCSK9.",
+    "clinicalExplanation": "Anticorpo monoclonale umano IgG2 anti-PCSK9: impedisce alla PCSK9 di degradare i recettori LDL, aumentandone il riciclo e riducendo l'LDL-C ~50-60% in aggiunta alle statine. Riduzione degli eventi in ASCVD (FOURIER).",
+    "molecularExplanation": "Si lega alla PCSK9 circolante impedendone il legame al recettore delle LDL; il recettore non viene degradato e ricicla in superficie, aumentando la clearance delle LDL.",
+    "pharmacodynamics": "Soppressione della PCSK9 non legata entro 4 ore, nadir dell'LDL a 1-3 settimane; effetto reversibile alla sospensione.",
+    "molecularTarget": "PCSK9 (proproteina convertasi subtilisina/kexina tipo 9)",
+    "agonismAntagonism": "Antagonismo (neutralizzazione dell'anticorpo)",
+    "pharmacokinetics": {
+      "route": "Sottocutanea",
+      "halfLife": "~11-17 giorni",
+      "elimination": "Catabolismo proteico (saturabile a bassa concentrazione)"
+    },
+    "bibliography": [
+      "FOURIER (evolocumab in ASCVD) - da citare con fonte primaria"
+    ]
+  }
+}

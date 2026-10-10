@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "id": "direct-thrombin-inhibitors",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Pradaxa (dabigatran) - sez. 5.1 (inibizione diretta della trombina).",
+        "url": "https://www.torrinomedica.it/effetti-collaterali/pradaxa-effetti-collaterali/",
+        "identifier": "DOAC anti-IIa",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Schema del file di classe non definito nei template forniti: struttura proposta, da riconciliare con lo schema del progetto (classes/).",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": "Inibitori diretti della trombina (DOAC anti-IIa)",
+  "memberDrugIds": [
+    "dabigatran",
+    "bivalirudin"
+  ],
+  "atcGroup": "B01AE",
+  "mechanismSummary": "Inibiscono in modo diretto e reversibile la trombina (fattore IIa), libera e legata al coagulo, impedendo la conversione del fibrinogeno in fibrina e l'attivazione piastrinica trombina-mediata.",
+  "molecularTarget": "Trombina (fattore IIa)",
+  "pharmacodynamics": "Effetto anticoagulante prevedibile a dose fissa; dabigatran e' un profarmaco (dabigatran etexilato) a eliminazione prevalentemente renale.",
+  "classEffects": [
+    "Anticoagulazione orale senza monitoraggio routinario",
+    "Eliminazione renale rilevante (controindicato con CrCl <30)",
+    "Inattivatore specifico disponibile (idarucizumab)"
+  ],
+  "sharedContraindications": [
+    "Insufficienza renale grave (CrCl <30 mL/min)",
+    "Sanguinamento in atto",
+    "Protesi valvolari meccaniche",
+    "Inibitori forti della P-gp"
+  ],
+  "sharedAdverseEffects": [
+    "Emorragia (in particolare GI)",
+    "Dispepsia"
+  ],
+  "monitoring": [
+    "Funzione renale (CrCl)",
+    "Segni di sanguinamento"
+  ],
+  "reversal": "Idarucizumab (inattivatore specifico); il dabigatran e' inoltre dializzabile.",
+  "notesOnClassVsMolecule": "Attualmente in questa classe rientra dabigatran tra i DOAC orali. Differenza chiave rispetto agli anti-Xa: bersaglio (trombina) e maggiore dipendenza dalla clearance renale."
+}

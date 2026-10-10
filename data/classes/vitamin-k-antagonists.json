@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "id": "vitamin-k-antagonists",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Coumadin (warfarin) e Sintrom (acenocumarolo) - sez. 5.1 (meccanismo VKA).",
+        "url": "https://www.codifa.it/farmaci/c/coumadin-warfarin-sodico-anticoagulanti-orali-indiretti",
+        "identifier": "VKA",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Schema del file di classe non definito nei template forniti: struttura proposta, da riconciliare con il vocabolario/schema del progetto (classes/).",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": "Antagonisti della vitamina K (VKA)",
+  "memberDrugIds": [
+    "warfarin",
+    "acenocoumarol"
+  ],
+  "atcGroup": "B01AA",
+  "mechanismSummary": "Inibiscono la vitamina K epossido-reduttasi (VKORC1), impedendo il riciclo della vitamina K necessaria alla gamma-carbossilazione dei fattori II, VII, IX, X e delle proteine anticoagulanti C ed S.",
+  "molecularTarget": "Vitamina K epossido-reduttasi (VKORC1)",
+  "pharmacodynamics": "Riduzione progressiva dei fattori vitamina K-dipendenti; effetto anticoagulante ritardato di alcuni giorni; monitoraggio con PT/INR e dose individualizzata.",
+  "classEffects": [
+    "Anticoagulazione orale monitorabile con INR",
+    "Finestra terapeutica stretta",
+    "Ampia variabilita' inter-individuale (genetica CYP2C9/VKORC1, dieta, interazioni)"
+  ],
+  "sharedContraindications": [
+    "Gravidanza (teratogenicita')",
+    "Sanguinamento/diatesi emorragica",
+    "Ipertensione grave non controllata",
+    "Impossibilita' di monitoraggio INR affidabile"
+  ],
+  "sharedAdverseEffects": [
+    "Emorragia",
+    "Rara necrosi cutanea (deficit proteina C/S)"
+  ],
+  "monitoring": [
+    "PT/INR periodico"
+  ],
+  "reversal": "Vitamina K1 (fitomenadione); concentrati di complesso protrombinico o plasma nelle emorragie gravi.",
+  "notesOnClassVsMolecule": "Warfarin e acenocumarolo differiscono per emivita (warfarin piu' lungo). I VKA sono l'unica opzione orale nelle protesi valvolari meccaniche (i DOAC sono controindicati)."
+}

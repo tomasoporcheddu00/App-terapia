@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "id": "omega3",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Omega-3 (icosapent etile/EPA purificato): sintesi da RCP EMA/AIFA.",
+        "url": "https://www.ema.europa.eu/it/documents/overview/vazkepa-epar-medicine-overview_it.pdf",
+        "identifier": "Omega-3 classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP EMA/AIFA; confermare su RCP ufficiali e linee guida ESC/EAS."
+  },
+  "name": "Acidi grassi omega-3",
+  "atcGroup": "C10AX06 (icosapent etile)",
+  "memberDrugIds": [
+    "icosapent-ethyl"
+  ],
+  "mechanismSummary": "Acidi grassi omega-3 (nel caso dell'icosapent etile, EPA purificato) che riducono i trigliceridi e, per l'EPA ad alta purezza, riducono gli eventi cardiovascolari nei pazienti ad alto rischio in statina.",
+  "molecularTarget": "Metabolismo delle lipoproteine ricche di trigliceridi",
+  "pharmacodynamics": "Riduzione dei trigliceridi; riduzione degli eventi cardiovascolari (EPA purificato, REDUCE-IT).",
+  "classEffects": [
+    "Riduzione dei trigliceridi",
+    "Riduzione degli eventi cardiovascolari (EPA purificato in pazienti ad alto rischio in statina)"
+  ],
+  "sharedContraindications": [
+    "Ipersensibilita'",
+    "Cautela in allergia a pesce/crostacei"
+  ],
+  "sharedAdverseEffects": [
+    "Fibrillazione/flutter atriale",
+    "Aumento del rischio di sanguinamento",
+    "Disturbi gastrointestinali"
+  ],
+  "monitoring": [
+    "Trigliceridi",
+    "Segni di fibrillazione atriale",
+    "Segni di sanguinamento"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Classe rappresentata dall'icosapent etile (EPA purificato): a differenza dei preparati omega-3 misti EPA/DHA, ha mostrato un beneficio sugli eventi cardiovascolari (REDUCE-IT), con l'avvertenza di fibrillazione atriale e rischio emorragico. Dettagli nella scheda."
+}

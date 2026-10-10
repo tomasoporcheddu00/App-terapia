@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "id": "alteplase",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Alteplase (Actilyse) - RCP EMA/AIFA (Torrinomedica/Codifa): rt-PA fibrino-specifico; IMA, embolia polmonare massiva, ictus ischemico acuto; max 100 mg.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/actilyse/",
+        "identifier": "Actilyse RCP",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (EMA/EC, Banca Dati AIFA, portali Mediately/Codifa/Torrinomedica): indicazioni, posologia, controindicazioni, avvertenze, interazioni. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; PK parziale. Stato: revisione fonti (source-review), non ancora approvato. Trombolitici: dosi ad alto rischio, da adattare a indicazione, peso e protocolli locali. Fibrino-specifico; nell'IMA in gran parte sostituito dal tenecteplase (bolo unico) dove disponibile; resta di riferimento nell'ictus ischemico.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Alteplase",
+    "inn": "alteplase (rt-PA)",
+    "brandExamplesIt": [
+      "Actilyse"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Trombolitico fibrino-specifico (attivatore tissutale del plasminogeno)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "fibrinolytics"
+  ],
+  "quickSummary": {
+    "whatItIs": "Attivatore tissutale del plasminogeno ricombinante (rt-PA): scioglie i trombi convertendo il plasminogeno in plasmina, con relativa specificita' per la fibrina. Usato in urgenza per infarto, embolia polmonare massiva e ictus ischemico.",
+    "mainUses": [
+      "Infarto miocardico acuto (trombolisi)",
+      "Embolia polmonare massiva acuta con instabilita' emodinamica",
+      "Ictus ischemico acuto (entro 4,5 h, esclusa emorragia)"
+    ],
+    "mainRisks": [
+      "Emorragia, inclusa emorragia intracranica",
+      "Aritmie da riperfusione (IMA)",
+      "Angioedema (specie con ACE-inibitori)"
+    ],
+    "essentialMonitoring": [
+      "Segni di sanguinamento (neurologici, pressione)",
+      "ECG (aritmie da riperfusione)",
+      "Parametri coagulativi; pressione arteriosa"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento trombolitico dell'infarto miocardico acuto",
+      "Trattamento trombolitico dell'embolia polmonare massiva acuta con instabilita' emodinamica",
+      "Trattamento fibrinolitico dell'ictus ischemico acuto (entro 4,5 ore dall'esordio, dopo aver escluso l'emorragia intracranica)"
+    ],
+    "guidelineIndications": [
+      "Nell'ictus ischemico: iniziare il prima possibile ed entro 4,5 h; escludere l'emorragia intracranica; 0,9 mg/kg (max 90 mg) - RCP/linee guida",
+      "Nell'IMA la fibrinolisi e' alternativa alla PCI primaria quando questa non e' eseguibile entro 120 min - ESC 2023"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Emorragia in atto o disturbo emorragico noto (attuale o negli ultimi 6 mesi); diatesi emorragica",
+      "Terapia anticoagulante orale efficace in corso (es. warfarin con INR terapeutico)",
+      "Lesioni del sistema nervoso centrale (neoplasia, aneurisma, chirurgia cerebrale/spinale)",
+      "Ipertensione arteriosa grave non controllata",
+      "Chirurgia maggiore, trauma o puntura di vaso non comprimibile recenti; recente massaggio cardiaco esterno traumatico/parto",
+      "Pericardite acuta, endocardite batterica",
+      "Pancreatite acuta",
+      "Ulcera peptica documentata, varici esofagee, aneurisma arterioso, malformazioni artero-venose",
+      "Epatopatia grave (insufficienza epatica, cirrosi, ipertensione portale, epatite attiva)",
+      "Neoplasia con aumentato rischio emorragico",
+      "Ictus emorragico o ictus di origine ignota (anamnesi)",
+      "Per l'indicazione ictus: sintomi >4,5 h o esordio ignoto, deficit lieve/in rapido miglioramento o ictus grave, crisi convulsiva all'esordio, emorragia alla TC, glicemia <50 o >400 mg/dL, PA >185/110 non controllabile, piastrine <100.000, ictus pregresso + diabete o ictus <3 mesi"
+    ],
+    "warnings": [
+      "L'emorragia (specie intracranica) e' il rischio principale: non superare i 100 mg (dosi maggiori aumentano l'emorragia intracranica); monitorare i segni neurologici e di sanguinamento",
+      "Nell'ictus escludere sempre l'emorragia intracranica con imaging prima del trattamento; controllare rigorosamente la pressione arteriosa",
+      "Aritmie da riperfusione nell'IMA (predisporre il trattamento antiaritmico); evitare punture di vasi non comprimibili e iniezioni IM",
+      "Angioedema orolinguale (rischio aumentato con ACE-inibitori nell'ictus); reazioni di ipersensibilita'"
+    ],
+    "adverseEffects": [
+      "Emorragia (sede di iniezione, gastrointestinale, genitourinaria, ecchimosi, emorragia intracranica/cerebrale nell'ictus)",
+      "Aritmie da riperfusione (IMA)",
+      "Ipotensione",
+      "Nausea, vomito, febbre",
+      "Reazioni di ipersensibilita'/angioedema"
+    ],
+    "overdose": "Il sovradosaggio aumenta il rischio emorragico; in caso di emorragia grave interrompere l'infusione, ripristinare la volemia e considerare antifibrinolitici (es. acido tranexamico) e/o fattori della coagulazione/fibrinogeno.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico.",
+      "hepatic": "Controindicato nell'epatopatia grave.",
+      "elderly": "Maggiore rischio emorragico; valutare rischio/beneficio.",
+      "pregnancy": "Solo se il beneficio supera il rischio.",
+      "breastfeeding": "Cautela."
+    },
+    "alternativeDrugIds": [
+      "tenecteplase"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' un 'scioglitrombi' (trombolitico): attiva la plasmina che dissolve il coagulo. Si usa in urgenza nell'infarto, nell'embolia polmonare grave e nell'ictus ischemico. Il rischio principale e' il sanguinamento, soprattutto cerebrale.",
+    "clinicalExplanation": "rt-PA ricombinante fibrino-specifico: lega preferenzialmente la fibrina del trombo e converte il plasminogeno associato in plasmina (fibrinolisi locale con proteolisi sistemica limitata). Emivita breve. Tre indicazioni con schemi diversi (IMA, EP massiva, ictus 0,9 mg/kg).",
+    "molecularExplanation": "Serina proteasi che, legata alla fibrina, converte il plasminogeno in plasmina, che degrada la fibrina del coagulo.",
+    "pharmacodynamics": "Fibrinolisi con relativa selettivita' per la fibrina; deplezione sistemica del fibrinogeno inferiore ai trombolitici non selettivi.",
+    "molecularTarget": "Plasminogeno (conversione in plasmina, fibrino-mediata)",
+    "agonismAntagonism": "Attivatore del plasminogeno (fibrinolitico)",
+    "pharmacokinetics": {
+      "route": "Endovenosa (bolo + infusione)",
+      "halfLife": "Iniziale ~4-5 minuti (clearance epatica rapida)",
+      "note": "Max 100 mg per ciclo"
+    },
+    "bibliography": []
+  }
+}

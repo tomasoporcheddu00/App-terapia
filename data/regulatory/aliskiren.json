@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "aliskiren",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Banca Dati AIFA - aliskiren (Rasilez): classe A, ricetta RR.",
+        "url": "https://medisoc.it/scheda-aliskiren/",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Prescrivibilita' da portale su base Banca Dati AIFA; confermare sul prontuario AIFA aggiornato."
+  },
+  "drugId": "aliskiren",
+  "authorisation": "Nazionale (AIFA)",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RR (ricetta ripetibile)",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Farmacia (convenzionata)",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

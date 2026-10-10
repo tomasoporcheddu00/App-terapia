@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "adrenaline__cardiac-arrest__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Adrenalina/epinefrina - RCP (Codifa/Mediately/Torrinomedica su base AIFA): alfa+beta-agonista; arresto cardiaco (1 mg EV), anafilassi (0,5 mg IM), shock; EV solo da esperti.",
+        "url": "https://mediately.co/it/drugs/7iqOAuVhUkF2xmQFr1U8BY8vvTi/adrenalina-aguettant-1-mg-10-ml-1-10-000-soluzione-iniettabile",
+        "identifier": "Adrenalina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Agente vasoattivo: titolare con monitoraggio emodinamico continuo; confermare dose e diluizione."
+  },
+  "drugId": "adrenaline",
+  "indication": "cardiac-arrest",
+  "scenario": "Arresto cardiaco / anafilassi / shock",
+  "route": "endovenosa",
+  "dose": {
+    "arrest": "1 mg EV/IO (10 mL di soluzione 1:10.000) ogni 3-5 minuti fino al ritorno della circolazione",
+    "anaphylaxisIM": "0,5 mg IM (0,5 mL di soluzione 1:1000) nel terzo medio antero-laterale della coscia, ripetibile ogni 5 minuti",
+    "shockInfusion": "infusione EV titolata (es. 0,01-0,5 mcg/kg/min) da personale esperto"
+  },
+  "administration": {
+    "notes": "Arresto: bolo EV/IO. Anafilassi: IM di prima scelta. Infusione: solo con monitoraggio. Non miscelare con soluzioni alcaline."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

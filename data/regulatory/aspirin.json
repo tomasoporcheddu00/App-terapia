@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "id": "aspirin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": "Curatore clinico",
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": "2026-07-19",
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP/scheda Cardioaspirin 100 mg (acido acetilsalicilico), Bayer S.p.A. - regime di fornitura RR.",
+        "url": "https://www.codifa.it/farmaci/c/cardioaspirin-acido-acetilsalicilico-antiaggreganti-piastrinici-antipiretici-analgesici-fans",
+        "identifier": "Cardioaspirin 100 mg",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Regime di fornitura RR confermato dalla scheda. Classe di rimborsabilita' (variabile per confezione/indicazione), AIC, note ed eventuale distinzione prevenzione primaria/secondaria da verificare su banca dati AIFA.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "aspirin",
+  "authorisation": "Autorizzato a livello nazionale in Italia (piu' specialita', es. Cardioaspirin).",
+  "marketed": true,
+  "reimbursementClass": null,
+  "supplyRegime": "RR (per la specialita' Cardioaspirin 100 mg)",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "registry": null,
+  "distribution": null,
+  "law648_1996": false,
+  "prescriberRestrictions": null,
+  "availableFormulations": [
+    "compresse gastroresistenti 100 mg"
+  ],
+  "verificationDate": "2026-07-18"
+}

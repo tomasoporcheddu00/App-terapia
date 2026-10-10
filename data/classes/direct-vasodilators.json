@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Vasodilatatori diretti orali (idralazina, minoxidil): sintesi da RCP/monografie.",
+        "url": "https://www.codifa.it/farmaci/l/loniten-minoxidil-vasodilatatori-diretti",
+        "identifier": "Vasodilatatori diretti classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP; confermare su RCP ufficiali e linee guida ESC.",
+    "id": "direct-vasodilators"
+  },
+  "name": "Vasodilatatori diretti orali",
+  "atcGroup": "C02D",
+  "memberDrugIds": [
+    "hydralazine",
+    "minoxidil"
+  ],
+  "mechanismSummary": "Rilassamento diretto della muscolatura liscia arteriolare: idralazina (meccanismo non del tutto chiarito) e minoxidil (apertura dei canali del potassio ATP-sensibili), con riduzione delle resistenze arteriolari e attivazione simpatica riflessa.",
+  "molecularTarget": "Muscolatura liscia arteriolare (canali del potassio ATP-sensibili per il minoxidil)",
+  "pharmacodynamics": "Riduzione delle resistenze arteriolari e della pressione; tachicardia riflessa e ritenzione idrosalina.",
+  "classEffects": [
+    "Potente riduzione della pressione (add-on/refrattaria)",
+    "Tachicardia riflessa (richiede un betabloccante)",
+    "Ritenzione idrosalina (richiede un diuretico)"
+  ],
+  "sharedContraindications": [
+    "Feocromocitoma (minoxidil)",
+    "Cardiopatia ischemica grave / aneurisma dissecante e LES per l'idralazina",
+    "Ipersensibilita'"
+  ],
+  "sharedAdverseEffects": [
+    "Tachicardia riflessa/angina",
+    "Ritenzione idrica/edema",
+    "Effetti specifici (lupus farmaco-indotto per l'idralazina; versamento pericardico e ipertricosi per il minoxidil)"
+  ],
+  "monitoring": [
+    "Pressione e frequenza cardiaca",
+    "Bilancio idrico/peso",
+    "Monitoraggi specifici (ANA per l'idralazina; ecocardiogramma per il minoxidil)"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "L'idralazina (vasodilatatore arteriolare) e' usata come add-on, nell'emergenza ipertensiva in gravidanza e (con i nitrati) nello scompenso, con il rischio di lupus farmaco-indotto. Il minoxidil e' un vasodilatatore molto potente riservato all'ipertensione grave refrattaria, sempre in triplice associazione (diuretico dell'ansa + simpaticolitico), con ritenzione idrica, versamento pericardico e ipertricosi come effetti caratteristici. Entrambi richiedono un betabloccante per la tachicardia riflessa e un diuretico per la ritenzione. Dettagli nelle singole schede."
+}

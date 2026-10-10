@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "id": "aliskiren",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Aliskiren (Rasilez) - RCP EMA/AIFA (EMA/medisoc/informazionisuifarmaci): inibitore diretto della renina, ipertensione essenziale; 150-300 mg; controindicata l'associazione con ACE-i/sartani nel diabete o insufficienza renale (ALTITUDE); gravidanza.",
+        "url": "https://medisoc.it/scheda-aliskiren/",
+        "identifier": "Rasilez RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "aliskiren",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Ciclosporina, itraconazolo (potenti inibitori della glicoproteina P)",
+      "effect": "Aumento marcato dei livelli di aliskiren",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "contraindicated",
+      "agent": "ACE-inibitori o sartani (nel diabete o insufficienza renale)",
+      "effect": "Iperkaliemia, ipotensione, peggioramento renale (ALTITUDE)",
+      "management": "Associazione controindicata in diabete/IR; non raccomandata in generale"
+    },
+    {
+      "severity": "major",
+      "agent": "Risparmiatori di potassio / integratori di potassio / FANS",
+      "effect": "Iperkaliemia; riduzione dell'effetto e rischio renale (FANS)",
+      "management": "Monitorare potassiemia e funzione renale"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Furosemide",
+      "effect": "Riduzione dei livelli di furosemide",
+      "management": "Monitorare l'effetto diuretico"
+    }
+  ]
+}

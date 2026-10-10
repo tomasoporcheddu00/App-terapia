@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "candesartan__chronic-heart-failure__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Candesartan cilexetil - RCP (rese da Mediately/Codifa/Torrinomedica su base AIFA): indicazioni, posologia §4.2, controindicazioni §4.3; ATC C09CA06.",
+        "url": "https://mediately.co/it/drugs/GmtUE56ZuiY7WhAoOYpUrpOKpWv/candesartan-sandoz-16-mg-compresse-divisibili",
+        "identifier": "Candesartan RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "candesartan",
+  "indication": "chronic-heart-failure",
+  "scenario": "Scompenso cardiaco (FE <=40%)",
+  "route": "orale",
+  "dose": {
+    "initial": "4 mg una volta al giorno",
+    "titration": "raddoppio a intervalli di almeno 2 settimane fino alla dose target",
+    "maintenance": "32 mg una volta al giorno (o massima dose tollerata)",
+    "max": "32 mg al giorno"
+  },
+  "administration": {
+    "notes": "Monitorare creatinina e potassio durante la titolazione, specie negli anziani e nei nefropatici."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "id": "sacubitril-valsartan",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Entresto (sacubitril/valsartan) - RCP/EPAR (EMA, Torrinomedica, Codifa, AIFA): indicazione HFrEF, titolazione, washout 36h dagli ACE-inibitori, controindicazioni.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/entresto/",
+        "identifier": "Entresto RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "epar",
+        "citation": "EMA/AIFA - Entresto: comunicato e caratteristiche del prodotto.",
+        "url": "https://www.aifa.gov.it/en/-/l-ema-raccomanda-sacubitril-valsartan-per-il-trattamento-dell-insufficienza-cardiaca",
+        "identifier": "Entresto EPAR",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Sacubitril/valsartan (Entresto/Neparvis) - RCP EMA/EPAR, paragrafo 5.2: emivite sacubitril ~1,4 ore, LBQ657 ~11,5 ore, valsartan ~9,9 ore.",
+        "url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03300427/Prot_000.pdf",
+        "identifier": "RCP EMA/EPAR - farmacocinetica",
+        "retrievedAt": "2026-07-25"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA / EPAR EMA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Il valsartan contenuto in Entresto non e' bioequivalente al valsartan in monocomponente (biodisponibilita' maggiore).",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Sacubitril/valsartan",
+    "inn": "sacubitril + valsartan",
+    "brandExamplesIt": [
+      "Entresto"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Inibitore della neprilisina + antagonista AT1 (ARNI)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "arni"
+  ],
+  "quickSummary": {
+    "whatItIs": "Associazione precostituita di un inibitore della neprilisina (sacubitril -> LBQ657) e di un sartano (valsartan): potenzia i peptidi natriuretici e blocca il recettore AT1.",
+    "mainUses": [
+      "Scompenso cardiaco cronico sintomatico a frazione d'eiezione ridotta"
+    ],
+    "mainRisks": [
+      "Ipotensione",
+      "Iperkaliemia",
+      "Peggioramento della funzione renale",
+      "Angioedema"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa",
+      "Potassio sierico",
+      "Funzione renale",
+      "NT-proBNP (non il BNP)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Scompenso cardiaco cronico sintomatico con frazione d'eiezione ridotta, nell'adulto"
+    ],
+    "guidelineIndications": [
+      "Superiore all'enalapril nel ridurre mortalita' cardiovascolare e ospedalizzazioni (PARADIGM-HF); raccomandato in sostituzione dell'ACE-inibitore/ARB nell'HFrEF sintomatico (confermare su ESC)"
+    ],
+    "absoluteContraindications": [
+      "Uso concomitante con un ACE-inibitore (rischio di angioedema): non iniziare prima di 36 ore dall'ultima dose di ACE-inibitore e viceversa",
+      "Anamnesi di angioedema (da ACE-inibitore/ARB, ereditario o idiopatico)",
+      "Grave insufficienza epatica, cirrosi biliare e colestasi",
+      "Secondo e terzo trimestre di gravidanza",
+      "Uso concomitante con aliskiren in diabete o insufficienza renale (GFR <60)",
+      "Ipersensibilita' ai principi attivi o agli eccipienti"
+    ],
+    "warnings": [
+      "Non iniziare se potassio >5,3 mmol/L o pressione sistolica <100 mmHg",
+      "Ipotensione: correggere l'ipovolemia prima dell'avvio; usare la dose iniziale ridotta se eGFR <60, epatopatia moderata, anziano o basse dosi/assenza di precedente ACE-i/ARB",
+      "Iperkaliemia; monitorare il potassio",
+      "Peggioramento della funzione renale: monitorare",
+      "Angioedema: sospendere; maggiore suscettibilita' nei pazienti di razza nera",
+      "Non associare a un altro ARB",
+      "Per il monitoraggio usare NT-proBNP: il BNP e' substrato della neprilisina e risulta aumentato"
+    ],
+    "adverseEffects": [
+      "Ipotensione",
+      "Iperkaliemia",
+      "Insufficienza/peggioramento renale",
+      "Angioedema",
+      "Capogiro",
+      "Tosse (meno che con gli ACE-inibitori)"
+    ],
+    "overdose": "Il sovradosaggio si manifesta prevalentemente con ipotensione; trattamento sintomatico e di supporto.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "eGFR <60: iniziare a dose ridotta (24/26 mg due volte/die); esperienza limitata con eGFR <30; monitorare.",
+      "hepatic": "Epatopatia moderata (Child-Pugh B): dose iniziale ridotta; controindicato nella grave.",
+      "elderly": "Dose iniziale ridotta consigliata.",
+      "pregnancy": "Controindicato nel 2o-3o trimestre; evitare in gravidanza.",
+      "breastfeeding": "Non raccomandato."
+    },
+    "alternativeDrugIds": [
+      "valsartan",
+      "candesartan",
+      "ramipril"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Due farmaci in uno: potenzia gli ormoni 'buoni' che scaricano acqua e sale e blocca quelli che affaticano il cuore; migliora prognosi e sintomi nello scompenso.",
+    "clinicalExplanation": "ARNI: sacubitril (via LBQ657) inibisce la neprilisina aumentando i peptidi natriuretici, valsartan blocca l'AT1. Sostituisce l'ACE-inibitore/ARB nell'HFrEF sintomatico; obbligatorio il washout di 36 ore dagli ACE-inibitori per il rischio di angioedema.",
+    "molecularExplanation": "LBQ657 (metabolita attivo del sacubitril) inibisce la neprilisina (endopeptidasi neutra); valsartan antagonizza il recettore AT1.",
+    "pharmacodynamics": "Aumento dei peptidi natriuretici e di altri substrati vasoattivi con simultaneo blocco del RAAS; effetto natriuretico/vasodilatatore e anti-rimodellamento.",
+    "molecularTarget": "Neprilisina (via LBQ657) e recettore AT1 (valsartan)",
+    "agonismAntagonism": "Inibizione enzimatica (neprilisina) + antagonismo recettoriale (AT1)",
+    "pharmacokinetics": {
+      "metabolism": "Sacubitril attivato a LBQ657; valsartan scarsamente metabolizzato",
+      "elimination": "Renale e biliare",
+      "activeMetabolites": [
+        "LBQ657"
+      ],
+      "notes": "Il valsartan in Entresto ha biodisponibilita' maggiore del valsartan in monocomponente",
+      "halfLife": "Sacubitril (profarmaco) ~1,4 ore; metabolita attivo sacubitrilato/LBQ657 (inibitore della neprilisina) ~11,5 ore; valsartan ~9,9 ore"
+    },
+    "bibliography": [
+      "PARADIGM-HF (sacubitril/valsartan vs enalapril) - da citare con fonte primaria"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "mannitol",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Banca Dati AIFA - mannitolo 18%: soluzione per infusione, diuretico osmotico.",
+        "url": "https://www.codifa.it/farmaci/m/mannitolo-18-eurospital-mannitolo-soluzioni-endovena-diuretici-osmotici",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Prescrivibilita' da portale su base Banca Dati AIFA/EMA; confermare sul prontuario aggiornato."
+  },
+  "drugId": "mannitol",
+  "authorisation": "EMA/Nazionale",
+  "marketed": true,
+  "reimbursementClass": "C",
+  "supplyRegime": "RR",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Ospedaliera/farmacia",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "urapidil",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Urapidil (Ebrantil) - RCP (Codifa/Mediately/Torrinomedica su base AIFA): alfa-1 bloccante + agonista centrale 5-HT1A, urgenze/emergenze ipertensive e ipertensione resistente; EV bolo/infusione; controindicato in coartazione aortica/shunt AV.",
+        "url": "https://www.codifa.it/farmaci/u/urapidil-kalceks-urapidil-alfabloccanti",
+        "identifier": "Ebrantil RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "urapidil",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Altri antipertensivi / alcol",
+      "effect": "Potenziamento dell'effetto ipotensivo",
+      "management": "Attendere l'esaurimento dell'effetto del precedente; monitorare"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Cimetidina",
+      "effect": "Aumento dei livelli di urapidil",
+      "management": "Cautela"
+    }
+  ]
+}

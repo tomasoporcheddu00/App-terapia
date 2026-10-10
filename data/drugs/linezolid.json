@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "id": "linezolid",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "SCOPO DELLA SCHEDA: in questo atlante cardiologico gli antibiotici sono trattati SOLO per il ruolo nell'endocardite infettiva; per ogni altro impiego fare riferimento all'RCP e alla consulenza infettivologica. Regimi sintetizzati dalle linee guida ESC 2023 sull'endocardite (tabelle 7-10) tramite fonti secondarie e dal position statement SPILF-AEPEI: DA CONFERMARE sul testo integrale delle linee guida e sul corrigendum 2025, che ha corretto le dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10. La scelta di molecola, dose e durata dipende da patogeno, MIC, tipo di valvola (nativa o protesica) e funzione renale, e va concordata con l'Endocarditis Team. Stato: revisione fonti (source-review). Ruolo nell'endocardite: la scelta e la durata dipendono da patogeno, MIC e tipo di valvola. Verificare sempre le tabelle ESC 2023 aggiornate al corrigendum e concordare con l'Endocarditis Team.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Linezolid",
+    "inn": "linezolid",
+    "brandExamplesIt": [
+      "Zyvoxid"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Ossazolidinone",
+  "identity": {
+    "atcCodes": [
+      "J01XX08"
+    ],
+    "formulations": [
+      "Compresse",
+      "Soluzione per infusione"
+    ],
+    "potentialRoutes": [
+      "endovenosa",
+      "orale"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "oxazolidinones"
+  ],
+  "quickSummary": {
+    "whatItIs": "Ossazolidinone batteriostatico sui Gram-positivi con biodisponibilita' orale pressoche' completa. Nell'endocardite e' un'opzione di seconda linea in situazioni selezionate, non un trattamento di riferimento.",
+    "mainUses": [
+      "Endocardite da Gram-positivi resistenti o in caso di intolleranza alle opzioni di prima linea, in situazioni selezionate"
+    ],
+    "mainRisks": [
+      "Mielotossicita' (trombocitopenia, anemia) con i trattamenti oltre le 2 settimane",
+      "Neuropatia ottica e periferica nei trattamenti prolungati",
+      "Sindrome serotoninergica con gli antidepressivi (e' un inibitore reversibile delle MAO)",
+      "Acidosi lattica"
+    ],
+    "essentialMonitoring": [
+      "Emocromo settimanale (soprattutto dopo la seconda settimana)",
+      "Sintomi visivi e neurologici periferici",
+      "Sintomi di sindrome serotoninergica se in terapia con antidepressivi"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Polmonite nosocomiale e acquisita in comunita' e infezioni complicate della cute e dei tessuti molli da Gram-positivi sensibili, secondo la scheda tecnica"
+    ],
+    "guidelineIndications": [
+      "Nell'endocardite e' un'opzione di seconda linea: e' batteriostatico, mentre nell'endocardite si preferiscono farmaci battericidi. Nella pratica e' considerato nei pazienti con funzione renale instabile o intolleranza a vancomicina e daptomicina, su decisione specialistica",
+      "La biodisponibilita' orale pressoche' completa lo rende utile nei percorsi di passaggio alla via orale, coerentemente con l'apertura delle linee guida ESC 2023 alla terapia orale parziale nei pazienti stabili e senza complicanze (studio POET)"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al linezolid",
+      "Associazione con inibitori delle monoaminossidasi (vedere RCP)"
+    ],
+    "warnings": [
+      "MIELOTOSSICITA' dose- e tempo-dipendente: trombocitopenia e anemia, soprattutto oltre le 2 settimane di trattamento e nell'insufficienza renale. Emocromo settimanale",
+      "NEUROPATIA OTTICA e periferica nei trattamenti prolungati: talvolta irreversibile la periferica. Chiedere di disturbi visivi e parestesie",
+      "SINDROME SEROTONINERGICA: il linezolid e' un inibitore reversibile delle monoaminossidasi; attenzione con SSRI, SNRI, triciclici, triptani e altri serotoninergici",
+      "Acidosi lattica da tossicita' mitocondriale",
+      "Crisi ipertensive con alimenti ricchi di tiramina e con simpaticomimetici (effetto MAO-inibitorio)"
+    ],
+    "adverseEffects": [
+      "Trombocitopenia e anemia",
+      "Neuropatia ottica e periferica",
+      "Diarrea, nausea, cefalea",
+      "Acidosi lattica",
+      "Sindrome serotoninergica in associazione a farmaci serotoninergici"
+    ],
+    "overdose": "Il sovradosaggio comporta rischio di tossicita' ematologica e neurologica. Terapia di supporto; il linezolid e' parzialmente rimosso dall'emodialisi.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento sistematico della dose, ma maggiore rischio di mielotossicita': monitoraggio ematologico piu' stretto.",
+      "hepatic": "Consultare l'RCP.",
+      "elderly": "Rischio mielotossico aumentato.",
+      "pregnancy": "Consultare l'RCP.",
+      "breastfeeding": "Consultare l'RCP."
+    },
+    "alternativeDrugIds": [
+      "daptomycin",
+      "vancomycin",
+      "ceftaroline"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Ha il vantaggio di funzionare anche in compresse, ma dopo due settimane puo' abbassare piastrine ed emoglobina, e non va combinato con molti antidepressivi.",
+    "clinicalExplanation": "Ossazolidinone batteriostatico attivo sui Gram-positivi multiresistenti, con biodisponibilita' orale pressoche' completa. Nell'endocardite non e' un trattamento di riferimento perche' batteriostatico, ma e' considerato in seconda linea (funzione renale instabile, intolleranza a vancomicina o daptomicina) e nei percorsi di passaggio alla via orale. Tre criticita' governano l'uso: mielotossicita' oltre le due settimane, neuropatia ottica e periferica, e sindrome serotoninergica per l'attivita' MAO-inibitoria reversibile.",
+    "molecularExplanation": "Si lega alla subunita' ribosomiale 50S impedendo la formazione del complesso di inizio 70S e quindi l'avvio della sintesi proteica.",
+    "pharmacodynamics": "Batteriostatico sui Gram-positivi; ottima penetrazione tissutale.",
+    "molecularTarget": "Subunita' ribosomiale batterica 50S (sito di inizio della traduzione)",
+    "agonismAntagonism": "Inibizione della sintesi o della funzione batterica",
+    "pharmacokinetics": {
+      "route": "Endovenosa e orale (biodisponibilita' orale pressoche' completa)",
+      "halfLife": "Circa 5-7 ore",
+      "note": "Metabolismo non enzimatico per ossidazione; inibitore reversibile delle monoaminossidasi"
+    },
+    "bibliography": []
+  }
+}

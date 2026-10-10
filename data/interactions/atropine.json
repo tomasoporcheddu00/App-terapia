@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "atropine",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Atropina solfato - RCP (Torrinomedica/Starbene/Mediately su base AIFA): antimuscarinico, bradicardia sinusale/blocco AV da ipertono vagale, antidoto negli avvelenamenti da organofosforici; controindicazioni anticolinergiche non pertinenti in emergenza.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/atropina/",
+        "identifier": "Atropina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "atropine",
+  "items": [
+    {
+      "severity": "moderate",
+      "agent": "Altri farmaci anticolinergici (antidepressivi triciclici, antistaminici, disopiramide, fenotiazine, clozapina, chinidina)",
+      "effect": "Potenziamento degli effetti anticolinergici",
+      "management": "Cautela (ritenzione urinaria, stipsi, secchezza)"
+    },
+    {
+      "severity": "minor",
+      "agent": "Procainamide",
+      "effect": "Effetto vagolitico additivo sulla conduzione AV",
+      "management": "Cautela"
+    }
+  ]
+}

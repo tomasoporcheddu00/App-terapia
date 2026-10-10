@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "id": "factor-xa-inhibitors",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Eliquis (apixaban), Lixiana (edoxaban), Xarelto (rivaroxaban) - sez. 5.1 (inibizione diretta del fattore Xa).",
+        "url": "https://www.medicines.org.uk/emc/product/2878/smpc",
+        "identifier": "DOAC anti-Xa",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Schema del file di classe non definito nei template forniti: struttura proposta, da riconciliare con lo schema del progetto (classes/).",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": "Inibitori diretti del fattore Xa (DOAC anti-Xa)",
+  "memberDrugIds": [
+    "apixaban",
+    "edoxaban",
+    "rivaroxaban"
+  ],
+  "atcGroup": "B01AF",
+  "mechanismSummary": "Inibiscono in modo diretto, reversibile e selettivo il fattore Xa (libero e legato al complesso protrombinasico), riducendo la generazione di trombina; non richiedono antitrombina III.",
+  "molecularTarget": "Fattore Xa",
+  "pharmacodynamics": "Effetto anticoagulante prevedibile a dose fissa; attivita' anti-fattore Xa correlata alla concentrazione; non richiedono monitoraggio routinario della coagulazione.",
+  "classEffects": [
+    "Anticoagulazione orale a dose fissa senza monitoraggio routinario",
+    "Aggiustamenti per funzione renale/peso/interazioni (variabili per molecola)",
+    "Interazioni con inibitori/induttori di CYP3A4 e P-gp"
+  ],
+  "sharedContraindications": [
+    "Sanguinamento clinicamente significativo in atto",
+    "Epatopatia con coagulopatia",
+    "Associazione con altri anticoagulanti (salvo switch)",
+    "Protesi valvolari meccaniche (non indicati)"
+  ],
+  "sharedAdverseEffects": [
+    "Emorragia (inclusa GI e intracranica)",
+    "Anemia"
+  ],
+  "monitoring": [
+    "Funzione renale",
+    "Segni di sanguinamento"
+  ],
+  "reversal": "Agente di reversione specifico per gli inibitori del fattore Xa (andexanet alfa) disponibile; considerare PCC. NB: da collegare ai singoli record quando inserita la fonte.",
+  "notesOnClassVsMolecule": "Rivaroxaban (spesso monosomministrazione, con il cibo per 15/20 mg) ed edoxaban (una volta/die) vs apixaban (due volte/die). L'eliminazione renale varia (dabigatran non appartiene a questa classe: e' un inibitore diretto della trombina). La raccomandazione ESC di preferenza DOAC vs VKA e' di CLASSE."
+}

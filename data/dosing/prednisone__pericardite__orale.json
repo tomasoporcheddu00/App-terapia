@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "id": "prednisone__pericardite__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-28T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Deltacortene (prednisone) - RCP (Torrinomedica/Codifa/Univadis su base AIFA): indicazioni, posologia d'attacco e mantenimento, controindicazioni, avvertenze.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/DELTACORTENE/",
+        "identifier": "Deltacortene RCP",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2025 - Linee guida su miocardite e pericardite: corticosteroidi non di prima linea nella pericardite, dosi medio-basse in associazione.",
+        "url": "https://www.giornaledicardiologia.it/archivio/4620/articoli/46292/",
+        "identifier": "ESC 2025 IMPS",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Posologia da fonti su base RCP/AIFA o da linee guida citate; smpcVerified=false. Verificare sempre su RCP ufficiale e adattare a funzione renale/epatica."
+  },
+  "drugId": "prednisone",
+  "indication": "pericarditis",
+  "scenario": "Pericardite recidivante o con controindicazione a FANS e colchicina (seconda linea)",
+  "route": "orale",
+  "dose": {
+    "dose": "dose medio-bassa, indicativamente 0,2-0,5 mg/kg/die",
+    "associazioni": "in ASSOCIAZIONE a FANS/aspirina e colchicina, non in sostituzione",
+    "riduzione": "molto graduale, una classe di farmaco alla volta e solo con paziente asintomatico e PCR normale; il corticosteroide si riduce prima della colchicina"
+  },
+  "administration": {
+    "notes": "Indicazione da linee guida ESC 2025, non da scheda tecnica. Evitare le dosi elevate e l'uso come prima linea: aumentano cronicizzazione e recidive. Escludere infezioni, in particolare batteriche e tubercolari, prima di iniziare."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "glucagon__emergency__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Glucagone (GlucaGen) - RCP (Codifa/Mediately/Torrinomedica su base AIFA) + centri antiveleni: ipoglicemia severa, ausilio diagnostico, antidoto betabloccanti/calcioantagonisti; controindicato nel feocromocitoma.",
+        "url": "https://www.codifa.it/farmaci/g/glucagen-hypokit-glucagone-cloridrato-ormoni-glicogenolitici",
+        "identifier": "GlucaGen RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false. Dosi d'urgenza da adattare ai protocolli locali."
+  },
+  "drugId": "glucagon",
+  "indication": "glucagon-emergency",
+  "scenario": "Ipoglicemia grave / antidoto betabloccanti-calcioantagonisti",
+  "route": "endovenosa",
+  "dose": {
+    "hypoglycemia": "1 mg SC/IM/EV (0,5 mg se <25 kg); se nessuna risposta in 10 min, glucosio EV",
+    "betablocker/CCB toxicity": "bolo 3-10 mg EV, poi infusione 1-5 mg/h (bambini <25 kg: bolo 0,15 mg/kg poi 0,05-0,1 mg/kg/h)",
+    "diagnostic": "0,2-0,5 mg EV o 1-2 mg IM"
+  },
+  "administration": {
+    "notes": "Ricostituire al momento. Ipoglicemia: SC/IM/EV. Antidoto: bolo EV + infusione, con monitoraggio cardiaco. Carboidrati per os dopo il recupero."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

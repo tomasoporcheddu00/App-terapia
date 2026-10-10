@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "aa-class-ic",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Antiaritmici di classe Ic: sintesi da RCP/portali AIFA.",
+        "url": "https://www.codifa.it/farmaci/r/rytmonorm-propafenone-cloridrato-antiaritmici",
+        "identifier": "Ic classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe Ic sintetizzata da RCP; confermare su RCP ufficiali e linee guida ESC."
+  },
+  "name": "Antiaritmici classe Ic",
+  "atcGroup": "C01BC (classe Ic)",
+  "memberDrugIds": [
+    "flecainide",
+    "propafenone"
+  ],
+  "mechanismSummary": "Blocco potente dei canali del sodio con lenta cinetica di dissociazione: marcato rallentamento della conduzione (allargamento del QRS) senza allungamento rilevante del QT.",
+  "molecularTarget": "Canali del sodio cardiaci",
+  "pharmacodynamics": "Rallentamento marcato della conduzione; efficaci sulle aritmie sopraventricolari (e ventricolari selezionate) in assenza di cardiopatia strutturale.",
+  "classEffects": [
+    "Efficacia su FA/flutter e TPSV (cuore strutturalmente sano)",
+    "Uso come 'pillola in tasca'",
+    "Effetto proaritmico nella cardiopatia strutturale (CAST)"
+  ],
+  "sharedContraindications": [
+    "Cardiopatia strutturale (post-infarto, scompenso, FE ridotta)",
+    "Sindrome di Brugada",
+    "Disfunzione del nodo del seno / blocchi di conduzione senza pacemaker",
+    "Shock cardiogeno"
+  ],
+  "sharedAdverseEffects": [
+    "Proaritmia (TV; conversione della FA in flutter con conduzione 1:1)",
+    "Effetto inotropo negativo",
+    "Vertigini, disturbi visivi/gustativi"
+  ],
+  "monitoring": [
+    "ECG (QRS; escludere Brugada per il propafenone)",
+    "Funzione cardiaca",
+    "Elettroliti"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Flecainide e propafenone sono molto efficaci nella FA/TPSV del cuore strutturalmente sano e utilizzabili come 'pillola in tasca', ma controindicati nella cardiopatia strutturale (CAST). Regola pratica: nel flutter/FA vanno associati a un bloccante del nodo AV per evitare la conduzione 1:1. Il propafenone ha una lieve attivita' betabloccante (cautela nell'asma) e puo' smascherare il Brugada. Dettagli nelle singole schede."
+}

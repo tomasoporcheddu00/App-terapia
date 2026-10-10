@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "id": "atenolol",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Atenololo - RCP (Mediately/Torrinomedica/Pharmamedix su base AIFA): indicazioni, posologia, aggiustamento renale.",
+        "url": "https://mediately.co/it/drugs/WqV00j8PMxt1eToOj3A3uqeDLGx/atenololo-accord-50-cpr-50-mg",
+        "identifier": "Atenololo RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "Betabloccanti: meccanismo, controindicazioni, avvertenze e interazioni di classe; sintesi da RCP/portali AIFA (Codifa, Mediately, Torrinomedica, Pharmamedix).",
+        "url": "https://www.torrinomedica.it/schede-farmaci/bisoprololo/",
+        "identifier": "Betabloccanti classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Molte controindicazioni/avvertenze/interazioni sono comuni alla classe dei betabloccanti. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Atenololo",
+    "inn": "atenololo",
+    "brandExamplesIt": [
+      "Tenormin",
+      "Atenol"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Betabloccante beta1-selettivo idrofilo (eliminazione renale)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "beta-blockers"
+  ],
+  "quickSummary": {
+    "whatItIs": "Betabloccante beta1-selettivo idrofilo, a eliminazione renale, per ipertensione, angina, aritmie e post-infarto.",
+    "mainUses": [
+      "Ipertensione arteriosa",
+      "Angina pectoris",
+      "Tachiaritmie",
+      "Post-infarto miocardico"
+    ],
+    "mainRisks": [
+      "Bradicardia",
+      "Ipotensione",
+      "Broncospasmo (nei predisposti)",
+      "Accumulo nell'insufficienza renale"
+    ],
+    "essentialMonitoring": [
+      "Frequenza cardiaca",
+      "Pressione arteriosa",
+      "Funzione renale (per l'aggiustamento della dose)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipertensione arteriosa (compresa quella di origine renale)",
+      "Angina pectoris",
+      "Tachiaritmie cardiache",
+      "Intervento precoce e prevenzione secondaria nell'infarto miocardico"
+    ],
+    "guidelineIndications": [
+      "Betabloccante storico; nell'ipertensione non complicata alcune linee guida lo preferiscono come seconda scelta rispetto ai betabloccanti dello scompenso (confermare su ESC)"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alla molecola o ad altri betabloccanti",
+      "Insufficienza cardiaca acuta o scompensata che richiede terapia inotropa endovenosa; shock cardiogeno",
+      "Blocco atrioventricolare di 2o o 3o grado (senza pacemaker)",
+      "Sindrome del nodo del seno; blocco seno-atriale",
+      "Bradicardia sintomatica clinicamente rilevante",
+      "Ipotensione grave/sintomatica",
+      "Broncospasmo grave / asma bronchiale grave",
+      "Arteriopatia periferica grave o fenomeno di Raynaud grave",
+      "Feocromocitoma non trattato (senza alfa-blocco)",
+      "Acidosi metabolica"
+    ],
+    "warnings": [
+      "Non interrompere bruscamente: rischio di rebound (peggioramento di angina/ischemia, crisi ipertensive); ridurre gradualmente",
+      "Puo' mascherare i sintomi dell'ipoglicemia nel diabetico e i segni dell'ipertiroidismo",
+      "Broncospasmo nei predisposti: preferire i cardioselettivi alla dose minima efficace",
+      "Bradicardia e disturbi della conduzione AV: monitorare frequenza e conduzione",
+      "Nell'avvio/titolazione per lo scompenso puo' verificarsi un transitorio peggioramento (start low, go slow)",
+      "Cautela nell'angina di Prinzmetal (i non selettivi possono peggiorarla)",
+      "Eliminazione renale: ridurre la dose nell'insufficienza renale (rischio di accumulo)"
+    ],
+    "adverseEffects": [
+      "Bradicardia",
+      "Ipotensione, capogiro",
+      "Astenia/affaticamento",
+      "Estremita' fredde",
+      "Disturbi del sonno",
+      "Broncospasmo (nei predisposti)"
+    ],
+    "overdose": null,
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "CrCl 15-35 mL/min: massimo 50 mg/die; CrCl <15 mL/min: massimo 25 mg/die; rimosso con l'emodialisi (50 mg dopo ogni seduta, in ospedale).",
+      "hepatic": "Nessun aggiustamento rilevante (scarso metabolismo epatico).",
+      "elderly": "Considerare l'avvio a 25 mg/die.",
+      "pregnancy": "Evitare se possibile (rischio di ritardo di crescita/bradicardia fetale).",
+      "breastfeeding": "Escreto nel latte; sorvegliare il lattante."
+    },
+    "alternativeDrugIds": [
+      "bisoprolol",
+      "metoprolol",
+      "nebivolol"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Rallenta il cuore per abbassare pressione e proteggere in angina e dopo infarto; viene eliminato dai reni, quindi la dose va ridotta se i reni funzionano poco.",
+    "clinicalExplanation": "Beta1-selettivo idrofilo, non passa bene la barriera ematoencefalica (meno effetti centrali); eliminazione renale che impone aggiustamento nell'IR.",
+    "molecularExplanation": "Blocca selettivamente i recettori beta1; molecola idrofila.",
+    "pharmacodynamics": "Riduzione di frequenza cardiaca, contrattilita', conduzione AV e rilascio di renina; calo della pressione e del consumo miocardico di ossigeno.",
+    "molecularTarget": "Recettori beta-adrenergici (beta1 +/- beta2 +/- alfa1)",
+    "agonismAntagonism": "Antagonista recettoriale",
+    "pharmacokinetics": {
+      "metabolism": "Scarso",
+      "elimination": "Renale, in forma immodificata",
+      "halfLife": "~6-9 ore (aumenta nell'IR)",
+      "dialyzability": "Rimosso con l'emodialisi"
+    },
+    "bibliography": [
+      "ISIS-1 (atenololo nell'infarto miocardico) - da citare con fonte primaria"
+    ]
+  }
+}

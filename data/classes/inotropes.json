@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "inotropes",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Inotropi (dobutamina, milrinone, levosimendan): sintesi da RCP/monografie.",
+        "url": "https://www.codifa.it/farmaci/s/simdax-levosimendan-inotropi",
+        "identifier": "Inotropi classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe degli inotropi sintetizzata da RCP; confermare su RCP ufficiali e linee guida ESC."
+  },
+  "name": "Inotropi",
+  "atcGroup": "C01C (inotropi)",
+  "memberDrugIds": [
+    "dobutamine",
+    "milrinone",
+    "levosimendan"
+  ],
+  "mechanismSummary": "Aumento della contrattilita' miocardica con meccanismi diversi: stimolazione beta1-adrenergica (dobutamina), inibizione della fosfodiesterasi-3 (milrinone) o sensibilizzazione della troponina C al calcio con apertura dei canali del potassio (levosimendan).",
+  "molecularTarget": "Recettori beta1 / fosfodiesterasi-3 / troponina C e canali del potassio",
+  "pharmacodynamics": "Aumento della gittata cardiaca; milrinone e levosimendan aggiungono vasodilatazione ('inodilatatori') e mantengono l'efficacia in terapia betabloccante.",
+  "classEffects": [
+    "Supporto inotropo nello scompenso a bassa portata e nello shock cardiogeno",
+    "Effetto vasodilatatore aggiuntivo per milrinone e levosimendan",
+    "Rischio proaritmico e (per la dobutamina) aumento del consumo di ossigeno"
+  ],
+  "sharedContraindications": [
+    "Ostruzione meccanica significativa al riempimento/eiezione (stenosi aortica grave, cardiomiopatia ipertrofica ostruttiva, tamponamento)",
+    "Ipovolemia non corretta",
+    "Controindicazioni specifiche (IR/epatopatia grave e torsione di punta per il levosimendan)"
+  ],
+  "sharedAdverseEffects": [
+    "Tachicardia e aritmie",
+    "Ipotensione (milrinone, levosimendan) o ipertensione (dobutamina)",
+    "Ischemia miocardica (dobutamina)"
+  ],
+  "monitoring": [
+    "ECG e pressione continui",
+    "Portata/perfusione",
+    "Elettroliti e funzione renale"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "La dobutamina (beta1-agonista) e' l'inotropo di riferimento ma aumenta il consumo di ossigeno e l'effetto e' attenuato dai betabloccanti. Milrinone (inibitore della PDE3) e levosimendan (sensibilizzante del calcio) sono 'inodilatatori' che agiscono a valle o indipendentemente dai recettori beta, mantenendo l'efficacia con i betabloccanti; il levosimendan non aumenta il consumo di ossigeno e ha un effetto prolungato. Tutti sono proaritmici e di uso intensivo. Dettagli nelle singole schede."
+}

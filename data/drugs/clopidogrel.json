@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "id": "clopidogrel",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Plavix 75 mg (clopidogrel), Sanofi (RCP italiana AIFA) - sez. 4.2-4.5.",
+        "url": "https://www.univadis.it/references/drug-database/B01/viewdrug/plavix-12976",
+        "identifier": "Plavix 75 mg; ATC B01AC04",
+        "retrievedAt": "2026-07-18"
+      },
+      {
+        "type": "smpc",
+        "citation": "EMA - Product Information clopidogrel (esempio: Clopidogrel HCS) sez. 5.2, farmacocinetica e dose di carico 300 mg.",
+        "url": "https://www.ema.europa.eu/it/documents/product-information/clopidogrel-hcs-epar-product-information_it.pdf",
+        "identifier": "EMA clopidogrel PI",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Posologia, farmacogenetica (CYP2C19) e avvertenze verificate su RCP Plavix + PI EMA. L'elenco verbatim delle indicazioni autorizzate corrisponde allo standard EMA per clopidogrel ma va confermato sul testo integrale della RCP (lo snippet recuperato conferma posologia/PK/avvertenze, non la sezione 4.1 integrale). Stato regolatorio italiano (classe, eventuali restrizioni) da verificare su banca dati AIFA.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Clopidogrel",
+    "inn": "clopidogrel",
+    "brandExamplesIt": [
+      "Plavix"
+    ]
+  },
+  "synonyms": [],
+  "classIds": [
+    "p2y12-inhibitors"
+  ],
+  "subclass": "Tienopiridina (inibitore irreversibile del P2Y12) - profarmaco",
+  "classificationStatus": "confirmed",
+  "identity": {
+    "atcCodes": [
+      "B01AC04"
+    ],
+    "formulations": [
+      "compresse rivestite con film 75 mg",
+      "compresse rivestite con film 300 mg"
+    ],
+    "potentialRoutes": [
+      "oral"
+    ],
+    "availabilityStatus": "available",
+    "marketingAuthorisationIt": true
+  },
+  "linkedMacroAreaIds": [
+    "ischemic-heart-disease",
+    "secondary-cardiovascular-prevention",
+    "peripheral-artery-disease"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antiaggregante tienopiridinico, profarmaco che dopo attivazione epatica inibisce in modo irreversibile il recettore piastrinico P2Y12.",
+    "mainUses": [
+      "Prevenzione secondaria degli eventi aterotrombotici",
+      "Sindromi coronariche acute in associazione ad ASA"
+    ],
+    "mainRisks": [
+      "Emorragia",
+      "Rara porpora trombotica trombocitopenica (PTT)"
+    ],
+    "essentialMonitoring": [
+      "Segni di sanguinamento",
+      "Emocromo se sintomi"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Prevenzione secondaria degli eventi aterotrombotici in adulti con pregresso infarto miocardico, ictus ischemico recente o arteriopatia periferica conclamata (in monoterapia)",
+      "Sindrome coronarica acuta senza sopraslivellamento ST (angina instabile/NSTEMI), inclusi i pazienti sottoposti a stent, in associazione ad ASA",
+      "Infarto miocardico acuto con sopraslivellamento ST, in associazione ad ASA, nei pazienti trattati medicalmente candidabili a trombolisi",
+      "Prevenzione degli eventi aterotrombotici e tromboembolici nella fibrillazione atriale in associazione ad ASA, nei pazienti non candidabili a VKA e a basso rischio emorragico (elenco verbatim da confermare su RCP integrale)"
+    ],
+    "guidelineIndications": [
+      "Componente della doppia antiaggregazione (DAPT) con ASA nella SCA e dopo PCI; posizionamento e durata secondo linee guida ESC (fonte da aggiungere)."
+    ],
+    "offLabelUses": [],
+    "populations": [
+      "Adulti; efficacia ridotta nei metabolizzatori lenti del CYP2C19"
+    ],
+    "advantages": [
+      "Somministrazione monogiornaliera",
+      "Ampia disponibilita' e basso costo (generico)"
+    ],
+    "limitations": [
+      "Profarmaco: efficacia ridotta nei metabolizzatori lenti CYP2C19",
+      "Interazioni con inibitori del CYP2C19 (es. omeprazolo)",
+      "Rischio emorragico"
+    ],
+    "alternativeDrugIds": [
+      "prasugrel",
+      "ticagrelor",
+      "aspirin"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Compromissione epatica grave",
+      "Sanguinamento patologico in atto (es. ulcera peptica, emorragia intracranica)"
+    ],
+    "relativeContraindications": [],
+    "warnings": [
+      "Rischio emorragico; cautela in caso di trauma, chirurgia o condizioni a rischio e con altri farmaci che aumentano il sanguinamento",
+      "Segnalati casi di porpora trombotica trombocitopenica (PTT) ed emofilia acquisita",
+      "Metabolizzatori lenti del CYP2C19: minore efficacia antiaggregante",
+      "Scoraggiato l'uso concomitante di inibitori forti/moderati del CYP2C19",
+      "Nei primi 7 giorni dopo ictus ischemico acuto l'uso non e' raccomandato per mancanza di dati",
+      "Reattivita' crociata tra tienopiridine (clopidogrel, ticlopidina, prasugrel)"
+    ],
+    "adverseEffects": [
+      "Emorragia (inclusa GI e intracranica)",
+      "Ematoma",
+      "Epistassi",
+      "Rara PTT",
+      "Rara emofilia acquisita"
+    ],
+    "overdose": "Il sovradosaggio aumenta il rischio emorragico; nessun antidoto specifico. Se necessaria correzione rapida, considerare trasfusione piastrinica (verificare su RCP).",
+    "antidoteDrugIds": [],
+    "monitoring": [
+      "Segni/sintomi di sanguinamento",
+      "Emocromo in caso di sospetto sanguinamento"
+    ],
+    "discontinuation": "Sospensione perioperatoria (in genere ~5-7 giorni prima di chirurgia maggiore) da valutare contro il rischio trombotico secondo linee guida.",
+    "specialPopulations": {
+      "renal": "Esperienza limitata nell'insufficienza renale (verificare RCP).",
+      "hepatic": "Controindicato in compromissione epatica grave.",
+      "elderly": "Nessun aggiustamento specifico; maggior rischio emorragico.",
+      "lowBodyWeight": null,
+      "obesity": null,
+      "pregnancy": "Preferibile evitare salvo necessita' (verificare RCP).",
+      "breastfeeding": "Da valutare (verificare RCP)."
+    },
+    "dosingRegimenIds": [
+      "clopidogrel__acs-secondary-prevention__oral"
+    ],
+    "interactionRefs": [],
+    "regulatoryItId": "clopidogrel"
+  },
+  "deep": {
+    "simpleExplanation": "Rende le piastrine meno reattive bloccando un recettore (P2Y12) che serve a farle aggregare; deve essere attivato dal fegato.",
+    "clinicalExplanation": "Profarmaco attivato dal CYP450 (soprattutto CYP2C19); il metabolita attivo blocca in modo irreversibile il recettore P2Y12 dell'ADP per l'intera vita della piastrina.",
+    "molecularExplanation": "Il metabolita attivo tiolico si lega covalentemente al recettore P2Y12, impedendo l'attivazione ADP-mediata del complesso GPIIb/IIIa e quindi l'aggregazione.",
+    "molecularTarget": "Recettore piastrinico P2Y12 (ADP)",
+    "agonismAntagonism": "Inibitore irreversibile",
+    "selectivity": "Selettivo per il P2Y12",
+    "pharmacodynamics": "Inibizione dose-dipendente dell'aggregazione piastrinica ADP-indotta; con dose di carico 300 mg effetto piu' rapido.",
+    "hemodynamicEffects": "Nessun effetto emodinamico diretto.",
+    "electrophysiologicEffects": "Nessuno.",
+    "pharmacokinetics": {
+      "bioavailability": "Assorbimento >=50% (da escrezione urinaria dei metaboliti)",
+      "timeToPeak": "Farmaco immodificato ~45 min; metabolita attivo ~30-60 min dopo dose di carico",
+      "halfLife": "~6 ore (farmaco immodificato)",
+      "proteinBinding": null,
+      "metabolism": "Profarmaco: idrolisi esterasica (metabolita inattivo, ~85%) e attivazione via CYP (CYP2C19, CYP3A4, CYP1A2, CYP2B6, CYP2C8/2C9)",
+      "enzymes": [
+        "CYP2C19",
+        "CYP3A4",
+        "CYP1A2",
+        "CYP2B6",
+        "CYP2C9"
+      ],
+      "transporters": [],
+      "activeMetabolites": [
+        "metabolita tiolico attivo"
+      ],
+      "elimination": "~50% urine, ~46% feci entro 120 ore",
+      "dialyzability": null
+    },
+    "evidenceIds": [],
+    "recommendationIds": [],
+    "bibliography": []
+  }
+}

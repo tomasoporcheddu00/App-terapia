@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "id": "aficamten",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Commissione Europea - approvazione di MYQORZO (aficamten) del 17 febbraio 2026 per la cardiomiopatia ipertrofica ostruttiva sintomatica NYHA II-III; compresse da 5, 10, 15 e 20 mg; studio SEQUOIA-HCM.",
+        "url": "https://ir.cytokinetics.com/press-releases/press-release-details/2026/Cytokinetics-Announces-European-Commission-Approval-of-MYQORZO-aficamten-for-the-Treatment-of-Adults-with-Symptomatic-Obstructive-Hypertrophic-Cardiomyopathy/default.aspx",
+        "identifier": "EC/MYQORZO 2026",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Notiziario associativo (marzo 2026): approvazione europea di aficamten e richiesta di approvazione ad AIFA per l'Italia; primo lancio europeo atteso in Germania nel secondo trimestre 2026.",
+        "url": "https://www.aicarm.it/aicarm-news-marzo-2026/",
+        "identifier": "Stato regolatorio IT",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da RCP EMA/AIFA e da fonti secondarie derivate dagli RCP (Torrinomedica/Codifa/Mediately, registro comunitario EC). DA CONFERMARE sugli RCP ufficiali. Stato: revisione fonti (source-review), non ancora approvato. Farmaci specialistici per amiloidosi cardiaca e cardiomiopatia ipertrofica: prescrizione in centri esperti, con piano terapeutico e criteri diagnostici stringenti. Scheda volutamente parziale: sono riportati solo i dati disponibili da fonte al momento della compilazione. NON ancora disponibile in Italia.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Aficamten",
+    "inn": "aficamten",
+    "brandExamplesIt": [
+      "Myqorzo"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Inibitore allosterico reversibile della miosina cardiaca (seconda generazione)",
+  "identity": {
+    "atcCodes": [
+      "C01EB25"
+    ],
+    "formulations": [
+      "Compresse 5 mg, 10 mg, 15 mg, 20 mg"
+    ],
+    "potentialRoutes": [
+      "orale"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "myosin-inhibitors"
+  ],
+  "quickSummary": {
+    "whatItIs": "Secondo inibitore allosterico e reversibile della miosina cardiaca, approvato dalla Commissione Europea nel febbraio 2026 per la cardiomiopatia ipertrofica ostruttiva sintomatica. Riduce la contrattilita' e quindi l'ostruzione all'efflusso ventricolare sinistro.",
+    "mainUses": [
+      "Cardiomiopatia ipertrofica ostruttiva sintomatica (NYHA II-III) nell'adulto"
+    ],
+    "mainRisks": [
+      "Come per la classe, riduzione della frazione d'eiezione e disfunzione sistolica",
+      "Scheda tecnica italiana non ancora disponibile: posologia e monitoraggio da verificare sull'RCP"
+    ],
+    "essentialMonitoring": [
+      "Frazione d'eiezione e gradiente all'efflusso secondo lo schema previsto dall'RCP",
+      "Disponibilita' e criteri prescrittivi in Italia"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento della cardiomiopatia ipertrofica ostruttiva sintomatica (classe NYHA II-III) nei pazienti adulti (autorizzazione della Commissione Europea del 17 febbraio 2026)"
+    ],
+    "guidelineIndications": [
+      "Nello studio di fase 3 SEQUOIA-HCM il trattamento per 24 settimane ha migliorato in modo significativo la capacita' di esercizio rispetto al placebo, con aumento del picco di consumo di ossigeno, oltre al miglioramento dei sintomi",
+      "E' in corso di valutazione anche nella cardiomiopatia ipertrofica NON ostruttiva (studio ACACIA-HCM) e in eta' pediatrica (CEDAR-HCM): indicazioni non ancora approvate"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti (fare riferimento all'RCP)"
+    ],
+    "warnings": [
+      "ATTENZIONE - DISPONIBILITA': il farmaco e' stato autorizzato dalla Commissione Europea nel febbraio 2026 ma alla data di redazione di questa scheda l'approvazione per l'Italia era stata richiesta ad AIFA e il primo lancio europeo era atteso in Germania: verificare disponibilita', classe di rimborso e criteri prescrittivi prima di considerarne l'impiego",
+      "POSOLOGIA E MONITORAGGIO: questa scheda riporta solo i dati disponibili al momento della compilazione (indicazione, dosaggi delle compresse, meccanismo, studio registrativo). Lo schema di titolazione, i criteri di sorveglianza ecocardiografica e le interazioni vanno verificati sull'RCP integrale non appena disponibile in italiano",
+      "Come per la classe degli inibitori della miosina, e' atteso il rischio di riduzione eccessiva della frazione d'eiezione: la titolazione va guidata dall'ecocardiogramma secondo quanto previsto dall'RCP"
+    ],
+    "adverseEffects": [
+      "Riduzione della frazione d'eiezione ventricolare sinistra (effetto di classe)",
+      "Per il profilo completo degli eventi avversi fare riferimento all'RCP"
+    ],
+    "overdose": "Non sono riportati in questa scheda dati sul sovradosaggio: fare riferimento all'RCP. Per la classe, il rischio principale e' la disfunzione sistolica, che richiede sospensione e sorveglianza ecocardiografica.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Consultare l'RCP.",
+      "hepatic": "Consultare l'RCP.",
+      "elderly": "Consultare l'RCP.",
+      "pregnancy": "Consultare l'RCP; per la classe degli inibitori della miosina esistono restrizioni in gravidanza.",
+      "breastfeeding": "Consultare l'RCP."
+    },
+    "alternativeDrugIds": [
+      "mavacamten",
+      "disopyramide",
+      "verapamil"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' il 'cugino' piu' recente del mavacamten: stessa idea, ridurre la forza eccessiva della contrazione nel cuore ipertrofico. E' stato approvato in Europa da poco e in Italia non e' ancora disponibile.",
+    "clinicalExplanation": "Inibitore allosterico e reversibile dell'attivita' motoria della miosina cardiaca di seconda generazione. Nei pazienti con cardiomiopatia ipertrofica ostruttiva riduce la contrattilita' e di conseguenza l'ostruzione all'efflusso ventricolare sinistro. Nello studio SEQUOIA-HCM ha migliorato la capacita' di esercizio (picco di VO2) e i sintomi a 24 settimane. Autorizzato dalla Commissione Europea nel febbraio 2026; posologia e monitoraggio da verificare sull'RCP.",
+    "molecularExplanation": "Si lega a un sito allosterico della miosina cardiaca riducendo il numero di teste di miosina in grado di formare ponti con l'actina, con conseguente riduzione della contrattilita'.",
+    "pharmacodynamics": "Riduzione della contrattilita' e del gradiente all'efflusso ventricolare sinistro, con miglioramento della capacita' di esercizio e dei sintomi.",
+    "molecularTarget": "Miosina cardiaca",
+    "agonismAntagonism": "Inibizione allosterica reversibile della miosina",
+    "pharmacokinetics": {
+      "route": "Orale",
+      "halfLife": "Da verificare sull'RCP",
+      "note": "Dati di farmacocinetica non riportati in questa scheda: consultare l'RCP integrale"
+    },
+    "bibliography": []
+  }
+}

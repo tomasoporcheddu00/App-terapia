@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "id": "noradrenaline",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Noradrenalina/norepinefrina - RCP (Codifa/Mediately/Torrinomedica su base AIFA): alfa-agonista vasocostrittore, vasopressore di prima scelta nello shock settico; infusione per via centrale; necrosi da stravaso (antidoto fentolamina).",
+        "url": "https://mediately.co/it/drugs/56OYLLMOGOH9vAKkC3TYoJi3qpb/noradrenalina-tartrato-aguettant-0-5-mg-ml-soluzione-per-infusione",
+        "identifier": "Noradrenalina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC) e da monografie di terapia intensiva: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Agenti vasoattivi EV di terapia intensiva: dosi da titolare con monitoraggio emodinamico continuo.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Noradrenalina",
+    "inn": "noradrenalina (norepinefrina)",
+    "brandExamplesIt": [
+      "Noradrenalina (varie)"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Vasopressore (alfa-agonista)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "vasopressors"
+  ],
+  "quickSummary": {
+    "whatItIs": "Catecolamina a prevalente azione alfa-adrenergica: e' il vasocostrittore di prima scelta per alzare la pressione nello shock, in particolare quello settico. Si somministra in infusione, preferibilmente per via venosa centrale.",
+    "mainUses": [
+      "Shock settico e altri stati di ipotensione grave refrattaria ai liquidi",
+      "Shock cardiogeno/ipovolemico (dopo riempimento)",
+      "Stati vasoplegici"
+    ],
+    "mainRisks": [
+      "Ischemia periferica/d'organo",
+      "Necrosi da stravaso",
+      "Aritmie, bradicardia riflessa"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa (preferibilmente invasiva)",
+      "ECG",
+      "Perfusione periferica e diuresi",
+      "Integrita' del sito di infusione"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento dell'ipotensione acuta grave e degli stati di shock (in particolare lo shock settico) refrattari all'adeguato riempimento volemico"
+    ],
+    "guidelineIndications": [
+      "Vasopressore di prima scelta nello shock settico (linee guida Surviving Sepsis) per mantenere una pressione arteriosa media >=65 mmHg; da preferire alla dopamina (meno aritmie) - confermare su fonte"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Ipovolemia non corretta (non deve sostituire il ripristino della volemia)",
+      "Cautela/controindicazione relativa con alcuni anestetici alogenati e in presenza di trombosi vascolare"
+    ],
+    "warnings": [
+      "Somministrare preferibilmente tramite catetere venoso centrale con pompa; controllare frequentemente il sito di infusione",
+      "In caso di stravaso vi e' rischio di necrosi tissutale da vasocostrizione locale: infiltrare l'area con fentolamina; preferire un catetere venoso centrale.",
+      "Rischio di ischemia periferica e d'organo (fino alla gangrena); ipertensione con bradicardia riflessa; aritmie (specie con agenti che sensibilizzano il miocardio)",
+      "Ridurre la dose se compaiono aritmie; cautela nella grave disfunzione ventricolare sinistra",
+      "Correggere l'ipovolemia prima; fotosensibile (proteggere dalla luce); non miscelare con altri farmaci"
+    ],
+    "adverseEffects": [
+      "Ipertensione, bradicardia riflessa",
+      "Aritmie",
+      "Ischemia periferica/d'organo (necrosi da stravaso)",
+      "Cefalea, ansia",
+      "Insufficienza renale (da vasocostrizione eccessiva)"
+    ],
+    "overdose": "Il sovradosaggio causa ipertensione grave, cefalea, bradicardia riflessa e ischemia periferica; ridurre/interrompere l'infusione (emivita breve); per l'ipertensione grave un alfa-litico (fentolamina).",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento posologico specifico (titolare sulla pressione).",
+      "hepatic": "Nessun aggiustamento specifico.",
+      "elderly": "Cautela.",
+      "pregnancy": "Solo se strettamente necessario.",
+      "breastfeeding": "Cautela."
+    },
+    "alternativeDrugIds": [
+      "adrenaline",
+      "vasopressin",
+      "dopamine"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Il farmaco di prima scelta per 'tirare su' la pressione quando e' pericolosamente bassa, soprattutto nelle infezioni gravi (shock settico); si da' in vena, meglio da una vena centrale.",
+    "clinicalExplanation": "Catecolamina a prevalente azione alfa1-adrenergica (con qualche effetto beta1): potente vasocostrizione con aumento delle resistenze sistemiche e della pressione arteriosa media. Prima scelta nello shock settico. Emivita brevissima; titolabile.",
+    "molecularExplanation": "Agonista dei recettori alfa1-adrenergici (vasocostrizione) con modesta attivita' beta1; aumenta il tono vascolare e la pressione.",
+    "pharmacodynamics": "Vasocostrizione e aumento della pressione arteriosa media; bradicardia riflessa mediata dai barocettori.",
+    "molecularTarget": "Recettori alfa1-adrenergici (e beta1) vascolari e cardiaci",
+    "agonismAntagonism": "Agonismo alfa1 (e beta1) adrenergico",
+    "pharmacokinetics": {
+      "route": "Infusione endovenosa (via centrale)",
+      "onset": "Rapido",
+      "halfLife": "Molto breve",
+      "metabolism": "COMT/MAO"
+    },
+    "bibliography": []
+  }
+}

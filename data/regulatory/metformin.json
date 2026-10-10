@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "metformin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "AIFA - metformina: classe A, medicinale di prima linea nel diabete tipo 2.",
+        "url": "https://www.ema.europa.eu/it/documents/product-information/competact-epar-product-information_it.pdf",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Classe A, ampiamente disponibile in formulazioni a rilascio immediato e prolungato."
+  },
+  "drugId": "metformin",
+  "authorisation": "EMA/Nazionale",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RR - ricetta ripetibile",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Farmacia",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

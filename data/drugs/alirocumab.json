@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "id": "alirocumab",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Alirocumab (Praluent) - RCP EMA/AIFA (EC Europa/Sanofi/medisoc): anticorpo anti-PCSK9 SC, dose 75-150 mg ogni 2 settimane o 300 mg/mese, ASCVD; ODYSSEY OUTCOMES.",
+        "url": "https://medisoc.it/schede-farmaci/scheda-alirocumab/",
+        "identifier": "Praluent RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Alirocumab",
+    "inn": "alirocumab",
+    "brandExamplesIt": [
+      "Praluent"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Anticorpo monoclonale anti-PCSK9 (sottocutaneo)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "pcsk9-inhibitors"
+  ],
+  "quickSummary": {
+    "whatItIs": "Anticorpo monoclonale iniettabile anti-PCSK9, simile all'evolocumab, disponibile in piu' dosaggi per personalizzare la riduzione dell'LDL.",
+    "mainUses": [
+      "Ipercolesterolemia primaria/familiare e dislipidemia mista",
+      "Malattia cardiovascolare aterosclerotica accertata (riduzione degli eventi)"
+    ],
+    "mainRisks": [
+      "Reazioni nel sito di iniezione",
+      "Sintomi delle vie respiratorie superiori"
+    ],
+    "essentialMonitoring": [
+      "Profilo lipidico",
+      "Tollerabilita' locale"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Adulti con ipercolesterolemia primaria (familiare eterozigote e non familiare) o dislipidemia mista, in aggiunta alla dieta: in associazione a una statina (+/- altre terapie) quando l'obiettivo di LDL non e' raggiunto con la statina alla massima dose tollerata, o da solo/in associazione se intollerante o con controindicazione alle statine",
+      "Malattia cardiovascolare aterosclerotica accertata, per ridurre il rischio di eventi cardiovascolari"
+    ],
+    "guidelineIndications": [
+      "Analogo all'evolocumab; riduzione degli eventi dopo sindrome coronarica acuta (ODYSSEY OUTCOMES) - confermare su ESC/EAS"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti"
+    ],
+    "warnings": [
+      "Reazioni nel sito di iniezione",
+      "Reazioni di ipersensibilita' (rare)",
+      "Nessun aggiustamento nell'anziano o nell'insufficienza renale/epatica lieve-moderata"
+    ],
+    "adverseEffects": [
+      "Reazioni nel sito di iniezione",
+      "Segni/sintomi delle vie respiratorie superiori",
+      "Prurito",
+      "Reazioni di ipersensibilita' (rare)"
+    ],
+    "overdose": "Non e' previsto un antidoto specifico; l'effetto e' reversibile alla sospensione.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento (dati limitati nella grave).",
+      "hepatic": "Nessun aggiustamento nella lieve-moderata; dati limitati nella grave.",
+      "elderly": "Nessun aggiustamento.",
+      "pregnancy": "Da evitare salvo necessita' (IgG1 che attraversa la placenta).",
+      "breastfeeding": "Valutare rischio/beneficio."
+    },
+    "alternativeDrugIds": [
+      "evolocumab",
+      "inclisiran",
+      "ezetimibe"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Come l'evolocumab: una puntura sottocute ogni due settimane (o una volta al mese) che abbassa molto il colesterolo LDL.",
+    "clinicalExplanation": "Anticorpo monoclonale umano IgG1 anti-PCSK9; disponibile in 75/150/300 mg per adeguare la riduzione dell'LDL. Riduzione degli eventi post-SCA (ODYSSEY OUTCOMES).",
+    "molecularExplanation": "Si lega alla PCSK9 impedendone il legame al recettore delle LDL, aumentando il riciclo del recettore e la clearance delle LDL.",
+    "pharmacodynamics": "Riduzione dell'LDL-C ~50-60% in aggiunta alle statine; effetto reversibile alla sospensione.",
+    "molecularTarget": "PCSK9 (proproteina convertasi subtilisina/kexina tipo 9)",
+    "agonismAntagonism": "Antagonismo (neutralizzazione dell'anticorpo)",
+    "pharmacokinetics": {
+      "route": "Sottocutanea",
+      "halfLife": "~17-20 giorni in monoterapia (~12 giorni con statina)",
+      "elimination": "Legame saturabile al bersaglio + via proteolitica"
+    },
+    "bibliography": [
+      "ODYSSEY OUTCOMES (alirocumab post-SCA) - da citare con fonte primaria"
+    ]
+  }
+}

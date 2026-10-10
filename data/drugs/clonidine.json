@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Clonidina (Catapresan) - RCP (Codifa/Torrinomedica/Mediately su base AIFA): alfa-2 agonista centrale, tutte le forme di ipertensione e crisi ipertensive (parenterale); ipertensione di rimbalzo alla sospensione brusca.",
+        "url": "https://www.codifa.it/farmaci/c/catapresan-clonidina-cloridrato-antipertensivi-ad-azione-centrale",
+        "identifier": "Catapresan RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Clonidina - monografie di farmacocinetica: emivita di eliminazione 12-16 ore, fino a ~41 ore nell'insufficienza renale grave.",
+        "url": "https://www.medicoverhospitals.in/it/medicine/clonidine",
+        "identifier": "Monografia - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false,
+    "id": "clonidine"
+  },
+  "name": {
+    "generic": "clonidina",
+    "inn": "clonidina",
+    "brandExamplesIt": [
+      "Catapresan"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antipertensivo centrale (alfa-2 agonista)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "central-antihypertensives"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antipertensivo ad azione centrale (alfa-2 agonista) per le varie forme di ipertensione e per le crisi ipertensive; da non sospendere bruscamente per il rischio di rialzo pressorio di rimbalzo.",
+    "mainUses": [
+      "Ipertensione arteriosa (tutte le forme)",
+      "Crisi ipertensive (via parenterale, in ospedale)"
+    ],
+    "mainRisks": [
+      "Sedazione, secchezza delle fauci",
+      "Bradicardia, ipotensione",
+      "Ipertensione di rimbalzo alla sospensione brusca"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa",
+      "Frequenza cardiaca",
+      "Modalita' di sospensione (graduale)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Tutte le forme di ipertensione arteriosa",
+      "Crisi ipertensive e casi in cui la via orale non e' temporaneamente praticabile o sufficientemente efficace (via parenterale, in pazienti ospedalizzati)"
+    ],
+    "guidelineIndications": [
+      "Antipertensivo di seconda/terza linea o per crisi ipertensive; utile anche in contesti selezionati (astinenza, vampate) - confermare su ESC",
+      "Da sospendere gradualmente e, se in associazione a un betabloccante, sospendere prima il betabloccante per ridurre il rischio di rimbalzo - confermare su fonte"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Bradiaritmia grave da malattia del nodo del seno o da blocco atrioventricolare di 2o-3o grado"
+    ],
+    "warnings": [
+      "Ipertensione di rimbalzo alla sospensione brusca (agitazione, palpitazioni, tremore, cefalea): scalare la dose nell'arco di 2-4 giorni; non interrompere senza il medico",
+      "Sedazione (soprattutto nella prima settimana, di solito attenuata dalla prosecuzione)",
+      "Potenzia i deprimenti del SNC (oppiacei, sedativi, alcol, anestetici)",
+      "Cautela nello scompenso cardiaco o nella grave coronaropatia; aggiustare la dose nell'insufficienza renale",
+      "Il rialzo pressorio da sospensione puo' essere trattato con clonidina o con un alfa-litico (fentolamina)"
+    ],
+    "adverseEffects": [
+      "Sedazione, capogiro",
+      "Secchezza delle fauci",
+      "Ipotensione ortostatica, bradicardia",
+      "Stipsi, nausea",
+      "Depressione, disfunzione sessuale"
+    ],
+    "overdose": "Il sovradosaggio causa depressione simpatica (miosi, letargia, bradicardia, ipotensione, ipotermia); trattamento di supporto, atropina per la bradicardia; gli alfa-litici possono contrastare gli effetti.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Aggiustare la dose (eliminazione renale).",
+      "hepatic": "Cautela.",
+      "elderly": "Maggiore sensibilita' (sedazione, ipotensione).",
+      "pregnancy": "Solo se necessario.",
+      "breastfeeding": "Passa nel latte; cautela."
+    },
+    "alternativeDrugIds": [
+      "moxonidine",
+      "methyldopa",
+      "doxazosin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un antipertensivo 'centrale' efficace, ma che non va mai interrotto di colpo: sospenderlo bruscamente puo' far risalire la pressione di scatto.",
+    "clinicalExplanation": "Agonista alfa-2 adrenergico centrale: riduce l'efflusso simpatico. Utile nelle crisi ipertensive (anche parenterale) e come add-on; il problema principale e' l'ipertensione di rimbalzo alla sospensione brusca.",
+    "molecularExplanation": "Agonizza i recettori alfa-2 adrenergici (e imidazolinici) del tronco encefalico, riducendo il rilascio di noradrenalina e il tono simpatico.",
+    "pharmacodynamics": "Riduzione del tono simpatico con calo della pressione e della frequenza cardiaca.",
+    "molecularTarget": "Recettori alfa-2 adrenergici centrali",
+    "agonismAntagonism": "Agonismo alfa-2",
+    "pharmacokinetics": {
+      "route": "Orale e parenterale",
+      "onset": "Rapido",
+      "elimination": "Renale (in parte)",
+      "halfLife": "~12-16 ore (disposizione bifasica: emivita di distribuzione ~20 minuti); puo' arrivare a ~41 ore nell'insufficienza renale grave. Agonista alfa-2 centrale, eliminazione in parte renale"
+    },
+    "bibliography": []
+  }
+}

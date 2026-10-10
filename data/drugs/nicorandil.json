@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Nicorandil (Ikorel) - RCP EMA (EC Europa/EMA Art.30): attivatore dei canali del potassio ATP-sensibili + donatore di NO, angina cronica stabile, dose 10-20 mg x2, ulcerazioni GI, controindicazione PDE5.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2015/20150605131936/anx_131936_it.pdf",
+        "identifier": "Ikorel RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Disponibilita' in Italia da confermare: il nicorandil (Ikorel/Dancor) e' commercializzato in vari Paesi UE ma non risulta ampiamente disponibile in Italia; dati da RCP EMA.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false,
+    "id": "nicorandil"
+  },
+  "name": {
+    "generic": "Nicorandil",
+    "inn": "nicorandil",
+    "brandExamplesIt": [
+      "Ikorel",
+      "Dancor"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antianginoso (attivatore dei canali del potassio + donatore di NO)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "other-antianginals"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antianginoso con doppio meccanismo (apre i canali del potassio e libera NO) che riduce precarico e postcarico; usato nell'angina stabile quando betabloccanti/calcioantagonisti non bastano.",
+    "mainUses": [
+      "Angina pectoris cronica stabile (prevenzione e trattamento a lungo termine)"
+    ],
+    "mainRisks": [
+      "Cefalea (spec. iniziale)",
+      "Ipotensione",
+      "Ulcerazioni gastrointestinali/mucocutanee"
+    ],
+    "essentialMonitoring": [
+      "Sintomi anginosi",
+      "Pressione arteriosa",
+      "Comparsa di ulcerazioni (orali, gastrointestinali, perianali)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Prevenzione e trattamento a lungo termine dell'angina pectoris cronica stabile negli adulti nei quali i betabloccanti e/o i calcioantagonisti non sono sufficientemente efficaci, non sono indicati o non sono tollerati"
+    ],
+    "guidelineIndications": [
+      "Antianginoso di seconda linea con doppio meccanismo (K-ATP + NO); da ricordare il rischio di ulcerazioni - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Shock cardiogeno",
+      "Ipotensione grave",
+      "Insufficienza ventricolare sinistra con basse pressioni di riempimento / bassa portata",
+      "Uso concomitante di inibitori della PDE5 (sildenafil, tadalafil, vardenafil)",
+      "Uso concomitante di stimolatori della guanilato ciclasi (riociguat)",
+      "Ipovolemia; edema polmonare acuto"
+    ],
+    "warnings": [
+      "Rischio di ulcerazioni gravi (orali, gastrointestinali, anali/perianali, mucocutanee, oculari), che possono complicarsi (perforazione, fistola, ascesso): in caso di ulcerazione sospendere definitivamente il nicorandil (non rispondono ad altri trattamenti)",
+      "Cefalea frequente all'inizio: iniziare a dose bassa (5 mg x2) nei soggetti predisposti",
+      "Ipotensione; cautela con pressione sistolica <100 mmHg e con deplezione di volume"
+    ],
+    "adverseEffects": [
+      "Cefalea (molto comune, soprattutto all'inizio)",
+      "Vampate, capogiro",
+      "Ipotensione, palpitazioni",
+      "Nausea, vomito",
+      "Ulcerazioni (orali, gastrointestinali, cutanee/mucose)"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione e tachicardia; trattamento di supporto (fluidi, eventuali vasopressori).",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico rilevante (cautela).",
+      "hepatic": "Cautela.",
+      "elderly": "Nessuna riduzione specifica; usare la minima dose efficace.",
+      "pregnancy": "Non raccomandato.",
+      "breastfeeding": "Non raccomandato."
+    },
+    "alternativeDrugIds": [
+      "ranolazine",
+      "trimetazidine",
+      "isosorbide-mononitrate"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Una compressa contro l'angina che agisce in due modi (rilassa i vasi come i nitrati e apre canali del potassio); l'effetto tipico e' il mal di testa, e va sospesa se compaiono ulcere.",
+    "clinicalExplanation": "Doppio meccanismo: apertura dei canali del potassio ATP-sensibili (vasodilatazione arteriosa/riduzione del postcarico) e rilascio di NO simile ai nitrati (venodilatazione/riduzione del precarico). Effetto avverso di classe caratteristico: le ulcerazioni.",
+    "molecularExplanation": "Attiva i canali del potassio ATP-sensibili (iperpolarizzazione e vasodilatazione arteriosa) e rilascia NO (attivazione della guanilato ciclasi, venodilatazione).",
+    "pharmacodynamics": "Riduzione di precarico e postcarico con vasodilatazione coronarica; effetto antianginoso senza tolleranza marcata.",
+    "molecularTarget": "Canali del potassio ATP-sensibili + via NO-guanilato ciclasi",
+    "agonismAntagonism": "Attivazione dei canali del potassio e donatore di NO",
+    "pharmacokinetics": {
+      "route": "Orale",
+      "onset": "Relativamente rapido",
+      "elimination": "Metabolica",
+      "halfLife": "~1 ora; metabolizzato nel fegato per denitrazione in composti privi di attivita' cardiovascolare, eliminati per via renale (la sostanza immodificata e' <1% della dose nelle urine)"
+    },
+    "bibliography": []
+  }
+}

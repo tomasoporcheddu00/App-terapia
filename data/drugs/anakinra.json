@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "id": "anakinra",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Kineret (anakinra) - RCP EMA/AIFA (Univadis): posologia, compromissione renale, neutropenia, associazione con anti-TNF, interazioni.",
+        "url": "https://www.univadis.it/references/drug-database/L04/viewdrug/kineret-58211",
+        "identifier": "Kineret RCP",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "other",
+        "citation": "AIFA - elenco Legge 648/96: anakinra (Kineret) rimborsata per la pericardite idiopatica ricorrente corticodipendente e colchicina-resistente, adulto 100 mg/die sottocute.",
+        "url": "https://www.aifa.gov.it/sites/default/files/Allegato_1_anakinra_16.01.2019.pdf",
+        "identifier": "AIFA L.648/96 anakinra",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2025 - Linee guida su miocardite e pericardite: inibitori dell'IL-1 di Classe I nella pericardite recidivante o resistente.",
+        "url": "https://www.giornaledicardiologia.it/archivio/4620/articoli/46292/",
+        "identifier": "ESC 2025 IMPS",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP italiani (Torrinomedica/Codifa/Univadis/Mediately su base Banca Dati AIFA) e, dove indicato, da documenti AIFA. DA CONFERMARE sugli RCP ufficiali AIFA/EMA. Stato: revisione fonti (source-review), non ancora approvato. ATTENZIONE: per queste molecole l'indicazione cardiologica (pericardite, miocardite, sarcoidosi, prevenzione secondaria) deriva dalle linee guida e NON coincide con le indicazioni autorizzate in scheda tecnica: verificare regime prescrittivo e rimborsabilita'. In Italia il percorso pratico nella pericardite ricorrente passa dalla Legge 648/96 con piano terapeutico: verificare i criteri (corticodipendenza e resistenza alla colchicina).",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Anakinra",
+    "inn": "anakinra",
+    "brandExamplesIt": [
+      "Kineret"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antagonista ricombinante del recettore dell'interleuchina-1",
+  "identity": {
+    "atcCodes": [
+      "L04AC03"
+    ],
+    "formulations": [
+      "Soluzione iniettabile 100 mg/0,67 mL in siringa preriempita"
+    ],
+    "potentialRoutes": [
+      "sottocutanea"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "il1-inhibitors"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antagonista ricombinante del recettore dell'interleuchina-1 (IL-1Ra): blocca l'azione di IL-1alfa e IL-1beta. Nella pericardite recidivante e' il farmaco che ha cambiato la storia dei pazienti corticodipendenti, permettendo di sospendere lo steroide.",
+    "mainUses": [
+      "Artrite reumatoide, sindromi periodiche associate alla criopirina (CAPS), malattia di Still (indicazioni autorizzate)",
+      "Pericardite idiopatica ricorrente corticodipendente e colchicina-resistente: in Italia rimborsata ai sensi della Legge 648/96"
+    ],
+    "mainRisks": [
+      "Infezioni gravi (rischio aumentato nell'immunosoppressione)",
+      "Neutropenia",
+      "Reazioni al sito di iniezione (molto frequenti)"
+    ],
+    "essentialMonitoring": [
+      "Conta dei neutrofili prima e durante il trattamento",
+      "Segni e sintomi di infezione",
+      "Funzione renale (aggiustamento dell'intervallo di somministrazione)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Artrite reumatoide, in associazione a metotressato, negli adulti con risposta inadeguata al solo metotressato",
+      "Sindromi periodiche associate alla criopirina (CAPS)",
+      "Malattia di Still, comprese la forma sistemica giovanile e quella dell'adulto",
+      "COVID-19 in adulti selezionati con polmonite che richiedono ossigeno supplementare (secondo le condizioni previste dalla scheda tecnica)"
+    ],
+    "guidelineIndications": [
+      "Pericardite recidivante: gli antagonisti dell'IL-1 hanno indicazione di CLASSE I nelle forme recidivanti o resistenti a colchicina e FANS, soprattutto con PCR elevata, per ridurre le recidive e permettere la sospensione del corticosteroide - ESC 2025",
+      "In ITALIA anakinra e' rimborsata ai sensi della LEGGE 648/96 per la 'pericardite idiopatica ricorrente corticodipendente e colchicina-resistente', incluse le forme recidivanti post-pericardiotomiche che soddisfano i criteri: adulto 100 mg/die sottocute, eta' pediatrica 2 mg/kg/die fino a un massimo di 100 mg/die - AIFA",
+      "Il rilonacept, altro inibitore dell'IL-1 con indicazione per la pericardite ricorrente, NON e' disponibile in Europa"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo, agli eccipienti o alle proteine derivate da Escherichia coli",
+      "Neutropenia (conta assoluta dei neutrofili inferiore a 1,5 x 10^9/L): il trattamento non deve essere iniziato"
+    ],
+    "warnings": [
+      "Il trattamento non deve essere iniziato in pazienti neutropenici (neutrofili <1,5 x 10^9/L); la neutropenia e' un evento comune e va monitorata durante la terapia",
+      "Rischio di infezioni gravi: non iniziare in presenza di infezione attiva e sospendere in caso di infezione grave; valutare lo screening per tubercolosi secondo la pratica locale",
+      "L'associazione con etanercept o con qualsiasi altro antagonista del TNF-alfa NON e' raccomandata: nello studio di riferimento ha prodotto un tasso piu' elevato di infezioni gravi (7%) e di neutropenia senza incremento del beneficio clinico",
+      "Compromissione renale: nessun aggiustamento con clearance 60-89 mL/min; usare con cautela con clearance 30-59 mL/min; con clearance inferiore a 30 mL/min o malattia renale terminale, inclusa la dialisi, va considerata la somministrazione della dose prescritta A GIORNI ALTERNI",
+      "Le reazioni al sito di iniezione sono molto frequenti, in genere lievi e transitorie nelle prime settimane",
+      "Vaccini vivi attenuati non raccomandati durante il trattamento"
+    ],
+    "adverseEffects": [
+      "Reazioni al sito di iniezione (molto frequenti)",
+      "Neutropenia",
+      "Infezioni, comprese infezioni gravi (polmonite, cellulite)",
+      "Cefalea",
+      "Aumento della colesterolemia",
+      "Reazioni di ipersensibilita' (rare)"
+    ],
+    "overdose": "Non sono descritti effetti tossici dose-limitanti definiti nell'uso clinico corrente; in caso di sovradosaggio sorvegliare segni e sintomi di infezione e la conta dei neutrofili. Non esiste un antidoto specifico.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento con clearance 60-89 mL/min; cautela con 30-59 mL/min; con clearance <30 mL/min o dialisi considerare la somministrazione a giorni alterni.",
+      "hepatic": "Nessun aggiustamento specifico previsto.",
+      "elderly": "Utilizzabile; maggiore attenzione al rischio infettivo e alla funzione renale.",
+      "pregnancy": "Da evitare salvo chiara necessita' (dati limitati).",
+      "breastfeeding": "Non e' noto se sia secreto nel latte materno: l'uso in donne che allattano non e' raccomandato."
+    },
+    "alternativeDrugIds": [
+      "colchicine",
+      "prednisone",
+      "azathioprine"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' una puntura sottocute che blocca una delle molecole dell'infiammazione (l'interleuchina-1). Nella pericardite che continua a tornare e che non si riesce a togliere dal cortisone e' il farmaco che permette di uscirne.",
+    "clinicalExplanation": "Antagonista recettoriale ricombinante dell'IL-1 (r-metHuIL-1Ra) che neutralizza competitivamente l'attivita' di IL-1alfa e IL-1beta sul recettore IL-1R1. Nella pericardite recidivante corticodipendente e colchicina-resistente ha indicazione di Classe I nelle linee guida ESC 2025 e in Italia e' rimborsata in Legge 648/96 (100 mg/die sottocute nell'adulto). Le criticita' sono il rischio infettivo, la neutropenia e la somministrazione quotidiana.",
+    "molecularExplanation": "Compete con IL-1alfa e IL-1beta per il legame al recettore di tipo I dell'IL-1 (IL-1R1), impedendo la trasduzione del segnale pro-infiammatorio.",
+    "pharmacodynamics": "Blocco della via dell'IL-1 con rapida riduzione di sintomi e indici di flogosi (PCR) nelle malattie IL-1 mediate.",
+    "molecularTarget": "Recettore di tipo I dell'interleuchina-1 (IL-1R1)",
+    "agonismAntagonism": "Antagonismo competitivo del recettore dell'IL-1",
+    "pharmacokinetics": {
+      "route": "Sottocutanea, una volta al giorno",
+      "halfLife": "Breve (poche ore), da cui la somministrazione quotidiana",
+      "note": "Eliminazione prevalentemente renale: la clearance si riduce con la funzione renale"
+    },
+    "bibliography": []
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "prednisone",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-28T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Deltacortene (prednisone) - RCP (Torrinomedica/Codifa/Univadis su base AIFA): indicazioni, posologia d'attacco e mantenimento, controindicazioni, avvertenze.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/DELTACORTENE/",
+        "identifier": "Deltacortene RCP",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2025 - Linee guida su miocardite e pericardite: corticosteroidi non di prima linea nella pericardite, dosi medio-basse in associazione.",
+        "url": "https://www.giornaledicardiologia.it/archivio/4620/articoli/46292/",
+        "identifier": "ESC 2025 IMPS",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "prednisone",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "FANS e acido acetilsalicilico",
+      "effect": "Aumento del rischio di ulcerazione ed emorragia gastrointestinale",
+      "management": "Associazione prevista negli schemi della pericardite: aggiungere gastroprotezione con inibitore di pompa"
+    },
+    {
+      "severity": "major",
+      "agent": "Vaccini vivi attenuati",
+      "effect": "Rischio di infezione disseminata nel paziente immunodepresso",
+      "management": "Controindicati durante l'immunosoppressione; pianificare le vaccinazioni prima del trattamento"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Diuretici dell'ansa e tiazidici, amfotericina B",
+      "effect": "Effetto additivo sulla perdita di potassio con rischio di ipokaliemia e aritmie",
+      "management": "Monitorare la potassiemia, soprattutto nel paziente in digossina o con QT lungo"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Digossina",
+      "effect": "L'ipokaliemia indotta dal corticosteroide aumenta la tossicita' digitalica",
+      "management": "Controllo di potassiemia e digossinemia"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Antidiabetici orali e insulina",
+      "effect": "Riduzione dell'efficacia ipoglicemizzante per iperglicemia indotta",
+      "management": "Intensificare il monitoraggio glicemico e adeguare la terapia"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Anticoagulanti orali (warfarin)",
+      "effect": "Alterazione dell'effetto anticoagulante in entrambe le direzioni",
+      "management": "Controllo ravvicinato dell'INR all'inizio e alla sospensione"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Induttori e inibitori del CYP3A4 (rifampicina, fenitoina, carbamazepina; ketoconazolo, macrolidi)",
+      "effect": "Riduzione o aumento dell'esposizione al corticosteroide",
+      "management": "Adeguare la dose e sorvegliare l'efficacia o gli effetti cushingoidi"
+    }
+  ]
+}

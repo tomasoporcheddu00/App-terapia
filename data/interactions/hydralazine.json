@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "hydralazine",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Idralazina - RCP/monografie (MSD/Humanitas/centralino su base RCP): vasodilatatore diretto arteriolare; ipertensione add-on, emergenza in gravidanza, scompenso con nitrati; lupus farmaco-indotto, tachicardia riflessa.",
+        "url": "https://www.msdmanuals.com/it/professionale/disturbi-dell-apparato-cardiovascolare/ipertensione/farmaci-per-l-ipertensione",
+        "identifier": "Idralazina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "hydralazine",
+  "items": [
+    {
+      "severity": "moderate",
+      "agent": "Betabloccanti (metoprololo, propranololo)",
+      "effect": "Aumento reciproco dei livelli; associazione utile per contrastare la tachicardia riflessa",
+      "management": "Associazione spesso ricercata; monitorare"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Altri antipertensivi",
+      "effect": "Ipotensione additiva",
+      "management": "Monitorare"
+    },
+    {
+      "severity": "moderate",
+      "agent": "FANS (indometacina)",
+      "effect": "Riduzione dell'effetto antipertensivo",
+      "management": "Monitorare"
+    }
+  ]
+}

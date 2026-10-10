@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "aspirin__secondary-cv-prevention__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Cardioaspirin 100 mg (acido acetilsalicilico), sez. 4.2.",
+        "url": "https://www.codifa.it/farmaci/c/cardioaspirin-acido-acetilsalicilico-antiaggreganti-piastrinici-antipiretici-analgesici-fans",
+        "identifier": "Cardioaspirin 100 mg",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Dose antiaggregante standard 100 mg/die. Dose di carico (es. in SCA) e schemi DAPT da compilare con le linee guida ESC (fonte da aggiungere). id di indicazione da riconciliare col vocabolario del progetto.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "aspirin",
+  "indication": "secondary-cv-prevention",
+  "scenario": "Prevenzione secondaria degli eventi aterotrombotici",
+  "route": "oral",
+  "formulation": "compresse gastroresistenti",
+  "population": "adult-standard",
+  "dose": {
+    "loading": null,
+    "initial": "100 mg una volta al giorno",
+    "interval": "ogni 24 ore",
+    "maintenance": "100 mg una volta al giorno",
+    "target": null,
+    "max": null,
+    "titration": null,
+    "duration": "A lungo termine salvo controindicazioni",
+    "weightBased": null,
+    "cumulative": null,
+    "renalAdjustment": "Controindicato in insufficienza renale grave.",
+    "hepaticAdjustment": "Controindicato in insufficienza epatica grave.",
+    "elderly": "Cautela per maggior rischio emorragico GI.",
+    "pregnancy": "Dosi >100 mg/die controindicate nel terzo trimestre.",
+    "dialysis": null
+  },
+  "administration": {
+    "preparation": null,
+    "solvent": null,
+    "concentration": null,
+    "rate": null,
+    "access": null,
+    "notes": "Compresse gastroresistenti; assumere secondo RCP."
+  },
+  "monitoring": [
+    "Segni di sanguinamento gastrointestinale"
+  ],
+  "stoppingCriteria": [
+    "Sanguinamento significativo",
+    "Valutazione perioperatoria (effetto persistente alcuni giorni)"
+  ],
+  "approvalEvidence": {
+    "primarySourceVerified": false,
+    "smpcVerified": true,
+    "clinicalReviewDone": true,
+    "verificationDate": "2026-07-18",
+    "reviewer": "Curatore clinico"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "id": "prasugrel",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": "Curatore clinico",
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": "2026-07-19",
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Efient (prasugrel), EMA (procedura centralizzata); disponibili generici.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/efient_10_mg/",
+        "identifier": "Efient / prasugrel",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Prasugrel (Efient) autorizzato EMA; disponibili generici. Classe di rimborsabilita', regime di fornitura e in particolare l'eventuale piano terapeutico/registro AIFA (storicamente previsto per gli inibitori P2Y12 nelle SCA) da verificare su banca dati AIFA.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "prasugrel",
+  "authorisation": "Autorizzato dall'EMA con procedura centralizzata (Efient); disponibili generici.",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RR (da confermare per confezione)",
+  "aifaNote": null,
+  "therapeuticPlan": null,
+  "registry": null,
+  "distribution": null,
+  "law648_1996": false,
+  "prescriberRestrictions": "Da verificare l'eventuale piano terapeutico/registro AIFA per gli inibitori P2Y12 nelle SCA.",
+  "availableFormulations": [
+    "compresse 5 mg",
+    "compresse 10 mg"
+  ],
+  "verificationDate": "2026-07-18"
+}

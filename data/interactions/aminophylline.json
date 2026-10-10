@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "id": "aminophylline",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Aminofillina (fiale 240 mg/10 mL) - RCP AIFA (Torrinomedica/Codifa/Mediately): derivato xantinico; asma bronchiale e affezioni polmonari con componente spastica; EV lenta 480 mg diluiti in 50 mL, max 25 mg/min e 5,6 mg/kg; controindicato nell'infarto miocardico acuto e negli stati ipotensivi.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/aminophilline/",
+        "identifier": "Aminofillina RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "aminophylline",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Adenosina",
+      "effect": "Le xantine antagonizzano i recettori dell'adenosina riducendone l'efficacia",
+      "management": "Possono essere necessarie dosi maggiori di adenosina o una strategia alternativa"
+    },
+    {
+      "severity": "major",
+      "agent": "Macrolidi (eritromicina, claritromicina), chinoloni (ciprofloxacina), cimetidina, fluvoxamina",
+      "effect": "Riduzione della clearance della teofillina con rischio di tossicita'",
+      "management": "Ridurre la dose e monitorare i livelli"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Fumo di sigaretta, rifampicina, fenitoina, carbamazepina",
+      "effect": "Aumento della clearance con riduzione dell'efficacia",
+      "management": "Puo' essere necessario un dosaggio maggiore"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Beta2-agonisti, corticosteroidi, diuretici",
+      "effect": "Potenziamento dell'ipokaliemia e degli effetti cardiaci",
+      "management": "Monitorare potassiemia e frequenza cardiaca"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Betabloccanti",
+      "effect": "Antagonismo dell'effetto broncodilatatore",
+      "management": "Evitare i betabloccanti non selettivi nell'asma"
+    }
+  ]
+}

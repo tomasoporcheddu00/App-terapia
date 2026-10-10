@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "eptifibatide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "EMA/AIFA - eptifibatide (Integrilin): antiaggregante EV, uso ospedaliero.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2010/2010012073426/anx_73426_it.pdf",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Prescrivibilita' da portale su base Banca Dati AIFA/EMA; confermare sul prontuario aggiornato."
+  },
+  "drugId": "eptifibatide",
+  "authorisation": "EMA/Nazionale",
+  "marketed": true,
+  "reimbursementClass": "H (OSP)",
+  "supplyRegime": "OSP - uso ospedaliero",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Ospedaliera",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

@@ -1,0 +1,66 @@
+name: Segnalazione clinica
+description: Errore o imprecisione in un contenuto clinico (dose, controindicazione, interazione, indicazione)
+title: "[clinica] "
+labels: ["clinica", "da-verificare"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gli errori clinici hanno priorità su tutto il resto.
+        Se riguarda una **dose**, una **controindicazione** o un'**interazione**, aggiungi
+        `URGENTE` nel titolo.
+  - type: input
+    id: scheda
+    attributes:
+      label: Scheda o percorso interessato
+      placeholder: "es. drugs/amiodarone, oppure il percorso «Fibrillazione atriale»"
+    validations:
+      required: true
+  - type: dropdown
+    id: campo
+    attributes:
+      label: Campo
+      options:
+        - Posologia
+        - Controindicazione
+        - Interazione
+        - Indicazione (autorizzata o da linee guida)
+        - Popolazioni speciali (rene, fegato, gravidanza…)
+        - Avvertenza o effetto avverso
+        - Farmacocinetica
+        - Regolatorio (rimborsabilità, piano terapeutico, nota)
+        - Percorso terapeutico
+        - Altro
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: Che cosa risulta errato
+      description: Riporta il testo attuale della scheda e spiega perché è sbagliato o fuorviante.
+    validations:
+      required: true
+  - type: textarea
+    id: corretto
+    attributes:
+      label: Formulazione corretta
+      description: Come dovrebbe essere scritto.
+    validations:
+      required: true
+  - type: textarea
+    id: fonte
+    attributes:
+      label: Fonte
+      description: |
+        **Obbligatoria.** RCP (con versione e data), linea guida (con anno, sezione o numero di
+        tabella) o documento regolatorio, con il collegamento. Vale la regola del progetto:
+        meglio un campo vuoto che un campo inventato.
+    validations:
+      required: true
+  - type: checkboxes
+    id: rischio
+    attributes:
+      label: Valutazione del rischio
+      options:
+        - label: L'errore può indurre una decisione terapeutica dannosa
+        - label: Ho verificato che l'errore sia presente anche nella versione pubblicata

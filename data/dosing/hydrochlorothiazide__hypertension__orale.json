@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "hydrochlorothiazide__hypertension__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Idroclorotiazide - RCP (Mediately/Codifa/informazionisuifarmaci su base AIFA): indicazioni ipertensione/edema, dose 12,5-50 mg, controindicazioni sulfamidici e IR grave, segnale EMA tumori cutanei.",
+        "url": "https://mediately.co/it/drugs/aJaWW6OkepJ5jStkyBplergXAz1/idroclorotiazide-aurobindo-25-mg-compresse-divisibili",
+        "identifier": "Idroclorotiazide RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "hydrochlorothiazide",
+  "indication": "hypertension",
+  "scenario": "Ipertensione arteriosa",
+  "route": "orale",
+  "dose": {
+    "initial": "12,5-25 mg una volta al giorno",
+    "maintenance": "12,5-25 mg al giorno",
+    "max": "50 mg al giorno",
+    "titration": "effetto pieno dopo 3-4 settimane"
+  },
+  "administration": {
+    "notes": "Con o senza cibo; al mattino."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

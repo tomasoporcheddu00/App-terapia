@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "id": "ticagrelor",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Brilique (ticagrelor) sez. 4.3/4.5 - inibitori/induttori forti CYP3A4, substrati CYP3A a indice stretto, digossina (P-gp), ASA ad alte dosi.",
+        "url": "https://www.codifa.it/farmaci/b/brilique-compresse-rivestite-ticagrelor-antiaggreganti-piastrinici",
+        "identifier": "Brilique 4.5",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Coerente con il metabolismo CYP3A4 documentato. Elenco 4.5 completo da verificare sulla RCP integrale.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "ticagrelor",
+  "items": [
+    {
+      "agent": "Inibitori forti del CYP3A4 (ketoconazolo, claritromicina, ritonavir, nefazodone)",
+      "effect": "Aumento marcato dell'esposizione a ticagrelor",
+      "management": "Controindicati",
+      "severity": "major"
+    },
+    {
+      "agent": "Induttori forti del CYP3A4 (rifampicina, fenitoina, carbamazepina)",
+      "effect": "Riduzione dell'esposizione e dell'efficacia",
+      "management": "Evitare",
+      "severity": "major"
+    },
+    {
+      "agent": "Substrati del CYP3A a indice terapeutico stretto (simvastatina/lovastatina >40 mg)",
+      "effect": "Aumento dell'esposizione della statina",
+      "management": "Non superare 40 mg",
+      "severity": "moderate"
+    },
+    {
+      "agent": "Digossina (substrato P-gp)",
+      "effect": "Aumento delle concentrazioni di digossina",
+      "management": "Monitorare la digossinemia",
+      "severity": "moderate"
+    },
+    {
+      "agent": "ASA a dosi >100 mg/die",
+      "effect": "Riduzione dell'efficacia di ticagrelor",
+      "management": "Mantenere ASA <=100 mg/die",
+      "severity": "major"
+    },
+    {
+      "agent": "Anticoagulanti, FANS",
+      "effect": "Aumento del rischio emorragico",
+      "management": "Evitare le associazioni non necessarie",
+      "severity": "major"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "id": "azathioprine",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Azatioprina (Azafor, Immunoprin) - RCP (Torrinomedica su base AIFA): indicazioni, controindicazioni, TPMT/NUDT15, riduzione a un quarto con allopurinolo, interazioni con ACE-inibitori.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/azafor_50_mg_compresse_rivestite_con_film/",
+        "identifier": "Azafor RCP",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "smpc",
+        "citation": "Immunoprin (azatioprina) - RCP (Torrinomedica): monitoraggio emocromocitometrico e interazioni con aminosalicilati, ACE-inibitori, trimetoprim/sulfametoxazolo, cimetidina, indometacina.",
+        "url": "https://farmaci.torrinomedica.it/Immunoprin/",
+        "identifier": "Immunoprin RCP",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP italiani (Torrinomedica/Codifa/Univadis/Mediately su base Banca Dati AIFA) e, dove indicato, da documenti AIFA. DA CONFERMARE sugli RCP ufficiali AIFA/EMA. Stato: revisione fonti (source-review), non ancora approvato. ATTENZIONE: per queste molecole l'indicazione cardiologica (pericardite, miocardite, sarcoidosi, prevenzione secondaria) deriva dalle linee guida e NON coincide con le indicazioni autorizzate in scheda tecnica: verificare regime prescrittivo e rimborsabilita'. Non e' un farmaco d'urgenza: l'effetto compare in settimane. Serve per uscire dalla corticodipendenza, non per trattare l'episodio acuto.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Azatioprina",
+    "inn": "azatioprina",
+    "brandExamplesIt": [
+      "Azafor",
+      "Immunoprin"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Immunosoppressore antimetabolita, profarmaco della 6-mercaptopurina",
+  "identity": {
+    "atcCodes": [
+      "L04AX01"
+    ],
+    "formulations": [
+      "Compresse rivestite con film 50 mg"
+    ],
+    "potentialRoutes": [
+      "orale"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "immunosuppressants"
+  ],
+  "quickSummary": {
+    "whatItIs": "Immunosoppressore antimetabolita, profarmaco della 6-mercaptopurina. In cardiologia si usa come risparmiatore di steroide nella pericardite recidivante corticodipendente e nella sarcoidosi cardiaca.",
+    "mainUses": [
+      "Immunosoppressione nella profilassi del rigetto di trapianto d'organo, in combinazione con altri immunosoppressori (indicazione autorizzata)",
+      "Pericardite recidivante corticodipendente e sarcoidosi cardiaca, come risparmiatore di steroide (indicazione da linee guida)"
+    ],
+    "mainRisks": [
+      "Mielosoppressione dose-dipendente, potenzialmente grave",
+      "Deficit di TPMT (circa il 10% della popolazione) e varianti di NUDT15: rischio di tossicita' aumentata",
+      "Interazione grave con allopurinolo: la dose va ridotta a un quarto",
+      "Aumento del rischio di infezioni e di neoplasie nel trattamento prolungato"
+    ],
+    "essentialMonitoring": [
+      "Emocromo con formula: settimanale nelle prime settimane, poi periodico",
+      "Funzione epatica",
+      "Attivita' o genotipo TPMT (e valutazione di NUDT15) prima dell'avvio"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Regimi immunosoppressivi in aggiunta agli agenti immunosoppressivi che costituiscono il trattamento di base",
+      "In combinazione con altri agenti immunosoppressivi per la profilassi del rigetto in pazienti riceventi trapianti allogenici di rene, fegato, cuore, polmone o pancreas"
+    ],
+    "guidelineIndications": [
+      "Pericardite recidivante corticodipendente: l'azatioprina e' un'alternativa risparmiatrice di steroide, insieme alle immunoglobuline endovena, nelle forme corticodipendenti - ESC 2025",
+      "Sarcoidosi cardiaca: risparmiatore di steroide di seconda linea (con metotressato, micofenolato, leflunomide) per ridurre la dipendenza dal cortisone o in caso di effetti avversi"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' all'azatioprina, alla 6-mercaptopurina (suo metabolita) o agli eccipienti",
+      "Infezioni gravi",
+      "Grave compromissione della funzione epatica",
+      "Grave compromissione della funzione midollare",
+      "Pancreatite"
+    ],
+    "warnings": [
+      "MIELOSOPPRESSIONE: e' la tossicita' principale e richiede un attento monitoraggio dell'emocromo per tutta la durata del trattamento. Circa il 10% dei pazienti ha un deficit di tiopurina metiltransferasi (TPMT) su base genetica e puo' non metabolizzare completamente il farmaco, con effetto mielotossico aumentato; i test per il deficit di TPMT non identificano tutti i pazienti a rischio, per cui il monitoraggio ematologico resta sempre necessario",
+      "Va considerata l'esecuzione del test genotipico o fenotipico per le varianti di NUDT15 prima di iniziare una tiopurina, per ridurre il rischio di leucocitopenia e alopecia gravi (specialmente nelle popolazioni asiatiche)",
+      "INTERAZIONE CRITICA CON ALLOPURINOLO: se allopurinolo, ossipurinolo o tiopurinolo vengono somministrati insieme all'azatioprina, la dose di azatioprina deve essere ridotta a UN QUARTO della dose originale",
+      "Stretto monitoraggio dell'emocromo anche in associazione ad aminosalicilati (mesalazina, olsalazina, sulfasalazina, che inibiscono la TPMT), ACE-inibitori, trimetoprim/sulfametoxazolo, cimetidina, indometacina e farmaci citotossici o mielodepressivi",
+      "Attenzione con i bloccanti neuromuscolari (atracurio, rocuronio, cisatracurio, suxametonio)",
+      "Aumento del rischio di infezioni opportunistiche e, nel trattamento prolungato, di neoplasie (cutanee e linfoproliferative): protezione solare e sorveglianza"
+    ],
+    "adverseEffects": [
+      "Mielosoppressione (leucopenia, trombocitopenia, anemia)",
+      "Infezioni, comprese le opportunistiche",
+      "Nausea, vomito, epatotossicita' e colestasi",
+      "Pancreatite",
+      "Reazioni di ipersensibilita' (sindrome simil-influenzale, ipotensione)",
+      "Neoplasie cutanee e linfoproliferative nel trattamento prolungato"
+    ],
+    "overdose": "Nel sovradosaggio, soprattutto cronico, prevale la depressione midollare con infezioni opportunistiche, ulcerazioni faringee e diatesi emorragica. Non esiste un antidoto specifico: sospensione, supporto ematologico e trattamento delle infezioni; l'azatioprina e' parzialmente dializzabile.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Ridurre la dose nell'insufficienza renale secondo scheda tecnica e sorvegliare l'emocromo.",
+      "hepatic": "Controindicata nella compromissione epatica grave; ridurre la dose e monitorare nelle forme lievi-moderate.",
+      "elderly": "Cautela: maggiore rischio di mielosoppressione e infezioni; controlli ematologici piu' frequenti.",
+      "pregnancy": "Da evitare salvo necessita' assoluta; valutazione specialistica del rapporto rischio/beneficio.",
+      "breastfeeding": "Non raccomandata."
+    },
+    "alternativeDrugIds": [
+      "prednisone",
+      "anakinra",
+      "colchicine"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' un immunosoppressore in compresse che si usa per poter togliere il cortisone quando la pericardite continua a tornare. Richiede controlli del sangue regolari e non va mai associato all'allopurinolo alla dose piena.",
+    "clinicalExplanation": "Profarmaco convertito a 6-mercaptopurina e quindi ai nucleotidi tioguaninici, che interferiscono con la sintesi purinica e la proliferazione linfocitaria. In cardiologia e' un risparmiatore di steroide nella pericardite recidivante corticodipendente e nella sarcoidosi cardiaca. L'effetto e' lento (settimane-mesi). Le due criticita' pratiche sono il polimorfismo della TPMT e l'interazione con l'allopurinolo, che impone la riduzione della dose a un quarto.",
+    "molecularExplanation": "L'azatioprina viene convertita non enzimaticamente a 6-mercaptopurina e poi ai nucleotidi tioguaninici, che si incorporano negli acidi nucleici e inibiscono la sintesi de novo delle purine, riducendo la proliferazione dei linfociti T e B. La TPMT metila e inattiva la 6-mercaptopurina: il deficit dell'enzima devia il metabolita verso la via tossica.",
+    "pharmacodynamics": "Immunosoppressione ad esordio lento (settimane-mesi), con riduzione della proliferazione linfocitaria; effetto risparmiatore di corticosteroide.",
+    "molecularTarget": "Sintesi delle purine e proliferazione linfocitaria (via dei nucleotidi tioguaninici)",
+    "agonismAntagonism": "Antimetabolita purinico",
+    "pharmacokinetics": {
+      "route": "Orale",
+      "halfLife": "Azatioprina breve; l'effetto dipende dai metaboliti tioguaninici intracellulari, a lunga permanenza",
+      "note": "Assorbita nel tratto gastrointestinale con picco entro 1-2 ore; metabolismo via TPMT, xantina ossidasi e NUDT15"
+    },
+    "bibliography": []
+  }
+}

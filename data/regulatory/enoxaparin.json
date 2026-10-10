@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "id": "enoxaparin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": "Curatore clinico",
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": "2026-07-19",
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "AIFA - Nota Informativa Importante Clexane (enoxaparina), armonizzazione UE degli stampati (09/06/2017).",
+        "url": "https://www.aifa.gov.it/documents/20142/516919/NII_Clexane_enoxaparina_09.06.2017.pdf",
+        "identifier": "AIFA NII Clexane 2017",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Enoxaparina (Clexane) autorizzata a livello nazionale (stampati armonizzati UE). Classe di rimborsabilita', regime di fornitura, eventuale distribuzione (es. PHT) e AIC per confezione da verificare su banca dati AIFA. Disponibili biosimilari/generici.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "enoxaparin",
+  "authorisation": "Autorizzata in Italia (Clexane/Clexane T; disponibili biosimilari).",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RR (da confermare per confezione)",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "registry": null,
+  "distribution": null,
+  "law648_1996": false,
+  "prescriberRestrictions": null,
+  "availableFormulations": [
+    "siringhe preriempite s.c. a vari dosaggi"
+  ],
+  "verificationDate": "2026-07-18"
+}

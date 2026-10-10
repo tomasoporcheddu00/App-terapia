@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "id": "corticosteroids",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Deltacortene (prednisone) - RCP (Torrinomedica/Codifa/Univadis su base AIFA): indicazioni, posologia d'attacco e mantenimento, controindicazioni, avvertenze.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/DELTACORTENE/",
+        "identifier": "Deltacortene RCP",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2025 - Linee guida su miocardite e pericardite: corticosteroidi non di prima linea nella pericardite, dosi medio-basse in associazione.",
+        "url": "https://www.giornaledicardiologia.it/archivio/4620/articoli/46292/",
+        "identifier": "ESC 2025 IMPS",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Pagina di classe da RCP e linee guida ESC; altre molecole della classe restano placeholder."
+  },
+  "name": "Corticosteroidi (glucocorticoidi)",
+  "atcGroup": "H02AB - Glucocorticoidi sistemici",
+  "memberDrugIds": [
+    "prednisone"
+  ],
+  "mechanismSummary": "Agonismo del recettore dei glucocorticoidi con modulazione della trascrizione genica: transrepressione di NF-kB e AP-1 e riduzione della sintesi di citochine e mediatori infiammatori.",
+  "molecularTarget": "Recettore dei glucocorticoidi (NR3C1)",
+  "pharmacodynamics": "Effetto antinfiammatorio e immunosoppressivo potente e rapido, con attivita' mineralcorticoide variabile secondo la molecola (ritenzione di sodio e perdita di potassio).",
+  "classEffects": [
+    "Nella pericardite NON sono di prima linea: aumentano il rischio di cronicizzazione e di recidive",
+    "Ruolo di prima linea nella sarcoidosi cardiaca e nelle forme di miocardite non infettiva/fulminante",
+    "Ritenzione idrosalina, ipertensione, ipokaliemia e iperglicemia",
+    "Soppressione dell'asse ipotalamo-ipofisi-surrene con necessita' di sospensione graduale"
+  ],
+  "sharedContraindications": [
+    "Infezioni sistemiche non controllate, tubercolosi, micosi sistemiche",
+    "Ulcera peptica",
+    "Psicosi",
+    "Stati di immunodeficienza"
+  ],
+  "sharedAdverseEffects": [
+    "Ritenzione idrosalina, edema, ipertensione, ipokaliemia",
+    "Iperglicemia e scompenso del diabete",
+    "Aumentata suscettibilita' alle infezioni con mascheramento dei segni",
+    "Osteoporosi, miopatia, disturbi psichici"
+  ],
+  "monitoring": [
+    "Pressione arteriosa, peso e glicemia",
+    "Potassiemia (attenzione nel paziente in digossina)",
+    "Segni di infezione",
+    "Profilassi ossea nei trattamenti prolungati"
+  ],
+  "reversal": "Nessun antidoto: la sospensione deve essere graduale per il rischio di insufficienza surrenalica, che puo' persistere per mesi.",
+  "notesOnClassVsMolecule": "Nella pericardite valgono tre regole: dosi medio-basse, sempre in associazione a FANS e colchicina, riduzione lenta guidata da sintomi e PCR. Il prednisone e' un profarmaco del prednisolone e richiede conversione epatica."
+}

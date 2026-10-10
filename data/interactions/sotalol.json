@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "id": "sotalol",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Sotalolo - RCP (Mediately/Torrinomedica/Codifa su base AIFA): indicazioni antiaritmiche, posologia con titolazione lenta, avvertenza torsione di punta e monitoraggio QT.",
+        "url": "https://mediately.co/it/drugs/HO4vrq87grrJzILqk7YktX5Ykqq/sotalolo-hexal-40-cpr-80-mg",
+        "identifier": "Sotalolo RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni di classe dei betabloccanti (§4.5), applicabili alla molecola; severita' secondo posizionamento RCP e rilevanza clinica. Il sotalolo prolunga il QT: l'associazione con altri farmaci che allungano il QT o che causano squilibri elettrolitici e' particolarmente rischiosa (torsione di punta). Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "sotalol",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Calcioantagonisti non diidropiridinici (verapamil, diltiazem), specie per via endovenosa",
+      "effect": "Bradicardia grave, blocco AV, ipotensione, depressione della contrattilita'",
+      "management": "Associazione EV controindicata; per via orale usare con cautela e monitoraggio ECG/PA"
+    },
+    {
+      "severity": "major",
+      "agent": "Farmaci che deprimono il nodo/la conduzione (digossina, amiodarone, altri antiaritmici, ivabradina)",
+      "effect": "Bradicardia e blocco atrioventricolare",
+      "management": "Monitorare frequenza cardiaca e conduzione; cautela nell'associazione"
+    },
+    {
+      "severity": "major",
+      "agent": "Clonidina e antipertensivi ad azione centrale",
+      "effect": "Ipertensione da rimbalzo se il betabloccante viene sospeso per primo",
+      "management": "Sospendere prima il betabloccante e solo dopo, gradualmente, la clonidina"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Insulina e ipoglicemizzanti orali",
+      "effect": "Mascheramento dei sintomi dell'ipoglicemia; possibile alterazione del controllo glicemico",
+      "management": "Informare il paziente; monitorare la glicemia"
+    },
+    {
+      "severity": "moderate",
+      "agent": "FANS",
+      "effect": "Riduzione dell'effetto antipertensivo",
+      "management": "Monitorare la pressione arteriosa"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Anestetici, altri antipertensivi, calcioantagonisti diidropiridinici",
+      "effect": "Potenziamento dell'ipotensione",
+      "management": "Cautela perioperatoria; informare l'anestesista"
+    },
+    {
+      "severity": "contraindicated",
+      "agent": "Altri farmaci che prolungano il QT (antiaritmici di classe Ia/III, alcuni antipsicotici, macrolidi, chinoloni, antifungini azolici, ecc.)",
+      "effect": "Ulteriore prolungamento del QT e rischio di torsione di punta",
+      "management": "Evitare l'associazione; se inevitabile, monitoraggio ECG stretto"
+    },
+    {
+      "severity": "major",
+      "agent": "Diuretici che causano ipopotassiemia/ipomagnesiemia",
+      "effect": "Aumento del rischio di torsione di punta",
+      "management": "Correggere e monitorare gli elettroliti"
+    }
+  ]
+}

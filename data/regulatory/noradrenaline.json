@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "noradrenaline",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Banca Dati AIFA - noradrenalina: uso ospedaliero (OSP), classe C.",
+        "url": "https://mediately.co/it/drugs/56OYLLMOGOH9vAKkC3TYoJi3qpb/noradrenalina-tartrato-aguettant-0-5-mg-ml-soluzione-per-infusione",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Uso ospedaliero (terapia intensiva); confermare classe/regime sul prontuario AIFA."
+  },
+  "drugId": "noradrenaline",
+  "authorisation": "Nazionale (AIFA)",
+  "marketed": true,
+  "reimbursementClass": "C",
+  "supplyRegime": "OSP - uso ospedaliero",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Ospedaliera",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

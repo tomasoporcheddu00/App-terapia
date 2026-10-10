@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "nitroglycerin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Banca Dati AIFA - nitroglicerina: prescrivibilita' e classe variano per formulazione (sublinguale, transdermica, EV ospedaliera).",
+        "url": "https://www.codifa.it/farmaci/n/nitroglicerina-teva-nitroglicerina-nitrati",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Classe di rimborso e regime variano per formulazione; le formulazioni endovenose sono di uso ospedaliero. Confermare sul prontuario AIFA."
+  },
+  "drugId": "nitroglycerin",
+  "authorisation": "Nazionale (AIFA)",
+  "marketed": true,
+  "reimbursementClass": "A/C (secondo formulazione)",
+  "supplyRegime": "RR / OSP (le formulazioni EV sono di uso ospedaliero)",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Farmacia (convenzionata)",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

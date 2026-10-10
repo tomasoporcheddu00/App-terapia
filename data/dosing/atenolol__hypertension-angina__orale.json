@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "atenolol__hypertension-angina__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Atenololo - RCP (Mediately/Torrinomedica/Pharmamedix su base AIFA): indicazioni, posologia, aggiustamento renale.",
+        "url": "https://mediately.co/it/drugs/WqV00j8PMxt1eToOj3A3uqeDLGx/atenololo-accord-50-cpr-50-mg",
+        "identifier": "Atenololo RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "atenolol",
+  "indication": "hypertension",
+  "scenario": "Ipertensione / angina / tachiaritmie",
+  "route": "orale",
+  "dose": {
+    "initial": "50 mg una volta al giorno (25 mg nell'anziano o nell'IR grave)",
+    "maintenance": "50-100 mg una volta al giorno",
+    "max": "100 mg al giorno (oltre, di norma nessun beneficio aggiuntivo)",
+    "renalAdjustment": "CrCl 15-35: max 50 mg/die; CrCl <15: max 25 mg/die"
+  },
+  "administration": {
+    "notes": "Effetto pieno dopo 1-2 settimane."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

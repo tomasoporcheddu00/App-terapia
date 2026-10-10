@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "acoramidis__attr-cm__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Beyonttra (acoramidis) - RCP EMA (registro comunitario EC, allegato IT): indicazione ATTR-CM, posologia 712 mg due volte al giorno, farmacocinetica.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2025/20250210165087/anx_165087_it.pdf",
+        "identifier": "Beyonttra RCP EMA",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Comunicato di approvazione della Commissione Europea (febbraio 2025) e risultati dello studio ATTRibute-CM.",
+        "url": "https://www.bayer.com/media/en-us/heart-drug-beyonttra-acoramidis-approved-in-eu-for-treatment-of-transthyretin-amyloidosis-in-adults-with-cardiomyopathy/",
+        "identifier": "EC/ATTRibute-CM",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Posologia da fonti su base RCP/AIFA o da linee guida citate; smpcVerified=false. Verificare sempre su RCP ufficiale e adattare a funzione renale/epatica."
+  },
+  "drugId": "acoramidis",
+  "indication": "amyloidosis",
+  "scenario": "Amiloidosi da transtiretina con cardiomiopatia (ATTR-CM)",
+  "route": "orale",
+  "dose": {
+    "dose": "712 mg (due compresse) per via orale DUE VOLTE AL GIORNO",
+    "doseGiornaliera": "1424 mg di acoramidis al giorno",
+    "modo": "compresse deglutite intere, con o senza cibo",
+    "dimenticanza": "assumere la dose all'orario abituale successivo, senza raddoppiare"
+  },
+  "administration": {
+    "notes": "Da avviare in centro esperto dopo conferma diagnostica di ATTR-CM ed esclusione dell'amiloidosi AL. Verificare disponibilita' e rimborsabilita' in Italia."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

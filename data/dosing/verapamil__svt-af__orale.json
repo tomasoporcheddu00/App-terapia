@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "verapamil__svt-af__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Verapamil - RCP (Torrinomedica/Mediately/Pharmamedix su base AIFA): indicazioni ipertensione/angina/aritmie SV, dose, controindicazioni (scompenso, WPW+FA, betabloccante EV), stipsi.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/verapamil_angenerico/",
+        "identifier": "Verapamil RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "verapamil",
+  "indication": "svt",
+  "scenario": "Aritmie sopraventricolari / controllo frequenza",
+  "route": "orale",
+  "dose": {
+    "initial": "40-120 mg tre volte al giorno (rilascio immediato)",
+    "maintenance": "secondo controllo della frequenza",
+    "max": "480 mg al giorno"
+  },
+  "administration": {
+    "notes": "Preferibilmente durante i pasti. Non associare a betabloccanti per via endovenosa."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

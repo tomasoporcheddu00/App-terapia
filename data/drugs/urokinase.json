@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "id": "urokinase",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Urochinasi (Urochinasi EG/Ukidan/Actosolv) - RCP (Torrinomedica/Mediately su base AIFA): attivatore diretto del plasminogeno non fibrino-specifico; tromboembolie venose/arteriose; EP 4.400 UI/kg poi 4.400 UI/kg/h.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/urokinasi/",
+        "identifier": "Urochinasi RCP",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (EMA/EC, Banca Dati AIFA, portali Mediately/Codifa/Torrinomedica): indicazioni, posologia, controindicazioni, avvertenze, interazioni. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; PK parziale. Stato: revisione fonti (source-review), non ancora approvato. Trombolitici: dosi ad alto rischio, da adattare a indicazione, peso e protocolli locali. Non fibrino-specifico di prima generazione, in gran parte sostituito da alteplase/tenecteplase; utile nella disostruzione di cateteri/shunt e in trombosi selezionate.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Urochinasi",
+    "inn": "urochinasi",
+    "brandExamplesIt": [
+      "Urochinasi EG",
+      "Ukidan",
+      "Actosolv"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Trombolitico non fibrino-specifico (attivatore diretto del plasminogeno)",
+  "identity": {
+    "atcCodes": [
+      "B01AD04"
+    ]
+  },
+  "classIds": [
+    "fibrinolytics"
+  ],
+  "quickSummary": {
+    "whatItIs": "Trombolitico di prima generazione: attiva direttamente il plasminogeno (senza selettivita' per la fibrina), sciogliendo trombi ed emboli venosi e arteriosi. Oggi largamente sostituito dagli agenti fibrino-specifici, resta usato in alcune trombosi e per la disostruzione di cateteri/shunt.",
+    "mainUses": [
+      "Occlusioni trombotiche/emboliche venose e arteriose acute recenti (embolia polmonare, trombosi venose, occlusioni arteriose periferiche)",
+      "Disostruzione di shunt/cateteri artero-venosi (uso locale)"
+    ],
+    "mainRisks": [
+      "Emorragia (inclusa cerebrale, anche fatale)",
+      "Reazioni allergiche/anafilattiche (rare, anche fatali)",
+      "Febbre/brividi (prodotti di degradazione della fibrina)"
+    ],
+    "essentialMonitoring": [
+      "Parametri coagulativi (ematocrito, piastrine, fibrinogeno, plasminogeno)",
+      "Segni di sanguinamento",
+      "Pressione arteriosa; ECG (aritmie da riperfusione)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Forme acute di occlusioni venose o arteriose di origine trombotica o embolica di recente formazione: embolia polmonare, occlusioni arteriose periferiche, trombosi venose profonde, tromboembolie cerebrali, trombosi dei vasi centrali retinici, coaguli negli shunt artero-venosi; infarto miocardico da trombosi coronarica"
+    ],
+    "guidelineIndications": [
+      "Oggi nell'IMA e nell'EP sono preferiti i fibrino-specifici (alteplase, tenecteplase); l'urochinasi resta impiegata in trombosi selezionate e nella disostruzione di cateteri/shunt - confermare su linee guida",
+      "Prima del trattamento: esaurire l'effetto degli antiaggreganti, neutralizzare l'eparina con protamina, con cumarinici PT (Quick) >50%"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Emorragia in atto o disturbo emorragico noto (attuale o negli ultimi 6 mesi); diatesi emorragica",
+      "Terapia anticoagulante orale efficace in corso (es. warfarin con INR terapeutico)",
+      "Lesioni del sistema nervoso centrale (neoplasia, aneurisma, chirurgia cerebrale/spinale)",
+      "Ipertensione arteriosa grave non controllata",
+      "Chirurgia maggiore, trauma o puntura di vaso non comprimibile recenti; recente massaggio cardiaco esterno traumatico/parto",
+      "Pericardite acuta, endocardite batterica",
+      "Pancreatite acuta",
+      "Ulcera peptica documentata, varici esofagee, aneurisma arterioso, malformazioni artero-venose",
+      "Epatopatia grave (insufficienza epatica, cirrosi, ipertensione portale, epatite attiva)",
+      "Neoplasia con aumentato rischio emorragico",
+      "Ictus emorragico o ictus di origine ignota (anamnesi)"
+    ],
+    "warnings": [
+      "L'emorragia e' l'effetto avverso piu' frequente e grave (anche emorragia cerebrale fatale), maggiore con infusioni protratte oltre 48 h: monitorare i parametri coagulativi",
+      "Reazioni febbrili (brividi/febbre) da prodotti di degradazione della fibrina: trattamento sintomatico, ma NON usare acido acetilsalicilico",
+      "Cautela particolare in vasculopatie cerebrali (specie se ipertesi), anziani, periodo mestruale, fibrillazione atriale",
+      "Non fibrino-specifica: maggiore deplezione sistemica del fibrinogeno rispetto ad alteplase/tenecteplase; aritmie da riperfusione con lisi rapida di trombi coronarici"
+    ],
+    "adverseEffects": [
+      "Emorragia (sede di infusione, gastrointestinale, gengivale, retroperitoneale, cerebrale)",
+      "Ipotensione",
+      "Reazioni allergiche (eruzione, orticaria, broncospasmo; rara anafilassi anche fatale)",
+      "Febbre, brividi",
+      "Aritmie da riperfusione, tromboembolia/embolia da colesterolo"
+    ],
+    "overdose": "Il sovradosaggio provoca sanguinamento: in genere e' sufficiente interrompere l'infusione; se necessario antifibrinolitici (aprotinina, acido epsilon-aminocaproico) e reintegro di volume/fattori.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Cautela; nessun dato specifico.",
+      "hepatic": "Controindicato nell'epatopatia grave.",
+      "elderly": "Cautela (maggior rischio emorragico).",
+      "pregnancy": "Solo se strettamente necessario.",
+      "breastfeeding": "Cautela."
+    },
+    "alternativeDrugIds": [
+      "alteplase",
+      "tenecteplase"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' un trombolitico 'di vecchia generazione': scioglie i coaguli attivando la plasmina, ma senza mirare solo alla fibrina. Oggi si usa soprattutto in alcune trombosi e per liberare cateteri ostruiti.",
+    "clinicalExplanation": "Attivatore diretto del plasminogeno non fibrino-specifico (prima generazione): converte il plasminogeno circolante in plasmina in modo sistemico, con maggiore deplezione del fibrinogeno rispetto agli agenti fibrino-specifici. Ampio spettro; emorragia come rischio principale.",
+    "molecularExplanation": "Serina proteasi che scinde direttamente il plasminogeno in plasmina (senza richiedere il legame alla fibrina), attivando la fibrinolisi sistemica.",
+    "pharmacodynamics": "Fibrinolisi sistemica non fibrino-specifica; marcata deplezione del fibrinogeno.",
+    "molecularTarget": "Plasminogeno (conversione diretta in plasmina)",
+    "agonismAntagonism": "Attivatore diretto del plasminogeno (fibrinolitico non selettivo)",
+    "pharmacokinetics": {
+      "route": "Endovenosa (bolo/infusione) o locale",
+      "halfLife": "Breve (~15-20 minuti, clearance epatica)",
+      "note": "Dosaggio in unita' internazionali (UI)"
+    },
+    "bibliography": []
+  }
+}

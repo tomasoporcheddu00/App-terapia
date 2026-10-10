@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "id": "flumazenil",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Flumazenil (Anexate) - RCP AIFA (Codifa/Torrinomedica): antagonista specifico delle benzodiazepine; 0,2 mg poi incrementi; rischio di convulsioni negli epilettici e nelle intossicazioni miste con antidepressivi triciclici; risedazione (monitorare fino a 24h).",
+        "url": "https://www.codifa.it/farmaci/a/anexate-flumazenil-antidoti",
+        "identifier": "Anexate RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (EMA/EC, Banca Dati AIFA, portali Mediately/Codifa/Torrinomedica) e da centri antidoti: indicazioni, posologia, controindicazioni, avvertenze, interazioni. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; PK parziale. Stato: revisione fonti (source-review), non ancora approvato. Sedazione e antidoti: dosi da titolare sul singolo paziente e sui protocolli locali. Specifico per le benzodiazepine (non agisce su oppioidi, propofol o dexmedetomidina). E' l'antidoto del midazolam.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Flumazenil",
+    "inn": "flumazenil",
+    "brandExamplesIt": [
+      "Anexate",
+      "Flumazenil (varie)"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antagonista competitivo del recettore benzodiazepinico (antidoto)",
+  "identity": {
+    "atcCodes": [
+      "V03AB25"
+    ]
+  },
+  "classIds": [
+    "sedation-antidotes"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antidoto specifico delle benzodiazepine: le spiazza dal loro recettore e risveglia il paziente in pochi minuti. Va usato con prudenza, perche' puo' scatenare convulsioni in chi assume benzodiazepine da tempo o e' intossicato anche con antidepressivi triciclici.",
+    "mainUses": [
+      "Reversione della sedazione da benzodiazepine (anestesia, sedazione procedurale, terapia intensiva)",
+      "Diagnosi e trattamento dell'intossicazione da benzodiazepine con coma o depressione respiratoria"
+    ],
+    "mainRisks": [
+      "Convulsioni (epilettici, uso cronico di benzodiazepine, intossicazioni miste con antidepressivi triciclici)",
+      "Risedazione: dura meno delle benzodiazepine (30-60 minuti)",
+      "Sindrome da astinenza acuta nei dipendenti da benzodiazepine"
+    ],
+    "essentialMonitoring": [
+      "Stato di coscienza e frequenza respiratoria (fino a 24 ore)",
+      "ECG e pressione arteriosa nelle intossicazioni miste",
+      "Ricomparsa della sedazione"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Reversione totale o parziale degli effetti sedativi centrali delle benzodiazepine (interruzione dell'anestesia generale indotta o mantenuta con benzodiazepine; sedazione per procedure diagnostiche/terapeutiche)",
+      "Diagnosi e trattamento dell'intossicazione o del sovradosaggio da benzodiazepine (coma o depressione respiratoria)"
+    ],
+    "guidelineIndications": [
+      "Anestesia/sedazione procedurale: 0,2 mg EV in 15-30 secondi, poi 0,1 mg ogni 60 secondi fino al risveglio desiderato (dose totale abituale fino a ~1 mg) - RCP",
+      "Intossicazione/terapia intensiva: 0,2 mg poi 0,3 mg e successivi incrementi di 0,5 mg a intervalli di un minuto secondo la risposta - RCP",
+      "Se la sedazione ricompare, e' possibile un'infusione continua di 0,1-0,4 mg/h - RCP; le convulsioni indotte dal flumazenil sono difficili da trattare (i recettori sono bloccati) e richiedono barbiturici o propofol"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al flumazenil o agli eccipienti",
+      "Pazienti trattati con benzodiazepine per il controllo di condizioni potenzialmente pericolose per la vita (es. ipertensione endocranica, stato epilettico)"
+    ],
+    "warnings": [
+      "Rischio di CONVULSIONI: descritte negli epilettici (l'improvvisa soppressione dell'effetto protettivo della benzodiazepina), nei pazienti in trattamento prolungato con benzodiazepine e nelle intossicazioni da piu' farmaci; l'uso non e' raccomandato negli epilettici in terapia benzodiazepinica prolungata; in caso di agitazione grave o segni di convulsione interrompere subito",
+      "Intossicazioni miste, in particolare con antidepressivi triciclici: l'antagonismo delle benzodiazepine puo' smascherare la tossicita' degli antidepressivi (convulsioni e aritmie cardiache) - massima cautela",
+      "RISEDAZIONE: l'effetto del flumazenil (circa 30-60 minuti) e' piu' breve di quello di molte benzodiazepine: tenere il paziente sotto controllo medico anche fino a 24 ore, con monitoraggio della respirazione",
+      "Nei pazienti dipendenti da benzodiazepine puo' precipitare una sindrome da astinenza acuta; l'eliminazione e' ritardata nell'insufficienza epatica; l'iniezione troppo rapida puo' dare ansia, palpitazioni; sono descritte reazioni di ipersensibilita' incluse anafilattiche"
+    ],
+    "adverseEffects": [
+      "Nausea e vomito (soprattutto in anestesia)",
+      "Ansia, palpitazioni, agitazione (iniezione rapida o astinenza)",
+      "Convulsioni (epilettici, uso cronico di benzodiazepine, intossicazioni miste)",
+      "Aritmie cardiache (nelle intossicazioni miste con antidepressivi triciclici)",
+      "Reazioni di ipersensibilita', inclusa anafilassi (rare)"
+    ],
+    "overdose": "L'esperienza di sovradosaggio e' molto limitata: anche a dosi endovenose fino a 100 mg non sono stati osservati sintomi da sovradosaggio. Non esiste un antidoto specifico; il trattamento e' di supporto con monitoraggio dei parametri vitali.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico.",
+      "hepatic": "Eliminazione ritardata: ridurre la dose e monitorare piu' a lungo.",
+      "elderly": "Utilizzabile con cautela.",
+      "pregnancy": "Solo in caso di reale necessita'.",
+      "breastfeeding": "Cautela."
+    },
+    "alternativeDrugIds": [
+      "naloxone"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' l'antidoto delle benzodiazepine (per esempio del midazolam): risveglia il paziente in pochi minuti. Ma dura meno della benzodiazepina, quindi il paziente puo' riaddormentarsi, e in chi prende benzodiazepine da tanto tempo puo' scatenare convulsioni.",
+    "clinicalExplanation": "Antagonista competitivo specifico del sito benzodiazepinico del recettore GABA-A, con lieve attivita' intrinseca anticonvulsivante. Esordio rapido (1-2 minuti) e durata breve (30-60 minuti), inferiore a quella di molte benzodiazepine: da qui il rischio di risedazione e l'eventuale infusione continua. Il rischio principale sono le convulsioni negli epilettici, nei consumatori cronici e nelle intossicazioni miste con antidepressivi triciclici.",
+    "molecularExplanation": "Si lega con alta affinita' al sito benzodiazepinico del recettore GABA-A senza attivarlo, spiazzando in modo competitivo le benzodiazepine agoniste.",
+    "pharmacodynamics": "Reversione rapida e dose-dipendente della sedazione, dell'amnesia e della depressione respiratoria da benzodiazepine.",
+    "molecularTarget": "Recettore GABA-A (sito benzodiazepinico)",
+    "agonismAntagonism": "Antagonismo competitivo del sito benzodiazepinico",
+    "pharmacokinetics": {
+      "route": "Endovenosa (boli ripetuti o infusione)",
+      "halfLife": "Emivita di distribuzione 4-11 minuti; durata clinica 30-60 minuti",
+      "note": "Base debole lipofila, legame proteico ~50%, metabolismo epatico esteso"
+    },
+    "bibliography": []
+  }
+}

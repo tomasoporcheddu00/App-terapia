@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "id": "inclisiran",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Inclisiran (Leqvio) - RCP EMA/AIFA (EMA/Codifa/Torrinomedica): siRNA anti-PCSK9 SC, dose 284 mg al giorno 0, a 3 mesi, poi ogni 6 mesi; RRL e registro AIFA.",
+        "url": "https://www.ema.europa.eu/it/documents/product-information/leqvio-epar-product-information_it.pdf",
+        "identifier": "Leqvio RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Inclisiran (Leqvio) - RCP EMA/AIFA (Torrinomedica): siRNA anti-PCSK9, riduzione LDL-C evidente entro 14 giorni e ~49-51% a 30-60 giorni, posologia semestrale; emivita plasmatica breve dissociata dalla durata d'azione.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/leqvio/",
+        "identifier": "RCP - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Inclisiran",
+    "inn": "inclisiran",
+    "brandExamplesIt": [
+      "Leqvio"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "siRNA anti-PCSK9 (sottocutaneo, semestrale)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "pcsk9-inhibitors"
+  ],
+  "quickSummary": {
+    "whatItIs": "Piccolo RNA interferente (siRNA) che spegne la produzione di PCSK9 nel fegato; una iniezione all'inizio, a 3 mesi e poi ogni 6 mesi, per abbassare stabilmente il colesterolo LDL.",
+    "mainUses": [
+      "Ipercolesterolemia primaria/familiare e dislipidemia mista (in aggiunta a statina o da solo se intollerante)"
+    ],
+    "mainRisks": [
+      "Reazioni nel sito di iniezione"
+    ],
+    "essentialMonitoring": [
+      "Profilo lipidico",
+      "Tollerabilita' locale"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Adulti con ipercolesterolemia primaria (familiare eterozigote e non familiare) o dislipidemia mista, in aggiunta alla dieta: in associazione a una statina (+/- altre terapie) quando l'obiettivo di LDL non e' raggiunto con la statina alla massima dose tollerata, oppure da solo/in associazione ad altre terapie in caso di intolleranza o controindicazione alle statine"
+    ],
+    "guidelineIndications": [
+      "Opzione a somministrazione semestrale (favorisce l'aderenza) in add-on alle statine o in intolleranza; effetto su morbilita'/mortalita' cardiovascolare non ancora determinato (studi in corso) - confermare su ESC/EAS"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti"
+    ],
+    "warnings": [
+      "Reazioni nel sito di iniezione (di norma lievi)",
+      "Nessun aggiustamento nell'insufficienza renale o epatica lieve-moderata (cautela nella grave)",
+      "Passaggio da un anticorpo anti-PCSK9: somministrare inclisiran entro 2 settimane dall'ultima dose dell'anticorpo"
+    ],
+    "adverseEffects": [
+      "Reazioni nel sito di iniezione (eritema, dolore)"
+    ],
+    "overdose": "Non e' previsto un antidoto specifico; l'effetto si esaurisce lentamente.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento (lieve-moderata-grave); l'emodialisi non deve essere praticata nelle 72 ore successive alla dose (eliminazione renale).",
+      "hepatic": "Nessun aggiustamento nella lieve-moderata; cautela nella grave.",
+      "elderly": "Nessun aggiustamento.",
+      "pregnancy": "Da evitare salvo necessita'.",
+      "breastfeeding": "Valutare rischio/beneficio."
+    },
+    "alternativeDrugIds": [
+      "evolocumab",
+      "alirocumab",
+      "ezetimibe"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Una iniezione due volte l'anno (dopo le prime due dosi) che 'spegne' nel fegato la proteina PCSK9 e tiene basso il colesterolo LDL.",
+    "clinicalExplanation": "Piccolo RNA interferente (siRNA) coniugato a GalNAc per la captazione epatica: dirige la degradazione dell'mRNA della PCSK9, riducendo l'LDL-C ~50-55%. Schema semestrale somministrato dal personale sanitario.",
+    "molecularExplanation": "Sfrutta l'interferenza dell'RNA per degradare l'mRNA della PCSK9 negli epatociti, riducendo la sintesi di PCSK9 e aumentando i recettori LDL.",
+    "pharmacodynamics": "Riduzione dell'LDL-C evidente entro 14 giorni, ~50% a 30-60 giorni, mantenuta con lo schema semestrale.",
+    "molecularTarget": "mRNA della PCSK9 (interferenza dell'RNA negli epatociti)",
+    "agonismAntagonism": "Silenziamento genico (siRNA)",
+    "pharmacokinetics": {
+      "route": "Sottocutanea (personale sanitario)",
+      "schedule": "Giorno 0, giorno 90, poi ogni 6 mesi",
+      "elimination": "Prevalentemente renale",
+      "halfLife": "Emivita plasmatica breve (~9 ore secondo l'RCP), ma la posologia e' semestrale: dopo la dose iniziale si ripete a 3 mesi e poi ogni 6 mesi, perche' il siRNA captato dagli epatociti (via GalNAc) riduce l'LDL-C per mesi (riduzione ~50% mantenuta a 30-60 giorni). L'emivita plasmatica non riflette la durata d'azione"
+    },
+    "bibliography": [
+      "ORION-10 e ORION-11 (inclisiran) - da citare con fonte primaria"
+    ]
+  }
+}

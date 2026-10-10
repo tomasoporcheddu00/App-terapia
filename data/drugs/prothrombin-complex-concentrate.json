@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "id": "prothrombin-complex-concentrate",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Concentrato di complesso protrombinico (Confidex/Beriplex, Octaplex) - RCP AIFA (Torrinomedica/Codifa) + protocolli SIMEU: reversal urgente degli antagonisti della vitamina K; dose secondo INR e peso; rischio trombotico/CID.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/confidex/",
+        "identifier": "Confidex RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (EMA/EC, Banca Dati AIFA, portali Mediately/Codifa/Torrinomedica/Univadis): indicazioni, posologia, controindicazioni, avvertenze, interazioni. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; PK parziale. Stato: revisione fonti (source-review), non ancora approvato. Dosi da adattare al paziente e ai protocolli locali. Nel reversal degli AVK va SEMPRE associato alla vitamina K1. Opzione alternativa all'andexanet alfa per gli inibitori del fattore Xa secondo disponibilita' e protocolli locali.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Concentrato di complesso protrombinico",
+    "inn": "concentrato di complesso protrombinico (4 fattori)",
+    "brandExamplesIt": [
+      "Confidex",
+      "Beriplex P/N",
+      "Octaplex"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Concentrato di fattori II, VII, IX, X (antiemorragico)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "reversal-agents"
+  ],
+  "quickSummary": {
+    "whatItIs": "Concentrato plasmatico dei fattori della coagulazione vitamina K-dipendenti (II, VII, IX, X, con proteine C ed S): ripristina immediatamente la coagulazione nel paziente scoagulato con warfarin che sanguina, mentre la vitamina K impiega ore.",
+    "mainUses": [
+      "Reversione urgente degli antagonisti della vitamina K in emorragia maggiore o prima di chirurgia urgente",
+      "Carenza congenita dei fattori vitamina K-dipendenti quando non sono disponibili concentrati specifici"
+    ],
+    "mainRisks": [
+      "Eventi tromboembolici e coagulazione intravascolare disseminata",
+      "Reazioni allergiche/anafilattoidi",
+      "Rischio (teorico) legato ai derivati plasmatici"
+    ],
+    "essentialMonitoring": [
+      "INR (controllo subito dopo l'infusione, target <1,5)",
+      "Segni clinici di trombosi o CID",
+      "Parametri emodinamici durante l'infusione"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento e profilassi perioperatoria degli episodi emorragici nella carenza acquisita dei fattori della coagulazione del complesso protrombinico, come quella causata da una terapia con antagonisti della vitamina K o da loro sovradosaggio, quando e' richiesta una rapida correzione",
+      "Trattamento e profilassi perioperatoria degli episodi emorragici nella carenza congenita di uno dei fattori della coagulazione vitamina K-dipendenti, quando non sia disponibile un prodotto a base dello specifico fattore"
+    ],
+    "guidelineIndications": [
+      "Nell'emorragia maggiore da antagonisti della vitamina K si somministra insieme alla vitamina K1 (fitomenadione): il concentrato agisce subito, la vitamina K mantiene l'effetto nelle ore successive - RCP/linee guida",
+      "Dose calcolata su INR basale e peso corporeo secondo lo schema dell'RCP; controllo dell'INR pochi minuti dopo la fine dell'infusione con obiettivo INR <1,5, ed eventuale dose aggiuntiva - protocolli SIMEU",
+      "E' anche impiegato come opzione nel reversal degli inibitori del fattore Xa quando l'andexanet alfa non e' disponibile - confermare su linee guida locali",
+      "Il dosaggio ripetuto per la reversione urgente degli AVK non e' supportato da dati clinici e non e' raccomandato - RCP"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' nota ai principi attivi o agli eccipienti",
+      "Anamnesi di trombocitopenia indotta da eparina (per i prodotti contenenti eparina)"
+    ],
+    "warnings": [
+      "Rischio di trombosi e di coagulazione intravascolare disseminata, in particolare con somministrazioni ripetute: i pazienti con deficit congenito o acquisito devono essere sorvegliati per segni di CID o trombosi; il rischio e' maggiore nel deficit isolato di fattore VII",
+      "I pazienti in terapia con antagonisti della vitamina K possono avere uno stato di ipercoagulabilita' sottostante che l'infusione puo' accentuare",
+      "Monitorare regolarmente lo stato coagulativo per evitare il sovradosaggio: dosi elevate sono state associate a infarto miocardico, CID, trombosi venosa ed embolia polmonare",
+      "In caso di reazioni allergiche o anafilattoidi interrompere immediatamente l'infusione e trattare secondo lo standard; e' un medicinale derivato dal plasma umano (misure di inattivazione virale applicate)"
+    ],
+    "adverseEffects": [
+      "Eventi tromboembolici (trombosi venosa, embolia polmonare, infarto miocardico)",
+      "Coagulazione intravascolare disseminata",
+      "Reazioni allergiche/anafilattoidi",
+      "Cefalea, febbre, aumento transitorio delle transaminasi"
+    ],
+    "overdose": "Il sovradosaggio aumenta il rischio di complicanze tromboemboliche e di CID (infarto miocardico, trombosi venosa, embolia polmonare), soprattutto nei pazienti gia' a rischio: monitorare lo stato coagulativo e trattare di conseguenza.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico.",
+      "hepatic": "Cautela (rischio di CID nell'epatopatia).",
+      "elderly": "Utilizzabile con cautela (rischio trombotico).",
+      "pregnancy": "Solo se strettamente necessario.",
+      "breastfeeding": "Solo se strettamente necessario."
+    },
+    "alternativeDrugIds": [
+      "phytomenadione",
+      "andexanet-alfa"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' il 'ripristino immediato' dei fattori della coagulazione: si usa quando un paziente in terapia con warfarin ha un'emorragia grave. Agisce subito, mentre la vitamina K ci mette ore, e per questo si danno insieme.",
+    "clinicalExplanation": "Concentrato a 4 fattori (II, VII, IX, X) con proteine C ed S, derivato da plasma umano: ripristina immediatamente i fattori vitamina K-dipendenti nel reversal urgente degli AVK. Dose secondo INR basale e peso; INR di controllo subito dopo l'infusione (target <1,5). Sempre associato a vitamina K1. Rischio trombotico e di CID, dose-dipendente.",
+    "molecularExplanation": "Fornisce direttamente i fattori della coagulazione vitamina K-dipendenti, ripristinando la generazione di trombina.",
+    "pharmacodynamics": "Correzione immediata dell'INR e ripristino della generazione di trombina; effetto transitorio (emivita breve del fattore VII) da consolidare con la vitamina K.",
+    "molecularTarget": "Fattori della coagulazione II, VII, IX, X (reintegro)",
+    "agonismAntagonism": "Reintegro procoagulante (bypass)",
+    "pharmacokinetics": {
+      "route": "Endovenosa (infusione, in genere 15-20 minuti)",
+      "halfLife": "Variabile per fattore (fattore VII la piu' breve, ~4-6 ore)",
+      "note": "Derivato plasmatico; recupero e durata variabili, controllare l'INR"
+    },
+    "bibliography": []
+  }
+}

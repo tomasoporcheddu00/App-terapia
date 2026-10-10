@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "id": "immunomodulators-other",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.0.0",
+    "editorialStatus": "placeholder",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [],
+    "notes": "Pagina di classe placeholder: elenco molecole registrato; le sezioni (fisiologia del target, meccanismo, PD/PK, eterogeneità interna, effetti emodinamici/elettrofisiologici, indicazioni, controindicazioni, effetti avversi, interazioni, monitoraggio, confronto intra-classe, evidenze, fonti) sono da popolare e verificare."
+  },
+  "name": "Altri immunomodulatori",
+  "atcGroup": null,
+  "memberDrugIds": [
+    "ivig"
+  ],
+  "mechanismSummary": null,
+  "molecularTarget": null,
+  "pharmacodynamics": null,
+  "classEffects": [],
+  "sharedContraindications": [],
+  "sharedAdverseEffects": [],
+  "monitoring": [],
+  "reversal": null,
+  "notesOnClassVsMolecule": null
+}

@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "id": "digoxin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Digossina - RCP/fonti cliniche (AUSL, prescrivere.substack, ESC 2021, RATE-AF): indicazioni scompenso/FA, dose e digossinemia target, controindicazioni, tossicita', interazioni. Indice terapeutico stretto.",
+        "url": "https://www.ausl.pr.it/azienda/farmaci_solo_alcune_indicazioni/digossina.aspx",
+        "identifier": "Digossina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA / EPAR EMA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Farmaco a indice terapeutico stretto: dosi e digossinemia devono essere confermate caso per caso; i valori riportati sono orientativi e da verificare sull'RCP e sul quadro del singolo paziente.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Digossina",
+    "inn": "digossina",
+    "brandExamplesIt": [
+      "Lanoxin"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Glicoside cardioattivo (digitalico)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "cardiac-glycosides"
+  ],
+  "quickSummary": {
+    "whatItIs": "Glicoside cardioattivo a indice terapeutico stretto: inibisce la Na/K-ATPasi (effetto inotropo positivo) e aumenta il tono vagale (rallenta la conduzione AV). Richiede monitoraggio della digossinemia.",
+    "mainUses": [
+      "Controllo della frequenza nella fibrillazione/flutter atriale",
+      "Scompenso cardiaco cronico a FE ridotta (sintomatico, in aggiunta)"
+    ],
+    "mainRisks": [
+      "Intossicazione digitalica (aritmie, disturbi visivi/gastrointestinali)",
+      "Bradicardia/blocco AV",
+      "Accumulo nell'insufficienza renale"
+    ],
+    "essentialMonitoring": [
+      "Digossinemia (target ~0,5-0,9 ng/mL nello scompenso)",
+      "Funzione renale",
+      "Potassio, magnesio, calcio",
+      "Frequenza e ritmo (ECG)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Controllo della frequenza ventricolare nella fibrillazione atriale e nel flutter atriale",
+      "Scompenso cardiaco cronico con disfunzione sistolica (a FE ridotta)",
+      "Tachicardia parossistica atriale"
+    ],
+    "guidelineIndications": [
+      "Nell'HFrEF sintomatico in ritmo sinusale nonostante terapia ottimale puo' ridurre le ospedalizzazioni (DIG trial: effetto neutro sulla mortalita'; classe IIb ESC); nella FA con scompenso e' utile per il controllo della frequenza quando altre opzioni non sono utilizzabili (classe I) - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Bradiaritmie; blocco AV di 2o-3o grado senza pacemaker",
+      "Tachicardia/fibrillazione ventricolare",
+      "Sindrome di Wolff-Parkinson-White con fibrillazione atriale (rischio di conduzione anterograda sulla via accessoria)",
+      "Cardiomiopatia ipertrofica ostruttiva (salvo concomitante FA e disfunzione sistolica)",
+      "Stenosi aortica grave",
+      "Ipokaliemia e ipercalcemia non corrette (predispongono alla tossicita')",
+      "Ipersensibilita' ai glicosidi digitalici"
+    ],
+    "warnings": [
+      "Indice terapeutico stretto: mantenere la digossinemia bassa (target ~0,5-0,9 ng/mL nello scompenso) evitando livelli piu' alti",
+      "Ridurre la dose nell'insufficienza renale, nell'anziano e nella bassa massa muscolare (eliminazione renale; volume di distribuzione ridotto)",
+      "Ipokaliemia, ipomagnesiemia e ipercalcemia aumentano il rischio di tossicita': correggerle e monitorarle",
+      "La digitalizzazione rapida (dose di carico) e' oggi raramente necessaria",
+      "Sospendere e trattare in caso di segni di tossicita' (vedi sovradosaggio)"
+    ],
+    "adverseEffects": [
+      "Aritmie (bradicardia, blocco AV, extrasistoli/tachicardie ventricolari, tachicardia bidirezionale)",
+      "Nausea, vomito, anoressia, diarrea",
+      "Disturbi visivi (visione giallo-verde, aloni; scotomi)",
+      "Confusione, astenia (specie nell'anziano)"
+    ],
+    "overdose": "Intossicazione digitalica: aritmie potenzialmente fatali, sintomi gastrointestinali, disturbi visivi e neurologici; favorita da ipokaliemia/ipomagnesiemia, ipercalcemia, insufficienza renale, eta' avanzata, ipotiroidismo. Gestione: sospendere, correggere gli elettroliti (potassio/magnesio), trattare le aritmie; in caso di tossicita' grave e' disponibile l'antidoto specifico (frammenti anticorpali Fab anti-digossina). Il carbone attivo puo' ridurre l'assorbimento in fase precoce.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Eliminazione renale: ridurre la dose e allungare gli intervalli nell'insufficienza renale; rischio elevato di accumulo/tossicita'.",
+      "hepatic": "Nessun aggiustamento rilevante.",
+      "elderly": "Ridotto volume di distribuzione e clearance: usare dosi basse (spesso 0,0625-0,125 mg/die) e monitorare.",
+      "pregnancy": "Utilizzabile se necessario, con monitoraggio.",
+      "breastfeeding": "Compatibile (quantita' trascurabili nel latte)."
+    },
+    "alternativeDrugIds": [
+      "bisoprolol",
+      "metoprolol"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un farmaco 'antico' e potente ma delicato: rinforza un poco la contrazione e rallenta il battito nella fibrillazione atriale; il margine tra dose utile e dose tossica e' piccolo, quindi si controlla il dosaggio nel sangue.",
+    "clinicalExplanation": "Glicoside cardioattivo a indice terapeutico stretto. Nell'HFrEF riduce le ospedalizzazioni (DIG, mortalita' neutra); nella FA aiuta il controllo della frequenza. Target di digossinemia basso (~0,5-0,9 ng/mL), eliminazione renale, numerose interazioni.",
+    "molecularExplanation": "Inibisce la Na/K-ATPasi di membrana aumentando il calcio intracellulare (inotropismo positivo) e potenzia il tono vagale, rallentando la conduzione nel nodo AV.",
+    "pharmacodynamics": "Effetto inotropo positivo e cronotropo/dromotropo negativo (rallentamento AV); utile per il controllo della frequenza nella FA.",
+    "molecularTarget": "Pompa Na/K-ATPasi (e tono vagale sul nodo AV)",
+    "agonismAntagonism": "Inibizione della Na/K-ATPasi",
+    "pharmacokinetics": {
+      "elimination": "Prevalentemente renale, in forma immodificata",
+      "halfLife": "~1,5-2 giorni (piu' lunga nell'IR)",
+      "distribution": "Ampio volume di distribuzione (ridotto in anziano/IR/bassa massa magra)",
+      "steadyState": "~7 giorni"
+    },
+    "bibliography": [
+      "DIG trial (digossina nello scompenso) - da citare con fonte primaria",
+      "RATE-AF (digossina vs beta-bloccante nella FA permanente) - da citare con fonte primaria"
+    ]
+  }
+}

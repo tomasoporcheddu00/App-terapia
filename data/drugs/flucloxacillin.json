@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "id": "flucloxacillin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "SCOPO DELLA SCHEDA: in questo atlante cardiologico gli antibiotici sono trattati SOLO per il ruolo nell'endocardite infettiva; per ogni altro impiego fare riferimento all'RCP e alla consulenza infettivologica. Regimi sintetizzati dalle linee guida ESC 2023 sull'endocardite (tabelle 7-10) tramite fonti secondarie e dal position statement SPILF-AEPEI: DA CONFERMARE sul testo integrale delle linee guida e sul corrigendum 2025, che ha corretto le dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10. La scelta di molecola, dose e durata dipende da patogeno, MIC, tipo di valvola (nativa o protesica) e funzione renale, e va concordata con l'Endocarditis Team. Stato: revisione fonti (source-review). Ruolo nell'endocardite: la scelta e la durata dipendono da patogeno, MIC e tipo di valvola. Verificare sempre le tabelle ESC 2023 aggiornate al corrigendum e concordare con l'Endocarditis Team.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Flucloxacillina",
+    "inn": "flucloxacillina",
+    "brandExamplesIt": [
+      "Flucloxacillina sodica"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Penicillina isossazolica antistafilococcica",
+  "identity": {
+    "atcCodes": [
+      "J01CF05"
+    ],
+    "formulations": [
+      "Polvere per soluzione iniettabile"
+    ],
+    "potentialRoutes": [
+      "endovenosa"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "penicillins"
+  ],
+  "quickSummary": {
+    "whatItIs": "Penicillina antistafilococcica resistente alle penicillinasi: e' il trattamento di riferimento dell'endocardite da Staphylococcus aureus meticillino-sensibile (MSSA).",
+    "mainUses": [
+      "Endocardite da Staphylococcus aureus meticillino-sensibile"
+    ],
+    "mainRisks": [
+      "Reazioni di ipersensibilita'",
+      "Epatotossicita' colestatica, che puo' comparire anche a distanza dalla sospensione",
+      "Somministrazioni molto frequenti (4-6 al giorno) ad alte dosi"
+    ],
+    "essentialMonitoring": [
+      "Funzione epatica durante il trattamento prolungato",
+      "Funzione renale",
+      "Emocolture di controllo"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Infezioni da stafilococchi produttori di penicillinasi, secondo la scheda tecnica"
+    ],
+    "guidelineIndications": [
+      "Endocardite da MSSA: flucloxacillina 12 g al giorno per via endovenosa in 4-6 somministrazioni per 4-6 settimane, in alternativa cefazolina 6 g al giorno in 3 somministrazioni; l'aggiunta di gentamicina 3 mg/kg al giorno e' eventualmente limitata ai primi 3-5 giorni - ESC 2023",
+      "Su valvola PROTESICA la durata e' di almeno 6 settimane e allo schema si associano rifampicina e gentamicina secondo le tabelle ESC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alle penicilline o ad altri beta-lattamici",
+      "Anamnesi di ittero o disfunzione epatica associata a precedente uso di flucloxacillina"
+    ],
+    "warnings": [
+      "EPATOTOSSICITA': sono descritti ittero colestatico ed epatite, che possono manifestarsi anche diverse settimane DOPO la sospensione, in particolare nell'anziano e nei trattamenti prolungati ad alte dosi: monitorare la funzione epatica",
+      "Anafilassi e reazioni di ipersensibilita' gravi",
+      "Le dosi elevate comportano carico di sodio e possono causare ipokaliemia: sorvegliare gli elettroliti",
+      "Adeguare la dose alla funzione renale",
+      "Nefrite interstiziale"
+    ],
+    "adverseEffects": [
+      "Reazioni di ipersensibilita' e rash",
+      "Epatite colestatica e ittero",
+      "Diarrea e colite da Clostridioides difficile",
+      "Ipokaliemia",
+      "Nefrite interstiziale",
+      "Flebite in sede di infusione"
+    ],
+    "overdose": "Il sovradosaggio puo' causare neurotossicita' nell'insufficienza renale e disturbi elettrolitici. Terapia di supporto.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Ridurre la dose secondo la clearance.",
+      "hepatic": "Cautela; controindicata se pregresso danno epatico da flucloxacillina.",
+      "elderly": "Rischio maggiore di epatotossicita' colestatica.",
+      "pregnancy": "Consultare l'RCP.",
+      "breastfeeding": "Consultare l'RCP."
+    },
+    "alternativeDrugIds": [
+      "oxacillin",
+      "cefazolin",
+      "daptomycin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' la penicillina 'anti-stafilococco'. Nell'endocardite da stafilococco sensibile e' il farmaco di riferimento: alte dosi in vena per almeno un mese. Puo' dare un danno al fegato di tipo colestatico, anche a distanza.",
+    "clinicalExplanation": "Penicillina isossazolica resistente alle penicillinasi stafilococciche. Nell'endocardite da MSSA e' il regime di riferimento (12 g/die in 4-6 somministrazioni per 4-6 settimane); la cefazolina e' l'alternativa. L'aggiunta di gentamicina, un tempo sistematica, e' oggi limitata o omessa per la tossicita'. La criticita' specifica e' l'epatotossicita' colestatica, che puo' emergere anche dopo la fine del trattamento.",
+    "molecularExplanation": "Inibisce le proteine leganti la penicillina; la catena isossazolica la protegge dall'idrolisi da parte delle penicillinasi.",
+    "pharmacodynamics": "Battericida tempo-dipendente.",
+    "molecularTarget": "Proteine leganti la penicillina (PBP) stafilococciche",
+    "agonismAntagonism": "Inibizione della sintesi o della funzione batterica",
+    "pharmacokinetics": {
+      "route": "Endovenosa",
+      "halfLife": "Circa 1 ora",
+      "note": "Elevato legame proteico; eliminazione renale e biliare"
+    },
+    "bibliography": []
+  }
+}

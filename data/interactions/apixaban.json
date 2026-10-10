@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "id": "apixaban",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "SmPC Eliquis (apixaban) sez. 4.5 - interazioni con inibitori/induttori di CYP3A4 e P-gp e con farmaci che alterano l'emostasi.",
+        "url": "https://www.medicines.org.uk/emc/product/2878/smpc",
+        "identifier": "Eliquis 4.5",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Sintesi delle interazioni principali coerente con la farmacocinetica gia' documentata (substrato CYP3A4 e P-gp). Elenco 4.5 completo e nomi dei singoli farmaci da verificare sulla RCP integrale.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "apixaban",
+  "items": [
+    {
+      "agent": "Inibitori forti di CYP3A4 e P-gp (es. ketoconazolo, itraconazolo, voriconazolo, posaconazolo, ritonavir)",
+      "effect": "Aumento dell'esposizione ad apixaban e del rischio emorragico",
+      "management": "Uso non raccomandato",
+      "severity": "major"
+    },
+    {
+      "agent": "Induttori forti di CYP3A4 e P-gp (rifampicina, fenitoina, carbamazepina, fenobarbital, erba di San Giovanni)",
+      "effect": "Riduzione dell'esposizione e possibile perdita di efficacia",
+      "management": "Usare con cautela / evitare",
+      "severity": "moderate"
+    },
+    {
+      "agent": "Altri anticoagulanti, antiaggreganti, FANS, eparine, trombolitici",
+      "effect": "Aumento del rischio emorragico",
+      "management": "Evitare le associazioni non necessarie; valutare rischio/beneficio",
+      "severity": "major"
+    }
+  ]
+}

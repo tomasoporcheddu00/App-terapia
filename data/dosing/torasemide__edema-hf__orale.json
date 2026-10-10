@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "torasemide__edema-hf__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Torasemide - RCP (Mediately/Codifa/Torrinomedica su base AIFA): indicazioni edema/scompenso/ipertensione, dose 5-20 mg, biodisponibilita' orale stabile.",
+        "url": "https://mediately.co/it/drugs/UC86xXxwwV0BlO0Quvn9RWVridT/torasemide-teva-italia-10-mg-compresse",
+        "identifier": "Torasemide RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "torasemide",
+  "indication": "chronic-heart-failure",
+  "scenario": "Edema / scompenso / ipertensione (orale)",
+  "route": "orale",
+  "dose": {
+    "initial": "5 mg una volta al giorno",
+    "titration": "aumento graduale fino a 20 mg/die (nell'ipertensione 5-10 mg)",
+    "maintenance": "5-20 mg una volta al giorno",
+    "max": "fino a 40 mg/die in casi particolari"
+  },
+  "administration": {
+    "notes": "Al mattino, senza masticare. Equivalenza orale/EV ~1:1."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "sacubitril-valsartan__hfref__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Entresto (sacubitril/valsartan) - RCP/EPAR (EMA, Torrinomedica, Codifa, AIFA): indicazione HFrEF, titolazione, washout 36h dagli ACE-inibitori, controindicazioni.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/entresto/",
+        "identifier": "Entresto RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "epar",
+        "citation": "EMA/AIFA - Entresto: comunicato e caratteristiche del prodotto.",
+        "url": "https://www.aifa.gov.it/en/-/l-ema-raccomanda-sacubitril-valsartan-per-il-trattamento-dell-insufficienza-cardiaca",
+        "identifier": "Entresto EPAR",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EPAR; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "sacubitril-valsartan",
+  "indication": "chronic-heart-failure",
+  "scenario": "Scompenso cardiaco a FE ridotta",
+  "route": "orale",
+  "dose": {
+    "initial": "49/51 mg due volte al giorno (24/26 mg due volte/die se non in ACE-i/ARB o a basse dosi, eGFR <60, epatopatia moderata, anziano)",
+    "titration": "raddoppio dopo 2-4 settimane secondo tollerabilita'",
+    "maintenance": "97/103 mg due volte al giorno (dose target)",
+    "max": "97/103 mg due volte al giorno"
+  },
+  "administration": {
+    "notes": "Non iniziare entro 36 ore dall'ultima dose di ACE-inibitore. Non iniziare se K >5,3 o PA sistolica <100 mmHg."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

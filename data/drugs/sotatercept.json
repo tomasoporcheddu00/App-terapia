@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "id": "sotatercept",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Sotatercept (Winrevair) - label FDA/EMA e STELLAR (NEJM 2023): inibitore del signaling dell'activina (proteina di fusione ActRIIA-Fc), add-on nella PAH gruppo 1; SC ogni 3 settimane; eritrocitosi, trombocitopenia, sanguinamento/teleangectasie.",
+        "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/winrevair",
+        "identifier": "Winrevair label",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Sotatercept (Winrevair) - dati di farmacocinetica (proteina di fusione ActRIIA-Fc, ACE-011): emivita ~25-32 giorni, somministrazione ogni 3 settimane.",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/sotatercept",
+        "identifier": "Monografia - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Farmaci specialistici per l'ipertensione polmonare: prescrizione da centri esperti (piano terapeutico/registro AIFA). Farmaco molto recente (approvazione FDA/EMA 2024); disponibilita' e condizioni di rimborso in Italia da confermare.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Sotatercept",
+    "inn": "sotatercept",
+    "brandExamplesIt": [
+      "Winrevair"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Inibitore del signaling dell'activina (proteina di fusione ActRIIA-Fc)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "activin-signaling-inhibitors"
+  ],
+  "quickSummary": {
+    "whatItIs": "Primo farmaco 'disease-modifying' per la PAH: non e' un vasodilatatore, ma riequilibra le vie di segnalazione (activina/BMP) riducendo il rimodellamento vascolare polmonare. Si somministra sottocute ogni 3 settimane, in aggiunta alla terapia di fondo.",
+    "mainUses": [
+      "Ipertensione arteriosa polmonare (PAH, gruppo 1) come terapia aggiuntiva, per migliorare la capacita' di esercizio e la classe funzionale e ridurre il rischio di peggioramento clinico"
+    ],
+    "mainRisks": [
+      "Eritrocitosi (aumento dell'emoglobina)",
+      "Trombocitopenia",
+      "Sanguinamento/teleangectasie"
+    ],
+    "essentialMonitoring": [
+      "Emoglobina/ematocrito (prima di ogni dose per le prime 5 dosi)",
+      "Conta piastrinica",
+      "Segni di sanguinamento; test di gravidanza"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento dell'ipertensione arteriosa polmonare (PAH, gruppo 1) negli adulti, in associazione alla terapia di fondo, per migliorare la capacita' di esercizio e la classe funzionale OMS e ridurre il rischio di eventi di peggioramento clinico (ospedalizzazione, trapianto di polmone, morte) - studio STELLAR"
+    ],
+    "guidelineIndications": [
+      "Nuovo meccanismo (inibizione del signaling dell'activina) come 'quarto pilastro' add-on alla terapia di fondo ottimizzata; possibile effetto di rimodellamento inverso - confermare su ESC/ERS"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Gravidanza (tossicita' embriofetale; contraccezione efficace richiesta)"
+    ],
+    "warnings": [
+      "Eritrocitosi: puo' aumentare l'emoglobina; l'eritrocitosi grave aumenta il rischio di eventi tromboembolici/sindrome da iperviscosita' - controllare l'emoglobina prima di ogni dose per le prime 5 dosi, poi periodicamente",
+      "Trombocitopenia grave: puo' ridurre le piastrine e aumentare il rischio di sanguinamento (piu' frequente con l'infusione concomitante di prostaciclina)",
+      "Sanguinamento (piu' frequente con antitrombotici o piastrine basse) e teleangectasie (sanguinamento gengivale, epistassi)",
+      "Tossicita' embriofetale: contraccezione efficace durante e per un periodo dopo il trattamento",
+      "Segnalato versamento pericardico nell'esperienza reale"
+    ],
+    "adverseEffects": [
+      "Epistassi, sanguinamento gengivale",
+      "Teleangectasie",
+      "Cefalea, capogiro",
+      "Aumento dell'emoglobina (eritrocitosi), trombocitopenia",
+      "Rash, diarrea"
+    ],
+    "overdose": "In caso di risposta eccessiva (eritrocitosi) o trombocitopenia, ritardare/aggiustare la dose e trattare secondo necessita' (es. flebotomia per l'eritrocitosi grave).",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Dati limitati.",
+      "hepatic": "Dati limitati.",
+      "elderly": "Utilizzabile.",
+      "pregnancy": "Controindicato (tossicita' embriofetale).",
+      "breastfeeding": "Non raccomandato."
+    },
+    "alternativeDrugIds": [
+      "macitentan",
+      "selexipag",
+      "riociguat"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un farmaco nuovo e diverso: non 'dilata' i vasi come gli altri, ma corregge uno squilibrio biologico che fa ispessire le arterie dei polmoni. Si fa un'iniezione sottocute ogni 3 settimane, in aggiunta alle altre terapie.",
+    "clinicalExplanation": "Proteina di fusione ricombinante ActRIIA-Fc: agisce come 'trappola' per l'activina A e altri ligandi della superfamiglia del TGF-beta, riequilibrando la segnalazione activina/BMP (ridotta nella PAH per disfunzione di BMPR2). Riduce il rimodellamento vascolare (disease-modifying). Add-on alla terapia di fondo (STELLAR).",
+    "molecularExplanation": "Sequestra l'activina A e i fattori di differenziazione della crescita impedendone il legame al recettore dell'activina di tipo IIA, riequilibrando le vie proliferative/antiproliferative.",
+    "pharmacodynamics": "Riduzione del rimodellamento vascolare polmonare e delle resistenze; miglioramento emodinamico e della capacita' di esercizio.",
+    "molecularTarget": "Activina A e ligandi del TGF-beta (recettore ActRIIA)",
+    "agonismAntagonism": "Inibizione del signaling (ligand trap)",
+    "pharmacokinetics": {
+      "route": "Sottocutanea ogni 3 settimane",
+      "note": "Proteina di fusione; catabolismo in piccoli peptidi",
+      "halfLife": "Molto lunga, ~25-32 giorni: e' una proteina di fusione (dominio del recettore dell'activina ActRIIA legato all'Fc di IgG1), il cui frammento Fc lega il recettore di recupero FcRn e ne prolunga la permanenza in circolo. Somministrazione sottocutanea ogni 3 settimane"
+    },
+    "bibliography": []
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "id": "isoprenaline",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Isoprenalina/isoproterenolo - RCP (Codifa/Torrinomedica Isonly su base AIFA): beta-agonista per blocco AV/bradicardia severa in attesa di pacing, torsione di punta, arresto; controindicazioni tachiaritmie/SCA/digitale.",
+        "url": "https://www.codifa.it/farmaci/i/isoprenalina-cloridrato-monico-isoprenalina-cloridrato-inotropi-simpaticomimetici",
+        "identifier": "Isoprenalina RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Isoprenalina cloridrato - RCP (Torrinomedica: Isonly) e schede di farmaci d'urgenza: azione immediata per via EV, effetto massimo ~15 minuti, durata ~1 ora.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/isonly/",
+        "identifier": "RCP - farmacocinetica",
+        "retrievedAt": "2026-07-25"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC) e da monografie di riferimento: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Antiaritmici a indice terapeutico stretto: verificare dosi e QT prima dell'uso. Disponibilita' in Italia soggetta a fornitura ospedaliera (Isoprenalina Monico/Isonly); confermare reperibilita'.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Isoprenalina",
+    "inn": "isoprenalina (isoproterenolo)",
+    "brandExamplesIt": [
+      "Isoprenalina Monico",
+      "Isonly"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Agente del nodo AV (beta-agonista)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "other-antiarrhythmics"
+  ],
+  "quickSummary": {
+    "whatItIs": "Beta-agonista (inotropo e cronotropo positivo) usato in emergenza per accelerare il cuore nel blocco AV o nella bradicardia severa in attesa di elettrostimolazione, e nella torsione di punta.",
+    "mainUses": [
+      "Blocco atrioventricolare completo (sindrome di Stokes-Adams) e bradicardia severa in attesa di pacing",
+      "Torsione di punta (per accelerare la frequenza)",
+      "Arresto cardiaco; broncospasmo in anestesia"
+    ],
+    "mainRisks": [
+      "Tachiaritmie, angina (aumento del consumo di ossigeno)",
+      "Ipotensione, tremori"
+    ],
+    "essentialMonitoring": [
+      "ECG continuo",
+      "Pressione arteriosa",
+      "Frequenza cardiaca"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento del blocco atrioventricolare totale (inclusa la sindrome di Stokes-Adams) e della bradicardia estrema in attesa di dispositivi di elettrostimolazione temporanei o permanenti",
+      "Arresto cardiaco (in aggiunta al trattamento)",
+      "Trattamento del broncospasmo durante l'anestesia",
+      "In aggiunta al trattamento dello shock cardiogeno"
+    ],
+    "guidelineIndications": [
+      "Utile per accelerare la frequenza e accorciare il QT nella torsione di punta e come 'ponte' al pacing nel blocco AV; da evitare nell'ischemia - confermare su ESC/ACLS"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Tachiaritmie",
+      "Tachicardia o blocco AV dovuti a intossicazione digitalica",
+      "Sindrome coronarica acuta / angina (aumento della richiesta di ossigeno)",
+      "Uso concomitante con adrenalina (non simultaneo)",
+      "Generalmente controindicato in gravidanza e allattamento; bambini <12 anni (secondo formulazione)"
+    ],
+    "warnings": [
+      "Puo' aggravare l'ischemia miocardica (angina/SCA) per aumento del consumo di ossigeno",
+      "In una malattia organica del nodo AV puo' paradossalmente peggiorare il blocco o precipitare una sindrome di Morgagni-Adams-Stokes",
+      "Tachiaritmie ventricolari; monitorare ECG e pressione",
+      "Contiene sodio metabisolfito: reazioni allergiche/asma nei soggetti sensibili",
+      "Gli effetti avversi possono essere antagonizzati dal propranololo"
+    ],
+    "adverseEffects": [
+      "Tachiaritmie, palpitazioni",
+      "Angina",
+      "Tremori, cefalea, nervosismo",
+      "Ipotensione, vampate, sudorazione"
+    ],
+    "overdose": "Il sovradosaggio causa tachiaritmie, angina e ipotensione; ridurre/sospendere l'infusione; il propranololo puo' antagonizzare gli effetti.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Cautela.",
+      "hepatic": "Cautela.",
+      "elderly": "Iniziare a velocita' bassa.",
+      "pregnancy": "Generalmente controindicato.",
+      "breastfeeding": "Generalmente controindicato."
+    },
+    "alternativeDrugIds": [
+      "atropine",
+      "adenosine"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un 'acceleratore' del cuore da usare in vena, in emergenza, quando il battito e' troppo lento o bloccato, in attesa del pacemaker.",
+    "clinicalExplanation": "Agonista beta-adrenergico (beta1/beta2) con effetto inotropo e cronotropo positivo e vasodilatazione periferica; usato per accelerare la frequenza nel blocco AV/bradicardia severa (ponte al pacing) e nella torsione di punta. Da evitare nell'ischemia.",
+    "molecularExplanation": "Stimola i recettori beta-adrenergici cardiaci (beta1) aumentando frequenza e contrattilita', e beta2 vascolari (vasodilatazione).",
+    "pharmacodynamics": "Aumento della frequenza cardiaca e della contrattilita', accorciamento del QT (utile nella torsione di punta).",
+    "molecularTarget": "Recettori beta-adrenergici (beta1/beta2)",
+    "agonismAntagonism": "Agonismo beta-adrenergico",
+    "pharmacokinetics": {
+      "route": "Endovenosa (infusione continua), IM",
+      "onset": "Rapido",
+      "elimination": "Metabolica (COMT)",
+      "halfLife": "Molto breve: l'effetto per via endovenosa e' pressoche' immediato con effetto massimo a ~15 minuti e durata di circa 1 ora; rapidamente metabolizzata (COMT e coniugazione)"
+    },
+    "bibliography": []
+  }
+}

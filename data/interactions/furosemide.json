@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "id": "furosemide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Furosemide - RCP (Codifa/Torrinomedica su base AIFA) e monografie: indicazioni edema/scompenso/edema polmonare/ipertensione, dose orale ed EV, ototossicita'.",
+        "url": "https://www.codifa.it/farmaci/f/furosemide-fisiopharma-furosemide-diuretici-dell-ansa",
+        "identifier": "Furosemide RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5; severita' secondo posizionamento RCP e rilevanza clinica.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "furosemide",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Aminoglicosidi (e cefalosporine per torasemide)",
+      "effect": "Aumento di oto- e nefrotossicita'",
+      "management": "Evitare o monitorare funzione renale/uditiva"
+    },
+    {
+      "severity": "major",
+      "agent": "Litio",
+      "effect": "Aumento della litiemia con rischio di tossicita'",
+      "management": "Evitare o monitorare la litiemia"
+    },
+    {
+      "severity": "major",
+      "agent": "Digossina",
+      "effect": "L'ipopotassiemia/ipomagnesiemia aumenta la tossicita' digitalica",
+      "management": "Monitorare e correggere gli elettroliti"
+    },
+    {
+      "severity": "moderate",
+      "agent": "FANS",
+      "effect": "Riduzione dell'effetto diuretico e rischio di insufficienza renale acuta",
+      "management": "Cautela; monitorare funzione renale"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Farmaci che prolungano il QT",
+      "effect": "L'ipopotassiemia aumenta il rischio di torsione di punta",
+      "management": "Correggere il potassio; monitorare"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Corticosteroidi, liquirizia, lassativi",
+      "effect": "Aumento del rischio di ipopotassiemia",
+      "management": "Monitorare il potassio"
+    }
+  ]
+}

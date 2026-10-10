@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "anakinra",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-28T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "AIFA/EMA - anakinra (Kineret): medicinale soggetto a prescrizione limitativa; in Italia rimborsato in Legge 648/96 per la pericardite idiopatica ricorrente corticodipendente e colchicina-resistente.",
+        "url": "https://www.aifa.gov.it/sites/default/files/Allegato_1_anakinra_16.01.2019.pdf",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Per l'indicazione cardiologica il percorso italiano e' la LEGGE 648/96 (pericardite idiopatica ricorrente corticodipendente e colchicina-resistente): verificare i criteri e le modalita' di prescrizione previste da AIFA e dal centro."
+  },
+  "drugId": "anakinra",
+  "authorisation": "EMA/Nazionale",
+  "marketed": true,
+  "reimbursementClass": "H",
+  "supplyRegime": "RRL - prescrizione limitativa specialistica",
+  "aifaNote": null,
+  "therapeuticPlan": true,
+  "distribution": "Distribuzione diretta/per conto",
+  "law648_1996": true,
+  "prescriberRestrictions": "Centri specialistici; per la pericardite ricorrente accesso tramite Legge 648/96"
+}

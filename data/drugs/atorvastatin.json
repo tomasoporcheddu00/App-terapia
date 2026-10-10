@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "id": "atorvastatin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Atorvastatina - RCP (Mediately/Torrinomedica/Codifa su base AIFA): indicazioni ipercolesterolemia/prevenzione CV, dose 10-80 mg, metabolismo CYP3A4/OATP1B1, miopatia.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/atorvastatina/",
+        "identifier": "Atorvastatina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Atorvastatina",
+    "inn": "atorvastatina",
+    "brandExamplesIt": [
+      "Torvast",
+      "Totalip",
+      "Lipitor"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Statina (inibitore HMG-CoA reduttasi) ad alta intensita'",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "statins"
+  ],
+  "quickSummary": {
+    "whatItIs": "Statina potente per abbassare il colesterolo LDL e prevenire gli eventi cardiovascolari; disponibile fino a dosaggi ad alta intensita'.",
+    "mainUses": [
+      "Ipercolesterolemia primaria e familiare eterozigote",
+      "Dislipidemia mista",
+      "Prevenzione cardiovascolare (primaria e secondaria)"
+    ],
+    "mainRisks": [
+      "Mialgie/miopatia (rara rabdomiolisi)",
+      "Aumento delle transaminasi",
+      "Interazioni con inibitori del CYP3A4"
+    ],
+    "essentialMonitoring": [
+      "Profilo lipidico",
+      "Transaminasi",
+      "CK se sintomi muscolari"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipercolesterolemia primaria, ipercolesterolemia familiare eterozigote e dislipidemia mista (in aggiunta alla dieta)",
+      "Ipercolesterolemia familiare omozigote (in aggiunta ad altre terapie ipolipemizzanti o quando queste non sono disponibili)",
+      "Prevenzione degli eventi cardiovascolari nei pazienti ad alto rischio"
+    ],
+    "guidelineIndications": [
+      "Statina ad alta intensita' a 40-80 mg (riduzione LDL >=50%); di prima linea nella prevenzione secondaria e nel rischio alto/molto alto - confermare su ESC/EAS"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Epatopatia in fase attiva o aumento persistente e inspiegato delle transaminasi (>3 volte il limite superiore della norma)",
+      "Gravidanza e allattamento (e donne in eta' fertile senza contraccezione adeguata)"
+    ],
+    "warnings": [
+      "Miopatia/rabdomiolisi (rara): rischio aumentato con dosi elevate, eta' avanzata, insufficienza renale, ipotiroidismo, abuso di alcol, anamnesi personale/familiare di malattie muscolari e interazioni farmacologiche; misurare la CK in caso di dolore/debolezza muscolare e sospendere se marcato aumento della CK o sospetta rabdomiolisi",
+      "Monitorare le transaminasi prima dell'inizio e quando clinicamente indicato",
+      "Piccolo aumento del rischio di diabete di nuova insorgenza (beneficio cardiovascolare comunque prevalente)",
+      "Rara miopatia necrotizzante immuno-mediata (persistenza della debolezza nonostante la sospensione)",
+      "Substrato del CYP3A4 e dei trasportatori OATP1B1: attenzione a inibitori potenti e a grandi quantita' di succo di pompelmo"
+    ],
+    "adverseEffects": [
+      "Mialgie",
+      "Aumento delle transaminasi",
+      "Aumento della CK",
+      "Disturbi gastrointestinali",
+      "Cefalea",
+      "Diabete di nuova insorgenza (piccolo aumento)",
+      "Rara miopatia/rabdomiolisi"
+    ],
+    "overdose": "In caso di sovradosaggio, trattamento sintomatico e di supporto; non e' dializzabile in misura significativa.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento della dose (non influente sui livelli).",
+      "hepatic": "Controindicata nell'epatopatia attiva; cautela con anamnesi epatica/alcol.",
+      "elderly": "Efficace e ben tollerata; maggiore attenzione al rischio muscolare.",
+      "pregnancy": "Controindicata.",
+      "breastfeeding": "Controindicata."
+    },
+    "alternativeDrugIds": [
+      "rosuvastatin",
+      "pitavastatin",
+      "pravastatin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Riduce molto il colesterolo 'cattivo' (LDL) con una compressa al giorno e protegge cuore e arterie.",
+    "clinicalExplanation": "Statina lipofila ad alta intensita' (40-80 mg), metabolizzata dal CYP3A4 e substrato di OATP1B1; ampio uso in prevenzione secondaria.",
+    "molecularExplanation": "Inibisce la HMG-CoA reduttasi, enzima limitante della sintesi epatica del colesterolo; la deplezione intracellulare di colesterolo aumenta l'espressione dei recettori delle LDL, incrementando la rimozione delle LDL dal circolo.",
+    "pharmacodynamics": "Riduzione del colesterolo LDL (marcata), modesta riduzione dei trigliceridi e lieve aumento del colesterolo HDL; riduzione degli eventi cardiovascolari in prevenzione primaria e secondaria.",
+    "molecularTarget": "HMG-CoA reduttasi (idrossimetilglutaril-CoA reduttasi)",
+    "agonismAntagonism": "Inibizione enzimatica",
+    "pharmacokinetics": {
+      "metabolism": "Epatico (CYP3A4)",
+      "transporters": "Substrato di OATP1B1",
+      "elimination": "Prevalentemente biliare",
+      "halfLife": "~14 ore (metaboliti attivi piu' lunghi)",
+      "food": "Assumibile indipendentemente dai pasti"
+    },
+    "bibliography": [
+      "Cholesterol Treatment Trialists' (CTT) - metanalisi sull'efficacia delle statine - da citare con fonte primaria"
+    ]
+  }
+}

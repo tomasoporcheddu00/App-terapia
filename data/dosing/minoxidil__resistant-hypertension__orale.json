@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "minoxidil__resistant-hypertension__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Minoxidil (Loniten) - RCP (Codifa/Mediately/Torrinomedica su base AIFA): vasodilatatore diretto (apertura dei canali del potassio); ipertensione grave refrattaria in associazione a simpaticolitico + diuretico dell'ansa; versamento pericardico, ritenzione idrica, ipertricosi.",
+        "url": "https://www.codifa.it/farmaci/l/loniten-minoxidil-vasodilatatori-diretti",
+        "identifier": "Loniten RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Da confermare e approvare."
+  },
+  "drugId": "minoxidil",
+  "indication": "hypertension",
+  "scenario": "Ipertensione grave refrattaria (triplice terapia)",
+  "route": "orale",
+  "dose": {
+    "initial": "iniziare a dose bassa (es. 5 mg/die) e titolare gradualmente",
+    "maintenance": "secondo risposta (spesso 10-40 mg/die)",
+    "associations": "sempre con un diuretico dell'ansa e un simpaticolitico (betabloccante o clonidina/metildopa)",
+    "renal": "ridurre nell'insufficienza renale/dialisi"
+  },
+  "administration": {
+    "notes": "Sempre in triplice associazione. Monitorare peso, bilancio idrico ed ecocardiogramma (versamento pericardico)."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

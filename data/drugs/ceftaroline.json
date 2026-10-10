@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "id": "ceftaroline",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "SCOPO DELLA SCHEDA: in questo atlante cardiologico gli antibiotici sono trattati SOLO per il ruolo nell'endocardite infettiva; per ogni altro impiego fare riferimento all'RCP e alla consulenza infettivologica. Regimi sintetizzati dalle linee guida ESC 2023 sull'endocardite (tabelle 7-10) tramite fonti secondarie e dal position statement SPILF-AEPEI: DA CONFERMARE sul testo integrale delle linee guida e sul corrigendum 2025, che ha corretto le dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10. La scelta di molecola, dose e durata dipende da patogeno, MIC, tipo di valvola (nativa o protesica) e funzione renale, e va concordata con l'Endocarditis Team. Stato: revisione fonti (source-review). Ruolo nell'endocardite: la scelta e la durata dipendono da patogeno, MIC e tipo di valvola. Verificare sempre le tabelle ESC 2023 aggiornate al corrigendum e concordare con l'Endocarditis Team.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Ceftarolina",
+    "inn": "ceftarolina fosamil",
+    "brandExamplesIt": [
+      "Zinforo"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Cefalosporina anti-MRSA (quinta generazione)",
+  "identity": {
+    "atcCodes": [
+      "J01DI02"
+    ],
+    "formulations": [
+      "Polvere per soluzione per infusione"
+    ],
+    "potentialRoutes": [
+      "endovenosa"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "cephalosporins"
+  ],
+  "quickSummary": {
+    "whatItIs": "Cefalosporina con affinita' per la PBP2a e quindi attiva anche sullo Staphylococcus aureus meticillino-resistente: nell'endocardite e' un'opzione di salvataggio o di associazione nei casi difficili.",
+    "mainUses": [
+      "Endocardite stafilococcica, come opzione alternativa o di associazione in casi selezionati"
+    ],
+    "mainRisks": [
+      "Reazioni di ipersensibilita' (beta-lattamico)",
+      "Neutropenia e agranulocitosi nei trattamenti prolungati",
+      "Uso nell'endocardite non incluso tra le indicazioni autorizzate: impiego fuori indicazione su decisione specialistica"
+    ],
+    "essentialMonitoring": [
+      "Emocromo nei trattamenti prolungati",
+      "Funzione renale",
+      "Emocolture di controllo"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Polmonite acquisita in comunita' e infezioni complicate della cute e dei tessuti molli, secondo la scheda tecnica"
+    ],
+    "guidelineIndications": [
+      "Nell'endocardite stafilococcica difficile (fallimento o intolleranza alle opzioni standard) e' impiegata in associazione, sulla base di serie e di esperienza specialistica, non di raccomandazioni forti: l'uso e' fuori indicazione autorizzata e va deciso con l'Endocarditis Team",
+      "La caratteristica che la rende interessante e' l'attivita' sulla PBP2a, cioe' sullo Staphylococcus aureus meticillino-resistente, con la maneggevolezza di un beta-lattamico"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alle cefalosporine; cautela in caso di reazione grave ad altri beta-lattamici"
+    ],
+    "warnings": [
+      "Neutropenia e agranulocitosi descritte nei trattamenti prolungati (oltre 2-3 settimane): controllare l'emocromo",
+      "Reattivita' crociata con gli altri beta-lattamici",
+      "Colite da Clostridioides difficile",
+      "Test di Coombs diretto positivo",
+      "L'impiego nell'endocardite non e' un'indicazione autorizzata: verificare il percorso prescrittivo"
+    ],
+    "adverseEffects": [
+      "Reazioni di ipersensibilita' e rash",
+      "Neutropenia e agranulocitosi (trattamenti prolungati)",
+      "Diarrea e colite da Clostridioides difficile",
+      "Aumento delle transaminasi"
+    ],
+    "overdose": "Non sono disponibili dati specifici sul sovradosaggio: gestione di supporto; parzialmente rimossa dall'emodialisi.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Ridurre la dose secondo la clearance.",
+      "hepatic": "Nessun aggiustamento sistematico.",
+      "elderly": "Attenzione alla funzione renale.",
+      "pregnancy": "Consultare l'RCP.",
+      "breastfeeding": "Consultare l'RCP."
+    },
+    "alternativeDrugIds": [
+      "daptomycin",
+      "vancomycin",
+      "linezolid"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' una cefalosporina particolare, capace di agire anche sullo stafilococco resistente. Nell'endocardite si usa in casi selezionati e fuori indicazione, decisi dallo specialista.",
+    "clinicalExplanation": "Cefalosporina con affinita' per la PBP2a, attiva su MRSA. Nell'endocardite non ha un'indicazione autorizzata ne' una raccomandazione forte nelle linee guida: e' impiegata in associazione nei casi refrattari o intolleranti alle opzioni standard, su decisione dell'Endocarditis Team. Da sorvegliare la neutropenia nei trattamenti prolungati.",
+    "molecularExplanation": "Si lega alle proteine leganti la penicillina, inclusa la PBP2a responsabile della meticillino-resistenza.",
+    "pharmacodynamics": "Battericida tempo-dipendente.",
+    "molecularTarget": "Proteine leganti la penicillina, inclusa PBP2a",
+    "agonismAntagonism": "Inibizione della sintesi o della funzione batterica",
+    "pharmacokinetics": {
+      "route": "Endovenosa",
+      "halfLife": "Circa 2,5 ore",
+      "note": "Profarmaco (ceftarolina fosamil) idrolizzato a ceftarolina attiva; eliminazione renale"
+    },
+    "bibliography": []
+  }
+}

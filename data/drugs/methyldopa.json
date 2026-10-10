@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Metildopa (Aldomet) - RCP (Codifa/Univadis/Torrinomedica su base AIFA): alfa-2 agonista centrale, ipertensione (gold standard in gravidanza); anemia emolitica (Coombs+), epatotossicita', depressione.",
+        "url": "https://www.codifa.it/farmaci/a/aldomet-metildopa-antipertensivi-ad-azione-centrale",
+        "identifier": "Aldomet RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Metildopa (Aldomet) - monografie di farmacocinetica: emivita plasmatica ~105 minuti, durata d'azione 10-48 ore, eliminazione renale.",
+        "url": "https://en.wikipedia.org/wiki/Methyldopa",
+        "identifier": "Monografia - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false,
+    "id": "methyldopa"
+  },
+  "name": {
+    "generic": "metildopa",
+    "inn": "metildopa",
+    "brandExamplesIt": [
+      "Aldomet"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antipertensivo centrale (alfa-2 agonista)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "central-antihypertensives"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antipertensivo ad azione centrale (agisce nel cervello riducendo il tono simpatico); e' il farmaco di riferimento per l'ipertensione in gravidanza per la lunga esperienza di sicurezza.",
+    "mainUses": [
+      "Ipertensione moderata-grave",
+      "Ipertensione in gravidanza (prima scelta)"
+    ],
+    "mainRisks": [
+      "Sedazione, ipotensione ortostatica",
+      "Anemia emolitica (test di Coombs positivo)",
+      "Epatotossicita', depressione"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa",
+      "Emocromo e test di Coombs",
+      "Transaminasi",
+      "Tono dell'umore"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento dell'ipertensione moderata o grave",
+      "Ipertensione in gravidanza (impiego consolidato sotto sorveglianza medica)"
+    ],
+    "guidelineIndications": [
+      "Antipertensivo di prima scelta in gravidanza per l'ampia esperienza di sicurezza; negli altri contesti e' oggi di seconda linea (effetti collaterali) - confermare su ESC/linee guida ostetriche"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' (inclusi disturbi epatici da precedente terapia con metildopa)",
+      "Malattie epatiche in atto (epatite acuta, cirrosi attiva)",
+      "Insufficienza renale grave con azotemia molto elevata",
+      "Terapia concomitante con inibitori delle monoaminoossidasi (IMAO)",
+      "Feocromocitoma o paraganglioma (tumori secernenti catecolamine)",
+      "Porfiria"
+    ],
+    "warnings": [
+      "Anemia emolitica acquisita (test di Coombs diretto positivo): monitorare emoglobina/ematocrito e sospendere se compare emolisi",
+      "Epatotossicita' (rari casi di epatite/necrosi): monitorare le transaminasi, specie nelle prime settimane",
+      "Depressione: monitorare, soprattutto con anamnesi positiva",
+      "Sedazione (di solito transitoria a inizio terapia o dopo aumento di dose); ipotensione ortostatica",
+      "Edema/aumento di peso (di solito controllabile con un diuretico; sospendere se compaiono segni di scompenso)",
+      "Interferisce con il dosaggio urinario delle catecolamine (falsi positivi per feocromocitoma)"
+    ],
+    "adverseEffects": [
+      "Sedazione, cefalea, astenia",
+      "Ipotensione ortostatica",
+      "Anemia emolitica (Coombs+)",
+      "Aumento delle transaminasi/epatotossicita'",
+      "Depressione",
+      "Secchezza delle fauci, disturbi gastrointestinali",
+      "Disfunzione sessuale, iperprolattinemia (galattorrea)"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione, sedazione, bradicardia; trattamento di supporto, fluidi ed eventuali vasopressori (i recettori adrenergici restano sensibili).",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Cautela; controindicata nell'insufficienza grave con azotemia molto elevata.",
+      "hepatic": "Controindicata nell'epatopatia attiva; cautela con anamnesi epatica.",
+      "elderly": "Maggiore sensibilita' a sedazione e ipotensione.",
+      "pregnancy": "Prima scelta (impiego consolidato).",
+      "breastfeeding": "Compatibile (piccole quantita' nel latte)."
+    },
+    "alternativeDrugIds": [
+      "clonidine",
+      "labetalol",
+      "nifedipine"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un antipertensivo 'del cervello' molto usato in gravidanza perche' sicuro per il bambino; puo' dare sonnolenza e, raramente, anemia o problemi al fegato.",
+    "clinicalExplanation": "Profarmaco convertito in alfa-metil-noradrenalina, che stimola i recettori alfa-2 centrali riducendo l'efflusso simpatico. Gold standard nell'ipertensione gravidica; altrove limitata dagli effetti collaterali (anemia emolitica, epatotossicita', depressione).",
+    "molecularExplanation": "Il metabolita alfa-metil-noradrenalina agonizza i recettori alfa-2 adrenergici del tronco encefalico, riducendo il tono simpatico periferico.",
+    "pharmacodynamics": "Riduzione delle resistenze periferiche e della pressione per riduzione del tono simpatico centrale.",
+    "molecularTarget": "Recettori alfa-2 adrenergici centrali",
+    "agonismAntagonism": "Agonismo alfa-2 (profarmaco)",
+    "pharmacokinetics": {
+      "route": "Orale",
+      "onset": "Risposta entro 12-24 ore",
+      "metabolism": "Convertita nel metabolita attivo",
+      "elimination": "Renale",
+      "halfLife": "Breve, ~1,8 ore (~105 minuti); l'effetto antipertensivo dura pero' molto piu' a lungo (fino a 24-48 ore) perche' agisce tramite il metabolita centrale alfa-metilnoradrenalina. Eliminazione renale"
+    },
+    "bibliography": []
+  }
+}

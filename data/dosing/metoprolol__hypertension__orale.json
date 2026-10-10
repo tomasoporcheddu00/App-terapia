@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "metoprolol__hypertension__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Metoprololo (tartrato/succinato) - RCP (Mediately/Torrinomedica su base AIFA): indicazioni e posologia.",
+        "url": "https://mediately.co/it/drugs/ZRHO3Q6fQ125xTlxQnonrEbkbAr/metoprololo-doc-generici-100-mg-compresse",
+        "identifier": "Metoprololo RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "metoprolol",
+  "indication": "hypertension",
+  "scenario": "Ipertensione arteriosa",
+  "route": "orale",
+  "dose": {
+    "initial": "100 mg al giorno (tartrato, in 1-2 dosi; oppure 95 mg succinato una volta/die)",
+    "maintenance": "100-200 mg al giorno",
+    "max": "400 mg al giorno"
+  },
+  "administration": {
+    "notes": "Le compresse non vanno masticate."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

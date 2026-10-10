@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "tafamidis",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "EMA/AIFA - tafamidis (Vyndaqel 61 mg): medicinale orfano, prescrizione limitativa specialistica con piano terapeutico e registro di monitoraggio.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2023/20230215158175/anx_158175_it.pdf",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Farmaco orfano ad alto costo: prescrizione riservata a centri esperti in amiloidosi con piano terapeutico e registro AIFA; verificare i criteri di eleggibilita' aggiornati."
+  },
+  "drugId": "tafamidis",
+  "authorisation": "EMA/Nazionale",
+  "marketed": true,
+  "reimbursementClass": "A (PHT/registro)",
+  "supplyRegime": "RNRL - prescrizione limitativa specialistica",
+  "aifaNote": null,
+  "therapeuticPlan": true,
+  "distribution": "Distribuzione diretta/per conto",
+  "law648_1996": false,
+  "prescriberRestrictions": "Centri esperti in amiloidosi cardiaca"
+}

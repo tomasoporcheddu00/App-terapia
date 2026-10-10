@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "id": "tirzepatide__titolazione__sottocutanea",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Mounjaro (tirzepatide) - RCP EMA (registro comunitario EC, allegato IT; Torrinomedica/Codifa/Mediately): indicazioni diabete e controllo del peso, posologia 2,5 mg con incrementi di 2,5 mg ogni 4 settimane fino a 15 mg, rallentamento dello svuotamento gastrico.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2022/20220915156773/anx_156773_it.pdf",
+        "identifier": "Mounjaro RCP EMA",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "SUMMIT - tirzepatide nello scompenso a frazione d'eiezione preservata associato a obesita'.",
+        "url": "https://www.jacc.org/doi/10.1016/j.jacc.2024.11.001",
+        "identifier": "SUMMIT",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Posologia da fonti su base RCP/AIFA o da linee guida citate; smpcVerified=false. Verificare sempre su RCP ufficiale e adattare a funzione renale/epatica."
+  },
+  "drugId": "tirzepatide",
+  "indication": "diabetes",
+  "scenario": "Diabete tipo 2 e controllo del peso (schema unico di titolazione)",
+  "route": "sottocutanea",
+  "dose": {
+    "inizio": "2,5 mg una volta a settimana",
+    "dopo 4 settimane": "aumentare a 5 mg una volta a settimana",
+    "incrementi successivi": "se necessario, incrementi di 2,5 mg dopo un minimo di 4 settimane alla dose in uso",
+    "mantenimento": "dosi di mantenimento raccomandate 5 mg, 10 mg e 15 mg",
+    "massimo": "15 mg una volta a settimana"
+  },
+  "administration": {
+    "notes": "La dose da 2,5 mg e' di sola titolazione. Attenzione all'assorbimento dei farmaci orali concomitanti, soprattutto nelle prime settimane. Ridurre insulina o sulfanilurea se associate."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "urokinase__thrombolysis__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Urochinasi (Urochinasi EG/Ukidan/Actosolv) - RCP (Torrinomedica/Mediately su base AIFA): attivatore diretto del plasminogeno non fibrino-specifico; tromboembolie venose/arteriose; EP 4.400 UI/kg poi 4.400 UI/kg/h.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/urokinasi/",
+        "identifier": "Urochinasi RCP",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EMA-AIFA; smpcVerified=false. Dosi trombolitiche ad alto rischio."
+  },
+  "drugId": "urokinase",
+  "indication": "thrombolysis",
+  "scenario": "Embolia polmonare / trombosi (sistemica e locale)",
+  "route": "endovenosa",
+  "dose": {
+    "pe-systemic": "dose d'attacco 4.400 UI/kg (in media ~300.000 UI) in infusione EV lenta (15-20 min), poi 4.400 UI/kg/h in infusione continua per 12 ore",
+    "alternative": "200.000-250.000 UI in 15 min poi infusione continua 8-12h fino a ~1.500.000 UI totali",
+    "dvt": "75.000 UI/h per 12-24 h, eventualmente preceduta da 150.000 UI di attacco",
+    "local": "intracoronarica 300.000 UI in 75 min; shunt AV 25.000 UI"
+  },
+  "administration": {
+    "notes": "EV (o locale). Associare/far seguire eparina. Monitorare coagulazione. Solo uso ospedaliero. Non usare ASA per la febbre."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

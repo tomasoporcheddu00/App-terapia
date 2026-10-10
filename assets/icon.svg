@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="CardioTherapy Atlas">
+  <rect width="512" height="512" rx="112" fill="#0B6570"/>
+  <path d="M64 268h86l30-62 40 130 36-92 26 44h100" fill="none" stroke="#FFFFFF"
+        stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="382" cy="288" r="16" fill="#7FD4D9"/>
+</svg>

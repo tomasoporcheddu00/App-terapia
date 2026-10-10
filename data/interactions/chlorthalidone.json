@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "id": "chlorthalidone",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Clortalidone (Igroton) - RCP (Univadis/Starbene su base AIFA): indicazioni ipertensione/edema, dose 12,5-50 mg, lunga durata d'azione.",
+        "url": "https://www.starbene.it/farmaci/igroton-30cpr-25mg_016861015/",
+        "identifier": "Clortalidone RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5; severita' secondo posizionamento RCP e rilevanza clinica.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "chlorthalidone",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Litio",
+      "effect": "Aumento della litiemia con rischio di tossicita'",
+      "management": "Evitare o monitorare la litiemia"
+    },
+    {
+      "severity": "major",
+      "agent": "Digossina",
+      "effect": "L'ipopotassiemia aumenta la tossicita' digitalica",
+      "management": "Monitorare e correggere il potassio"
+    },
+    {
+      "severity": "major",
+      "agent": "Farmaci che prolungano il QT / antiaritmici",
+      "effect": "L'ipopotassiemia aumenta il rischio di torsione di punta",
+      "management": "Correggere il potassio; monitorare l'ECG"
+    },
+    {
+      "severity": "moderate",
+      "agent": "FANS",
+      "effect": "Riduzione dell'effetto antipertensivo e rischio di insufficienza renale acuta",
+      "management": "Cautela; monitorare funzione renale"
+    },
+    {
+      "severity": "moderate",
+      "agent": "ACE-inibitori/sartani",
+      "effect": "Ipotensione marcata all'avvio in paziente deplezionato; iperkaliemia se con risparmiatori",
+      "management": "Correggere l'ipovolemia; iniziare a dose ridotta"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Sali di calcio/vitamina D",
+      "effect": "Rischio di ipercalcemia",
+      "management": "Monitorare la calcemia"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Resine a scambio ionico (colestiramina/colestipolo)",
+      "effect": "Riduzione dell'assorbimento del diuretico",
+      "management": "Distanziare le somministrazioni di almeno 2 ore"
+    }
+  ]
+}

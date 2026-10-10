@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "ezetimibe",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Ezetimibe - RCP (Mediately/Codifa su base AIFA): inibitore dell'assorbimento del colesterolo (NPC1L1), dose 10 mg, add-on a statina o monoterapia, IMPROVE-IT.",
+        "url": "https://www.codifa.it/farmaci/e/ezetimibe",
+        "identifier": "Ezetimibe RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5; severita' secondo posizionamento RCP e rilevanza clinica.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "ezetimibe",
+  "items": [
+    {
+      "severity": "moderate",
+      "agent": "Ciclosporina",
+      "effect": "Aumento reciproco dell'esposizione (ezetimibe e ciclosporina)",
+      "management": "Monitorare la ciclosporina"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Colestiramina/colestipolo",
+      "effect": "Riduzione dell'assorbimento e dell'efficacia dell'ezetimibe",
+      "management": "Assumere ezetimibe >=2 ore prima o >=4 ore dopo la resina"
+    },
+    {
+      "severity": "minor",
+      "agent": "Fibrati (fenofibrato)",
+      "effect": "Possibile aumento dell'escrezione di colesterolo nella bile (rischio di calcoli); il gemfibrozil aumenta i livelli di ezetimibe",
+      "management": "Cautela; preferire il fenofibrato al gemfibrozil"
+    }
+  ]
+}

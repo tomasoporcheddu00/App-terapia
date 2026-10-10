@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "id": "warfarin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Coumadin (warfarin) sez. 4.5 - interazioni via CYP2C9/CYP3A4, vitamina K alimentare, farmaci che alterano l'emostasi.",
+        "url": "https://www.codifa.it/farmaci/c/coumadin-warfarin-sodico-anticoagulanti-orali-indiretti",
+        "identifier": "Coumadin 4.5",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Warfarin ha interazioni molto numerose: qui le categorie principali coerenti con il metabolismo documentato (CYP2C9/1A2/3A4). Elenco 4.5 completo e singoli farmaci da verificare sulla RCP integrale.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "warfarin",
+  "items": [
+    {
+      "agent": "Inibitori del CYP2C9 (amiodarone, metronidazolo, fluconazolo, sulfametoxazolo, alcuni FANS)",
+      "effect": "Aumento dell'INR e del rischio emorragico",
+      "management": "Monitoraggio INR ravvicinato / aggiustamento dose",
+      "severity": "major"
+    },
+    {
+      "agent": "Induttori enzimatici (rifampicina, carbamazepina, fenobarbital, erba di San Giovanni)",
+      "effect": "Riduzione dell'INR e dell'efficacia",
+      "management": "Monitoraggio INR ravvicinato / aggiustamento dose",
+      "severity": "major"
+    },
+    {
+      "agent": "Antibiotici ad ampio spettro",
+      "effect": "Possibile aumento dell'INR",
+      "management": "Monitorare l'INR",
+      "severity": "moderate"
+    },
+    {
+      "agent": "Alimenti ricchi di vitamina K (verdure a foglia verde)",
+      "effect": "Riduzione dell'effetto anticoagulante",
+      "management": "Mantenere costante l'apporto dietetico",
+      "severity": "moderate"
+    },
+    {
+      "agent": "Antiaggreganti, FANS, altri anticoagulanti",
+      "effect": "Aumento del rischio emorragico",
+      "management": "Evitare le associazioni non necessarie",
+      "severity": "major"
+    }
+  ]
+}

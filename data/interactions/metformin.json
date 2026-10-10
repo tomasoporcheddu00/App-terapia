@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "id": "metformin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Metformina - RCP (Codifa/Torrinomedica/EMA Competact): controindicazioni, acidosi lattica, sospensione con mezzo di contrasto iodato, interazioni con FANS, ACE-inibitori, sartani e diuretici.",
+        "url": "https://www.ema.europa.eu/it/documents/product-information/competact-epar-product-information_it.pdf",
+        "identifier": "Metformina RCP",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Associazione Medici Endocrinologi - AME News sulla metformina: uso fino a filtrato di 30 mL/min con riduzione della dose, avvio a 500 mg/die per la tollerabilita', sospensione prima del mezzo di contrasto.",
+        "url": "https://www.associazionemediciendocrinologi.it/images/pubblicazioni/AMEnews/2019/AME_News-38-luglio-2019.pdf",
+        "identifier": "AME News metformina",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Interazioni da RCP. L'interazione con il mezzo di contrasto e' la piu' rilevante nel percorso del paziente cardiologico. Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "metformin",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Mezzi di contrasto iodati per via intravascolare",
+      "effect": "Nefropatia da contrasto con accumulo di metformina e rischio di acidosi lattica",
+      "management": "Sospendere prima o al momento dell'esame; riprendere solo dopo almeno 48 ore e dopo aver rivalutato la funzione renale trovandola stabile"
+    },
+    {
+      "severity": "major",
+      "agent": "FANS, inclusi gli inibitori selettivi della COX-2",
+      "effect": "Compromissione acuta della funzione renale con rischio di accumulo e acidosi lattica",
+      "management": "Cautela all'avvio; monitorare la funzione renale"
+    },
+    {
+      "severity": "major",
+      "agent": "ACE-inibitori, sartani e diuretici (in particolare dell'ansa)",
+      "effect": "Possibile compromissione acuta della funzione renale con aumento del rischio di acidosi lattica",
+      "management": "Particolare cautela all'inizio o all'aumento di questi farmaci; controllo dell'eGFR"
+    },
+    {
+      "severity": "major",
+      "agent": "Alcol (intossicazione acuta)",
+      "effect": "Aumento del rischio di acidosi lattica, in particolare in digiuno, malnutrizione o compromissione epatica",
+      "management": "Sconsigliare il consumo eccessivo; controindicata nell'alcolismo"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Farmaci che alterano il controllo glicemico (corticosteroidi, simpaticomimetici, diuretici)",
+      "effect": "Riduzione dell'efficacia ipoglicemizzante",
+      "management": "Intensificare il monitoraggio glicemico e adeguare la terapia"
+    }
+  ]
+}

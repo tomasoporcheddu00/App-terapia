@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "mannitol__intracranial-renal__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Mannitolo 18% - RCP AIFA (Torrinomedica/Codifa/Univadis): diuretico osmotico; ipertensione endocranica e masse cerebrali, fase oligurica dell'insufficienza renale acuta, pressione endo-oculare; 50-200 g/24h; controindicato in anuria, edema polmonare, emorragia intracranica in atto, disidratazione grave.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/mannitolo_18pc_eurospital/",
+        "identifier": "Mannitolo RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EMA-AIFA; smpcVerified=false. Adattare al paziente e ai protocolli locali."
+  },
+  "drugId": "mannitol",
+  "indication": "osmotic-diuresis",
+  "scenario": "Ipertensione endocranica / fase oligurica dell'IRA",
+  "route": "endovenosa",
+  "dose": {
+    "total": "dose totale compresa tra 50 e 200 g di mannitolo nelle 24 ore, secondo eta', peso e condizioni cliniche",
+    "rate": "velocita' di infusione regolata per mantenere una diuresi di almeno 30-50 mL/ora",
+    "severe-renal": "nell'insufficienza renale grave somministrare una prima e una seconda dose di prova per testare la tolleranza"
+  },
+  "administration": {
+    "notes": "EV. Non miscelare con sangue nella stessa linea. Non infondere in presenza di cristalli. Monitorare diuresi, elettroliti e osmolarita'."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

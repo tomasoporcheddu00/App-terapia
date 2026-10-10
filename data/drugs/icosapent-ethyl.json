@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "id": "icosapent-ethyl",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Icosapent etile (Vazkepa) - RCP EMA/AIFA (EMA/Univadis/Codifa): EPA purificato, riduzione del rischio CV in pazienti in statina con trigliceridi elevati, dose 2 g x2/die; rischio di fibrillazione atriale e sanguinamento; REDUCE-IT.",
+        "url": "https://www.ema.europa.eu/it/documents/overview/vazkepa-epar-medicine-overview_it.pdf",
+        "identifier": "Vazkepa RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Icosapent etile (Vazkepa) - RCP EMA, paragrafo 5.2: emivita di eliminazione plasmatica dell'EPA ~89 ore, metabolismo per beta-ossidazione.",
+        "url": "https://www.ema.europa.eu/it/documents/product-information/vazkepa-epar-product-information_it.pdf",
+        "identifier": "RCP - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Icosapent etile",
+    "inn": "icosapent etile",
+    "brandExamplesIt": [
+      "Vazkepa"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Omega-3 (estere etilico dell'EPA purificato)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "omega3"
+  ],
+  "quickSummary": {
+    "whatItIs": "Forma purificata dell'acido grasso omega-3 EPA che riduce il rischio cardiovascolare nei pazienti ad alto rischio gia' in statina con trigliceridi elevati.",
+    "mainUses": [
+      "Riduzione del rischio cardiovascolare in pazienti in statina con trigliceridi elevati e malattia cardiovascolare o diabete + fattori di rischio"
+    ],
+    "mainRisks": [
+      "Fibrillazione/flutter atriale",
+      "Aumento del rischio di sanguinamento",
+      "Cautela in allergia a pesce/crostacei"
+    ],
+    "essentialMonitoring": [
+      "Trigliceridi/profilo lipidico",
+      "Segni di fibrillazione atriale",
+      "Segni di sanguinamento",
+      "Transaminasi se indicato"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Riduzione del rischio di eventi cardiovascolari negli adulti in terapia con statine, con trigliceridi elevati (>=150 mg/dL) e malattia cardiovascolare accertata, oppure diabete e almeno un altro fattore di rischio cardiovascolare"
+    ],
+    "guidelineIndications": [
+      "Opzione aggiuntiva alla statina nei pazienti ad alto rischio con ipertrigliceridemia residua (REDUCE-IT); da distinguere dagli altri preparati omega-3 (l'EPA purificato ha mostrato beneficio sugli eventi) - confermare su ESC/EAS"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti"
+    ],
+    "warnings": [
+      "Aumento del rischio di fibrillazione/flutter atriale (soprattutto con anamnesi positiva): monitorare per sintomi (palpitazioni, dispnea, sincope)",
+      "Aumento del rischio di sanguinamento, in particolare in associazione ad antitrombotici (antiaggreganti/anticoagulanti)",
+      "Cautela nei pazienti con allergia nota a pesce e/o crostacei (deriva da olio di pesce)",
+      "Monitorare le transaminasi nei pazienti con compromissione epatica"
+    ],
+    "adverseEffects": [
+      "Fibrillazione/flutter atriale",
+      "Eventi emorragici (gastrointestinali, ecchimosi, ematuria, epistassi)",
+      "Stipsi",
+      "Dolore muscoloscheletrico",
+      "Edema periferico"
+    ],
+    "overdose": "In caso di sovradosaggio, trattamento sintomatico e di supporto.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico.",
+      "hepatic": "Monitorare le transaminasi nella compromissione epatica.",
+      "elderly": "Nessun aggiustamento; attenzione al rischio di fibrillazione atriale.",
+      "pregnancy": "Solo se necessario.",
+      "breastfeeding": "Valutare."
+    },
+    "alternativeDrugIds": [
+      "fenofibrate",
+      "ezetimibe",
+      "atorvastatin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un omega-3 'purificato' (solo EPA) che, in chi ha gia' i trigliceridi alti nonostante la statina, riduce infarti e ictus; puo' pero' favorire aritmie atriali e sanguinamenti.",
+    "clinicalExplanation": "Estere etilico dell'EPA ad alta purezza; nei pazienti ad alto rischio in statina con trigliceridi elevati riduce gli eventi cardiovascolari (REDUCE-IT). Da segnalare l'aumento di fibrillazione atriale e del rischio emorragico. Diverso dagli omega-3 misti EPA/DHA.",
+    "molecularExplanation": "L'EPA riduce i trigliceridi (minore sintesi/maggiore clearance) e ha effetti di membrana/antinfiammatori; il meccanismo del beneficio cardiovascolare non e' del tutto chiarito.",
+    "pharmacodynamics": "Riduzione dei trigliceridi e riduzione degli eventi cardiovascolari nei pazienti ad alto rischio in statina.",
+    "molecularTarget": "Metabolismo delle lipoproteine ricche di trigliceridi (EPA)",
+    "agonismAntagonism": "Non applicabile (acido grasso)",
+    "pharmacokinetics": {
+      "route": "Orale (capsule molli da 998 mg)",
+      "food": "Assumere con o dopo i pasti",
+      "dose": "4 g/die (2 g due volte al giorno)",
+      "halfLife": "~89 ore (EPA, l'acido grasso attivo); l'EPA circolante e' incorporato in fosfolipidi, trigliceridi ed esteri del colesterolo, metabolizzato per beta-ossidazione (via minore il CYP450)"
+    },
+    "bibliography": [
+      "REDUCE-IT (icosapent etile) - da citare con fonte primaria"
+    ]
+  }
+}

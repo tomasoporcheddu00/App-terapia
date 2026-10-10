@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "alteplase",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Alteplase (Actilyse) - RCP EMA/AIFA (Torrinomedica/Codifa): rt-PA fibrino-specifico; IMA, embolia polmonare massiva, ictus ischemico acuto; max 100 mg.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/actilyse/",
+        "identifier": "Actilyse RCP",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "alteplase",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Anticoagulanti (eparina, AVK, DOAC)",
+      "effect": "Aumento del rischio emorragico",
+      "management": "Valutare tempi e parametri coagulativi; associazione secondo protocollo"
+    },
+    {
+      "severity": "major",
+      "agent": "Antiaggreganti (ASA, inibitori del P2Y12, GPIIb/IIIa)",
+      "effect": "Aumento del rischio emorragico",
+      "management": "Monitorare; associazione secondo linee guida"
+    },
+    {
+      "severity": "moderate",
+      "agent": "ACE-inibitori",
+      "effect": "Aumento del rischio di angioedema (nell'ictus)",
+      "management": "Sorvegliare i segni di angioedema orolinguale"
+    }
+  ]
+}

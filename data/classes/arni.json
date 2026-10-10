@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "id": "arni",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Entresto (sacubitril/valsartan) - RCP/EPAR (EMA, Torrinomedica, Codifa, AIFA): indicazione HFrEF, titolazione, washout 36h dagli ACE-inibitori, controindicazioni.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/entresto/",
+        "identifier": "Entresto RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "epar",
+        "citation": "EMA/AIFA - Entresto: comunicato e caratteristiche del prodotto.",
+        "url": "https://www.aifa.gov.it/en/-/l-ema-raccomanda-sacubitril-valsartan-per-il-trattamento-dell-insufficienza-cardiaca",
+        "identifier": "Entresto EPAR",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe ARNI sintetizzata da RCP/EPAR; confermare su RCP ufficiale e linee guida ESC."
+  },
+  "name": "Inibitori del recettore dell'angiotensina e della neprilisina (ARNI)",
+  "atcGroup": "C09DX04",
+  "memberDrugIds": [
+    "sacubitril-valsartan"
+  ],
+  "mechanismSummary": "Inibizione della neprilisina (che degrada i peptidi natriuretici) associata al blocco del recettore AT1 dell'angiotensina II: aumenta i peptidi natriuretici e riduce gli effetti dell'angiotensina II.",
+  "molecularTarget": "Neprilisina (via LBQ657) + recettore AT1",
+  "pharmacodynamics": "Effetto natriuretico e vasodilatatore, riduzione del precarico/postcarico e del rimodellamento cardiaco, con blocco simultaneo del RAAS.",
+  "classEffects": [
+    "Riduzione di mortalita' cardiovascolare e ospedalizzazioni nello scompenso a FE ridotta (in sostituzione di ACE-inibitore/ARB)"
+  ],
+  "sharedContraindications": [
+    "Uso concomitante con ACE-inibitori (washout 36 ore); anamnesi di angioedema; grave insufficienza epatica; 2o-3o trimestre di gravidanza; aliskiren in diabete/IR"
+  ],
+  "sharedAdverseEffects": [
+    "Ipotensione",
+    "Iperkaliemia",
+    "Peggioramento renale",
+    "Angioedema"
+  ],
+  "monitoring": [
+    "Pressione arteriosa",
+    "Potassio",
+    "Funzione renale",
+    "NT-proBNP (non BNP)"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Classe rappresentata dall'unica associazione sacubitril/valsartan. Da usare in sostituzione (non in aggiunta) dell'ACE-inibitore/ARB, rispettando il washout dagli ACE-inibitori. Dettagli nella scheda."
+}

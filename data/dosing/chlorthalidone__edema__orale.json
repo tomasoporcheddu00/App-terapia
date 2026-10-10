@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "chlorthalidone__edema__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Clortalidone (Igroton) - RCP (Univadis/Starbene su base AIFA): indicazioni ipertensione/edema, dose 12,5-50 mg, lunga durata d'azione.",
+        "url": "https://www.starbene.it/farmaci/igroton-30cpr-25mg_016861015/",
+        "identifier": "Clortalidone RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "chlorthalidone",
+  "indication": "edema",
+  "scenario": "Edemi",
+  "route": "orale",
+  "dose": {
+    "initial": "dose efficace piu' bassa, individualizzata",
+    "maintenance": "per periodi limitati",
+    "max": "50 mg al giorno"
+  },
+  "administration": {
+    "notes": "Al mattino; ridurre alla minima dose di mantenimento."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

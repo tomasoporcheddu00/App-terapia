@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "id": "glp1-agonists",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Ozempic (semaglutide) - RCP (Mediately/Torrinomedica su base AIFA): indicazione nel diabete tipo 2, sicurezza cardiovascolare SUSTAIN-6, retinopatia, NAION, gastroparesi.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/ozempic/",
+        "identifier": "Ozempic RCP",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "smpc",
+        "citation": "Wegovy (semaglutide 2,4 mg) - RCP e foglio illustrativo: indicazione nel controllo del peso, titolazione 0,25 mg con incrementi ogni 4 settimane fino a 2,4 mg, divieto di associazione con altri GLP-1 agonisti.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/wegovy/",
+        "identifier": "Wegovy RCP",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "SELECT (Lincoff et al., NEJM 2023): semaglutide 2,4 mg riduce del 20% gli eventi cardiovascolari maggiori nel sovrappeso/obesita' con malattia cardiovascolare senza diabete.",
+        "url": "https://www.acc.org/Latest-in-Cardiology/Articles/2023/08/10/14/29/SELECT-Semaglutide-Reduces-Risk-of-MACE-in-Adults-With-Overweight-or-Obesity",
+        "identifier": "SELECT",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "smpc",
+        "citation": "Liraglutide (Victoza, Saxenda) - RCP e schemi posologici: 0,6 mg al giorno con incrementi settimanali di 0,6 mg fino a 1,2-1,8 mg nel diabete e fino a 3 mg nel controllo del peso.",
+        "url": "https://www.straighthealthcare.com/glp-1-analog-dosing.html",
+        "identifier": "Liraglutide RCP/schemi",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida diabete: liraglutide tra i GLP-1 agonisti con beneficio cardiovascolare dimostrato.",
+        "url": "https://academic.oup.com/eurheartj/article/45/15/1298/7513467",
+        "identifier": "ESC 2023 diabete",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "smpc",
+        "citation": "Dulaglutide (Trulicity) - RCP e schemi posologici: 0,75 mg una volta a settimana come dose iniziale, mantenimento 0,75-4,5 mg una volta a settimana.",
+        "url": "https://www.straighthealthcare.com/glp-1-analog-dosing.html",
+        "identifier": "Trulicity RCP/schemi",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida diabete: dulaglutide tra i GLP-1 agonisti con beneficio cardiovascolare dimostrato.",
+        "url": "https://academic.oup.com/eurheartj/article/45/15/1298/7513467",
+        "identifier": "ESC 2023 diabete",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Pagina di classe da RCP EMA/AIFA e linee guida ESC; exenatide e lixisenatide non sono presenti in questo atlante."
+  },
+  "name": "Agonisti del recettore del GLP-1",
+  "atcGroup": "A10BJ - Analoghi del GLP-1",
+  "memberDrugIds": [
+    "semaglutide",
+    "liraglutide",
+    "dulaglutide"
+  ],
+  "mechanismSummary": "Agonismo del recettore del GLP-1: stimolo della secrezione insulinica glucosio-dipendente, soppressione del glucagone, rallentamento dello svuotamento gastrico e aumento della sazieta' per azione ipotalamica.",
+  "molecularTarget": "Recettore del GLP-1",
+  "pharmacodynamics": "Riduzione di HbA1c e peso corporeo senza ipoglicemia in monoterapia; riduzione della pressione sistolica e degli eventi cardiovascolari maggiori nelle popolazioni studiate.",
+  "classEffects": [
+    "Beneficio cardiovascolare dimostrato per liraglutide, semaglutide sottocutanea, dulaglutide ed efpeglenatide: nel diabete tipo 2 con malattia aterosclerotica sono raccomandati INDIPENDENTEMENTE dal controllo glicemico (ESC 2023)",
+    "La semaglutide 2,4 mg ha ridotto del 20% gli eventi maggiori anche in pazienti con obesita' e malattia cardiovascolare SENZA diabete (SELECT)",
+    "Effetti gastrointestinali dose-dipendenti che impongono una titolazione lenta",
+    "Rallentamento dello svuotamento gastrico con possibile alterazione dell'assorbimento dei farmaci orali"
+  ],
+  "sharedContraindications": [
+    "Ipersensibilita' al principio attivo",
+    "Associazione con un altro agonista del recettore del GLP-1"
+  ],
+  "sharedAdverseEffects": [
+    "Nausea, vomito, diarrea, stipsi (molto frequenti in titolazione)",
+    "Colelitiasi e disturbi biliari",
+    "Pancreatite acuta (non comune)",
+    "Ipoglicemia in associazione a insulina o sulfaniluree",
+    "Complicanze della retinopatia diabetica (semaglutide nei pazienti in insulina con retinopatia accertata)"
+  ],
+  "monitoring": [
+    "Tollerabilita' gastrointestinale a ogni incremento",
+    "Glicemia se associati a insulina o sulfanilurea (ridurne la dose)",
+    "Quadro oculare nel diabetico con retinopatia",
+    "Idratazione e funzione renale in caso di vomito o diarrea protratti"
+  ],
+  "reversal": "Nessun antidoto: sospensione e terapia di supporto; la lunga emivita dei preparati settimanali comporta effetti prolungati.",
+  "notesOnClassVsMolecule": "Non sono farmaci solo 'per la glicemia': nel diabete con malattia aterosclerotica l'indicazione e' cardiovascolare e prescinde dall'HbA1c. Attenzione a non associarne due e a non dimenticare che il rallentato svuotamento gastrico puo' alterare l'assorbimento di warfarin, levotiroxina e digossina, soprattutto all'avvio."
+}

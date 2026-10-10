@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "id": "milrinone",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Milrinone - RCP/monografie (Torrinomedica/UpToDate/A.Re.S.S.): inibitore della fosfodiesterasi-3, inotropo e vasodilatatore; scompenso grave a breve termine; carico 50 mcg/kg poi 0,375-0,75 mcg/kg/min; proaritmico; ridurre in IR.",
+        "url": "https://www.torrinomedica.it/approfondimenti/cardiologia/qual-e-un-farmaco-che-stimola-lazione-del-cuore/",
+        "identifier": "Milrinone RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC) e da monografie di terapia intensiva: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Agenti vasoattivi EV di terapia intensiva: dosi da titolare con monitoraggio emodinamico continuo. Disponibilita' in Italia da confermare (alcune formulazioni possono non essere piu' commercializzate).",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Milrinone",
+    "inn": "milrinone",
+    "brandExamplesIt": [
+      "Milrinone (varie)"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Inotropo (inibitore della fosfodiesterasi-3, inodilatatore)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "inotropes"
+  ],
+  "quickSummary": {
+    "whatItIs": "Inibitore della fosfodiesterasi-3 ('inodilatatore'): aumenta la contrattilita' e dilata i vasi (periferici e polmonari); mantiene l'effetto anche in presenza di betabloccanti.",
+    "mainUses": [
+      "Trattamento a breve termine dello scompenso cardiaco grave/scompensato non responsivo alla terapia convenzionale",
+      "Supporto dopo cardiochirurgia; ponte al trapianto",
+      "Riduzione del postcarico destro nell'ipertensione polmonare"
+    ],
+    "mainRisks": [
+      "Aritmie ventricolari/sopraventricolari",
+      "Ipotensione (vasodilatazione)",
+      "Possibile aumento della mortalita' a medio termine nella cardiopatia ischemica"
+    ],
+    "essentialMonitoring": [
+      "ECG e pressione continui",
+      "Funzione renale",
+      "Elettroliti (potassio)",
+      "Bilancio idrico"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento a breve termine dello scompenso cardiaco grave in fase di riacutizzazione non responsivo alla terapia convenzionale; supporto emodinamico dopo cardiochirurgia"
+    ],
+    "guidelineIndications": [
+      "Inotropo utile quando serve anche vasodilatazione (postcarico elevato, ipertensione polmonare); l'effetto e' mantenuto in terapia betabloccante (a differenza della dobutamina) - confermare su ESC",
+      "Nei pazienti con cardiopatia ischemica va usato con cautela (possibile aumento della mortalita' a medio termine) - confermare su fonte"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Grave ostruzione valvolare aortica o polmonare in luogo della correzione chirurgica (e cardiomiopatia ipertrofica ostruttiva)",
+      "Ipovolemia grave non corretta"
+    ],
+    "warnings": [
+      "Effetto proaritmico: aritmie ventricolari e sopraventricolari (extrasistoli, tachicardia/fibrillazione ventricolare)",
+      "Ipotensione da vasodilatazione",
+      "Ridurre la dose nell'insufficienza renale (eliminazione renale)",
+      "Correggere ipopotassiemia e ipovolemia; monitorare ECG, pressione, funzione renale ed elettroliti",
+      "Nella fibrillazione/flutter atriale puo' aumentare la risposta ventricolare (considerare la digitale)",
+      "Non co-infondere con furosemide (precipitazione in linea)"
+    ],
+    "adverseEffects": [
+      "Aritmie ventricolari e sopraventricolari",
+      "Ipotensione",
+      "Cefalea",
+      "Rara trombocitopenia"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione e aritmie; ridurre/interrompere l'infusione, supporto emodinamico e trattamento delle aritmie.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Ridurre la dose (eliminazione prevalentemente renale).",
+      "hepatic": "Nessun aggiustamento maggiore.",
+      "elderly": "Cautela.",
+      "pregnancy": "Solo se strettamente necessario.",
+      "breastfeeding": "Cautela."
+    },
+    "alternativeDrugIds": [
+      "dobutamine",
+      "levosimendan",
+      "noradrenaline"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un farmaco che rinforza la contrazione del cuore e allarga i vasi; utile quando serve sia 'spingere' il cuore sia ridurre il carico, e funziona anche se il paziente prende betabloccanti.",
+    "clinicalExplanation": "Inibitore selettivo della fosfodiesterasi-3: aumenta l'AMP ciclico intracellulare nel cardiomiocita (inotropo) e nella muscolatura liscia vascolare (vasodilatazione periferica e polmonare), agendo a valle dei recettori beta (efficacia mantenuta con i betabloccanti). Emivita ~2-2,5 ore nello scompenso.",
+    "molecularExplanation": "Inibisce la fosfodiesterasi-3, impedendo la degradazione dell'AMP ciclico e potenziando gli effetti delle catecolamine endogene.",
+    "pharmacodynamics": "Aumento della contrattilita' e della gittata con riduzione delle resistenze vascolari sistemiche e polmonari e delle pressioni di riempimento.",
+    "molecularTarget": "Fosfodiesterasi-3 (PDE3)",
+    "agonismAntagonism": "Inibizione enzimatica",
+    "pharmacokinetics": {
+      "route": "Infusione endovenosa (con eventuale bolo di carico)",
+      "halfLife": "~2-2,5 ore (scompenso)",
+      "elimination": "Prevalentemente renale"
+    },
+    "bibliography": []
+  }
+}

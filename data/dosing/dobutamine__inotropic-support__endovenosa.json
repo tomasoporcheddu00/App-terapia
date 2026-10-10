@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "dobutamine__inotropic-support__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Dobutamina - RCP (Codifa/Mediately/Torrinomedica su base AIFA): beta1-agonista inotropo, supporto a breve termine nello scompenso/post-cardiochirurgia; 2,5-10 mcg/kg/min; aumenta il consumo di O2.",
+        "url": "https://mediately.co/it/drugs/OyimJXajzsiav1wXjvu7zLGqrK/dobutamina-bioindustria-l-i-m-250-mg-20-ml-concentrato-per-soluzione-per-infusione",
+        "identifier": "Dobutamina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Agente vasoattivo: titolare con monitoraggio emodinamico continuo; confermare dose e diluizione."
+  },
+  "drugId": "dobutamine",
+  "indication": "cardiogenic-shock",
+  "scenario": "Supporto inotropo / shock cardiogeno",
+  "route": "endovenosa",
+  "dose": {
+    "infusion": "2,5-10 mcg/kg/min in infusione EV continua",
+    "range": "titolabile (raramente fino a 40 mcg/kg/min)",
+    "note": "correggere l'ipovolemia prima; monitoraggio emodinamico continuo"
+  },
+  "administration": {
+    "notes": "Infusione EV con pompa e monitoraggio ECG/pressorio. Non miscelare con soluzioni alcaline. Uso ospedaliero."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

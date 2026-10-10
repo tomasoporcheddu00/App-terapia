@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "id": "diltiazem",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Diltiazem - RCP (Mediately/Starbene/Codifa/Pharmamedix su base AIFA): indicazioni angina/ipertensione, dose (rilascio immediato e prolungato), controindicazioni, interazioni CYP3A4 e betabloccanti/ivabradina.",
+        "url": "https://mediately.co/it/drugs/E1FXu5Rl0PZJWYe6niXRNWHUWbr/dilzene-24-cpr-120-mg-rilascio-prolungato",
+        "identifier": "Diltiazem RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Diltiazem",
+    "inn": "diltiazem",
+    "brandExamplesIt": [
+      "Dilzene",
+      "Altiazem",
+      "Tildiem"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Calcioantagonista non diidropiridinico (benzotiazepina)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "nondhp-ccb"
+  ],
+  "quickSummary": {
+    "whatItIs": "Non diidropiridinico 'intermedio': rallenta moderatamente la frequenza e la conduzione AV con minore effetto inotropo negativo del verapamil; per angina e ipertensione.",
+    "mainUses": [
+      "Angina pectoris (da sforzo, post-infartuale, vasospastica)",
+      "Ipertensione arteriosa lieve-moderata"
+    ],
+    "mainRisks": [
+      "Bradicardia/blocco AV",
+      "Peggioramento dello scompenso",
+      "Edema declive"
+    ],
+    "essentialMonitoring": [
+      "Frequenza cardiaca e conduzione (ECG)",
+      "Pressione arteriosa"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Angina pectoris da sforzo, post-infartuale e vasospastica (di Prinzmetal)",
+      "Ipertensione arteriosa di grado lieve e moderato"
+    ],
+    "guidelineIndications": [
+      "Utile nel controllo della frequenza nelle tachiaritmie sopraventricolari (formulazioni dedicate/EV); da evitare nell'HFrEF - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Ipotensione (sistolica <90 mmHg)",
+      "Infarto miocardico acuto con congestione polmonare",
+      "Malattia del nodo del seno; blocco seno-atriale",
+      "Blocco AV di 2o-3o grado senza pacemaker",
+      "Bradicardia grave (<40 bpm)",
+      "Insufficienza ventricolare sinistra con congestione polmonare / scompenso cardiaco congestizio",
+      "Uso concomitante con infusione di dantrolene",
+      "Associazione con ivabradina",
+      "Gravidanza e allattamento"
+    ],
+    "warnings": [
+      "Inotropo/dromotropo negativo: evitare nello scompenso; monitorare frequenza e conduzione",
+      "Associazione con betabloccanti solo sotto stretto controllo clinico ed ECG",
+      "Non interrompere bruscamente (peggioramento dell'angina)",
+      "Inibitore del CYP3A4: numerose interazioni",
+      "Utilizzabile nelle broncopneumopatie croniche"
+    ],
+    "adverseEffects": [
+      "Bradicardia, blocco AV",
+      "Edema periferico",
+      "Ipotensione, capogiro",
+      "Peggioramento dello scompenso",
+      "Cefalea, stipsi (meno del verapamil)"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione, bradicardia e blocco AV; gestione con calcio EV, atropina, fluidi, vasopressori, eventualmente pacing.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Iniziare a dose bassa e monitorare (anziano/IR).",
+      "hepatic": "Ridurre la dose (metabolismo epatico).",
+      "elderly": "Iniziare a dose ridotta.",
+      "pregnancy": "Controindicato.",
+      "breastfeeding": "Controindicato."
+    },
+    "alternativeDrugIds": [
+      "verapamil",
+      "amlodipine",
+      "bisoprolol"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un calcioantagonista 'a meta' strada': rallenta il cuore un po' meno del verapamil e dilata le arterie; utile per angina e pressione, da evitare nello scompenso.",
+    "clinicalExplanation": "Non diidropiridinico (benzotiazepina) con effetto bradicardizzante moderato e minore depressione della contrattilita' rispetto al verapamil; controindicato con ivabradina e nell'HFrEF.",
+    "molecularExplanation": "Blocca i canali del calcio di tipo L cardiaci e vascolari; benzotiazepina.",
+    "pharmacodynamics": "Riduzione della contrattilita' (inotropo negativo), della frequenza sinusale e della conduzione atrioventricolare (dromotropo negativo), oltre a vasodilatazione arteriosa.",
+    "molecularTarget": "Canali del calcio di tipo L del miocardio, del nodo senoatriale e atrioventricolare (oltre che vascolari)",
+    "agonismAntagonism": "Antagonista (blocco del canale del calcio)",
+    "pharmacokinetics": {
+      "metabolism": "Epatico (CYP3A4); e' anche inibitore del CYP3A4",
+      "elimination": "Metaboliti biliari/urinari",
+      "halfLife": "~3-5 ore (piu' lunga nelle formulazioni prolungate)"
+    },
+    "bibliography": [
+      "Studi sul diltiazem in angina e controllo della frequenza - da citare con fonte primaria"
+    ]
+  }
+}

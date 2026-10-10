@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "id": "losartan",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Losartan potassico - RCP (rese da Mediately/Codifa/Pharmamedix su base AIFA): indicazioni, posologia §4.2, avvertenze §4.4.",
+        "url": "https://mediately.co/it/drugs/MyB3hspSIG8EMgcKM85pHCnFSnC/losartan-teva-100-mg-compresse-rivestite-divisibili",
+        "identifier": "Losartan RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "Sartani (antagonisti del recettore AT1 dell'angiotensina II): meccanismo, controindicazioni, avvertenze e interazioni di classe; sintesi da RCP/portali AIFA (Codifa, Mediately, Torrinomedica).",
+        "url": "https://www.santagostino.it/magazine/losartan/",
+        "identifier": "Sartani classe",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "Position Paper SIF-SIIA 2015 (Societa' Italiana di Farmacologia / Societa' Italiana dell'Ipertensione Arteriosa), sezione Farmacocinetica di ACE-inibitori e sartani.",
+        "url": "https://sif2022-production.s3.amazonaws.com/uploads/attachment/file_it/1702/sif_position_paper_cardiovascolare_lug15.pdf",
+        "identifier": "SIF-SIIA 2015",
+        "retrievedAt": "2026-07-24"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Controindicazioni/avvertenze/interazioni in gran parte comuni alla classe dei sartani. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Losartan",
+    "inn": "losartan",
+    "brandExamplesIt": [
+      "Lortaan",
+      "Losaprex"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antagonista del recettore AT1 (sartano)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "arb"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antagonista del recettore AT1 dell'angiotensina II; utile in ipertensione, nefropatia diabetica e scompenso, con lieve effetto uricosurico.",
+    "mainUses": [
+      "Ipertensione arteriosa",
+      "Nefropatia diabetica (diabete tipo 2 con proteinuria)",
+      "Scompenso cardiaco (quando ACE-inibitori non indicati)",
+      "Riduzione del rischio di ictus in ipertesi con IVS"
+    ],
+    "mainRisks": [
+      "Ipotensione da prima dose",
+      "Iperkaliemia",
+      "Peggioramento della funzione renale"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa",
+      "Potassio sierico",
+      "Funzione renale"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipertensione arteriosa essenziale",
+      "Malattia renale nel paziente iperteso con diabete di tipo 2 e proteinuria",
+      "Scompenso cardiaco cronico quando il trattamento con ACE-inibitori non e' ritenuto idoneo",
+      "Riduzione del rischio di ictus in ipertesi con ipertrofia ventricolare sinistra"
+    ],
+    "guidelineIndications": [
+      "Alternativa agli ACE-inibitori in caso di tosse/intolleranza; nefroprotezione nel diabete tipo 2 (studio RENAAL) e riduzione dell'ictus (LIFE) - confermare su linea guida/fonte primaria"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alla molecola o agli eccipienti",
+      "Secondo e terzo trimestre di gravidanza",
+      "Uso concomitante con aliskiren in diabete mellito o compromissione renale (GFR <60 mL/min/1,73 m2)"
+    ],
+    "warnings": [
+      "Ipotensione sintomatica nei pazienti con deplezione di volume/sale (correggere prima o iniziare a dose ridotta)",
+      "Iperkaliemia: rischio aumentato in insufficienza renale, diabete, uso di sali/integratori di potassio o diuretici risparmiatori di potassio; monitorare il potassio",
+      "Monitorare la funzione renale; rischio in stenosi bilaterale dell'arteria renale",
+      "Duplice blocco del sistema renina-angiotensina-aldosterone (ACE-inibitore + sartano o aliskiren) non raccomandato",
+      "Gravidanza: sospendere e non iniziare in gravidanza",
+      "Rispetto agli ACE-inibitori, minore incidenza di tosse secca e (raramente) angioedema",
+      "Nell'insufficienza epatica (es. cirrosi) considerare una dose iniziale piu' bassa (aumento delle concentrazioni plasmatiche)"
+    ],
+    "adverseEffects": [
+      "Ipotensione, capogiro",
+      "Iperkaliemia",
+      "Aumento della creatinina/riduzione della funzione renale",
+      "Cefalea",
+      "Angioedema (raro)",
+      "Lieve effetto uricosurico (riduzione dell'uricemia)"
+    ],
+    "overdose": null,
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento sistematico nella maggior parte dei casi; monitorare potassio e creatinina, in particolare con CrCl 30-50 mL/min o scompenso.",
+      "hepatic": "Ridurre la dose iniziale nell'insufficienza epatica (aumento delle concentrazioni di losartan).",
+      "elderly": "Nei pazienti >75 anni considerare l'avvio a 25 mg.",
+      "pregnancy": "Controindicato nel 2o-3o trimestre; evitare in gravidanza.",
+      "breastfeeding": "Dati insufficienti sull'escrezione nel latte; sconsigliato."
+    },
+    "alternativeDrugIds": [
+      "valsartan",
+      "candesartan",
+      "ramipril"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Abbassa la pressione bloccando l'ormone che restringe i vasi (angiotensina II); di solito una compressa al giorno.",
+    "clinicalExplanation": "Bloccante AT1 con metabolita attivo (E-3174); protegge il rene nel diabete tipo 2 e riduce l'ictus in ipertesi con IVS. Effetto uricosurico peculiare.",
+    "molecularExplanation": "Antagonizza selettivamente il recettore AT1; e' in parte convertito nel metabolita attivo E-3174, piu' potente.",
+    "pharmacodynamics": "Blocco selettivo del recettore AT1: riduzione della vasocostrizione e della secrezione di aldosterone senza accumulo di bradichinina, da cui minore tosse/angioedema rispetto agli ACE-inibitori; aumento di renina e angiotensina II circolanti.",
+    "molecularTarget": "Recettore AT1 dell'angiotensina II",
+    "agonismAntagonism": "Antagonista recettoriale (blocco AT1)",
+    "pharmacokinetics": {
+      "metabolism": "Metabolizzato (CYP2C9/3A4) nel metabolita attivo E-3174",
+      "elimination": "Biliare e renale",
+      "activeMetabolites": [
+        "E-3174"
+      ],
+      "halfLife": "Losartan ~2 ore; metabolita attivo EXP3174 6-9 ore"
+    },
+    "bibliography": [
+      "LIFE (losartan vs atenololo, ictus) - da citare con fonte primaria",
+      "RENAAL (losartan, nefropatia diabetica tipo 2) - da citare con fonte primaria"
+    ]
+  }
+}

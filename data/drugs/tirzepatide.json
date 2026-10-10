@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "id": "tirzepatide",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Mounjaro (tirzepatide) - RCP EMA (registro comunitario EC, allegato IT; Torrinomedica/Codifa/Mediately): indicazioni diabete e controllo del peso, posologia 2,5 mg con incrementi di 2,5 mg ogni 4 settimane fino a 15 mg, rallentamento dello svuotamento gastrico.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2022/20220915156773/anx_156773_it.pdf",
+        "identifier": "Mounjaro RCP EMA",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "SUMMIT - tirzepatide nello scompenso a frazione d'eiezione preservata associato a obesita'.",
+        "url": "https://www.jacc.org/doi/10.1016/j.jacc.2024.11.001",
+        "identifier": "SUMMIT",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da RCP EMA/AIFA e da fonti secondarie derivate dagli RCP (Torrinomedica/Codifa/Mediately, registro comunitario EC). DA CONFERMARE sugli RCP ufficiali. Stato: revisione fonti (source-review), non ancora approvato. NB: per questi farmaci l'indicazione, la rimborsabilita' e il piano terapeutico in Italia variano per prodotto commerciale e indicazione (diabete vs controllo del peso): verificare sempre prima di prescrivere. In Italia verificare attentamente indicazione rimborsata e piano terapeutico: il regime per il controllo del peso differisce da quello per il diabete.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Tirzepatide",
+    "inn": "tirzepatide",
+    "brandExamplesIt": [
+      "Mounjaro"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Doppio agonista dei recettori GIP e GLP-1",
+  "identity": {
+    "atcCodes": [
+      "A10BX16"
+    ],
+    "formulations": [
+      "Soluzione iniettabile in penna preriempita 2,5-15 mg"
+    ],
+    "potentialRoutes": [
+      "sottocutanea"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "gip-glp1-agonists"
+  ],
+  "quickSummary": {
+    "whatItIs": "Primo farmaco che combina l'azione sui recettori GIP e GLP-1. Rispetto ai soli agonisti del GLP-1 produce riduzioni maggiori di glicemia e peso; nello scompenso a FE preservata da obesita' ha ridotto morte ed eventi di peggioramento (studio SUMMIT).",
+    "mainUses": [
+      "Diabete mellito di tipo 2 non adeguatamente controllato",
+      "Controllo del peso corporeo con BMI >=30, o >=27 con almeno una comorbilita' correlata al peso"
+    ],
+    "mainRisks": [
+      "Effetti gastrointestinali marcati, soprattutto in titolazione",
+      "Rallentamento dello svuotamento gastrico con alterazione dell'assorbimento dei farmaci orali, piu' pronunciato all'inizio",
+      "Cautela nella retinopatia diabetica e nella storia di pancreatite"
+    ],
+    "essentialMonitoring": [
+      "Tollerabilita' gastrointestinale a ogni incremento di dose",
+      "Glicemia se in associazione a insulina o sulfanilurea",
+      "Quadro oculare nei diabetici con retinopatia"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Diabete mellito di tipo 2 non adeguatamente controllato in aggiunta a dieta ed esercizio fisico: in monoterapia quando l'uso di metformina e' considerato inappropriato per intolleranza o controindicazioni, oppure in aggiunta ad altri medicinali per il diabete",
+      "Controllo del peso corporeo in aggiunta a dieta ipocalorica e aumento dell'attivita' fisica in adulti con BMI iniziale >=30 kg/m2 (obesita') oppure da >=27 a <30 kg/m2 (sovrappeso) in presenza di almeno una comorbilita' correlata al peso (per esempio ipertensione, dislipidemia, apnea ostruttiva del sonno, malattia cardiovascolare, prediabete o diabete mellito di tipo 2)"
+    ],
+    "guidelineIndications": [
+      "Nello scompenso cardiaco a frazione d'eiezione preservata associato a obesita' la tirzepatide ha ridotto del 38% l'endpoint combinato di morte ed eventi di peggioramento dello scompenso (studio SUMMIT), con rimodellamento favorevole all'imaging",
+      "La scheda tecnica rimanda al paragrafo 5.1 per i risultati degli studi su apnea ostruttiva del sonno e scompenso a frazione d'eiezione preservata"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti"
+    ],
+    "warnings": [
+      "Tirzepatide RALLENTA LO SVUOTAMENTO GASTRICO e puo' quindi influenzare la velocita' di assorbimento dei medicinali orali somministrati in concomitanza (riduzione della Cmax e ritardo del tmax); l'effetto e' PIU' PRONUNCIATO ALL'INIZIO del trattamento",
+      "Non e' stata studiata in pazienti con storia di pancreatite e va usata con cautela in questi pazienti",
+      "Non e' stata studiata nella retinopatia diabetica non proliferativa che richiede terapia acuta, nella retinopatia proliferativa o nell'edema maculare diabetico: usare con cautela e monitorare adeguatamente",
+      "Non associare ad agonisti del recettore del GLP-1",
+      "L'associazione con sulfanilurea o insulina aumenta il rischio di ipoglicemia: valutare la riduzione della dose",
+      "La penna multidose contiene alcol benzilico (vedere RCP per le popolazioni sensibili)"
+    ],
+    "adverseEffects": [
+      "Nausea, vomito, diarrea, stipsi, dolore addominale (molto frequenti, dose-dipendenti)",
+      "Riduzione dell'appetito",
+      "Colelitiasi e disturbi biliari",
+      "Ipoglicemia in associazione a insulina o sulfanilurea",
+      "Reazioni al sito di iniezione"
+    ],
+    "overdose": "Il sovradosaggio comporta effetti gastrointestinali marcati e possibile ipoglicemia; gestione di supporto con idratazione. Non esiste un antidoto specifico; la lunga emivita comporta effetti prolungati.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "L'efficacia non e' risultata influenzata dal livello di compromissione della funzione renale; attenzione alla disidratazione da vomito o diarrea.",
+      "hepatic": "Consultare l'RCP.",
+      "elderly": "Nessun aggiustamento sistematico; attenzione alla tollerabilita' e alla perdita di massa muscolare.",
+      "pregnancy": "Non raccomandata.",
+      "breastfeeding": "Non raccomandata."
+    },
+    "alternativeDrugIds": [
+      "semaglutide",
+      "liraglutide",
+      "dulaglutide",
+      "empagliflozin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Puntura settimanale che agisce su due ormoni intestinali invece di uno: fa perdere piu' peso e abbassa di piu' la glicemia rispetto ai farmaci della generazione precedente. Si parte sempre da 2,5 mg per far abituare lo stomaco.",
+    "clinicalExplanation": "Doppio agonista dei recettori GIP e GLP-1, peptide di 39 aminoacidi con catena di acido grasso C20 per la somministrazione settimanale. Rispetto ai soli agonisti del GLP-1 produce riduzioni maggiori di HbA1c e peso (SURPASS-2). In cardiologia il dato piu' rilevante e' SUMMIT, che nello scompenso a FE preservata associato a obesita' ha mostrato una riduzione del 38% dell'endpoint combinato di morte ed eventi di peggioramento. La titolazione parte sempre da 2,5 mg, dose non terapeutica ma necessaria alla tollerabilita'.",
+    "molecularExplanation": "Agonismo combinato dei recettori del polipeptide insulinotropico glucosio-dipendente (GIP) e del GLP-1, con effetto additivo sulla secrezione insulinica glucosio-dipendente, sulla sazieta' e sul metabolismo del tessuto adiposo.",
+    "pharmacodynamics": "Riduzione di HbA1c e peso corporeo superiore a quella dei soli agonisti del GLP-1 alle dosi studiate; esposizione proporzionale alla dose.",
+    "molecularTarget": "Recettori GIP e GLP-1",
+    "agonismAntagonism": "Doppio agonismo recettoriale",
+    "pharmacokinetics": {
+      "route": "Sottocutanea, una volta a settimana",
+      "halfLife": "Compatibile con la somministrazione settimanale; steady state dopo 4 settimane",
+      "note": "Catena di acido grasso C20 con legame all'albumina"
+    },
+    "bibliography": []
+  }
+}

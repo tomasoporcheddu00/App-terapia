@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "id": "enoxaparin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Clexane/Clexane T (enoxaparina sodica) - RCP italiana AIFA (stampati armonizzati UE, Decisione CE C(2017)1714).",
+        "url": "https://www.torrinomedica.it/schede-farmaci/clexane/",
+        "identifier": "Clexane; ATC B01AB05",
+        "retrievedAt": "2026-07-18"
+      },
+      {
+        "type": "other",
+        "citation": "AIFA - Nota Informativa Importante Clexane (enoxaparina): 1 mg = 100 UI anti-Xa; armonizzazione posologia TVP/EP e insufficienza renale grave (09/06/2017).",
+        "url": "https://www.aifa.gov.it/documents/20142/516919/NII_Clexane_enoxaparina_09.06.2017.pdf",
+        "identifier": "AIFA NII Clexane 2017",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Enoxaparina: 1 mg = 100 UI anti-Xa. Monografia con focus cardiologico (SCA, STEMI, trattamento TVP/EP). I regimi posologici dettagliati per singola indicazione sono numerosi: qui riportati i principali; dettagli completi (profilassi, pediatria, circolazione extracorporea) da RCP integrale. ATC B01AB05. Antidoto parziale: protamina.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Enoxaparina sodica",
+    "inn": "enoxaparin sodium",
+    "brandExamplesIt": [
+      "Clexane",
+      "Clexane T"
+    ]
+  },
+  "synonyms": [
+    "EBPM enoxaparina"
+  ],
+  "classIds": [
+    "low-molecular-weight-heparins"
+  ],
+  "subclass": "Eparina a basso peso molecolare (EBPM)",
+  "classificationStatus": "confirmed",
+  "identity": {
+    "atcCodes": [
+      "B01AB05"
+    ],
+    "formulations": [
+      "siringhe preriempite s.c. a vari dosaggi (es. 2.000 UI/20 mg, 4.000 UI/40 mg, 6.000 UI/60 mg, 8.000 UI/80 mg, 10.000 UI/100 mg)"
+    ],
+    "potentialRoutes": [
+      "subcutaneous",
+      "intravenous"
+    ],
+    "availabilityStatus": "available",
+    "marketingAuthorisationIt": true
+  },
+  "linkedMacroAreaIds": [
+    "acute-coronary-syndrome",
+    "venous-thromboembolism"
+  ],
+  "quickSummary": {
+    "whatItIs": "Eparina a basso peso molecolare con prevalente attivita' anti-fattore Xa, somministrata per via sottocutanea.",
+    "mainUses": [
+      "Trattamento della TVP/EP",
+      "Angina instabile/NSTEMI e STEMI (in associazione ad ASA)",
+      "Profilassi del tromboembolismo venoso",
+      "Prevenzione della coagulazione in circolazione extracorporea/emodialisi"
+    ],
+    "mainRisks": [
+      "Emorragia",
+      "Trombocitopenia indotta da eparina (HIT)"
+    ],
+    "essentialMonitoring": [
+      "Emocromo/conta piastrinica",
+      "Funzione renale",
+      "Segni di sanguinamento"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Profilassi del tromboembolismo venoso nei pazienti chirurgici a rischio moderato-alto e nei pazienti medici con patologia acuta e mobilita' ridotta",
+      "Trattamento della TVP con o senza embolia polmonare",
+      "Trattamento dell'angina instabile e dell'infarto miocardico senza sopraslivellamento ST (NSTEMI), in associazione ad ASA",
+      "Trattamento dell'infarto miocardico acuto con sopraslivellamento ST (STEMI)",
+      "Prevenzione della formazione di trombi nella circolazione extracorporea durante emodialisi"
+    ],
+    "guidelineIndications": [
+      "Anticoagulante parenterale di riferimento nelle SCA e nel trattamento iniziale della TEV; posizionamento secondo linee guida ESC (fonte da aggiungere)."
+    ],
+    "offLabelUses": [],
+    "populations": [
+      "Adulti; non stabilita in eta' pediatrica"
+    ],
+    "advantages": [
+      "Somministrazione sottocutanea a dose fissa/peso-basata",
+      "Non richiede monitoraggio routinario dell'aPTT (a differenza dell'UFH)",
+      "Emivita piu' lunga e risposta piu' prevedibile dell'UFH"
+    ],
+    "limitations": [
+      "Eliminazione renale (accumulo in insufficienza renale)",
+      "Rischio di HIT (minore che con UFH)",
+      "Non somministrare per via intramuscolare"
+    ],
+    "alternativeDrugIds": [
+      "unfractionated-heparin"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' all'enoxaparina, all'eparina o ai suoi derivati",
+      "Anamnesi di trombocitopenia immuno-mediata da eparina (HIT) negli ultimi 100 giorni o con anticorpi circolanti",
+      "Sanguinamento clinicamente significativo in atto o condizioni ad alto rischio emorragico (es. ictus emorragico recente, ulcera gastrica, neoplasie ad alto rischio, varici esofagee, malformazioni artero-venose, aneurismi)",
+      "Anestesia loco-regionale/spinale in caso di trattamento a dosi terapeutiche (rischio ematoma spinale)"
+    ],
+    "relativeContraindications": [],
+    "warnings": [
+      "Non somministrare per via intramuscolare",
+      "Non intercambiabile UI-per-UI con altre EBPM o con l'UFH",
+      "Monitorare la conta piastrinica per il rischio di HIT",
+      "Aggiustare la dose in insufficienza renale grave (CrCl 15-30 mL/min); non raccomandata con CrCl <15 (salvo circolazione extracorporea)",
+      "Cautela in insufficienza epatica e nell'anziano",
+      "Rischio di ematoma spinale/epidurale con anestesia neurassiale"
+    ],
+    "adverseEffects": [
+      "Emorragia",
+      "Trombocitopenia (inclusa HIT)",
+      "Reazioni nel sito di iniezione/ematoma",
+      "Aumento transaminasi",
+      "Rare reazioni cutanee"
+    ],
+    "overdose": "Il sovradosaggio per via parenterale puo' causare emorragia; l'effetto anticoagulante e' in gran parte neutralizzabile con protamina solfato/cloridrato per iniezione EV lenta (neutralizzazione parziale dell'attivita' anti-Xa).",
+    "antidoteDrugIds": [
+      "protamine"
+    ],
+    "monitoring": [
+      "Conta piastrinica (HIT)",
+      "Funzione renale",
+      "Segni di sanguinamento",
+      "Anti-Xa in situazioni particolari (es. insufficienza renale, obesita', gravidanza)"
+    ],
+    "discontinuation": "Sospensione perioperatoria e gestione dell'anestesia neurassiale secondo intervalli di sicurezza (verificare linee guida).",
+    "specialPopulations": {
+      "renal": "CrCl 30-80 mL/min: nessun aggiustamento. CrCl 15-30 mL/min: aggiustamento sia terapeutico sia profilattico. CrCl <15 mL/min: non raccomandata (salvo circolazione extracorporea in emodialisi).",
+      "hepatic": "Cautela (ridotta sintesi di antitrombina III; aumentato rischio emorragico).",
+      "elderly": "Nessuna riduzione per la sola eta' salvo compromissione renale; nello STEMI eta' >=75 anni nessun bolo EV e dose SC ridotta.",
+      "lowBodyWeight": "Rischio emorragico aumentato; monitoraggio.",
+      "obesity": "Possibile necessita' di monitoraggio anti-Xa (verificare).",
+      "pregnancy": "Utilizzata in gravidanza secondo valutazione rischio/beneficio (verificare RCP; non contiene conservanti nelle siringhe monouso).",
+      "breastfeeding": "Scarso passaggio/assorbimento orale nel lattante (verificare RCP)."
+    },
+    "dosingRegimenIds": [
+      "enoxaparin__nstemi__subcutaneous"
+    ],
+    "interactionRefs": [],
+    "regulatoryItId": "enoxaparin"
+  },
+  "deep": {
+    "simpleExplanation": "Un'eparina 'leggera' iniettata sotto la pelle che rende il sangue meno coagulabile, agendo soprattutto sul fattore Xa.",
+    "clinicalExplanation": "Potenzia l'antitrombina III accelerando l'inibizione del fattore Xa (e in misura minore della trombina), con rapporto anti-Xa/anti-IIa piu' alto dell'eparina non frazionata e risposta piu' prevedibile.",
+    "molecularExplanation": "Il pentasaccaride dell'enoxaparina si lega all'antitrombina III inducendone un cambiamento conformazionale che accelera l'inattivazione del fattore Xa; le catene piu' corte inibiscono meno la trombina rispetto all'UFH.",
+    "molecularTarget": "Complesso antitrombina III - fattore Xa (prevalente) e trombina (minore)",
+    "agonismAntagonism": "Potenziatore indiretto dell'antitrombina III",
+    "selectivity": "Attivita' prevalentemente anti-fattore Xa (rapporto anti-Xa/anti-IIa ~3-4:1)",
+    "pharmacodynamics": "Effetto anticoagulante prevedibile a dose fissa/peso-basata; non richiede monitoraggio routinario dell'aPTT.",
+    "hemodynamicEffects": "Nessun effetto emodinamico diretto.",
+    "electrophysiologicEffects": "Nessuno.",
+    "pharmacokinetics": {
+      "bioavailability": "~100% per via sottocutanea (attivita' anti-Xa)",
+      "timeToPeak": "~3 ore (picco attivita' anti-Xa)",
+      "halfLife": "~4-6 ore (piu' lunga nell'anziano)",
+      "proteinBinding": null,
+      "metabolism": "Metabolismo epatico (desolfatazione/depolimerizzazione)",
+      "enzymes": [],
+      "transporters": [],
+      "activeMetabolites": [],
+      "elimination": "Prevalentemente renale",
+      "dialyzability": null
+    },
+    "evidenceIds": [],
+    "recommendationIds": [],
+    "bibliography": []
+  }
+}

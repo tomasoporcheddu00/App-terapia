@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "id": "captopril",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Captopril - RCP (rese da Torrinomedica/Mediately su base AIFA): indicazioni, posologia §4.2, farmacocinetica §5.2.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/captopril-2/",
+        "identifier": "Captopril RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "ACE-inibitori: controindicazioni (§4.3), avvertenze (§4.4) e interazioni (§4.5) di classe, sintesi da RCP/portali AIFA (Codifa, Mediately, Torrinomedica, Egualia).",
+        "url": "https://www.santagostino.it/magazine/ace-inibitori/",
+        "identifier": "ACE-inibitori classe §4.3-4.5",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA/foglietti illustrativi): indicazioni, posologia, controindicazioni (§4.3), avvertenze (§4.4), interazioni (§4.5). DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica (§5.2) parziale. Controindicazioni/avvertenze/interazioni in gran parte comuni alla classe ACE-inibitori. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Captopril",
+    "inn": "captopril",
+    "brandExamplesIt": [
+      "Capoten"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "ACE-inibitore sulfidrilico (non profarmaco, breve durata)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "ace-inhibitors"
+  ],
+  "quickSummary": {
+    "whatItIs": "ACE-inibitore sulfidrilico, attivo come tale, a breve durata d'azione: richiede piu' somministrazioni al giorno e assunzione a stomaco vuoto.",
+    "mainUses": [
+      "Ipertensione arteriosa",
+      "Scompenso cardiaco cronico",
+      "Post-infarto con disfunzione ventricolare sinistra",
+      "Nefropatia diabetica (diabete tipo 1)"
+    ],
+    "mainRisks": [
+      "Ipotensione da prima dose",
+      "Iperkaliemia",
+      "Rash e alterazione del gusto (gruppo sulfidrilico)",
+      "Tosse secca"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa",
+      "Potassio sierico",
+      "Funzione renale",
+      "Emocromo/proteinuria nei pazienti a rischio"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipertensione arteriosa",
+      "Scompenso cardiaco cronico con ridotta funzione sistolica ventricolare (con diuretici ed eventualmente digitale/betabloccanti)",
+      "Post-infarto miocardico: trattamento a breve termine (paziente stabile entro 24 ore) e profilassi a lungo termine dell'insufficienza cardiaca sintomatica nella disfunzione VS asintomatica (FE <=40%)",
+      "Nefropatia diabetica macroproteinurica nel diabete di tipo 1"
+    ],
+    "guidelineIndications": [
+      "ACE-inibitore storicamente validato nel post-infarto e nello scompenso (posizionamento di classe; confermare su linea guida ESC)"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alla molecola, agli eccipienti o ad altri ACE-inibitori",
+      "Anamnesi di angioedema (ereditario, idiopatico o pregresso con ACE-inibitori/ARB)",
+      "Secondo e terzo trimestre di gravidanza",
+      "Stenosi bilaterale dell'arteria renale o stenosi unilaterale su rene unico funzionante",
+      "Uso concomitante con sacubitril/valsartan (rischio di angioedema)",
+      "Uso concomitante con aliskiren in diabete mellito o compromissione renale (GFR <60 mL/min/1,73 m2)"
+    ],
+    "warnings": [
+      "Ipotensione sintomatica, soprattutto alla prima dose e nei pazienti con deplezione idrosalina o in terapia diuretica (valutare sospensione del diuretico 2-3 giorni prima)",
+      "Iperkaliemia: rischio aumentato in insufficienza renale, eta' >70 anni, diabete, disidratazione, scompenso acuto, acidosi metabolica, uso di sali/integratori di potassio o diuretici risparmiatori di potassio; monitorare il potassio",
+      "Angioedema (sospendere immediatamente)",
+      "Monitorare funzione renale ed elettroliti, in particolare all'avvio e dopo aumenti di dose",
+      "Duplice blocco del sistema renina-angiotensina-aldosterone non raccomandato",
+      "Tosse secca persistente (effetto di classe da bradichinina)",
+      "Gravidanza: sospendere e non iniziare in gravidanza",
+      "Assumere a stomaco vuoto: il cibo riduce l'assorbimento"
+    ],
+    "adverseEffects": [
+      "Ipotensione, capogiro",
+      "Tosse secca",
+      "Iperkaliemia",
+      "Aumento della creatinina/riduzione della funzione renale",
+      "Cefalea, affaticamento",
+      "Angioedema (raro, potenzialmente grave)",
+      "Rash cutaneo maculopapulare/prurito",
+      "Alterazione del gusto (disgeusia)",
+      "Fotosensibilita'"
+    ],
+    "overdose": null,
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Ridurre la dose ed allungare l'intervallo secondo clearance della creatinina; l'eliminazione e' prevalentemente renale.",
+      "hepatic": "Cautela nell'insufficienza epatica.",
+      "elderly": "Iniziare a dose bassa; maggiore rischio di ipotensione e iperkaliemia.",
+      "pregnancy": "Controindicato nel 2o-3o trimestre; evitare in gravidanza.",
+      "breastfeeding": "Passa in piccole quantita' nel latte; valutare rischio/beneficio (confermare su RCP §4.6)."
+    },
+    "alternativeDrugIds": [
+      "ramipril",
+      "enalapril",
+      "lisinopril"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Abbassa la pressione rilassando i vasi; agisce poco a lungo, quindi va preso piu' volte al giorno e lontano dai pasti.",
+    "clinicalExplanation": "ACE-inibitore sulfidrilico non profarmaco, a breve emivita; storicamente impiegato post-infarto e nello scompenso. Il gruppo tiolico spiega rash e disgeusia.",
+    "molecularExplanation": "Inibisce direttamente l'ACE grazie al gruppo sulfidrilico che lega lo zinco del sito catalitico.",
+    "pharmacodynamics": "Riduzione delle resistenze vascolari periferiche senza tachicardia riflessa marcata e della pressione intraglomerulare; l'accumulo di bradichinina spiega tosse secca e, raramente, angioedema.",
+    "molecularTarget": "Enzima di conversione dell'angiotensina (ACE / chininasi II)",
+    "agonismAntagonism": "Inibitore enzimatico",
+    "pharmacokinetics": {
+      "bioavailability": "~60-65% a stomaco vuoto, ridotta al 25-50% con il cibo",
+      "timeToPeak": "~1 ora",
+      "halfLife": "Breve (captopril immodificato < ~2-3 ore)",
+      "proteinBinding": "~25-30%",
+      "elimination": "Renale (~95% nelle urine, ~40-50% immodificato)"
+    },
+    "bibliography": [
+      "SAVE e ISIS-4 (captopril post-infarto) - da citare con fonte primaria"
+    ]
+  }
+}

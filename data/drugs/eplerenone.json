@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "id": "eplerenone",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Eplerenone (Inspra) - RCP/fonti (informazionisuifarmaci, EPHESUS/EMPHASIS-HF, PTR): indicazioni post-IM e scompenso NYHA II, dose, iperkaliemia, CYP3A4.",
+        "url": "https://www.informazionisuifarmaci.it/eplerenone",
+        "identifier": "Eplerenone RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Eplerenone (Inspra) - RCP EMA/AIFA (Torrinomedica/Mediately), paragrafo 5.2: emivita di eliminazione ~3-6 ore, metabolismo CYP3A4 senza metaboliti attivi.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/eplerenone_accord/",
+        "identifier": "RCP - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA / EPAR EMA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Eplerenone",
+    "inn": "eplerenone",
+    "brandExamplesIt": [
+      "Inspra"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antagonista selettivo del recettore dei mineralcorticoidi",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "mra"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antialdosteronico selettivo: come lo spironolattone nello scompenso, ma senza ginecomastia.",
+    "mainUses": [
+      "Scompenso post-infarto con disfunzione VS (LVEF <=40%)",
+      "Scompenso cardiaco cronico NYHA II con LVEF ridotta"
+    ],
+    "mainRisks": [
+      "Iperkaliemia",
+      "Peggioramento renale"
+    ],
+    "essentialMonitoring": [
+      "Potassio sierico",
+      "Funzione renale"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Riduzione del rischio di mortalita'/morbilita' cardiovascolare in pazienti stabili con disfunzione ventricolare sinistra (LVEF <=40%) e segni di scompenso dopo infarto miocardico recente, in aggiunta alla terapia standard",
+      "Scompenso cardiaco cronico in classe NYHA II con LVEF ridotta, in aggiunta alla terapia standard"
+    ],
+    "guidelineIndications": [
+      "Riduzione di mortalita'/ospedalizzazioni nello scompenso post-IM (EPHESUS) e cronico NYHA II (EMPHASIS-HF); caposaldo HFrEF (confermare su ESC)"
+    ],
+    "absoluteContraindications": [
+      "Iperkaliemia (potassio >5,0 mmol/L all'avvio)",
+      "Insufficienza renale grave (eGFR <30)",
+      "Insufficienza epatica grave",
+      "Uso concomitante con inibitori potenti del CYP3A4 (es. ketoconazolo, itraconazolo, ritonavir, claritromicina)",
+      "Uso concomitante con risparmiatori di potassio o sali di potassio",
+      "Ipersensibilita'"
+    ],
+    "warnings": [
+      "Iperkaliemia: monitorare potassio e creatinina all'avvio e in titolazione",
+      "Metabolismo via CYP3A4: attenzione a inibitori/induttori",
+      "Cautela nel diabete e nell'anziano"
+    ],
+    "adverseEffects": [
+      "Iperkaliemia",
+      "Capogiro, ipotensione",
+      "Aumento della creatinina"
+    ],
+    "overdose": "Il sovradosaggio puo' dare iperkaliemia/ipotensione; trattamento sintomatico e correzione del potassio.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Controindicato con eGFR <30; ridurre e monitorare nelle forme moderate.",
+      "hepatic": "Controindicato nell'insufficienza epatica grave.",
+      "elderly": "Monitorare il potassio con attenzione.",
+      "pregnancy": "Usare solo se necessario.",
+      "breastfeeding": "Dati insufficienti."
+    },
+    "alternativeDrugIds": [
+      "spironolactone",
+      "finerenone"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Come lo spironolattone nello scompenso, ma non causa ingrossamento del seno; richiede attenzione al potassio.",
+    "clinicalExplanation": "MRA selettivo; indicato nel post-IM con disfunzione VS (EPHESUS) e nell'HFrEF NYHA II (EMPHASIS-HF). Metabolismo CYP3A4: inibitori potenti controindicati.",
+    "molecularExplanation": "Antagonista selettivo del recettore dei mineralcorticoidi (scarsa affinita' per androgeni/progesterone).",
+    "pharmacodynamics": "Blocco selettivo dell'aldosterone; natriuresi con risparmio di potassio ed effetto anti-rimodellamento.",
+    "molecularTarget": "Recettore dei mineralcorticoidi",
+    "agonismAntagonism": "Antagonista recettoriale selettivo",
+    "pharmacokinetics": {
+      "metabolism": "Epatico via CYP3A4",
+      "elimination": "Renale e fecale",
+      "halfLife": "~3-6 ore; metabolismo prevalente CYP3A4 SENZA metaboliti attivi (a differenza dello spironolattone), eliminazione renale (~67%) e fecale (~32%)"
+    },
+    "bibliography": [
+      "EPHESUS (eplerenone post-IM) - da citare con fonte primaria",
+      "EMPHASIS-HF (eplerenone NYHA II) - da citare con fonte primaria"
+    ]
+  }
+}

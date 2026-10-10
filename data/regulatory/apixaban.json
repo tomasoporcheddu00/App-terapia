@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "id": "apixaban",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": "Curatore clinico",
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": "2026-07-19",
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "AIFA - Adozione definitiva della Nota 97 (Determinazione DG n. 1034 del 14/10/2020) sulla prescrivibilita' dei NAO/DOAC e AVK nella FANV.",
+        "url": "https://www.aifa.gov.it/en/-/adozione-definitiva-della-nota-97-su-terapia-anticoagulante-nei-pazienti-con-fanv",
+        "identifier": "Determina DG 1034/2020; Nota 97",
+        "retrievedAt": "2026-07-18"
+      },
+      {
+        "type": "other",
+        "citation": "AIFA - Aggiornamenti delle Note AIFA 39, 74, 97 e 99 in vigore dal 9 luglio 2026 (abrogazione della Scheda di Valutazione e Prescrizione per apixaban, dabigatran, edoxaban, rivaroxaban, warfarin, acenocumarolo nella NVAF).",
+        "url": "https://www.aifa.gov.it/-/aggiornamenti-delle-note-aifa-39-74-97-e-99-in-vigore-dal-9-luglio-2026",
+        "identifier": "Aggiornamento Nota 97 (09/07/2026)",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Stato regolatorio italiano al 18/07/2026. NOVITA' RECENTE: l'aggiornamento della Nota 97 in vigore dal 9 luglio 2026 ha abrogato la Scheda di Valutazione e Prescrizione per la NVAF; pertanto therapeuticPlan e' impostato a false (in precedenza era richiesta la scheda/PT). Da VERIFICARE su banca dati AIFA: codici AIC, classe di rimborsabilita' per singola confezione/indicazione, regime di fornitura per le indicazioni diverse dalla FANV, canale distributivo. Fonti primarie definitive: banca dati farmaci AIFA + Gazzetta Ufficiale.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "apixaban",
+  "authorisation": "Autorizzato dall'EMA con procedura centralizzata (Eliquis); commercializzato in Italia.",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RR (Ricetta Ripetibile) per l'indicazione FANV ai sensi della Nota 97 (in precedenza RRL). Per le altre indicazioni il regime resta quello di classificazione originaria: da verificare.",
+  "aifaNote": "Nota 97 (prescrivibilita' degli anticoagulanti orali nella fibrillazione atriale non valvolare)",
+  "therapeuticPlan": false,
+  "registry": null,
+  "distribution": null,
+  "law648_1996": false,
+  "prescriberRestrictions": "Nell'indicazione FANV la prescrizione a carico del SSN e' regolata dalla Nota 97; con l'aggiornamento in vigore dal 9 luglio 2026 e' stata abrogata la scheda di valutazione e prescrizione dedicata. Restrizioni prescrittive residue per singola indicazione: da verificare.",
+  "availableFormulations": [
+    "compresse 2,5 mg",
+    "compresse 5 mg"
+  ],
+  "verificationDate": "2026-07-18"
+}

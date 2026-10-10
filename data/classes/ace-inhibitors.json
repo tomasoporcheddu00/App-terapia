@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "id": "ace-inhibitors",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "ACE-inibitori - meccanismo, effetti e interazioni di classe (Torrinomedica, Santagostino, my-personaltrainer; iperkaliemia da farmaci, Giornale Italiano di Nefrologia).",
+        "url": "https://www.santagostino.it/magazine/ace-inibitori/",
+        "identifier": "ACE-inibitori (classe)",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Ramipril - Riassunto delle Caratteristiche del Prodotto / Foglio Illustrativo (rese da portali su base RCP AIFA): controindicazioni (§4.3), avvertenze (§4.4) e interazioni (§4.5).",
+        "url": "https://www.codifa.it/farmaci/r/ramipril-git-ramipril-ace-inibitori",
+        "identifier": "Ramipril RCP §4.3-4.5",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "Pharmamedix - Ramipril: indicazioni, posologia, controindicazioni, interazioni (monografia su base RCP).",
+        "url": "https://www.pharmamedix.com/principio.php?pa=Ramipril",
+        "identifier": "Pharmamedix Ramipril",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da fonti secondarie su base RCP e da monografie divulgative; da confermare sugli RCP ufficiali EMA/AIFA e sulle linee guida primarie (ESC). Le peculiarita' delle singole molecole (profarmaco/forma attiva, emivita, via di eliminazione, posologia per indicazione) restano nelle rispettive schede e non sono sostituite da questa pagina."
+  },
+  "name": "ACE-inibitori",
+  "atcGroup": null,
+  "memberDrugIds": [
+    "captopril",
+    "enalapril",
+    "lisinopril",
+    "ramipril",
+    "perindopril",
+    "zofenopril"
+  ],
+  "mechanismSummary": "Inibiscono l'enzima di conversione dell'angiotensina (ACE): riducono la formazione di angiotensina II (potente vasocostrittore) e la secrezione di aldosterone, e rallentano la degradazione della bradichinina. Ne derivano vasodilatazione, riduzione di pre/postcarico, effetto antipertensivo, antiremodeling e nefroprotettivo.",
+  "molecularTarget": "Enzima di conversione dell'angiotensina (ACE / chininasi II)",
+  "pharmacodynamics": "Riduzione delle resistenze vascolari periferiche senza tachicardia riflessa marcata; dilatazione preferenziale dell'arteriola efferente con calo della pressione intraglomerulare (effetto nefroprotettivo). L'accumulo di bradichinina e' alla base di tosse secca e, raramente, angioedema.",
+  "classEffects": [
+    "Effetto antipertensivo sostenuto nelle 24 ore",
+    "Miglioramento della sopravvivenza e riduzione delle ospedalizzazioni nell'insufficienza cardiaca a FE ridotta",
+    "Prevenzione del rimodellamento cardiaco dopo infarto",
+    "Nefroprotezione, in particolare in presenza di diabete/proteinuria"
+  ],
+  "sharedContraindications": [
+    "Anamnesi di angioedema (ereditario, idiopatico o da precedente ACE-inibitore/ARB)",
+    "Secondo e terzo trimestre di gravidanza",
+    "Stenosi bilaterale dell'arteria renale (o unilaterale su rene unico)",
+    "Uso concomitante con sacubitril/valsartan",
+    "Uso concomitante con aliskiren in diabete o insufficienza renale (GFR <60)",
+    "Ipersensibilita' alla molecola o ad altri ACE-inibitori"
+  ],
+  "sharedAdverseEffects": [
+    "Tosse secca (da bradichinina)",
+    "Ipotensione, specie da prima dose",
+    "Iperkaliemia",
+    "Aumento della creatinina/riduzione della funzione renale",
+    "Angioedema (raro, potenzialmente grave)",
+    "Capogiro, cefalea"
+  ],
+  "monitoring": [
+    "Pressione arteriosa",
+    "Potassio sierico",
+    "Funzione renale (creatinina/eGFR), soprattutto all'avvio e dopo aumenti di dose",
+    "Emocromo nei pazienti a rischio (rare neutropenia/agranulocitosi)"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Le molecole differiscono per essere o meno profarmaci, per emivita e via di eliminazione, con implicazioni sul numero di somministrazioni giornaliere e sull'aggiustamento nell'insufficienza renale ed epatica; tali peculiarita' vanno riportate e confermate nelle singole schede dalle rispettive RCP."
+}

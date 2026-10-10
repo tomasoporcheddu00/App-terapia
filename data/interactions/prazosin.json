@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "prazosin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Prazosina (Minipress) - RCP/monografie (AccessMedicina/label Minipress): alfa-1 bloccante selettivo, ipertensione; fenomeno della prima dose (sincope); emivita breve.",
+        "url": "https://accessmedicina.mhmedical.com/data/accessmedicina/vidal/FT_C02CA01.html",
+        "identifier": "Prazosina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "prazosin",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Inibitori della PDE5",
+      "effect": "Ipotensione sintomatica additiva",
+      "management": "Cautela; stabilizzare in alfa-blocco prima del PDE5-inibitore"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Diuretici / altri antipertensivi",
+      "effect": "Ipotensione additiva (specie alla prima dose)",
+      "management": "Ridurre le dosi e titolare"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Betabloccanti",
+      "effect": "Accentuazione dell'ipotensione da prima dose",
+      "management": "Cautela"
+    }
+  ]
+}

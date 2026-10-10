@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "id": "diltiazem",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Diltiazem - RCP (Mediately/Starbene/Codifa/Pharmamedix su base AIFA): indicazioni angina/ipertensione, dose (rilascio immediato e prolungato), controindicazioni, interazioni CYP3A4 e betabloccanti/ivabradina.",
+        "url": "https://mediately.co/it/drugs/E1FXu5Rl0PZJWYe6niXRNWHUWbr/dilzene-24-cpr-120-mg-rilascio-prolungato",
+        "identifier": "Diltiazem RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5; severita' secondo posizionamento RCP e rilevanza clinica.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "diltiazem",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Ivabradina",
+      "effect": "Bradicardia additiva e aumento dei livelli di ivabradina",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "contraindicated",
+      "agent": "Dantrolene (infusione)",
+      "effect": "Rischio di fibrillazione ventricolare (dati animali)",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "major",
+      "agent": "Betabloccanti",
+      "effect": "Bradicardia grave, blocco AV, ipotensione, depressione della contrattilita' (fino allo scompenso)",
+      "management": "Associazione da evitare (soprattutto per via endovenosa); se necessaria, solo con stretto monitoraggio clinico ed ECG"
+    },
+    {
+      "severity": "major",
+      "agent": "Digossina",
+      "effect": "Aumento dei livelli di digossina e rallentamento AV additivo",
+      "management": "Ridurre la dose di digossina e monitorare digossinemia ed ECG"
+    },
+    {
+      "severity": "major",
+      "agent": "Altri antiaritmici / amiodarone",
+      "effect": "Bradicardia e depressione della conduzione additive",
+      "management": "Cautela; monitoraggio ECG"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Substrati del CYP3A4 (statine come simvastatina/atorvastatina, midazolam, ciclosporina, ecc.)",
+      "effect": "Aumento dell'esposizione del substrato (verapamil e diltiazem sono inibitori del CYP3A4)",
+      "management": "Limitare la dose della statina; monitorare"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Succo di pompelmo, inibitori del CYP3A4",
+      "effect": "Aumento dei livelli del calcioantagonista",
+      "management": "Evitare il pompelmo; cautela"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Teofillina",
+      "effect": "Aumento dei livelli di teofillina",
+      "management": "Monitorare"
+    }
+  ]
+}

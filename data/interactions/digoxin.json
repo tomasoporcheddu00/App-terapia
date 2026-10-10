@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "id": "digoxin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Digossina - RCP/fonti cliniche (AUSL, prescrivere.substack, ESC 2021, RATE-AF): indicazioni scompenso/FA, dose e digossinemia target, controindicazioni, tossicita', interazioni. Indice terapeutico stretto.",
+        "url": "https://www.ausl.pr.it/azienda/farmaci_solo_alcune_indicazioni/digossina.aspx",
+        "identifier": "Digossina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5; severita' secondo posizionamento RCP e rilevanza clinica. La digossina ha indice terapeutico stretto: numerose interazioni ne aumentano i livelli o la tossicita'. Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "digoxin",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Amiodarone, dronedarone, chinidina, propafenone",
+      "effect": "Aumento marcato dei livelli di digossina (rischio di tossicita')",
+      "management": "Ridurre la dose di digossina (spesso della meta') e monitorare la digossinemia"
+    },
+    {
+      "severity": "major",
+      "agent": "Verapamil, diltiazem",
+      "effect": "Aumento dei livelli di digossina e rallentamento AV additivo",
+      "management": "Ridurre la dose e monitorare digossinemia ed ECG"
+    },
+    {
+      "severity": "major",
+      "agent": "Diuretici che causano ipokaliemia/ipomagnesiemia (tiazidici, dell'ansa)",
+      "effect": "Aumento del rischio di aritmie da digitale",
+      "management": "Monitorare e correggere potassio e magnesio"
+    },
+    {
+      "severity": "major",
+      "agent": "Macrolidi (eritromicina, claritromicina) e alcuni antibiotici",
+      "effect": "Aumento della biodisponibilita'/livelli di digossina",
+      "management": "Monitorare la digossinemia"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Beta-bloccanti",
+      "effect": "Rallentamento AV additivo (bradicardia/blocco)",
+      "management": "Monitorare frequenza e conduzione"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Calcio endovenoso, sali di calcio",
+      "effect": "Aumentano il rischio di aritmie in presenza di digitale",
+      "management": "Cautela; evitare boli rapidi di calcio"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "id": "rivaroxaban",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Xarelto (rivaroxaban) sez. 4.5 - inibitori/induttori forti CYP3A4+P-gp; farmaci che alterano l'emostasi.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/xarelto-20/",
+        "identifier": "Xarelto 4.5",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Sintesi coerente con la farmacocinetica documentata (CYP3A4/CYP2J2, P-gp/BCRP). Elenco 4.5 completo da verificare sulla RCP integrale.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "rivaroxaban",
+  "items": [
+    {
+      "agent": "Inibitori forti sia di CYP3A4 sia di P-gp (azoli sistemici: ketoconazolo, itraconazolo, voriconazolo, posaconazolo; inibitori delle proteasi HIV: ritonavir)",
+      "effect": "Aumento marcato dell'esposizione",
+      "management": "Controindicati con i dosaggi 15/20 mg",
+      "severity": "major"
+    },
+    {
+      "agent": "Induttori forti di CYP3A4 (rifampicina, fenitoina, carbamazepina, fenobarbital, erba di San Giovanni)",
+      "effect": "Riduzione dell'esposizione e dell'efficacia",
+      "management": "Usare con cautela / evitare",
+      "severity": "moderate"
+    },
+    {
+      "agent": "Altri anticoagulanti, antiaggreganti, FANS",
+      "effect": "Aumento del rischio emorragico",
+      "management": "Evitare le associazioni non necessarie",
+      "severity": "major"
+    }
+  ]
+}

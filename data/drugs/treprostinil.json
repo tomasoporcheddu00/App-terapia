@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "id": "treprostinil",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Treprostinil (Remodulin) - RCP EMA/AIFA: analogo della prostaciclina per infusione SC/EV continua nella PAH classe III; dolore al sito SC, sepsi da catetere EV, rimbalzo alla sospensione.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/EPAR/remodulin",
+        "identifier": "Remodulin RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Farmaci specialistici per l'ipertensione polmonare: prescrizione da centri esperti (piano terapeutico/registro AIFA).",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Treprostinil",
+    "inn": "treprostinil",
+    "brandExamplesIt": [
+      "Remodulin",
+      "Tyvaso"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Analogo della prostaciclina (infusione SC/EV, inalatorio)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "prostacyclin-pathway"
+  ],
+  "quickSummary": {
+    "whatItIs": "Analogo della prostaciclina piu' stabile (emivita ~4 ore), somministrabile in infusione sottocutanea o endovenosa continua (Remodulin) o per inalazione (Tyvaso); la via sottocutanea evita il catetere centrale ma da' dolore al sito.",
+    "mainUses": [
+      "Ipertensione arteriosa polmonare (PAH) classe funzionale III, per migliorare la tolleranza all'esercizio e i sintomi"
+    ],
+    "mainRisks": [
+      "Dolore/reazioni al sito di infusione sottocutanea",
+      "Infezioni/sepsi da catetere (via endovenosa)",
+      "Ipotensione, sanguinamento, rimbalzo alla sospensione"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa e frequenza cardiaca",
+      "Sito di infusione (SC) / catetere (EV)",
+      "Coagulazione (se anticoagulanti)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento dell'ipertensione arteriosa polmonare (PAH) idiopatica o ereditaria in classe funzionale NYHA III, per migliorare la tolleranza all'esercizio fisico e i sintomi; somministrazione in infusione sottocutanea o endovenosa continua"
+    ],
+    "guidelineIndications": [
+      "Prostaciclina con emivita piu' lunga: la via sottocutanea evita il catetere centrale (ma da' dolore al sito); la via inalatoria (Tyvaso) e' add-on - confermare su ESC/ERS"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Ipertensione arteriosa polmonare associata a malattia veno-occlusiva",
+      "Scompenso cardiaco congestizio da grave disfunzione del ventricolo sinistro",
+      "Compromissione epatica grave (classe C di Child-Pugh)",
+      "Ulcera gastrointestinale attiva, emorragia intracranica, ferite o altre condizioni di sanguinamento",
+      "Coronaropatia grave o angina instabile; infarto negli ultimi 6 mesi; scompenso scompensato non sotto stretta sorveglianza; aritmie gravi; eventi cerebrovascolari (TIA, ictus) negli ultimi 3 mesi",
+      "Difetti valvolari con disfunzione miocardica non correlata alla PH"
+    ],
+    "warnings": [
+      "Dolore e reazioni al sito di infusione sottocutanea (effetto avverso piu' frequente e limitante)",
+      "Via endovenosa: rischio di infezioni gravi del circolo sanguigno/sepsi da catetere venoso centrale (raccomandazioni AIFA)",
+      "Interruzioni brusche o riduzioni marcate della dose possono causare un rimbalzo dell'ipertensione polmonare",
+      "Non iniziare/ridurre se compare ipotensione (sistolica <=85 mmHg); Effetto antiaggregante: rischio di sanguinamento (cautela con anticoagulanti/antiaggreganti).",
+      "In caso di edema polmonare considerare una malattia veno-occlusiva; i pazienti obesi eliminano il farmaco piu' lentamente"
+    ],
+    "adverseEffects": [
+      "Dolore/reazione al sito di infusione (SC)",
+      "Cefalea, vampate",
+      "Diarrea, nausea",
+      "Dolore mandibolare",
+      "Ipotensione",
+      "Infezioni da catetere (EV)"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione, vampate, cefalea, nausea; ridurre/interrompere l'infusione e supporto.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Cautela.",
+      "hepatic": "Controindicato nella grave; ridurre nella lieve-moderata.",
+      "elderly": "Cautela nella titolazione.",
+      "pregnancy": "Solo se strettamente necessario.",
+      "breastfeeding": "Cautela."
+    },
+    "alternativeDrugIds": [
+      "epoprostenol",
+      "iloprost",
+      "selexipag"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Una prostaciclina 'a durata piu' lunga': si puo' dare sottopelle in infusione continua (evitando il catetere in vena, ma fa male al punto di iniezione) oppure per via inalatoria.",
+    "clinicalExplanation": "Analogo triciclico della prostaciclina, chimicamente stabile (emivita ~4 ore): vasodilatatore polmonare e antiaggregante. Vie SC/EV continua (Remodulin) o inalatoria (Tyvaso). La via SC evita il catetere centrale ma il dolore al sito e' l'effetto limitante.",
+    "molecularExplanation": "Attiva i recettori IP della prostaciclina (vasodilatazione e antiaggregazione).",
+    "pharmacodynamics": "Vasodilatazione polmonare e sistemica; inibizione dell'aggregazione piastrinica.",
+    "molecularTarget": "Recettori IP della prostaciclina",
+    "agonismAntagonism": "Agonismo del recettore IP",
+    "pharmacokinetics": {
+      "route": "Infusione SC/EV continua; inalatoria",
+      "halfLife": "~4 ore",
+      "metabolism": "Epatico"
+    },
+    "bibliography": []
+  }
+}

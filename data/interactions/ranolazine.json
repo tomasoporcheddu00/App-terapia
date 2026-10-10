@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "id": "ranolazine",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Ranolazina (Ranexa) - RCP EMA/AIFA (EMA/Mediately/medisoc): antianginoso add-on, dose 375-750 mg x2, controindicazioni renali/epatiche/CYP3A4/antiaritmici, prolungamento QT.",
+        "url": "https://www.ema.europa.eu/it/documents/product-information/ranexa-epar-product-information_it.pdf",
+        "identifier": "Ranexa RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "ranolazine",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Inibitori potenti del CYP3A4 (azoli, macrolidi, inibitori delle proteasi HIV, nefazodone)",
+      "effect": "Aumento marcato dell'esposizione alla ranolazina",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "contraindicated",
+      "agent": "Antiaritmici di classe Ia/III (non amiodarone)",
+      "effect": "Prolungamento additivo del QT",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "major",
+      "agent": "Inibitori moderati del CYP3A4 (diltiazem, eritromicina, fluconazolo) e della P-gp (verapamil, ciclosporina)",
+      "effect": "Aumento dell'esposizione alla ranolazina",
+      "management": "Aggiustare la dose e monitorare"
+    },
+    {
+      "severity": "major",
+      "agent": "Substrati del CYP3A4 (simvastatina, ciclosporina, tacrolimus, sirolimus) e del CYP2D6 (metoprololo, antidepressivi triciclici, antipsicotici); digossina",
+      "effect": "Aumento delle concentrazioni del substrato",
+      "management": "Ridurre la dose del substrato e monitorare"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Altri farmaci che prolungano il QT",
+      "effect": "Rischio aritmico additivo",
+      "management": "Cautela; monitorare l'ECG"
+    }
+  ]
+}

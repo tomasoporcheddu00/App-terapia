@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "prednisone",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-28T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "AIFA - prednisone (Deltacortene): classe A, medicinale soggetto a prescrizione medica.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/DELTACORTENE/",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Classe A. L'impiego nella pericardite recidivante e nella miocardite non e' un'indicazione della scheda tecnica italiana ma deriva dalle linee guida."
+  },
+  "drugId": "prednisone",
+  "authorisation": "EMA/Nazionale",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RR - ricetta ripetibile",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Farmacia",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

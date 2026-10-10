@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "id": "antiplatelets-cox-inhibitors",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Cardioaspirin (acido acetilsalicilico) - meccanismo antiaggregante (inibizione COX-1, riduzione trombossano A2).",
+        "url": "https://www.codifa.it/farmaci/c/cardioaspirin-acido-acetilsalicilico-antiaggreganti-piastrinici-antipiretici-analgesici-fans",
+        "identifier": "ASA antiaggregante",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Schema del file di classe non definito nei template forniti: struttura proposta, da riconciliare con lo schema del progetto (classes/).",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": "Antiaggreganti inibitori della COX (acido acetilsalicilico a basse dosi)",
+  "memberDrugIds": [
+    "aspirin"
+  ],
+  "atcGroup": "B01AC",
+  "mechanismSummary": "A basse dosi l'acido acetilsalicilico acetila in modo irreversibile la ciclossigenasi-1 (COX-1) piastrinica, riducendo la sintesi di trombossano A2 e quindi l'aggregazione piastrinica per l'intera vita della piastrina.",
+  "molecularTarget": "Ciclossigenasi-1 (COX-1) piastrinica",
+  "pharmacodynamics": "Inibizione irreversibile della sintesi di trombossano A2; effetto antiaggregante persistente fino al ricambio piastrinico (~7-10 giorni).",
+  "classEffects": [
+    "Antiaggregazione irreversibile a basse dosi",
+    "Cardine della prevenzione secondaria e componente della DAPT"
+  ],
+  "sharedContraindications": [
+    "Ulcera gastroduodenale",
+    "Diatesi emorragica",
+    "Ipersensibilita'/asma da salicilati",
+    "Insufficienza renale/epatica grave"
+  ],
+  "sharedAdverseEffects": [
+    "Emorragia gastrointestinale",
+    "Dispepsia",
+    "Broncospasmo nei soggetti sensibili"
+  ],
+  "monitoring": [
+    "Segni di sanguinamento GI"
+  ],
+  "reversal": "Nessun antidoto specifico; l'effetto si risolve con il ricambio piastrinico (eventuale trasfusione piastrinica in emergenza).",
+  "notesOnClassVsMolecule": "In questo lotto la classe e' rappresentata dall'ASA a dose antiaggregante; da tenere distinta dall'uso analgesico/antipiretico ad alte dosi."
+}

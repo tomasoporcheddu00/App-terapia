@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "id": "vancomycin__endocardite__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "SPILF-AEPEI - position statement sulla terapia antibiotica dell'endocardite secondo le linee guida ESC 2023 (strategie per streptococchi, enterococchi e stafilococchi; daptomicina, rifampicina, monitoraggi).",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2666991924001787",
+        "identifier": "SPILF-AEPEI 2024",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Posologia da fonti su base RCP/AIFA o da linee guida citate; smpcVerified=false. Verificare sempre su RCP ufficiale e adattare a funzione renale/epatica."
+  },
+  "drugId": "vancomycin",
+  "indication": "endocarditis",
+  "scenario": "Endocardite da MRSA o da enterococchi resistenti ai beta-lattamici",
+  "route": "endovenosa",
+  "dose": {
+    "dose": "30-60 mg/kg al giorno per via endovenosa, con target di valle 15-20 microgrammi/mL",
+    "durata": "4-6 settimane (MRSA); 6 settimane negli enterococchi resistenti",
+    "valvola protesica (MRSA)": "in associazione a rifampicina 900 mg al giorno in 3 somministrazioni e gentamicina 3 mg/kg al giorno per 2 settimane",
+    "enterococchi resistenti": "con gentamicina 3 mg/kg al giorno per 6 settimane"
+  },
+  "administration": {
+    "notes": "Ruolo nell'endocardite: la scelta e la durata dipendono da patogeno, MIC e tipo di valvola. Verificare sempre le tabelle ESC 2023 aggiornate al corrigendum e concordare con l'Endocarditis Team. Infondere in almeno 60 minuti. Non usare se MIC >1 mg/L. Monitorare livelli e funzione renale, soprattutto in associazione a gentamicina."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "id": "linezolid",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "linezolid",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "SSRI, SNRI, triciclici, triptani, tramadolo e altri serotoninergici",
+      "effect": "Sindrome serotoninergica (il linezolid e' inibitore reversibile delle MAO)",
+      "management": "Evitare l'associazione o sorvegliare strettamente; informare il paziente dei sintomi"
+    },
+    {
+      "severity": "major",
+      "agent": "Simpaticomimetici (dopamina, adrenalina, noradrenalina, pseudoefedrina) e alimenti ricchi di tiramina",
+      "effect": "Rischio di crisi ipertensiva per effetto MAO-inibitorio",
+      "management": "Ridurre le dosi iniziali dei vasopressori e titolare con attenzione; dieta povera di tiramina"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Altri farmaci mielotossici",
+      "effect": "Rischio additivo di trombocitopenia e anemia",
+      "management": "Emocromo settimanale"
+    }
+  ]
+}

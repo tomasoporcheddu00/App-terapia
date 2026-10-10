@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "id": "angiotensin-ii",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Angiotensina II (Giapreza) - RCP EMA / studi (EMA/ATHOS-3): vasocostrittore via recettori AT1, terza classe di vasopressori; shock settico/distributivo refrattario; 20-80 ng/kg/min; rischio tromboembolico (profilassi TEV).",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/giapreza-epar-product-information_en.pdf",
+        "identifier": "Giapreza RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC) e da monografie di terapia intensiva: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Agenti vasoattivi EV di terapia intensiva: dosi da titolare con monitoraggio emodinamico continuo. Autorizzazione EMA (Giapreza); disponibilita'/commercializzazione in Italia/UE da confermare.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Angiotensina II",
+    "inn": "angiotensina II",
+    "brandExamplesIt": [
+      "Giapreza"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Vasopressore (agonista dei recettori AT1, angiotensina II sintetica)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "vasopressors"
+  ],
+  "quickSummary": {
+    "whatItIs": "Angiotensina II umana sintetica: vasocostrittore con un meccanismo (sistema renina-angiotensina) diverso da catecolamine e vasopressina; 'terza classe' di vasopressori per lo shock refrattario. Da associare agli altri vasopressori.",
+    "mainUses": [
+      "Aumento della pressione nello shock settico o distributivo refrattario ai liquidi e ad altri vasopressori (adulti)"
+    ],
+    "mainRisks": [
+      "Eventi tromboembolici (venosi e arteriosi)",
+      "Ischemia periferica",
+      "Tachicardia, delirio, iperglicemia"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa",
+      "ECG",
+      "Segni di tromboembolismo/ischemia",
+      "Profilassi del tromboembolismo venoso"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento dell'ipotensione refrattaria negli adulti con shock settico o altro shock distributivo, nonostante un adeguato riempimento volemico e altri vasopressori"
+    ],
+    "guidelineIndications": [
+      "Terza classe di vasopressori (dopo catecolamine e vasopressina) per lo shock distributivo refrattario; efficace nel raggiungere l'obiettivo pressorio con risparmio di catecolamine (ATHOS-3), senza differenza dimostrata di mortalita' - confermare su fonte",
+      "Non raccomandata in altri tipi di shock (es. cardiogeno)"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Non raccomandata negli shock non distributivi (es. cardiogeno)"
+    ],
+    "warnings": [
+      "Eventi tromboembolici (venosi e arteriosi, in particolare trombosi venosa profonda): utilizzare una profilassi concomitante del tromboembolismo venoso salvo controindicazioni",
+      "Ischemia periferica: usare la dose piu' bassa efficace per l'obiettivo pressorio",
+      "Solo uso ospedaliero (terapia intensiva); emivita <1 minuto"
+    ],
+    "adverseEffects": [
+      "Eventi tromboembolici (trombosi venosa profonda)",
+      "Trombocitopenia",
+      "Tachicardia",
+      "Ischemia periferica",
+      "Delirio, acidosi, iperglicemia, infezioni fungine"
+    ],
+    "overdose": "Gli effetti ipertensivi sono di breve durata (emivita <1 minuto); in caso di risposta eccessiva ridurre/interrompere l'infusione.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico (titolare).",
+      "hepatic": "Nessun aggiustamento specifico.",
+      "elderly": "Cautela.",
+      "pregnancy": "Solo se strettamente necessario.",
+      "breastfeeding": "Cautela."
+    },
+    "alternativeDrugIds": [
+      "noradrenaline",
+      "vasopressin",
+      "adrenaline"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Una forma sintetica dell'ormone angiotensina II che stringe i vasi con un meccanismo diverso dagli altri vasopressori; si aggiunge quando la pressione resta bassa nonostante noradrenalina e vasopressina.",
+    "clinicalExplanation": "Angiotensina II umana sintetica: vasocostrizione via recettori AT1 (sistema renina-angiotensina) con aumento anche dell'aldosterone. Terza classe di vasopressori per lo shock distributivo refrattario, con risparmio di catecolamine (ATHOS-3). Rischio tromboembolico (profilassi TEV).",
+    "molecularExplanation": "Agonista dei recettori dell'angiotensina di tipo 1 (AT1) sulla muscolatura liscia vascolare (vasocostrizione) e sulla corteccia surrenale (aldosterone).",
+    "pharmacodynamics": "Vasocostrizione e aumento della pressione arteriosa media con meccanismo indipendente dalle catecolamine.",
+    "molecularTarget": "Recettori dell'angiotensina AT1",
+    "agonismAntagonism": "Agonismo dei recettori AT1",
+    "pharmacokinetics": {
+      "route": "Infusione endovenosa continua",
+      "halfLife": "<1 minuto",
+      "metabolism": "Peptidasi plasmatiche/tissutali"
+    },
+    "bibliography": []
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "id": "procainamide",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Procainamide - RCP/label FDA (Pfizer/StatPearls): classe Ia EV per aritmie ventricolari pericolose per la vita e WPW con FA preeccitata; sindrome lupus-simile, discrasie, torsione di punta.",
+        "url": "https://labeling.pfizer.com/ShowLabeling.aspx?id=4587",
+        "identifier": "Procainamide label",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Procainamide cloridrato - RCP (Torrinomedica su base AIFA), paragrafo 5.2: emivita 2,5-8 ore, prolungata negli anziani e nell'insufficienza renale; metabolita NAPA.",
+        "url": "https://farmaci.torrinomedica.it/procainamide/",
+        "identifier": "RCP - farmacocinetica",
+        "retrievedAt": "2026-07-24"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC) e da monografie di riferimento: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Antiaritmici a indice terapeutico stretto: verificare dosi e QT prima dell'uso. Non risulta commercializzato in Italia (Pronestyl): dati da label internazionali; disponibilita' da confermare.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Procainamide",
+    "inn": "procainamide",
+    "brandExamplesIt": [
+      "Pronestyl (non in commercio in Italia)"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antiaritmico classe Ia (endovenoso)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "aa-class-ia"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antiaritmico di classe Ia per via endovenosa, usato in ambito ospedaliero per aritmie ventricolari pericolose e per la fibrillazione atriale nella preeccitazione (WPW).",
+    "mainUses": [
+      "Tachicardia ventricolare sostenuta pericolosa per la vita",
+      "Fibrillazione atriale preeccitata (WPW) emodinamicamente stabile",
+      "Tachicardia a complessi larghi di origine incerta"
+    ],
+    "mainRisks": [
+      "Ipotensione (infusione rapida)",
+      "Sindrome lupus-simile",
+      "Torsione di punta; discrasie ematiche"
+    ],
+    "essentialMonitoring": [
+      "ECG (QRS, QT) e pressione durante l'infusione",
+      "Emocromo",
+      "Anticorpi antinucleo (uso prolungato)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento di aritmie ventricolari documentate e pericolose per la vita (es. tachicardia ventricolare sostenuta)",
+      "Conversione della fibrillazione/flutter atriale, in particolare nella preeccitazione (WPW) con risposta ventricolare rapida in paziente stabile",
+      "Tachicardia a complessi larghi non differenziabile tra sopraventricolare e ventricolare"
+    ],
+    "guidelineIndications": [
+      "Utile nella FA preeccitata (WPW) e nella tachicardia a QRS largo stabile; la necessita' di infusione lenta per evitare ipotensione ne limita l'uso - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alla procainamide",
+      "Blocco atrioventricolare completo o di 2o-3o grado senza pacemaker",
+      "Lupus eritematoso sistemico accertato",
+      "Torsione di punta / prolungamento del QT"
+    ],
+    "warnings": [
+      "Infondere lentamente per evitare ipotensione; interrompere se il QRS si allarga oltre il 50% o compare ipotensione",
+      "Sindrome lupus-simile reversibile (20-30% con l'uso prolungato; positivita' degli ANA)",
+      "Gravi discrasie ematiche (leucopenia, agranulocitosi, talvolta fatali)",
+      "Effetto proaritmico: torsione di punta (prolungamento del QT)",
+      "Puo' accelerare la risposta ventricolare nella FA/flutter: associare un bloccante del nodo AV",
+      "Ridurre la dose nell'insufficienza renale/epatica (accumulo del metabolita NAPA)"
+    ],
+    "adverseEffects": [
+      "Ipotensione",
+      "Sindrome lupus-simile",
+      "Discrasie ematiche (agranulocitosi, leucopenia)",
+      "Torsione di punta / proaritmia",
+      "Disturbi gastrointestinali"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione, allargamento del QRS, torsione di punta; sospendere, supporto emodinamico, magnesio per la torsione di punta, correzione elettrolitica.",
+    "antidoteDrugIds": [
+      "magnesium-sulfate"
+    ],
+    "specialPopulations": {
+      "renal": "Ridurre la dose (accumulo di procainamide e NAPA); monitorare.",
+      "hepatic": "Cautela.",
+      "elderly": "Ridurre la dose.",
+      "pregnancy": "Solo se necessario.",
+      "breastfeeding": "Passa nel latte; valutare."
+    },
+    "alternativeDrugIds": [
+      "amiodarone",
+      "lidocaine",
+      "quinidine"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un antiaritmico da vena, usato in ospedale per aritmie gravi; se usato a lungo puo' dare una sindrome simile al lupus.",
+    "clinicalExplanation": "Antiaritmico di classe Ia (blocco dei canali del sodio; il metabolita NAPA ha attivita' di classe III). Somministrazione EV lenta per evitare ipotensione; inizio in ambiente ospedaliero.",
+    "molecularExplanation": "Blocca i canali del sodio voltaggio-dipendenti; il metabolita N-acetil-procainamide (NAPA) blocca i canali del potassio (effetto classe III).",
+    "pharmacodynamics": "Rallentamento della conduzione e allungamento del periodo refrattario; prolungamento del QT.",
+    "molecularTarget": "Canali del sodio cardiaci (NAPA sui canali del potassio)",
+    "agonismAntagonism": "Blocco dei canali ionici",
+    "pharmacokinetics": {
+      "route": "Endovenosa",
+      "metabolism": "Acetilazione epatica (NAPA attivo)",
+      "elimination": "Renale",
+      "halfLife": "2,5-8 ore, prolungata nell'anziano e nell'insufficienza renale; il metabolita attivo N-acetilprocainamide (NAPA) puo' accumularsi negli acetilatori rapidi e nell'insufficienza renale"
+    },
+    "bibliography": []
+  }
+}

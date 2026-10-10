@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "id": "azathioprine__pericardite__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-28T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Azatioprina (Azafor, Immunoprin) - RCP (Torrinomedica su base AIFA): indicazioni, controindicazioni, TPMT/NUDT15, riduzione a un quarto con allopurinolo, interazioni con ACE-inibitori.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/azafor_50_mg_compresse_rivestite_con_film/",
+        "identifier": "Azafor RCP",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "smpc",
+        "citation": "Immunoprin (azatioprina) - RCP (Torrinomedica): monitoraggio emocromocitometrico e interazioni con aminosalicilati, ACE-inibitori, trimetoprim/sulfametoxazolo, cimetidina, indometacina.",
+        "url": "https://farmaci.torrinomedica.it/Immunoprin/",
+        "identifier": "Immunoprin RCP",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Posologia da fonti su base RCP/AIFA o da linee guida citate; smpcVerified=false. Verificare sempre su RCP ufficiale e adattare a funzione renale/epatica."
+  },
+  "drugId": "azathioprine",
+  "indication": "pericarditis",
+  "scenario": "Pericardite recidivante corticodipendente (risparmiatore di steroide, da linee guida)",
+  "route": "orale",
+  "dose": {
+    "principio": "la posologia va definita dal centro specialistico in base al peso, alla tolleranza ematologica e allo stato di TPMT/NUDT15",
+    "allopurinolo": "se associato ad allopurinolo, ossipurinolo o tiopurinolo la dose di azatioprina deve essere ridotta a UN QUARTO della dose originale",
+    "monitoraggio": "emocromo ravvicinato all'avvio e a ogni variazione di dose"
+  },
+  "administration": {
+    "notes": "Indicazione da linee guida ESC 2025, non da scheda tecnica. L'effetto e' lento: non e' un trattamento dell'episodio acuto. Valutare TPMT (e NUDT15) prima di iniziare."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "id": "tirofiban",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Tirofiban (Aggrastat) - RCP EMA/AIFA (emc/cercafarmaco su base AIFA): antagonista non peptidico reversibile della GPIIb/IIIa; NSTE-ACS e PCI con ASA+eparina; regime PCI bolo 25 mcg/kg poi 0,15 mcg/kg/min; ridurre nell'insufficienza renale.",
+        "url": "https://www.medicines.org.uk/emc/product/566/smpc",
+        "identifier": "Aggrastat RCP",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (EMA/EC, Banca Dati AIFA, portali Mediately/Codifa/Torrinomedica): indicazioni, posologia, controindicazioni, avvertenze, interazioni. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; PK parziale. Stato: revisione fonti (source-review), non ancora approvato. Antiaggreganti EV ad alto rischio emorragico: dosi da adattare a peso/funzione renale e protocolli locali. Rispetto all'abciximab e' reversibile e non immunogeno. Nelle linee guida attuali i GPIIb/IIIa sono riservati a situazioni selezionate (bail-out), non all'uso routinario.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Tirofiban",
+    "inn": "tirofiban",
+    "brandExamplesIt": [
+      "Aggrastat"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antagonista non peptidico della glicoproteina IIb/IIIa (reversibile)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "gpiib-iiia-inhibitors"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antiaggregante endovenoso che blocca il recettore piastrinico GPIIb/IIIa, l'ultima via comune dell'aggregazione: impedisce al fibrinogeno di legare le piastrine. Usato in sala di emodinamica e nelle sindromi coronariche a rischio trombotico elevato.",
+    "mainUses": [
+      "Sindrome coronarica acuta senza sopraslivellamento ST (con ASA ed eparina)",
+      "Riduzione degli eventi ischemici nella PCI (regime a bolo elevato)"
+    ],
+    "mainRisks": [
+      "Sanguinamento (principale)",
+      "Trombocitopenia, anche grave e precoce",
+      "Rischio aumentato nell'insufficienza renale (richiede riduzione di dose)"
+    ],
+    "essentialMonitoring": [
+      "Conta piastrinica (basale e a poche ore dall'inizio)",
+      "Emoglobina/ematocrito e segni di sanguinamento",
+      "Funzione renale (aggiustamento posologico)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Prevenzione dell'infarto miocardico precoce negli adulti con sindrome coronarica acuta senza sopraslivellamento del tratto ST (angina instabile o infarto non-Q), in associazione ad acido acetilsalicilico ed eparina non frazionata",
+      "Riduzione degli eventi cardiovascolari maggiori nei pazienti con cardiopatia ischemica sottoposti a intervento coronarico percutaneo (PCI)"
+    ],
+    "guidelineIndications": [
+      "Regime ad alto bolo per la PCI (25 mcg/kg poi 0,15 mcg/kg/min): approvato in Europa, consente un'inibizione piastrinica rapida (<30 minuti) - RCP/ADVANCE",
+      "Nelle linee guida attuali gli inibitori GPIIb/IIIa sono riservati a situazioni selezionate (bail-out per trombo massivo, complicanze trombotiche periprocedurali, no-reflow) e non come uso routinario - confermare su ESC 2023"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Sanguinamento in atto o anamnesi di sanguinamento anomalo negli ultimi 30 giorni",
+      "Ictus emorragico (anamnesi) o ictus di qualsiasi tipo nei 30 giorni precedenti",
+      "Patologia intracranica nota (neoplasia, malformazione artero-venosa, aneurisma)",
+      "Chirurgia maggiore o trauma grave nelle ultime settimane",
+      "Ipertensione arteriosa grave non controllata",
+      "Trombocitopenia (piastrine <100.000/mm3) o coagulopatia nota",
+      "Insufficienza epatica clinicamente significativa",
+      "Anamnesi di trombocitopenia dopo precedente somministrazione di un antagonista della GPIIb/IIIa",
+      "Dissezione aortica; pericardite acuta",
+      "Retinopatia emorragica"
+    ],
+    "warnings": [
+      "Il sanguinamento e' l'evento avverso principale: in caso di sanguinamento maggiore o incontrollabile interrompere immediatamente l'infusione; cautela in sanguinamenti clinicamente rilevanti nell'ultimo anno, puntura di vaso non comprimibile nelle 24 ore, procedura epidurale/spinale recente, scompenso grave, shock cardiogeno, insufficienza epatica lieve-moderata, piastrine <150.000/mm3, emoglobina <11 g/dL o ematocrito <34%",
+      "Trombocitopenia: controllare la conta piastrinica prima del trattamento e entro poche ore dall'inizio (e quotidianamente); sospendere in caso di trombocitopenia significativa e distinguerla da quella indotta da eparina (HIT)",
+      "Insufficienza renale: ridurre la dose di mantenimento (in genere del 50% se clearance della creatinina ridotta); il tirofiban e' rimovibile con emodialisi",
+      "Non raccomandato in associazione a terapia trombolitica (concomitante o nelle 48 ore precedenti) o ad altri farmaci che aumentano rilevantemente il rischio emorragico (anticoagulanti orali, altri GPIIb/IIIa parenterali, destrano)"
+    ],
+    "adverseEffects": [
+      "Sanguinamento (sede di accesso, gastrointestinale, genitourinario; raro intracranico o retroperitoneale)",
+      "Trombocitopenia (anche grave)",
+      "Nausea, febbre, cefalea",
+      "Bradicardia, reazione vasovagale",
+      "Reazioni di ipersensibilita' (rare, incluse anafilattiche)"
+    ],
+    "overdose": "In caso di sovradosaggio o emorragia interrompere l'infusione; considerare trasfusione di sangue e/o di piastrine. Il tirofiban puo' essere rimosso con l'emodialisi.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Ridurre la dose di mantenimento nell'insufficienza renale (in genere del 50% con clearance ridotta); rimovibile in emodialisi.",
+      "hepatic": "Cautela nell'insufficienza da lieve a moderata.",
+      "elderly": "Maggiore rischio emorragico; nessun aggiustamento sistematico.",
+      "pregnancy": "Non raccomandato salvo chiara necessita'.",
+      "breastfeeding": "Escrezione nel latte dimostrata negli animali: sospendere l'allattamento."
+    },
+    "alternativeDrugIds": [
+      "eptifibatide",
+      "cangrelor"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Blocca la 'presa' finale con cui le piastrine si attaccano tra loro. E' molto potente e si usa in vena durante l'angioplastica o nelle sindromi coronariche a rischio; il rischio principale e' il sanguinamento e il calo delle piastrine.",
+    "clinicalExplanation": "Antagonista non peptidico reversibile del recettore GPIIb/IIIa che mima la sequenza RGD del fibrinogeno: blocca la via finale comune dell'aggregazione. Emivita ~2 ore, effetto reversibile in poche ore dalla sospensione. Richiede riduzione posologica nell'insufficienza renale e monitoraggio piastrinico.",
+    "molecularExplanation": "Si lega al recettore GPIIb/IIIa (integrina alfaIIb-beta3) impedendo il legame del fibrinogeno e del fattore di von Willebrand e quindi i ponti fra piastrine.",
+    "pharmacodynamics": "Inibizione potente e reversibile dell'aggregazione piastrinica con prolungamento del tempo di sanguinamento; recupero della funzione piastrinica dopo poche ore dalla sospensione.",
+    "molecularTarget": "Recettore piastrinico GPIIb/IIIa (integrina alfaIIb-beta3)",
+    "agonismAntagonism": "Antagonismo competitivo reversibile della GPIIb/IIIa",
+    "pharmacokinetics": {
+      "route": "Endovenosa (bolo + infusione)",
+      "halfLife": "~2 ore",
+      "note": "Eliminazione prevalentemente renale; rimovibile con emodialisi"
+    },
+    "bibliography": []
+  }
+}

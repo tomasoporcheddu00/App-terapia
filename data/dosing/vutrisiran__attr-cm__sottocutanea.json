@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "id": "vutrisiran__attr-cm__sottocutanea",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Amvuttra (vutrisiran) - RCP/EPAR EMA: posologia 25 mg sottocute ogni 3 mesi, riduzione della vitamina A sierica e integrazione raccomandata.",
+        "url": "https://www.pharmastar.it/news/ema/amiloidosi-attr-con-cardiomiopatia-approvazione-europea-per-vutrisiran-47616",
+        "identifier": "Amvuttra RCP/EPAR",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "AIFA - estensione della rimborsabilita' di vutrisiran (Amvuttra) all'ATTR-CM; dati HELIOS-A e HELIOS-B.",
+        "url": "https://www.sismed-it.com/vutrisiran-attr-cm-rimborsabilita-aifa/",
+        "identifier": "AIFA/HELIOS",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Posologia da fonti su base RCP/AIFA o da linee guida citate; smpcVerified=false. Verificare sempre su RCP ufficiale e adattare a funzione renale/epatica."
+  },
+  "drugId": "vutrisiran",
+  "indication": "amyloidosis",
+  "scenario": "Amiloidosi da transtiretina con cardiomiopatia (ATTR-CM)",
+  "route": "sottocutanea",
+  "dose": {
+    "dose": "25 mg per via sottocutanea una volta ogni 3 mesi",
+    "integrazione": "vitamina A orale circa 2500-3000 UI al giorno (non superare)",
+    "somministrazione": "da operatore sanitario oppure in autosomministrazione da parte del paziente o del caregiver"
+  },
+  "administration": {
+    "notes": "Verificare i criteri AIFA di rimborsabilita' e il piano terapeutico per l'indicazione ATTR-CM. Indirizzare a un oculista i pazienti con sintomi oculari suggestivi di carenza di vitamina A."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

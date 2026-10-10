@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "id": "finerenone__ckd-t2d__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Finerenone (Kerendia) - RCP/EPAR (EMA, Mediately, Codifa): indicazioni CKD in T2D e scompenso con LVEF>=40%, dose secondo K/eGFR, CYP3A4; piano terapeutico AIFA.",
+        "url": "https://mediately.co/it/drugs/Eb1TW0ZW785leF75ygrlcK4MBVc/kerendia-20-mg-compresse-rivestite-con-film",
+        "identifier": "Finerenone RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EPAR; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "finerenone",
+  "indication": "ckd",
+  "scenario": "Malattia renale cronica in diabete tipo 2 / scompenso con FE>=40%",
+  "route": "orale",
+  "dose": {
+    "initial": "10 o 20 mg una volta al giorno in base a eGFR e potassio",
+    "titration": "aumento verso 20 mg secondo potassio ed eGFR",
+    "maintenance": "20 mg una volta al giorno (dose target)",
+    "max": "20 mg al giorno",
+    "startCriteria": "Iniziare se potassio <=4,8 mmol/L; con 4,8-5,0 mmol/L valutare avvio con monitoraggio ravvicinato nelle prime 4 settimane"
+  },
+  "administration": {
+    "notes": "Misurare potassio ed eGFR prima dell'avvio e monitorarli in titolazione. Assumibile con o senza cibo; evitare succo di pompelmo."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

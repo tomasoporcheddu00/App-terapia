@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "procainamide__vt-wpw__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Procainamide - RCP/label FDA (Pfizer/StatPearls): classe Ia EV per aritmie ventricolari pericolose per la vita e WPW con FA preeccitata; sindrome lupus-simile, discrasie, torsione di punta.",
+        "url": "https://labeling.pfizer.com/ShowLabeling.aspx?id=4587",
+        "identifier": "Procainamide label",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Antiaritmico a indice terapeutico stretto: confermare dose, funzione renale/epatica e QT."
+  },
+  "drugId": "procainamide",
+  "indication": "ventricular-tachycardia",
+  "scenario": "Aritmie ventricolari pericolose / WPW con FA (endovena)",
+  "route": "endovenosa",
+  "dose": {
+    "loading": "carico EV 15-18 mg/kg (o 6-17 mg/kg) a 20-50 mg/min fino a controllo dell'aritmia, ipotensione o allargamento del QRS >50%",
+    "maintenance": "infusione di mantenimento 1-4 mg/min",
+    "max": "secondo risposta, pressione e QRS"
+  },
+  "administration": {
+    "notes": "Infusione EV lenta sotto monitoraggio continuo di ECG e pressione. Uso ospedaliero."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "id": "lipopeptides",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Pagina di classe da linee guida ESC 2023 sull'endocardite e position statement SPILF-AEPEI; in questo atlante gli antibiotici sono trattati solo per il ruolo nell'endocardite."
+  },
+  "name": "Lipopeptidi",
+  "atcGroup": "J01XX - Altri antibatterici",
+  "memberDrugIds": [
+    "daptomycin"
+  ],
+  "mechanismSummary": "Inserimento calcio-dipendente nella membrana citoplasmatica dei Gram-positivi con depolarizzazione rapida e morte cellulare senza lisi.",
+  "molecularTarget": "Membrana citoplasmatica dei Gram-positivi",
+  "pharmacodynamics": "Battericidi concentrazione-dipendenti, rapidi, con effetto post-antibiotico.",
+  "classEffects": [
+    "Nell'endocardite la daptomicina va usata ad ALTE DOSI (10 mg/kg una volta al giorno) e mai in monoterapia, per il rischio di selezione di mutanti resistenti",
+    "Alternativa alla vancomicina quando la MIC per vancomicina supera 1 mg/L o quando il profilo renale sconsiglia l'associazione con gentamicina",
+    "INATTIVATA DAL SURFATTANTE POLMONARE: nessuna efficacia nelle polmoniti"
+  ],
+  "sharedContraindications": [
+    "Ipersensibilita' alla daptomicina"
+  ],
+  "sharedAdverseEffects": [
+    "Miopatia con aumento della creatinchinasi, fino alla rabdomiolisi",
+    "Polmonite eosinofila (rara ma grave)",
+    "Aumento delle transaminasi"
+  ],
+  "monitoring": [
+    "Creatinchinasi settimanale, piu' spesso se associata a statine",
+    "Funzione renale ed eosinofili settimanali",
+    "Comparsa di dispnea e febbre (sospetto di polmonite eosinofila)"
+  ],
+  "reversal": "Nessun antidoto: sospensione, idratazione e monitoraggio di CPK e funzione renale.",
+  "notesOnClassVsMolecule": "Nel cardiopatico in terapia con statina la sorveglianza della CPK va intensificata; in alcuni casi si sospende temporaneamente la statina."
+}

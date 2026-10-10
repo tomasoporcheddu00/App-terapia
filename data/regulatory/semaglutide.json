@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "semaglutide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "AIFA/EMA - semaglutide (Ozempic, Wegovy, Rybelsus): prescrizione con piano terapeutico per l'indicazione diabete; regime e rimborsabilita' differenti per l'indicazione controllo del peso.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/ozempic/",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Verificare piano terapeutico AIFA e rimborsabilita': l'indicazione per il controllo del peso ha in Italia un regime diverso rispetto a quella per il diabete."
+  },
+  "drugId": "semaglutide",
+  "authorisation": "EMA/Nazionale",
+  "marketed": true,
+  "reimbursementClass": "A (piano terapeutico) per il diabete; regime diverso per l'indicazione peso",
+  "supplyRegime": "RRL - prescrizione limitativa",
+  "aifaNote": null,
+  "therapeuticPlan": true,
+  "distribution": "Farmacia/Distribuzione diretta",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

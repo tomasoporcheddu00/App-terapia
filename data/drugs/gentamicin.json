@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "id": "gentamicin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "SPILF-AEPEI - position statement sulla terapia antibiotica dell'endocardite secondo le linee guida ESC 2023 (strategie per streptococchi, enterococchi e stafilococchi; daptomicina, rifampicina, monitoraggi).",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2666991924001787",
+        "identifier": "SPILF-AEPEI 2024",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "SCOPO DELLA SCHEDA: in questo atlante cardiologico gli antibiotici sono trattati SOLO per il ruolo nell'endocardite infettiva; per ogni altro impiego fare riferimento all'RCP e alla consulenza infettivologica. Regimi sintetizzati dalle linee guida ESC 2023 sull'endocardite (tabelle 7-10) tramite fonti secondarie e dal position statement SPILF-AEPEI: DA CONFERMARE sul testo integrale delle linee guida e sul corrigendum 2025, che ha corretto le dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10. La scelta di molecola, dose e durata dipende da patogeno, MIC, tipo di valvola (nativa o protesica) e funzione renale, e va concordata con l'Endocarditis Team. Stato: revisione fonti (source-review). Ruolo nell'endocardite: la scelta e la durata dipendono da patogeno, MIC e tipo di valvola. Verificare sempre le tabelle ESC 2023 aggiornate al corrigendum e concordare con l'Endocarditis Team.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Gentamicina",
+    "inn": "gentamicina",
+    "brandExamplesIt": [
+      "Gentamicina solfato"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Aminoglicoside",
+  "identity": {
+    "atcCodes": [
+      "J01GB03"
+    ],
+    "formulations": [
+      "Soluzione iniettabile"
+    ],
+    "potentialRoutes": [
+      "endovenosa"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "aminoglycosides"
+  ],
+  "quickSummary": {
+    "whatItIs": "Aminoglicoside usato nell'endocardite in ASSOCIAZIONE per l'effetto sinergico battericida. Le linee guida recenti ne hanno progressivamente ridotto l'impiego per la tossicita' renale e cocleo-vestibolare.",
+    "mainUses": [
+      "Endocardite: terapia di associazione secondo patogeno e tipo di valvola"
+    ],
+    "mainRisks": [
+      "Nefrotossicita', spesso additiva ad altri farmaci",
+      "Ototossicita' cocleare e vestibolare, che puo' essere IRREVERSIBILE",
+      "Necessita' di monitoraggio dei livelli plasmatici e della funzione renale"
+    ],
+    "essentialMonitoring": [
+      "Funzione renale (creatinina/eGFR) almeno bisettimanale durante il trattamento",
+      "Livelli plasmatici di picco e valle secondo il protocollo locale",
+      "Sintomi cocleari e vestibolari (ipoacusia, acufeni, instabilita')"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Infezioni gravi sostenute da germi sensibili, secondo la scheda tecnica"
+    ],
+    "guidelineIndications": [
+      "Endocardite: dose di riferimento negli schemi ESC 2023 pari a 3 mg/kg al giorno per via endovenosa o intramuscolare, in monosomministrazione (in alcuni schemi frazionata in 2-3 dosi)",
+      "Streptococchi: gentamicina per le prime 2 settimane in associazione, con tendenza a limitarla ai casi con MIC piu' elevata; nell'endocardite su valvola protesica l'aminoglicoside e' previsto almeno per le prime 2 settimane",
+      "Enterococchi: 2 settimane in associazione ad ampicillina/amoxicillina; lo schema a DOPPIO BETA-LATTAMICO (amoxicillina + ceftriaxone) consente di EVITARLA, anche nei ceppi con resistenza di alto livello alla gentamicina",
+      "MSSA su valvola nativa: se usata, limitata ai primi 3-5 giorni; su valvola protesica 2 settimane",
+      "Nell'associazione con vancomicina nell'endocardite su protesi l'aggiunta sistematica di gentamicina rende il regime particolarmente rischioso sul piano renale (SPILF-AEPEI)"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' agli aminoglicosidi",
+      "Miastenia gravis (rischio di blocco neuromuscolare)"
+    ],
+    "warnings": [
+      "NEFROTOSSICITA': rischio aumentato con durata del trattamento, eta' avanzata, ipovolemia e associazione con altri farmaci nefrotossici (vancomicina, mezzi di contrasto, diuretici dell'ansa, FANS, ACE-inibitori). Monitorare creatinina e diuresi",
+      "OTOTOSSICITA' cocleare e vestibolare, potenzialmente IRREVERSIBILE: chiedere attivamente di acufeni, ipoacusia e instabilita'; rischio aumentato dalla durata e dall'associazione con diuretici dell'ansa",
+      "Blocco neuromuscolare: cautela nella miastenia e in associazione a bloccanti neuromuscolari",
+      "Adeguare rigorosamente la dose alla funzione renale e al peso corporeo; monitorare i livelli plasmatici",
+      "La tendenza delle linee guida recenti e' a ridurre o evitare l'aminoglicoside quando esistono alternative altrettanto efficaci"
+    ],
+    "adverseEffects": [
+      "Nefrotossicita' (danno tubulare, di solito reversibile)",
+      "Ototossicita' cocleare e vestibolare, spesso irreversibile",
+      "Blocco neuromuscolare",
+      "Reazioni di ipersensibilita'"
+    ],
+    "overdose": "Il sovradosaggio determina nefrotossicita' e ototossicita'. Sospensione, idratazione e supporto; la gentamicina e' rimossa dall'emodialisi, che puo' essere impiegata nei casi gravi.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Adeguamento rigoroso della dose e dell'intervallo alla clearance; monitoraggio dei livelli. Evitare quando esistono alternative nel paziente con funzione renale compromessa.",
+      "hepatic": "Nessun aggiustamento sistematico.",
+      "elderly": "Rischio nefro- e ototossico marcatamente aumentato: preferire schemi che ne facciano a meno.",
+      "pregnancy": "Rischio di ototossicita' fetale: evitare salvo necessita' assoluta.",
+      "breastfeeding": "Consultare l'RCP."
+    },
+    "alternativeDrugIds": [
+      "vancomycin",
+      "daptomycin",
+      "ceftriaxone"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' un antibiotico potente ma tossico per reni e udito. Nell'endocardite si usa solo in associazione e per pochi giorni o poche settimane; oggi si cerca di evitarlo quando ci sono alternative, per esempio usando due beta-lattamici insieme.",
+    "clinicalExplanation": "Aminoglicoside battericida concentrazione-dipendente, impiegato nell'endocardite per la sinergia con i beta-lattamici e i glicopeptidi. L'evoluzione delle raccomandazioni e' verso la riduzione dell'esposizione: nelle forme streptococciche e' spesso omesso, negli enterococchi lo schema amoxicillina + ceftriaxone lo evita del tutto, e nell'MSSA su valvola nativa e' limitato ai primi giorni. La dose di riferimento negli schemi ESC 2023 e' 3 mg/kg al giorno. Le due tossicita' che governano l'uso sono quella renale (di solito reversibile) e quella cocleo-vestibolare (spesso no).",
+    "molecularExplanation": "Si lega irreversibilmente alla subunita' ribosomiale 30S causando lettura errata dell'mRNA e blocco della sintesi proteica; l'ingresso nella cellula batterica e' favorito dai beta-lattamici, base della sinergia.",
+    "pharmacodynamics": "Battericida concentrazione-dipendente con effetto post-antibiotico prolungato: da cui la monosomministrazione giornaliera.",
+    "molecularTarget": "Subunita' ribosomiale batterica 30S",
+    "agonismAntagonism": "Inibizione della sintesi o della funzione batterica",
+    "pharmacokinetics": {
+      "route": "Endovenosa o intramuscolare",
+      "halfLife": "Circa 2-3 ore con funzione renale normale, marcatamente prolungata nell'insufficienza renale",
+      "note": "Eliminazione renale per filtrazione glomerulare; accumulo nella corticale renale e nell'orecchio interno"
+    },
+    "bibliography": []
+  }
+}

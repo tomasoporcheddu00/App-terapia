@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "ibutilide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Ibutilide (Corvert) - RCP (Codifa/Torrinomedica/dica33 su base AIFA): classe III EV per conversione acuta di FA/flutter; torsione di punta ~5%; correggere K/Mg; uso ospedaliero.",
+        "url": "https://www.codifa.it/farmaci/c/corvert-ibutilide-fumarato-antiaritmici",
+        "identifier": "Corvert RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "ibutilide",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Altri farmaci che prolungano il QT (antiaritmici Ia/III, alcuni antipsicotici/antidepressivi)",
+      "effect": "Rischio di torsione di punta",
+      "management": "Non somministrare in associazione / entro 4 ore"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Ipopotassiemia/ipomagnesiemia (es. da diuretici)",
+      "effect": "Aumento del rischio di torsione di punta",
+      "management": "Correggere gli elettroliti prima del trattamento"
+    }
+  ]
+}

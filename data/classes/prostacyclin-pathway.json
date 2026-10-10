@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "id": "prostacyclin-pathway",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Analoghi della prostaciclina e agonisti IP nella PAH: sintesi da RCP EMA/AIFA.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/EPAR/uptravi",
+        "identifier": "Prostacicline classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP EMA/AIFA; confermare su RCP ufficiali e linee guida ESC/ERS."
+  },
+  "name": "Analoghi della prostaciclina e agonisti IP",
+  "atcGroup": "B01AC / altri (analoghi della prostaciclina e agonisti IP)",
+  "memberDrugIds": [
+    "epoprostenol",
+    "iloprost",
+    "treprostinil",
+    "selexipag"
+  ],
+  "mechanismSummary": "Attivazione del recettore IP della prostaciclina (direttamente con prostaciclina/analoghi o con l'agonista selettivo selexipag), con aumento dell'AMP ciclico: vasodilatazione polmonare, effetto antiproliferativo e antiaggregante.",
+  "molecularTarget": "Recettore IP della prostaciclina",
+  "pharmacodynamics": "Vasodilatazione polmonare e riduzione delle resistenze; effetto antiaggregante; miglioramento della capacita' di esercizio e (selexipag) della progressione di malattia.",
+  "classEffects": [
+    "Potente vasodilatazione polmonare (impiego nelle forme avanzate)",
+    "Effetti avversi tipici (cefalea, diarrea, dolore mandibolare, vampate)",
+    "Rischio di sanguinamento (antiaggregazione) e ipotensione"
+  ],
+  "sharedContraindications": [
+    "Malattia veno-occlusiva polmonare (edema polmonare)",
+    "Sanguinamento in atto / coronaropatia grave / eventi cerebro-cardiovascolari recenti",
+    "Scompenso da grave disfunzione ventricolare sinistra",
+    "Gemfibrozil (selexipag)"
+  ],
+  "sharedAdverseEffects": [
+    "Cefalea, vampate, dolore mandibolare",
+    "Diarrea, nausea",
+    "Ipotensione",
+    "Complicanze del catetere (epoprostenolo/treprostinil EV); broncospasmo (iloprost inalatorio); dolore al sito (treprostinil SC)"
+  ],
+  "monitoring": [
+    "Pressione arteriosa e frequenza cardiaca",
+    "Via di somministrazione (catetere/sito di infusione/inalazioni)",
+    "Coagulazione (se anticoagulanti)"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "La via delle prostacicline copre le forme piu' avanzate di PAH. L'epoprostenolo (EV continua, il piu' potente ma il piu' impegnativo: catetere centrale, emivita di minuti, rimbalzo fatale se interrotto) e' storicamente il riferimento nella classe IV. Il treprostinil (SC/EV/inalatorio) offre alternative di somministrazione (la via SC evita il catetere ma da' dolore al sito). L'iloprost e' inalatorio (6-9 inalazioni/die). Il selexipag e' l'unico agonista IP orale (titolazione progressiva; GRIPHON). Tutti condividono gli effetti prostaciclinici e il rischio di sanguinamento. Dettagli nelle singole schede."
+}

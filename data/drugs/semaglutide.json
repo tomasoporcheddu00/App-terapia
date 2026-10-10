@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "id": "semaglutide",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Ozempic (semaglutide) - RCP (Mediately/Torrinomedica su base AIFA): indicazione nel diabete tipo 2, sicurezza cardiovascolare SUSTAIN-6, retinopatia, NAION, gastroparesi.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/ozempic/",
+        "identifier": "Ozempic RCP",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "smpc",
+        "citation": "Wegovy (semaglutide 2,4 mg) - RCP e foglio illustrativo: indicazione nel controllo del peso, titolazione 0,25 mg con incrementi ogni 4 settimane fino a 2,4 mg, divieto di associazione con altri GLP-1 agonisti.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/wegovy/",
+        "identifier": "Wegovy RCP",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "SELECT (Lincoff et al., NEJM 2023): semaglutide 2,4 mg riduce del 20% gli eventi cardiovascolari maggiori nel sovrappeso/obesita' con malattia cardiovascolare senza diabete.",
+        "url": "https://www.acc.org/Latest-in-Cardiology/Articles/2023/08/10/14/29/SELECT-Semaglutide-Reduces-Risk-of-MACE-in-Adults-With-Overweight-or-Obesity",
+        "identifier": "SELECT",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da RCP EMA/AIFA e da fonti secondarie derivate dagli RCP (Torrinomedica/Codifa/Mediately, registro comunitario EC). DA CONFERMARE sugli RCP ufficiali. Stato: revisione fonti (source-review), non ancora approvato. NB: per questi farmaci l'indicazione, la rimborsabilita' e il piano terapeutico in Italia variano per prodotto commerciale e indicazione (diabete vs controllo del peso): verificare sempre prima di prescrivere. Stesso principio attivo con marchi e dosi diverse secondo l'indicazione: fino a 2 mg/settimana nel diabete, 2,4 mg/settimana nel controllo del peso.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Semaglutide",
+    "inn": "semaglutide",
+    "brandExamplesIt": [
+      "Ozempic",
+      "Wegovy",
+      "Rybelsus"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Agonista del recettore del GLP-1 a somministrazione settimanale",
+  "identity": {
+    "atcCodes": [
+      "A10BJ06"
+    ],
+    "formulations": [
+      "Soluzione iniettabile in penna preriempita (0,25-2,4 mg)",
+      "Compresse (formulazione orale)"
+    ],
+    "potentialRoutes": [
+      "sottocutanea",
+      "orale"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "glp1-agonists"
+  ],
+  "quickSummary": {
+    "whatItIs": "Agonista del recettore del GLP-1 a lunga durata d'azione. E' il farmaco che ha dimostrato per primo una riduzione degli eventi cardiovascolari maggiori in pazienti con obesita' e malattia cardiovascolare SENZA diabete (studio SELECT).",
+    "mainUses": [
+      "Diabete mellito di tipo 2 non adeguatamente controllato, in monoterapia quando la metformina e' inappropriata o in associazione ad altri antidiabetici",
+      "Controllo del peso corporeo con BMI >=30, o >=27 con almeno una comorbilita' correlata al peso (formulazione da 2,4 mg)"
+    ],
+    "mainRisks": [
+      "Effetti gastrointestinali (nausea, vomito, diarrea), soprattutto in titolazione",
+      "Peggioramento della retinopatia diabetica nei pazienti in insulina con retinopatia accertata",
+      "Pancreatite acuta; segnalazione di neuropatia ottica ischemica anteriore non arteritica (NAION)",
+      "Rallentamento dello svuotamento gastrico con possibile alterazione dell'assorbimento dei farmaci orali"
+    ],
+    "essentialMonitoring": [
+      "Tollerabilita' gastrointestinale durante la titolazione",
+      "Retinopatia nei diabetici, in particolare se in terapia insulinica",
+      "Glicemia se associato a sulfanilurea o insulina (ridurne la dose per il rischio di ipoglicemia)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Diabete mellito di tipo 2 negli adulti non adeguatamente controllato in aggiunta a dieta ed esercizio fisico: in monoterapia quando l'uso di metformina e' considerato inappropriato per intolleranza o controindicazioni, oppure in aggiunta ad altri medicinali per il diabete",
+      "Controllo del peso corporeo, in aggiunta a dieta ipocalorica e aumento dell'attivita' fisica, in adulti con BMI iniziale >=30 kg/m2 (obesita') o da >=27 a <30 kg/m2 (sovrappeso) in presenza di almeno una comorbilita' correlata al peso (formulazione da 2,4 mg)"
+    ],
+    "guidelineIndications": [
+      "Prevenzione cardiovascolare nell'obesita' senza diabete: nello studio SELECT (17.604 pazienti con BMI >=27 e malattia cardiovascolare accertata, SENZA diabete) semaglutide 2,4 mg ha ridotto del 20% gli eventi cardiovascolari maggiori, con beneficio in buona parte indipendente dall'entita' del calo ponderale",
+      "Nel diabete tipo 2 con malattia aterosclerotica le linee guida ESC 2023 raccomandano un agonista del recettore del GLP-1 con beneficio dimostrato indipendentemente dal controllo glicemico; la semaglutide sottocutanea e' tra quelli con beneficio dimostrato",
+      "Sicurezza ed efficacia cardiovascolare nel diabete: nello studio SUSTAIN-6 il rapporto di rischio rispetto al placebo e' stato 0,74 (0,58-0,95), determinato da una riduzione di ictus non fatale e infarto miocardico non fatale, senza differenze sulla morte cardiovascolare",
+      "Nello scompenso a frazione d'eiezione preservata associato a obesita' la semaglutide ha migliorato sintomi e capacita' funzionale (studio STEP-HFpEF)"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti"
+    ],
+    "warnings": [
+      "RETINOPATIA DIABETICA: in uno studio di 2 anni su 3.297 pazienti con diabete tipo 2 ad alto rischio cardiovascolare le complicanze della retinopatia sono state piu' frequenti con semaglutide (3,0%) che con placebo (1,8%), soprattutto nei pazienti in terapia insulinica con retinopatia gia' accertata; questi pazienti vanno monitorati attentamente. Non c'e' esperienza con semaglutide 2 mg nei pazienti con retinopatia non controllata o potenzialmente instabile: uso non raccomandato",
+      "NAION: dati epidemiologici indicano un aumento del rischio di neuropatia ottica ischemica anteriore non arteritica durante il trattamento con semaglutide",
+      "GASTROPARESI: i pazienti con gastroparesi possono manifestare effetti gastrointestinali piu' gravi o severi",
+      "NON associare ad altri agonisti del recettore del GLP-1 (liraglutide, dulaglutide, exenatide, tirzepatide)",
+      "L'associazione con sulfanilurea o insulina aumenta il rischio di ipoglicemia: considerare la riduzione della dose di questi farmaci",
+      "Pancreatite acuta: sospendere in caso di sospetto e non riprendere se confermata"
+    ],
+    "adverseEffects": [
+      "Nausea, vomito, diarrea, stipsi, dolore addominale (molto frequenti, soprattutto in titolazione)",
+      "Complicanze della retinopatia diabetica",
+      "Colelitiasi e disturbi biliari",
+      "Pancreatite acuta (non comune)",
+      "Ipoglicemia in associazione a sulfanilurea o insulina"
+    ],
+    "overdose": "Il sovradosaggio comporta prevalentemente effetti gastrointestinali marcati (nausea e vomito protratti) con rischio di disidratazione e danno renale prerenale. Gestione di supporto e idratazione; non esiste un antidoto specifico. La lunga emivita comporta effetti prolungati.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Fare riferimento all'RCP; non e' richiesto aggiustamento nelle forme lievi-moderate. Attenzione alla disidratazione da vomito/diarrea, che puo' causare danno renale acuto.",
+      "hepatic": "Consultare l'RCP; esperienza limitata nella compromissione severa.",
+      "elderly": "Nessun aggiustamento sistematico; attenzione alla tollerabilita' gastrointestinale e alla sarcopenia.",
+      "pregnancy": "Non raccomandato; sospendere prima di una gravidanza programmata (lunga emivita).",
+      "breastfeeding": "Non raccomandato."
+    },
+    "alternativeDrugIds": [
+      "liraglutide",
+      "dulaglutide",
+      "tirzepatide",
+      "dapagliflozin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' una puntura settimanale che riduce l'appetito e migliora il compenso glicemico. Nei pazienti con obesita' e malattia cardiovascolare ha anche ridotto infarti e ictus, non solo il peso.",
+    "clinicalExplanation": "Agonista del recettore del GLP-1 a lunga durata d'azione, somministrato una volta a settimana per via sottocutanea (esiste anche una formulazione orale). Nel diabete tipo 2 ha mostrato riduzione degli eventi cardiovascolari (SUSTAIN-6, HR 0,74 guidato da infarto e ictus non fatali) e nell'obesita' senza diabete lo studio SELECT ha dimostrato una riduzione del 20% degli eventi maggiori. Le tre attenzioni pratiche sono la titolazione lenta per la tollerabilita' gastrointestinale, la sorveglianza della retinopatia nei diabetici in insulina e il rallentamento dello svuotamento gastrico, che interferisce con l'assorbimento dei farmaci orali.",
+    "molecularExplanation": "Analogo del GLP-1 umano con modifiche che ne prolungano l'emivita (legame all'albumina e resistenza alla DPP-4); attiva il recettore del GLP-1 stimolando la secrezione insulinica glucosio-dipendente, riducendo il glucagone, rallentando lo svuotamento gastrico e agendo sui centri ipotalamici della sazieta'.",
+    "pharmacodynamics": "Riduzione di HbA1c e peso corporeo, riduzione della pressione arteriosa sistolica e degli eventi cardiovascolari maggiori nelle popolazioni studiate.",
+    "molecularTarget": "Recettore del GLP-1",
+    "agonismAntagonism": "Agonismo del recettore del GLP-1",
+    "pharmacokinetics": {
+      "route": "Sottocutanea settimanale (o orale giornaliera)",
+      "halfLife": "Circa una settimana, da cui la somministrazione settimanale e lo steady state dopo 4-5 settimane",
+      "note": "Legame all'albumina; eliminazione per via metabolica"
+    },
+    "bibliography": []
+  }
+}

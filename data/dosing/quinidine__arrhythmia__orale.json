@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "id": "quinidine__arrhythmia__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Chinidina/idrochinidina - RCP (Torrinomedica/Codifa/Mediately su base AIFA): classe Ia, aritmie SV/ventricolari, cinconismo, torsione di punta, discrasie ematiche.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/ritmocor/",
+        "identifier": "Chinidina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Antiaritmico a indice terapeutico stretto: confermare dose, funzione renale/epatica e QT."
+  },
+  "drugId": "quinidine",
+  "indication": "arrhythmia",
+  "scenario": "Aritmie sopraventricolari/ventricolari (orale)",
+  "route": "orale",
+  "dose": {
+    "note": "Posologia individualizzata secondo sale e formulazione (es. idrochinidina ~3-4 compresse/die); titolare con monitoraggio di ECG e QT",
+    "max": "secondo formulazione e livelli"
+  },
+  "administration": {
+    "notes": "Orale. Monitorare ECG (QRS/QT), potassiemia ed emocromo. Ridurre se il QRS/QT si allargano oltre il 25%."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

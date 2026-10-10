@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "andexanet-alfa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "EMA/AIFA - andexanet alfa (Ondexxya): reversal FXa-inibitori, ricetta OSP uso ospedaliero.",
+        "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ondexxya",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Prescrivibilita' da portale su base Banca Dati AIFA/EMA; confermare sul prontuario aggiornato."
+  },
+  "drugId": "andexanet-alfa",
+  "authorisation": "EMA/Nazionale",
+  "marketed": true,
+  "reimbursementClass": "H (OSP)",
+  "supplyRegime": "OSP - uso esclusivamente ospedaliero",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Ospedaliera",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

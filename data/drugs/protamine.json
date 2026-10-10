@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "id": "protamine",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Protamina solfato - RCP (LEO Pharma/Meda su base AIFA) + Centro Antidoti: antidoto dell'eparina; 1-2 mg ogni 100 UI, EV lenta max 50 mg in 10 min; ipotensione se rapida, rischio anafilattico.",
+        "url": "https://mediately.co/it/drugs/BEK3C7NxlAQtI0rS6i5TsiHAZFu/protamina-solfato-leo-pharma-anti-1400-ui-di-eparina-10mg-ml-soluzione-iniettabile-o-per-infusione",
+        "identifier": "Protamina RCP",
+        "retrievedAt": "2026-07-21"
+      },
+      {
+        "type": "smpc",
+        "citation": "Protamina solfato - RCP e riferimenti: neutralizzazione dell'eparina entro ~5 minuti, emivita molto breve, possibile rebound di eparinizzazione (specie post-CEC e con EBPM).",
+        "url": "https://mediately.co/it/drugs/YwwWoMzqZAodka9f0ilPxbOsDvL/konakion-10-mg-ml-soluzione-orale",
+        "identifier": "Monografia - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (EMA/EC, Banca Dati AIFA, portali Mediately/Codifa/Torrinomedica/Univadis) e da centri antiveleni regionali: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Antidoti d'urgenza: dosi da adattare ai protocolli locali e ai test coagulativi. Antidoto dell'eparina (non degli inibitori orali del fattore Xa/dabigatran, per i quali si usano andexanet/idarucizumab/complesso protrombinico).",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Protamina",
+    "inn": "protamina solfato",
+    "brandExamplesIt": [
+      "Protamina Solfato LEO Pharma",
+      "Protamina Meda"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antidoto dell'eparina (peptide policationico)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "reversal-agents"
+  ],
+  "quickSummary": {
+    "whatItIs": "Peptide fortemente basico che si combina con l'eparina (acida) formando un complesso stabile e inattivo: e' l'antidoto dell'eparina, usato per neutralizzarla in caso di sanguinamento o a fine circolazione extracorporea.",
+    "mainUses": [
+      "Neutralizzazione dell'eparina (sovradosaggio/emorragia; fine della circolazione extracorporea)",
+      "Neutralizzazione parziale dell'eparina a basso peso molecolare"
+    ],
+    "mainRisks": [
+      "Ipotensione grave e reazioni anafilattoidi se somministrata rapidamente",
+      "Rischio anafilattico aumentato (allergia al pesce, insulina NPH, vasectomia, pregressa esposizione)",
+      "Effetto anticoagulante da sovradosaggio; rebound dell'eparina"
+    ],
+    "essentialMonitoring": [
+      "Test coagulativi (aPTT, ACT, anti-Xa)",
+      "Pressione arteriosa/segni anafilattoidi durante l'infusione",
+      "Segni di risanguinamento (rebound)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Neutralizzazione dell'effetto anticoagulante dell'eparina sodica (sovradosaggio o necessita' di inversione rapida, es. dopo circolazione extracorporea in cardiochirurgia)"
+    ],
+    "guidelineIndications": [
+      "1 mg di protamina neutralizza circa 100 UI di eparina; la dose si riduce col tempo trascorso (emivita breve dell'eparina) - Centro Antidoti/RCP",
+      "Nell'EBPM la neutralizzazione dell'attivita' anti-Xa e' solo parziale: possono servire dosi ripetute - confermare"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alla protamina o agli eccipienti"
+    ],
+    "warnings": [
+      "Somministrazione EV lenta (in ~10 minuti, max 50 mg / 5 mL per singolo bolo): l'iniezione rapida e' la causa principale di ipotensione grave, bradicardia e reazioni anafilattoidi; preferire l'infusione diluita in 100-200 mL di fisiologica",
+      "Rischio aumentato di reazioni anafilattiche/anafilattoidi in: allergia alle proteine del pesce, pazienti trattati con insulina NPH (contenente protamina), pregressa esposizione alla protamina, vasectomia",
+      "Sovradosaggio: la protamina ha di per se' un debole effetto anticoagulante e in eccesso puo' aumentare il sanguinamento (non superare la dose di neutralizzazione); guidare la dose con i test coagulativi",
+      "Effetto anticoagulante di rimbalzo (rebound) dell'eparina/EBPM, specie dopo circolazione extracorporea (da 30 min a 18 h); inattiva per via IM/SC; non miscelare con antibiotici o mezzi di contrasto (precipitazione)"
+    ],
+    "adverseEffects": [
+      "Ipotensione, bradicardia",
+      "Vampate, dispnea, nausea/vomito",
+      "Reazioni anafilattoidi/anafilattiche (fino a broncospasmo, ipertensione polmonare)",
+      "Emorragia (sovradosaggio o rebound)"
+    ],
+    "overdose": "Il sovradosaggio prolunga i tempi di coagulazione e puo' causare sanguinamento (effetto anticoagulante proprio della protamina): sospendere; supporto trasfusionale se necessario.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun dato specifico; cautela.",
+      "hepatic": "Nessun dato specifico.",
+      "elderly": "Nessuna raccomandazione specifica.",
+      "pregnancy": "Solo se necessario.",
+      "breastfeeding": "Cautela."
+    },
+    "alternativeDrugIds": []
+  },
+  "deep": {
+    "simpleExplanation": "E' l'antidoto dell'eparina: si lega all'eparina e la 'spegne'. Va iniettata molto lentamente, perche' se somministrata in fretta puo' far crollare la pressione.",
+    "clinicalExplanation": "Peptide policationico basico (ricco di arginina) che forma con l'eparina (fortemente acida) un complesso stabile privo di attivita' anticoagulante; neutralizza l'eparina in ~5 minuti. Solo EV. Dose 1-2 mg/100 UI, guidata dai test coagulativi. Neutralizzazione solo parziale dell'anti-Xa dell'EBPM.",
+    "molecularExplanation": "Le cariche positive della protamina legano le cariche negative dell'eparina, dissociando il complesso eparina-antitrombina e formando un complesso protamina-eparina inattivo.",
+    "pharmacodynamics": "Neutralizzazione rapida dell'effetto anticoagulante dell'eparina; a dosi eccessive lieve effetto anticoagulante proprio.",
+    "molecularTarget": "Eparina (complesso di neutralizzazione)",
+    "agonismAntagonism": "Antidoto (neutralizzazione per legame ionico)",
+    "pharmacokinetics": {
+      "route": "Endovenosa lenta",
+      "onset": "~5 minuti",
+      "note": "Eliminata piu' rapidamente dell'eparina/EBPM (possibile rebound)",
+      "halfLife": "Azione pressoche' immediata: neutralizza l'eparina entro ~5 minuti dalla somministrazione endovenosa; emivita molto breve. E' descritto un REBOUND di eparinizzazione (ricomparsa dell'effetto anticoagulante dopo l'iniziale neutralizzazione), in particolare dopo circolazione extracorporea e con le eparine a basso peso molecolare, la cui attivita' anti-Xa e' neutralizzata solo parzialmente"
+    },
+    "bibliography": []
+  }
+}

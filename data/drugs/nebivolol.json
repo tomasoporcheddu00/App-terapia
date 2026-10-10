@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "id": "nebivolol",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Nebivololo - RCP (Codifa/Torrinomedica/Pharmamedix su base AIFA): indicazioni, posologia, vasodilatazione NO-mediata (SENIORS).",
+        "url": "https://www.codifa.it/principi-attivi/Nebivololo",
+        "identifier": "Nebivololo RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "Betabloccanti: meccanismo, controindicazioni, avvertenze e interazioni di classe; sintesi da RCP/portali AIFA (Codifa, Mediately, Torrinomedica, Pharmamedix).",
+        "url": "https://www.torrinomedica.it/schede-farmaci/bisoprololo/",
+        "identifier": "Betabloccanti classe",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Nebivololo (Lobivon) - RCP (Torrinomedica/Mediately), paragrafo 5.2: emivita ~10 ore nei metabolizzatori rapidi (idrossimetaboliti ~24 ore), 3-5 volte piu' lunga nei lenti (CYP2D6).",
+        "url": "https://www.torrinomedica.it/schede-farmaci/nebivololo/",
+        "identifier": "RCP - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Molte controindicazioni/avvertenze/interazioni sono comuni alla classe dei betabloccanti. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Nebivololo",
+    "inn": "nebivololo",
+    "brandExamplesIt": [
+      "Lobivon",
+      "Nebilox"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Betabloccante beta1-selettivo vasodilatatore (via NO)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "beta-blockers"
+  ],
+  "quickSummary": {
+    "whatItIs": "Betabloccante beta1-selettivo di terza generazione con vasodilatazione mediata dall'ossido nitrico; per ipertensione e scompenso stabile nell'anziano.",
+    "mainUses": [
+      "Ipertensione arteriosa",
+      "Scompenso cardiaco cronico stabile lieve-moderato nell'anziano >=70 anni"
+    ],
+    "mainRisks": [
+      "Bradicardia",
+      "Ipotensione",
+      "Cefalea, affaticamento"
+    ],
+    "essentialMonitoring": [
+      "Frequenza cardiaca",
+      "Pressione arteriosa"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipertensione arteriosa essenziale",
+      "Scompenso cardiaco cronico stabile, lieve-moderato, in aggiunta alla terapia standard, nei pazienti anziani (>=70 anni)"
+    ],
+    "guidelineIndications": [
+      "Betabloccante con evidenza nello scompenso dell'anziano (SENIORS); confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alla molecola o ad altri betabloccanti",
+      "Insufficienza cardiaca acuta o scompensata che richiede terapia inotropa endovenosa; shock cardiogeno",
+      "Blocco atrioventricolare di 2o o 3o grado (senza pacemaker)",
+      "Sindrome del nodo del seno; blocco seno-atriale",
+      "Bradicardia sintomatica clinicamente rilevante",
+      "Ipotensione grave/sintomatica",
+      "Broncospasmo grave / asma bronchiale grave",
+      "Arteriopatia periferica grave o fenomeno di Raynaud grave",
+      "Feocromocitoma non trattato (senza alfa-blocco)",
+      "Acidosi metabolica"
+    ],
+    "warnings": [
+      "Non interrompere bruscamente: rischio di rebound (peggioramento di angina/ischemia, crisi ipertensive); ridurre gradualmente",
+      "Puo' mascherare i sintomi dell'ipoglicemia nel diabetico e i segni dell'ipertiroidismo",
+      "Broncospasmo nei predisposti: preferire i cardioselettivi alla dose minima efficace",
+      "Bradicardia e disturbi della conduzione AV: monitorare frequenza e conduzione",
+      "Nell'avvio/titolazione per lo scompenso puo' verificarsi un transitorio peggioramento (start low, go slow)",
+      "Cautela nell'angina di Prinzmetal (i non selettivi possono peggiorarla)"
+    ],
+    "adverseEffects": [
+      "Bradicardia",
+      "Ipotensione, capogiro",
+      "Astenia/affaticamento",
+      "Estremita' fredde",
+      "Disturbi del sonno",
+      "Broncospasmo (nei predisposti)",
+      "Cefalea"
+    ],
+    "overdose": null,
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Insufficienza renale: iniziare con 2,5 mg/die.",
+      "hepatic": "Dati limitati; non raccomandato nell'insufficienza epatica.",
+      "elderly": "Nello scompenso e' l'indicazione elettiva (>=70 anni); titolare con prudenza.",
+      "pregnancy": "Usare solo se necessario.",
+      "breastfeeding": "Non raccomandato."
+    },
+    "alternativeDrugIds": [
+      "bisoprolol",
+      "carvedilol",
+      "metoprolol"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Rallenta il cuore e dilata leggermente i vasi (grazie all'ossido nitrico); usato per la pressione e per lo scompenso nell'anziano.",
+    "clinicalExplanation": "Beta1-selettivo (a <=10 mg) con effetto vasodilatatore NO-mediato; nello scompenso dell'anziano si titola fino a 10 mg (SENIORS).",
+    "molecularExplanation": "Racemo: il d-nebivololo blocca i recettori beta1, l'l-nebivololo promuove il rilascio endoteliale di ossido nitrico.",
+    "pharmacodynamics": "Riduzione di frequenza cardiaca, contrattilita', conduzione AV e rilascio di renina; calo della pressione e del consumo miocardico di ossigeno.",
+    "molecularTarget": "Recettori beta-adrenergici (beta1 +/- beta2 +/- alfa1)",
+    "agonismAntagonism": "Antagonista recettoriale",
+    "pharmacokinetics": {
+      "metabolism": "Epatico (CYP2D6), con polimorfismo",
+      "elimination": "Renale e fecale",
+      "halfLife": "~10 ore nei metabolizzatori rapidi (idrossimetaboliti attivi ~24 ore), 3-5 volte piu' lunga nei metabolizzatori lenti (polimorfismo CYP2D6); il dosaggio va individualizzato (i lenti possono richiedere dosi minori)"
+    },
+    "bibliography": [
+      "SENIORS (nebivololo nell'anziano con scompenso) - da citare con fonte primaria"
+    ]
+  }
+}

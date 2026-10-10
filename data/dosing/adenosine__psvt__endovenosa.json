@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "id": "adenosine__psvt__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Adenosina (Krenosin) - RCP (Codifa/Torrinomedica/Mediately su base AIFA): nucleoside, blocco AV transitorio, conversione della TPSV; controindicata in blocco AV II-III/malattia del seno senza PM e broncospasmo; uso ospedaliero.",
+        "url": "https://www.codifa.it/farmaci/k/krenosin-adenosina-cardiovascolari-adenilici-amp-atp-",
+        "identifier": "Krenosin RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Antiaritmico a indice terapeutico stretto: confermare dose, funzione renale/epatica e QT."
+  },
+  "drugId": "adenosine",
+  "indication": "supraventricular-tachycardia",
+  "scenario": "Conversione della TPSV (endovena)",
+  "route": "endovenosa",
+  "dose": {
+    "first": "6 mg in bolo endovenoso rapido",
+    "second": "se inefficace dopo 1-2 minuti, 12 mg in bolo rapido",
+    "third": "se inefficace, ulteriori 12 mg",
+    "pediatric": "0,1 mg/kg (max 6 mg), incrementi di 0,1 mg/kg (max 12 mg)",
+    "max": "12 mg per bolo (non oltre)"
+  },
+  "administration": {
+    "notes": "Bolo endovenoso rapidissimo in vena prossimale seguito da rapido flush con fisiologica; monitoraggio ECG continuo. Uso ospedaliero."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

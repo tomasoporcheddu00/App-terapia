@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "id": "carbonic-anhydrase-inhibitors",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Inibitori dell'anidrasi carbonica (acetazolamide): sintesi da RCP/monografie e trial ADVOR.",
+        "url": "https://www.informazionisuifarmaci.it/acetazolamide",
+        "identifier": "CAI classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe degli inibitori dell'anidrasi carbonica sintetizzata da RCP/monografie; il ruolo nello scompenso (ADVOR) e' evidenza recente da confermare sulle linee guida."
+  },
+  "name": "Inibitori dell'anidrasi carbonica",
+  "atcGroup": "S01EC / C03 (acetazolamide)",
+  "memberDrugIds": [
+    "acetazolamide"
+  ],
+  "mechanismSummary": "Inibizione dell'anidrasi carbonica nel tubulo prossimale renale: riduzione del riassorbimento di bicarbonato e sodio con diuresi (debole) e acidosi metabolica; nell'occhio riduce la produzione di umor acqueo.",
+  "molecularTarget": "Anidrasi carbonica",
+  "pharmacodynamics": "Bicarbonaturia e natriuresi prossimale (diuresi debole e autolimitante con acidosi metabolica); riduzione della pressione intraoculare e della produzione di liquor.",
+  "classEffects": [
+    "Booster della decongestione in add-on ai diuretici dell'ansa nello scompenso acuto (ADVOR)",
+    "Riduzione della pressione intraoculare (glaucoma)",
+    "Effetto coadiuvante antiepilettico e nel mal di montagna"
+  ],
+  "sharedContraindications": [
+    "Insufficienza renale o epatica grave",
+    "Acidosi ipercloremica / squilibri acido-base",
+    "Ipopotassiemia/iponatriemia",
+    "Insufficienza surrenalica; ipersensibilita' ai sulfamidici"
+  ],
+  "sharedAdverseEffects": [
+    "Acidosi metabolica",
+    "Ipopotassiemia",
+    "Parestesie"
+  ],
+  "monitoring": [
+    "Equilibrio acido-base ed elettroliti (potassio, bicarbonato)",
+    "Funzione renale"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Classe rappresentata dall'acetazolamide. Come diuretico in monoterapia e' debole e sviluppa tolleranza (acidosi autolimitante), ma nello scompenso acuto potenzia la decongestione dei diuretici dell'ansa (ADVOR). Ha inoltre impieghi non cardiologici (glaucoma, epilessia, mal di montagna). Dettagli nella scheda."
+}

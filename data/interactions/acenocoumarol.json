@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "id": "acenocoumarol",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Sintrom (acenocumarolo) sez. 4.5 - interazioni via CYP2C9/2C19/3A4, vitamina K alimentare, farmaci che alterano l'emostasi.",
+        "url": "https://www.codifa.it/farmaci/s/sintrom-acenocumarolo-anticoagulanti-orali-indiretti",
+        "identifier": "Sintrom 4.5",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Categorie principali coerenti con il metabolismo documentato (CYP2C9/2C19/3A4). Elenco 4.5 completo e singoli farmaci da verificare sulla RCP integrale.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "acenocoumarol",
+  "items": [
+    {
+      "agent": "Inibitori del CYP2C9/CYP3A4 (amiodarone, azoli, metronidazolo, alcuni FANS)",
+      "effect": "Aumento dell'INR e del rischio emorragico",
+      "management": "Monitoraggio INR ravvicinato / aggiustamento dose",
+      "severity": "major"
+    },
+    {
+      "agent": "Induttori enzimatici (rifampicina, carbamazepina, barbiturici, erba di San Giovanni)",
+      "effect": "Riduzione dell'INR e dell'efficacia",
+      "management": "Monitoraggio INR ravvicinato / aggiustamento dose",
+      "severity": "major"
+    },
+    {
+      "agent": "Alimenti ricchi di vitamina K",
+      "effect": "Riduzione dell'effetto anticoagulante",
+      "management": "Mantenere costante l'apporto dietetico",
+      "severity": "moderate"
+    },
+    {
+      "agent": "Antiaggreganti, FANS, altri anticoagulanti",
+      "effect": "Aumento del rischio emorragico",
+      "management": "Evitare le associazioni non necessarie",
+      "severity": "major"
+    }
+  ]
+}

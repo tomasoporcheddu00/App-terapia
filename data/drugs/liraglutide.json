@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "id": "liraglutide",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Liraglutide (Victoza, Saxenda) - RCP e schemi posologici: 0,6 mg al giorno con incrementi settimanali di 0,6 mg fino a 1,2-1,8 mg nel diabete e fino a 3 mg nel controllo del peso.",
+        "url": "https://www.straighthealthcare.com/glp-1-analog-dosing.html",
+        "identifier": "Liraglutide RCP/schemi",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida diabete: liraglutide tra i GLP-1 agonisti con beneficio cardiovascolare dimostrato.",
+        "url": "https://academic.oup.com/eurheartj/article/45/15/1298/7513467",
+        "identifier": "ESC 2023 diabete",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da RCP EMA/AIFA e da fonti secondarie derivate dagli RCP (Torrinomedica/Codifa/Mediately, registro comunitario EC). DA CONFERMARE sugli RCP ufficiali. Stato: revisione fonti (source-review), non ancora approvato. NB: per questi farmaci l'indicazione, la rimborsabilita' e il piano terapeutico in Italia variano per prodotto commerciale e indicazione (diabete vs controllo del peso): verificare sempre prima di prescrivere. A differenza degli altri della classe si somministra ogni giorno e la titolazione e' settimanale.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Liraglutide",
+    "inn": "liraglutide",
+    "brandExamplesIt": [
+      "Victoza",
+      "Saxenda"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Agonista del recettore del GLP-1 a somministrazione giornaliera",
+  "identity": {
+    "atcCodes": [
+      "A10BJ02"
+    ],
+    "formulations": [
+      "Soluzione iniettabile in penna preriempita multidose"
+    ],
+    "potentialRoutes": [
+      "sottocutanea"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "glp1-agonists"
+  ],
+  "quickSummary": {
+    "whatItIs": "Agonista del recettore del GLP-1 a somministrazione giornaliera, con beneficio cardiovascolare dimostrato nel diabete tipo 2 (studio LEADER). E' l'unico della classe a titolazione settimanale e iniezione quotidiana.",
+    "mainUses": [
+      "Diabete mellito di tipo 2 non adeguatamente controllato",
+      "Controllo del peso corporeo (formulazione fino a 3 mg al giorno)"
+    ],
+    "mainRisks": [
+      "Effetti gastrointestinali in titolazione",
+      "Pancreatite acuta",
+      "Ipoglicemia in associazione a insulina o sulfaniluree"
+    ],
+    "essentialMonitoring": [
+      "Tollerabilita' gastrointestinale",
+      "Glicemia se in associazione a insulina o sulfanilurea",
+      "Sintomi suggestivi di pancreatite"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Diabete mellito di tipo 2 in aggiunta a dieta ed esercizio fisico, in monoterapia o in associazione ad altri antidiabetici, secondo le indicazioni della specifica specialita'",
+      "Controllo del peso corporeo in aggiunta a dieta ipocalorica e attivita' fisica, nelle formulazioni e alle dosi previste"
+    ],
+    "guidelineIndications": [
+      "Nel diabete tipo 2 con malattia aterosclerotica le linee guida ESC 2023 raccomandano un agonista del recettore del GLP-1 con beneficio dimostrato indipendentemente dal controllo glicemico: la liraglutide e' tra questi (insieme a semaglutide sottocutanea, dulaglutide ed efpeglenatide)"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti"
+    ],
+    "warnings": [
+      "Effetto di classe: non associare ad altri agonisti del recettore del GLP-1",
+      "Rischio di ipoglicemia in associazione a insulina o sulfanilurea: valutare la riduzione della dose di questi farmaci",
+      "Pancreatite acuta: sospendere in caso di sospetto",
+      "Rallentamento dello svuotamento gastrico con possibile alterazione dell'assorbimento dei farmaci orali",
+      "Cautela nella retinopatia diabetica, come per la classe"
+    ],
+    "adverseEffects": [
+      "Nausea, vomito, diarrea, stipsi (molto frequenti in titolazione)",
+      "Cefalea",
+      "Reazioni al sito di iniezione",
+      "Colelitiasi",
+      "Pancreatite acuta (non comune)"
+    ],
+    "overdose": "Il sovradosaggio determina prevalentemente nausea e vomito intensi con rischio di disidratazione; gestione di supporto. Non esiste un antidoto specifico.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Consultare l'RCP; attenzione alla disidratazione da vomito o diarrea.",
+      "hepatic": "Esperienza limitata nella compromissione severa: consultare l'RCP.",
+      "elderly": "Nessun aggiustamento sistematico; attenzione alla tollerabilita'.",
+      "pregnancy": "Non raccomandata.",
+      "breastfeeding": "Non raccomandata."
+    },
+    "alternativeDrugIds": [
+      "semaglutide",
+      "dulaglutide",
+      "tirzepatide"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Puntura giornaliera della stessa famiglia della semaglutide, ma da fare tutti i giorni. Si parte da una dose bassa e si sale ogni settimana per far abituare lo stomaco.",
+    "clinicalExplanation": "Analogo del GLP-1 a somministrazione giornaliera. Nel diabete tipo 2 con malattia aterosclerotica e' tra i GLP-1 agonisti con beneficio cardiovascolare dimostrato secondo le linee guida ESC 2023. La titolazione e' settimanale (incrementi di 0,6 mg) e la dose massima dipende dall'indicazione: piu' bassa nel diabete, fino a 3 mg nel controllo del peso.",
+    "molecularExplanation": "Analogo del GLP-1 umano acilato con acido grasso, che ne prolunga l'emivita tramite legame all'albumina e resistenza alla degradazione da DPP-4.",
+    "pharmacodynamics": "Secrezione insulinica glucosio-dipendente, riduzione del glucagone, rallentamento dello svuotamento gastrico e aumento della sazieta'.",
+    "molecularTarget": "Recettore del GLP-1",
+    "agonismAntagonism": "Agonismo del recettore del GLP-1",
+    "pharmacokinetics": {
+      "route": "Sottocutanea, una volta al giorno",
+      "halfLife": "Circa 13 ore, compatibile con la somministrazione giornaliera",
+      "note": "Legame all'albumina; degradazione metabolica"
+    },
+    "bibliography": []
+  }
+}

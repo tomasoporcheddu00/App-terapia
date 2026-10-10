@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "id": "insulins",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Insuline: sintesi da RCP EMA/AIFA e Consensus AMD-SID-FADOI.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2005/2005100510376/anx_10376_it.pdf",
+        "identifier": "Insuline classe",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP e consensus italiane; confermare su RCP ufficiali e protocolli locali."
+  },
+  "name": "Insuline",
+  "atcGroup": "A10A (insuline e analoghi)",
+  "memberDrugIds": [
+    "insulin"
+  ],
+  "mechanismSummary": "Ormoni che riducono la glicemia favorendo la captazione cellulare di glucosio e inibendo la produzione epatica. In area critica si usa l'insulina umana regolare, l'unica somministrabile per via endovenosa.",
+  "molecularTarget": "Recettore insulinico (tirosin-chinasi)",
+  "pharmacodynamics": "Riduzione della glicemia e spostamento intracellulare del potassio; effetto immediato e titolabile per via endovenosa.",
+  "classEffects": [
+    "Controllo glicemico titolabile nel paziente critico (infusione endovenosa continua)",
+    "Ipoglicemia come rischio principale della classe",
+    "Ipokaliemia da shift intracellulare del potassio",
+    "Impiego, con il glucosio, nel trattamento dell'iperkaliemia"
+  ],
+  "sharedContraindications": [
+    "Ipoglicemia in atto o sospetta; ipersensibilita'"
+  ],
+  "sharedAdverseEffects": [
+    "Ipoglicemia",
+    "Ipokaliemia",
+    "Reazioni al sito di iniezione e lipodistrofia (via sottocutanea)",
+    "Edema e disturbi transitori della rifrazione a inizio terapia"
+  ],
+  "monitoring": [
+    "Glicemia (oraria durante l'infusione, poi ogni 2 ore a target)",
+    "Potassiemia",
+    "Apporto di glucosio e bilancio dei liquidi"
+  ],
+  "reversal": "L'ipoglicemia si corregge con carboidrati per os nelle forme lievi e con glucosio endovenoso (o glucagone se manca l'accesso venoso) nelle forme severe.",
+  "notesOnClassVsMolecule": "In terapia intensiva si utilizza l'insulina umana regolare per via endovenosa, con pompa e protocollo scritto (target 140-180 mg/dL nel paziente critico). Gli analoghi rapidi e le insuline basali riguardano la gestione cronica del diabete e non sono trattati in questo lotto. Dosi e dettagli nella scheda del farmaco."
+}

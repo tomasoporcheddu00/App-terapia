@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "id": "gentamicin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "SPILF-AEPEI - position statement sulla terapia antibiotica dell'endocardite secondo le linee guida ESC 2023 (strategie per streptococchi, enterococchi e stafilococchi; daptomicina, rifampicina, monitoraggi).",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2666991924001787",
+        "identifier": "SPILF-AEPEI 2024",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "gentamicin",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Vancomicina",
+      "effect": "Nefrotossicita' additiva; nell'endocardite su protesi l'associazione sistematica e' particolarmente rischiosa",
+      "management": "Monitoraggio ravvicinato della funzione renale; valutare alternative (daptomicina)"
+    },
+    {
+      "severity": "major",
+      "agent": "Diuretici dell'ansa (furosemide)",
+      "effect": "Aumento della nefrotossicita' e soprattutto dell'ototossicita'",
+      "management": "Evitare l'associazione quando possibile; sorvegliare udito e funzione renale"
+    },
+    {
+      "severity": "major",
+      "agent": "Mezzi di contrasto iodati, FANS, ACE-inibitori e sartani",
+      "effect": "Aumento del rischio di danno renale acuto",
+      "management": "Idratazione, monitoraggio della creatinina, evitare le associazioni non necessarie"
+    },
+    {
+      "severity": "major",
+      "agent": "Bloccanti neuromuscolari",
+      "effect": "Potenziamento del blocco neuromuscolare",
+      "management": "Cautela in ambito anestesiologico; controindicata nella miastenia"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Beta-lattamici - miscelazione nella stessa via",
+      "effect": "Inattivazione reciproca se miscelati nella stessa soluzione",
+      "management": "Somministrare separatamente con lavaggio della via"
+    }
+  ]
+}

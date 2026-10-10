@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "id": "evolocumab",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Evolocumab (Repatha) - RCP EMA/AIFA (EC Europa/Torrinomedica/informazionisuifarmaci): anticorpo anti-PCSK9 SC, dose 140 mg ogni 2 settimane o 420 mg/mese, HoFH, ASCVD; FOURIER.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/repatha-siringa-preriempita/",
+        "identifier": "Repatha RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5; severita' secondo posizionamento RCP e rilevanza clinica. Anticorpo monoclonale: non metabolizzato dal citocromo P450, interazioni farmacocinetiche classiche non attese. Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "evolocumab",
+  "items": [
+    {
+      "severity": "minor",
+      "agent": "Statine",
+      "effect": "Le statine aumentano la PCSK9: lieve riduzione dei livelli di evolocumab, senza impatto clinico rilevante",
+      "management": "Nessun aggiustamento; associazione favorevole"
+    }
+  ]
+}

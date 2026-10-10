@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "id": "liraglutide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Liraglutide (Victoza, Saxenda) - RCP e schemi posologici: 0,6 mg al giorno con incrementi settimanali di 0,6 mg fino a 1,2-1,8 mg nel diabete e fino a 3 mg nel controllo del peso.",
+        "url": "https://www.straighthealthcare.com/glp-1-analog-dosing.html",
+        "identifier": "Liraglutide RCP/schemi",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida diabete: liraglutide tra i GLP-1 agonisti con beneficio cardiovascolare dimostrato.",
+        "url": "https://academic.oup.com/eurheartj/article/45/15/1298/7513467",
+        "identifier": "ESC 2023 diabete",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "liraglutide",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Altri agonisti del recettore del GLP-1 (semaglutide, dulaglutide, exenatide, tirzepatide)",
+      "effect": "Duplicazione terapeutica",
+      "management": "Non associare"
+    },
+    {
+      "severity": "major",
+      "agent": "Insulina e sulfaniluree",
+      "effect": "Aumento del rischio di ipoglicemia",
+      "management": "Ridurre la dose di insulina o sulfanilurea e intensificare l'automonitoraggio"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Farmaci orali a stretto indice terapeutico",
+      "effect": "Il rallentamento dello svuotamento gastrico puo' modificare l'assorbimento",
+      "management": "Sorveglianza clinica e di laboratorio nelle fasi di avvio e titolazione"
+    }
+  ]
+}

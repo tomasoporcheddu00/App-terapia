@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "valsartan__hypertension__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Valsartan - RCP (rese da Codifa/Starbene/Pharmamedix su base AIFA): indicazioni, posologia §4.2 (ipertensione, post-infarto, scompenso).",
+        "url": "https://www.codifa.it/farmaci/v/valsartan-sandoz-valsartan-antagonisti-dell-angiotensina-ii",
+        "identifier": "Valsartan RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "valsartan",
+  "indication": "hypertension",
+  "scenario": "Ipertensione arteriosa",
+  "route": "orale",
+  "dose": {
+    "initial": "80 mg una volta al giorno",
+    "maintenance": "80-160 mg al giorno",
+    "max": "320 mg al giorno",
+    "titration": "effetto massimo a ~4 settimane"
+  },
+  "administration": {
+    "notes": "Assumibile con o senza cibo, alla stessa ora."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

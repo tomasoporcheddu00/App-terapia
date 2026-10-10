@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "id": "quinidine",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Chinidina/idrochinidina - RCP (Torrinomedica/Codifa/Mediately su base AIFA): classe Ia, aritmie SV/ventricolari, cinconismo, torsione di punta, discrasie ematiche.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/ritmocor/",
+        "identifier": "Chinidina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC) e da monografie di riferimento: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Antiaritmici a indice terapeutico stretto: verificare dosi e QT prima dell'uso. Uso clinico oggi limitato; disponibilita' in Italia come idrochinidina/chinidina poligalatturonato da confermare.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Chinidina",
+    "inn": "chinidina (solfato/poligalatturonato; idrochinidina)",
+    "brandExamplesIt": [
+      "Ritmocor",
+      "Idrochinidina Lirca"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antiaritmico classe Ia",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "aa-class-ia"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antiaritmico 'storico' di classe Ia per aritmie atriali e ventricolari; oggi poco usato per il rischio di torsione di punta e di effetti sistemici (cinconismo).",
+    "mainUses": [
+      "Fibrillazione/flutter atriale e mantenimento del ritmo dopo cardioversione",
+      "Aritmie sopraventricolari e ventricolari"
+    ],
+    "mainRisks": [
+      "Torsione di punta (prolungamento del QT)",
+      "Cinconismo (cefalea, acufeni, disturbi visivi)",
+      "Discrasie ematiche (trombocitopenia)"
+    ],
+    "essentialMonitoring": [
+      "ECG (QRS, QT)",
+      "Potassiemia",
+      "Emocromo"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Fibrillazione e flutter atriale, mantenimento del ritmo sinusale dopo cardioversione",
+      "Profilassi delle tachiaritmie parossistiche sopraventricolari",
+      "Extrasistoli e tachicardie ventricolari"
+    ],
+    "guidelineIndications": [
+      "Uso oggi limitato; una possibile riscoperta e' nella sindrome di Brugada e in alcune forme di FV idiopatica (blocco della corrente Ito) - confermare su fonte"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alla chinidina/chinina",
+      "Blocco atrioventricolare completo o di grado avanzato senza pacemaker",
+      "Blocco di branca / disturbi della conduzione intraventricolare",
+      "Prolungamento congenito del QT; anamnesi di torsione di punta",
+      "Intossicazione digitalica",
+      "Scompenso cardiaco non compensato",
+      "Disfunzione del nodo del seno",
+      "Anamnesi di porpora trombocitopenica da chinidina/chinina",
+      "Miastenia grave"
+    ],
+    "warnings": [
+      "Effetto proaritmico: prolungamento del QT e torsione di punta (rischio maggiore con ipopotassiemia e altri farmaci che allungano il QT); monitorare ECG e QT",
+      "Cinconismo (cefalea, acufeni, ipoacusia, disturbi visivi) per iperdosaggio o ipersensibilita'",
+      "Discrasie ematiche: anemia emolitica, porpora trombocitopenica, agranulocitosi",
+      "Puo' accelerare la conduzione AV (risposta 1:1 nel flutter): associare un bloccante del nodo AV",
+      "Ipotensione (effetto alfa-litico); correggere l'ipopotassiemia"
+    ],
+    "adverseEffects": [
+      "Cinconismo (cefalea, acufeni, disturbi visivi)",
+      "Disturbi gastrointestinali (nausea, diarrea)",
+      "Torsione di punta / proaritmia",
+      "Ipotensione",
+      "Discrasie ematiche (trombocitopenia)"
+    ],
+    "overdose": "Il sovradosaggio causa allargamento del QRS, torsione di punta, ipotensione, cinconismo; trattamento in terapia intensiva con monitoraggio, correzione elettrolitica, magnesio per la torsione di punta.",
+    "antidoteDrugIds": [
+      "magnesium-sulfate"
+    ],
+    "specialPopulations": {
+      "renal": "Ridurre la dose e monitorare i livelli (eliminazione ridotta).",
+      "hepatic": "Cautela (metabolismo epatico).",
+      "elderly": "Maggiore sensibilita'; iniziare a dose bassa.",
+      "pregnancy": "Solo se necessario.",
+      "breastfeeding": "Passa nel latte; valutare."
+    },
+    "alternativeDrugIds": [
+      "disopyramide",
+      "amiodarone",
+      "flecainide"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un antiaritmico antico per fibrillazione atriale e altre aritmie; oggi si usa poco perche' puo' allungare il QT e dare disturbi come ronzii e mal di testa.",
+    "clinicalExplanation": "Antiaritmico di classe Ia: blocca i canali del sodio (rallenta conduzione) e del potassio (allunga la ripolarizzazione e il QT); possiede attivita' anticolinergica (M2) e alfa-litica. Puo' accelerare la conduzione AV.",
+    "molecularExplanation": "Blocca i canali del sodio voltaggio-dipendenti e la corrente del potassio, con proprieta' anticolinergiche e alfa-bloccanti.",
+    "pharmacodynamics": "Rallentamento della conduzione e allungamento del periodo refrattario/QT; possibile accelerazione della conduzione AV.",
+    "molecularTarget": "Canali del sodio e del potassio cardiaci",
+    "agonismAntagonism": "Blocco dei canali ionici",
+    "pharmacokinetics": {
+      "metabolism": "Epatico (CYP3A4); inibitore del CYP2D6",
+      "elimination": "Renale (favorita dall'acidita' urinaria)",
+      "halfLife": "~2-4 ore (chinidina solfato, RCP Ritmocor/Chinteina); metabolismo epatico ed escrezione renale (in parte immodificata). NB: da non confondere con la chinina antimalarica (emivita 4,1-11,1 ore)"
+    },
+    "bibliography": [
+      "Metanalisi sulla mortalita' con chinidina nella FA - da citare con fonte primaria"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "milrinone__hf-support__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Milrinone - RCP/monografie (Torrinomedica/UpToDate/A.Re.S.S.): inibitore della fosfodiesterasi-3, inotropo e vasodilatatore; scompenso grave a breve termine; carico 50 mcg/kg poi 0,375-0,75 mcg/kg/min; proaritmico; ridurre in IR.",
+        "url": "https://www.torrinomedica.it/approfondimenti/cardiologia/qual-e-un-farmaco-che-stimola-lazione-del-cuore/",
+        "identifier": "Milrinone RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Agente vasoattivo: titolare con monitoraggio emodinamico continuo; confermare dose e diluizione."
+  },
+  "drugId": "milrinone",
+  "indication": "acute-heart-failure",
+  "scenario": "Scompenso grave / supporto post-cardiochirurgia",
+  "route": "endovenosa",
+  "dose": {
+    "loading": "50 mcg/kg in 10 minuti (nei pazienti normotesi)",
+    "maintenance": "0,375-0,75 mcg/kg/min in infusione continua",
+    "renal": "ridurre la dose nell'insufficienza renale",
+    "max": "secondo risposta e tollerabilita'"
+  },
+  "administration": {
+    "notes": "Infusione EV con monitoraggio emodinamico. Ridurre in insufficienza renale. Non co-infondere con furosemide. Uso ospedaliero."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "calcium-gluconate__emergency__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Calcio gluconato - RCP (Codifa/Univadis/Mediately su base AIFA): ipocalcemia acuta, protezione cardiaca nell'iperkaliemia, antidoto di MgSO4/fluoruri; controindicato con glicosidi cardioattivi, FV, ipercalcemia.",
+        "url": "https://www.univadis.it/references/drug-database/B05/viewdrug/calcio-gluconato-26154",
+        "identifier": "Calcio gluconato RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false. Dosi d'urgenza da adattare ai protocolli locali."
+  },
+  "drugId": "calcium-gluconate",
+  "indication": "electrolyte-emergency",
+  "scenario": "Ipocalcemia acuta / iperkaliemia / antidoto",
+  "route": "endovenosa",
+  "dose": {
+    "hypocalcemia": "calcio gluconato 10% 10-20 mL EV lento (in glucosata 5%), poi eventuale infusione di mantenimento",
+    "hyperkalemia": "10-30 mL di calcio gluconato 10% EV in 2-5 min se alterazioni ECG (ripetibile)",
+    "magnesium/CCB toxicity": "boli EV di calcio gluconato 10% secondo risposta"
+  },
+  "administration": {
+    "notes": "EV lenta, diluita in glucosata 5% o fisiologica. Non con bicarbonato/fosfato. Monitoraggio ECG, cautela con la digitale."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

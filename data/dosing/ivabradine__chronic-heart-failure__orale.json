@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "ivabradine__chronic-heart-failure__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Ivabradina (Procoralan) - RCP/EPAR (EMA, Mediately, Codifa): indicazioni angina/scompenso (ritmo sinusale), dose, fosfeni, controindicazioni.",
+        "url": "https://mediately.co/it/drugs/K62gnQ6kVUKg5xBCm1GEnOaSEwG/procoralan-7-5-mg-compresse-rivestite",
+        "identifier": "Ivabradina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EPAR; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "ivabradine",
+  "indication": "chronic-heart-failure",
+  "scenario": "Scompenso cardiaco a FE ridotta (ritmo sinusale, FC>=75)",
+  "route": "orale",
+  "dose": {
+    "initial": "5 mg due volte al giorno (2,5 mg due volte/die se eta' >=75 anni)",
+    "titration": "dopo 2 settimane aggiustare secondo la FC a riposo: se >60 bpm salire a 7,5 mg BID; se <50 bpm o sintomi scendere/sospendere",
+    "maintenance": "7,5 mg due volte al giorno",
+    "max": "7,5 mg due volte al giorno"
+  },
+  "administration": {
+    "notes": "Assumere durante i pasti. Solo in ritmo sinusale; monitorare la FC e l'eventuale comparsa di fibrillazione atriale."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

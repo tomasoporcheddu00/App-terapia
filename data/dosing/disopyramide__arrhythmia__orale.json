@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "id": "disopyramide__arrhythmia__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Disopiramide (Ritmodan) - RCP (Mediately/Codifa/Torrinomedica su base AIFA): classe Ia, recidive di FA/flutter e aritmie ventricolari; forte effetto anticolinergico e inotropo negativo.",
+        "url": "https://mediately.co/it/drugs/6eh94hkDyDiDdOWkRpdELIYzeL7/ritmodan-100-mg-capsule-rigide",
+        "identifier": "Ritmodan RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Antiaritmico a indice terapeutico stretto: confermare dose, funzione renale/epatica e QT."
+  },
+  "drugId": "disopyramide",
+  "indication": "arrhythmia",
+  "scenario": "Aritmie (orale)",
+  "route": "orale",
+  "dose": {
+    "note": "Individualizzata; capsule pronte o rilascio prolungato (es. retard 250 mg, 1-2 fino a 3 compresse/die in 2 dosi)",
+    "max": "secondo formulazione e QT"
+  },
+  "administration": {
+    "notes": "Orale. Monitorare ECG (QT/QRS), segni di scompenso ed effetti anticolinergici. Digitalizzare prima in caso di scompenso."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

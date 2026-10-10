@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "sotatercept",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Sotatercept (Winrevair) - label FDA/EMA e STELLAR (NEJM 2023): inibitore del signaling dell'activina (proteina di fusione ActRIIA-Fc), add-on nella PAH gruppo 1; SC ogni 3 settimane; eritrocitosi, trombocitopenia, sanguinamento/teleangectasie.",
+        "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/winrevair",
+        "identifier": "Winrevair label",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5. Non sono stati condotti studi formali di interazione (proteina di fusione). Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "sotatercept",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Infusione di prostaciclina / antitrombotici",
+      "effect": "Maggior rischio di sanguinamento/trombocitopenia",
+      "management": "Monitorare piastrine e segni di sanguinamento"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Nessuno studio formale di interazione",
+      "effect": "Interazioni farmacologiche non caratterizzate",
+      "management": "Cautela generale"
+    }
+  ]
+}

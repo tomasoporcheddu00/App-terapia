@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "id": "aa-class-ia",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Antiaritmici di classe Ia: sintesi da RCP/monografie.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/ritmodan/",
+        "identifier": "Ia classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe Ia sintetizzata da RCP; confermare su RCP ufficiali e linee guida ESC."
+  },
+  "name": "Antiaritmici classe Ia",
+  "atcGroup": "C01BA (classe Ia)",
+  "memberDrugIds": [
+    "procainamide",
+    "quinidine",
+    "disopyramide"
+  ],
+  "mechanismSummary": "Blocco dei canali del sodio (rallentamento della conduzione) con allungamento della ripolarizzazione per effetto anche sui canali del potassio: prolungamento del periodo refrattario e del QT.",
+  "molecularTarget": "Canali del sodio e del potassio cardiaci",
+  "pharmacodynamics": "Rallentamento della conduzione e allungamento del QT; possibile accelerazione della conduzione AV (associare un bloccante del nodo AV nel flutter).",
+  "classEffects": [
+    "Efficacia su aritmie sopraventricolari e ventricolari",
+    "Prolungamento del QT (rischio di torsione di punta)",
+    "Effetti extra-cardiaci molecola-specifici (anticolinergici, cinconismo, lupus-simile)"
+  ],
+  "sharedContraindications": [
+    "Blocco AV avanzato senza pacemaker",
+    "Prolungamento del QT / anamnesi di torsione di punta",
+    "Scompenso cardiaco scompensato",
+    "Associazione con altri farmaci che allungano il QT"
+  ],
+  "sharedAdverseEffects": [
+    "Torsione di punta / proaritmia",
+    "Ipotensione",
+    "Effetti molecola-specifici (anticolinergici per disopiramide/chinidina, lupus-simile per procainamide, cinconismo per chinidina)"
+  ],
+  "monitoring": [
+    "ECG (QRS, QT)",
+    "Potassiemia",
+    "Emocromo (chinidina/procainamide)"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Classe oggi poco usata per il rischio di torsione di punta. Chinidina: aritmie atriali, cinconismo e discrasie; procainamide: EV per aritmie ventricolari/WPW, sindrome lupus-simile (non in commercio in Italia); disopiramide: forte effetto anticolinergico e inotropo negativo, utile nella cardiomiopatia ipertrofica ostruttiva. Tutte richiedono monitoraggio del QT e dell'associazione con un bloccante del nodo AV nel flutter. Dettagli nelle singole schede."
+}

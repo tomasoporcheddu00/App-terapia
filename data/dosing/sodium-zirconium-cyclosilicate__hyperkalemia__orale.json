@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "sodium-zirconium-cyclosilicate__hyperkalemia__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Sodio zirconio ciclosilicato (Lokelma) - RCP EMA/AIFA: chelante del potassio non assorbito per l'iperkaliemia; correzione 10 g x3 poi mantenimento 5 g/die; edema/sodio, ipokaliemia.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/EPAR/lokelma",
+        "identifier": "Lokelma RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false. Dosi d'urgenza da adattare ai protocolli locali."
+  },
+  "drugId": "sodium-zirconium-cyclosilicate",
+  "indication": "hyperkalemia",
+  "scenario": "Iperkaliemia (correzione e mantenimento)",
+  "route": "orale",
+  "dose": {
+    "correction": "10 g tre volte al giorno per 24-48 ore (fino a 72h se necessario)",
+    "maintenance": "5 g una volta al giorno; titolabile fino a 10 g/die o riducibile a 5 g a giorni alterni",
+    "note": "non per l'emergenza acuta immediata"
+  },
+  "administration": {
+    "notes": "Orale (polvere in acqua). Distanziare di 2h i farmaci a biodisponibilita' pH-dipendente. Monitorare potassiemia ed edemi."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

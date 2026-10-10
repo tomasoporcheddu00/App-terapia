@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "id": "nitroglycerin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Nitroglicerina (trinitrato di glicerile) - RCP (Codifa/Teva/Pharmamedix su base AIFA): nitrato organico, formulazioni sublinguale/transdermica/EV, tolleranza, controindicazione PDE5.",
+        "url": "https://www.codifa.it/farmaci/n/nitroglicerina-teva-nitroglicerina-nitrati",
+        "identifier": "Nitroglicerina RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Nitroglicerina - Pharmamedix (Farmacocinetica): emivita di eliminazione 1-4 minuti; metabolita di- e mononitrato attivo.",
+        "url": "https://www.pharmamedix.com/principiovoce.php?pa=Nitroglicerina&vo=Farmacocinetica",
+        "identifier": "Pharmamedix - farmacocinetica",
+        "retrievedAt": "2026-07-25"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Nitroglicerina",
+    "inn": "nitroglicerina (trinitrato di glicerile)",
+    "brandExamplesIt": [
+      "Trinitrina",
+      "Natispray",
+      "Venitrin",
+      "Nitroglicerina Teva (cerotti)"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Nitrato organico",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "organic-nitrates"
+  ],
+  "quickSummary": {
+    "whatItIs": "Nitrato organico che dilata soprattutto le vene (e le coronarie): usato per l'attacco anginoso acuto (sublinguale), per la profilassi (cerotto) e per via endovenosa nelle emergenze cardiovascolari.",
+    "mainUses": [
+      "Attacco anginoso acuto (sublinguale)",
+      "Profilassi dell'angina (transdermica/orale)",
+      "Scompenso acuto, emergenza ipertensiva, SCA (endovena)"
+    ],
+    "mainRisks": [
+      "Cefalea, ipotensione",
+      "Tolleranza",
+      "Ipotensione grave con gli inibitori della PDE5"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa",
+      "Frequenza cardiaca",
+      "Risposta sintomatica"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento dell'attacco anginoso acuto (via sublinguale)",
+      "Profilassi dell'angina pectoris (formulazioni transdermiche e orali)",
+      "Scompenso cardiaco acuto, edema polmonare, emergenze ipertensive e sindromi coronariche acute (via endovenosa); ipotensione controllata in chirurgia"
+    ],
+    "guidelineIndications": [
+      "Sublinguale: farmaco di scelta per l'attacco anginoso acuto (rapida azione); nell'angina cronica i nitrati sono sintomatici e non modificano la prognosi - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' ai nitrati o agli eccipienti",
+      "Uso concomitante di inibitori della PDE5 (sildenafil, tadalafil, vardenafil) o di stimolatori della guanilato ciclasi solubile (riociguat): rischio di ipotensione grave",
+      "Ipotensione grave, ipovolemia o shock cardiogeno (senza adeguato riempimento ventricolare)",
+      "Stenosi aortica o mitralica grave",
+      "Cardiomiopatia ipertrofica ostruttiva (i nitrati possono aggravare l'angina)",
+      "Aumento della pressione endocranica; pericardite costrittiva o tamponamento cardiaco",
+      "Anemia grave"
+    ],
+    "warnings": [
+      "Tolleranza e tolleranza crociata con altri nitroderivati: prevedere un intervallo libero da nitrati (circa 8-12 ore) ed evitare la terapia prolungata ad alte dosi",
+      "Cefalea (molto comune, soprattutto all'inizio), ipotensione anche ortostatica, vampate, capogiro, tachicardia riflessa",
+      "Angina di rimbalzo alla sospensione brusca: sospendere gradualmente",
+      "Cautela in caso di deplezione di volume (terapia diuretica) e di ipotensione preesistente",
+      "Rimuovere il cerotto transdermico prima di cardioversione o defibrillazione",
+      "Nella terapia intermittente con cerotto puo' aumentare la frequenza degli attacchi nell'intervallo libero: valutare un altro antianginoso"
+    ],
+    "adverseEffects": [
+      "Cefalea",
+      "Ipotensione / ipotensione ortostatica",
+      "Vampate di calore",
+      "Capogiro",
+      "Tachicardia riflessa",
+      "Tolleranza (con l'uso continuativo)"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione marcata, tachicardia e cefalea; in casi gravi metaemoglobinemia. Trattamento: posizione supina, fluidi; per la metaemoglobinemia blu di metilene.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico.",
+      "hepatic": "Cautela (metabolismo epatico).",
+      "elderly": "Maggiore sensibilita' all'ipotensione.",
+      "pregnancy": "Solo se il beneficio supera il rischio.",
+      "breastfeeding": "Dati limitati; cautela."
+    },
+    "alternativeDrugIds": [
+      "isosorbide-dinitrate",
+      "isosorbide-mononitrate"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Sotto la lingua agisce in 1-2 minuti e spegne l'attacco di angina; in cerotto serve a prevenirla; in vena si usa in ospedale nelle emergenze.",
+    "clinicalExplanation": "Nitrato organico donatore di NO: venodilatazione (riduzione del precarico) e vasodilatazione coronarica. Sublinguale per l'attacco acuto (durata ~1 ora), transdermica/orale per la profilassi (con intervallo libero da nitrati), EV titolabile nelle emergenze.",
+    "molecularExplanation": "Rilascia ossido d'azoto (NO) che attiva la guanilato ciclasi -> aumento del cGMP -> rilasciamento della muscolatura liscia vascolare (prevalentemente venosa).",
+    "pharmacodynamics": "Riduzione del precarico (venodilatazione) e in parte del postcarico; vasodilatazione coronarica e ridistribuzione del flusso verso le aree ischemiche.",
+    "molecularTarget": "Via NO-guanilato ciclasi-cGMP (muscolatura liscia vascolare)",
+    "agonismAntagonism": "Donatore di ossido d'azoto (NO)",
+    "pharmacokinetics": {
+      "onsetSublingual": "1-2 minuti (durata ~1 ora)",
+      "onsetIV": "pochi minuti",
+      "metabolism": "Epatico (glutatione reduttasi)",
+      "tolerance": "Richiede intervallo libero da nitrati",
+      "halfLife": "Ultrabreve, ~1-4 minuti (metabolismo extraepatico rapido a di- e mononitrati attivi ad azione piu' prolungata). Durata clinica: ~1 ora per via sublinguale, effetto immediato per via endovenosa"
+    },
+    "bibliography": []
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "id": "furosemide",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Furosemide - RCP (Codifa/Torrinomedica su base AIFA) e monografie: indicazioni edema/scompenso/edema polmonare/ipertensione, dose orale ed EV, ototossicita'.",
+        "url": "https://www.codifa.it/farmaci/f/furosemide-fisiopharma-furosemide-diuretici-dell-ansa",
+        "identifier": "Furosemide RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Furosemide",
+    "inn": "furosemide",
+    "brandExamplesIt": [
+      "Lasix"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Diuretico dell'ansa",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "loop-diuretics"
+  ],
+  "quickSummary": {
+    "whatItIs": "Diuretico dell'ansa potente e rapido, usato per edema, scompenso, edema polmonare e (meno) ipertensione; disponibile per via orale ed endovenosa.",
+    "mainUses": [
+      "Edema (cardiaco, epatico, renale)",
+      "Scompenso cardiaco",
+      "Edema polmonare acuto (EV)",
+      "Ipertensione (in scompenso/malattia renale)"
+    ],
+    "mainRisks": [
+      "Ipopotassiemia",
+      "Disidratazione/ipotensione",
+      "Ototossicita' (EV rapida, dosi alte)"
+    ],
+    "essentialMonitoring": [
+      "Elettroliti (potassio, sodio, magnesio)",
+      "Funzione renale",
+      "Volemia/pressione"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Edema di origine cardiaca, epatica o renale",
+      "Edema polmonare acuto (per via endovenosa)",
+      "Ipertensione arteriosa (in mono- o associazione, in particolare in scompenso o malattia renale cronica)"
+    ],
+    "guidelineIndications": [
+      "Caposaldo sintomatico della decongestione nello scompenso; i diuretici migliorano i sintomi ma non modificano la prognosi (nessun trial di mortalita') - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo (e ai sulfamidici per torasemide/bumetanide)",
+      "Anuria o insufficienza renale non responsiva al diuretico",
+      "Coma o precoma epatico",
+      "Ipopotassiemia o iponatriemia gravi",
+      "Ipovolemia/disidratazione"
+    ],
+    "warnings": [
+      "Squilibri elettrolitici: ipopotassiemia, iponatriemia, ipomagnesiemia, alcalosi ipocloremica; monitorare gli elettroliti",
+      "Aumento dell'escrezione di calcio (ipocalcemia; utile invece nell'ipercalcemia)",
+      "Iperuricemia e gotta; aumento di glicemia e lipidi",
+      "Disidratazione e ipotensione, specie nell'anziano",
+      "Ototossicita' (di norma reversibile), favorita da somministrazione EV rapida, dosi elevate, insufficienza renale e associazione con aminoglicosidi",
+      "Assicurare il libero deflusso urinario (attenzione nell'ipertrofia prostatica)",
+      "Biodisponibilita' orale variabile (~50-70%): nella scarsa risposta valutare la via endovenosa o il passaggio ad altro diuretico dell'ansa",
+      "Possibile sensibilita' crociata nei pazienti allergici ai sulfamidici"
+    ],
+    "adverseEffects": [
+      "Ipopotassiemia, iponatriemia, ipomagnesiemia",
+      "Disidratazione, ipotensione",
+      "Iperuricemia/gotta",
+      "Aumento di glicemia e lipidi",
+      "Ototossicita' (rara)",
+      "Aumento di creatinina/azotemia"
+    ],
+    "overdose": "Il sovradosaggio causa disidratazione, ipovolemia e squilibri elettrolitici; reidratare e correggere gli elettroliti.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Utilizzabile anche nell'insufficienza renale (efficace a dosi piu' alte); aggiustare quando GFR <10 mL/min.",
+      "hepatic": "Cautela nella cirrosi con ascite (rischio di encefalopatia da squilibrio elettrolitico); iniziare in ospedale.",
+      "elderly": "Maggiore rischio di ipotensione e disidratazione; iniziare a dose bassa.",
+      "pregnancy": "Solo se strettamente necessario; monitorare la crescita fetale.",
+      "breastfeeding": "Passa nel latte e puo' inibire la lattazione; sconsigliato."
+    },
+    "alternativeDrugIds": [
+      "torasemide",
+      "bumetanide"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Fa urinare molto e in fretta: toglie i liquidi in eccesso nello scompenso e nell'edema polmonare; puo' abbassare troppo il potassio.",
+    "clinicalExplanation": "Diuretico dell'ansa; inibisce il cotrasportatore Na-K-2Cl nel tratto ascendente spesso dell'ansa di Henle. Rapido, con effetto 'ceiling' elevato; EV nell'edema polmonare. Biodisponibilita' orale variabile.",
+    "molecularExplanation": "Blocca il cotrasportatore Na-K-2Cl (NKCC2) nella branca ascendente dell'ansa di Henle.",
+    "pharmacodynamics": "Aumento dell'escrezione di sodio, cloro, potassio, calcio e magnesio; riduzione del precarico (anche per effetto venodilatatore precoce nell'edema polmonare).",
+    "molecularTarget": "Cotrasportatore Na-K-2Cl (NKCC2)",
+    "agonismAntagonism": "Inibizione del cotrasportatore",
+    "pharmacokinetics": {
+      "bioavailability": "Orale ~50-70% (variabile)",
+      "onset": "Orale ~1 ora; EV pochi minuti",
+      "elimination": "Renale (immodificata) e biliare",
+      "halfLife": "~1-1,5 ore"
+    },
+    "bibliography": [
+      "DOSE trial (strategia dei diuretici dell'ansa nello scompenso acuto) - da citare con fonte primaria"
+    ]
+  }
+}

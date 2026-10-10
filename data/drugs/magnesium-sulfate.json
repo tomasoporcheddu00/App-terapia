@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "id": "magnesium-sulfate",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Solfato di magnesio - RCP (Torrinomedica/Codifa/Monico su base AIFA): elettrolita EV; torsione di punta, aritmie ipercinetiche in ipomagnesiemia, profilassi nell'intossicazione digitalica; tossicita' da magnesio (antidoto calcio).",
+        "url": "https://www.torrinomedica.it/schede-farmaci/magnesio_solfato/",
+        "identifier": "Magnesio solfato RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC) e da monografie di riferimento: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Antiaritmici a indice terapeutico stretto: verificare dosi e QT prima dell'uso.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Solfato di magnesio",
+    "inn": "solfato di magnesio",
+    "brandExamplesIt": [
+      "Magnesio Solfato (varie)"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Elettrolita / antiaritmico (endovenoso)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "other-antiarrhythmics"
+  ],
+  "quickSummary": {
+    "whatItIs": "Sale di magnesio endovenoso: e' il trattamento di scelta della torsione di punta e delle aritmie da ipomagnesiemia; utile anche nella profilassi delle aritmie da digitale.",
+    "mainUses": [
+      "Torsione di punta",
+      "Aritmie ventricolari/sopraventricolari in ipomagnesiemia (es. FV refrattaria con ipomagnesiemia)",
+      "Profilassi delle aritmie da intossicazione digitalica e in fase acuta dell'infarto",
+      "Ipomagnesiemia; eclampsia/pre-eclampsia (ostetricia)"
+    ],
+    "mainRisks": [
+      "Tossicita' da magnesio (ipotensione, bradicardia, depressione respiratoria)",
+      "Cautela nell'insufficienza renale"
+    ],
+    "essentialMonitoring": [
+      "Magnesiemia",
+      "Riflessi osteotendinei e frequenza respiratoria",
+      "ECG e pressione"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento delle aritmie ipercinetiche sopraventricolari e ventricolari, in particolare la torsione di punta e la fibrillazione ventricolare, specie in presenza di ipomagnesiemia",
+      "Prevenzione delle aritmie associate all'intossicazione digitalica e alla fase acuta dell'infarto miocardico",
+      "Terapia sostitutiva nella carenza acuta di magnesio (con tetania)",
+      "Prevenzione e controllo delle convulsioni nella tossiemia gravidica (pre-eclampsia/eclampsia)"
+    ],
+    "guidelineIndications": [
+      "Farmaco di scelta nella torsione di punta (2 g EV in bolo); nella FV/TV refrattaria con ipomagnesiemia 2 g in bolo (linee guida di rianimazione) - confermare su fonte"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Insufficienza renale grave (oligurica)",
+      "Blocco/disturbi della conduzione cardiaca o danno miocardico (secondo scheda; l'uso specifico nella torsione di punta e' un'eccezione)",
+      "Frequenza respiratoria <16 atti/min; pazienti comatosi"
+    ],
+    "warnings": [
+      "Rischio di tossicita' da magnesio (ipermagnesiemia) specie nell'insufficienza renale: ipotensione, bradicardia, depressione respiratoria e neuromuscolare, perdita dei riflessi osteotendinei, fino all'arresto cardiaco - monitorare magnesiemia, riflessi e respiro",
+      "Antidoto della tossicita': calcio per via endovenosa (gluconato/cloruro di calcio)",
+      "Potenzia i bloccanti neuromuscolari; effetto additivo con gli aminoglicosidi sul blocco neuromuscolare",
+      "Cautela con i digitalici (l'eventuale somministrazione di calcio per la tossicita' da magnesio puo' scatenare aritmie)"
+    ],
+    "adverseEffects": [
+      "Vampata, sudorazione",
+      "Ipotensione, bradicardia",
+      "Depressione respiratoria (dosi elevate/IR)",
+      "Iporeflessia; ipocalcemia"
+    ],
+    "overdose": "Il sovradosaggio (ipermagnesiemia) causa depressione respiratoria e cardiaca: interrompere, assistenza respiratoria e calcio per via endovenosa (10-20 mL di soluzione al 5-10%); il magnesio e' rimovibile con emodialisi.",
+    "antidoteDrugIds": [
+      "calcium-gluconate"
+    ],
+    "specialPopulations": {
+      "renal": "Ridurre la dose e monitorare (rischio di accumulo); nell'insufficienza grave max ~20 g/48 ore.",
+      "hepatic": "Nessun aggiustamento specifico.",
+      "elderly": "Cautela (funzione renale).",
+      "pregnancy": "Utilizzato in ostetricia (eclampsia) con monitoraggio; possibile tossicita' neonatale.",
+      "breastfeeding": "Sospendere l'allattamento durante il trattamento."
+    },
+    "alternativeDrugIds": [
+      "amiodarone",
+      "lidocaine"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Il magnesio in vena e' il rimedio principale per una particolare aritmia pericolosa (la torsione di punta) e per le aritmie quando il magnesio nel sangue e' basso.",
+    "clinicalExplanation": "Il magnesio stabilizza la membrana dei cardiomiociti ed e' il trattamento di scelta della torsione di punta e delle aritmie da ipomagnesiemia. Va usato con cautela nell'insufficienza renale (tossicita' da magnesio, antidoto il calcio).",
+    "molecularExplanation": "Agisce come modulatore dei canali ionici (calcio, potassio) e cofattore enzimatico, stabilizzando il potenziale di membrana e la conduzione.",
+    "pharmacodynamics": "Stabilizzazione elettrica del miocardio; soppressione della torsione di punta e delle aritmie da ipomagnesiemia.",
+    "molecularTarget": "Canali ionici e potenziale di membrana del cardiomiocita",
+    "agonismAntagonism": "Modulazione elettrolitica/dei canali",
+    "pharmacokinetics": {
+      "route": "Endovenosa",
+      "elimination": "Renale (accumulo nell'insufficienza renale)",
+      "halfLife": "Non applicabile in senso stretto: la magnesiemia dipende dalla ridistribuzione e dall'escrezione renale"
+    },
+    "bibliography": []
+  }
+}

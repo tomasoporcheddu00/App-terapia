@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "id": "prednisone",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Deltacortene (prednisone) - RCP (Torrinomedica/Codifa/Univadis su base AIFA): indicazioni, posologia d'attacco e mantenimento, controindicazioni, avvertenze.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/DELTACORTENE/",
+        "identifier": "Deltacortene RCP",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2025 - Linee guida su miocardite e pericardite: corticosteroidi non di prima linea nella pericardite, dosi medio-basse in associazione.",
+        "url": "https://www.giornaledicardiologia.it/archivio/4620/articoli/46292/",
+        "identifier": "ESC 2025 IMPS",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP italiani (Torrinomedica/Codifa/Univadis/Mediately su base Banca Dati AIFA) e, dove indicato, da documenti AIFA. DA CONFERMARE sugli RCP ufficiali AIFA/EMA. Stato: revisione fonti (source-review), non ancora approvato. ATTENZIONE: per queste molecole l'indicazione cardiologica (pericardite, miocardite, sarcoidosi, prevenzione secondaria) deriva dalle linee guida e NON coincide con le indicazioni autorizzate in scheda tecnica: verificare regime prescrittivo e rimborsabilita'. Nella pericardite la regola e' 'basse dosi, in associazione, riduzione lenta'. Nella miocardite non infettiva e nella sarcoidosi cardiaca il ruolo e' invece di prima linea.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Prednisone",
+    "inn": "prednisone",
+    "brandExamplesIt": [
+      "Deltacortene"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Glucocorticoide sintetico a durata d'azione intermedia",
+  "identity": {
+    "atcCodes": [
+      "H02AB07"
+    ],
+    "formulations": [
+      "Compresse 5 mg e 25 mg"
+    ],
+    "potentialRoutes": [
+      "orale"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "corticosteroids"
+  ],
+  "quickSummary": {
+    "whatItIs": "Glucocorticoide orale, profarmaco convertito nel fegato a prednisolone. In cardiologia si usa nella pericardite recidivante (ma NON come prima scelta), nella miocardite non infettiva e nella sarcoidosi cardiaca.",
+    "mainUses": [
+      "Affezioni reumatologiche, malattie del collagene, cardite reumatica acuta, condizioni allergiche gravi (indicazioni autorizzate)",
+      "Pericardite recidivante non responsiva o con controindicazione a FANS e colchicina (indicazione da linee guida, seconda linea)",
+      "Miocardite non infettiva/fulminante e sarcoidosi cardiaca (indicazione da linee guida)"
+    ],
+    "mainRisks": [
+      "Aumento del rischio infettivo e mascheramento dei segni di infezione",
+      "Ritenzione idrosalina, ipertensione, ipokaliemia e iperglicemia",
+      "Insufficienza surrenalica alla sospensione, che puo' persistere per mesi",
+      "Nella pericardite: aumento del rischio di cronicizzazione e di recidive"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa, peso e glicemia",
+      "Potassiemia",
+      "Segni di infezione",
+      "Densitometria e profilassi ossea nei trattamenti prolungati"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento a breve termine, come terapia aggiuntiva, in episodi acuti o riacutizzazioni di affezioni reumatologiche (artrite reumatoide, malattia di Still, spondiliti anchilosanti, artrite gottosa acuta)",
+      "Riacutizzazioni o mantenimento in casi particolari di lupus eritematoso sistemico, dermatomiosite, periartrite, CARDITE REUMATICA ACUTA o altre malattie del collagene",
+      "Condizioni allergiche gravi o debilitanti non responsive ad altre terapie"
+    ],
+    "guidelineIndications": [
+      "Pericardite: i corticosteroidi NON sono di prima linea perche' aumentano il rischio di cronicizzazione e di recidive. Sono riservati a controindicazione o mancata risposta a FANS e colchicina, o a indicazioni specifiche (gravidanza, malattie infiammatorie croniche, insufficienza renale, terapia anticoagulante orale), a dosi medio-basse (indicativamente prednisone 0,2-0,5 mg/kg/die) e SEMPRE IN ASSOCIAZIONE - non in sostituzione - a FANS e colchicina - ESC 2025",
+      "Miocardite: i corticosteroidi possono contribuire alla stabilizzazione nelle forme fulminanti e non infettive e possono essere considerati nella miocardite acuta con severa disfunzione ventricolare refrattaria alla terapia standard dello scompenso; NON raccomandato l'uso di routine nelle forme acute con funzione conservata - ESC 2025",
+      "Sarcoidosi cardiaca: prima linea del trattamento antinfiammatorio in presenza di infiammazione attiva, con riduzione progressiva e passaggio a risparmiatori di steroide"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Tubercolosi",
+      "Ulcera peptica",
+      "Psicosi",
+      "Herpes simplex oculare",
+      "Infezioni micotiche sistemiche",
+      "Osteoporosi di grado severo",
+      "Stati di immunodeficienza",
+      "Diabete instabile"
+    ],
+    "warnings": [
+      "I corticosteroidi possono mascherare alcuni segni di infezione e favorire infezioni ricorrenti: valutare l'opportunita' di una terapia antibiotica adeguata. Da evitare quando non si possono escludere infezioni, in particolare batteriche e tubercolari",
+      "La sospensione deve essere sempre GRADUALE: l'insufficienza surrenalica secondaria puo' persistere per mesi dopo la fine della terapia, per cui in qualsiasi situazione di stress in quel periodo va istituita un'adeguata copertura ormonale; nei pazienti in terapia sottoposti a stress e' indispensabile adattare la dose",
+      "Alterazioni psichiche: euforia, insonnia, mutamenti dell'umore o della personalita', depressione grave e sintomi psicotici",
+      "Nei pazienti con sclerosi sistemica cautela per l'aumentata incidenza di crisi renale sclerodermica (possibilmente fatale) con dosi pari o superiori a 15 mg/die di prednisolone: controllare regolarmente pressione arteriosa e creatinina",
+      "Nei pazienti ipotiroidei o con cirrosi epatica la risposta ai corticosteroidi puo' essere aumentata",
+      "Puo' manifestarsi paralisi periodica tireotossica nei pazienti ipertiroidei con ipokaliemia indotta: sospettarla in caso di debolezza muscolare e controllare subito la potassiemia"
+    ],
+    "adverseEffects": [
+      "Ritenzione idrosalina, edema, ipertensione arteriosa, ipokaliemia",
+      "Iperglicemia e scompenso di un diabete preesistente",
+      "Aumentata suscettibilita' alle infezioni e mascheramento dei segni",
+      "Osteoporosi, miopatia steroidea, ritardo di cicatrizzazione",
+      "Ulcera peptica, disturbi psichici, cataratta e glaucoma nei trattamenti prolungati",
+      "Soppressione dell'asse ipotalamo-ipofisi-surrene"
+    ],
+    "overdose": "Il sovradosaggio acuto raramente e' pericoloso per la vita; l'uso cronico a dosi elevate produce la sindrome di Cushing iatrogena. Non esiste un antidoto specifico: gestione di supporto, correzione degli squilibri elettrolitici e riduzione graduale della dose.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Cautela; la ritenzione idrosalina puo' peggiorare ipertensione e sovraccarico di volume.",
+      "hepatic": "Nella cirrosi la risposta ai corticosteroidi puo' essere aumentata: valutare dosi inferiori. Il prednisone e' un profarmaco che richiede conversione epatica a prednisolone.",
+      "elderly": "Maggior rischio di osteoporosi, diabete, infezioni e ipertensione: dose minima efficace e profilassi ossea.",
+      "pregnancy": "Utilizzabile quando necessario secondo valutazione del rapporto rischio/beneficio; nella pericardite in gravidanza i corticosteroidi sono tra le opzioni previste dalle linee guida.",
+      "breastfeeding": "Escreto nel latte in piccole quantita'; valutare caso per caso."
+    },
+    "alternativeDrugIds": [
+      "colchicine",
+      "ibuprofen",
+      "anakinra",
+      "azathioprine"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' il cortisone in compresse. Nella pericardite non e' la prima scelta: se usato troppo presto la malattia tende a cronicizzare e a recidivare. Quando serve, si usa a dosi medio-basse e sempre insieme agli altri due farmaci, non al loro posto.",
+    "clinicalExplanation": "Glucocorticoide sintetico (profarmaco del prednisolone) ad azione antinfiammatoria e immunosoppressiva. Nella pericardite e' di seconda linea per il rischio documentato di cronicizzazione e recidiva; quando indicato si usano dosi medio-basse (0,2-0,5 mg/kg/die) in associazione a FANS e colchicina, con riduzione lenta guidata da sintomi e PCR. Nella miocardite non infettiva/fulminante e nella sarcoidosi cardiaca ha invece un ruolo di prima linea.",
+    "molecularExplanation": "Il prednisolone si lega al recettore glucocorticoide citoplasmatico; il complesso trasloca nel nucleo e modula la trascrizione genica (transattivazione e soprattutto transrepressione di NF-kB e AP-1), riducendo la sintesi di citochine e mediatori infiammatori.",
+    "pharmacodynamics": "Effetto antinfiammatorio e immunosoppressivo con attivita' mineralcorticoide modesta ma non nulla (ritenzione di sodio e perdita di potassio).",
+    "molecularTarget": "Recettore dei glucocorticoidi (NR3C1)",
+    "agonismAntagonism": "Agonismo del recettore dei glucocorticoidi",
+    "pharmacokinetics": {
+      "route": "Orale",
+      "halfLife": "Emivita plasmatica breve, ma emivita BIOLOGICA di 12-36 ore (durata d'azione intermedia)",
+      "note": "Profarmaco convertito nel fegato a prednisolone; metabolismo epatico"
+    },
+    "bibliography": []
+  }
+}

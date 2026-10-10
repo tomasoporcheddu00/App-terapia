@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "alteplase__thrombolysis__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Alteplase (Actilyse) - RCP EMA/AIFA (Torrinomedica/Codifa): rt-PA fibrino-specifico; IMA, embolia polmonare massiva, ictus ischemico acuto; max 100 mg.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/actilyse/",
+        "identifier": "Actilyse RCP",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EMA-AIFA; smpcVerified=false. Dosi trombolitiche ad alto rischio."
+  },
+  "drugId": "alteplase",
+  "indication": "thrombolysis",
+  "scenario": "IMA / embolia polmonare / ictus ischemico",
+  "route": "endovenosa",
+  "dose": {
+    "ami": "regime accelerato (esordio <6h): 15 mg EV in bolo, poi 50 mg in 30 min, poi 35 mg in 60 min (totale 100 mg in 90 min); + eparina e ASA",
+    "pe": "100 mg in 2 ore (10 mg in bolo + 90 mg in 2h); + eparina",
+    "stroke": "0,9 mg/kg (max 90 mg): 10% in bolo poi il resto in 60 min, entro 4,5h, esclusa l'emorragia",
+    "max": "non superare 100 mg"
+  },
+  "administration": {
+    "notes": "EV; solo uso ospedaliero da personale esperto. Escludere l'emorragia (ictus). Terapia antitrombotica associata secondo linee guida."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

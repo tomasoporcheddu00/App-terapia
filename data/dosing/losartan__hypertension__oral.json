@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "losartan__hypertension__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Losartan potassico - RCP (rese da Mediately/Codifa/Pharmamedix su base AIFA): indicazioni, posologia §4.2, avvertenze §4.4.",
+        "url": "https://mediately.co/it/drugs/MyB3hspSIG8EMgcKM85pHCnFSnC/losartan-teva-100-mg-compresse-rivestite-divisibili",
+        "identifier": "Losartan RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "losartan",
+  "indication": "hypertension",
+  "scenario": "Ipertensione arteriosa",
+  "route": "orale",
+  "dose": {
+    "initial": "50 mg una volta al giorno (25 mg se deplezione di volume o eta' >75 anni)",
+    "maintenance": "50 mg una volta al giorno",
+    "max": "100 mg al giorno",
+    "titration": "effetto massimo a 3-6 settimane; se necessario salire a 100 mg"
+  },
+  "administration": {
+    "notes": "Assumibile con o senza cibo. Correggere l'ipovolemia prima dell'avvio."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

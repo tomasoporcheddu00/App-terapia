@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "bivalirudin__pci__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Bivalirudina (Angiox) - RCP EMA/AIFA + Nota Informativa AIFA 2013: inibitore diretto della trombina; PCI bolo 0,75 mg/kg + infusione 1,75 mg/kg/h; SCA 0,1 mg/kg + 0,25 mg/kg/h; ridurre a 1,4 mg/kg/h se VFG 30-59; controindicata nell'insufficienza renale grave e in dialisi.",
+        "url": "https://www.ema.europa.eu/it/documents/product-information/angiox-epar-product-information_it.pdf",
+        "identifier": "Angiox RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EMA-AIFA; smpcVerified=false. Adattare al paziente e ai protocolli locali."
+  },
+  "drugId": "bivalirudin",
+  "indication": "pci-anticoagulation",
+  "scenario": "PCI / SCA",
+  "route": "endovenosa",
+  "dose": {
+    "pci": "bolo EV 0,75 mg/kg seguito IMMEDIATAMENTE da infusione 1,75 mg/kg/h almeno per la durata della procedura (continuabile fino a 4 ore)",
+    "acs-medical": "bolo EV 0,1 mg/kg + infusione 0,25 mg/kg/h (fino a 72 ore); se si procede a PCI: bolo aggiuntivo 0,5 mg/kg e infusione aumentata a 1,75 mg/kg/h",
+    "renal": "VFG 30-59 mL/min: infusione ridotta a 1,4 mg/kg/h (bolo invariato) con monitoraggio dell'ACT",
+    "act": "se ACT a 5 minuti <225 secondi: secondo bolo di 0,3 mg/kg e ricontrollo"
+  },
+  "administration": {
+    "notes": "EV; il bolo deve essere seguito immediatamente dall'infusione. Con ASA e clopidogrel. Introduttore rimuovibile 2 ore dopo lo stop."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

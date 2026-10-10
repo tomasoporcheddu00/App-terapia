@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "felodipine__hypertension-angina__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Felodipina - RCP (Codifa/Starbene/Torrinomedica su base AIFA): indicazioni ipertensione/angina, dose 5-10 mg rilascio prolungato, interazioni CYP3A4 e pompelmo.",
+        "url": "https://www.codifa.it/farmaci/f/felodipina-sandoz-felodipina-calcioantagonisti",
+        "identifier": "Felodipina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "felodipine",
+  "indication": "hypertension",
+  "scenario": "Ipertensione / angina (rilascio prolungato)",
+  "route": "orale",
+  "dose": {
+    "initial": "5 mg una volta al giorno",
+    "titration": "aggiustare a intervalli di almeno 2 settimane (2,5-10 mg)",
+    "maintenance": "5-10 mg una volta al giorno",
+    "max": "10 mg al giorno"
+  },
+  "administration": {
+    "notes": "Al mattino, deglutire intera; evitare pompelmo e pasti ricchi di grassi."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

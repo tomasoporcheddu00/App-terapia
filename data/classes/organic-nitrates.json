@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Nitrati organici: sintesi da RCP/portali AIFA.",
+        "url": "https://www.codifa.it/farmaci/n/nitroglicerina-teva-nitroglicerina-nitrati",
+        "identifier": "Nitrati classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe dei nitrati organici sintetizzata da RCP; confermare su RCP ufficiali e linee guida ESC.",
+    "id": "organic-nitrates"
+  },
+  "name": "Nitrati organici",
+  "atcGroup": "C01DA",
+  "memberDrugIds": [
+    "nitroglycerin",
+    "isosorbide-mononitrate",
+    "isosorbide-dinitrate"
+  ],
+  "mechanismSummary": "Rilascio di ossido d'azoto (NO) con attivazione della guanilato ciclasi e aumento del cGMP nella muscolatura liscia vascolare: venodilatazione (riduzione del precarico), vasodilatazione coronarica e, a dosi maggiori, arteriosa (riduzione del postcarico).",
+  "molecularTarget": "Via NO-guanilato ciclasi-cGMP (muscolatura liscia vascolare)",
+  "pharmacodynamics": "Riduzione del precarico e vasodilatazione coronarica con ridistribuzione del flusso verso le aree ischemiche; effetto sintomatico antianginoso.",
+  "classEffects": [
+    "Effetto antianginoso rapido (sublinguale) o profilattico (orale/transdermico)",
+    "Riduzione della congestione nello scompenso (isosorbide dinitrato / nitroglicerina EV)",
+    "Nessun effetto sulla prognosi dell'angina cronica (terapia sintomatica)"
+  ],
+  "sharedContraindications": [
+    "Uso concomitante di inibitori della PDE5 o di stimolatori della guanilato ciclasi (riociguat)",
+    "Ipotensione grave / shock cardiogeno",
+    "Stenosi aortica grave e cardiomiopatia ipertrofica ostruttiva",
+    "Ipersensibilita' ai nitrati"
+  ],
+  "sharedAdverseEffects": [
+    "Cefalea",
+    "Ipotensione / ipotensione ortostatica",
+    "Vampate, capogiro",
+    "Tolleranza"
+  ],
+  "monitoring": [
+    "Pressione arteriosa",
+    "Frequenza cardiaca",
+    "Risposta sintomatica"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "La nitroglicerina sublinguale e' il farmaco dell'attacco acuto (azione in 1-2 minuti); l'isosorbide dinitrato sublinguale ha durata maggiore (~2 ore, utile prima di uno sforzo), mentre isosorbide mononitrato/dinitrato orali e la nitroglicerina transdermica servono per la profilassi. Il problema comune e' la tolleranza: serve un intervallo libero da nitrati di 8-12 ore. Controindicazione assoluta con PDE5-inibitori e stimolatori della guanilato ciclasi. Dettagli nelle singole schede."
+}

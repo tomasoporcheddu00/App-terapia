@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "id": "era",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Antagonisti del recettore dell'endotelina (ERA): sintesi da RCP EMA/AIFA.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/EPAR/opsumit",
+        "identifier": "ERA classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP EMA/AIFA; confermare su RCP ufficiali e linee guida ESC/ERS."
+  },
+  "name": "Antagonisti del recettore dell'endotelina",
+  "atcGroup": "C02KX (antagonisti del recettore dell'endotelina)",
+  "memberDrugIds": [
+    "bosentan",
+    "ambrisentan",
+    "macitentan"
+  ],
+  "mechanismSummary": "Antagonismo dei recettori dell'endotelina-1 (ETA, o ETA ed ETB), che blocca la vasocostrizione e la proliferazione vascolare mediate dall'endotelina: vasodilatazione polmonare e riduzione del rimodellamento.",
+  "molecularTarget": "Recettori dell'endotelina ETA (ed ETB)",
+  "pharmacodynamics": "Riduzione delle resistenze vascolari polmonari e del rimodellamento; miglioramento della capacita' di esercizio e (macitentan) della morbilita'/mortalita'.",
+  "classEffects": [
+    "Vasodilatazione polmonare e antirimodellamento",
+    "Epatotossicita' (piu' marcata per il bosentan)",
+    "Teratogenicita' (programma di prevenzione della gravidanza) e anemia/edema"
+  ],
+  "sharedContraindications": [
+    "Gravidanza e donne in eta' fertile senza contraccezione affidabile",
+    "Compromissione epatica moderata-grave o transaminasi basali >3x (bosentan/macitentan)",
+    "Fibrosi polmonare idiopatica (ambrisentan)",
+    "Ciclosporina (bosentan)"
+  ],
+  "sharedAdverseEffects": [
+    "Anemia/riduzione dell'emoglobina",
+    "Edema/ritenzione idrica",
+    "Aumento delle transaminasi",
+    "Cefalea, vampate"
+  ],
+  "monitoring": [
+    "Transaminasi (prima e mensilmente per bosentan/macitentan)",
+    "Emoglobina/emocromo",
+    "Test di gravidanza; peso/edemi"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Il bosentan (duale ETA/ETB) e' il capostipite ma richiede il monitoraggio epatico mensile ed e' induttore enzimatico (interazioni). L'ambrisentan (selettivo ETA) e' a monosomministrazione, meno epatotossico, ma controindicato nella fibrosi polmonare idiopatica. Il macitentan (duale) e' l'unico con dati di morbilita'/mortalita' (SERAPHIN). Tutti sono teratogeni (programma di prevenzione della gravidanza) e possono causare anemia ed edema. Dettagli nelle singole schede."
+}

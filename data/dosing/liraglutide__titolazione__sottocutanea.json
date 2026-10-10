@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "liraglutide__titolazione__sottocutanea",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Liraglutide (Victoza, Saxenda) - RCP e schemi posologici: 0,6 mg al giorno con incrementi settimanali di 0,6 mg fino a 1,2-1,8 mg nel diabete e fino a 3 mg nel controllo del peso.",
+        "url": "https://www.straighthealthcare.com/glp-1-analog-dosing.html",
+        "identifier": "Liraglutide RCP/schemi",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida diabete: liraglutide tra i GLP-1 agonisti con beneficio cardiovascolare dimostrato.",
+        "url": "https://academic.oup.com/eurheartj/article/45/15/1298/7513467",
+        "identifier": "ESC 2023 diabete",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Posologia da fonti su base RCP/AIFA o da linee guida citate; smpcVerified=false. Verificare sempre su RCP ufficiale e adattare a funzione renale/epatica."
+  },
+  "drugId": "liraglutide",
+  "indication": "diabetes",
+  "scenario": "Titolazione (diabete tipo 2 e controllo del peso)",
+  "route": "sottocutanea",
+  "dose": {
+    "inizio": "0,6 mg una volta al giorno per una settimana",
+    "incrementi": "aumenti di 0,6 mg a intervalli settimanali secondo tolleranza",
+    "diabete": "dose di mantenimento tipicamente 1,2-1,8 mg al giorno",
+    "controllo del peso": "titolazione fino a 3 mg al giorno"
+  },
+  "administration": {
+    "notes": "La dose iniziale da 0,6 mg serve alla tollerabilita' gastrointestinale e non e' efficace sul controllo glicemico. Verificare la specialita' e l'indicazione: le dosi massime autorizzate differiscono."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

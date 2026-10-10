@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "id": "mra",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Antialdosteronici (MRA) nello scompenso e nella malattia cardiorenale: sintesi da RCP/fonti cliniche.",
+        "url": "https://www.informazionisuifarmaci.it/eplerenone",
+        "identifier": "MRA classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe MRA sintetizzata da RCP/fonti cliniche; confermare su RCP ufficiali e linee guida ESC/KDIGO."
+  },
+  "name": "Antagonisti del recettore dei mineralcorticoidi",
+  "atcGroup": "C03DA",
+  "memberDrugIds": [
+    "spironolactone",
+    "eplerenone",
+    "finerenone"
+  ],
+  "mechanismSummary": "Antagonismo del recettore dei mineralcorticoidi: blocco degli effetti dell'aldosterone (ritenzione di sodio/acqua, escrezione di potassio) e degli effetti pro-infiammatori/pro-fibrotici a livello cardiaco, vascolare e renale.",
+  "molecularTarget": "Recettore dei mineralcorticoidi",
+  "pharmacodynamics": "Natriuresi con risparmio di potassio; effetto anti-rimodellamento e (per i non steroidei) antinfiammatorio/antifibrotico.",
+  "classEffects": [
+    "Nello scompenso a FE ridotta: riduzione di mortalita'/ospedalizzazioni (spironolattone, eplerenone)",
+    "Protezione cardiorenale nella CKD del diabete tipo 2 (finerenone)",
+    "Effetto diuretico risparmiatore di potassio e antipertensivo"
+  ],
+  "sharedContraindications": [
+    "Iperkaliemia",
+    "Insufficienza renale grave",
+    "Malattia di Addison",
+    "Associazione con altri risparmiatori di potassio/sali di potassio",
+    "(Eplerenone/finerenone) inibitori potenti del CYP3A4"
+  ],
+  "sharedAdverseEffects": [
+    "Iperkaliemia",
+    "Peggioramento della funzione renale",
+    "Ipotensione",
+    "(Spironolattone) ginecomastia/effetti antiandrogeni"
+  ],
+  "monitoring": [
+    "Potassio sierico (all'avvio e in titolazione)",
+    "Funzione renale (creatinina/eGFR)"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Steroidei (spironolattone, eplerenone) vs non steroideo (finerenone): lo spironolattone ha effetti antiandrogeni (ginecomastia) assenti con eplerenone e finerenone; eplerenone e finerenone sono metabolizzati dal CYP3A4 (interazioni). Nello scompenso a FE ridotta l'evidenza e' per spironolattone/eplerenone; il finerenone e' indicato nella CKD del T2D e nello scompenso con FE>=40%. Dettagli nelle singole schede."
+}

@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "id": "ibuprofen",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-28T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Ibuprofene - RCP (Torrinomedica: Ibuprofene DR, Ibuprofene Alter, Brufen; Codifa): controindicazioni, avvertenze cardiovascolari e gastrointestinali, interazione con acido acetilsalicilico a basse dosi.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/Ibuprofene_Alter_cp/",
+        "identifier": "Ibuprofene RCP",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "other",
+        "citation": "Pharmamedix - Ibuprofene, sezioni Controindicazioni e Interazioni: revisione EMA 2015 sulle dosi elevate (>=2400 mg/die) e antagonismo sull'effetto antiaggregante dell'ASA.",
+        "url": "https://www.pharmamedix.com/principiovoce.php?pa=Ibuprofene&vo=Controindicazioni",
+        "identifier": "Pharmamedix ibuprofene",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2025 - Linee guida su miocardite e pericardite: FANS ad alte dosi con gastroprotezione, sempre associati a colchicina.",
+        "url": "https://www.giornaledicardiologia.it/archivio/4620/articoli/46292/",
+        "identifier": "ESC 2025 IMPS",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Interazioni da RCP. Interazioni chiave in cardiologia: ASA a basse dosi, anticoagulanti, RAAS-inibitori e diuretici. Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "ibuprofen",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Acido acetilsalicilico a basse dosi (cardioaspirina)",
+      "effect": "Inibizione competitiva dell'effetto antiaggregante dell'ASA: l'uso regolare e prolungato puo' ridurne l'effetto cardioprotettivo (l'uso occasionale non appare clinicamente rilevante)",
+      "management": "Evitare l'uso regolare; se necessario distanziare le somministrazioni (ibuprofene almeno 8 ore prima dell'ASA) o preferire un altro antinfiammatorio"
+    },
+    {
+      "severity": "major",
+      "agent": "Anticoagulanti (warfarin, DOAC) e antiaggreganti (clopidogrel)",
+      "effect": "Aumento marcato del rischio di emorragia gastrointestinale",
+      "management": "Evitare quando possibile; se indispensabile, durata minima e gastroprotezione con inibitore di pompa"
+    },
+    {
+      "severity": "major",
+      "agent": "Corticosteroidi orali e inibitori selettivi della ricaptazione della serotonina (SSRI)",
+      "effect": "Aumento del rischio di ulcerazione ed emorragia gastrointestinale",
+      "management": "Gastroprotezione e sorveglianza dei sintomi"
+    },
+    {
+      "severity": "moderate",
+      "agent": "ACE-inibitori, sartani e diuretici",
+      "effect": "Riduzione dell'effetto antipertensivo e rischio di danno renale acuto e iperkaliemia (soprattutto nel paziente ipovolemico o anziano)",
+      "management": "Monitorare pressione, creatinina e potassio; idratazione adeguata; evitare l'uso prolungato"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Altri FANS, inclusi gli inibitori selettivi della COX-2, e salicilati ad alte dosi",
+      "effect": "Effetto additivo sul rischio gastrointestinale senza beneficio aggiuntivo",
+      "management": "Non associare"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Litio, metotressato, ciclosporina, tacrolimus",
+      "effect": "Aumento dei livelli e della tossicita' per riduzione dell'escrezione renale",
+      "management": "Monitoraggio dei livelli e della funzione renale"
+    }
+  ]
+}

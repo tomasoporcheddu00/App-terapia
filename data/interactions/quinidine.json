@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "id": "quinidine",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Chinidina/idrochinidina - RCP (Torrinomedica/Codifa/Mediately su base AIFA): classe Ia, aritmie SV/ventricolari, cinconismo, torsione di punta, discrasie ematiche.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/ritmocor/",
+        "identifier": "Chinidina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "quinidine",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Altri farmaci che prolungano il QT (sotalolo, amiodarone, alcuni macrolidi/antifungini)",
+      "effect": "Rischio elevato di torsione di punta",
+      "management": "Evitare l'associazione"
+    },
+    {
+      "severity": "major",
+      "agent": "Digossina",
+      "effect": "Aumento marcato dei livelli di digossina",
+      "management": "Ridurre la digossina e monitorare la digossinemia"
+    },
+    {
+      "severity": "major",
+      "agent": "Antagonisti della vitamina K (warfarin)",
+      "effect": "Potenziamento dell'effetto anticoagulante",
+      "management": "Monitorare l'INR"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Farmaci che alcalinizzano le urine (acetazolamide, bicarbonato)",
+      "effect": "Aumento dei livelli di chinidina",
+      "management": "Monitorare"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Induttori enzimatici (rifampicina, fenobarbital, fenitoina)",
+      "effect": "Riduzione dei livelli e dell'efficacia",
+      "management": "Adeguare la dose"
+    }
+  ]
+}

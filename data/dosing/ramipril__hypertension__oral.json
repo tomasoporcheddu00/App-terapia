@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "id": "ramipril__hypertension__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Schede posologiche ramipril (my-personaltrainer, equivalente.it/Egualia su base Banca Dati AIFA): titolazione e dosi per indicazione.",
+        "url": "https://www.my-personaltrainer.it/Foglietti-illustrativi/Ramipril_-_Farmaco_Generico.html",
+        "identifier": "Ramipril posologia",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Ramipril - Riassunto delle Caratteristiche del Prodotto / Foglio Illustrativo (rese da portali su base RCP AIFA): controindicazioni (§4.3), avvertenze (§4.4) e interazioni (§4.5).",
+        "url": "https://www.codifa.it/farmaci/r/ramipril-git-ramipril-ace-inibitori",
+        "identifier": "Ramipril RCP §4.3-4.5",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false perche' non verificata contro l'RCP ufficiale integrale. Da confermare e approvare dal revisore."
+  },
+  "drugId": "ramipril",
+  "indication": "hypertension",
+  "scenario": "Ipertensione arteriosa essenziale",
+  "route": "orale",
+  "dose": {
+    "initial": "2,5 mg una volta al giorno (in alcuni pazienti 1,25 mg)",
+    "titration": "raddoppio della dose a intervalli di 2-4 settimane secondo la risposta pressoria",
+    "maintenance": "2,5-5 mg al giorno",
+    "max": "10 mg al giorno",
+    "renalAdjustment": "CrCl <30 mL/min: ridurre dose iniziale e dose massima con monitoraggio stretto"
+  },
+  "administration": {
+    "notes": "Preferibilmente al mattino, alla stessa ora. Nei pazienti in terapia diuretica valutare sospensione temporanea del diuretico o dose iniziale ridotta per il rischio di ipotensione da prima dose."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

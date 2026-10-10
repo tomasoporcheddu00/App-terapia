@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "tenecteplase__thrombolysis-ami__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Tenecteplase (Metalyse) - RCP EMA/AIFA (Mediately/Codifa): TNK-tPA, bolo unico EV peso-dipendente (max 10.000 U / 50 mg) nell'IMA con sopra-ST entro 6h.",
+        "url": "https://mediately.co/it/drugs/IcvguA9fJUrekeWHhqKNCYLyREG/metalyse-10000-u-polvere-e-solvente-per-soluzione-iniettabile",
+        "identifier": "Metalyse RCP",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EMA-AIFA; smpcVerified=false. Dosi trombolitiche ad alto rischio."
+  },
+  "drugId": "tenecteplase",
+  "indication": "thrombolysis",
+  "scenario": "IMA con sopra-ST (bolo unico peso-dipendente)",
+  "route": "endovenosa",
+  "dose": {
+    "weight": "bolo EV unico in ~10 sec secondo il peso: <60 kg 6.000 U (30 mg); 60-<70 kg 7.000 U (35 mg); 70-<80 kg 8.000 U (40 mg); 80-<90 kg 9.000 U (45 mg); >=90 kg 10.000 U (50 mg)",
+    "max": "10.000 U (50 mg)",
+    "elderly": ">=75 anni: cautela (in STREAM meta' dose)"
+  },
+  "administration": {
+    "notes": "EV bolo unico. Associare antiaggreganti e anticoagulante secondo linee guida. Solo uso ospedaliero da personale esperto."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

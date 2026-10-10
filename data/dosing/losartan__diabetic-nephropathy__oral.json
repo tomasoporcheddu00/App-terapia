@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "losartan__diabetic-nephropathy__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Losartan potassico - RCP (rese da Mediately/Codifa/Pharmamedix su base AIFA): indicazioni, posologia §4.2, avvertenze §4.4.",
+        "url": "https://mediately.co/it/drugs/MyB3hspSIG8EMgcKM85pHCnFSnC/losartan-teva-100-mg-compresse-rivestite-divisibili",
+        "identifier": "Losartan RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "losartan",
+  "indication": "diabetic-nephropathy",
+  "scenario": "Nefropatia diabetica (diabete tipo 2 con proteinuria)",
+  "route": "orale",
+  "dose": {
+    "initial": "50 mg una volta al giorno",
+    "maintenance": "100 mg una volta al giorno secondo pressione",
+    "max": "100 mg al giorno"
+  },
+  "administration": {
+    "notes": "Spesso in aggiunta ad altri antipertensivi per raggiungere il target pressorio."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

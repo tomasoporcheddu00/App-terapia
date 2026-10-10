@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "id": "ibutilide",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Ibutilide (Corvert) - RCP (Codifa/Torrinomedica/dica33 su base AIFA): classe III EV per conversione acuta di FA/flutter; torsione di punta ~5%; correggere K/Mg; uso ospedaliero.",
+        "url": "https://www.codifa.it/farmaci/c/corvert-ibutilide-fumarato-antiaritmici",
+        "identifier": "Corvert RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC) e da monografie di riferimento: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Antiaritmici a indice terapeutico stretto: verificare dosi e QT prima dell'uso.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Ibutilide",
+    "inn": "ibutilide",
+    "brandExamplesIt": [
+      "Corvert"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antiaritmico classe III (endovenoso)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "aa-class-iii"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antiaritmico di classe III endovenoso per la conversione acuta della fibrillazione/flutter atriale a ritmo sinusale; piu' efficace sul flutter. Uso ospedaliero per il rischio di torsione di punta.",
+    "mainUses": [
+      "Conversione acuta della fibrillazione/flutter atriale a ritmo sinusale"
+    ],
+    "mainRisks": [
+      "Torsione di punta / tachicardia ventricolare polimorfa (~5%)"
+    ],
+    "essentialMonitoring": [
+      "ECG continuo durante e per almeno 4 ore dopo",
+      "Potassiemia e magnesiemia (correggere prima)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Conversione acuta della fibrillazione atriale o del flutter atriale a ritmo sinusale"
+    ],
+    "guidelineIndications": [
+      "Piu' efficace sul flutter (70-80%) che sulla FA; spesso si premedica con magnesio EV per ridurre le aritmie ventricolari indotte - confermare su fonte"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Anamnesi di tachicardia ventricolare polimorfa (torsione di punta)",
+      "Insufficienza cardiaca sintomatica"
+    ],
+    "warnings": [
+      "Puo' indurre torsione di punta/TV polimorfa (~5%, sostenuta e potenzialmente fatale nell'1,9%): monitoraggio ECG durante e per almeno 4 ore dopo l'infusione",
+      "Correggere ipopotassiemia e ipomagnesiemia prima del trattamento (spesso magnesio EV preventivo)",
+      "Interrompere l'infusione se compare aritmia ventricolare",
+      "Maggiore rischio nei pazienti con scompenso/FE ridotta e nelle donne"
+    ],
+    "adverseEffects": [
+      "Torsione di punta / tachicardia ventricolare polimorfa",
+      "Ipotensione",
+      "Nausea",
+      "Extrasistoli/blocchi transitori"
+    ],
+    "overdose": "Il sovradosaggio (o la proaritmia) causa torsione di punta: interrompere l'infusione, somministrare magnesio EV, eventuale defibrillazione o pacing temporaneo.",
+    "antidoteDrugIds": [
+      "magnesium-sulfate"
+    ],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento (clearance indipendente dalla funzione renale).",
+      "hepatic": "Cautela.",
+      "elderly": "Monitoraggio.",
+      "pregnancy": "Solo se necessario.",
+      "breastfeeding": "Non raccomandato."
+    },
+    "alternativeDrugIds": [
+      "amiodarone",
+      "dofetilide",
+      "flecainide"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un antiaritmico da vena per 'riportare in ritmo' una fibrillazione o un flutter atriale, dato in ospedale perche' puo' scatenare un'aritmia pericolosa.",
+    "clinicalExplanation": "Antiaritmico di classe III EV (blocco dell'IKr e attivazione di una corrente lenta del sodio) per la conversione acuta di FA/flutter; efficacia maggiore sul flutter. Rischio di torsione di punta: monitoraggio e correzione elettrolitica.",
+    "molecularExplanation": "Blocca la corrente del potassio IKr e attiva una corrente lenta di sodio verso l'interno, prolungando la ripolarizzazione.",
+    "pharmacodynamics": "Allungamento del periodo refrattario atriale e ventricolare; conversione acuta di FA/flutter.",
+    "molecularTarget": "Canale del potassio IKr (e corrente lenta del sodio)",
+    "agonismAntagonism": "Blocco/modulazione dei canali ionici",
+    "pharmacokinetics": {
+      "route": "Endovenosa",
+      "halfLife": "~6 ore",
+      "elimination": "Metabolica/renale (indipendente dalla clearance)"
+    },
+    "bibliography": []
+  }
+}

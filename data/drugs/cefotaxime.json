@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "id": "cefotaxime",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "SCOPO DELLA SCHEDA: in questo atlante cardiologico gli antibiotici sono trattati SOLO per il ruolo nell'endocardite infettiva; per ogni altro impiego fare riferimento all'RCP e alla consulenza infettivologica. Regimi sintetizzati dalle linee guida ESC 2023 sull'endocardite (tabelle 7-10) tramite fonti secondarie e dal position statement SPILF-AEPEI: DA CONFERMARE sul testo integrale delle linee guida e sul corrigendum 2025, che ha corretto le dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10. La scelta di molecola, dose e durata dipende da patogeno, MIC, tipo di valvola (nativa o protesica) e funzione renale, e va concordata con l'Endocarditis Team. Stato: revisione fonti (source-review). Ruolo nell'endocardite: la scelta e la durata dipendono da patogeno, MIC e tipo di valvola. Verificare sempre le tabelle ESC 2023 aggiornate al corrigendum e concordare con l'Endocarditis Team.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Cefotaxime",
+    "inn": "cefotaxime",
+    "brandExamplesIt": [
+      "Claforan"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Cefalosporina di terza generazione",
+  "identity": {
+    "atcCodes": [
+      "J01DD01"
+    ],
+    "formulations": [
+      "Polvere per soluzione iniettabile"
+    ],
+    "potentialRoutes": [
+      "endovenosa"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "cephalosporins"
+  ],
+  "quickSummary": {
+    "whatItIs": "Cefalosporina di terza generazione alternativa al ceftriaxone, con somministrazioni piu' frequenti ma preferibile in alcune situazioni cliniche.",
+    "mainUses": [
+      "Endocardite da microrganismi sensibili, come alternativa al ceftriaxone",
+      "Endocardite associata a meningite, in alternativa alla penicillina"
+    ],
+    "mainRisks": [
+      "Reazioni di ipersensibilita'",
+      "Somministrazioni piu' frequenti rispetto al ceftriaxone",
+      "Neurotossicita' da accumulo nell'insufficienza renale"
+    ],
+    "essentialMonitoring": [
+      "Funzione renale prima e durante il trattamento",
+      "Emocolture di controllo per documentare la sterilizzazione",
+      "Segni di reazione allergica"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Infezioni sostenute da microrganismi sensibili, secondo la scheda tecnica"
+    ],
+    "guidelineIndications": [
+      "Quando l'endocardite si associa a MENINGITE la penicillina va evitata per la scarsa penetrazione liquorale e sostituita con ceftriaxone o cefotaxime, da soli o in associazione a vancomicina",
+      "Alternativa al ceftriaxone negli schemi per streptococchi, con posologia frazionata"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alle cefalosporine; cautela in caso di reazione grave a penicilline"
+    ],
+    "warnings": [
+      "Reattivita' crociata con le penicilline",
+      "Neurotossicita' con convulsioni da accumulo nell'insufficienza renale",
+      "Colite da Clostridioides difficile",
+      "A differenza del ceftriaxone non forma precipitati con il calcio: puo' essere preferito quando servono infusioni di calcio"
+    ],
+    "adverseEffects": [
+      "Reazioni di ipersensibilita' e rash",
+      "Diarrea e colite da Clostridioides difficile",
+      "Alterazioni dell'emocromo",
+      "Flebite in sede di infusione"
+    ],
+    "overdose": "Il sovradosaggio, favorito dall'insufficienza renale, causa neurotossicita'. Terapia di supporto.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Ridurre la dose secondo la clearance.",
+      "hepatic": "Consultare l'RCP.",
+      "elderly": "Attenzione alla funzione renale.",
+      "pregnancy": "Utilizzabile secondo valutazione clinica.",
+      "breastfeeding": "Consultare l'RCP."
+    },
+    "alternativeDrugIds": [
+      "ceftriaxone",
+      "penicillin-g",
+      "vancomycin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Simile al ceftriaxone ma va dato piu' volte al giorno. Si preferisce quando c'e' anche una meningite o quando servono flebo di calcio.",
+    "clinicalExplanation": "Cefalosporina di terza generazione con emivita breve e somministrazioni frazionate. Nell'endocardite e' alternativa al ceftriaxone; e' indicata insieme al ceftriaxone quando l'endocardite si associa a meningite, condizione in cui la penicillina va evitata per la scarsa penetrazione liquorale. Non forma precipitati con il calcio.",
+    "molecularExplanation": "Inibisce le proteine leganti la penicillina.",
+    "pharmacodynamics": "Battericida tempo-dipendente.",
+    "molecularTarget": "Proteine leganti la penicillina (PBP)",
+    "agonismAntagonism": "Inibizione della sintesi o della funzione batterica",
+    "pharmacokinetics": {
+      "route": "Endovenosa",
+      "halfLife": "Circa 1 ora",
+      "note": "Metabolita attivo desacetil-cefotaxime; eliminazione renale"
+    },
+    "bibliography": []
+  }
+}

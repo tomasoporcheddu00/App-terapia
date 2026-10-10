@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "carvedilol__hypertension__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Carvedilolo - RCP (Codifa/Torrinomedica su base AIFA): indicazioni, titolazione, assunzione con cibo nello scompenso.",
+        "url": "https://www.codifa.it/farmaci/c/carvedilolo-eg-carvedilolo-betabloccanti",
+        "identifier": "Carvedilolo RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "carvedilol",
+  "indication": "hypertension",
+  "scenario": "Ipertensione arteriosa",
+  "route": "orale",
+  "dose": {
+    "initial": "12,5 mg una volta al giorno per 2 giorni",
+    "maintenance": "25 mg una volta al giorno",
+    "max": "50 mg al giorno"
+  },
+  "administration": {
+    "notes": "Non e' necessario assumere con i pasti nell'ipertensione."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

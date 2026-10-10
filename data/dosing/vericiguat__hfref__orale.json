@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "vericiguat__hfref__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Vericiguat (Verquvo) - RCP/EPAR (EMA, Mediately, SwissPAR): indicazione HFrEF dopo riacutizzazione, titolazione 2,5->10 mg con cibo, controindicazione riociguat/PDE5.",
+        "url": "https://mediately.co/it/drugs/7c1YbrtSteLbFYGsKPMVAi7G4MS/verquvo-14-cpr-riv-2-5-mg",
+        "identifier": "Vericiguat RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EPAR; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "vericiguat",
+  "indication": "chronic-heart-failure",
+  "scenario": "Scompenso cardiaco a FE ridotta dopo riacutizzazione",
+  "route": "orale",
+  "dose": {
+    "initial": "2,5 mg una volta al giorno (alcuni RCP indicano 5 mg; 2,5 mg se ipotensione sintomatica nelle ultime 4 settimane)",
+    "titration": "raddoppio circa ogni 2 settimane secondo pressione e tollerabilita'",
+    "maintenance": "10 mg una volta al giorno (dose target)",
+    "max": "10 mg al giorno"
+  },
+  "administration": {
+    "notes": "Assumere con il cibo. Ottimizzare volemia e terapia diuretica prima dell'avvio. Non associare a inibitori della PDE5."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

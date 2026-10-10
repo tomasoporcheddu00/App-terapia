@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "id": "adenosine",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Adenosina (Krenosin) - RCP (Codifa/Torrinomedica/Mediately su base AIFA): nucleoside, blocco AV transitorio, conversione della TPSV; controindicata in blocco AV II-III/malattia del seno senza PM e broncospasmo; uso ospedaliero.",
+        "url": "https://www.codifa.it/farmaci/k/krenosin-adenosina-cardiovascolari-adenilici-amp-atp-",
+        "identifier": "Krenosin RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC) e da monografie di riferimento: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Antiaritmici a indice terapeutico stretto: verificare dosi e QT prima dell'uso.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Adenosina",
+    "inn": "adenosina",
+    "brandExamplesIt": [
+      "Krenosin",
+      "Adenosina (varie)"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antiaritmico/agente del nodo AV (nucleoside endogeno)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "other-antiarrhythmics"
+  ],
+  "quickSummary": {
+    "whatItIs": "Nucleoside endogeno che rallenta transitoriamente la conduzione nel nodo AV: interrompe le tachicardie da rientro nodale e aiuta la diagnosi delle tachicardie. Emivita di pochi secondi.",
+    "mainUses": [
+      "Conversione rapida della tachicardia parossistica sopraventricolare (incluso WPW)",
+      "Ausilio diagnostico nelle tachicardie a complessi larghi/stretti"
+    ],
+    "mainRisks": [
+      "Vampata, dolore toracico, dispnea transitori",
+      "Broncospasmo (asma)",
+      "Bradicardia/asistolia transitoria"
+    ],
+    "essentialMonitoring": [
+      "ECG continuo durante la somministrazione",
+      "Disponibilita' di rianimazione"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Rapida conversione a ritmo sinusale delle tachicardie parossistiche sopraventricolari, incluse quelle associate a vie accessorie (sindrome di Wolff-Parkinson-White)",
+      "Ausilio nella diagnosi delle tachicardie sopraventricolari a complessi larghi o stretti (rallenta la conduzione AV smascherando l'attivita' atriale; non converte FA/flutter/TV)"
+    ],
+    "guidelineIndications": [
+      "Farmaco di prima scelta per interrompere la TPSV da rientro nodale; utile anche a scopo diagnostico. Nel WPW con FA preeccitata va usata con cautela - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Blocco atrioventricolare di 2o-3o grado o malattia del nodo del seno senza pacemaker",
+      "Broncopneumopatia cronica ostruttiva con broncospasmo / asma bronchiale",
+      "Ipersensibilita'",
+      "Sindrome del QT lungo",
+      "Ipotensione grave; scompenso cardiaco scompensato"
+    ],
+    "warnings": [
+      "Somministrare solo in ambiente con monitoraggio ECG e rianimazione disponibili (possibili aritmie transitorie durante la conversione)",
+      "Effetti transitori: vampata, dolore/oppressione toracica, dispnea, breve bradicardia/asistolia",
+      "Broncospasmo: evitare nell'asma",
+      "I pazienti che sviluppano blocco AV di grado elevato non devono ricevere ulteriori incrementi di dose"
+    ],
+    "adverseEffects": [
+      "Vampata di calore",
+      "Dolore/oppressione toracica, dispnea",
+      "Bradicardia/asistolia transitoria",
+      "Cefalea, capogiro"
+    ],
+    "overdose": "Gli effetti sono di brevissima durata (emivita <10 secondi) e si risolvono spontaneamente; per effetti persistenti la teofillina/aminofillina antagonizza l'adenosina.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento (metabolismo ematico/tissutale).",
+      "hepatic": "Nessun aggiustamento.",
+      "elderly": "Dose invariata.",
+      "pregnancy": "Utilizzabile se necessario.",
+      "breastfeeding": "Compatibile (emivita brevissima)."
+    },
+    "alternativeDrugIds": [
+      "verapamil",
+      "diltiazem",
+      "amiodarone"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Una sostanza naturale che, iniettata di colpo in vena, 'blocca per un attimo' il nodo del cuore e ferma certe tachicardie; l'effetto dura pochi secondi.",
+    "clinicalExplanation": "Nucleoside endogeno che attiva i recettori A1 rallentando transitoriamente la conduzione nel nodo AV: interrompe i circuiti di rientro che coinvolgono il nodo AV. Emivita <10 secondi. Non converte FA/flutter/TV ma ne facilita la diagnosi.",
+    "molecularExplanation": "Attiva i recettori dell'adenosina A1 nel nodo AV, aumentando la corrente del potassio e iperpolarizzando le cellule (rallentamento della conduzione AV).",
+    "pharmacodynamics": "Rallentamento transitorio della conduzione atrioventricolare con interruzione delle tachicardie da rientro nodale.",
+    "molecularTarget": "Recettori dell'adenosina A1 (nodo AV)",
+    "agonismAntagonism": "Agonismo dei recettori A1",
+    "pharmacokinetics": {
+      "route": "Endovenosa (bolo rapido)",
+      "halfLife": "<10 secondi",
+      "elimination": "Captazione cellulare rapida"
+    },
+    "bibliography": []
+  }
+}

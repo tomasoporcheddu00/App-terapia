@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "id": "amiodarone",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Amiodarone (Cordarone) - RCP (Codifa/Pharmamedix/informazionisuifarmaci su base AIFA): classe III multi-effetto; tossicita' tiroidea/polmonare/epatica/corneale, QT; interazioni con QT-prolunganti, digossina, warfarin, statine.",
+        "url": "http://www.carloanibaldi.com/terapia/schede/CORDARONE.html",
+        "identifier": "Cordarone RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC) e da monografie di riferimento: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Antiaritmici a indice terapeutico stretto: verificare dosi e QT prima dell'uso.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Amiodarone",
+    "inn": "amiodarone",
+    "brandExamplesIt": [
+      "Cordarone",
+      "Amiodar"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antiaritmico classe III (multi-effetto)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "aa-class-iii"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antiaritmico potente e ad ampio spettro (aritmie sopraventricolari e ventricolari); molto efficace ma con importante tossicita' d'organo (tiroide, polmone, fegato, occhio, cute) legata all'uso prolungato.",
+    "mainUses": [
+      "Aritmie ventricolari severe (TV/FV)",
+      "Fibrillazione/flutter atriale (controllo del ritmo)",
+      "Tachicardie parossistiche sopraventricolari e aritmie in WPW"
+    ],
+    "mainRisks": [
+      "Disfunzione tiroidea (contiene iodio)",
+      "Tossicita' polmonare (polmonite interstiziale/fibrosi)",
+      "Epatotossicita', microdepositi corneali, prolungamento del QT"
+    ],
+    "essentialMonitoring": [
+      "Funzione tiroidea (TSH a 3 e 6 mesi, poi ogni 6)",
+      "Transaminasi",
+      "Radiografia del torace/valutazione polmonare",
+      "ECG (QT); esame oftalmologico se disturbi visivi"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Aritmie ventricolari severe (tachicardia/fibrillazione ventricolare)",
+      "Fibrillazione e flutter atriale (controllo del ritmo)",
+      "Tachicardie parossistiche sopraventricolari e aritmie associate a WPW, quando altri trattamenti sono inefficaci o controindicati"
+    ],
+    "guidelineIndications": [
+      "Antiaritmico di scelta in molte aritmie ventricolari e nel controllo del ritmo della FA con cardiopatia strutturale/scompenso; efficace anche nell'arresto da FV/TV refrattaria - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Bradicardia sinusale, blocco seno-atriale o disfunzione del nodo del seno senza pacemaker",
+      "Blocco atrioventricolare di grado avanzato senza pacemaker",
+      "Disfunzione tiroidea (ipertiroidismo/ipotiroidismo)",
+      "Ipersensibilita' allo iodio o all'amiodarone",
+      "Gravidanza e allattamento (salvo casi eccezionali)",
+      "Associazione con farmaci che inducono torsione di punta"
+    ],
+    "warnings": [
+      "Tossicita' polmonare (polmonite interstiziale/fibrosi, potenzialmente fatale): valutare dispnea/tosse con imaging del torace",
+      "Disfunzione tiroidea (contiene ~37% di iodio): monitorare il TSH a 3 e 6 mesi, poi ogni 6, e nel primo anno dopo la sospensione",
+      "Epatotossicita': monitorare le transaminasi",
+      "Microdepositi corneali (reversibili), fotosensibilita', pigmentazione cutanea grigio-bluastra, neuropatia periferica",
+      "Prolungamento del QT e proaritmia (piu' raro rispetto ad altri antiaritmici, favorito da ipopotassiemia/interazioni)",
+      "Puo' modificare le soglie di pacemaker/defibrillatore",
+      "Ricercare la dose minima efficace (effetti dose-dipendenti)"
+    ],
+    "adverseEffects": [
+      "Disfunzione tiroidea",
+      "Tossicita' polmonare",
+      "Aumento delle transaminasi",
+      "Microdepositi corneali, fotosensibilita', pigmentazione cutanea",
+      "Bradicardia, prolungamento del QT",
+      "Neuropatia periferica, disturbi gastrointestinali"
+    ],
+    "overdose": "Il sovradosaggio causa bradicardia, blocco AV, ipotensione e prolungamento del QT; trattamento sintomatico (l'amiodarone non e' dializzabile), atropina/isoprenalina o pacing per la bradicardia.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico.",
+      "hepatic": "Cautela; monitorare le transaminasi.",
+      "elderly": "Maggiore rischio di bradicardia e disfunzione tiroidea.",
+      "pregnancy": "Controindicato (effetti sulla tiroide fetale) salvo eccezioni.",
+      "breastfeeding": "Controindicato."
+    },
+    "alternativeDrugIds": [
+      "dronedarone",
+      "sotalol",
+      "flecainide"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Il piu' potente e versatile degli antiaritmici, ma va sorvegliato nel tempo perche' puo' danneggiare tiroide, polmoni, fegato e occhi.",
+    "clinicalExplanation": "Antiaritmico di classe III con proprieta' di tutte le classi (blocco dei canali del potassio, del sodio, del calcio ed effetto antiadrenergico). Emivita lunghissima (settimane): richiede una dose di carico. Ampio spettro con tossicita' d'organo dose- e tempo-dipendente.",
+    "molecularExplanation": "Blocca prevalentemente i canali del potassio (allunga la ripolarizzazione) con effetti anche su canali del sodio e del calcio e blocco adrenergico non competitivo.",
+    "pharmacodynamics": "Allungamento del periodo refrattario e del QT, rallentamento della frequenza e della conduzione AV; ampio spettro antiaritmico.",
+    "molecularTarget": "Canali del potassio (e sodio/calcio) cardiaci; recettori adrenergici",
+    "agonismAntagonism": "Blocco dei canali ionici / antiadrenergico",
+    "pharmacokinetics": {
+      "halfLife": "Settimane (accumulo tissutale)",
+      "metabolism": "Epatico (CYP3A4; inibitore di CYP2C9/2D6/3A4 e P-gp)",
+      "iodine": "~37% di iodio per molecola"
+    },
+    "bibliography": [
+      "EMIAT/CAMIAT, SCD-HeFT (amiodarone) - da citare con fonte primaria"
+    ]
+  }
+}

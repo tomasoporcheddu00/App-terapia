@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "id": "rosuvastatin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Rosuvastatina - RCP (Mediately/Codifa/Torrinomedica su base AIFA): dose 5-40 mg, restrizioni dei 40 mg, etnia asiatica/IR, controindicazioni renali e ciclosporina.",
+        "url": "https://www.codifa.it/farmaci/r/rosuvastatina",
+        "identifier": "Rosuvastatina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Rosuvastatina",
+    "inn": "rosuvastatina",
+    "brandExamplesIt": [
+      "Crestor",
+      "Provisacor",
+      "Simestat"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Statina (inibitore HMG-CoA reduttasi) ad alta intensita'",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "statins"
+  ],
+  "quickSummary": {
+    "whatItIs": "Statina idrofila molto potente per abbassare il colesterolo LDL; richiede attenzione alla dose in alcune categorie (anziani, etnia asiatica, insufficienza renale).",
+    "mainUses": [
+      "Ipercolesterolemia e dislipidemia mista",
+      "Ipercolesterolemia familiare",
+      "Prevenzione cardiovascolare"
+    ],
+    "mainRisks": [
+      "Miopatia (rara rabdomiolisi)",
+      "Proteinuria/ematuria dose-dipendente",
+      "Interazione con ciclosporina"
+    ],
+    "essentialMonitoring": [
+      "Profilo lipidico",
+      "Transaminasi",
+      "CK se sintomi muscolari",
+      "Funzione renale"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipercolesterolemia primaria (incluse forme familiari eterozigoti) e dislipidemia mista",
+      "Ipercolesterolemia familiare omozigote",
+      "Prevenzione degli eventi cardiovascolari nei pazienti ad alto rischio"
+    ],
+    "guidelineIndications": [
+      "Statina ad alta intensita' a 20-40 mg (la piu' potente per milligrammo); di prima linea nel rischio alto/molto alto - confermare su ESC/EAS"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Epatopatia in fase attiva o aumento persistente e inspiegato delle transaminasi (>3 volte il limite superiore della norma)",
+      "Gravidanza e allattamento (e donne in eta' fertile senza contraccezione adeguata)",
+      "Insufficienza renale grave (clearance della creatinina <30 mL/min)",
+      "Miopatia",
+      "Uso concomitante con ciclosporina"
+    ],
+    "warnings": [
+      "Miopatia/rabdomiolisi (rara): rischio aumentato con dosi elevate, eta' avanzata, insufficienza renale, ipotiroidismo, abuso di alcol, anamnesi personale/familiare di malattie muscolari e interazioni farmacologiche; misurare la CK in caso di dolore/debolezza muscolare e sospendere se marcato aumento della CK o sospetta rabdomiolisi",
+      "Monitorare le transaminasi prima dell'inizio e quando clinicamente indicato",
+      "Piccolo aumento del rischio di diabete di nuova insorgenza (beneficio cardiovascolare comunque prevalente)",
+      "Rara miopatia necrotizzante immuno-mediata (persistenza della debolezza nonostante la sospensione)",
+      "La dose da 40 mg e' controindicata in presenza di fattori predisponenti alla miopatia: insufficienza renale moderata, ipotiroidismo, anamnesi personale/familiare di malattie muscolari, etnia asiatica, abuso di alcol, uso concomitante di fibrati",
+      "Iniziare con 5 mg nei pazienti >70 anni, di etnia asiatica, con insufficienza renale moderata o con fattori di rischio per miopatia",
+      "Substrato dei trasportatori OATP1B1/BCRP (non prevalentemente CYP): attenzione a ciclosporina e alcuni antiretrovirali"
+    ],
+    "adverseEffects": [
+      "Mialgie",
+      "Aumento delle transaminasi",
+      "Aumento della CK",
+      "Disturbi gastrointestinali",
+      "Cefalea",
+      "Diabete di nuova insorgenza (piccolo aumento)",
+      "Rara miopatia/rabdomiolisi",
+      "Proteinuria ed ematuria (dose-dipendenti, generalmente transitorie)"
+    ],
+    "overdose": "In caso di sovradosaggio, trattamento sintomatico e di supporto; l'emodialisi non e' utile.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Iniziare con 5 mg nell'insufficienza renale moderata; controindicata se clearance <30 mL/min.",
+      "hepatic": "Controindicata nell'epatopatia attiva.",
+      "elderly": "Iniziare con 5 mg nei pazienti >70 anni.",
+      "pregnancy": "Controindicata.",
+      "breastfeeding": "Controindicata."
+    },
+    "alternativeDrugIds": [
+      "atorvastatin",
+      "pitavastatin",
+      "pravastatin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Una delle statine piu' forti per ridurre il colesterolo; la dose va scelta con attenzione in anziani, etnia asiatica e reni non perfetti.",
+    "clinicalExplanation": "Statina idrofila ad alta intensita' (20-40 mg), substrato di OATP1B1/BCRP (poco CYP); restrizioni specifiche per la dose da 40 mg.",
+    "molecularExplanation": "Inibisce la HMG-CoA reduttasi, enzima limitante della sintesi epatica del colesterolo; la deplezione intracellulare di colesterolo aumenta l'espressione dei recettori delle LDL, incrementando la rimozione delle LDL dal circolo.",
+    "pharmacodynamics": "Riduzione del colesterolo LDL (marcata), modesta riduzione dei trigliceridi e lieve aumento del colesterolo HDL; riduzione degli eventi cardiovascolari in prevenzione primaria e secondaria.",
+    "molecularTarget": "HMG-CoA reduttasi (idrossimetilglutaril-CoA reduttasi)",
+    "agonismAntagonism": "Inibizione enzimatica",
+    "pharmacokinetics": {
+      "metabolism": "Scarso (non prevalentemente CYP; parziale CYP2C9)",
+      "transporters": "Substrato di OATP1B1 e BCRP",
+      "elimination": "Prevalentemente fecale",
+      "halfLife": "~19 ore",
+      "food": "Indipendente dai pasti"
+    },
+    "bibliography": [
+      "Cholesterol Treatment Trialists' (CTT) - metanalisi sull'efficacia delle statine - da citare con fonte primaria"
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "id": "prasugrel",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Efient (prasugrel), EMA - sez. 4.1-4.4 (aggiornamento 11/01/2024); coerente con generici (Prasugrel Viatris/Teva/Mylan).",
+        "url": "https://www.torrinomedica.it/schede-farmaci/efient_10_mg/",
+        "identifier": "Efient 10 mg; ATC B01AC22",
+        "retrievedAt": "2026-07-18"
+      },
+      {
+        "type": "smpc",
+        "citation": "RCP prasugrel - posologia (carico 60 mg, mantenimento 10 mg; 5 mg se <60 kg o >=75 anni).",
+        "url": "https://mediately.co/it/drugs/9VZ84F4zpvANeFNc9M7nS6JR0hs/prasugrel-viatris-10-mg-compresse-rivestite",
+        "identifier": "prasugrel posologia",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Indicazione, posologia e controindicazioni verificate su RCP Efient/generici. ATC B01AC22. Stato regolatorio italiano (classe, eventuale PT/registro AIFA storico) da verificare su banca dati AIFA.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Prasugrel",
+    "inn": "prasugrel",
+    "brandExamplesIt": [
+      "Efient"
+    ]
+  },
+  "synonyms": [],
+  "classIds": [
+    "p2y12-inhibitors"
+  ],
+  "subclass": "Tienopiridina (inibitore irreversibile del P2Y12) - profarmaco",
+  "classificationStatus": "confirmed",
+  "identity": {
+    "atcCodes": [
+      "B01AC22"
+    ],
+    "formulations": [
+      "compresse rivestite con film 5 mg",
+      "compresse rivestite con film 10 mg"
+    ],
+    "potentialRoutes": [
+      "oral"
+    ],
+    "availabilityStatus": "available",
+    "marketingAuthorisationIt": true
+  },
+  "linkedMacroAreaIds": [
+    "acute-coronary-syndrome",
+    "ischemic-heart-disease"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antiaggregante tienopiridinico di terza generazione, profarmaco che inibisce in modo irreversibile il recettore P2Y12; piu' rapido e potente del clopidogrel.",
+    "mainUses": [
+      "Sindrome coronarica acuta (UA/NSTEMI o STEMI) sottoposta a PCI, in associazione ad ASA"
+    ],
+    "mainRisks": [
+      "Emorragia (maggiore nell'anziano e nel basso peso)"
+    ],
+    "essentialMonitoring": [
+      "Segni di sanguinamento"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "In associazione ad ASA, prevenzione degli eventi aterotrombotici in adulti con sindrome coronarica acuta (angina instabile, NSTEMI o STEMI) sottoposti a intervento coronarico percutaneo (PCI) primario o ritardato"
+    ],
+    "guidelineIndications": [
+      "Inibitore P2Y12 preferenziale in molte SCA sottoposte a PCI (in DAPT con ASA) secondo linee guida ESC; posizionamento rispetto a ticagrelor da compilare con la fonte primaria."
+    ],
+    "offLabelUses": [],
+    "populations": [
+      "Adulti con SCA sottoposti a PCI (studio TRITON-TIMI 38)"
+    ],
+    "advantages": [
+      "Inibizione piastrinica piu' rapida e potente del clopidogrel",
+      "Minor variabilita' farmacogenetica rispetto al clopidogrel"
+    ],
+    "limitations": [
+      "Controindicato in caso di pregresso ictus/TIA",
+      "Maggior rischio emorragico nell'anziano (>=75 anni) e nel basso peso (<60 kg)",
+      "Non raccomandato in genere >=75 anni"
+    ],
+    "alternativeDrugIds": [
+      "ticagrelor",
+      "clopidogrel"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Sanguinamento patologico in atto",
+      "Storia clinica di ictus o attacco ischemico transitorio (TIA)",
+      "Insufficienza epatica grave (Child-Pugh C)"
+    ],
+    "relativeContraindications": [],
+    "warnings": [
+      "Rischio emorragico aumentato; informare il paziente che l'arresto di un sanguinamento puo' richiedere piu' tempo",
+      "Eta' >=75 anni: uso generalmente non raccomandato; se necessario, dose di mantenimento ridotta a 5 mg dopo attenta valutazione",
+      "Peso <60 kg: dose di mantenimento 5 mg (10 mg non raccomandata)",
+      "Nell'UA/NSTEMI con coronarografia entro 48 ore, somministrare la dose di carico solo al momento del PCI",
+      "Sospendere almeno 7 giorni prima di chirurgia elettiva"
+    ],
+    "adverseEffects": [
+      "Emorragia (inclusa maggiore e mortale)",
+      "Ematoma",
+      "Epistassi",
+      "Anemia",
+      "Rare reazioni di ipersensibilita' (incluso angioedema)"
+    ],
+    "overdose": "Il sovradosaggio aumenta il rischio emorragico; nessun antidoto specifico. La trasfusione piastrinica puo' essere considerata per ripristinare l'emostasi.",
+    "antidoteDrugIds": [],
+    "monitoring": [
+      "Segni/sintomi di sanguinamento",
+      "Emocromo se sospetto sanguinamento"
+    ],
+    "discontinuation": "Non interrompere prematuramente in DAPT dopo PCI (rischio trombosi di stent); sospendere almeno 7 giorni prima di chirurgia maggiore.",
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento (esperienza limitata in ESRD).",
+      "hepatic": "Controindicato in Child-Pugh C; nessun aggiustamento in lieve-moderata (cautela).",
+      "elderly": ">=75 anni: uso generalmente non raccomandato; se necessario, mantenimento 5 mg.",
+      "lowBodyWeight": "<60 kg: mantenimento 5 mg.",
+      "obesity": null,
+      "pregnancy": "Dati limitati; usare solo se necessario (verificare RCP).",
+      "breastfeeding": "Non noto se escreto nel latte umano (verificare RCP)."
+    },
+    "dosingRegimenIds": [
+      "prasugrel__acs-pci__oral"
+    ],
+    "interactionRefs": [],
+    "regulatoryItId": "prasugrel"
+  },
+  "deep": {
+    "simpleExplanation": "Blocca in modo definitivo il recettore P2Y12 delle piastrine, con effetto piu' rapido e forte del clopidogrel; usato dopo l'angioplastica coronarica.",
+    "clinicalExplanation": "Profarmaco tienopiridinico attivato piu' efficientemente del clopidogrel (idrolisi + singolo passaggio CYP), il cui metabolita attivo inibisce irreversibilmente il P2Y12 per la vita della piastrina.",
+    "molecularExplanation": "Il metabolita attivo si lega covalentemente al recettore P2Y12, bloccando l'attivazione ADP-mediata dell'aggregazione piastrinica.",
+    "molecularTarget": "Recettore piastrinico P2Y12 (ADP)",
+    "agonismAntagonism": "Inibitore irreversibile",
+    "selectivity": "Selettivo per il P2Y12",
+    "pharmacodynamics": "Inibizione dell'aggregazione gia' 15-30 min dopo il carico di 60 mg; inibizione massima ~83%, superiore e piu' rapida del clopidogrel.",
+    "hemodynamicEffects": "Nessun effetto emodinamico diretto.",
+    "electrophysiologicEffects": "Nessuno.",
+    "pharmacokinetics": {
+      "bioavailability": null,
+      "timeToPeak": "Metabolita attivo ~30 minuti",
+      "halfLife": "Metabolita attivo ~7 ore",
+      "proteinBinding": null,
+      "metabolism": "Profarmaco: idrolisi esterasica poi ossidazione via CYP3A4/CYP2B6 (minori CYP2C9/2C19) al metabolita attivo",
+      "enzymes": [
+        "CYP3A4",
+        "CYP2B6",
+        "CYP2C9",
+        "CYP2C19"
+      ],
+      "transporters": [],
+      "activeMetabolites": [
+        "metabolita tiolico attivo"
+      ],
+      "elimination": "Urine e feci",
+      "dialyzability": null
+    },
+    "evidenceIds": [],
+    "recommendationIds": [],
+    "bibliography": [
+      "TRITON-TIMI 38 (prasugrel vs clopidogrel, NEJM 2007)"
+    ]
+  }
+}

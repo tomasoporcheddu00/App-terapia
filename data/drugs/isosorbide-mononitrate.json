@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Isosorbide mononitrato - RCP (Torrinomedica/Mediately/Univadis su base AIFA): profilassi dell'angina, dose 20-60 mg, non idoneo all'attacco acuto, tolleranza, controindicazione PDE5.",
+        "url": "https://mediately.co/it/drugs/852xuOrEMinxo1ybiG5IgLV2kRu/isosorbide-mononitrato-eg-20-mg-compresse",
+        "identifier": "Isosorbide mononitrato RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Isosorbide-5-mononitrato - RCP (Torrinomedica), paragrafo 5.2: emivita ~5 ore, biodisponibilita' orale ~100%.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/Isosorbide_mononitrato/",
+        "identifier": "RCP - farmacocinetica",
+        "retrievedAt": "2026-07-25"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false,
+    "id": "isosorbide-mononitrate"
+  },
+  "name": {
+    "generic": "Isosorbide mononitrato",
+    "inn": "isosorbide-5-mononitrato",
+    "brandExamplesIt": [
+      "Monoket",
+      "Elan",
+      "Duronitrin"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Nitrato organico (orale, profilassi)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "organic-nitrates"
+  ],
+  "quickSummary": {
+    "whatItIs": "Nitrato orale (metabolita attivo del dinitrato) per la prevenzione degli attacchi di angina; non adatto a spegnere l'attacco acuto.",
+    "mainUses": [
+      "Profilassi dell'angina pectoris",
+      "Insufficienza coronarica cronica (terapia di mantenimento)"
+    ],
+    "mainRisks": [
+      "Cefalea, ipotensione",
+      "Tolleranza"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa",
+      "Risposta sintomatica"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Prevenzione degli attacchi di angina pectoris e terapia di mantenimento dell'insufficienza coronarica",
+      "Terapia post-infarto e di mantenimento dell'insufficienza miocardica cronica (anche in associazione)"
+    ],
+    "guidelineIndications": [
+      "Nitrato di riferimento per la profilassi cronica dell'angina (biodisponibilita' ~100%, no metabolismo di primo passaggio); non idoneo all'attacco acuto - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' ai nitrati o agli eccipienti",
+      "Uso concomitante di inibitori della PDE5 (sildenafil, tadalafil, vardenafil) o di stimolatori della guanilato ciclasi solubile (riociguat): rischio di ipotensione grave",
+      "Ipotensione grave, ipovolemia o shock cardiogeno (senza adeguato riempimento ventricolare)",
+      "Stenosi aortica o mitralica grave",
+      "Cardiomiopatia ipertrofica ostruttiva (i nitrati possono aggravare l'angina)",
+      "Aumento della pressione endocranica; pericardite costrittiva o tamponamento cardiaco",
+      "Anemia grave"
+    ],
+    "warnings": [
+      "Tolleranza e tolleranza crociata con altri nitroderivati: prevedere un intervallo libero da nitrati (circa 8-12 ore) ed evitare la terapia prolungata ad alte dosi",
+      "Cefalea (molto comune, soprattutto all'inizio), ipotensione anche ortostatica, vampate, capogiro, tachicardia riflessa",
+      "Angina di rimbalzo alla sospensione brusca: sospendere gradualmente",
+      "Cautela in caso di deplezione di volume (terapia diuretica) e di ipotensione preesistente",
+      "Non idoneo al trattamento dell'attacco anginoso acuto (esordio d'azione troppo lento)",
+      "Adottare un regime asimmetrico o a rilascio prolungato con intervallo libero per limitare la tolleranza",
+      "Iniziare a dose bassa (20-40 mg) per ridurre cefalea e ipotensione"
+    ],
+    "adverseEffects": [
+      "Cefalea",
+      "Ipotensione / ipotensione ortostatica",
+      "Vampate di calore",
+      "Capogiro",
+      "Tachicardia riflessa",
+      "Tolleranza (con l'uso continuativo)"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione e cefalea intensa; trattamento di supporto.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico.",
+      "hepatic": "Cautela.",
+      "elderly": "Iniziare a dose bassa.",
+      "pregnancy": "Solo se necessario.",
+      "breastfeeding": "Cautela."
+    },
+    "alternativeDrugIds": [
+      "isosorbide-dinitrate",
+      "nitroglycerin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Una compressa che previene l'angina durante la giornata; non serve per fermare l'attacco in corso (per quello si usa la nitroglicerina sublinguale).",
+    "clinicalExplanation": "Metabolita attivo dell'isosorbide dinitrato con biodisponibilita' orale completa; usato per la profilassi cronica dell'angina. Richiede un intervallo libero da nitrati per evitare la tolleranza.",
+    "molecularExplanation": "Rilascia NO con attivazione della guanilato ciclasi e vasodilatazione (prevalentemente venosa).",
+    "pharmacodynamics": "Riduzione del precarico e vasodilatazione coronarica; effetto profilattico prolungato.",
+    "molecularTarget": "Via NO-guanilato ciclasi-cGMP",
+    "agonismAntagonism": "Donatore di ossido d'azoto (NO)",
+    "pharmacokinetics": {
+      "bioavailability": "~100% (nessun metabolismo di primo passaggio)",
+      "route": "Orale (pronto rilascio e rilascio prolungato)",
+      "food": "Dopo i pasti",
+      "halfLife": "~5 ore (nitrato a lunga durata d'azione, circa 8 volte l'emivita dell'isosorbide dinitrato); biodisponibilita' orale ~100% senza effetto di primo passaggio, eliminazione urinaria come glucuronato"
+    },
+    "bibliography": []
+  }
+}

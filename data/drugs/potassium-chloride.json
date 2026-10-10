@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "id": "potassium-chloride",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Cloruro di potassio - RCP (Codifa/Torrinomedica/EMpills su base AIFA): reintegro del potassio; EV mai non diluito (letale), farmaco ad alto rischio; controindicato in iperkaliemia/Addison/IR grave.",
+        "url": "https://www.torrinomedica.it/farmaci/schedetecniche/Potassio_Cloruro.asp",
+        "identifier": "Cloruro di potassio RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Agenti d'urgenza: le dosi di emergenza vanno adattate ai protocolli locali. Soluzioni concentrate: farmaco ad alto rischio (Raccomandazione Ministeriale n. 1 sul corretto uso del KCl EV).",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Cloruro di potassio",
+    "inn": "cloruro di potassio",
+    "brandExamplesIt": [
+      "Potassio Cloruro (varie)"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Elettrolita (reintegro di potassio)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "electrolyte-metabolic-agents"
+  ],
+  "quickSummary": {
+    "whatItIs": "Sale di potassio per correggere l'ipokaliemia, per via orale o endovenosa. La forma EV concentrata e' un farmaco ad alto rischio: mortale se somministrata non diluita.",
+    "mainUses": [
+      "Ipokaliemia / deficit di potassio (orale o EV se la via orale non e' possibile)"
+    ],
+    "mainRisks": [
+      "Iperkaliemia iatrogena (causa più comune)",
+      "MORTALE se EV non diluito o troppo rapido",
+      "Flebite/sclerosi venosa"
+    ],
+    "essentialMonitoring": [
+      "Potassiemia",
+      "ECG (infusione EV rapida)",
+      "Funzione renale; magnesiemia"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento del deficit di potassio (ipokaliemia); la via endovenosa e' riservata ai pazienti in cui non e' possibile il reintegro per via orale"
+    ],
+    "guidelineIndications": [
+      "Ipokaliemia lieve (2,5-3,5): via orale 40-100 mEq/die; EV riservata alle forme gravi/sintomatiche o quando la via orale non e' utilizzabile - AIOM/EMpills",
+      "Correggere sempre l'eventuale ipomagnesiemia (ipokaliemia altrimenti refrattaria) - confermare su fonte"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Iperkaliemia o stati di ritenzione di potassio",
+      "Grave insufficienza epatica, renale e surrenale",
+      "Malattia di Addison non trattata",
+      "Disidratazione acuta",
+      "Crampi da calore"
+    ],
+    "warnings": [
+      "Farmaco ad ALTO RISCHIO: la soluzione concentrata (>=1 mEq/mL) e' MORTALE se infusa non diluita - diluire sempre in glucosata 5% o fisiologica; mai in bolo/spinta rapida",
+      "Velocita': in genere <=10 mmol/h da vena periferica; velocita' superiori (fino a ~40 mEq/h in emergenza) solo da via centrale con monitoraggio ECG continuo",
+      "Somministrare in una vena grande periferica o centrale (rischio di sclerosi/flebite)",
+      "La terapia con potassio (specie EV) e' la causa piu' comune di iperkaliemia iatrogena: monitorare la potassiemia",
+      "Cautela/riduzione nell'insufficienza renale; monitoraggio stretto con ACE-inibitori/sartani, MRA e risparmiatori di potassio"
+    ],
+    "adverseEffects": [
+      "Iperkaliemia (iatrogena)",
+      "Flebite/dolore/sclerosi al sito (EV)",
+      "Irritazione gastrointestinale, nausea (orale)",
+      "Alterazioni ECG da iperkaliemia"
+    ],
+    "overdose": "Il sovradosaggio causa iperkaliemia: gestire come iperkaliemia (calcio EV per la protezione cardiaca, insulina+glucosio, salbutamolo, chelanti/dialisi).",
+    "antidoteDrugIds": [
+      "calcium-gluconate"
+    ],
+    "specialPopulations": {
+      "renal": "Controindicato nella grave; ridurre e monitorare.",
+      "hepatic": "Controindicato nella grave.",
+      "elderly": "Cautela.",
+      "pregnancy": "Utilizzabile ai dosaggi terapeutici.",
+      "breastfeeding": "Compatibile."
+    },
+    "alternativeDrugIds": [
+      "magnesium-sulfate"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Reintegra il potassio quando e' basso. In compresse e' sicuro; in vena la forma concentrata e' uno dei farmaci piu' pericolosi: va sempre diluita e infusa lentamente.",
+    "clinicalExplanation": "Reintegro di potassio (1 g KCl ≈ 13,4 mEq). Via orale preferita; EV riservata alle forme gravi o quando la via orale e' impraticabile, con diluizione obbligatoria, limiti di velocita' e monitoraggio ECG. Correggere il magnesio associato.",
+    "molecularExplanation": "Fornisce ioni potassio per ripristinare il gradiente transmembrana e l'eccitabilita' di nervi e miocardio.",
+    "pharmacodynamics": "Ripristino della potassiemia e normalizzazione dell'eccitabilita' cardiaca e neuromuscolare.",
+    "molecularTarget": "Ione potassio (potenziale di membrana / eccitabilita')",
+    "agonismAntagonism": "Reintegro elettrolitico",
+    "pharmacokinetics": {
+      "route": "Orale ed endovenosa (diluita)",
+      "note": "1 g KCl ≈ 13,4 mmol di K+",
+      "halfLife": "Non applicabile in senso farmacocinetico: la potassiemia dipende dalla ridistribuzione transcellulare e dall'escrezione renale"
+    },
+    "bibliography": []
+  }
+}

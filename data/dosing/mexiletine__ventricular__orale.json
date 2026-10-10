@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "mexiletine__ventricular__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Mexiletina - RCP (Codifa/Torrinomedica/EMA Namuscla): classe Ib orale, aritmie ventricolari (Mexitil, uso storico); in Italia Namuscla per la miotonia, con controindicazioni cardiache.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/namuscla/",
+        "identifier": "Mexiletina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Antiaritmico a indice terapeutico stretto: confermare dose, funzione renale/epatica e QT."
+  },
+  "drugId": "mexiletine",
+  "indication": "ventricular-tachycardia",
+  "scenario": "Aritmie ventricolari (uso storico, orale)",
+  "route": "orale",
+  "dose": {
+    "standard": "circa 600 mg/die (200 mg tre volte al giorno) - schema dell'uso storico come antiaritmico",
+    "note": "la formulazione Namuscla per la miotonia ha posologia dedicata (166,62 mg titolati)",
+    "max": "secondo tollerabilita' ed ECG"
+  },
+  "administration": {
+    "notes": "Orale ai pasti. Sospensione graduale. Per Namuscla seguire l'RCP dedicato alla miotonia."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

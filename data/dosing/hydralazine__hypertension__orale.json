@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "hydralazine__hypertension__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Idralazina - RCP/monografie (MSD/Humanitas/centralino su base RCP): vasodilatatore diretto arteriolare; ipertensione add-on, emergenza in gravidanza, scompenso con nitrati; lupus farmaco-indotto, tachicardia riflessa.",
+        "url": "https://www.msdmanuals.com/it/professionale/disturbi-dell-apparato-cardiovascolare/ipertensione/farmaci-per-l-ipertensione",
+        "identifier": "Idralazina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Da confermare e approvare."
+  },
+  "drugId": "hydralazine",
+  "indication": "hypertension",
+  "scenario": "Ipertensione / preeclampsia / scompenso (con nitrati)",
+  "route": "orale",
+  "dose": {
+    "oral": "iniziare basso e titolare, in 2-4 somministrazioni/die (spesso con betabloccante + diuretico)",
+    "pregnancyIV": "emergenza ipertensiva in gravidanza: per via parenterale sotto monitoraggio fetale e materno",
+    "hf": "nello scompenso in associazione all'isosorbide dinitrato",
+    "max": "secondo risposta (dosi elevate aumentano il rischio di lupus)"
+  },
+  "administration": {
+    "notes": "Orale in piu' dosi. In gravidanza per via parenterale monitorata. Associare betabloccante (tachicardia) e diuretico (ritenzione)."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

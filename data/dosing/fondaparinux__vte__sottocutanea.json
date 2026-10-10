@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "fondaparinux__vte__sottocutanea",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Fondaparinux (Arixtra) - RCP EMA/AIFA (Univadis/EC): pentasaccaride sintetico anti-Xa indiretto; profilassi TEV 2,5 mg SC/die, trattamento TVP/EP 7,5 mg (5 mg <50 kg, 10 mg >100 kg); controindicato clearance <30, endocardite batterica acuta.",
+        "url": "https://www.univadis.it/references/drug-database/viewdrug/arixtra-70760",
+        "identifier": "Arixtra RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EMA-AIFA; smpcVerified=false. Adattare al paziente e ai protocolli locali."
+  },
+  "drugId": "fondaparinux",
+  "indication": "vte-prophylaxis-treatment",
+  "scenario": "Profilassi e trattamento del TEV",
+  "route": "sottocutanea",
+  "dose": {
+    "prophylaxis": "2,5 mg SC una volta al giorno (nei pazienti chirurgici prima dose 6 ore dopo la fine dell'intervento)",
+    "treatment-dvt-pe": "7,5 mg SC una volta al giorno (peso 50-100 kg); 5 mg se <50 kg; 10 mg se >100 kg",
+    "superficial-vein-thrombosis": "2,5 mg SC una volta al giorno"
+  },
+  "administration": {
+    "notes": "Solo sottocutanea (mai IM). Valutare la clearance della creatinina. Rispettare gli intervalli con l'anestesia peridurale."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

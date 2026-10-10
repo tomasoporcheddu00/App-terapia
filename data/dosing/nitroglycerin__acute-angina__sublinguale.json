@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "id": "nitroglycerin__acute-angina__sublinguale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Nitroglicerina (trinitrato di glicerile) - RCP (Codifa/Teva/Pharmamedix su base AIFA): nitrato organico, formulazioni sublinguale/transdermica/EV, tolleranza, controindicazione PDE5.",
+        "url": "https://www.codifa.it/farmaci/n/nitroglicerina-teva-nitroglicerina-nitrati",
+        "identifier": "Nitroglicerina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Da confermare e approvare."
+  },
+  "drugId": "nitroglycerin",
+  "indication": "angina",
+  "scenario": "Attacco anginoso acuto",
+  "route": "sublinguale",
+  "dose": {
+    "dose": "0,3-0,6 mg per via sublinguale (compressa o spray), ripetibile fino a 3 volte a intervalli di ~5 minuti",
+    "note": "se il dolore persiste dopo la terza dose contattare l'emergenza"
+  },
+  "administration": {
+    "notes": "Sublinguale, da seduti. Non deglutire la compressa; lo spray sotto la lingua senza inalare."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

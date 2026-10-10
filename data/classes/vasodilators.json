@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "id": "vasodilators",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Vasodilatatori diretti (sodio nitroprussiato): sintesi da RCP.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/sodio_nitroprussiato/",
+        "identifier": "Vasodilatatori classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP; confermare su RCP ufficiali e linee guida."
+  },
+  "name": "Vasodilatatori diretti (parenterali)",
+  "atcGroup": "C02DD",
+  "memberDrugIds": [
+    "sodium-nitroprusside"
+  ],
+  "mechanismSummary": "Vasodilatazione diretta della muscolatura liscia (per il nitroprussiato tramite rilascio diretto di NO), con riduzione rapida delle resistenze vascolari e della pressione arteriosa.",
+  "molecularTarget": "Muscolatura liscia vascolare (via NO-cGMP per il nitroprussiato)",
+  "pharmacodynamics": "Vasodilatazione arteriosa e venosa a rapida insorgenza; riduzione della pressione arteriosa e del postcarico.",
+  "classEffects": [
+    "Riduzione rapida e titolabile della pressione arteriosa (emergenze)",
+    "Riduzione del postcarico nelle sindromi da bassa portata"
+  ],
+  "sharedContraindications": [
+    "Insufficienza epatica o renale grave (nitroprussiato)",
+    "Ipertensione compensatoria (coartazione, shunt)",
+    "Ipersensibilita'"
+  ],
+  "sharedAdverseEffects": [
+    "Ipotensione marcata",
+    "Cefalea, nausea",
+    "Tossicita' da cianuro/tiocianato (nitroprussiato)"
+  ],
+  "monitoring": [
+    "Pressione arteriosa continua",
+    "Equilibrio acido-base/lattato (nitroprussiato)"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Classe dei vasodilatatori parenterali per uso intensivo. Il sodio nitroprussiato e' un donatore diretto di NO, potente e rapidissimo, per le emergenze ipertensive e la dissezione aortica, con l'avvertenza della tossicita' da cianuro/tiocianato. I nitrati organici (nitroglicerina, isosorbide) sono trattati nella classe dedicata. Dettagli nella scheda."
+}

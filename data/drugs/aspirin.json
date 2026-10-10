@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "id": "aspirin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Cardioaspirin 100 mg compresse gastroresistenti (acido acetilsalicilico), Bayer - sez. 4.1-4.6 (RCP italiana AIFA).",
+        "url": "https://www.codifa.it/farmaci/c/cardioaspirin-acido-acetilsalicilico-antiaggreganti-piastrinici-antipiretici-analgesici-fans",
+        "identifier": "Cardioaspirin 100 mg; ATC B01AC06",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Monografia limitata all'uso ANTIAGGREGANTE cardiologico (basse dosi, es. 100 mg gastroprotetto). Le indicazioni analgesico/antipiretiche (dosi alte) sono un contesto diverso non trattato qui. ATC B01AC06 (antiaggregante). Classe di rimborsabilita' e AIC da verificare su banca dati AIFA. Alcune controindicazioni sono troncate nella fonte snippet (es. grave insufficienza cardiaca, metotressato ad alte dosi): da confermare su RCP integrale.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Acido acetilsalicilico",
+    "inn": "acetylsalicylic acid",
+    "brandExamplesIt": [
+      "Cardioaspirin",
+      "Aspirinetta"
+    ]
+  },
+  "synonyms": [
+    "ASA",
+    "Aspirina (dose antiaggregante)"
+  ],
+  "classIds": [
+    "antiplatelets-cox-inhibitors"
+  ],
+  "subclass": "Inibitore irreversibile della COX-1 (antiaggregante)",
+  "classificationStatus": "confirmed",
+  "identity": {
+    "atcCodes": [
+      "B01AC06"
+    ],
+    "formulations": [
+      "compresse gastroresistenti 100 mg"
+    ],
+    "potentialRoutes": [
+      "oral"
+    ],
+    "availabilityStatus": "available",
+    "marketingAuthorisationIt": true
+  },
+  "linkedMacroAreaIds": [
+    "ischemic-heart-disease",
+    "secondary-cardiovascular-prevention"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antiaggregante piastrinico che a basse dosi inibisce in modo irreversibile la COX-1 riducendo il trombossano A2.",
+    "mainUses": [
+      "Prevenzione degli eventi aterotrombotici maggiori",
+      "Prevenzione della riocclusione dopo by-pass aorto-coronarico e PTCA",
+      "Prevenzione CV nella malattia ateromasica conclamata"
+    ],
+    "mainRisks": [
+      "Emorragia (soprattutto gastrointestinale)",
+      "Broncospasmo nei soggetti sensibili"
+    ],
+    "essentialMonitoring": [
+      "Segni di sanguinamento GI",
+      "Sintomi respiratori nei soggetti a rischio"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Prevenzione degli eventi aterotrombotici maggiori",
+      "Prevenzione della riocclusione dei by-pass aorto-coronarici e nell'angioplastica coronarica percutanea transluminale (PTCA)",
+      "Prevenzione degli eventi cardiovascolari nei pazienti con malattia ateromasica conclamata, nei pazienti in emodialisi e prevenzione della trombosi durante circolazione extracorporea"
+    ],
+    "guidelineIndications": [
+      "Cardine dell'antiaggregazione nella cardiopatia ischemica (SCA e cronica) e componente della doppia antiaggregazione (DAPT) con un inibitore P2Y12; posizionamento dettagliato da compilare con le linee guida ESC pertinenti (fonte da aggiungere)."
+    ],
+    "offLabelUses": [],
+    "populations": [
+      "Adulti con malattia aterotrombotica; non indicato in eta' pediatrica (rischio di sindrome di Reye)"
+    ],
+    "advantages": [
+      "Basso costo",
+      "Efficacia consolidata",
+      "Somministrazione monogiornaliera"
+    ],
+    "limitations": [
+      "Rischio emorragico GI",
+      "Controindicato in ulcera gastroduodenale e diatesi emorragica",
+      "Reazioni nei soggetti con asma da salicilati/mastocitosi"
+    ],
+    "alternativeDrugIds": [
+      "clopidogrel"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' all'acido acetilsalicilico, ai salicilati o agli eccipienti",
+      "Mastocitosi preesistente (rischio di gravi reazioni di ipersensibilita')",
+      "Anamnesi di asma indotta da salicilati o FANS",
+      "Ulcera gastroduodenale",
+      "Diatesi emorragica",
+      "Insufficienza renale grave",
+      "Insufficienza epatica grave",
+      "Terzo trimestre di gravidanza per dosi >100 mg/die"
+    ],
+    "relativeContraindications": [],
+    "warnings": [
+      "Interrompere ai primi segni di reazione cutanea/mucosa o ipersensibilita'",
+      "Effetto antiaggregante persistente per diversi giorni (rilevante prima di chirurgia)",
+      "Cautela con altri farmaci che aumentano il rischio emorragico",
+      "Non indicato in eta' pediatrica"
+    ],
+    "adverseEffects": [
+      "Emorragia gastrointestinale",
+      "Dispepsia",
+      "Aumentato tempo di sanguinamento",
+      "Reazioni di ipersensibilita'/broncospasmo"
+    ],
+    "overdose": "Il sovradosaggio da salicilati causa disturbi acido-base ed elettrolitici, tinnito, iperventilazione; gestione di supporto (verificare su RCP integrale/tossicologia).",
+    "antidoteDrugIds": [],
+    "monitoring": [
+      "Segni di sanguinamento GI",
+      "Funzione renale nei pazienti a rischio"
+    ],
+    "discontinuation": "La sospensione perioperatoria va valutata rispetto al rischio trombotico; l'effetto antiaggregante persiste alcuni giorni.",
+    "specialPopulations": {
+      "renal": "Controindicato in insufficienza renale grave.",
+      "hepatic": "Controindicato in insufficienza epatica grave.",
+      "elderly": "Maggiore rischio emorragico GI; cautela.",
+      "lowBodyWeight": null,
+      "obesity": null,
+      "pregnancy": "Dosi >100 mg/die controindicate nel terzo trimestre; fino a 100 mg/die solo sotto stretto monitoraggio ostetrico.",
+      "breastfeeding": "Piccole quantita' nel latte; uso occasionale generalmente compatibile, cautela con uso regolare/dosi elevate."
+    },
+    "dosingRegimenIds": [
+      "aspirin__secondary-cv-prevention__oral"
+    ],
+    "interactionRefs": [],
+    "regulatoryItId": "aspirin"
+  },
+  "deep": {
+    "simpleExplanation": "A basse dosi rende le piastrine meno 'appiccicose', riducendo la formazione di coaguli nelle arterie.",
+    "clinicalExplanation": "Inibizione irreversibile della COX-1 piastrinica con riduzione della sintesi di trombossano A2; l'effetto dura per l'intera vita della piastrina (circa 7-10 giorni).",
+    "molecularExplanation": "Acetila in modo irreversibile un residuo di serina della ciclossigenasi-1, bloccando la produzione di trombossano A2 dall'acido arachidonico.",
+    "molecularTarget": "Ciclossigenasi-1 (COX-1) piastrinica",
+    "agonismAntagonism": "Inibitore irreversibile",
+    "selectivity": "A basse dosi prevale l'inibizione della COX-1 piastrinica",
+    "pharmacodynamics": "Riduce l'aggregazione piastrinica trombossano-dipendente; effetto non reversibile fino al ricambio piastrinico.",
+    "hemodynamicEffects": "Nessun effetto emodinamico diretto rilevante alle dosi antiaggreganti.",
+    "electrophysiologicEffects": "Nessuno.",
+    "pharmacokinetics": {
+      "bioavailability": null,
+      "timeToPeak": null,
+      "halfLife": "Acido acetilsalicilico breve; effetto antiaggregante persistente per la vita della piastrina",
+      "proteinBinding": null,
+      "metabolism": "Idrolisi ad acido salicilico; metabolismo epatico",
+      "enzymes": [],
+      "transporters": [],
+      "activeMetabolites": [
+        "acido salicilico"
+      ],
+      "elimination": "Renale (dipendente dal pH)",
+      "dialyzability": null
+    },
+    "evidenceIds": [],
+    "recommendationIds": [],
+    "bibliography": []
+  }
+}

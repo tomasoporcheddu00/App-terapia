@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "moxonidine__hypertension__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Moxonidina (Fisiotens) - RCP (Codifa/Mediately/Univadis su base AIFA): agonista dei recettori imidazolinici I1, ipertensione essenziale; 0,2-0,6 mg; ridurre in insufficienza renale.",
+        "url": "https://www.codifa.it/farmaci/f/fisiotens-moxonidina-antipertensivi-ad-azione-centrale",
+        "identifier": "Fisiotens RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Da confermare e approvare."
+  },
+  "drugId": "moxonidine",
+  "indication": "hypertension",
+  "scenario": "Ipertensione essenziale",
+  "route": "orale",
+  "dose": {
+    "initial": "0,2 mg una volta al giorno",
+    "titration": "dopo 3 settimane fino a 0,4 mg; dopo altre 3 settimane fino a 0,6 mg/die in 2 dosi",
+    "maxSingle": "dose singola massima 0,4 mg",
+    "renal": "IR: iniziare 0,2 mg, max 0,4 (moderata) / 0,3 (grave)"
+  },
+  "administration": {
+    "notes": "Con o senza cibo. Evitare la sospensione brusca. Ridurre nell'insufficienza renale."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

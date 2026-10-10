@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "id": "beta-blockers",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Betabloccanti: meccanismo, controindicazioni, avvertenze e interazioni di classe; sintesi da RCP/portali AIFA (Codifa, Mediately, Torrinomedica, Pharmamedix).",
+        "url": "https://www.torrinomedica.it/schede-farmaci/bisoprololo/",
+        "identifier": "Betabloccanti classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da fonti secondarie su base RCP; da confermare sugli RCP ufficiali EMA/AIFA e sulle linee guida (ESC). Classe molto eterogenea: le peculiarita' delle singole molecole (selettivita', vasodilatazione, azione classe III del sotalolo, formulazioni EV) restano nelle rispettive schede."
+  },
+  "name": "Betabloccanti",
+  "atcGroup": "C07 (betabloccanti)",
+  "memberDrugIds": [
+    "bisoprolol",
+    "metoprolol",
+    "carvedilol",
+    "nebivolol",
+    "atenolol",
+    "propranolol",
+    "esmolol",
+    "landiolol",
+    "labetalol",
+    "sotalol"
+  ],
+  "mechanismSummary": "Antagonizzano i recettori beta-adrenergici, riducendo frequenza cardiaca, contrattilita', conduzione AV e rilascio di renina; ne derivano calo della pressione, del consumo miocardico di ossigeno e, nello scompenso a FE ridotta, effetto favorevole sul rimodellamento e sulla sopravvivenza.",
+  "molecularTarget": "Recettori beta-adrenergici (beta1, +/- beta2, +/- alfa1)",
+  "pharmacodynamics": "Riduzione di frequenza e contrattilita' (effetto crono/inotropo negativo) e della conduzione AV; alcuni hanno vasodilatazione aggiuntiva (nebivololo via ossido nitrico; carvedilolo e labetalolo via blocco alfa1). Il sotalolo prolunga inoltre la ripolarizzazione (azione classe III).",
+  "classEffects": [
+    "Riduzione della pressione arteriosa e della frequenza cardiaca",
+    "Effetto antianginoso (riduzione del consumo miocardico di ossigeno)",
+    "Nello scompenso a FE ridotta: miglioramento della sopravvivenza con bisoprololo, carvedilolo, metoprololo succinato e nebivololo",
+    "Controllo della frequenza nelle tachiaritmie"
+  ],
+  "sharedContraindications": [
+    "Insufficienza cardiaca acuta/scompensata inotropo-dipendente; shock cardiogeno",
+    "Blocco AV di 2o-3o grado (senza pacemaker), malattia del nodo del seno, bradicardia sintomatica",
+    "Ipotensione grave",
+    "Broncospasmo/asma grave",
+    "Feocromocitoma non trattato",
+    "Acidosi metabolica"
+  ],
+  "sharedAdverseEffects": [
+    "Bradicardia, ipotensione",
+    "Astenia, estremita' fredde",
+    "Broncospasmo (nei predisposti)",
+    "Disturbi del sonno",
+    "Mascheramento dell'ipoglicemia nel diabetico"
+  ],
+  "monitoring": [
+    "Frequenza cardiaca e pressione arteriosa",
+    "Segni di scompenso durante la titolazione",
+    "ECG/conduzione AV (e QT per il sotalolo)",
+    "Glicemia nei diabetici"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Classe eterogenea: i beta1-selettivi (bisoprololo, metoprololo, atenololo, nebivololo, esmololo, landiololo) sono preferibili in asma/BPCO e diabete; i non selettivi (propranololo, sotalolo) e gli alfa/beta (carvedilolo, labetalolo) hanno profili peculiari. Nello scompenso solo bisoprololo, carvedilolo, metoprololo succinato e nebivololo hanno evidenza. Esmololo e landiololo sono endovenosi ultrabrevi per il controllo acuto della frequenza; il sotalolo e' anche un antiaritmico di classe III con rischio di torsione di punta; il labetalolo e' opzione nelle emergenze ipertensive e in gravidanza. Le differenze di liposolubilita' (propranololo lipofilo vs atenololo idrofilo) e di via di eliminazione (atenololo/sotalolo renali) sono rilevanti. Dettagli nelle singole schede."
+}

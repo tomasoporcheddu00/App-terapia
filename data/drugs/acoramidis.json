@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "id": "acoramidis",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Beyonttra (acoramidis) - RCP EMA (registro comunitario EC, allegato IT): indicazione ATTR-CM, posologia 712 mg due volte al giorno, farmacocinetica.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2025/20250210165087/anx_165087_it.pdf",
+        "identifier": "Beyonttra RCP EMA",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Comunicato di approvazione della Commissione Europea (febbraio 2025) e risultati dello studio ATTRibute-CM.",
+        "url": "https://www.bayer.com/media/en-us/heart-drug-beyonttra-acoramidis-approved-in-eu-for-treatment-of-transthyretin-amyloidosis-in-adults-with-cardiomyopathy/",
+        "identifier": "EC/ATTRibute-CM",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da RCP EMA/AIFA e da fonti secondarie derivate dagli RCP (Torrinomedica/Codifa/Mediately, registro comunitario EC). DA CONFERMARE sugli RCP ufficiali. Stato: revisione fonti (source-review), non ancora approvato. Farmaci specialistici per amiloidosi cardiaca e cardiomiopatia ipertrofica: prescrizione in centri esperti, con piano terapeutico e criteri diagnostici stringenti. Approvato in Europa piu' di recente del tafamidis: verificare disponibilita' e rimborsabilita' in Italia prima di prescriverlo.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Acoramidis",
+    "inn": "acoramidis",
+    "brandExamplesIt": [
+      "Beyonttra"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Stabilizzatore della transtiretina ad alta stabilizzazione (>=90%)",
+  "identity": {
+    "atcCodes": [
+      "N07XX18"
+    ],
+    "formulations": [
+      "Compresse rivestite con film"
+    ],
+    "potentialRoutes": [
+      "orale"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "ttr-stabilizers"
+  ],
+  "quickSummary": {
+    "whatItIs": "Stabilizzatore selettivo della transtiretina di seconda generazione, progettato per una stabilizzazione quasi completa (>=90%) del tetramero. Approvato dalla Commissione Europea nel febbraio 2025 per l'ATTR-CM.",
+    "mainUses": [
+      "Amiloidosi da transtiretina wild type o variante in pazienti adulti con cardiomiopatia (ATTR-CM)"
+    ],
+    "mainRisks": [
+      "Disturbi gastrointestinali (diarrea, dolore addominale), in genere lievi",
+      "Alterazioni di alcuni parametri ematochimici all'avvio del trattamento (vedere RCP)",
+      "Assenza di dati nella gravidanza"
+    ],
+    "essentialMonitoring": [
+      "Conferma diagnostica di ATTR-CM ed esclusione dell'amiloidosi AL prima di iniziare",
+      "Parametri ematochimici secondo RCP nelle prime fasi",
+      "Classe funzionale e decorso dello scompenso"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento dell'amiloidosi da transtiretina wild type o variante in pazienti adulti affetti da cardiomiopatia (ATTR-CM)"
+    ],
+    "guidelineIndications": [
+      "Nello studio di fase 3 ATTRibute-CM l'acoramidis e' risultato superiore al placebo nel ridurre l'endpoint composito di mortalita' per tutte le cause e ospedalizzazioni cardiovascolari, con separazione delle curve gia' a 3 mesi; riduzione del 42% del composito di mortalita' ed eventi ricorrenti di ospedalizzazione cardiovascolare a 30 mesi e del 50% della frequenza cumulativa di ospedalizzazioni cardiovascolari",
+      "Nell'estensione in aperto e' stata riportata una riduzione del rischio relativo di mortalita' per tutte le cause del 34% a 42 mesi"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti"
+    ],
+    "warnings": [
+      "All'inizio del trattamento possono verificarsi alterazioni di alcuni parametri di laboratorio: fare riferimento all'RCP per il monitoraggio previsto",
+      "Non sono disponibili dati sull'uso in donne in gravidanza",
+      "Le compresse vanno deglutite intere; l'assorbimento complessivo non e' influenzato dall'assunzione di cibo",
+      "La diagnosi di ATTR-CM va confermata e l'amiloidosi AL esclusa prima di iniziare, come per gli altri farmaci di questa classe"
+    ],
+    "adverseEffects": [
+      "Diarrea",
+      "Dolore addominale",
+      "Alterazioni di parametri di laboratorio all'avvio (vedere RCP)"
+    ],
+    "overdose": "Non sono disponibili dati specifici sul sovradosaggio: gestione di supporto. Non esiste un antidoto specifico.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Fare riferimento all'RCP per gli aggiustamenti.",
+      "hepatic": "Fare riferimento all'RCP per gli aggiustamenti.",
+      "elderly": "Popolazione di riferimento dello studio registrativo; nessun aggiustamento sistematico riportato.",
+      "pregnancy": "Nessun dato disponibile.",
+      "breastfeeding": "Nessun dato disponibile."
+    },
+    "alternativeDrugIds": [
+      "tafamidis",
+      "vutrisiran"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' un'altra pastiglia che stabilizza la stessa proteina del tafamidis, ma si prende due volte al giorno ed e' stata studiata per bloccarla in modo quasi completo. Anche questa non toglie l'amiloide gia' depositata.",
+    "clinicalExplanation": "Stabilizzatore selettivo della transtiretina progettato per una stabilizzazione quasi completa (>=90%) del tetramero, mimando la variante protettiva T119M. Nello studio ATTRibute-CM ha ridotto l'endpoint composito di mortalita' e ospedalizzazioni cardiovascolari, con beneficio precoce (gia' a 3 mesi). Approvato dalla Commissione Europea nel febbraio 2025; come per il tafamidis, il presupposto e' la corretta tipizzazione dell'amiloidosi.",
+    "molecularExplanation": "Si lega ai siti di legame della tiroxina del tetramero di transtiretina, stabilizzandolo in modo quasi completo e impedendo la dissociazione in monomeri amiloidogenici.",
+    "pharmacodynamics": "Stabilizzazione quasi completa della TTR con riduzione dei precursori amiloidogenici; aumento relativo delle concentrazioni sieriche di TTR come marcatore di stabilizzazione.",
+    "molecularTarget": "Tetramero della transtiretina (siti di legame della tiroxina)",
+    "agonismAntagonism": "Stabilizzazione cinetica del tetramero (>=90%)",
+    "pharmacokinetics": {
+      "route": "Orale, due volte al giorno",
+      "halfLife": "Vedere RCP",
+      "note": "Legame alle proteine plasmatiche 96,4%; volume apparente di distribuzione allo steady state ~654 litri; assorbimento non influenzato dal cibo"
+    },
+    "bibliography": []
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "id": "fibrinolytics",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Fibrinolitici: sintesi da RCP EMA/AIFA e linee guida ESC.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/actilyse/",
+        "identifier": "Fibrinolitici classe",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP/EMA e linee guida; confermare su RCP ufficiali e protocolli locali."
+  },
+  "name": "Fibrinolitici (trombolitici)",
+  "atcGroup": "B01AD (enzimi, trombolitici)",
+  "memberDrugIds": [
+    "alteplase",
+    "tenecteplase",
+    "urokinase"
+  ],
+  "mechanismSummary": "Farmaci che dissolvono i trombi gia' formati attivando il plasminogeno in plasmina, che degrada la fibrina. Comprendono agenti fibrino-specifici (alteplase, tenecteplase) e non fibrino-specifici (urochinasi).",
+  "molecularTarget": "Plasminogeno (conversione in plasmina)",
+  "pharmacodynamics": "Attivazione della fibrinolisi con dissoluzione del coagulo; gli agenti fibrino-specifici agiscono preferenzialmente sulla fibrina del trombo, quelli non selettivi determinano una fibrinolisi sistemica piu' marcata.",
+  "classEffects": [
+    "Trombolisi in urgenza (IMA con sopra-ST quando la PCI non e' tempestiva, embolia polmonare ad alto rischio, ictus ischemico per l'alteplase)",
+    "Rischio emorragico elevato, in particolare emorragia intracranica",
+    "Aritmie da riperfusione; possibili reazioni allergiche (piu' con urochinasi)"
+  ],
+  "sharedContraindications": [
+    "Rischio emorragico: emorragia in atto/recente, lesioni del SNC, ipertensione grave non controllata, chirurgia/trauma recenti, epatopatia grave, ictus emorragico o di origine ignota"
+  ],
+  "sharedAdverseEffects": [
+    "Emorragia (inclusa intracranica, anche fatale)",
+    "Aritmie da riperfusione",
+    "Ipotensione",
+    "Reazioni di ipersensibilita'/angioedema"
+  ],
+  "monitoring": [
+    "Segni di sanguinamento e stato neurologico",
+    "ECG (aritmie da riperfusione) e pressione arteriosa",
+    "Parametri coagulativi (fibrinogeno, piastrine, ematocrito)"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Fibrino-specifici (alteplase, tenecteplase): agiscono preferenzialmente sul trombo con minore deplezione del fibrinogeno; il tenecteplase si somministra in bolo unico peso-dipendente ed e' il fibrinolitico di scelta nell'IMA dove disponibile; l'alteplase resta di riferimento nell'ictus ischemico. Non fibrino-specifici (urochinasi): fibrinolisi sistemica piu' marcata, oggi in gran parte sostituiti ma ancora usati per la disostruzione di cateteri/shunt. Non esiste un antidoto specifico: l'emorragia si gestisce interrompendo l'infusione, con antifibrinolitici e reintegro dei fattori. Dosi nelle singole schede."
+}

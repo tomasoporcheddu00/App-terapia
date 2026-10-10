@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Inibitori diretti della renina (aliskiren): sintesi da RCP EMA/AIFA.",
+        "url": "https://medisoc.it/scheda-aliskiren/",
+        "identifier": "Renina classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP EMA/AIFA; confermare su RCP ufficiali e linee guida ESC.",
+    "id": "renin-inhibitors"
+  },
+  "name": "Inibitori diretti della renina",
+  "atcGroup": "C09XA",
+  "memberDrugIds": [
+    "aliskiren"
+  ],
+  "mechanismSummary": "Inibizione diretta della renina, che blocca il sistema renina-angiotensina al punto di attivazione (conversione dell'angiotensinogeno in angiotensina I), riducendo angiotensina I/II e l'attivita' reninica plasmatica.",
+  "molecularTarget": "Renina (enzima)",
+  "pharmacodynamics": "Riduzione della pressione con calo (non aumento) dell'attivita' reninica plasmatica, a differenza di ACE-inibitori e sartani.",
+  "classEffects": [
+    "Riduzione della pressione con blocco del sistema renina-angiotensina",
+    "Rischio di iperkaliemia (accentuato dal doppio blocco)",
+    "Controindicazione al doppio blocco con ACE-i/sartani in diabete/insufficienza renale (ALTITUDE)"
+  ],
+  "sharedContraindications": [
+    "Angioedema pregresso da aliskiren",
+    "Gravidanza",
+    "Associazione con ACE-i/sartani in diabete o insufficienza renale",
+    "Uso con ciclosporina/itraconazolo"
+  ],
+  "sharedAdverseEffects": [
+    "Diarrea",
+    "Iperkaliemia",
+    "Ipotensione",
+    "Angioedema (raro)"
+  ],
+  "monitoring": [
+    "Pressione arteriosa",
+    "Potassiemia",
+    "Funzione renale"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Classe rappresentata dall'aliskiren, unico inibitore diretto della renina in commercio. Alternativa nel blocco del sistema renina-angiotensina; il doppio blocco con ACE-inibitori o sartani e' controindicato nei diabetici e negli insufficienti renali per l'esito sfavorevole dello studio ALTITUDE (iperkaliemia, ipotensione, peggioramento renale). Dettagli nella scheda."
+}

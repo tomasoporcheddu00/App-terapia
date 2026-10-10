@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "id": "lercanidipine",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Lercanidipina - RCP (Mediately/Codifa/Pharmamedix su base AIFA): indicazione ipertensione lieve-moderata, dose 10-20 mg prima dei pasti, minor edema, controindicazioni renali/epatiche.",
+        "url": "https://www.codifa.it/farmaci/l/lercanidipina-doc-generici-lercanidipina-cloridrato-calcioantagonisti",
+        "identifier": "Lercanidipina RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Lercanidipina - monografia di farmacocinetica: emivita di eliminazione 8-10 ore, durata d'azione >=24 ore, metabolismo CYP3A4.",
+        "url": "https://en.wikipedia.org/wiki/Lercanidipine",
+        "identifier": "Monografia - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Lercanidipina",
+    "inn": "lercanidipina",
+    "brandExamplesIt": [
+      "Zanidip",
+      "Lercadip",
+      "Zanedip"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Calcioantagonista diidropiridinico (lipofilo, lunga durata)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "dhp-ccb"
+  ],
+  "quickSummary": {
+    "whatItIs": "Diidropiridinico lipofilo a lunga durata con minore incidenza di edema periferico; per l'ipertensione lieve-moderata.",
+    "mainUses": [
+      "Ipertensione arteriosa essenziale lieve-moderata"
+    ],
+    "mainRisks": [
+      "Edema periferico (meno frequente)",
+      "Vampate, cefalea"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipertensione arteriosa essenziale da lieve a moderata"
+    ],
+    "guidelineIndications": [
+      "Diidropiridinico con profilo di tollerabilita' favorevole (minor edema); neutrale su glicemia e lipidi - confermare su fonte"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alle diidropiridine o agli eccipienti",
+      "Ostruzione del tratto di efflusso ventricolare sinistro (es. stenosi aortica grave)",
+      "Angina instabile",
+      "Entro un mese da un infarto miocardico",
+      "Scompenso cardiaco non trattato",
+      "Insufficienza epatica grave",
+      "Insufficienza renale grave (GFR <30 mL/min, inclusa dialisi)",
+      "Uso concomitante con inibitori potenti del CYP3A4, ciclosporina o succo di pompelmo"
+    ],
+    "warnings": [
+      "Assumere almeno 15 minuti prima dei pasti (preferibilmente prima di colazione)",
+      "Minore incidenza di edema rispetto ad altre diidropiridine, ma possibile",
+      "Cautela nell'insufficienza renale ed epatica lieve-moderata",
+      "Neutra su glicemia e lipidi"
+    ],
+    "adverseEffects": [
+      "Edema periferico",
+      "Vampate di calore",
+      "Cefalea",
+      "Palpitazioni",
+      "Astenia"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione e tachicardia riflessa; trattamento di supporto.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Cautela nelle forme lievi-moderate; controindicata con GFR <30 (inclusa dialisi).",
+      "hepatic": "Controindicata nell'insufficienza epatica grave; cautela nella moderata (effetto aumentato).",
+      "elderly": "Nessun aggiustamento specifico; iniziare con prudenza.",
+      "pregnancy": "Controindicata (o solo con contraccezione efficace, secondo RCP).",
+      "breastfeeding": "Controindicata (elevata lipofilia)."
+    },
+    "alternativeDrugIds": [
+      "amlodipine",
+      "felodipine",
+      "nifedipine"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Diidropiridinico che gonfia meno le caviglie; si prende prima dei pasti, una volta al giorno.",
+    "clinicalExplanation": "Diidropiridinico lipofilo ad azione graduale e prolungata; minore edema periferico. Curva dose-risposta con plateau a 20-30 mg.",
+    "molecularExplanation": "Blocca i canali del calcio di tipo L vascolari; elevata lipofilia e deposito di membrana.",
+    "pharmacodynamics": "Vasodilatazione arteriosa selettiva con riduzione delle resistenze periferiche; a dosi terapeutiche scarso effetto su contrattilita' e conduzione AV (a differenza dei non diidropiridinici).",
+    "molecularTarget": "Canali del calcio di tipo L (voltaggio-dipendenti) della muscolatura liscia vascolare",
+    "agonismAntagonism": "Antagonista (blocco del canale del calcio)",
+    "pharmacokinetics": {
+      "metabolism": "Epatico (CYP3A4)",
+      "elimination": "Renale (~50%) e fecale",
+      "notes": "Assorbimento aumentato con i pasti: assumere a digiuno",
+      "halfLife": "~8-10 ore di emivita plasmatica, ma durata d'azione >=24 ore per l'elevata lipofilia e l'accumulo nella membrana (consente la monosomministrazione); biodisponibilita' orale bassa (~10%) per l'esteso primo passaggio CYP3A4"
+    },
+    "bibliography": [
+      "Studi sull'edema con lercanidipina vs altre diidropiridine - da citare con fonte primaria"
+    ]
+  }
+}

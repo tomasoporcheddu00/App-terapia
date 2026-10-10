@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "labetalol",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Banca Dati AIFA - labetalolo orale: classe A, RR; formulazione endovenosa a uso ospedaliero.",
+        "url": "https://www.my-personaltrainer.it/benessere/labetalolo.html",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Formulazione orale classe A (RR); formulazione endovenosa a uso ospedaliero. Confermare sul prontuario AIFA aggiornato."
+  },
+  "drugId": "labetalol",
+  "authorisation": "Nazionale (AIFA)",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RR (ricetta ripetibile)",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Farmacia (convenzionata)",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

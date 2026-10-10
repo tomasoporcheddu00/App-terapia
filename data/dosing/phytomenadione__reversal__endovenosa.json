@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "phytomenadione__reversal__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Fitomenadione (Konakion 10 mg/mL) - RCP (Univadis/Codifa su base AIFA) + Nota Informativa AIFA 2014: antidoto degli anticoagulanti cumarinici; EV lenta 5-10 mg con PFC/CCP nell'emorragia grave; NON per via IM negli adulti.",
+        "url": "https://www.univadis.it/references/drug-database/viewdrug/konakion-40478",
+        "identifier": "Konakion RCP",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EMA-AIFA; smpcVerified=false. Dosi d'urgenza da adattare ai protocolli locali e ai test coagulativi."
+  },
+  "drugId": "phytomenadione",
+  "indication": "vka-reversal",
+  "scenario": "Reversal degli anticoagulanti cumarinici (INR elevato)",
+  "route": "endovenosa",
+  "dose": {
+    "severe": "5-10 mg EV lenta (>=30 sec) + plasma fresco congelato o complesso protrombinico (emorragia grave, qualsiasi INR)",
+    "non-bleeding": "0,5-2 mg (orale o EV) se INR elevato senza sanguinamento maggiore; ripetibile a 24 h",
+    "elderly": "usare il dosaggio piu' basso del range"
+  },
+  "administration": {
+    "notes": "Orale o EV lenta; MAI IM negli adulti. Effetto in ore: nelle emorragie gravi associare PFC/complesso protrombinico."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

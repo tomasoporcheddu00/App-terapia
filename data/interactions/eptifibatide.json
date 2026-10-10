@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "eptifibatide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Eptifibatide (Integrilin) - RCP EMA (Commissione Europea, allegato IT): ciclopeptide antagonista della GPIIb/IIIa; UA/NSTEMI bolo 180 mcg/kg poi 2 mcg/kg/min fino a 72h; PCI doppio bolo; controindicato nell'insufficienza renale grave/dialisi.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2010/2010012073426/anx_73426_it.pdf",
+        "identifier": "Integrilin RCP",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "eptifibatide",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Terapia trombolitica",
+      "effect": "Aumento del rischio emorragico",
+      "management": "Associazione non raccomandata/solo secondo protocollo"
+    },
+    {
+      "severity": "major",
+      "agent": "Altri inibitori GPIIb/IIIa parenterali, anticoagulanti orali",
+      "effect": "Aumento rilevante del rischio emorragico",
+      "management": "Non associare"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Eparina non frazionata e ASA",
+      "effect": "Associazione prevista dall'indicazione con aumento atteso del rischio emorragico",
+      "management": "Monitorare aPTT/ACT e i segni di sanguinamento"
+    }
+  ]
+}

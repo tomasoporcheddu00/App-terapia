@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Aliskiren (Rasilez) - RCP EMA/AIFA (EMA/medisoc/informazionisuifarmaci): inibitore diretto della renina, ipertensione essenziale; 150-300 mg; controindicata l'associazione con ACE-i/sartani nel diabete o insufficienza renale (ALTITUDE); gravidanza.",
+        "url": "https://medisoc.it/scheda-aliskiren/",
+        "identifier": "Rasilez RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Aliskiren (Rasilez/Tekturna) - monografie di farmacocinetica (EMA/DailyMed): emivita di eliminazione ~24 ore, biodisponibilita' orale ~2,5%.",
+        "url": "https://en.wikipedia.org/wiki/Aliskiren",
+        "identifier": "Monografia - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false,
+    "id": "aliskiren"
+  },
+  "name": {
+    "generic": "aliskiren",
+    "inn": "aliskiren",
+    "brandExamplesIt": [
+      "Rasilez"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Inibitore diretto della renina",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "renin-inhibitors"
+  ],
+  "quickSummary": {
+    "whatItIs": "Primo inibitore diretto della renina: blocca il sistema renina-angiotensina all'inizio della cascata, riducendo l'attivita' reninica plasmatica. Per l'ipertensione essenziale.",
+    "mainUses": [
+      "Ipertensione essenziale (mono o in associazione)"
+    ],
+    "mainRisks": [
+      "Iperkaliemia (specie con ACE-i/sartani)",
+      "Diarrea (dose-dipendente)",
+      "Angioedema (raro)"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa",
+      "Potassiemia",
+      "Funzione renale"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento dell'ipertensione essenziale negli adulti (in monoterapia o in associazione ad altri antipertensivi)"
+    ],
+    "guidelineIndications": [
+      "Alternativa nel blocco del sistema renina-angiotensina; l'associazione con ACE-inibitori o sartani non e' raccomandata (e controindicata in diabete/insufficienza renale) per l'esito sfavorevole dello studio ALTITUDE - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Angioedema pregresso da aliskiren",
+      "Secondo e terzo trimestre di gravidanza (sconsigliato anche nel primo e in previsione di gravidanza)",
+      "Uso concomitante con ciclosporina o itraconazolo (potenti inibitori della glicoproteina P)",
+      "Associazione con ACE-inibitori o sartani nei pazienti con diabete mellito o con insufficienza renale (VFG <60 mL/min)"
+    ],
+    "warnings": [
+      "Iperkaliemia, soprattutto in associazione ad ACE-inibitori/sartani, nel diabete, nell'insufficienza renale o con risparmiatori di potassio (studio ALTITUDE interrotto per esito sfavorevole)",
+      "Ipotensione nei pazienti con deplezione di volume/sodio (correggere prima)",
+      "Monitorare la funzione renale; il doppio blocco del sistema renina-angiotensina non e' generalmente raccomandato",
+      "Assumere con un pasto leggero, sempre alla stessa ora; evitare il succo di pompelmo",
+      "Diarrea dose-dipendente (soprattutto a dosi elevate); raro angioedema"
+    ],
+    "adverseEffects": [
+      "Diarrea",
+      "Cefalea, capogiro",
+      "Rinofaringite",
+      "Iperkaliemia",
+      "Ipotensione",
+      "Angioedema (raro), rash"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione; posizione supina, fluidi e supporto.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Cautela; associazione con ACE-i/sartani controindicata se VFG <60.",
+      "hepatic": "Nessun aggiustamento maggiore.",
+      "elderly": "Utilizzabile.",
+      "pregnancy": "Controindicato (2o-3o trimestre; sconsigliato in generale).",
+      "breastfeeding": "Non raccomandato."
+    },
+    "alternativeDrugIds": [
+      "ramipril",
+      "valsartan",
+      "amlodipine"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Blocca la renina, l'enzima che avvia la 'catena' che alza la pressione; a differenza di ACE-inibitori e sartani riduce l'attivita' della renina. Da non combinare con quei farmaci in diabetici o con reni compromessi.",
+    "clinicalExplanation": "Inibitore diretto della renina: blocca la conversione dell'angiotensinogeno in angiotensina I riducendo l'attivita' reninica plasmatica (del 50-80%), al contrario di ACE-inibitori e sartani che la aumentano. Efficacia paragonabile; il doppio blocco con ACE-i/sartani e' controindicato in diabete/IR (ALTITUDE).",
+    "molecularExplanation": "Si lega al sito attivo della renina inibendone l'attivita' enzimatica sul substrato angiotensinogeno.",
+    "pharmacodynamics": "Riduzione di angiotensina I e II e della pressione, con riduzione (non aumento) dell'attivita' reninica plasmatica.",
+    "molecularTarget": "Renina (enzima)",
+    "agonismAntagonism": "Inibizione enzimatica diretta",
+    "pharmacokinetics": {
+      "route": "Orale (con pasto leggero)",
+      "onset": "Effetto massimo a ~2 settimane",
+      "elimination": "Prevalentemente biliare/fecale; substrato della glicoproteina P",
+      "food": "Evitare il succo di pompelmo",
+      "halfLife": "~24 ore (fino a ~40 ore riportate; consente la monosomministrazione); biodisponibilita' orale bassa (~2,5%), metabolismo CYP3A4 limitato ed eliminazione prevalentemente biliare/immodificata"
+    },
+    "bibliography": []
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "id": "finerenone",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Finerenone (Kerendia) - RCP/EPAR (EMA, Mediately, Codifa): indicazioni CKD in T2D e scompenso con LVEF>=40%, dose secondo K/eGFR, CYP3A4; piano terapeutico AIFA.",
+        "url": "https://mediately.co/it/drugs/Eb1TW0ZW785leF75ygrlcK4MBVc/kerendia-20-mg-compresse-rivestite-con-film",
+        "identifier": "Finerenone RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5; severita' secondo posizionamento RCP e rilevanza clinica.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "finerenone",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Inibitori potenti del CYP3A4 (itraconazolo, ketoconazolo, ritonavir, claritromicina, ecc.)",
+      "effect": "Forte aumento dell'esposizione al finerenone",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "major",
+      "agent": "Altri bloccanti del RAAS, risparmiatori di potassio, sali di potassio",
+      "effect": "Iperkaliemia",
+      "management": "Monitorare strettamente il potassio"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Inibitori moderati del CYP3A4 (es. eritromicina, verapamil, fluconazolo) e succo di pompelmo",
+      "effect": "Aumento dell'esposizione",
+      "management": "Monitorare potassio; evitare il pompelmo"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Induttori potenti del CYP3A4 (rifampicina, carbamazepina, ecc.)",
+      "effect": "Riduzione dell'efficacia",
+      "management": "Evitare l'associazione"
+    }
+  ]
+}

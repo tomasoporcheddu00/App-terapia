@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "glucose",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Glucosio (soluzioni) - RCP (Codifa/Mediately su base AIFA); Standard italiani diabete 2014: ipoglicemia (glucosata ipertonica) e componente glucosio nell'iperkaliemia con insulina; ipertoniche via centrale.",
+        "url": "https://mediately.co/it/drugs/ZdVPB4STPioTgqqe2ORDH30nwwo/glucosio-monico-50-soluzione-per-infusione",
+        "identifier": "Glucosio RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "glucose",
+  "items": [
+    {
+      "severity": "moderate",
+      "agent": "Insulina",
+      "effect": "Associazione terapeutica (shift del potassio); rischio di ipoglicemia se glucosio insufficiente",
+      "management": "Somministrare insieme e monitorare la glicemia"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Corticosteroidi/diuretici",
+      "effect": "Iperglicemia/squilibri elettrolitici",
+      "management": "Monitorare glicemia ed elettroliti"
+    }
+  ]
+}

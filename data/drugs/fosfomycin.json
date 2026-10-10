@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "id": "fosfomycin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "SCOPO DELLA SCHEDA: in questo atlante cardiologico gli antibiotici sono trattati SOLO per il ruolo nell'endocardite infettiva; per ogni altro impiego fare riferimento all'RCP e alla consulenza infettivologica. Regimi sintetizzati dalle linee guida ESC 2023 sull'endocardite (tabelle 7-10) tramite fonti secondarie e dal position statement SPILF-AEPEI: DA CONFERMARE sul testo integrale delle linee guida e sul corrigendum 2025, che ha corretto le dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10. La scelta di molecola, dose e durata dipende da patogeno, MIC, tipo di valvola (nativa o protesica) e funzione renale, e va concordata con l'Endocarditis Team. Stato: revisione fonti (source-review). Ruolo nell'endocardite: la scelta e la durata dipendono da patogeno, MIC e tipo di valvola. Verificare sempre le tabelle ESC 2023 aggiornate al corrigendum e concordare con l'Endocarditis Team.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Fosfomicina",
+    "inn": "fosfomicina",
+    "brandExamplesIt": [
+      "Fosfomicina sodica"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antibiotico fosfonico",
+  "identity": {
+    "atcCodes": [
+      "J01XX01"
+    ],
+    "formulations": [
+      "Polvere per soluzione per infusione",
+      "Granulato orale (formulazione urologica)"
+    ],
+    "potentialRoutes": [
+      "endovenosa"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "phosphonic-antibiotics"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antibiotico fosfonico con meccanismo unico e assenza di resistenza crociata: nell'endocardite la formulazione endovenosa e' impiegata in associazione, come opzione di salvataggio nei casi difficili.",
+    "mainUses": [
+      "Endocardite da Gram-positivi multiresistenti, in associazione e in casi selezionati"
+    ],
+    "mainRisks": [
+      "Carico di SODIO elevato: rilevante nel paziente con scompenso cardiaco",
+      "Ipokaliemia",
+      "Sviluppo rapido di resistenza se usata in monoterapia"
+    ],
+    "essentialMonitoring": [
+      "Sodio e potassio sierici, con particolare attenzione nello scompenso",
+      "Stato volemico e peso",
+      "Emocolture di controllo"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Infezioni gravi sostenute da microrganismi sensibili, secondo la scheda tecnica della formulazione endovenosa (la formulazione orale in granulato ha indicazione urologica, non sistemica)"
+    ],
+    "guidelineIndications": [
+      "Nell'endocardite da Gram-positivi multiresistenti la fosfomicina endovenosa e' impiegata in ASSOCIAZIONE (per esempio con daptomicina) come opzione di salvataggio, sulla base di esperienza specialistica e non di raccomandazioni forti nelle linee guida",
+      "Il meccanismo d'azione unico comporta assenza di resistenza crociata con le altre classi, motivo del suo impiego nelle combinazioni difficili",
+      "Mai in monoterapia: la resistenza si sviluppa rapidamente",
+      "ATTENZIONE: la formulazione ORALE in granulato non e' utilizzabile per l'endocardite (indicazione urologica, concentrazioni sistemiche inadeguate)"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alla fosfomicina"
+    ],
+    "warnings": [
+      "CARICO DI SODIO: la fosfomicina sodica endovenosa apporta una quantita' rilevante di sodio, potenzialmente critica nel paziente con scompenso cardiaco o ipertensione non controllata. Considerare il bilancio idro-salino complessivo",
+      "Ipokaliemia frequente: monitorare la potassiemia, in particolare nel paziente in terapia con diuretici o digossina",
+      "Mai in monoterapia per il rapido sviluppo di resistenza",
+      "Adeguare la dose alla funzione renale"
+    ],
+    "adverseEffects": [
+      "Ipokaliemia",
+      "Sovraccarico di sodio ed edema",
+      "Disturbi gastrointestinali",
+      "Aumento delle transaminasi",
+      "Flebite in sede di infusione"
+    ],
+    "overdose": "Il sovradosaggio comporta squilibri elettrolitici (ipokaliemia) e sovraccarico di sodio. Correzione elettrolitica e terapia di supporto; rimossa dall'emodialisi.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Ridurre la dose secondo la clearance.",
+      "hepatic": "Nessun aggiustamento sistematico.",
+      "elderly": "Attenzione al carico di sodio e all'ipokaliemia.",
+      "pregnancy": "Consultare l'RCP.",
+      "breastfeeding": "Consultare l'RCP."
+    },
+    "alternativeDrugIds": [
+      "daptomycin",
+      "vancomycin",
+      "linezolid"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Antibiotico 'di riserva' con un meccanismo tutto suo, usato in associazione nei casi difficili. Il problema per il cuore e' che contiene molto sodio e abbassa il potassio.",
+    "clinicalExplanation": "Antibiotico fosfonico con meccanismo unico (inibizione della MurA, primo passaggio della sintesi del peptidoglicano) e assenza di resistenza crociata. Nell'endocardite la formulazione endovenosa e' un'opzione di salvataggio in associazione, tipicamente con daptomicina, nei Gram-positivi multiresistenti. Nel cardiopatico le due criticita' sono il carico di sodio, rilevante nello scompenso, e l'ipokaliemia.",
+    "molecularExplanation": "Inibisce la MurA (UDP-N-acetilglucosamina enolpiruvil transferasi), primo passaggio della sintesi del peptidoglicano.",
+    "pharmacodynamics": "Battericida; l'assenza di resistenza crociata la rende utile nelle combinazioni.",
+    "molecularTarget": "Enzima MurA della sintesi del peptidoglicano",
+    "agonismAntagonism": "Inibizione della sintesi o della funzione batterica",
+    "pharmacokinetics": {
+      "route": "Endovenosa (formulazione sodica)",
+      "halfLife": "Circa 2 ore con funzione renale normale",
+      "note": "Eliminazione renale immodificata; elevato apporto di sodio per grammo"
+    },
+    "bibliography": []
+  }
+}

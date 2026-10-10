@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "phytomenadione",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Banca Dati AIFA - fitomenadione (Konakion 10 mg/mL): orale ed EV; Nota AIFA 2014 (no IM negli adulti).",
+        "url": "https://www.univadis.it/references/drug-database/viewdrug/konakion-40478",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Konakion 10 mg/mL orale e iniettabile EV; via IM non consentita negli adulti (Nota AIFA 2014). Confermare classe/regime per formulazione."
+  },
+  "drugId": "phytomenadione",
+  "authorisation": "EMA/Nazionale",
+  "marketed": true,
+  "reimbursementClass": "C",
+  "supplyRegime": "RR (ricetta ripetibile) / uso ospedaliero per EV",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Farmacia/ospedaliera",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "id": "propofol",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Propofol (Diprivan) - RCP AIFA (Codifa/Mediately): anestesia generale e sedazione in terapia intensiva nei ventilati >16 anni; sedazione UTI 0,3-4,0 mg/kg/h; sindrome da infusione di propofol; contiene olio di soia.",
+        "url": "https://www.codifa.it/farmaci/d/diprivan-emulsione-propofol-anestetici-generali",
+        "identifier": "Diprivan RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (EMA/EC, Banca Dati AIFA, portali Mediately/Codifa/Torrinomedica) e da centri antidoti: indicazioni, posologia, controindicazioni, avvertenze, interazioni. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; PK parziale. Stato: revisione fonti (source-review), non ancora approvato. Sedazione e antidoti: dosi da titolare sul singolo paziente e sui protocolli locali. Non ha effetto analgesico: va associato a un analgesico. Rispetto al midazolam consente risvegli piu' rapidi ma da' piu' ipotensione; rispetto alla dexmedetomidina deprime il respiro.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Propofol",
+    "inn": "propofol",
+    "brandExamplesIt": [
+      "Diprivan",
+      "Propofol Lipuro",
+      "Propofol Kabi"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Anestetico endovenoso a breve durata (sedativo-ipnotico)",
+  "identity": {
+    "atcCodes": [
+      "N01AX10"
+    ]
+  },
+  "classIds": [
+    "icu-sedatives"
+  ],
+  "quickSummary": {
+    "whatItIs": "Anestetico endovenoso a rapidissima insorgenza e breve durata, usato per indurre e mantenere l'anestesia e per la sedazione del paziente ventilato in terapia intensiva. Si titola facilmente ma deprime pressione e respiro.",
+    "mainUses": [
+      "Induzione e mantenimento dell'anestesia generale",
+      "Sedazione di pazienti oltre i 16 anni ventilati artificialmente in terapia intensiva"
+    ],
+    "mainRisks": [
+      "Ipotensione (marcata all'induzione) e depressione respiratoria/apnea",
+      "Sindrome da infusione di propofol (PRIS) con dosi elevate e prolungate",
+      "Bradicardia; dolore al sito di iniezione; apporto lipidico"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa, frequenza cardiaca ed ECG",
+      "Ossigenazione e ventilazione (via aerea protetta)",
+      "Con infusioni prolungate: equilibrio acido-base/lattati, CK, trigliceridi, potassio"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Induzione e mantenimento dell'anestesia generale negli adulti e nei bambini di eta' superiore a un mese (formulazione 10 mg/mL) o a 3 anni (20 mg/mL)",
+      "Sedazione di pazienti di eta' superiore ai 16 anni ventilati artificialmente in Unita' di Terapia Intensiva"
+    ],
+    "guidelineIndications": [
+      "Sedazione in terapia intensiva: infusione continua, in genere 0,3-4,0 mg/kg/h secondo la profondita' di sedazione richiesta - RCP",
+      "Non superare i 4 mg/kg/h in infusione prolungata per il rischio di sindrome da infusione di propofol - RCP/letteratura",
+      "In cardiologia intensiva richiede attenzione emodinamica: la vasodilatazione con caduta del precarico e del postcarico puo' essere mal tollerata nello shock e nell'ipovolemia - confermare su protocolli locali"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al propofol o agli eccipienti",
+      "Ipersensibilita' alle arachidi o alla soia (la formulazione contiene olio di soia)",
+      "Sedazione in terapia intensiva in pazienti di eta' pari o inferiore a 16 anni"
+    ],
+    "warnings": [
+      "SINDROME DA INFUSIONE DI PROPOFOL (PRIS): con dosi elevate e/o infusioni prolungate sono stati descritti acidosi metabolica, rabdomiolisi, iperkaliemia, epatomegalia, insufficienza renale, iperlipidemia, aritmie, quadro ECG tipo Brugada (sopraslivellamento ST con onda T a cupola) e insufficienza cardiaca rapidamente progressiva non responsiva agli inotropi, con esito anche fatale: sorvegliare e limitare dose e durata",
+      "Ipotensione marcata soprattutto all'induzione, nell'ipovolemia, nell'anziano e nel cardiopatico: ridurre la velocita' di somministrazione in anziani, pazienti debilitati, ipovolemici e con disfunzione cardiaca, polmonare, renale o epatica",
+      "Depressione respiratoria fino all'apnea: usare solo con via aerea gestita e monitoraggio continuo, da personale addestrato",
+      "Cautela particolare nella cardiopatia grave, nell'ipertensione endocranica associata a bassa pressione arteriosa (riduzione della pressione di perfusione cerebrale); dolore al sito di iniezione (usare vene di grosso calibro); l'emulsione lipidica e' un substrato per la crescita microbica (asepsi rigorosa, monouso) e va conteggiata nell'apporto calorico"
+    ],
+    "adverseEffects": [
+      "Ipotensione, bradicardia",
+      "Apnea/depressione respiratoria",
+      "Dolore al sito di iniezione",
+      "Movimenti involontari, cefalea al risveglio, nausea/vomito",
+      "Iperlipidemia, pancreatite (rara); sindrome da infusione di propofol (rara ma grave)"
+    ],
+    "overdose": "Il sovradosaggio causa depressione cardiorespiratoria: interrompere l'infusione, supportare la ventilazione (ossigeno, via aerea) e il circolo (riempimento volemico, vasopressori). Non esiste un antidoto specifico.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento formale; ridurre la velocita' nei pazienti compromessi.",
+      "hepatic": "Nessun aggiustamento formale; ridurre la velocita' nei pazienti compromessi.",
+      "elderly": "Ridurre dose e velocita' di somministrazione (maggiore ipotensione).",
+      "pregnancy": "Solo se chiaramente necessario (attraversa la placenta).",
+      "breastfeeding": "Sospendere l'allattamento per alcune ore dopo la somministrazione."
+    },
+    "alternativeDrugIds": [
+      "midazolam",
+      "dexmedetomidine"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' il 'latte bianco' che addormenta in pochi secondi e si smaltisce in fretta: si usa per l'anestesia e per tenere sedato chi e' attaccato al ventilatore. Abbassa parecchio la pressione e ferma il respiro, quindi si usa solo dove si puo' assistere la ventilazione.",
+    "clinicalExplanation": "Sedativo-ipnotico endovenoso non analgesico che potenzia il recettore GABA-A: induzione in 1-5 minuti e risveglio rapido per ridistribuzione, con facile titolabilita' anche in infusione prolungata. In terapia intensiva 0,3-4,0 mg/kg/h. Effetti emodinamici marcati (vasodilatazione, riduzione del precarico e della contrattilita'): cautela nello shock e nell'ipovolemia. Rischio di PRIS con dosi >4 mg/kg/h protratte.",
+    "molecularExplanation": "Modula positivamente il recettore GABA-A aumentando la conduttanza al cloro e l'inibizione neuronale; riduce inoltre il tono simpatico e le resistenze vascolari sistemiche.",
+    "pharmacodynamics": "Sedazione/ipnosi rapida e titolabile, senza analgesia; riduzione della pressione arteriosa, delle resistenze vascolari e del drive respiratorio; riduzione della pressione intracranica.",
+    "molecularTarget": "Recettore GABA-A (modulazione allosterica positiva)",
+    "agonismAntagonism": "Potenziamento GABAergico (agonismo allosterico)",
+    "pharmacokinetics": {
+      "route": "Endovenosa (bolo e infusione continua)",
+      "halfLife": "Ridistribuzione 2-8 minuti; emivita terminale variabile (contesto-dipendente)",
+      "note": "Clearance elevata, flusso-dipendente; risveglio rapido per ridistribuzione"
+    },
+    "bibliography": []
+  }
+}

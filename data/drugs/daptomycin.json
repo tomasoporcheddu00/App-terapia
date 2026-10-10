@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "id": "daptomycin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "SPILF-AEPEI - position statement sulla terapia antibiotica dell'endocardite secondo le linee guida ESC 2023 (strategie per streptococchi, enterococchi e stafilococchi; daptomicina, rifampicina, monitoraggi).",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2666991924001787",
+        "identifier": "SPILF-AEPEI 2024",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "SCOPO DELLA SCHEDA: in questo atlante cardiologico gli antibiotici sono trattati SOLO per il ruolo nell'endocardite infettiva; per ogni altro impiego fare riferimento all'RCP e alla consulenza infettivologica. Regimi sintetizzati dalle linee guida ESC 2023 sull'endocardite (tabelle 7-10) tramite fonti secondarie e dal position statement SPILF-AEPEI: DA CONFERMARE sul testo integrale delle linee guida e sul corrigendum 2025, che ha corretto le dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10. La scelta di molecola, dose e durata dipende da patogeno, MIC, tipo di valvola (nativa o protesica) e funzione renale, e va concordata con l'Endocarditis Team. Stato: revisione fonti (source-review). Ruolo nell'endocardite: la scelta e la durata dipendono da patogeno, MIC e tipo di valvola. Verificare sempre le tabelle ESC 2023 aggiornate al corrigendum e concordare con l'Endocarditis Team.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Daptomicina",
+    "inn": "daptomicina",
+    "brandExamplesIt": [
+      "Cubicin"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Lipopeptide ciclico",
+  "identity": {
+    "atcCodes": [
+      "J01XX09"
+    ],
+    "formulations": [
+      "Polvere per soluzione iniettabile"
+    ],
+    "potentialRoutes": [
+      "endovenosa"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "lipopeptides"
+  ],
+  "quickSummary": {
+    "whatItIs": "Lipopeptide battericida sui Gram-positivi, alternativa alla vancomicina nell'endocardite stafilococcica: nelle linee guida ESC 2023 va usato ad ALTE DOSI (10 mg/kg una volta al giorno) e non in monoterapia nelle forme su protesi.",
+    "mainUses": [
+      "Endocardite da Staphylococcus aureus, in particolare MRSA e forme su valvola protesica",
+      "Alternativa alla vancomicina quando la MIC per vancomicina e' superiore a 1 mg/L o la funzione renale e' compromessa"
+    ],
+    "mainRisks": [
+      "Miopatia con aumento della creatinchinasi, fino alla rabdomiolisi",
+      "Polmonite eosinofila",
+      "Selezione di mutanti resistenti se usata in monoterapia",
+      "Inattivata dal surfattante: NON utilizzabile nelle polmoniti"
+    ],
+    "essentialMonitoring": [
+      "Creatinchinasi (CPK) settimanale, piu' spesso se associata a statine",
+      "Funzione renale ed eosinofili settimanali",
+      "Sintomi muscolari e comparsa di dispnea o febbre (sospetto di polmonite eosinofila)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Infezioni complicate della cute e dei tessuti molli, batteriemia da Staphylococcus aureus ed endocardite infettiva del cuore destro da S. aureus, secondo la scheda tecnica"
+    ],
+    "guidelineIndications": [
+      "Endocardite: se si usa la daptomicina, va somministrata ad ALTE DOSI, 10 mg/kg una volta al giorno - ESC 2023",
+      "Schema di prima linea proposto per l'endocardite stafilococcica su valvola protesica secondo il position statement SPILF-AEPEI: daptomicina 10 mg/kg al giorno associata a gentamicina 3 mg/kg al giorno fino alla sterilizzazione delle emocolture, quindi associata a rifampicina 900 mg al giorno fino al termine del trattamento",
+      "La monoterapia comporta rischio di selezione di mutanti tolleranti o resistenti: nell'endocardite va sempre associata",
+      "Puo' essere preferita alla vancomicina quando la MIC per vancomicina e' >1 mg/L o quando l'associazione vancomicina + gentamicina risulterebbe troppo rischiosa sul piano renale"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alla daptomicina"
+    ],
+    "warnings": [
+      "MIOPATIA: aumento della creatinchinasi fino alla rabdomiolisi. Monitorare la CPK almeno una volta a settimana (piu' spesso in caso di associazione con statine o di insufficienza renale) e sospendere in caso di sintomi muscolari con CPK marcatamente elevata",
+      "POLMONITE EOSINOFILA: complicanza rara ma grave, da sospettare in caso di febbre, dispnea e infiltrati polmonari di nuova comparsa; sospendere immediatamente",
+      "La daptomicina e' INATTIVATA DAL SURFATTANTE POLMONARE: non ha alcuna efficacia nelle polmoniti",
+      "Monoterapia sconsigliata nell'endocardite per il rischio di selezione di mutanti resistenti",
+      "Adeguare la dose alla funzione renale"
+    ],
+    "adverseEffects": [
+      "Aumento della creatinchinasi e miopatia",
+      "Polmonite eosinofila (rara ma grave)",
+      "Diarrea, nausea",
+      "Aumento delle transaminasi",
+      "Reazioni di ipersensibilita'"
+    ],
+    "overdose": "Il sovradosaggio aumenta il rischio di miopatia. Sospensione, idratazione e monitoraggio della CPK e della funzione renale.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Adeguare dose e intervallo alla clearance secondo RCP; monitorare CPK piu' frequentemente.",
+      "hepatic": "Nessun aggiustamento sistematico.",
+      "elderly": "Attenzione a funzione renale e rischio miopatico.",
+      "pregnancy": "Consultare l'RCP.",
+      "breastfeeding": "Consultare l'RCP."
+    },
+    "alternativeDrugIds": [
+      "vancomycin",
+      "linezolid",
+      "rifampicin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' un'alternativa alla vancomicina, meno pesante per i reni ma che puo' danneggiare i muscoli: si controllano gli enzimi muscolari ogni settimana, soprattutto se il paziente prende una statina. Non funziona nei polmoni perche' viene inattivata li'.",
+    "clinicalExplanation": "Lipopeptide ciclico battericida concentrazione-dipendente sui Gram-positivi. Nell'endocardite le linee guida ESC 2023 prevedono l'alto dosaggio (10 mg/kg una volta al giorno) e l'associazione, mai la monoterapia, per il rischio di selezione di mutanti. Nel position statement SPILF-AEPEI e' proposta come prima linea nell'endocardite stafilococcica su protesi, con gentamicina fino alla sterilizzazione delle emocolture e poi rifampicina. Le due tossicita' caratteristiche sono la miopatia (CPK settimanale, attenzione all'associazione con statine) e la polmonite eosinofila.",
+    "molecularExplanation": "Si inserisce nella membrana citoplasmatica batterica in modo calcio-dipendente causando depolarizzazione rapida e morte cellulare senza lisi.",
+    "pharmacodynamics": "Battericida concentrazione-dipendente, rapido, con effetto post-antibiotico.",
+    "molecularTarget": "Membrana citoplasmatica dei Gram-positivi (meccanismo calcio-dipendente)",
+    "agonismAntagonism": "Inibizione della sintesi o della funzione batterica",
+    "pharmacokinetics": {
+      "route": "Endovenosa, una volta al giorno",
+      "halfLife": "Circa 8-9 ore, compatibile con la monosomministrazione",
+      "note": "Eliminazione prevalentemente renale; inattivata dal surfattante polmonare"
+    },
+    "bibliography": []
+  }
+}

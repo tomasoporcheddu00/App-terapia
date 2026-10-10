@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "levosimendan__adhf__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Levosimendan (Simdax) - RCP (Mediately/Codifa/informazionisuifarmaci su base AIFA): sensibilizzante del calcio + apertura dei canali del potassio; scompenso cronico grave in instabilita' acuta; carico 6-12 mcg/kg poi 0,1 mcg/kg/min; uso ospedaliero.",
+        "url": "https://www.codifa.it/farmaci/s/simdax-levosimendan-inotropi",
+        "identifier": "Simdax RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Agente vasoattivo: titolare con monitoraggio emodinamico continuo; confermare dose e diluizione."
+  },
+  "drugId": "levosimendan",
+  "indication": "acute-heart-failure",
+  "scenario": "Scompenso cronico grave in instabilita' acuta",
+  "route": "endovenosa",
+  "dose": {
+    "loading": "bolo 6-12 mcg/kg in 10 minuti (6 mcg/kg se in trattamento con vasodilatatori/inotropi o a rischio di ipotensione)",
+    "maintenance": "infusione continua 0,1 mcg/kg/min (adeguabile 0,05-0,2)",
+    "duration": "durata raccomandata 24 ore",
+    "note": "solo uso ospedaliero; correggere il potassio"
+  },
+  "administration": {
+    "notes": "Infusione EV con monitoraggio emodinamico. Effetto persistente fino a 7-9 giorni. Uso ospedaliero."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "id": "levosimendan",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Levosimendan (Simdax) - RCP (Mediately/Codifa/informazionisuifarmaci su base AIFA): sensibilizzante del calcio + apertura dei canali del potassio; scompenso cronico grave in instabilita' acuta; carico 6-12 mcg/kg poi 0,1 mcg/kg/min; uso ospedaliero.",
+        "url": "https://www.codifa.it/farmaci/s/simdax-levosimendan-inotropi",
+        "identifier": "Simdax RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Levosimendan (Simdax) - RCP EMA/AIFA (Mediately/Torrinomedica), paragrafo 5.2: emivita del levosimendan ~1 ora; metaboliti attivi OR-1855/OR-1896 ~75-80 ore.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/Simdax/",
+        "identifier": "RCP - farmacocinetica",
+        "retrievedAt": "2026-07-25"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC) e da monografie di terapia intensiva: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Agenti vasoattivi EV di terapia intensiva: dosi da titolare con monitoraggio emodinamico continuo.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Levosimendan",
+    "inn": "levosimendan",
+    "brandExamplesIt": [
+      "Simdax"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Inotropo (sensibilizzante del calcio / apertura dei canali del potassio, inodilatatore)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "inotropes"
+  ],
+  "quickSummary": {
+    "whatItIs": "Inotropo 'inodilatatore' che aumenta la contrattilita' sensibilizzando la troponina C al calcio (senza aumentare il consumo di ossigeno) e dilata i vasi aprendo i canali del potassio; usato nello scompenso acuto grave.",
+    "mainUses": [
+      "Trattamento a breve termine dello scompenso cardiaco cronico grave in fase di instabilita' acuta (ADHF), come terapia aggiuntiva"
+    ],
+    "mainRisks": [
+      "Ipotensione",
+      "Tachicardia e aritmie",
+      "Ipopotassiemia"
+    ],
+    "essentialMonitoring": [
+      "ECG e pressione continui",
+      "Potassiemia",
+      "Funzione renale/epatica"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento a breve termine dello scompenso cardiaco cronico grave in fase di instabilita' acuta (ADHF), laddove la terapia convenzionale non sia sufficiente e sia appropriato un supporto inotropo; solo come terapia aggiuntiva"
+    ],
+    "guidelineIndications": [
+      "Utile perche' non aumenta il consumo miocardico di ossigeno e mantiene l'efficacia in terapia betabloccante; effetto emodinamico prolungato (metabolita attivo, fino a 7-9 giorni) - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Ipotensione grave e tachicardia",
+      "Ostruzione meccanica significativa al riempimento e/o all'eiezione ventricolare",
+      "Insufficienza renale grave (clearance della creatinina <30 mL/min)",
+      "Insufficienza epatica grave",
+      "Anamnesi di torsione di punta"
+    ],
+    "warnings": [
+      "Puo' causare una riduzione iniziale della pressione: cautela nei valori pressori bassi o a rischio di ipotensione",
+      "Cautela nella tachicardia, nella fibrillazione atriale a risposta rapida e nelle aritmie potenzialmente fatali",
+      "Correggere l'ipopotassiemia prima e durante; monitorare il potassio",
+      "Puo' prolungare il QTc: cautela con altri farmaci che allungano il QT",
+      "Effetto emodinamico persistente fino a 7-9 giorni dopo un'infusione di 24 ore; non nei minori di 18 anni",
+      "Solo uso ospedaliero con esperienza negli inotropi"
+    ],
+    "adverseEffects": [
+      "Ipotensione",
+      "Tachicardia, aritmie ventricolari/atriali",
+      "Ipopotassiemia",
+      "Cefalea, capogiro",
+      "Nausea"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione e tachicardia (effetto prolungato per il metabolita attivo); supporto emodinamico protratto e monitoraggio.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Controindicato se clearance <30 mL/min; cautela nella lieve-moderata.",
+      "hepatic": "Controindicato nell'insufficienza epatica grave; cautela nella lieve-moderata.",
+      "elderly": "Cautela.",
+      "pregnancy": "Non raccomandato.",
+      "breastfeeding": "Sospendere l'allattamento."
+    },
+    "alternativeDrugIds": [
+      "dobutamine",
+      "milrinone",
+      "noradrenaline"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un inotropo 'intelligente' che rinforza la contrazione senza far consumare piu' ossigeno al cuore e allarga i vasi; il suo effetto dura diversi giorni dopo l'infusione.",
+    "clinicalExplanation": "Doppio meccanismo: sensibilizza la troponina C al calcio in sistole (effetto calcio-dipendente, con rilasciamento diastolico preservato e senza aumento del consumo di ossigeno) e apre i canali del potassio ATP-sensibili (vasodilatazione). Metabolita attivo a lunga durata (OR-1896).",
+    "molecularExplanation": "Lega la troponina C stabilizzandone la conformazione calcio-dipendente (aumento della sensibilita' dei miofilamenti al calcio) e apre i canali del potassio ATP-sensibili nella muscolatura liscia vascolare.",
+    "pharmacodynamics": "Aumento della contrattilita' senza aumento del consumo di ossigeno; vasodilatazione sistemica, coronarica e polmonare; effetto emodinamico prolungato.",
+    "molecularTarget": "Troponina C (miofilamenti) e canali del potassio ATP-sensibili",
+    "agonismAntagonism": "Sensibilizzazione al calcio / apertura dei canali del potassio",
+    "pharmacokinetics": {
+      "route": "Infusione endovenosa (bolo + mantenimento, di norma 24 ore)",
+      "activeMetabolite": "OR-1896 (effetto fino a 7-9 giorni)",
+      "elimination": "Metabolica/renale",
+      "halfLife": "Levosimendan ~1 ora; i metaboliti attivi OR-1855 e OR-1896 hanno emivita ~75-80 ore e sono responsabili degli effetti emodinamici prolungati (fino a 7-9 giorni dopo un'infusione di 24 ore)"
+    },
+    "bibliography": []
+  }
+}

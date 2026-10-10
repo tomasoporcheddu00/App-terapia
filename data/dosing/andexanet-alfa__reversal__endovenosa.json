@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "andexanet-alfa__reversal__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Andexanet alfa (Ondexxya) - RCP EMA/Mediately: reversal degli inibitori diretti del fattore Xa (apixaban/rivaroxaban) nelle emorragie potenzialmente fatali; bolo + infusione; uso ospedaliero.",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/ondexxya-epar-product-information_en.pdf",
+        "identifier": "Ondexxya RCP",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EMA-AIFA; smpcVerified=false. Dosi d'urgenza da adattare ai protocolli locali e ai test coagulativi."
+  },
+  "drugId": "andexanet-alfa",
+  "indication": "anticoagulant-reversal",
+  "scenario": "Reversal di apixaban/rivaroxaban",
+  "route": "endovenosa",
+  "dose": {
+    "low": "bolo ~30 mg/min in 15 min poi infusione 4 mg/min per 120 min (dose bassa)",
+    "high": "bolo ~30 mg/min in 30 min poi infusione 8 mg/min per 120 min (dose elevata)",
+    "selection": "dose bassa vs elevata secondo l'inibitore, la dose assunta e il tempo dall'ultima assunzione (tabelle RCP)"
+  },
+  "administration": {
+    "notes": "EV; uso ospedaliero. Evitare se sara' necessaria eparina. Riprendere l'anticoagulazione appena possibile."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

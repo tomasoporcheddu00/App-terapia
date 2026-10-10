@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "id": "simvastatin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Simvastatina - RCP (Mediately/Codifa su base AIFA): dose 10-40 mg (80 mg limitata), controindicazioni con inibitori potenti del CYP3A4/gemfibrozil/ciclosporina, limiti di dose per interazione.",
+        "url": "https://www.codifa.it/farmaci/s/simvastatina",
+        "identifier": "Simvastatina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5; severita' secondo posizionamento RCP e rilevanza clinica.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "simvastatin",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Inibitori potenti del CYP3A4 (azoli, macrolidi, inibitori delle proteasi HIV, cobicistat, nefazodone), gemfibrozil, ciclosporina, danazolo",
+      "effect": "Aumento marcato del rischio di miopatia/rabdomiolisi",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "major",
+      "agent": "Amiodarone, amlodipina, verapamil, diltiazem",
+      "effect": "Aumento del rischio di miopatia",
+      "management": "Non superare 20 mg/die di simvastatina"
+    },
+    {
+      "severity": "major",
+      "agent": "Fibrati (eccetto fenofibrato) o niacina a dosi ipolipemizzanti",
+      "effect": "Aumento del rischio di miopatia",
+      "management": "Non superare 10 mg/die di simvastatina"
+    },
+    {
+      "severity": "major",
+      "agent": "Acido fusidico",
+      "effect": "Rischio di rabdomiolisi",
+      "management": "Sospendere la simvastatina durante il trattamento"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Warfarin",
+      "effect": "Possibile aumento dell'INR",
+      "management": "Monitorare l'INR"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "id": "rosuvastatin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Rosuvastatina - RCP (Mediately/Codifa/Torrinomedica su base AIFA): dose 5-40 mg, restrizioni dei 40 mg, etnia asiatica/IR, controindicazioni renali e ciclosporina.",
+        "url": "https://www.codifa.it/farmaci/r/rosuvastatina",
+        "identifier": "Rosuvastatina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5; severita' secondo posizionamento RCP e rilevanza clinica.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "rosuvastatin",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Ciclosporina",
+      "effect": "Aumento marcato dell'esposizione alla rosuvastatina",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "major",
+      "agent": "Gemfibrozil",
+      "effect": "Aumento dell'esposizione e del rischio di miopatia",
+      "management": "Evitare; se necessario non superare 20 mg"
+    },
+    {
+      "severity": "major",
+      "agent": "Alcuni inibitori delle proteasi HIV (associazioni con ritonavir)",
+      "effect": "Aumento dell'esposizione alla rosuvastatina",
+      "management": "Limitare la dose secondo l'associazione"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Antagonisti della vitamina K (warfarin)",
+      "effect": "Possibile aumento dell'INR",
+      "management": "Monitorare l'INR"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Antiacidi (idrossido di alluminio/magnesio)",
+      "effect": "Riduzione dell'assorbimento",
+      "management": "Assumere l'antiacido almeno 2 ore dopo"
+    }
+  ]
+}

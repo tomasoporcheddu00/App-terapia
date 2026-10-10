@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "tafamidis__attr-cm__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Vyndaqel 61 mg (tafamidis) - RCP EMA (registro comunitario EC, allegato IT; Torrinomedica/Codifa): indicazione ATTR-CM, posologia, criteri diagnostici, interazione con i substrati BCRP.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2023/20230215158175/anx_158175_it.pdf",
+        "identifier": "Vyndaqel RCP EMA",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Posologia da fonti su base RCP/AIFA o da linee guida citate; smpcVerified=false. Verificare sempre su RCP ufficiale e adattare a funzione renale/epatica."
+  },
+  "drugId": "tafamidis",
+  "indication": "amyloidosis",
+  "scenario": "Amiloidosi da transtiretina con cardiomiopatia (ATTR-CM)",
+  "route": "orale",
+  "dose": {
+    "dose": "una capsula da 61 mg (tafamidis) una volta al giorno per via orale",
+    "equivalenza": "Vyndaqel 61 mg corrisponde a tafamidis meglumine 80 mg; le due formulazioni NON sono intercambiabili sulla base dei mg",
+    "modo": "capsula deglutita intera, con o senza cibo"
+  },
+  "administration": {
+    "notes": "Trattamento da avviare sotto il controllo di un medico esperto, dopo conferma diagnostica di ATTR-CM ed esclusione dell'amiloidosi AL. Da aggiungere alla terapia standard dello scompenso."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "azathioprine",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-28T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "AIFA - azatioprina (Azafor, Immunoprin): medicinale soggetto a prescrizione medica, uso specialistico.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/azafor_50_mg_compresse_rivestite_con_film/",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Impiego nella pericardite recidivante e nella sarcoidosi cardiaca su base di linee guida (off-label rispetto alla scheda tecnica): verificare il percorso prescrittivo del centro."
+  },
+  "drugId": "azathioprine",
+  "authorisation": "EMA/Nazionale",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RRL - prescrizione limitativa",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Farmacia/Distribuzione diretta",
+  "law648_1996": false,
+  "prescriberRestrictions": "Uso specialistico"
+}

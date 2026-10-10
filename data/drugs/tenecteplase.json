@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "id": "tenecteplase",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Tenecteplase (Metalyse) - RCP EMA/AIFA (Mediately/Codifa): TNK-tPA, bolo unico EV peso-dipendente (max 10.000 U / 50 mg) nell'IMA con sopra-ST entro 6h.",
+        "url": "https://mediately.co/it/drugs/IcvguA9fJUrekeWHhqKNCYLyREG/metalyse-10000-u-polvere-e-solvente-per-soluzione-iniettabile",
+        "identifier": "Metalyse RCP",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (EMA/EC, Banca Dati AIFA, portali Mediately/Codifa/Torrinomedica): indicazioni, posologia, controindicazioni, avvertenze, interazioni. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; PK parziale. Stato: revisione fonti (source-review), non ancora approvato. Trombolitici: dosi ad alto rischio, da adattare a indicazione, peso e protocolli locali. Fibrino-specifico come l'alteplase ma con emivita piu' lunga: bolo unico. E' il fibrinolitico di scelta nell'IMA dove disponibile.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Tenecteplase",
+    "inn": "tenecteplase (TNK-tPA)",
+    "brandExamplesIt": [
+      "Metalyse"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Trombolitico fibrino-specifico a bolo unico (t-PA mutante)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "fibrinolytics"
+  ],
+  "quickSummary": {
+    "whatItIs": "Variante ingegnerizzata del t-PA (TNK-tPA) con maggiore specificita' per la fibrina, emivita piu' lunga e resistenza al PAI-1: si somministra come bolo endovenoso unico, comodo nell'infarto.",
+    "mainUses": [
+      "Infarto miocardico acuto con sopraslivellamento ST (o BBS recente) entro 6 h (trombolisi)"
+    ],
+    "mainRisks": [
+      "Emorragia, inclusa emorragia intracranica",
+      "Aritmie da riperfusione",
+      "Rischio emorragico maggiore negli anziani (>=75 anni)"
+    ],
+    "essentialMonitoring": [
+      "Segni di sanguinamento e stato neurologico",
+      "ECG (aritmie da riperfusione)",
+      "Pressione arteriosa"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento trombolitico dell'infarto miocardico sospetto con sopraslivellamento persistente del tratto ST o blocco di branca sinistra recente, entro 6 ore dall'insorgenza dei sintomi (adulti)"
+    ],
+    "guidelineIndications": [
+      "Fibrinolitico preferito nell'IMA per la somministrazione in bolo unico; alternativa alla PCI primaria quando questa non e' eseguibile entro 120 min (STREAM: nei >=75 anni si e' usata meta' dose) - ESC 2023",
+      "Uso nell'ictus ischemico off-label/emergente (evidenze crescenti) - confermare per formulazione/indicazione"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Emorragia in atto o disturbo emorragico noto (attuale o negli ultimi 6 mesi); diatesi emorragica",
+      "Terapia anticoagulante orale efficace in corso (es. warfarin con INR terapeutico)",
+      "Lesioni del sistema nervoso centrale (neoplasia, aneurisma, chirurgia cerebrale/spinale)",
+      "Ipertensione arteriosa grave non controllata",
+      "Chirurgia maggiore, trauma o puntura di vaso non comprimibile recenti; recente massaggio cardiaco esterno traumatico/parto",
+      "Pericardite acuta, endocardite batterica",
+      "Pancreatite acuta",
+      "Ulcera peptica documentata, varici esofagee, aneurisma arterioso, malformazioni artero-venose",
+      "Epatopatia grave (insufficienza epatica, cirrosi, ipertensione portale, epatite attiva)",
+      "Neoplasia con aumentato rischio emorragico",
+      "Ictus emorragico o ictus di origine ignota (anamnesi)",
+      "Ictus ischemico o TIA nei 6 mesi precedenti",
+      "Ipersensibilita' alla gentamicina (traccia residua di produzione)"
+    ],
+    "warnings": [
+      "L'emorragia (specie intracranica) e' il rischio principale: monitorare stato neurologico e segni di sanguinamento",
+      "Somministrare con cautela negli anziani (>=75 anni) per il maggior rischio emorragico",
+      "Aritmie da riperfusione (predisporre il trattamento antiaritmico); evitare punture non comprimibili",
+      "Terapia antitrombotica aggiuntiva (antiaggreganti e anticoagulanti) secondo le linee guida; embolizzazione di cristalli di colesterolo (rara)"
+    ],
+    "adverseEffects": [
+      "Emorragia (intracranica, gastrointestinale, genitourinaria, sede di iniezione, epistassi, ecchimosi)",
+      "Aritmie da riperfusione",
+      "Ipotensione",
+      "Reazioni di ipersensibilita'",
+      "Embolia da cristalli di colesterolo (rara)"
+    ],
+    "overdose": "Il sovradosaggio aumenta il rischio emorragico; in caso di emorragia grave interrompere e ripristinare la volemia, considerare antifibrinolitici e fattori della coagulazione/fibrinogeno.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico.",
+      "hepatic": "Controindicato nell'epatopatia grave.",
+      "elderly": "Cautela (>=75 anni: maggior rischio emorragico).",
+      "pregnancy": "Solo se chiaramente necessario.",
+      "breastfeeding": "Cautela."
+    },
+    "alternativeDrugIds": [
+      "alteplase"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' un trombolitico 'di seconda generazione' che si da' in una sola iniezione rapida in vena: comodo nell'infarto. Come tutti i trombolitici, il rischio maggiore e' il sanguinamento.",
+    "clinicalExplanation": "Mutante del t-PA (TNK-tPA) con maggiore fibrino-specificita', emivita iniziale ~24 min (5 volte il t-PA nativo) e resistenza al PAI-1: consente il bolo unico peso-dipendente. Indicazione EU: IMA con sopra-ST entro 6h. Cautela negli anziani.",
+    "molecularExplanation": "Come il t-PA nativo attiva il plasminogeno legato alla fibrina, con maggiore selettivita' per la fibrina e minore inattivazione da parte del PAI-1.",
+    "pharmacodynamics": "Fibrinolisi fibrino-specifica con minima deplezione sistemica del fibrinogeno; azione da bolo unico.",
+    "molecularTarget": "Plasminogeno (conversione in plasmina, fibrino-mediata)",
+    "agonismAntagonism": "Attivatore del plasminogeno (fibrinolitico)",
+    "pharmacokinetics": {
+      "route": "Endovenosa (bolo unico ~10 sec)",
+      "halfLife": "Iniziale 24 min; terminale ~129 min",
+      "note": "1 mg = 200 U; max 10.000 U (50 mg)"
+    },
+    "bibliography": []
+  }
+}

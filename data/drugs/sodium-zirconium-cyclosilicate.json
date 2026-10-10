@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "id": "sodium-zirconium-cyclosilicate",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Sodio zirconio ciclosilicato (Lokelma) - RCP EMA/AIFA: chelante del potassio non assorbito per l'iperkaliemia; correzione 10 g x3 poi mantenimento 5 g/die; edema/sodio, ipokaliemia.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/EPAR/lokelma",
+        "identifier": "Lokelma RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Agenti d'urgenza: le dosi di emergenza vanno adattate ai protocolli locali. Distinto dai chelanti d'emergenza per rapidita': agisce in ore. Non sostituisce le misure immediate nell'iperkaliemia grave.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Sodio zirconio ciclosilicato",
+    "inn": "sodio zirconio ciclosilicato",
+    "brandExamplesIt": [
+      "Lokelma"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Chelante orale del potassio (non assorbito)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "electrolyte-metabolic-agents"
+  ],
+  "quickSummary": {
+    "whatItIs": "Polvere orale che cattura il potassio lungo tutto l'intestino aumentandone l'eliminazione fecale; usata per correggere e mantenere sotto controllo l'iperkaliemia (non e' un farmaco per l'emergenza acuta immediata).",
+    "mainUses": [
+      "Iperkaliemia nell'adulto (correzione e mantenimento)"
+    ],
+    "mainRisks": [
+      "Ipokaliemia",
+      "Edema/ritenzione idrica (apporto di sodio) - cautela nello scompenso",
+      "Riduce l'assorbimento di farmaci pH-dipendenti"
+    ],
+    "essentialMonitoring": [
+      "Potassiemia",
+      "Segni di scompenso/edema",
+      "QT durante la correzione"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento dell'iperkaliemia negli adulti"
+    ],
+    "guidelineIndications": [
+      "Chelante moderno del potassio: riduce la potassiemia entro 1 ora, normokaliemia in 24-48h; utile per correzione e mantenimento (es. per proseguire ACE-i/sartani/MRA) - confermare su ESC",
+      "Non e' un trattamento per l'iperkaliemia acuta pericolosa per la vita (agisce in ore): in emergenza usare prima calcio, insulina+glucosio, salbutamolo"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'"
+    ],
+    "warnings": [
+      "Ipokaliemia: interrompere e rivalutare in caso di ipokaliemia severa; stabilire la dose minima efficace di mantenimento",
+      "Edema/ritenzione idrica per l'apporto di sodio (~400 mg per 5 g): monitorare il peggioramento di uno scompenso cardiaco preesistente (dispnea, edema, aumento di peso)",
+      "Prolungamento del QT durante la correzione (risposta fisiologica alla riduzione del potassio)",
+      "Radiopaco (puo' interferire con le radiografie addominali)",
+      "Esperienza limitata con potassiemia >6,5 mmol/L e per esposizioni oltre 1 anno"
+    ],
+    "adverseEffects": [
+      "Ipokaliemia",
+      "Eventi correlati all'edema",
+      "(nessun effetto su calcemia/magnesiemia)"
+    ],
+    "overdose": "In caso di ipokaliemia da sovradosaggio, sospendere e rivalutare/reintegrare il potassio.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Utilizzabile (compresa la dialisi); non assorbito.",
+      "hepatic": "Nessun aggiustamento.",
+      "elderly": "Utilizzabile.",
+      "pregnancy": "Solo se necessario.",
+      "breastfeeding": "Utilizzabile (non assorbito)."
+    },
+    "alternativeDrugIds": []
+  },
+  "deep": {
+    "simpleExplanation": "Una polvere da bere che 'intrappola' il potassio nell'intestino e lo fa eliminare con le feci: serve a tenere sotto controllo il potassio alto, non per l'emergenza dei primi minuti.",
+    "clinicalExplanation": "Chelante selettivo del potassio, non assorbito ne' metabolizzato: scambia sodio/idrogeno con il potassio nel lume intestinale riducendone l'assorbimento. Effetto in 1 ora, normokaliemia in 24-48h. Per correzione e mantenimento (non per l'emergenza acuta immediata). Attenzione al carico di sodio.",
+    "molecularExplanation": "Reticolo di zirconio-silicato che intrappola selettivamente gli ioni potassio nel lume gastrointestinale, scambiandoli con sodio e idrogeno.",
+    "pharmacodynamics": "Aumento dell'eliminazione fecale di potassio e riduzione della potassiemia.",
+    "molecularTarget": "Ione potassio (lume gastrointestinale)",
+    "agonismAntagonism": "Chelazione (scambio ionico)",
+    "pharmacokinetics": {
+      "route": "Orale (sospensione)",
+      "note": "Non assorbito ne' metabolizzato; apporto di sodio",
+      "halfLife": "Non applicabile: non assorbito ne' metabolizzato (azione esclusivamente nel lume gastrointestinale)"
+    },
+    "bibliography": []
+  }
+}

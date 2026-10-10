@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "id": "ticagrelor__acs__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Brilique sez. 4.2 - SCA: carico 180 mg poi 90 mg due volte/die per 12 mesi; post-IM >=1 anno ad alto rischio: 60 mg due volte/die.",
+        "url": "https://www.codifa.it/farmaci/b/brilique-compresse-rivestite-ticagrelor-antiaggreganti-piastrinici",
+        "identifier": "Brilique posologia",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Regime SCA (in DAPT con ASA a basse dosi). La dose 60 mg due volte/die riguarda il trattamento prolungato post-IM ad alto rischio (file dosing separato). id indicazione da riconciliare col vocabolario.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "ticagrelor",
+  "indication": "acs",
+  "scenario": "Sindrome coronarica acuta (in DAPT con ASA)",
+  "route": "oral",
+  "formulation": null,
+  "population": "adult-standard",
+  "dose": {
+    "loading": "180 mg (due compresse da 90 mg)",
+    "initial": "90 mg due volte al giorno",
+    "interval": "ogni 12 ore",
+    "maintenance": "90 mg due volte al giorno (con ASA a basse dosi), raccomandato per 12 mesi salvo indicazione clinica all'interruzione",
+    "target": null,
+    "max": null,
+    "titration": null,
+    "duration": "Fino a 12 mesi nelle SCA",
+    "weightBased": null,
+    "cumulative": null,
+    "renalAdjustment": "Nessun aggiustamento.",
+    "hepaticAdjustment": "Controindicato in compromissione grave; cautela nella moderata.",
+    "elderly": "Nessun aggiustamento specifico.",
+    "pregnancy": "Non raccomandato.",
+    "dialysis": null
+  },
+  "administration": {
+    "preparation": null,
+    "solvent": null,
+    "concentration": null,
+    "rate": null,
+    "access": null,
+    "notes": "Uso orale con o senza cibo; disponibile compressa orodispersibile per chi non deglutisce la compressa intera. Mantenere ASA a basse dosi."
+  },
+  "monitoring": [
+    "Segni di sanguinamento",
+    "Comparsa di dispnea",
+    "Frequenza cardiaca nei pazienti a rischio"
+  ],
+  "stoppingCriteria": [
+    "Sanguinamento significativo",
+    "CABG programmata: sospensione >=96 ore prima (o secondo linee guida)"
+  ],
+  "approvalEvidence": {
+    "primarySourceVerified": false,
+    "smpcVerified": true,
+    "clinicalReviewDone": true,
+    "verificationDate": "2026-07-18",
+    "reviewer": "Curatore clinico"
+  }
+}

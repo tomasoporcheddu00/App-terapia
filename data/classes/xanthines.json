@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "id": "xanthines",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Xantine: sintesi da RCP AIFA.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/aminophilline/",
+        "identifier": "Xantine classe",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP; confermare su RCP ufficiali."
+  },
+  "name": "Xantine (broncodilatatori sistemici)",
+  "atcGroup": "R03DA (derivati xantinici)",
+  "memberDrugIds": [
+    "aminophylline"
+  ],
+  "mechanismSummary": "Derivati xantinici che inibiscono le fosfodiesterasi (aumentando l'AMP ciclico) e antagonizzano i recettori dell'adenosina, con broncodilatazione ed effetti cardiaci e neurologici. Indice terapeutico stretto.",
+  "molecularTarget": "Fosfodiesterasi (non selettiva) e recettori dell'adenosina",
+  "pharmacodynamics": "Rilassamento della muscolatura liscia bronchiale, effetto inotropo e cronotropo positivo, stimolazione del sistema nervoso centrale e modesta diuresi.",
+  "classEffects": [
+    "Broncodilatazione sistemica nell'asma grave",
+    "Indice terapeutico stretto con rischio di aritmie ventricolari e convulsioni",
+    "Clearance molto variabile (eta', scompenso, epatopatia, fumo, interazioni)",
+    "Antagonismo dell'adenosina, rilevante nelle tachicardie sopraventricolari"
+  ],
+  "sharedContraindications": [
+    "Ipersensibilita' ai derivati xantinici, infarto miocardico acuto, stati ipotensivi"
+  ],
+  "sharedAdverseEffects": [
+    "Tachicardia, extrasistolia, aritmie",
+    "Nausea, vomito, dolore epigastrico",
+    "Cefalea, irritabilita', insonnia, tremore",
+    "Convulsioni (tossicita')"
+  ],
+  "monitoring": [
+    "Frequenza cardiaca ed ECG",
+    "Livelli ematici di teofillina (terapeutici ~10-15 mcg/mL)",
+    "Segni neurologici e gastrointestinali di tossicita'"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "L'aminofillina (teofillina + etilendiamina) e' la forma idrosolubile adatta alla via endovenosa. In ambito cardiologico va ricordato l'antagonismo con l'adenosina (le xantine ne riducono l'efficacia nelle tachicardie sopraventricolari) e la controindicazione nell'infarto miocardico acuto. Dosi e dettagli nella scheda del farmaco."
+}

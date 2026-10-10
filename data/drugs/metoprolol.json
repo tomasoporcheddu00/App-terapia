@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "id": "metoprolol",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Metoprololo (tartrato/succinato) - RCP (Mediately/Torrinomedica su base AIFA): indicazioni e posologia.",
+        "url": "https://mediately.co/it/drugs/ZRHO3Q6fQ125xTlxQnonrEbkbAr/metoprololo-doc-generici-100-mg-compresse",
+        "identifier": "Metoprololo RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "Betabloccanti: meccanismo, controindicazioni, avvertenze e interazioni di classe; sintesi da RCP/portali AIFA (Codifa, Mediately, Torrinomedica, Pharmamedix).",
+        "url": "https://www.torrinomedica.it/schede-farmaci/bisoprololo/",
+        "identifier": "Betabloccanti classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Molte controindicazioni/avvertenze/interazioni sono comuni alla classe dei betabloccanti. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Metoprololo",
+    "inn": "metoprololo",
+    "brandExamplesIt": [
+      "Lopresor",
+      "Seloken",
+      "Beloc"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Betabloccante beta1-selettivo (tartrato/succinato)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "beta-blockers"
+  ],
+  "quickSummary": {
+    "whatItIs": "Betabloccante beta1-selettivo; disponibile come tartrato (piu' somministrazioni) e succinato a rilascio prolungato (monosomministrazione, usato nello scompenso).",
+    "mainUses": [
+      "Ipertensione",
+      "Angina pectoris",
+      "Aritmie (tachiaritmie)",
+      "Post-infarto miocardico",
+      "Scompenso cardiaco a FE ridotta (succinato)",
+      "Profilassi dell'emicrania"
+    ],
+    "mainRisks": [
+      "Bradicardia",
+      "Ipotensione",
+      "Broncospasmo (nei predisposti)"
+    ],
+    "essentialMonitoring": [
+      "Frequenza cardiaca",
+      "Pressione arteriosa"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipertensione arteriosa",
+      "Angina pectoris (profilassi)",
+      "Tachiaritmie cardiache",
+      "Infarto miocardico (trattamento e prevenzione secondaria)",
+      "Scompenso cardiaco cronico stabile a FE ridotta (formulazione succinato, con titolazione)",
+      "Disturbi funzionali cardiaci con palpitazioni",
+      "Profilassi dell'emicrania"
+    ],
+    "guidelineIndications": [
+      "Betabloccante con evidenza nello scompenso a FE ridotta (metoprololo succinato, MERIT-HF) e nel post-infarto; confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alla molecola o ad altri betabloccanti",
+      "Insufficienza cardiaca acuta o scompensata che richiede terapia inotropa endovenosa; shock cardiogeno",
+      "Blocco atrioventricolare di 2o o 3o grado (senza pacemaker)",
+      "Sindrome del nodo del seno; blocco seno-atriale",
+      "Bradicardia sintomatica clinicamente rilevante",
+      "Ipotensione grave/sintomatica",
+      "Broncospasmo grave / asma bronchiale grave",
+      "Arteriopatia periferica grave o fenomeno di Raynaud grave",
+      "Feocromocitoma non trattato (senza alfa-blocco)",
+      "Acidosi metabolica"
+    ],
+    "warnings": [
+      "Non interrompere bruscamente: rischio di rebound (peggioramento di angina/ischemia, crisi ipertensive); ridurre gradualmente",
+      "Puo' mascherare i sintomi dell'ipoglicemia nel diabetico e i segni dell'ipertiroidismo",
+      "Broncospasmo nei predisposti: preferire i cardioselettivi alla dose minima efficace",
+      "Bradicardia e disturbi della conduzione AV: monitorare frequenza e conduzione",
+      "Nell'avvio/titolazione per lo scompenso puo' verificarsi un transitorio peggioramento (start low, go slow)",
+      "Cautela nell'angina di Prinzmetal (i non selettivi possono peggiorarla)",
+      "Distinguere sempre il sale: il succinato a rilascio prolungato e' la formulazione dello scompenso"
+    ],
+    "adverseEffects": [
+      "Bradicardia",
+      "Ipotensione, capogiro",
+      "Astenia/affaticamento",
+      "Estremita' fredde",
+      "Disturbi del sonno",
+      "Broncospasmo (nei predisposti)"
+    ],
+    "overdose": null,
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento rilevante (metabolismo epatico).",
+      "hepatic": "Ridurre la dose nell'insufficienza epatica grave (metabolismo CYP2D6).",
+      "elderly": "Nessun aggiustamento sistematico.",
+      "pregnancy": "Usare solo se necessario; rischio neonatale di bradicardia/ipoglicemia.",
+      "breastfeeding": "Escreto in piccole quantita'; generalmente compatibile con cautela."
+    },
+    "alternativeDrugIds": [
+      "bisoprolol",
+      "carvedilol",
+      "nebivolol"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Rallenta il cuore per abbassare pressione, ridurre l'angina e trattare alcune aritmie; la forma 'succinato' si usa nello scompenso.",
+    "clinicalExplanation": "Beta1-selettivo; il succinato a rilascio prolungato (monosomministrazione) e' la formulazione validata nello scompenso a FE ridotta.",
+    "molecularExplanation": "Blocca selettivamente i recettori beta1; metabolismo epatico via CYP2D6.",
+    "pharmacodynamics": "Riduzione di frequenza cardiaca, contrattilita', conduzione AV e rilascio di renina; calo della pressione e del consumo miocardico di ossigeno.",
+    "molecularTarget": "Recettori beta-adrenergici (beta1 +/- beta2 +/- alfa1)",
+    "agonismAntagonism": "Antagonista recettoriale",
+    "pharmacokinetics": {
+      "metabolism": "Epatico (CYP2D6)",
+      "elimination": "Renale (metaboliti)",
+      "halfLife": "~3-7 ore (tartrato)"
+    },
+    "bibliography": [
+      "MERIT-HF (metoprololo succinato nello scompenso) - da citare con fonte primaria"
+    ]
+  }
+}

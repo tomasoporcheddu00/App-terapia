@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "zofenopril__post-mi__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Zofenopril calcio - RCP (rese da Mediately/Torrinomedica/Codifa/Egualia su base AIFA): indicazioni, posologia §4.2.",
+        "url": "https://www.codifa.it/farmaci/z/zofenopril-doc-generici-zofenopril-sale-di-calcio-ace-inibitori",
+        "identifier": "Zofenopril RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "zofenopril",
+  "indication": "post-mi",
+  "scenario": "Infarto miocardico acuto (entro 24 ore, paziente stabile, non trombolisato)",
+  "route": "orale",
+  "dose": {
+    "initial": "Avvio entro 24 ore dall'insorgenza dei sintomi con titolazione progressiva",
+    "maintenance": "fino a 30 mg due volte al giorno secondo tollerabilita'",
+    "duration": "6 settimane, poi rivalutazione",
+    "renalAdjustment": "Interrompere se ipotensione persistente (sistolica <90 mmHg per oltre 1 ora)"
+  },
+  "administration": {
+    "notes": "Solo in pazienti emodinamicamente stabili. Schema di titolazione esatto dei primi giorni da confermare su RCP §4.2. Non usare in caso di compromissione epatica."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

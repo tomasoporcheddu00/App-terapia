@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "id": "calcium-gluconate",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Calcio gluconato - RCP (Codifa/Univadis/Mediately su base AIFA): ipocalcemia acuta, protezione cardiaca nell'iperkaliemia, antidoto di MgSO4/fluoruri; controindicato con glicosidi cardioattivi, FV, ipercalcemia.",
+        "url": "https://www.univadis.it/references/drug-database/B05/viewdrug/calcio-gluconato-26154",
+        "identifier": "Calcio gluconato RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Agenti d'urgenza: le dosi di emergenza vanno adattate ai protocolli locali. Antidoto funzionale del magnesio (gia' collegato come antidoto sul solfato di magnesio) e dei calcioantagonisti.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Calcio gluconato",
+    "inn": "calcio gluconato",
+    "brandExamplesIt": [
+      "Calcio Gluconato (varie)"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Sale di calcio (elettrolita EV)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "electrolyte-metabolic-agents"
+  ],
+  "quickSummary": {
+    "whatItIs": "Sale di calcio per via endovenosa, meno irritante del cloruro: reintegra il calcio nell'ipocalcemia e protegge il cuore nell'iperkaliemia; e' anche antidoto dell'intossicazione da magnesio e da calcioantagonisti.",
+    "mainUses": [
+      "Ipocalcemia acuta sintomatica",
+      "Protezione cardiaca nell'iperkaliemia con alterazioni ECG",
+      "Antidoto: ipermagnesiemia/tossicita' da MgSO4, calcioantagonisti, acido fluoridrico"
+    ],
+    "mainRisks": [
+      "Tossicita' digitalica (calcio EV controindicato con la digitale)",
+      "Bradicardia/aritmie/arresto se somministrato troppo rapidamente",
+      "Necrosi da stravaso"
+    ],
+    "essentialMonitoring": [
+      "Calcemia",
+      "ECG (specie in terapia digitalica)",
+      "Sito di infusione (stravaso)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento dell'ipocalcemia sintomatica acuta",
+      "Protezione cardiaca nell'iperkaliemia con alterazioni ECG (uso da linee guida)",
+      "Antidoto nell'intossicazione da magnesio/calcioantagonisti e nell'esposizione ad acido fluoridrico/fluoruri-ossalati (uso da centri antiveleni)"
+    ],
+    "guidelineIndications": [
+      "Nell'iperkaliemia con ECG alterato: 10-30 mL di calcio gluconato 10% EV per stabilizzare la membrana (non abbassa il potassio) - ERC 2021",
+      "Preferito al calcio cloruro per la via periferica (meno irritante) - confermare su fonte"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Ipercalcemia e condizioni che la comportano (iperparatiroidismo, ipervitaminosi D, neoplasie con decalcificazione ossea, sarcoidosi)",
+      "Grave ipercalciuria",
+      "Grave insufficienza renale",
+      "Fibrillazione ventricolare",
+      "Pazienti in terapia con glicosidi cardioattivi (digitale)",
+      "Neonati <=28 giorni in trattamento concomitante con ceftriaxone"
+    ],
+    "warnings": [
+      "Non somministrare per via sottocutanea o intramuscolare (irritante: ascessi/necrosi); monitorare il sito per lo stravaso (calcificazione dei tessuti molli, necrosi)",
+      "Iniezione EV lenta e a velocita' controllata: la somministrazione rapida causa vasodilatazione, ipotensione, bradicardia, aritmie, sincope, fino all'arresto cardiaco",
+      "Diluire con glucosata 5% o fisiologica; NON diluire in soluzioni con bicarbonati, fosfati o solfati (precipitazione)",
+      "Cautela nell'insufficienza renale e nella sarcoidosi; soluzione ipertonica"
+    ],
+    "adverseEffects": [
+      "Reazioni al sito di infusione, necrosi da stravaso",
+      "Vasodilatazione, vampate, sudorazione",
+      "Ipotensione, bradicardia, aritmie",
+      "Ipercalcemia/ipercalciuria (sovradosaggio)",
+      "Nausea, vomito"
+    ],
+    "overdose": "Il sovradosaggio causa ipercalcemia: infusione di fisiologica ed eventuale furosemide per aumentare l'escrezione, poi calcitonina/bifosfonati; emodialisi come ultima risorsa.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Controindicato nella grave; cautela.",
+      "hepatic": "Cautela.",
+      "elderly": "Cautela nella velocita' di infusione.",
+      "pregnancy": "Utilizzabile se necessario.",
+      "breastfeeding": "Compatibile."
+    },
+    "alternativeDrugIds": [
+      "calcium-chloride",
+      "magnesium-sulfate"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Il 'calcio in vena': ripristina il calcio quando e' basso e protegge il cuore quando il potassio e' troppo alto. Va dato lentamente e mai a chi prende la digitale.",
+    "clinicalExplanation": "Sale di calcio EV (94 mg di calcio elementare per grammo, meno del cloruro). Ipocalcemia acuta; nell'iperkaliemia stabilizza il potenziale di membrana dei miocardiociti (protezione, non riduce il K); antidoto nella tossicita' da magnesio e da calcioantagonisti. Controindicato con la digitale.",
+    "molecularExplanation": "Fornisce ioni calcio che ripristinano il gradiente e stabilizzano il potenziale di membrana (soglia) dei cardiomiociti.",
+    "pharmacodynamics": "Ripristino della calcemia e stabilizzazione della membrana miocardica; antagonismo funzionale del magnesio.",
+    "molecularTarget": "Ione calcio (potenziale di membrana / accoppiamento eccitazione-contrazione)",
+    "agonismAntagonism": "Reintegro elettrolitico / stabilizzazione di membrana",
+    "pharmacokinetics": {
+      "route": "Endovenosa (lenta)",
+      "note": "Meno calcio elementare del calcio cloruro; via periferica possibile",
+      "halfLife": "Non applicabile in senso farmacocinetico: la calcemia e' regolata dall'omeostasi (PTH, vitamina D) e dall'escrezione renale, non da un'emivita di eliminazione del farmaco"
+    },
+    "bibliography": []
+  }
+}

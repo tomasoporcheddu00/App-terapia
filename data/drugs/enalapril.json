@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "id": "enalapril",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Enalapril - RCP (rese da Codifa/Mediately/Torrinomedica su base AIFA): indicazioni, posologia §4.2, avvertenze e interazioni.",
+        "url": "https://www.codifa.it/farmaci/e/enalapril-eg-enalapril-maleato-ace-inibitori",
+        "identifier": "Enalapril RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "ACE-inibitori: controindicazioni (§4.3), avvertenze (§4.4) e interazioni (§4.5) di classe, sintesi da RCP/portali AIFA (Codifa, Mediately, Torrinomedica, Egualia).",
+        "url": "https://www.santagostino.it/magazine/ace-inibitori/",
+        "identifier": "ACE-inibitori classe §4.3-4.5",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "Position Paper SIF-SIIA 2015 (Societa' Italiana di Farmacologia / Societa' Italiana dell'Ipertensione Arteriosa), sezione Farmacocinetica di ACE-inibitori e sartani.",
+        "url": "https://sif2022-production.s3.amazonaws.com/uploads/attachment/file_it/1702/sif_position_paper_cardiovascolare_lug15.pdf",
+        "identifier": "SIF-SIIA 2015",
+        "retrievedAt": "2026-07-24"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA/foglietti illustrativi): indicazioni, posologia, controindicazioni (§4.3), avvertenze (§4.4), interazioni (§4.5). DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica (§5.2) parziale. Controindicazioni/avvertenze/interazioni in gran parte comuni alla classe ACE-inibitori. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Enalapril",
+    "inn": "enalapril",
+    "brandExamplesIt": [
+      "Enapren",
+      "Naprilene"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "ACE-inibitore (profarmaco)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "ace-inhibitors"
+  ],
+  "quickSummary": {
+    "whatItIs": "ACE-inibitore profarmaco (attivato a enalaprilato) con effetto antipertensivo e favorevole nello scompenso.",
+    "mainUses": [
+      "Ipertensione arteriosa",
+      "Scompenso cardiaco sintomatico",
+      "Disfunzione ventricolare sinistra asintomatica"
+    ],
+    "mainRisks": [
+      "Ipotensione da prima dose",
+      "Iperkaliemia",
+      "Peggioramento della funzione renale",
+      "Tosse secca",
+      "Angioedema (raro)"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa",
+      "Potassio sierico",
+      "Funzione renale"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipertensione arteriosa",
+      "Trattamento e prevenzione dello scompenso cardiaco sintomatico",
+      "Disfunzione ventricolare sinistra asintomatica"
+    ],
+    "guidelineIndications": [
+      "Caposaldo del trattamento dell'insufficienza cardiaca a FE ridotta (posizionamento di classe; confermare su linea guida ESC)"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alla molecola, agli eccipienti o ad altri ACE-inibitori",
+      "Anamnesi di angioedema (ereditario, idiopatico o pregresso con ACE-inibitori/ARB)",
+      "Secondo e terzo trimestre di gravidanza",
+      "Stenosi bilaterale dell'arteria renale o stenosi unilaterale su rene unico funzionante",
+      "Uso concomitante con sacubitril/valsartan (rischio di angioedema)",
+      "Uso concomitante con aliskiren in diabete mellito o compromissione renale (GFR <60 mL/min/1,73 m2)"
+    ],
+    "warnings": [
+      "Ipotensione sintomatica, soprattutto alla prima dose e nei pazienti con deplezione idrosalina o in terapia diuretica (valutare sospensione del diuretico 2-3 giorni prima)",
+      "Iperkaliemia: rischio aumentato in insufficienza renale, eta' >70 anni, diabete, disidratazione, scompenso acuto, acidosi metabolica, uso di sali/integratori di potassio o diuretici risparmiatori di potassio; monitorare il potassio",
+      "Angioedema (sospendere immediatamente)",
+      "Monitorare funzione renale ed elettroliti, in particolare all'avvio e dopo aumenti di dose",
+      "Duplice blocco del sistema renina-angiotensina-aldosterone non raccomandato",
+      "Tosse secca persistente (effetto di classe da bradichinina)",
+      "Gravidanza: sospendere e non iniziare in gravidanza"
+    ],
+    "adverseEffects": [
+      "Ipotensione, capogiro",
+      "Tosse secca",
+      "Iperkaliemia",
+      "Aumento della creatinina/riduzione della funzione renale",
+      "Cefalea, affaticamento",
+      "Angioedema (raro, potenzialmente grave)"
+    ],
+    "overdose": null,
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Ridurre la dose e/o titolare con cautela in base alla clearance della creatinina; monitorare funzione renale e potassio.",
+      "hepatic": "Cautela nell'insufficienza epatica; iniziare a dose bassa.",
+      "elderly": "Considerare dose iniziale ridotta; maggiore rischio di ipotensione e iperkaliemia.",
+      "pregnancy": "Controindicato nel 2o-3o trimestre; evitare in gravidanza.",
+      "breastfeeding": "Generalmente sconsigliato; valutare alternative (confermare su RCP §4.6)."
+    },
+    "alternativeDrugIds": [
+      "ramipril",
+      "lisinopril",
+      "perindopril",
+      "candesartan"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Rilassa e allarga i vasi riducendo l'angiotensina II: abbassa la pressione e alleggerisce il lavoro del cuore.",
+    "clinicalExplanation": "Profarmaco attivato a enalaprilato; nello scompenso riduce pre/postcarico, migliora la gittata e riduce la pressione capillare polmonare.",
+    "molecularExplanation": "Il maleato di enalapril e' idrolizzato a enalaprilato, inibitore dell'ACE che blocca la conversione di angiotensina I in II.",
+    "pharmacodynamics": "Riduzione delle resistenze vascolari periferiche senza tachicardia riflessa marcata e della pressione intraglomerulare; l'accumulo di bradichinina spiega tosse secca e, raramente, angioedema.",
+    "molecularTarget": "Enzima di conversione dell'angiotensina (ACE / chininasi II)",
+    "agonismAntagonism": "Inibitore enzimatico",
+    "pharmacokinetics": {
+      "metabolism": "Profarmaco idrolizzato a enalaprilato (metabolita attivo)",
+      "elimination": "Prevalentemente renale",
+      "halfLife": "Enalaprilato: emivita effettiva di accumulo ~11 ore (eliminazione bifasica con fase terminale prolungata)"
+    },
+    "bibliography": [
+      "SOLVD (enalapril nello scompenso/disfunzione VS) - da citare con fonte primaria",
+      "CONSENSUS (enalapril, scompenso avanzato) - da citare con fonte primaria"
+    ]
+  }
+}

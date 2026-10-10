@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "id": "rifampicin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "SPILF-AEPEI - position statement sulla terapia antibiotica dell'endocardite secondo le linee guida ESC 2023 (strategie per streptococchi, enterococchi e stafilococchi; daptomicina, rifampicina, monitoraggi).",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2666991924001787",
+        "identifier": "SPILF-AEPEI 2024",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "SCOPO DELLA SCHEDA: in questo atlante cardiologico gli antibiotici sono trattati SOLO per il ruolo nell'endocardite infettiva; per ogni altro impiego fare riferimento all'RCP e alla consulenza infettivologica. Regimi sintetizzati dalle linee guida ESC 2023 sull'endocardite (tabelle 7-10) tramite fonti secondarie e dal position statement SPILF-AEPEI: DA CONFERMARE sul testo integrale delle linee guida e sul corrigendum 2025, che ha corretto le dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10. La scelta di molecola, dose e durata dipende da patogeno, MIC, tipo di valvola (nativa o protesica) e funzione renale, e va concordata con l'Endocarditis Team. Stato: revisione fonti (source-review). Ruolo nell'endocardite: la scelta e la durata dipendono da patogeno, MIC e tipo di valvola. Verificare sempre le tabelle ESC 2023 aggiornate al corrigendum e concordare con l'Endocarditis Team.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Rifampicina",
+    "inn": "rifampicina",
+    "brandExamplesIt": [
+      "Rifadin"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Rifamicina",
+  "identity": {
+    "atcCodes": [
+      "J04AB02"
+    ],
+    "formulations": [
+      "Capsule",
+      "Polvere per soluzione per infusione"
+    ],
+    "potentialRoutes": [
+      "orale",
+      "endovenosa"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "rifamycins"
+  ],
+  "quickSummary": {
+    "whatItIs": "Rifamicina con attivita' sui biofilm: nell'endocardite ha un ruolo circoscritto ma importante, LIMITATO alle infezioni che coinvolgono materiale protesico. E' un potente induttore enzimatico, con interazioni cardiologiche rilevanti.",
+    "mainUses": [
+      "Endocardite su valvola protesica o su altro materiale protesico, in associazione"
+    ],
+    "mainRisks": [
+      "Potente induzione del CYP3A4 e della glicoproteina-P, con riduzione dell'efficacia di molti farmaci cardiologici",
+      "Epatotossicita'",
+      "Colorazione arancione di urine, lacrime e secrezioni (e delle lenti a contatto)"
+    ],
+    "essentialMonitoring": [
+      "Funzione epatica",
+      "Efficacia dei farmaci concomitanti (INR se warfarin, controllo pressorio, livelli degli immunosoppressori)",
+      "Emocolture di controllo"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Tubercolosi e altre infezioni da microrganismi sensibili, secondo la scheda tecnica"
+    ],
+    "guidelineIndications": [
+      "Endocardite: la rifampicina va usata SOLO nelle forme che coinvolgono materiale protesico, inclusa l'endocardite su valvola protesica - ESC 2023",
+      "Schema su valvola protesica: rifampicina 900 mg al giorno per via endovenosa o orale in 3 somministrazioni, in associazione (per esempio a oxacillina/flucloxacillina o vancomicina) e con gentamicina per 2 settimane, per una durata di almeno 6 settimane",
+      "La rifampicina va introdotta DOPO la sterilizzazione delle emocolture, non all'inizio del trattamento (SPILF-AEPEI): l'aggiunta precoce puo' favorire la selezione di resistenze",
+      "Mai in monoterapia: sviluppo rapido di resistenza"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alle rifamicine",
+      "Insufficienza epatica grave",
+      "Associazione con farmaci controindicati per induzione enzimatica (vedere RCP)"
+    ],
+    "warnings": [
+      "INDUZIONE ENZIMATICA POTENTE (CYP3A4, CYP2C9, glicoproteina-P): riduce l'efficacia di numerosi farmaci cardiologici - anticoagulanti orali diretti e warfarin, antiaritmici, calcioantagonisti, statine, ticagrelor, digossina, corticosteroidi - e di immunosoppressori, antiretrovirali e contraccettivi orali. Rivalutare TUTTA la terapia domiciliare prima di iniziarla",
+      "EPATOTOSSICITA': monitorare la funzione epatica, in particolare in associazione ad altri farmaci epatotossici",
+      "Colorazione rosso-arancio di urine, sudore, lacrime e secrezioni, con colorazione permanente delle lenti a contatto morbide: informare il paziente",
+      "Reazioni immunologiche con la somministrazione intermittente (sindrome simil-influenzale, trombocitopenia, anemia emolitica, insufficienza renale acuta)",
+      "Mai in monoterapia per il rapido sviluppo di resistenza"
+    ],
+    "adverseEffects": [
+      "Colorazione arancione dei fluidi corporei",
+      "Epatotossicita' e aumento delle transaminasi",
+      "Disturbi gastrointestinali",
+      "Trombocitopenia, leucopenia",
+      "Sindrome simil-influenzale (soprattutto con somministrazione intermittente)",
+      "Reazioni di ipersensibilita'"
+    ],
+    "overdose": "Il sovradosaggio causa colorazione intensa di cute e fluidi (sindrome dell'uomo rosso-arancio), epatotossicita' e alterazioni della coscienza. Terapia di supporto e monitoraggio della funzione epatica.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento sistematico nelle forme lievi-moderate.",
+      "hepatic": "Controindicata nell'insufficienza epatica grave; monitoraggio stretto nelle forme lievi.",
+      "elderly": "Attenzione alle interazioni per la frequente politerapia.",
+      "pregnancy": "Consultare l'RCP.",
+      "breastfeeding": "Consultare l'RCP."
+    },
+    "alternativeDrugIds": [
+      "daptomycin",
+      "vancomycin",
+      "linezolid"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Serve quando l'infezione e' su una protesi, perche' penetra nel biofilm. E' pero' il farmaco che 'brucia' gli altri: riduce l'effetto di anticoagulanti, statine, antiaritmici. Prima di iniziarla va rivista tutta la terapia. E colora di arancione urine e lacrime.",
+    "clinicalExplanation": "Rifamicina che inibisce la RNA polimerasi DNA-dipendente batterica, con attivita' peculiare sui microrganismi adesi al biofilm e in fase stazionaria. Nell'endocardite l'indicazione ESC 2023 e' circoscritta alle infezioni con materiale protesico (900 mg/die in 3 somministrazioni, almeno 6 settimane, in associazione). Va introdotta dopo la sterilizzazione delle emocolture e mai in monoterapia. Il vero problema pratico nel cardiopatico e' l'induzione enzimatica: riduce l'efficacia di DOAC, warfarin, antiaritmici, calcioantagonisti, statine e ticagrelor.",
+    "molecularExplanation": "Inibisce la subunita' beta della RNA polimerasi DNA-dipendente batterica, bloccando la trascrizione.",
+    "pharmacodynamics": "Battericida con penetrazione nel biofilm e attivita' sui batteri intracellulari e in fase stazionaria.",
+    "molecularTarget": "RNA polimerasi DNA-dipendente batterica (subunita' beta)",
+    "agonismAntagonism": "Inibizione della sintesi o della funzione batterica",
+    "pharmacokinetics": {
+      "route": "Orale o endovenosa",
+      "halfLife": "Circa 2-5 ore, che si riduce con l'uso continuato per autoinduzione",
+      "note": "Potente induttore di CYP3A4, CYP2C9 e glicoproteina-P; metabolismo ed eliminazione prevalentemente epatobiliari"
+    },
+    "bibliography": []
+  }
+}

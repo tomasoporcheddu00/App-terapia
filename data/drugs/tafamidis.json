@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "id": "tafamidis",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Vyndaqel 61 mg (tafamidis) - RCP EMA (registro comunitario EC, allegato IT; Torrinomedica/Codifa): indicazione ATTR-CM, posologia, criteri diagnostici, interazione con i substrati BCRP.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2023/20230215158175/anx_158175_it.pdf",
+        "identifier": "Vyndaqel RCP EMA",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da RCP EMA/AIFA e da fonti secondarie derivate dagli RCP (Torrinomedica/Codifa/Mediately, registro comunitario EC). DA CONFERMARE sugli RCP ufficiali. Stato: revisione fonti (source-review), non ancora approvato. Farmaci specialistici per amiloidosi cardiaca e cardiomiopatia ipertrofica: prescrizione in centri esperti, con piano terapeutico e criteri diagnostici stringenti. Vyndaqel 61 mg (tafamidis) corrisponde a tafamidis meglumine 80 mg: NON sono intercambiabili sulla base dei mg.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Tafamidis",
+    "inn": "tafamidis",
+    "brandExamplesIt": [
+      "Vyndaqel"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Stabilizzatore del tetramero della transtiretina",
+  "identity": {
+    "atcCodes": [
+      "N07XX08"
+    ],
+    "formulations": [
+      "Capsule molli 61 mg"
+    ],
+    "potentialRoutes": [
+      "orale"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "ttr-stabilizers"
+  ],
+  "quickSummary": {
+    "whatItIs": "Stabilizzatore selettivo del tetramero della transtiretina: impedendone la dissociazione riduce la formazione di nuove fibrille amiloidi. E' il primo farmaco che ha modificato la prognosi dell'amiloidosi cardiaca da transtiretina.",
+    "mainUses": [
+      "Amiloidosi da transtiretina wild type o ereditaria in pazienti adulti con cardiomiopatia (ATTR-CM)"
+    ],
+    "mainRisks": [
+      "Non rimuove l'amiloide gia' depositata: il beneficio dipende dalla precocita' del trattamento",
+      "Interazioni con i substrati del trasportatore BCRP (rosuvastatina, atorvastatina, apixaban, rivaroxaban)",
+      "Non raccomandato in gravidanza; contraccezione fino a un mese dopo la sospensione"
+    ],
+    "essentialMonitoring": [
+      "Conferma diagnostica di ATTR-CM ed esclusione dell'amiloidosi AL PRIMA di iniziare",
+      "Classe funzionale NYHA e progressione dello scompenso",
+      "Tollerabilita' dei substrati BCRP eventualmente associati"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento dell'amiloidosi da transtiretina wild type o ereditaria nei pazienti adulti affetti da cardiomiopatia (ATTR-CM)"
+    ],
+    "guidelineIndications": [
+      "Nell'amiloidosi cardiaca da transtiretina il tafamidis ha dimostrato riduzione della mortalita' per tutte le cause e delle ospedalizzazioni cardiovascolari (studio ATTR-ACT); e' approvato in Europa dal 2020",
+      "Il trattamento va aggiunto alla terapia standard dello scompenso, non la sostituisce: continuare a valutare la necessita' di ulteriori terapie, incluso il trapianto d'organo"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti"
+    ],
+    "warnings": [
+      "PRIMA DI INIZIARE la diagnosi eziologica deve essere fatta da un medico esperto nel trattamento di amiloidosi o cardiomiopatia, per confermare l'ATTR-CM ed ESCLUDERE L'AMILOIDOSI AL, con scintigrafia ossea, esame di sangue e urine e/o valutazione istologica su biopsia, e test genetico del gene TTR per distinguere forma wild type ed ereditaria",
+      "Le capsule vanno deglutite intere, senza masticarle ne' romperle, con o senza cibo; se sopraggiunge vomito e si individua la capsula intatta, se possibile assumere un'ulteriore dose, altrimenti proseguire il giorno successivo",
+      "Nella classe NYHA III la decisione di iniziare o mantenere il trattamento e' a discrezione del medico esperto; i dati nei pazienti in classe NYHA IV sono limitati",
+      "Tafamidis inibisce in vitro il trasportatore di efflusso BCRP alla dose di 61 mg/die e puo' causare interazioni clinicamente rilevanti con i suoi substrati: in uno studio su volontari sani l'esposizione alla rosuvastatina e' aumentata di circa 2 volte",
+      "Le donne in eta' fertile devono usare misure contraccettive efficaci durante il trattamento e, data la lunga emivita, fino a un mese dopo l'interruzione; non raccomandato in gravidanza"
+    ],
+    "adverseEffects": [
+      "Diarrea",
+      "Infezioni delle vie urinarie",
+      "Dolore addominale",
+      "Flatulenza"
+    ],
+    "overdose": "Non sono disponibili dati specifici sul sovradosaggio; in caso di assunzione eccessiva gestione di supporto e sorveglianza clinica. Non esiste un antidoto specifico.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico previsto.",
+      "hepatic": "Nella compromissione epatica moderata (punteggio Child-Pugh 7-9) sono descritte una riduzione dell'esposizione sistemica (circa 40%) e un aumento della clearance totale, per maggiore frazione libera del farmaco.",
+      "elderly": "Nessun aggiustamento della dose nei pazienti di eta' >=65 anni.",
+      "pregnancy": "Non raccomandato; contraccezione efficace durante il trattamento e per un mese dopo la sospensione.",
+      "breastfeeding": "Non raccomandato."
+    },
+    "alternativeDrugIds": [
+      "acoramidis",
+      "vutrisiran"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' una capsula al giorno che 'incolla' la proteina responsabile dell'amiloidosi cardiaca, impedendole di sfaldarsi e formare nuovi depositi. Non scioglie l'amiloide gia' presente: per questo prima si comincia, meglio funziona.",
+    "clinicalExplanation": "Stabilizzatore selettivo del tetramero della transtiretina che ne rallenta la dissociazione nei monomeri amiloidogenici. Nello studio ATTR-ACT ha ridotto mortalita' per tutte le cause e ospedalizzazioni cardiovascolari nell'ATTR-CM. Presupposto imprescindibile e' la corretta tipizzazione: confermare l'ATTR ed escludere l'amiloidosi AL, che richiede una gestione ematologica completamente diversa. Va aggiunto alla terapia standard dello scompenso.",
+    "molecularExplanation": "Si lega con elevata selettivita' ai due siti di legame della tiroxina sul tetramero di transtiretina, stabilizzandolo cineticamente e impedendone la dissociazione, che e' il passaggio limitante della formazione delle fibrille amiloidi.",
+    "pharmacodynamics": "Stabilizzazione del tetramero di TTR con riduzione della formazione di nuovi depositi amiloidi; nessun effetto sull'amiloide gia' depositata.",
+    "molecularTarget": "Tetramero della transtiretina (siti di legame della tiroxina)",
+    "agonismAntagonism": "Stabilizzazione cinetica del tetramero",
+    "pharmacokinetics": {
+      "route": "Orale, una volta al giorno",
+      "halfLife": "Lunga (steady state dopo circa 14 giorni; contraccezione richiesta fino a un mese dopo la sospensione)",
+      "note": "Non induce ne' inibisce il CYP3A4; inibisce il trasportatore BCRP"
+    },
+    "bibliography": []
+  }
+}

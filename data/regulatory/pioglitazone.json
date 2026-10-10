@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "pioglitazone",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "AIFA - pioglitazone: classe A con nota/piano secondo la specialita'; controindicato nello scompenso cardiaco.",
+        "url": "https://www.codifa.it/farmaci/p/pioglitazone-e-metformina-eg-pioglitazone-e-metformina-ipoglicemizzanti-orali",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Verificare eventuali note AIFA e i criteri prescrittivi della specialita'; controindicazione cardiologica assoluta nello scompenso."
+  },
+  "drugId": "pioglitazone",
+  "authorisation": "EMA/Nazionale",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RR - ricetta ripetibile",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Farmacia",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

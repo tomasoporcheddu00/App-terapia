@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "id": "penicillin-g",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "SCOPO DELLA SCHEDA: in questo atlante cardiologico gli antibiotici sono trattati SOLO per il ruolo nell'endocardite infettiva; per ogni altro impiego fare riferimento all'RCP e alla consulenza infettivologica. Regimi sintetizzati dalle linee guida ESC 2023 sull'endocardite (tabelle 7-10) tramite fonti secondarie e dal position statement SPILF-AEPEI: DA CONFERMARE sul testo integrale delle linee guida e sul corrigendum 2025, che ha corretto le dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10. La scelta di molecola, dose e durata dipende da patogeno, MIC, tipo di valvola (nativa o protesica) e funzione renale, e va concordata con l'Endocarditis Team. Stato: revisione fonti (source-review). Ruolo nell'endocardite: la scelta e la durata dipendono da patogeno, MIC e tipo di valvola. Verificare sempre le tabelle ESC 2023 aggiornate al corrigendum e concordare con l'Endocarditis Team.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Benzilpenicillina (penicillina G)",
+    "inn": "benzilpenicillina",
+    "brandExamplesIt": [
+      "Penicillina G sodica"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Penicillina naturale per via endovenosa",
+  "identity": {
+    "atcCodes": [
+      "J01CE01"
+    ],
+    "formulations": [
+      "Polvere per soluzione iniettabile (milioni di UI)"
+    ],
+    "potentialRoutes": [
+      "endovenosa"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "penicillins"
+  ],
+  "quickSummary": {
+    "whatItIs": "Penicillina naturale endovenosa, farmaco storico e tuttora di riferimento nell'endocardite da streptococchi sensibili alla penicillina.",
+    "mainUses": [
+      "Endocardite da streptococchi orali e del gruppo Streptococcus gallolyticus sensibili alla penicillina"
+    ],
+    "mainRisks": [
+      "Reazioni di ipersensibilita', fino all'anafilassi",
+      "Necessita' di somministrazioni frequenti (4-6 al giorno) o infusione continua",
+      "Neurotossicita' e convulsioni ad alte dosi nell'insufficienza renale",
+      "Carico di sodio o potassio con le dosi elevate"
+    ],
+    "essentialMonitoring": [
+      "Anamnesi allergologica accurata prima della prima dose",
+      "Funzione renale ed elettroliti con le dosi elevate",
+      "Emocolture di controllo per documentare la sterilizzazione"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Infezioni sostenute da microrganismi sensibili alla benzilpenicillina, secondo la scheda tecnica del prodotto"
+    ],
+    "guidelineIndications": [
+      "Endocardite da streptococchi orali e del gruppo S. gallolyticus SENSIBILI alla penicillina: penicillina G 12-18 milioni di UI al giorno per via endovenosa in 4-6 somministrazioni per 4 settimane (valvola nativa), oppure ceftriaxone come alternativa, con o senza gentamicina 3 mg/kg al giorno per le prime 2 settimane - ESC 2023",
+      "Streptococchi con ridotta sensibilita' o resistenti alla penicillina: penicillina G 24 milioni di UI al giorno per 4 settimane associata a gentamicina per 2 settimane",
+      "Nell'endocardite su valvola PROTESICA le durate si allungano (in genere almeno 6 settimane)",
+      "Nel position statement SPILF-AEPEI l'approccio per gli streptococchi privilegia la monoterapia con amoxicillina o ceftriaxone per 4-6 settimane quando la MIC e' <=0,5 mg/L, riservando la gentamicina alle prime 2 settimane quando la MIC e' >0,5 e <=2 mg/L"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alle penicilline o ad altri beta-lattamici (rischio di reattivita' crociata)"
+    ],
+    "warnings": [
+      "Anafilassi e reazioni di ipersensibilita' gravi: raccogliere sempre l'anamnesi allergologica e disporre dei presidi per l'emergenza",
+      "Nell'insufficienza renale le dosi elevate possono causare neurotossicita' con mioclonie e convulsioni: adeguare la dose alla funzione renale",
+      "Le formulazioni sodiche o potassiche comportano un carico elettrolitico non trascurabile alle dosi dell'endocardite: sorvegliare sodio, potassio e stato volemico, in particolare nello scompenso",
+      "Se l'endocardite si associa a meningite la penicillina va evitata per la scarsa penetrazione liquorale e sostituita con ceftriaxone o cefotaxime",
+      "Reazione di Jarisch-Herxheimer nelle infezioni da spirochete"
+    ],
+    "adverseEffects": [
+      "Reazioni di ipersensibilita' (rash, orticaria, anafilassi)",
+      "Diarrea e colite da Clostridioides difficile",
+      "Neutropenia, trombocitopenia e anemia emolitica nei trattamenti prolungati",
+      "Neurotossicita' e convulsioni ad alte dosi con funzione renale ridotta",
+      "Nefrite interstiziale"
+    ],
+    "overdose": "Il sovradosaggio, favorito dall'insufficienza renale, si manifesta con neurotossicita' (mioclonie, convulsioni) e squilibri elettrolitici. Sospensione, terapia di supporto e correzione degli elettroliti; la benzilpenicillina e' rimossa dall'emodialisi.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Ridurre la dose in base alla clearance: l'accumulo causa neurotossicita'.",
+      "hepatic": "Nessun aggiustamento sistematico previsto.",
+      "elderly": "Attenzione alla funzione renale spesso ridotta e al carico elettrolitico.",
+      "pregnancy": "Utilizzabile secondo valutazione clinica; consultare l'RCP.",
+      "breastfeeding": "Consultare l'RCP."
+    },
+    "alternativeDrugIds": [
+      "ceftriaxone",
+      "amoxicillin",
+      "vancomycin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' la penicillina classica in vena. Nell'endocardite da streptococchi sensibili resta il trattamento di riferimento, ma va data piu' volte al giorno per settimane.",
+    "clinicalExplanation": "Beta-lattamico che inibisce la sintesi della parete batterica. Nell'endocardite da streptococchi orali e del gruppo S. gallolyticus sensibili alla penicillina e' uno dei regimi di riferimento (12-18 milioni di UI/die in 4-6 somministrazioni per 4 settimane su valvola nativa). Le criticita' pratiche sono la frequenza delle somministrazioni, il carico elettrolitico alle dosi elevate e la neurotossicita' da accumulo nell'insufficienza renale.",
+    "molecularExplanation": "Si lega alle proteine leganti la penicillina (PBP) inibendo la transpeptidazione del peptidoglicano: ne deriva lisi batterica.",
+    "pharmacodynamics": "Attivita' battericida tempo-dipendente: l'efficacia dipende dal tempo di permanenza sopra la MIC, da cui le somministrazioni frequenti o l'infusione continua.",
+    "molecularTarget": "Proteine leganti la penicillina (PBP) della parete batterica",
+    "agonismAntagonism": "Inibizione enzimatica (transpeptidasi)",
+    "pharmacokinetics": {
+      "route": "Endovenosa",
+      "halfLife": "Breve (circa 30 minuti con funzione renale normale), prolungata nell'insufficienza renale",
+      "note": "Eliminazione prevalentemente renale per secrezione tubulare"
+    },
+    "bibliography": []
+  }
+}

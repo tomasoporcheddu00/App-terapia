@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "id": "colchicine",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-28T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Colchicina Lirca - RCP (Torrinomedica/Codifa/Mediately su base AIFA): indicazioni gottose, controindicazioni, interazioni CYP3A4/P-gp, avvertenze.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/colchicina_lirca/",
+        "identifier": "Colchicina Lirca RCP",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2025 - Linee guida su miocardite e pericardite: colchicina come adiuvante di prima linea; dosi per peso e durata.",
+        "url": "https://www.giornaledicardiologia.it/archivio/4620/articoli/46292/",
+        "identifier": "ESC 2025 IMPS",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Interazioni da RCP. Interazioni fondamentali per l'uso cardiologico: molti farmaci cardiovascolari sono inibitori della P-gp. Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "colchicine",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Inibitori del CYP3A4 o della glicoproteina-P in presenza di danno renale o epatico (claritromicina, eritromicina, ketoconazolo, ciclosporina, ritonavir)",
+      "effect": "Aumento marcato delle concentrazioni di colchicina con tossicita' grave, anche fatale",
+      "management": "Associazione controindicata in presenza di insufficienza renale o epatica; nei pazienti con funzione normale ridurre la dose di colchicina o sospenderla per la durata del trattamento"
+    },
+    {
+      "severity": "major",
+      "agent": "Claritromicina",
+      "effect": "Casi post-marketing di tossicita' da colchicina, con decessi riportati, specie negli anziani e nell'insufficienza renale",
+      "management": "Evitare l'associazione; se indispensabile, monitoraggio clinico stretto dei sintomi di tossicita'"
+    },
+    {
+      "severity": "major",
+      "agent": "Amiodarone, dronedarone, verapamil, chinidina, ticagrelor (inibitori della glicoproteina-P)",
+      "effect": "Aumento delle concentrazioni plasmatiche di colchicina",
+      "management": "Ridurre la dose di colchicina o sospenderla; sorvegliare diarrea, mialgie e alterazioni dell'emocromo"
+    },
+    {
+      "severity": "major",
+      "agent": "Statine (simvastatina, lovastatina e altre)",
+      "effect": "Rabdomiolisi riportata nel co-trattamento",
+      "management": "Istruire il paziente a segnalare dolore o debolezza muscolare; valutare CPK in caso di sintomi"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Ciclosporina, tacrolimus",
+      "effect": "Aumento dell'esposizione alla colchicina e rischio di miotossicita'",
+      "management": "Evitare o ridurre la dose con sorveglianza stretta"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Anticoagulanti orali (es. warfarin) e altri substrati del CYP3A4",
+      "effect": "Possibile alterazione reciproca del metabolismo",
+      "management": "Monitorare l'effetto anticoagulante (INR) e la tollerabilita'"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "id": "clopidogrel",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Plavix (clopidogrel) sez. 4.5 - inibitori del CYP2C19 e farmaci che alterano l'emostasi.",
+        "url": "https://www.univadis.it/references/drug-database/B01/viewdrug/plavix-12976",
+        "identifier": "Plavix 4.5",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Coerente con l'attivazione CYP2C19 gia' documentata. Elenco 4.5 completo da verificare sulla RCP integrale.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "clopidogrel",
+  "items": [
+    {
+      "agent": "Inibitori forti/moderati del CYP2C19 (omeprazolo, esomeprazolo)",
+      "effect": "Riduzione del metabolita attivo e dell'efficacia antiaggregante",
+      "management": "Evitare; preferire IPP a minore inibizione (es. pantoprazolo) se necessario",
+      "severity": "major"
+    },
+    {
+      "agent": "Anticoagulanti, altri antiaggreganti, FANS",
+      "effect": "Aumento del rischio emorragico",
+      "management": "Evitare le associazioni non necessarie",
+      "severity": "major"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "id": "flecainide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Flecainide (Almarytm) - RCP (Univadis/Torrinomedica/Xagena su base AIFA): classe Ic, TPSV/FA parossistica senza cardiopatia strutturale; controindicazioni post-IM/scompenso/Brugada; CAST.",
+        "url": "https://www.univadis.it/index.php/references/drug-database/C01/viewdrug/almarytm-1294",
+        "identifier": "Almarytm RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "flecainide",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Amiodarone",
+      "effect": "Aumento dei livelli di flecainide",
+      "management": "Ridurre la dose di flecainide (~50%) e monitorare"
+    },
+    {
+      "severity": "major",
+      "agent": "Betabloccanti / altri inotropi negativi",
+      "effect": "Depressione additiva della contrattilita'",
+      "management": "Cautela"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Inibitori del CYP2D6 (fluoxetina, paroxetina, chinidina)",
+      "effect": "Aumento dei livelli di flecainide",
+      "management": "Monitorare"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Digossina",
+      "effect": "Lieve aumento dei livelli di digossina",
+      "management": "Monitorare la digossinemia"
+    }
+  ]
+}

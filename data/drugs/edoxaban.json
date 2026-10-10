@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "id": "edoxaban",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Lixiana (edoxaban), Daiichi Sankyo - sez. 4.2-4.4, 5.2 (RCP europea/italiana).",
+        "url": "https://mediately.co/it/drugs/YMnCWLklOon82zZK18RVjF8nfmj/lixiana-60-mg-compresse-rivestite",
+        "identifier": "Lixiana 30/60 mg; ATC B01AF03",
+        "retrievedAt": "2026-07-18"
+      },
+      {
+        "type": "smpc",
+        "citation": "RCP Lixiana - criteri di riduzione a 30 mg (CrCl 15-50, peso <=60 kg, inibitori P-gp specifici); assenza di antidoto specifico.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/lixiana-edoxaban-60-mg/",
+        "identifier": "Lixiana posologia",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Posologia e criteri di riduzione dose verificati su RCP Lixiana. Non esiste un agente di reversione specifico per edoxaban. ATC B01AF03. Elenco verbatim indicazioni 4.1 da confermare su RCP integrale; stato regolatorio IT su banca dati AIFA.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Edoxaban",
+    "inn": "edoxaban",
+    "brandExamplesIt": [
+      "Lixiana"
+    ]
+  },
+  "synonyms": [],
+  "classIds": [
+    "factor-xa-inhibitors"
+  ],
+  "subclass": "Inibitore diretto del fattore Xa (DOAC)",
+  "classificationStatus": "confirmed",
+  "identity": {
+    "atcCodes": [
+      "B01AF03"
+    ],
+    "formulations": [
+      "compresse rivestite con film 30 mg",
+      "compresse rivestite con film 60 mg"
+    ],
+    "potentialRoutes": [
+      "oral"
+    ],
+    "availabilityStatus": "available",
+    "marketingAuthorisationIt": true
+  },
+  "linkedMacroAreaIds": [
+    "atrial-fibrillation",
+    "venous-thromboembolism"
+  ],
+  "quickSummary": {
+    "whatItIs": "Anticoagulante orale diretto inibitore del fattore Xa, in monosomministrazione giornaliera.",
+    "mainUses": [
+      "Prevenzione di ictus ed embolia sistemica nella FANV con fattori di rischio",
+      "Trattamento e prevenzione delle recidive di TVP ed EP nell'adulto"
+    ],
+    "mainRisks": [
+      "Emorragia",
+      "Ridotta efficacia relativa nei pazienti con CrCl elevata (vs warfarin ben gestito)"
+    ],
+    "essentialMonitoring": [
+      "CrCl all'inizio e quando clinicamente indicato",
+      "Segni di sanguinamento"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Prevenzione di ictus ed embolia sistemica in adulti con fibrillazione atriale non valvolare e almeno un fattore di rischio",
+      "Trattamento della TVP e dell'EP e prevenzione delle recidive di TVP ed EP negli adulti (dopo anticoagulante parenterale iniziale per almeno 5 giorni)"
+    ],
+    "guidelineIndications": [
+      "ESC/EACTS 2024 (FA): i DOAC come classe (incluso edoxaban) sono preferiti ai VKA nei pazienti eleggibili, eccetto protesi meccaniche e stenosi mitralica moderata-severa (classe I)."
+    ],
+    "offLabelUses": [],
+    "populations": [
+      "FANV con fattori di rischio (studio ENGAGE AF-TIMI 48); TVP/EP acute e prevenzione recidive"
+    ],
+    "advantages": [
+      "Monosomministrazione giornaliera",
+      "Nessun monitoraggio routinario"
+    ],
+    "limitations": [
+      "Assenza di antidoto specifico",
+      "Ridotta efficacia relativa a CrCl elevata vs warfarin ben gestito",
+      "Non raccomandato in ESRD/dialisi"
+    ],
+    "alternativeDrugIds": [
+      "apixaban",
+      "rivaroxaban",
+      "dabigatran",
+      "warfarin"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Sanguinamento clinicamente significativo in atto",
+      "Lesione o condizione a rischio di sanguinamento maggiore",
+      "Ipertensione grave non controllata",
+      "Epatopatia associata a coagulopatia e rischio emorragico rilevante",
+      "Trattamento concomitante con altri anticoagulanti (salvo switch/UFH per catetere)",
+      "Gravidanza e allattamento"
+    ],
+    "relativeContraindications": [],
+    "warnings": [
+      "Valutare la CrCl prima e durante il trattamento (metodo Cockcroft-Gault)",
+      "Non raccomandato in ESRD o dialisi",
+      "Nei pazienti con FANV ad elevata CrCl usare solo dopo attenta valutazione del rischio (possibile minore efficacia vs warfarin ben gestito)",
+      "Non raccomandato in compromissione epatica severa; cautela nella lieve-moderata",
+      "Assenza di antidoto specifico; l'emodialisi rimuove poco edoxaban"
+    ],
+    "adverseEffects": [
+      "Emorragia (inclusa GI e cutanea)",
+      "Anemia",
+      "Rash",
+      "Alterazioni della funzione epatica"
+    ],
+    "overdose": "Il sovradosaggio aumenta il rischio emorragico. Non esiste un antidoto specifico; gestione di supporto ed emostasi (l'emodialisi non e' efficace).",
+    "antidoteDrugIds": [],
+    "monitoring": [
+      "CrCl",
+      "Funzione epatica (prima dell'avvio)",
+      "Segni di sanguinamento"
+    ],
+    "discontinuation": "Sospensione perioperatoria in base al rischio; riprendere appena ottenuta l'emostasi.",
+    "specialPopulations": {
+      "renal": "CrCl >50 mL/min: 60 mg/die. CrCl 15-50 mL/min: 30 mg/die. ESRD/dialisi: non raccomandato. CrCl elevata: cautela (possibile minore efficacia).",
+      "hepatic": "Non raccomandato in compromissione severa; cautela nella lieve-moderata (60 mg/die); test epatici prima dell'avvio.",
+      "elderly": "Nessuna riduzione dose per la sola eta'; cautela con ASA concomitante.",
+      "lowBodyWeight": "Peso <=60 kg: 30 mg/die.",
+      "obesity": null,
+      "pregnancy": "Controindicato.",
+      "breastfeeding": "Controindicato."
+    },
+    "dosingRegimenIds": [
+      "edoxaban__nvaf-stroke-prevention__oral"
+    ],
+    "interactionRefs": [],
+    "regulatoryItId": "edoxaban"
+  },
+  "deep": {
+    "simpleExplanation": "Blocca il fattore Xa riducendo la formazione di coaguli; una compressa al giorno.",
+    "clinicalExplanation": "Inibitore orale diretto e selettivo del fattore Xa; effetto prevedibile a dose fissa con aggiustamenti per funzione renale, peso e inibitori della P-gp.",
+    "molecularExplanation": "Si lega in modo reversibile e selettivo al fattore Xa, riducendo la generazione di trombina e la formazione del coagulo.",
+    "molecularTarget": "Fattore Xa",
+    "agonismAntagonism": "Inibitore diretto reversibile",
+    "selectivity": "Altamente selettivo per il fattore Xa",
+    "pharmacodynamics": "Attivita' anti-fattore Xa correlata all'esposizione; non richiede monitoraggio routinario.",
+    "hemodynamicEffects": "Nessun effetto emodinamico diretto.",
+    "electrophysiologicEffects": "Nessuno.",
+    "pharmacokinetics": {
+      "bioavailability": "~62%",
+      "timeToPeak": "1-2 ore",
+      "halfLife": "~10-14 ore",
+      "proteinBinding": "~55%",
+      "metabolism": "Metabolismo minimo (idrolisi, coniugazione, CYP3A4 minore)",
+      "enzymes": [
+        "CYP3A4"
+      ],
+      "transporters": [
+        "P-gp"
+      ],
+      "activeMetabolites": [
+        "M4 (minore)"
+      ],
+      "elimination": "Escrezione renale ~50%; resto biliare/intestinale",
+      "dialyzability": "L'emodialisi non contribuisce in misura significativa"
+    },
+    "evidenceIds": [],
+    "recommendationIds": [],
+    "bibliography": [
+      "ENGAGE AF-TIMI 48 (edoxaban vs warfarin, NEJM 2013)",
+      "2024 ESC/EACTS AF Guidelines, Eur Heart J 2024"
+    ]
+  }
+}

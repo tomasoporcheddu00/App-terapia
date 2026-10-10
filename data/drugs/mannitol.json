@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "id": "mannitol",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Mannitolo 18% - RCP AIFA (Torrinomedica/Codifa/Univadis): diuretico osmotico; ipertensione endocranica e masse cerebrali, fase oligurica dell'insufficienza renale acuta, pressione endo-oculare; 50-200 g/24h; controindicato in anuria, edema polmonare, emorragia intracranica in atto, disidratazione grave.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/mannitolo_18pc_eurospital/",
+        "identifier": "Mannitolo RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (EMA/EC, Banca Dati AIFA, portali Mediately/Codifa/Torrinomedica/Univadis): indicazioni, posologia, controindicazioni, avvertenze, interazioni. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; PK parziale. Stato: revisione fonti (source-review), non ancora approvato. Dosi da adattare al paziente e ai protocolli locali. Diuretico osmotico, non un diuretico dell'ansa: agisce per gradiente osmotico e comporta un rischio di sovraccarico acuto, rilevante nel paziente cardiopatico.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Mannitolo",
+    "inn": "mannitolo",
+    "brandExamplesIt": [
+      "Mannitolo 18%"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Diuretico osmotico (soluzione ipertonica)",
+  "identity": {
+    "atcCodes": [
+      "B05BC01"
+    ]
+  },
+  "classIds": [
+    "osmotic-diuretics"
+  ],
+  "quickSummary": {
+    "whatItIs": "Zucchero non metabolizzato che, rimanendo nello spazio extracellulare, richiama acqua dalle cellule e viene poi eliminato dal rene trascinando acqua: riduce l'edema cerebrale e la pressione intracranica e induce diuresi osmotica.",
+    "mainUses": [
+      "Ipertensione endocranica e spinale, masse cerebrali",
+      "Prevenzione/trattamento della fase oligurica dell'insufficienza renale acuta",
+      "Riduzione della pressione endo-oculare; aumento dell'escrezione renale di sostanze tossiche"
+    ],
+    "mainRisks": [
+      "Espansione acuta del volume con scompenso cardiaco e edema polmonare",
+      "Squilibri elettrolitici e iperosmolarita'",
+      "Nefrosi osmotica se la diuresi non e' mantenuta"
+    ],
+    "essentialMonitoring": [
+      "Diuresi oraria (mantenere almeno 30-50 mL/ora)",
+      "Funzione renale, elettroliti e osmolarita' plasmatica",
+      "Bilancio dei fluidi e segni di sovraccarico"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Prevenzione e/o trattamento della fase oligurica nell'insufficienza renale acuta, prima che diventi irreversibile e stabilizzata",
+      "Trattamento dell'ipertensione endocranica e spinale e delle masse cerebrali",
+      "Riduzione della pressione endo-oculare",
+      "Aumento dell'escrezione renale di sostanze tossiche; misurazione del filtrato glomerulare"
+    ],
+    "guidelineIndications": [
+      "Nell'ipertensione endocranica e' uno dei due agenti osmotici di riferimento (con la salina ipertonica): l'effetto si basa sul gradiente osmotico attraverso la barriera ematoencefalica - confermare su linee guida neurologiche",
+      "In cardiologia va usato con grande cautela: l'espansione acuta del volume intravascolare puo' precipitare uno scompenso o un edema polmonare"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al mannitolo",
+      "Anuria dovuta a grave compromissione renale",
+      "Congestione polmonare o edema polmonare",
+      "Emorragie cerebrali o intracraniche in atto",
+      "Disidratazione grave"
+    ],
+    "warnings": [
+      "Usare con grande cautela nello scompenso cardiaco congestizio, nell'insufficienza renale grave e negli stati associati a edemi e ritenzione idrosalina: il mannitolo espande acutamente il volume intravascolare",
+      "Monitorare la funzione renale per prevenire una nefrosi osmotica irreversibile e la diuresi per evitare l'accumulo di mannitolo, possibile causa di scompenso cardiaco; nell'insufficienza renale grave somministrare una prima e una seconda dose di prova per testare la tolleranza",
+      "Monitorare bilancio dei fluidi, elettroliti e osmolarita' plasmatica; la velocita' di infusione va regolata per mantenere una diuresi di almeno 30-50 mL/ora",
+      "Non somministrare nella stessa linea infusionale con trasfusioni di sangue (rischio di pseudoagglutinazione; se necessario aggiungere 20 mEq di sodio cloruro per litro); non usare come veicolo di altri farmaci; non infondere se sono presenti cristalli (ridiscioglierli riscaldando a 40-70 gradi e lasciare raffreddare)"
+    ],
+    "adverseEffects": [
+      "Sovraccarico di volume, scompenso cardiaco, edema polmonare",
+      "Squilibri elettrolitici (iponatriemia da diluizione, iperkaliemia), iperosmolarita'",
+      "Insufficienza renale/nefrosi osmotica",
+      "Cefalea, nausea, vomito, brividi; effetto rebound sulla pressione intracranica"
+    ],
+    "overdose": "Il sovradosaggio causa espansione volemica, iperosmolarita' e squilibri elettrolitici, con possibile scompenso cardiaco ed edema polmonare: interrompere l'infusione, correggere gli squilibri e considerare l'emodialisi (il mannitolo e' dializzabile).",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Controindicato in anuria da grave compromissione renale; nell'insufficienza grave usare dosi di prova.",
+      "hepatic": "Nessun aggiustamento specifico.",
+      "elderly": "Cautela (rischio di sovraccarico).",
+      "pregnancy": "Solo se strettamente necessario.",
+      "breastfeeding": "Cautela."
+    },
+    "alternativeDrugIds": []
+  },
+  "deep": {
+    "simpleExplanation": "E' uno zucchero che il corpo non usa: resta nel sangue, 'tira' acqua fuori dalle cellule e poi viene eliminato dai reni portandosi via l'acqua. Serve soprattutto per sgonfiare il cervello quando la pressione dentro il cranio e' alta.",
+    "clinicalExplanation": "Diuretico osmotico: si distribuisce esclusivamente nello spazio extracellulare determinando disidratazione cellulare e transitoria ipervolemia, poi e' escreto rapidamente dal rene producendo diuresi osmotica. Usato nell'ipertensione endocranica, nella fase oligurica dell'IRA e per ridurre la pressione endo-oculare. Soluzione ipertonica (osmolarita' ~988 mOsm/L al 18%): attenzione al sovraccarico nel cardiopatico.",
+    "molecularExplanation": "Sostanza osmoticamente attiva non riassorbita dal tubulo renale: trattiene acqua nel lume tubulare e crea un gradiente osmotico attraverso le membrane cellulari e la barriera ematoencefalica.",
+    "pharmacodynamics": "Diuresi osmotica, riduzione dell'edema cerebrale e della pressione intracranica e oculare; transitoria espansione del volume intravascolare.",
+    "molecularTarget": "Gradiente osmotico (tubulo renale e compartimento extracellulare)",
+    "agonismAntagonism": "Effetto osmotico (non recettoriale)",
+    "pharmacokinetics": {
+      "route": "Endovenosa",
+      "halfLife": "Breve (escrezione renale rapida, sostanzialmente immodificato)",
+      "note": "Soluzione ipertonica; osmolarita' teorica ~988 mOsm/L al 18%"
+    },
+    "bibliography": []
+  }
+}

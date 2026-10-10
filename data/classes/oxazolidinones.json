@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "id": "oxazolidinones",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Pagina di classe da linee guida ESC 2023 sull'endocardite e position statement SPILF-AEPEI; in questo atlante gli antibiotici sono trattati solo per il ruolo nell'endocardite."
+  },
+  "name": "Ossazolidinoni",
+  "atcGroup": "J01XX - Altri antibatterici",
+  "memberDrugIds": [
+    "linezolid"
+  ],
+  "mechanismSummary": "Legame alla subunita' ribosomiale 50S che impedisce la formazione del complesso di inizio 70S, bloccando l'avvio della sintesi proteica.",
+  "molecularTarget": "Subunita' ribosomiale batterica 50S (sito di inizio)",
+  "pharmacodynamics": "Batteriostatici sui Gram-positivi, con ottima penetrazione tissutale e biodisponibilita' orale pressoche' completa.",
+  "classEffects": [
+    "Nell'endocardite sono di SECONDA linea, perche' batteriostatici mentre si preferiscono farmaci battericidi",
+    "Considerati in caso di funzione renale instabile o intolleranza a vancomicina e daptomicina",
+    "La biodisponibilita' orale completa li rende utili nei percorsi di passaggio alla via orale"
+  ],
+  "sharedContraindications": [
+    "Ipersensibilita' al linezolid",
+    "Associazione con inibitori delle monoaminossidasi"
+  ],
+  "sharedAdverseEffects": [
+    "Trombocitopenia e anemia oltre le 2 settimane",
+    "Neuropatia ottica e periferica",
+    "Acidosi lattica",
+    "Sindrome serotoninergica in associazione a serotoninergici"
+  ],
+  "monitoring": [
+    "Emocromo settimanale",
+    "Sintomi visivi e parestesie",
+    "Sintomi di sindrome serotoninergica"
+  ],
+  "reversal": "Nessun antidoto: sospensione e supporto; parzialmente rimosso dall'emodialisi.",
+  "notesOnClassVsMolecule": "Il linezolid e' un inibitore reversibile delle MAO: attenzione ai simpaticomimetici usati in terapia intensiva (dopamina, adrenalina, noradrenalina), che possono dare crisi ipertensive."
+}

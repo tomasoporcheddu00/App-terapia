@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "id": "zofenopril",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Zofenopril calcio - RCP (rese da Mediately/Torrinomedica/Codifa/Egualia su base AIFA): indicazioni, posologia §4.2.",
+        "url": "https://www.codifa.it/farmaci/z/zofenopril-doc-generici-zofenopril-sale-di-calcio-ace-inibitori",
+        "identifier": "Zofenopril RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni di classe ACE-inibitori (§4.5), applicabili alla molecola; severita' secondo posizionamento RCP e rilevanza clinica.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "zofenopril",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Sacubitril/valsartan",
+      "effect": "Aumento del rischio di angioedema",
+      "management": "Associazione controindicata; rispettare almeno 36 ore tra i due trattamenti"
+    },
+    {
+      "severity": "contraindicated",
+      "agent": "Aliskiren (in diabete o IR con GFR <60)",
+      "effect": "Iperkaliemia, ipotensione, peggioramento della funzione renale (duplice blocco RAAS)",
+      "management": "Controindicato in questi pazienti"
+    },
+    {
+      "severity": "major",
+      "agent": "Antagonisti del recettore dell'angiotensina II (duplice blocco RAAS)",
+      "effect": "Ipotensione, iperkaliemia, riduzione della funzione renale",
+      "management": "Associazione non raccomandata; se indispensabile, solo sotto specialista con monitoraggio stretto"
+    },
+    {
+      "severity": "major",
+      "agent": "Diuretici risparmiatori di potassio (spironolattone, eplerenone, amiloride, triamterene), sali/integratori di potassio, eparina, cotrimossazolo",
+      "effect": "Iperkaliemia",
+      "management": "Evitare o monitorare strettamente potassio e funzione renale"
+    },
+    {
+      "severity": "major",
+      "agent": "FANS e acido acetilsalicilico",
+      "effect": "Riduzione dell'effetto antipertensivo, nefrotossicita' additiva (rischio IRA, specie con diuretici), iperkaliemia",
+      "management": "Cautela; monitorare funzione renale e potassio, mantenere idratazione"
+    },
+    {
+      "severity": "major",
+      "agent": "Litio",
+      "effect": "Aumento della litiemia con rischio di tossicita'",
+      "management": "Associazione sconsigliata; se necessaria, monitorare la litiemia"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Diuretici (tiazidici, dell'ansa)",
+      "effect": "Potenziamento dell'effetto ipotensivo",
+      "management": "Valutare riduzione/sospensione temporanea del diuretico all'avvio; iniziare a dose bassa"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Ipoglicemizzanti orali e insulina",
+      "effect": "Potenziamento dell'effetto ipoglicemizzante, specie all'inizio e in insufficienza renale",
+      "management": "Monitorare la glicemia nelle fasi iniziali"
+    },
+    {
+      "severity": "moderate",
+      "agent": "mTOR-inibitori (sirolimus, everolimus, temsirolimus), racecadotril, vildagliptin",
+      "effect": "Aumento del rischio di angioedema",
+      "management": "Cautela; sorvegliare la comparsa di angioedema"
+    }
+  ]
+}

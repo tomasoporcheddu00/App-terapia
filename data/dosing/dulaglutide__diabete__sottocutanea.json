@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "id": "dulaglutide__diabete__sottocutanea",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Dulaglutide (Trulicity) - RCP e schemi posologici: 0,75 mg una volta a settimana come dose iniziale, mantenimento 0,75-4,5 mg una volta a settimana.",
+        "url": "https://www.straighthealthcare.com/glp-1-analog-dosing.html",
+        "identifier": "Trulicity RCP/schemi",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida diabete: dulaglutide tra i GLP-1 agonisti con beneficio cardiovascolare dimostrato.",
+        "url": "https://academic.oup.com/eurheartj/article/45/15/1298/7513467",
+        "identifier": "ESC 2023 diabete",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Posologia da fonti su base RCP/AIFA o da linee guida citate; smpcVerified=false. Verificare sempre su RCP ufficiale e adattare a funzione renale/epatica."
+  },
+  "drugId": "dulaglutide",
+  "indication": "diabetes",
+  "scenario": "Diabete mellito di tipo 2",
+  "route": "sottocutanea",
+  "dose": {
+    "inizio": "0,75 mg una volta a settimana",
+    "mantenimento": "0,75-4,5 mg una volta a settimana, con incrementi graduali secondo risposta e tolleranza (1,5 mg, 3 mg, 4,5 mg)"
+  },
+  "administration": {
+    "notes": "Penna monodose. Ridurre la dose di sulfanilurea o insulina se associate. Non associare ad altri agonisti del GLP-1."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

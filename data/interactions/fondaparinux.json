@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "fondaparinux",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Fondaparinux (Arixtra) - RCP EMA/AIFA (Univadis/EC): pentasaccaride sintetico anti-Xa indiretto; profilassi TEV 2,5 mg SC/die, trattamento TVP/EP 7,5 mg (5 mg <50 kg, 10 mg >100 kg); controindicato clearance <30, endocardite batterica acuta.",
+        "url": "https://www.univadis.it/references/drug-database/viewdrug/arixtra-70760",
+        "identifier": "Arixtra RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "fondaparinux",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Anticoagulanti, trombolitici, antiaggreganti, FANS",
+      "effect": "Aumento del rischio emorragico",
+      "management": "Evitare l'associazione o monitorare strettamente"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Anestesia spinale/peridurale (cateteri)",
+      "effect": "Rischio di ematoma spinale/epidurale",
+      "management": "Rispettare gli intervalli previsti dall'RCP"
+    }
+  ]
+}

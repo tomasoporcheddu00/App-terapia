@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "id": "trimetazidine",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Trimetazidina - RCP EMA/AIFA (EMA Art.31/AIFA): antianginoso metabolico add-on (restrizione EMA 2012), dose 35 mg x2 o 20 mg x3, controindicazione Parkinson/disturbi del movimento e IR grave.",
+        "url": "https://www.ema.europa.eu/it/documents/referral/questions-and-answers-review-medicines-containing-trimetazidine-20-mg-tablets-35-mg-modified-release-tablet-and-20-mgml-oral-solution_it.pdf",
+        "identifier": "Trimetazidina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "trimetazidine",
+  "items": [
+    {
+      "severity": "minor",
+      "agent": "Nessuna interazione farmacocinetica maggiore nota di rilievo",
+      "effect": "Profilo di interazioni limitato",
+      "management": "Attenzione comunque ai farmaci che favoriscono sintomi extrapiramidali/parkinsoniani"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "id": "midazolam",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Midazolam (fiale) - RCP AIFA (Torrinomedica/Codifa/documento AIFA): sedazione in terapia intensiva, carico EV 0,03-0,3 mg/kg a incrementi lenti, mantenimento 0,03-0,2 mg/kg/h; antidoto flumazenil; interazioni CYP3A4.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/midazolam/",
+        "identifier": "Midazolam RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "midazolam",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Inibitori potenti del CYP3A4 (ketoconazolo, itraconazolo, voriconazolo, claritromicina, ritonavir)",
+      "effect": "Aumento marcato delle concentrazioni (fino a 5 volte) e dell'emivita: sedazione prolungata e depressione respiratoria",
+      "management": "Ridurre la dose e monitorare in terapia intensiva o ambiente equivalente"
+    },
+    {
+      "severity": "major",
+      "agent": "Oppioidi e altri depressori del SNC (incluso alcol)",
+      "effect": "Sedazione profonda e depressione respiratoria",
+      "management": "Evitare l'alcol; somministrare l'analgesico per primo e titolare il midazolam; monitoraggio respiratorio"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Induttori del CYP3A4 (rifampicina, carbamazepina, erba di San Giovanni)",
+      "effect": "Riduzione dell'effetto sedativo",
+      "management": "Attendersi un fabbisogno maggiore"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Diltiazem e verapamil",
+      "effect": "Inibizione del CYP3A4 con aumento dell'effetto sedativo",
+      "management": "Ridurre la dose e monitorare"
+    }
+  ]
+}

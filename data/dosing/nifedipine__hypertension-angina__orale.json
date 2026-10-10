@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "nifedipine__hypertension-angina__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Nifedipina - RCP (Mediately/Univadis/Codifa su base AIFA): indicazioni angina/ipertensione, uso del rilascio prolungato, controindicazione rifampicina, rischio del rilascio immediato.",
+        "url": "https://mediately.co/it/drugs/Oa1nZwVnHqcmTOi6iZe51XR7Lcb/nifedipina-doc-30-mg-compresse-a-rilascio-prolungato",
+        "identifier": "Nifedipina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "nifedipine",
+  "indication": "hypertension",
+  "scenario": "Ipertensione / angina (rilascio prolungato)",
+  "route": "orale",
+  "dose": {
+    "initial": "30 mg una volta al giorno (rilascio prolungato)",
+    "titration": "aumento graduale secondo risposta",
+    "maintenance": "30-60 mg una volta al giorno",
+    "max": "60-90 mg al giorno (secondo formulazione e RCP)"
+  },
+  "administration": {
+    "notes": "Compresse a rilascio prolungato: deglutire intere, non masticare/spezzare; al mattino. Evitare il rilascio immediato per la terapia cronica."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

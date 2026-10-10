@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "id": "felodipine",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Felodipina - RCP (Codifa/Starbene/Torrinomedica su base AIFA): indicazioni ipertensione/angina, dose 5-10 mg rilascio prolungato, interazioni CYP3A4 e pompelmo.",
+        "url": "https://www.codifa.it/farmaci/f/felodipina-sandoz-felodipina-calcioantagonisti",
+        "identifier": "Felodipina RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Felodipina - RCP (Torrinomedica), paragrafo 5.2: emivita media di eliminazione ~25 ore, metabolismo CYP3A4 con metaboliti inattivi.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/Felodipina_Ratiopharm/",
+        "identifier": "RCP - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Felodipina",
+    "inn": "felodipina",
+    "brandExamplesIt": [
+      "Plendil",
+      "Prevex"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Calcioantagonista diidropiridinico (rilascio prolungato)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "dhp-ccb"
+  ],
+  "quickSummary": {
+    "whatItIs": "Diidropiridinico a rilascio prolungato per ipertensione e angina stabile, senza effetto sulla contrattilita'/conduzione a dosi terapeutiche.",
+    "mainUses": [
+      "Ipertensione arteriosa",
+      "Angina pectoris stabile"
+    ],
+    "mainRisks": [
+      "Edema declive",
+      "Vampate, cefalea"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa",
+      "Comparsa di edemi periferici"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipertensione arteriosa essenziale",
+      "Angina pectoris stabile"
+    ],
+    "guidelineIndications": [
+      "Tra le diidropiridine e' tra quelle valutate come tollerate nello scompenso (V-HeFT III) quando serve un antipertensivo aggiuntivo - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alle diidropiridine o agli eccipienti",
+      "Shock cardiogeno",
+      "Angina instabile",
+      "Infarto miocardico acuto/entro 1 mese",
+      "Scompenso cardiaco non trattato/instabile",
+      "Stenosi aortica emodinamicamente significativa"
+    ],
+    "warnings": [
+      "Edema periferico dose-dipendente",
+      "Evitare il succo di pompelmo (aumenta i livelli)",
+      "Ridurre la dose nell'insufficienza epatica",
+      "Assumere al mattino, deglutire intera, evitare pasti ricchi di grassi"
+    ],
+    "adverseEffects": [
+      "Edema periferico",
+      "Vampate di calore",
+      "Cefalea",
+      "Palpitazioni"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione e talora bradicardia; trattamento di supporto.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento sistematico rilevante.",
+      "hepatic": "Ridurre la dose iniziale (aumento dell'esposizione).",
+      "elderly": "Iniziare a dose bassa.",
+      "pregnancy": "Non raccomandata.",
+      "breastfeeding": "Non raccomandata."
+    },
+    "alternativeDrugIds": [
+      "amlodipine",
+      "lercanidipine",
+      "nifedipine"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Diidropiridinico 'a lento rilascio' per pressione e angina; da prendere al mattino e mai con il pompelmo.",
+    "clinicalExplanation": "Diidropiridinico a rilascio prolungato; forte metabolismo di primo passaggio con marcata sensibilita' agli inibitori/induttori del CYP3A4 e al pompelmo.",
+    "molecularExplanation": "Blocca i canali del calcio di tipo L vascolari; nessun effetto su contrattilita'/conduzione a dosi terapeutiche.",
+    "pharmacodynamics": "Vasodilatazione arteriosa selettiva con riduzione delle resistenze periferiche; a dosi terapeutiche scarso effetto su contrattilita' e conduzione AV (a differenza dei non diidropiridinici).",
+    "molecularTarget": "Canali del calcio di tipo L (voltaggio-dipendenti) della muscolatura liscia vascolare",
+    "agonismAntagonism": "Antagonista (blocco del canale del calcio)",
+    "pharmacokinetics": {
+      "metabolism": "Epatico esteso (CYP3A4)",
+      "elimination": "Metaboliti urinari",
+      "halfLife": "~25 ore (steady state in ~5 giorni, senza accumulo); metabolismo epatico completo via CYP3A4 con metaboliti inattivi, eliminazione renale dei metaboliti (~70%)"
+    },
+    "bibliography": [
+      "V-HeFT III (felodipina nello scompenso) - da citare con fonte primaria"
+    ]
+  }
+}

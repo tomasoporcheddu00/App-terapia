@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "valsartan__post-mi__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Valsartan - RCP (rese da Codifa/Starbene/Pharmamedix su base AIFA): indicazioni, posologia §4.2 (ipertensione, post-infarto, scompenso).",
+        "url": "https://www.codifa.it/farmaci/v/valsartan-sandoz-valsartan-antagonisti-dell-angiotensina-ii",
+        "identifier": "Valsartan RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "valsartan",
+  "indication": "post-mi",
+  "scenario": "Infarto miocardico recente (paziente stabile, da 12 ore)",
+  "route": "orale",
+  "dose": {
+    "initial": "20 mg due volte al giorno",
+    "titration": "aumento a 40, 80 e 160 mg due volte al giorno nelle settimane successive (80 mg BID entro 2 settimane, 160 mg BID entro 3 mesi)",
+    "maintenance": "fino a 160 mg due volte al giorno",
+    "max": "160 mg due volte al giorno"
+  },
+  "administration": {
+    "notes": "Ridurre la dose in caso di ipotensione sintomatica o disfunzione renale. Non raccomandata l'associazione con ACE-inibitore."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

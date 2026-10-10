@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "colchicine__pericardite__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-28T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Colchicina Lirca - RCP (Torrinomedica/Codifa/Mediately su base AIFA): indicazioni gottose, controindicazioni, interazioni CYP3A4/P-gp, avvertenze.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/colchicina_lirca/",
+        "identifier": "Colchicina Lirca RCP",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2025 - Linee guida su miocardite e pericardite: colchicina come adiuvante di prima linea; dosi per peso e durata.",
+        "url": "https://www.giornaledicardiologia.it/archivio/4620/articoli/46292/",
+        "identifier": "ESC 2025 IMPS",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Posologia da fonti su base RCP/AIFA o da linee guida citate; smpcVerified=false. Verificare sempre su RCP ufficiale e adattare a funzione renale/epatica."
+  },
+  "drugId": "colchicine",
+  "indication": "pericarditis",
+  "scenario": "Pericardite acuta o recidivante (adiuvante di prima linea, con aspirina/FANS)",
+  "route": "orale",
+  "dose": {
+    "peso<70kg": "0,5 mg una volta al giorno",
+    "peso>=70kg": "0,5 mg due volte al giorno",
+    "durata": "3 mesi nella pericardite acuta; 6 mesi dopo una recidiva",
+    "sospensione": "graduale, dopo la sospensione degli altri farmaci, guidata da sintomi e PCR"
+  },
+  "administration": {
+    "notes": "Da associare sempre ad aspirina o FANS: la colchicina da sola non e' il trattamento della pericardite. Indicazione da linee guida ESC, non presente nella scheda tecnica italiana. Ridurre nell'insufficienza renale e verificare le interazioni (P-gp/CYP3A4)."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

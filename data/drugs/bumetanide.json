@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "id": "bumetanide",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Bumetanide - monografie/RCP (Burinex e fonti internazionali): indicazioni edema/scompenso, dose 0,5-2 mg (max 10 mg), potenza ~40:1 vs furosemide.",
+        "url": "https://prescriberpoint.com/therapies/bumetanide-d4688d5",
+        "identifier": "Bumetanide RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Disponibilita' in Italia limitata/da confermare: dati posologici tratti prevalentemente da monografie internazionali; verificare l'RCP italiano se commercializzato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Bumetanide",
+    "inn": "bumetanide",
+    "brandExamplesIt": [
+      "Burinex"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Diuretico dell'ansa (sulfonamide)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "loop-diuretics"
+  ],
+  "quickSummary": {
+    "whatItIs": "Diuretico dell'ansa molto potente (circa 40 volte la furosemide a parita' di milligrammi) con elevata biodisponibilita' orale; per edema e scompenso.",
+    "mainUses": [
+      "Edema da scompenso cardiaco",
+      "Edema epatico e renale (sindrome nefrosica)",
+      "Edema polmonare acuto (EV)"
+    ],
+    "mainRisks": [
+      "Ipopotassiemia",
+      "Disidratazione/ipotensione"
+    ],
+    "essentialMonitoring": [
+      "Elettroliti",
+      "Funzione renale",
+      "Volemia/pressione"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Edema associato a scompenso cardiaco congestizio",
+      "Edema di origine epatica e renale (inclusa la sindrome nefrosica)",
+      "Edema polmonare acuto (per via endovenosa)"
+    ],
+    "guidelineIndications": [
+      "Alternativa alla furosemide con biodisponibilita' orale piu' costante; potenza orale ~40:1 rispetto alla furosemide (1 mg ~ 40 mg di furosemide) - confermare su fonte"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo (e ai sulfamidici per torasemide/bumetanide)",
+      "Anuria o insufficienza renale non responsiva al diuretico",
+      "Coma o precoma epatico",
+      "Ipopotassiemia o iponatriemia gravi",
+      "Ipovolemia/disidratazione"
+    ],
+    "warnings": [
+      "Squilibri elettrolitici: ipopotassiemia, iponatriemia, ipomagnesiemia, alcalosi ipocloremica; monitorare gli elettroliti",
+      "Aumento dell'escrezione di calcio (ipocalcemia; utile invece nell'ipercalcemia)",
+      "Iperuricemia e gotta; aumento di glicemia e lipidi",
+      "Disidratazione e ipotensione, specie nell'anziano",
+      "Ototossicita' (di norma reversibile), favorita da somministrazione EV rapida, dosi elevate, insufficienza renale e associazione con aminoglicosidi",
+      "Assicurare il libero deflusso urinario (attenzione nell'ipertrofia prostatica)",
+      "Potenza elevata: piccole variazioni di dose possono causare marcate perdite di liquidi/elettroliti",
+      "Possibile assenza di sensibilita' crociata con furosemide (utilizzabile in alcuni allergici)"
+    ],
+    "adverseEffects": [
+      "Ipopotassiemia, iponatriemia, ipomagnesiemia",
+      "Disidratazione, ipotensione",
+      "Iperuricemia/gotta",
+      "Aumento di glicemia e lipidi",
+      "Ototossicita' (rara)",
+      "Aumento di creatinina/azotemia"
+    ],
+    "overdose": "Il sovradosaggio causa disidratazione e squilibri elettrolitici marcati; reidratare e correggere.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Utilizzabile nell'insufficienza renale; monitorare azotemia/creatinina.",
+      "hepatic": "Ridurre la dose al minimo (rischio di encefalopatia).",
+      "elderly": "Iniziare a dose bassa.",
+      "pregnancy": "Non raccomandato salvo necessita'.",
+      "breastfeeding": "Sconsigliato."
+    },
+    "alternativeDrugIds": [
+      "furosemide",
+      "torasemide"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un diuretico dell'ansa 'concentrato': un milligrammo fa quanto circa 40 mg di furosemide.",
+    "clinicalExplanation": "Diuretico dell'ansa (derivato metanilamidico correlato alla furosemide) con biodisponibilita' orale elevata; equivalenza orale/EV ~1:1.",
+    "molecularExplanation": "Inibisce il cotrasportatore Na-K-2Cl nella branca ascendente dell'ansa di Henle.",
+    "pharmacodynamics": "Marcata natriuresi/diuresi; potenza superiore alla furosemide a parita' di milligrammi.",
+    "molecularTarget": "Cotrasportatore Na-K-2Cl (NKCC2)",
+    "agonismAntagonism": "Inibizione del cotrasportatore",
+    "pharmacokinetics": {
+      "bioavailability": "Orale ~80-95%",
+      "elimination": "Renale e metabolica",
+      "halfLife": "~1-1,5 ore"
+    },
+    "bibliography": []
+  }
+}

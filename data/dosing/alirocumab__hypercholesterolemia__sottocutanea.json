@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "alirocumab__hypercholesterolemia__sottocutanea",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Alirocumab (Praluent) - RCP EMA/AIFA (EC Europa/Sanofi/medisoc): anticorpo anti-PCSK9 SC, dose 75-150 mg ogni 2 settimane o 300 mg/mese, ASCVD; ODYSSEY OUTCOMES.",
+        "url": "https://medisoc.it/schede-farmaci/scheda-alirocumab/",
+        "identifier": "Praluent RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "alirocumab",
+  "indication": "hypercholesterolemia",
+  "scenario": "Ipercolesterolemia / dislipidemia mista / ASCVD",
+  "route": "sottocutanea",
+  "dose": {
+    "initial": "75 mg per via sottocutanea ogni 2 settimane",
+    "alt": "in caso di necessita' di riduzione maggiore dell'LDL (>60%): 150 mg ogni 2 settimane oppure 300 mg una volta al mese",
+    "titration": "se risposta insufficiente, passare da 75 a 150 mg ogni 2 settimane",
+    "max": "150 mg ogni 2 settimane"
+  },
+  "administration": {
+    "notes": "Iniezione sottocutanea (addome, coscia o braccio); autosomministrazione previa formazione."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

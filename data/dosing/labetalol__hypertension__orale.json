@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "labetalol__hypertension__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Labetalolo - RCP (Mediately su base AIFA) e schede posologiche (orale ed endovenosa; crisi ipertensive e gravidanza).",
+        "url": "https://mediately.co/it/drugs/CWRWBrVhQr42h2WP2eknnFxekSp/labetalolo-s-a-l-f-5-mg-ml-soluzione-iniettabile-per-infusione",
+        "identifier": "Labetalolo RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "labetalol",
+  "indication": "hypertension",
+  "scenario": "Ipertensione arteriosa (orale)",
+  "route": "orale",
+  "dose": {
+    "initial": "100 mg due volte al giorno (50 mg nell'anziano), a stomaco pieno",
+    "titration": "aumento a intervalli di ~14 giorni",
+    "maintenance": "200 mg due volte al giorno; fino a 800 mg/die in 2 dosi",
+    "max": "2,4 g al giorno in dosi suddivise"
+  },
+  "administration": {
+    "notes": "Assumere a stomaco pieno."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

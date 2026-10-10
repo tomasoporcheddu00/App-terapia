@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "id": "riociguat",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Riociguat (Adempas) - RCP EMA/AIFA: stimolatore della guanilato ciclasi solubile per PAH e CTEPH; 1-2,5 mg tre volte al giorno; controindicato con PDE5-inibitori, nitrati, altri stimolatori sGC; gravidanza; ipotensione.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/EPAR/adempas",
+        "identifier": "Adempas RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "riociguat",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Inibitori della PDE5 (sildenafil, tadalafil, vardenafil)",
+      "effect": "Ipotensione sintomatica",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "contraindicated",
+      "agent": "Nitrati / donatori di ossido nitrico (inclusi i 'poppers')",
+      "effect": "Ipotensione grave",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "contraindicated",
+      "agent": "Altri stimolatori della guanilato ciclasi solubile",
+      "effect": "Effetto additivo/ipotensione",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "major",
+      "agent": "Inibitori potenti di CYP e P-gp (azoli, inibitori delle proteasi dell'HIV)",
+      "effect": "Aumento dei livelli di riociguat (ipotensione)",
+      "management": "Ridurre la dose/cautela"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Antiacidi / fumo",
+      "effect": "Riduzione dei livelli di riociguat",
+      "management": "Distanziare gli antiacidi; considerare l'effetto del fumo sulla dose"
+    }
+  ]
+}

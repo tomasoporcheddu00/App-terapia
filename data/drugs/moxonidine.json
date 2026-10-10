@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Moxonidina (Fisiotens) - RCP (Codifa/Mediately/Univadis su base AIFA): agonista dei recettori imidazolinici I1, ipertensione essenziale; 0,2-0,6 mg; ridurre in insufficienza renale.",
+        "url": "https://www.codifa.it/farmaci/f/fisiotens-moxonidina-antipertensivi-ad-azione-centrale",
+        "identifier": "Fisiotens RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Moxonidina - RCP (Torrinomedica), paragrafo 5.2: emivita plasmatica media 2,2-2,3 ore, renale 2,6-2,8 ore, prolungata nell'insufficienza renale.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/moxonidina-2/",
+        "identifier": "RCP - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false,
+    "id": "moxonidine"
+  },
+  "name": {
+    "generic": "moxonidina",
+    "inn": "moxonidina",
+    "brandExamplesIt": [
+      "Fisiotens"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antipertensivo centrale (agonista dei recettori imidazolinici I1)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "central-antihypertensives"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antipertensivo centrale che agisce sui recettori imidazolinici (I1) riducendo il tono simpatico, con meno sedazione e secchezza rispetto alla clonidina.",
+    "mainUses": [
+      "Ipertensione arteriosa essenziale"
+    ],
+    "mainRisks": [
+      "Secchezza delle fauci, cefalea",
+      "Sedazione/stanchezza",
+      "Bradicardia (nei predisposti)"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa",
+      "Frequenza cardiaca",
+      "Funzione renale"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento dell'ipertensione arteriosa essenziale"
+    ],
+    "guidelineIndications": [
+      "Antipertensivo centrale di seconda/terza linea, add-on; meglio tollerato della clonidina - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Malattia del nodo del seno o blocco atrioventricolare di 2o-3o grado",
+      "Bradicardia (frequenza a riposo <50 bpm)",
+      "Insufficienza cardiaca grave"
+    ],
+    "warnings": [
+      "Ridurre la dose nell'insufficienza renale (eliminazione renale): iniziare con 0,2 mg, massimo 0,4 mg (IR moderata) o 0,3 mg (IR grave)",
+      "Evitare la sospensione brusca; se in associazione a un betabloccante, sospendere prima il betabloccante",
+      "Potenzia l'effetto sedativo delle benzodiazepine e degli altri deprimenti del SNC",
+      "Cautela nella bradicardia e nei disturbi della conduzione"
+    ],
+    "adverseEffects": [
+      "Secchezza delle fauci",
+      "Cefalea, capogiro",
+      "Sedazione/stanchezza",
+      "Disturbi del sonno",
+      "Nausea, vasodilatazione"
+    ],
+    "overdose": "Il sovradosaggio causa sedazione, ipotensione, bradicardia (e, ad alte dosi, ipertensione/tachicardia paradosse); supporto, atropina per la bradicardia, alfa-litici per gli effetti ipertensivi paradossi.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Ridurre la dose (0,2 mg iniziali; max 0,4/0,3 mg nell'IR moderata/grave).",
+      "hepatic": "Cautela.",
+      "elderly": "Cautela.",
+      "pregnancy": "Non raccomandata.",
+      "breastfeeding": "Non raccomandata."
+    },
+    "alternativeDrugIds": [
+      "clonidine",
+      "methyldopa",
+      "doxazosin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Simile alla clonidina ma piu' 'pulita' (meno sonnolenza e bocca secca): abbassa la pressione agendo sul sistema nervoso centrale.",
+    "clinicalExplanation": "Agonista selettivo dei recettori imidazolinici I1 del bulbo (con minore attivita' alfa-2 rispetto alla clonidina): riduce il tono simpatico con meno sedazione. Da ridurre nell'insufficienza renale.",
+    "molecularExplanation": "Agonizza i recettori imidazolinici I1 nel midollo rostrale ventrolaterale, riducendo l'attivita' simpatica.",
+    "pharmacodynamics": "Riduzione delle resistenze periferiche e della pressione per riduzione del tono simpatico.",
+    "molecularTarget": "Recettori imidazolinici I1 (centrali)",
+    "agonismAntagonism": "Agonismo dei recettori imidazolinici",
+    "pharmacokinetics": {
+      "route": "Orale",
+      "elimination": "Prevalentemente renale (ridurre nell'IR)",
+      "halfLife": "~2,2-2,3 ore (emivita renale ~2,6-2,8 ore); prolungata fino a ~7 ore nell'insufficienza renale grave. Nonostante la breve emivita l'effetto antipertensivo e' prolungato; eliminazione prevalentemente renale immodificata"
+    },
+    "bibliography": []
+  }
+}

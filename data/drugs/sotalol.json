@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "id": "sotalol",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Sotalolo - RCP (Mediately/Torrinomedica/Codifa su base AIFA): indicazioni antiaritmiche, posologia con titolazione lenta, avvertenza torsione di punta e monitoraggio QT.",
+        "url": "https://mediately.co/it/drugs/HO4vrq87grrJzILqk7YktX5Ykqq/sotalolo-hexal-40-cpr-80-mg",
+        "identifier": "Sotalolo RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "Betabloccanti: meccanismo, controindicazioni, avvertenze e interazioni di classe; sintesi da RCP/portali AIFA (Codifa, Mediately, Torrinomedica, Pharmamedix).",
+        "url": "https://www.torrinomedica.it/schede-farmaci/bisoprololo/",
+        "identifier": "Betabloccanti classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Molte controindicazioni/avvertenze/interazioni sono comuni alla classe dei betabloccanti. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Sotalolo",
+    "inn": "sotalolo",
+    "brandExamplesIt": [
+      "Sotalex",
+      "Rytmobeta"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Betabloccante non selettivo con azione antiaritmica di classe III",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "beta-blockers"
+  ],
+  "quickSummary": {
+    "whatItIs": "Betabloccante non selettivo che prolunga la ripolarizzazione (azione classe III): antiaritmico per aritmie sopraventricolari e ventricolari, con rischio di torsione di punta.",
+    "mainUses": [
+      "Profilassi delle tachiaritmie sopraventricolari parossistiche",
+      "Mantenimento del ritmo sinusale dopo cardioversione di FA/flutter",
+      "Tachiaritmie ventricolari sintomatiche/minacciose"
+    ],
+    "mainRisks": [
+      "Prolungamento del QT e torsione di punta (dose-dipendente)",
+      "Bradicardia",
+      "Proaritmia"
+    ],
+    "essentialMonitoring": [
+      "ECG e intervallo QT/QTc (evitare QTc >550 ms)",
+      "Potassio e magnesio sierici",
+      "Funzione renale",
+      "Frequenza cardiaca (non <50/min)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Profilassi delle tachiaritmie sopraventricolari parossistiche (tachicardia nodale AV, SVT in WPW, FA parossistica)",
+      "Mantenimento del ritmo sinusale dopo conversione di flutter/fibrillazione atriale",
+      "Tachiaritmie ventricolari sintomatiche o minacciose per la vita"
+    ],
+    "guidelineIndications": [
+      "Antiaritmico di classe III (oltre al beta-blocco); nello scompenso a FE ridotta senza aritmie gravi va evitato (confermare su ESC)"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alla molecola o ad altri betabloccanti",
+      "Insufficienza cardiaca acuta o scompensata che richiede terapia inotropa endovenosa; shock cardiogeno",
+      "Blocco atrioventricolare di 2o o 3o grado (senza pacemaker)",
+      "Sindrome del nodo del seno; blocco seno-atriale",
+      "Bradicardia sintomatica clinicamente rilevante",
+      "Ipotensione grave/sintomatica",
+      "Broncospasmo grave / asma bronchiale grave",
+      "Arteriopatia periferica grave o fenomeno di Raynaud grave",
+      "Feocromocitoma non trattato (senza alfa-blocco)",
+      "Acidosi metabolica",
+      "Sindrome del QT lungo congenito o acquisito; anamnesi di torsione di punta",
+      "Ipopotassiemia non corretta",
+      "Insufficienza renale grave (eliminazione renale)"
+    ],
+    "warnings": [
+      "Non interrompere bruscamente: rischio di rebound (peggioramento di angina/ischemia, crisi ipertensive); ridurre gradualmente",
+      "Puo' mascherare i sintomi dell'ipoglicemia nel diabetico e i segni dell'ipertiroidismo",
+      "Broncospasmo nei predisposti: preferire i cardioselettivi alla dose minima efficace",
+      "Bradicardia e disturbi della conduzione AV: monitorare frequenza e conduzione",
+      "Nell'avvio/titolazione per lo scompenso puo' verificarsi un transitorio peggioramento (start low, go slow)",
+      "Cautela nell'angina di Prinzmetal (i non selettivi possono peggiorarla)",
+      "Torsione di punta dose-dipendente: titolare lentamente monitorando il QT; correggere ipopotassiemia/ipomagnesiemia",
+      "Evitare l'associazione con altri farmaci che prolungano il QT",
+      "Iniziare/aumentare la dose per le aritmie ventricolari in ambiente monitorato",
+      "Evitare nella FEVS <40% senza aritmie ventricolari gravi",
+      "Eliminazione renale: ridurre la dose e allungare gli intervalli nell'insufficienza renale"
+    ],
+    "adverseEffects": [
+      "Bradicardia",
+      "Ipotensione, capogiro",
+      "Astenia/affaticamento",
+      "Estremita' fredde",
+      "Disturbi del sonno",
+      "Broncospasmo (nei predisposti)",
+      "Prolungamento del QT",
+      "Torsione di punta / proaritmia",
+      "Bradicardia"
+    ],
+    "overdose": null,
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Eliminazione renale: ridurre la dose e allungare l'intervallo secondo la clearance della creatinina.",
+      "hepatic": "Nessun aggiustamento rilevante.",
+      "elderly": "Maggiore sensibilita' alla proaritmia; titolare con prudenza.",
+      "pregnancy": "Usare solo se il beneficio supera il rischio.",
+      "breastfeeding": "Escreto nel latte; sorvegliare il lattante (bradicardia)."
+    },
+    "alternativeDrugIds": [
+      "metoprolol",
+      "bisoprolol",
+      "amiodarone"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Oltre a rallentare il cuore, allunga il 'tempo di ricarica' elettrico: efficace su alcune aritmie ma puo' provocare un'aritmia pericolosa (torsione di punta), quindi si parte piano controllando l'ECG.",
+    "clinicalExplanation": "Betabloccante non selettivo con azione classe III (blocco delle correnti di potassio): efficace su aritmie sopra/ventricolari, ma proaritmico (torsione di punta) in modo dose-dipendente; richiede monitoraggio del QT e degli elettroliti.",
+    "molecularExplanation": "Antagonista beta-adrenergico non selettivo che blocca anche le correnti di potassio (IKr), prolungando la ripolarizzazione.",
+    "pharmacodynamics": "Riduzione di frequenza cardiaca, contrattilita', conduzione AV e rilascio di renina; calo della pressione e del consumo miocardico di ossigeno.",
+    "molecularTarget": "Recettori beta-adrenergici (beta1 +/- beta2 +/- alfa1)",
+    "agonismAntagonism": "Antagonista recettoriale",
+    "pharmacokinetics": {
+      "metabolism": "Trascurabile",
+      "elimination": "Renale, in forma immodificata",
+      "halfLife": "~10-20 ore"
+    },
+    "bibliography": [
+      "ESVEM / SWORD (sotalolo nelle aritmie) - da citare con fonte primaria"
+    ]
+  }
+}

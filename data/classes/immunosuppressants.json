@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "id": "immunosuppressants",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Azatioprina (Azafor, Immunoprin) - RCP (Torrinomedica su base AIFA): indicazioni, controindicazioni, TPMT/NUDT15, riduzione a un quarto con allopurinolo, interazioni con ACE-inibitori.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/azafor_50_mg_compresse_rivestite_con_film/",
+        "identifier": "Azafor RCP",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "smpc",
+        "citation": "Immunoprin (azatioprina) - RCP (Torrinomedica): monitoraggio emocromocitometrico e interazioni con aminosalicilati, ACE-inibitori, trimetoprim/sulfametoxazolo, cimetidina, indometacina.",
+        "url": "https://farmaci.torrinomedica.it/Immunoprin/",
+        "identifier": "Immunoprin RCP",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Pagina di classe da RCP; altre molecole della classe restano placeholder."
+  },
+  "name": "Immunosoppressori",
+  "atcGroup": "L04A - Immunosoppressori",
+  "memberDrugIds": [
+    "azathioprine"
+  ],
+  "mechanismSummary": "Inibizione della proliferazione linfocitaria con meccanismi diversi secondo la molecola; l'azatioprina agisce come antimetabolita purinico tramite i nucleotidi tioguaninici.",
+  "molecularTarget": "Sintesi delle purine e proliferazione dei linfociti T e B (azatioprina)",
+  "pharmacodynamics": "Immunosoppressione a esordio lento (settimane-mesi) con effetto risparmiatore di corticosteroide.",
+  "classEffects": [
+    "Impiego cardiologico come risparmiatori di steroide nella pericardite recidivante corticodipendente e nella sarcoidosi cardiaca",
+    "Mielosoppressione dose-dipendente come tossicita' principale",
+    "Aumento del rischio di infezioni e, nel lungo termine, di neoplasie"
+  ],
+  "sharedContraindications": [
+    "Infezioni gravi",
+    "Grave compromissione epatica o midollare",
+    "Ipersensibilita' alla molecola o ai suoi metaboliti"
+  ],
+  "sharedAdverseEffects": [
+    "Mielosoppressione (leucopenia, trombocitopenia, anemia)",
+    "Infezioni opportunistiche",
+    "Epatotossicita'",
+    "Neoplasie cutanee e linfoproliferative nel trattamento prolungato"
+  ],
+  "monitoring": [
+    "Emocromo con formula, ravvicinato all'avvio",
+    "Funzione epatica",
+    "Valutazione di TPMT e NUDT15 prima di iniziare una tiopurina"
+  ],
+  "reversal": "Nessun antidoto specifico: sospensione e supporto ematologico.",
+  "notesOnClassVsMolecule": "Per l'azatioprina due interazioni sono determinanti nel paziente cardiologico: l'allopurinolo (dose da ridurre a un quarto) e gli ACE-inibitori (rischio additivo di mielosoppressione). L'effetto e' lento: non e' un farmaco per l'episodio acuto."
+}

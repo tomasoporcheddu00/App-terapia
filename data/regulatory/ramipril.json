@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "ramipril",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Egualia/Banca Dati AIFA - ramipril: classe di rimborsabilita' A, ricetta medica obbligatoria (RR); compresse 2,5/5/10 mg.",
+        "url": "https://www.equivalente.it/it/principi-attivi/sistema-cardiovascolare/2504-ramipril.html",
+        "identifier": "AIFA classe A - RR",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Dati di prescrivibilita' da portale su base Banca Dati AIFA; da confermare sul prontuario AIFA aggiornato. Nessuna Nota AIFA specifica applicabile al ramipril per le indicazioni cardiovascolari."
+  },
+  "drugId": "ramipril",
+  "authorisation": "Nazionale (AIFA) e per associazioni via procedure europee",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RR (ricetta ripetibile)",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Farmacia (convenzionata)",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

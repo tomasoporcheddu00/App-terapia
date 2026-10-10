@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "phytomenadione",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Fitomenadione (Konakion 10 mg/mL) - RCP (Univadis/Codifa su base AIFA) + Nota Informativa AIFA 2014: antidoto degli anticoagulanti cumarinici; EV lenta 5-10 mg con PFC/CCP nell'emorragia grave; NON per via IM negli adulti.",
+        "url": "https://www.univadis.it/references/drug-database/viewdrug/konakion-40478",
+        "identifier": "Konakion RCP",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "phytomenadione",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Anticoagulanti cumarinici (warfarin, acenocumarolo)",
+      "effect": "Antagonismo dell'effetto anticoagulante (e' l'antidoto)",
+      "management": "Atteso; evitare la sovracorrezione per non rendere difficile la ri-anticoagulazione"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Salicilati e antibiotici ad alte dosi/prolungati",
+      "effect": "Aumento del fabbisogno di vitamina K1",
+      "management": "Considerare nel dosaggio"
+    }
+  ]
+}

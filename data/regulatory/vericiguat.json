@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "vericiguat",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "AIFA/EMA - Verquvo: classe A, prescrizione specialistica.",
+        "url": "https://mediately.co/it/drugs/7c1YbrtSteLbFYGsKPMVAi7G4MS/verquvo-14-cpr-riv-2-5-mg",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Classe/condizioni di rimborso da confermare su determina AIFA aggiornata."
+  },
+  "drugId": "vericiguat",
+  "authorisation": "Nazionale (AIFA) / EMA (procedura centralizzata)",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RR (ricetta ripetibile)",
+  "aifaNote": null,
+  "therapeuticPlan": true,
+  "distribution": "Farmacia",
+  "law648_1996": false,
+  "prescriberRestrictions": "Prescrizione specialistica/condizioni AIFA - da confermare."
+}

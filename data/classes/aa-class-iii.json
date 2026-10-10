@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "id": "aa-class-iii",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Antiaritmici di classe III: sintesi da RCP/monografie.",
+        "url": "https://www.aifa.gov.it/documents/20142/241044/multaq_rcp_clean.pdf",
+        "identifier": "III classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe III sintetizzata da RCP; confermare su RCP ufficiali e linee guida ESC."
+  },
+  "name": "Antiaritmici classe III",
+  "atcGroup": "C01BD (classe III)",
+  "memberDrugIds": [
+    "amiodarone",
+    "dronedarone",
+    "dofetilide",
+    "ibutilide"
+  ],
+  "mechanismSummary": "Blocco dei canali del potassio (in particolare la corrente IKr) con allungamento della durata del potenziale d'azione, del periodo refrattario e del QT; alcuni agenti hanno effetti aggiuntivi (l'amiodarone e' multi-classe).",
+  "molecularTarget": "Canali del potassio cardiaci (IKr)",
+  "pharmacodynamics": "Allungamento della ripolarizzazione e del periodo refrattario; efficacia sul controllo del ritmo, con rischio di torsione di punta (minore per l'amiodarone).",
+  "classEffects": [
+    "Controllo del ritmo nelle aritmie atriali e ventricolari",
+    "Prolungamento del QT (rischio di torsione di punta, minore per l'amiodarone)",
+    "Effetti d'organo per l'amiodarone (tiroide, polmone, fegato)"
+  ],
+  "sharedContraindications": [
+    "Prolungamento del QT / anamnesi di torsione di punta",
+    "Ipopotassiemia/ipomagnesiemia non corrette",
+    "Bradicardia/blocchi avanzati senza pacemaker",
+    "Controindicazioni specifiche (FA permanente e scompenso per il dronedarone; disfunzione tiroidea per l'amiodarone)"
+  ],
+  "sharedAdverseEffects": [
+    "Torsione di punta / proaritmia (minore per amiodarone)",
+    "Bradicardia",
+    "Tossicita' d'organo per amiodarone; epatotossicita' per dronedarone"
+  ],
+  "monitoring": [
+    "ECG (QT/QTc)",
+    "Potassiemia e magnesiemia",
+    "Monitoraggi specifici (tiroide/polmone/fegato per amiodarone; transaminasi/creatinina per dronedarone)"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "L'amiodarone e' il piu' potente e versatile (multi-classe), con bassa proaritmia ma importante tossicita' d'organo. Il dronedarone e' l'analogo senza iodio (meno tossico ma controindicato nella FA permanente e nello scompenso). Dofetilide e ibutilide sono bloccanti selettivi dell'IKr: la dofetilide (orale, non disponibile in Italia) richiede inizio ospedaliero, l'ibutilide (EV) serve per la conversione acuta di FA/flutter; entrambe con rischio di torsione di punta. Dettagli nelle singole schede."
+}

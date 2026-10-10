@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "id": "glucagon",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Glucagone (GlucaGen) - RCP (Codifa/Mediately/Torrinomedica su base AIFA) + centri antiveleni: ipoglicemia severa, ausilio diagnostico, antidoto betabloccanti/calcioantagonisti; controindicato nel feocromocitoma.",
+        "url": "https://www.codifa.it/farmaci/g/glucagen-hypokit-glucagone-cloridrato-ormoni-glicogenolitici",
+        "identifier": "GlucaGen RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Glucagone - Centro Antidoti Emilia-Romagna e RCP: tempo di dimezzamento ~3-10 minuti, inattivazione epatica e renale.",
+        "url": "https://antidoti.ospfe.it/antidoto/glucagone/",
+        "identifier": "Centro Antidoti - farmacocinetica",
+        "retrievedAt": "2026-07-25"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Agenti d'urgenza: le dosi di emergenza vanno adattate ai protocolli locali. Antidoto di prima linea nell'intossicazione da betabloccanti; utile come adiuvante nei calcioantagonisti.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Glucagone",
+    "inn": "glucagone",
+    "brandExamplesIt": [
+      "GlucaGen",
+      "GlucaGen HypoKit"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Ormone glicogenolitico / antidoto",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "electrolyte-metabolic-agents"
+  ],
+  "quickSummary": {
+    "whatItIs": "Ormone che libera glucosio dal fegato: tratta l'ipoglicemia grave quando non e' possibile assumere zuccheri per bocca. In cardiologia e' l'antidoto di prima linea nell'intossicazione da betabloccanti e calcioantagonisti (effetto inotropo/cronotropo positivo).",
+    "mainUses": [
+      "Ipoglicemia grave (diabete)",
+      "Antidoto nell'intossicazione da betabloccanti e calcioantagonisti",
+      "Ausilio diagnostico (inibizione della motilita' gastrointestinale)"
+    ],
+    "mainRisks": [
+      "Inefficace se scorte epatiche di glicogeno esaurite",
+      "Nausea/vomito, iperglicemia",
+      "Aumento di richiesta di O2 miocardico, PA e FC"
+    ],
+    "essentialMonitoring": [
+      "Glicemia",
+      "Frequenza cardiaca/pressione (specie come antidoto)",
+      "Potassiemia (alte dosi)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento dell'ipoglicemia grave nei pazienti con diabete mellito",
+      "Ausilio diagnostico per l'inibizione della motilita' gastrointestinale (procedure)",
+      "Antidoto nell'intossicazione da betabloccanti e da calcioantagonisti (uso da linee guida/centri antiveleni)"
+    ],
+    "guidelineIndications": [
+      "Antidoto di prima linea nell'intossicazione da betabloccanti (specie con scarsa risposta all'atropina) e adiuvante nei calcioantagonisti: bolo 3-10 mg EV poi infusione 1-5 mg/h - centri antiveleni",
+      "Bypassa il recettore beta stimolando direttamente l'adenilato ciclasi (effetto inotropo/cronotropo) - confermare su fonte"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Feocromocitoma (stimola il rilascio di catecolamine: crisi ipertensiva acuta)"
+    ],
+    "warnings": [
+      "Inefficace in assenza di riserve epatiche di glicogeno (digiuno protratto, insufficienza surrenalica, ipoglicemia cronica o da alcol): in tal caso somministrare glucosio EV",
+      "Se non c'e' risposta entro 10 minuti nell'ipoglicemia, somministrare glucosio EV; dopo il recupero dare carboidrati per os per ripristinare il glicogeno",
+      "Ricostituire immediatamente prima dell'uso (instabile in soluzione)",
+      "Aumenta la richiesta di ossigeno del miocardio, la pressione e la frequenza cardiaca: monitorare i cardiopatici; a dosi elevate rischio di ipokaliemia"
+    ],
+    "adverseEffects": [
+      "Nausea, vomito",
+      "Iperglicemia (transitoria)",
+      "Tachicardia",
+      "Ipokaliemia (alte dosi)",
+      "Rare reazioni di ipersensibilita'"
+    ],
+    "overdose": "A dosi elevate: nausea/vomito, ipokaliemia; trattamento sintomatico e monitoraggio (in particolare della potassiemia).",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico.",
+      "hepatic": "Inefficace se glicogeno epatico esaurito.",
+      "elderly": "Utilizzabile.",
+      "pregnancy": "Utilizzabile se necessario.",
+      "breastfeeding": "Compatibile."
+    },
+    "alternativeDrugIds": []
+  },
+  "deep": {
+    "simpleExplanation": "Fa rilasciare al fegato lo zucchero di riserva: si usa quando la glicemia crolla e non si puo' dare zucchero per bocca. In cardiologia e' l'antidoto per chi si e' intossicato con betabloccanti o calcioantagonisti.",
+    "clinicalExplanation": "Ormone glicogenolitico: mobilizza il glucosio epatico (ipoglicemia). Come antidoto nei betabloccanti/calcioantagonisti attiva l'adenilato ciclasi indipendentemente dal recettore beta, con effetto inotropo e cronotropo positivo. Controindicato nel feocromocitoma.",
+    "molecularExplanation": "Attiva i recettori del glucagone accoppiati a proteine Gs, aumentando l'AMP ciclico (glicogenolisi epatica ed effetto inotropo cardiaco).",
+    "pharmacodynamics": "Aumento della glicemia (glicogenolisi); effetto inotropo e cronotropo positivo (utile come antidoto).",
+    "molecularTarget": "Recettore del glucagone (adenilato ciclasi/cAMP)",
+    "agonismAntagonism": "Agonismo del recettore del glucagone",
+    "pharmacokinetics": {
+      "route": "SC/IM/EV",
+      "onset": "Ipoglicemia: entro ~10 min",
+      "note": "Instabile in soluzione (ricostituire al momento)",
+      "halfLife": "Molto breve, ~3-10 minuti; rapidamente inattivato da proteasi nel fegato e nel rene (da qui, nel sovradosaggio da betabloccanti, l'uso in bolo seguito da infusione continua)"
+    },
+    "bibliography": []
+  }
+}

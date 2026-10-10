@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "andexanet-alfa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Andexanet alfa (Ondexxya) - RCP EMA/Mediately: reversal degli inibitori diretti del fattore Xa (apixaban/rivaroxaban) nelle emorragie potenzialmente fatali; bolo + infusione; uso ospedaliero.",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/ondexxya-epar-product-information_en.pdf",
+        "identifier": "Ondexxya RCP",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "andexanet-alfa",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Eparina (non frazionata)",
+      "effect": "Andexanet puo' inattivare l'effetto anticoagulante dell'eparina",
+      "management": "Evitare andexanet se si prevede la necessita' di eparina (es. circolazione extracorporea)"
+    },
+    {
+      "severity": "minor",
+      "agent": "Inibitori indiretti del FXa (eparine/fondaparinux)",
+      "effect": "Non indicato per il loro reversal",
+      "management": "Usare l'antidoto appropriato (protamina per l'eparina)"
+    }
+  ]
+}

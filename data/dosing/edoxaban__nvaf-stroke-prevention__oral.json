@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "id": "edoxaban__nvaf-stroke-prevention__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Lixiana (edoxaban) sez. 4.2 - posologia FANV e criteri di riduzione a 30 mg.",
+        "url": "https://mediately.co/it/drugs/YMnCWLklOon82zZK18RVjF8nfmj/lixiana-60-mg-compresse-rivestite",
+        "identifier": "Lixiana posologia",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "60 mg/die standard; 30 mg/die se CrCl 15-50 mL/min, peso <=60 kg o inibitori P-gp specifici (ciclosporina, dronedarone, eritromicina, ketoconazolo). id indicazione da riconciliare col vocabolario del progetto.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "edoxaban",
+  "indication": "nvaf-stroke-prevention",
+  "scenario": "Prevenzione di ictus ed embolia sistemica nella FANV",
+  "route": "oral",
+  "formulation": null,
+  "population": "adult-standard",
+  "dose": {
+    "loading": null,
+    "initial": "60 mg una volta al giorno",
+    "interval": "ogni 24 ore",
+    "maintenance": "60 mg una volta al giorno; 30 mg una volta al giorno se CrCl 15-50 mL/min, peso <=60 kg, o inibitori P-gp specifici (ciclosporina, dronedarone, eritromicina, ketoconazolo)",
+    "target": null,
+    "max": "60 mg/die",
+    "titration": null,
+    "duration": "A lungo termine",
+    "weightBased": null,
+    "cumulative": null,
+    "renalAdjustment": "CrCl >50: 60 mg/die. CrCl 15-50: 30 mg/die. ESRD/dialisi: non raccomandato. CrCl elevata: attenta valutazione (possibile minore efficacia).",
+    "hepaticAdjustment": "Non raccomandato in compromissione severa; cautela nella lieve-moderata.",
+    "elderly": "Nessuna riduzione per la sola eta'.",
+    "pregnancy": "Controindicato.",
+    "dialysis": "Non raccomandato."
+  },
+  "administration": {
+    "preparation": null,
+    "solvent": null,
+    "concentration": null,
+    "rate": null,
+    "access": null,
+    "notes": "Compressa da deglutire intera con acqua, con o senza cibo."
+  },
+  "monitoring": [
+    "CrCl (all'inizio e quando indicato)",
+    "Segni di sanguinamento"
+  ],
+  "stoppingCriteria": [
+    "Emorragia (nessun antidoto specifico)",
+    "Chirurgia: sospensione secondo rischio"
+  ],
+  "approvalEvidence": {
+    "primarySourceVerified": false,
+    "smpcVerified": true,
+    "clinicalReviewDone": true,
+    "verificationDate": "2026-07-18",
+    "reviewer": "Curatore clinico"
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "id": "dabigatran",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Pradaxa (dabigatran etexilato), Boehringer Ingelheim - sez. 4.2-4.4, 4.9 (RCP europea/italiana).",
+        "url": "https://www.torrinomedica.it/effetti-collaterali/pradaxa-effetti-collaterali/",
+        "identifier": "Pradaxa 110/150 mg; ATC B01AE07",
+        "retrievedAt": "2026-07-18"
+      },
+      {
+        "type": "smpc",
+        "citation": "RCP Pradaxa - posologia e aggiustamenti per funzione renale (cap. 110/150 mg BID; riduzione 220 mg come 110 mg BID nei pazienti ad alto rischio).",
+        "url": "https://www.cardiorrenal.es/arxius/imatgesbutlleti/Pradaxa_Indicaciones_Posologiavf0206.pdf",
+        "identifier": "Pradaxa posologia",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Monografia focalizzata sulle indicazioni cardiologiche (FANV e trattamento/prevenzione recidive TVP-EP). Esiste anche la capsula 75 mg per profilassi TEV ortopedica (contesto diverso). ATC B01AE07. Inattivatore specifico: idarucizumab (Praxbind). Alcune soglie posologiche/di rischio da confermare sul testo integrale della RCP europea.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Dabigatran etexilato",
+    "inn": "dabigatran etexilate",
+    "brandExamplesIt": [
+      "Pradaxa"
+    ]
+  },
+  "synonyms": [
+    "Dabigatran"
+  ],
+  "classIds": [
+    "direct-thrombin-inhibitors"
+  ],
+  "subclass": "Inibitore diretto della trombina (fattore IIa) - profarmaco",
+  "classificationStatus": "confirmed",
+  "identity": {
+    "atcCodes": [
+      "B01AE07"
+    ],
+    "formulations": [
+      "capsule rigide 110 mg",
+      "capsule rigide 150 mg"
+    ],
+    "potentialRoutes": [
+      "oral"
+    ],
+    "availabilityStatus": "available",
+    "marketingAuthorisationIt": true
+  },
+  "linkedMacroAreaIds": [
+    "atrial-fibrillation",
+    "venous-thromboembolism"
+  ],
+  "quickSummary": {
+    "whatItIs": "Anticoagulante orale diretto, profarmaco che dopo conversione inibisce direttamente la trombina (fattore IIa).",
+    "mainUses": [
+      "Prevenzione di ictus ed embolia sistemica nella FANV con fattori di rischio",
+      "Trattamento e prevenzione delle recidive di TVP ed EP nell'adulto"
+    ],
+    "mainRisks": [
+      "Emorragia (in particolare gastrointestinale, soprattutto nell'anziano)",
+      "Dispepsia"
+    ],
+    "essentialMonitoring": [
+      "Funzione renale (CrCl)",
+      "Segni di sanguinamento"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Prevenzione di ictus ed embolia sistemica in adulti con fibrillazione atriale non valvolare e almeno un fattore di rischio (pregresso ictus/TIA/embolia sistemica, FE <40%, scompenso sintomatico >=NYHA II, eta' >=75 anni, o eta' >=65 anni con diabete/coronaropatia/ipertensione)",
+      "Trattamento della TVP e dell'EP e prevenzione delle recidive di TVP ed EP negli adulti"
+    ],
+    "guidelineIndications": [
+      "ESC/EACTS 2024 (FA): i DOAC come classe (incluso dabigatran) sono preferiti ai VKA nei pazienti eleggibili, eccetto protesi meccaniche e stenosi mitralica moderata-severa (classe I)."
+    ],
+    "offLabelUses": [],
+    "populations": [
+      "FANV con fattori di rischio (studio RE-LY); TVP/EP acute e prevenzione recidive"
+    ],
+    "advantages": [
+      "Inattivatore specifico disponibile (idarucizumab)",
+      "Nessun monitoraggio routinario della coagulazione"
+    ],
+    "limitations": [
+      "Controindicato con CrCl <30 mL/min",
+      "Maggiore sanguinamento GI, specie nell'anziano",
+      "Interazioni con inibitori/induttori della P-gp",
+      "Assorbimento influenzato da capsula (non aprire)"
+    ],
+    "alternativeDrugIds": [
+      "apixaban",
+      "rivaroxaban",
+      "edoxaban",
+      "warfarin"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Insufficienza renale grave (CrCl <30 mL/min)",
+      "Sanguinamento clinicamente significativo in atto",
+      "Lesione o condizione organica a rischio di sanguinamento maggiore",
+      "Compromissione della emostasi (spontanea o farmacologica)",
+      "Insufficienza/malattia epatica con impatto atteso sulla sopravvivenza",
+      "Trattamento concomitante con inibitori forti della P-gp (es. ketoconazolo sistemico, ciclosporina, itraconazolo, dronedarone)",
+      "Protesi valvolari cardiache che richiedono terapia anticoagulante",
+      "Trattamento concomitante con altri anticoagulanti (salvo switch/UFH per catetere)"
+    ],
+    "relativeContraindications": [],
+    "warnings": [
+      "Valutare la funzione renale (CrCl) prima e durante il trattamento",
+      "Rischio emorragico aumentato nell'anziano (>=75 anni) e con antiaggreganti concomitanti",
+      "Considerare dose ridotta (220 mg come 110 mg due volte/die) nei pazienti ad alto rischio emorragico (es. eta' >=80 anni, verapamil, gastrite/esofagite/reflusso)",
+      "Sospensione perioperatoria in base a CrCl; non interrompere per l'ablazione transcatetere della FA",
+      "Inattivatore specifico idarucizumab disponibile per emergenze"
+    ],
+    "adverseEffects": [
+      "Emorragia (inclusa GI)",
+      "Dispepsia",
+      "Anemia",
+      "Alterazioni della funzione epatica"
+    ],
+    "overdose": "In caso di sovradosaggio con sanguinamento e' disponibile l'inattivatore specifico idarucizumab; considerare misure di supporto, diuresi, eventuale emodialisi (dabigatran e' dializzabile).",
+    "antidoteDrugIds": [
+      "idarucizumab"
+    ],
+    "monitoring": [
+      "Funzione renale (CrCl)",
+      "Segni di sanguinamento",
+      "Emocromo"
+    ],
+    "discontinuation": "Sospensione temporanea in base al rischio della procedura e alla CrCl; riprendere appena ottenuta l'emostasi.",
+    "specialPopulations": {
+      "renal": "CrCl 30-50 mL/min: 150 mg due volte/die (o 110 mg due volte/die se alto rischio emorragico). CrCl <30 mL/min: controindicato.",
+      "hepatic": "Controindicato in malattia epatica con impatto atteso sulla sopravvivenza; enzimi epatici >2x ULN esclusi dagli studi.",
+      "elderly": ">=80 anni: 110 mg due volte/die. Maggiore rischio emorragico, specie GI.",
+      "lowBodyWeight": null,
+      "obesity": null,
+      "pregnancy": "Non raccomandato in gravidanza salvo chiara necessita' (verificare RCP).",
+      "breastfeeding": "Interrompere l'allattamento durante il trattamento (verificare RCP)."
+    },
+    "dosingRegimenIds": [
+      "dabigatran__nvaf-stroke-prevention__oral"
+    ],
+    "interactionRefs": [],
+    "regulatoryItId": "dabigatran"
+  },
+  "deep": {
+    "simpleExplanation": "Blocca direttamente la trombina, l'enzima finale che forma il coagulo; ha un antidoto dedicato in caso di emorragia grave.",
+    "clinicalExplanation": "Profarmaco (dabigatran etexilato) convertito in dabigatran attivo che inibisce in modo diretto e reversibile la trombina, libera e legata al coagulo, prevenendo la conversione del fibrinogeno in fibrina.",
+    "molecularExplanation": "Inibitore competitivo e reversibile del sito attivo della trombina (fattore IIa), impedendo la formazione di fibrina e l'attivazione trombina-mediata delle piastrine.",
+    "molecularTarget": "Trombina (fattore IIa)",
+    "agonismAntagonism": "Inibitore diretto reversibile",
+    "selectivity": "Selettivo per la trombina",
+    "pharmacodynamics": "Prolunga aPTT e tempo di trombina; effetto anticoagulante prevedibile a dose fissa senza monitoraggio routinario.",
+    "hemodynamicEffects": "Nessun effetto emodinamico diretto.",
+    "electrophysiologicEffects": "Nessuno.",
+    "pharmacokinetics": {
+      "bioavailability": "Bassa (~6-7%); profarmaco assorbito e attivato da esterasi",
+      "timeToPeak": null,
+      "halfLife": "~12-14 ore",
+      "proteinBinding": "~35%",
+      "metabolism": "Idrolisi esterasica a dabigatran attivo; non substrato dei CYP",
+      "enzymes": [],
+      "transporters": [
+        "P-gp"
+      ],
+      "activeMetabolites": [
+        "dabigatran (glucuronidi attivi)"
+      ],
+      "elimination": "Prevalentemente renale (~80% del dabigatran attivo)",
+      "dialyzability": "Dializzabile (l'emodialisi puo' rimuovere il dabigatran)"
+    },
+    "evidenceIds": [],
+    "recommendationIds": [],
+    "bibliography": [
+      "RE-LY (dabigatran vs warfarin, NEJM 2009)",
+      "2024 ESC/EACTS AF Guidelines, Eur Heart J 2024"
+    ]
+  }
+}

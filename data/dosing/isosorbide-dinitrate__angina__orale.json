@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "isosorbide-dinitrate__angina__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Isosorbide dinitrato (Carvasin) - RCP (Univadis/Mediately/Codifa su base AIFA): insufficienza coronarica e angina, sublinguale/orale, scompenso, tolleranza, controindicazione PDE5.",
+        "url": "https://mediately.co/it/drugs/HAsgzAjdUXON1tBSnj7my1oddGe/carvasin-10-mg-compresse",
+        "identifier": "Carvasin RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Da confermare e approvare."
+  },
+  "drugId": "isosorbide-dinitrate",
+  "indication": "angina",
+  "scenario": "Angina (sublinguale e orale)",
+  "route": "orale",
+  "dose": {
+    "sublingual": "5-10 mg sublinguale, ripetibile dopo 2-4 ore (attacco o prevenzione prima di uno sforzo)",
+    "oral": "10 mg per via orale 2-4 volte/die; rilascio modificato 20-40 mg ogni 8-12 ore",
+    "max": "secondo formulazione e tolleranza"
+  },
+  "administration": {
+    "notes": "Sublinguale per azione rapida; orale/rilascio modificato per la profilassi, con intervallo libero da nitrati. Sospendere gradualmente."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

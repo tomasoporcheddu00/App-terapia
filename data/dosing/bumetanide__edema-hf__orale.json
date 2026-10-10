@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "bumetanide__edema-hf__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Bumetanide - monografie/RCP (Burinex e fonti internazionali): indicazioni edema/scompenso, dose 0,5-2 mg (max 10 mg), potenza ~40:1 vs furosemide.",
+        "url": "https://prescriberpoint.com/therapies/bumetanide-d4688d5",
+        "identifier": "Bumetanide RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "bumetanide",
+  "indication": "chronic-heart-failure",
+  "scenario": "Edema / scompenso",
+  "route": "orale",
+  "dose": {
+    "initial": "0,5-1 mg al giorno (dose usuale 0,5-2 mg in unica somministrazione)",
+    "titration": "se risposta insufficiente, seconda/terza dose a intervalli di 4-5 ore",
+    "maintenance": "secondo congestione; schema intermittente a giorni alterni possibile",
+    "max": "10 mg al giorno"
+  },
+  "administration": {
+    "notes": "Preferibilmente al mattino. Per via EV nell'edema polmonare acuto (0,5-2 mg, ripetibile)."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

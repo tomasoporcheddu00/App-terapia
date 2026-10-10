@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "prasugrel__acs-pci__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Efient (prasugrel) sez. 4.2 - carico 60 mg, mantenimento 10 mg; 5 mg se <60 kg o >=75 anni; durata fino a 12 mesi.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/efient_10_mg/",
+        "identifier": "Efient posologia",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Regime SCA con PCI, in DAPT con ASA (75-325 mg/die). Nell'UA/NSTEMI con coronarografia entro 48 h, il carico va dato solo al momento del PCI. id indicazione da riconciliare col vocabolario del progetto.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "prasugrel",
+  "indication": "acs-pci",
+  "scenario": "Sindrome coronarica acuta sottoposta a PCI (in DAPT con ASA)",
+  "route": "oral",
+  "formulation": null,
+  "population": "adult-standard",
+  "dose": {
+    "loading": "60 mg (dose di carico singola)",
+    "initial": "10 mg una volta al giorno",
+    "interval": "ogni 24 ore",
+    "maintenance": "10 mg una volta al giorno; 5 mg una volta al giorno se peso <60 kg o eta' >=75 anni",
+    "target": null,
+    "max": null,
+    "titration": null,
+    "duration": "Fino a 12 mesi salvo controindicazioni",
+    "weightBased": null,
+    "cumulative": null,
+    "renalAdjustment": "Nessun aggiustamento (esperienza limitata in ESRD).",
+    "hepaticAdjustment": "Controindicato in Child-Pugh C.",
+    "elderly": ">=75 anni: uso generalmente non raccomandato; se necessario, mantenimento 5 mg.",
+    "pregnancy": "Usare solo se necessario.",
+    "dialysis": null
+  },
+  "administration": {
+    "preparation": null,
+    "solvent": null,
+    "concentration": null,
+    "rate": null,
+    "access": null,
+    "notes": "Uso orale con o senza cibo; il carico a digiuno puo' accelerare l'esordio. Non schiacciare/rompere la compressa."
+  },
+  "monitoring": [
+    "Segni di sanguinamento"
+  ],
+  "stoppingCriteria": [
+    "Sanguinamento significativo",
+    "Chirurgia elettiva: sospensione almeno 7 giorni prima"
+  ],
+  "approvalEvidence": {
+    "primarySourceVerified": false,
+    "smpcVerified": true,
+    "clinicalReviewDone": true,
+    "verificationDate": "2026-07-18",
+    "reviewer": "Curatore clinico"
+  }
+}

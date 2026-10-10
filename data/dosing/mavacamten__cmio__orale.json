@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "id": "mavacamten__cmio__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Camzyos (mavacamten) - RCP EMA (registro comunitario EC, allegato IT; Torrinomedica/Codifa): indicazione, genotipizzazione CYP2C19, schema di titolazione ecoguidato, controindicazione in gravidanza.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2023/20230626159388/anx_159388_it.pdf",
+        "identifier": "Camzyos RCP EMA",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida sulle cardiomiopatie: mavacamten Classe IIa nei pazienti sintomatici nonostante terapia ottimale.",
+        "url": "https://academic.oup.com/eurheartj/article/44/37/3503/7246608",
+        "identifier": "ESC 2023 cardiomiopatie",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Posologia da fonti su base RCP/AIFA o da linee guida citate; smpcVerified=false. Verificare sempre su RCP ufficiale e adattare a funzione renale/epatica."
+  },
+  "drugId": "mavacamten",
+  "indication": "hcm",
+  "scenario": "Cardiomiopatia ipertrofica ostruttiva sintomatica (NYHA II-III)",
+  "route": "orale",
+  "dose": {
+    "prerequisiti": "LVEF all'ecocardiogramma >=55% e genotipizzazione CYP2C19 prima dell'avvio",
+    "metabolizzatori intermedi/normali/rapidi/ultrarapidi": "dose iniziale 5 mg una volta al giorno; dose massima 15 mg una volta al giorno",
+    "metabolizzatori lenti del CYP2C19": "dose iniziale 2,5 mg una volta al giorno; dose massima 5 mg una volta al giorno",
+    "dosi disponibili": "2,5 mg, 5 mg, 10 mg, 15 mg",
+    "monitoraggio": "stato clinico, gradiente LVOT con Valsalva e LVEF a 4 e 8 settimane dall'avvio; dopo un aumento ricontrollo a 4 settimane e mantenimento per 8 settimane salvo LVEF <50%; ulteriore aumento ammesso dopo 12 settimane se LVEF >=55%",
+    "sospensione": "interrompere se la LVEF scende sotto il 50%"
+  },
+  "administration": {
+    "notes": "Se il fenotipo CYP2C19 non e' ancora noto, seguire le istruzioni previste per i metabolizzatori lenti. Per l'associazione con inibitori/induttori di CYP2C19 o CYP3A4 seguire la tabella delle modifiche di dose dell'RCP. Non assumere due dosi nello stesso giorno."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

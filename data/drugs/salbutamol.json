@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "id": "salbutamol",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Salbutamolo (Ventolin) - RCP (Codifa/Torrinomedica/Mediately su base AIFA): beta2-agonista per broncospasmo; uso d'urgenza nell'iperkaliemia (nebulizzato); ipokaliemia, tachicardia/aritmie.",
+        "url": "https://www.codifa.it/farmaci/v/ventolin-sospensione-salbutamolo-adrenergici-respiratori",
+        "identifier": "Ventolin RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Salbutamolo (Ventolin) - RCP (Torrinomedica su base AIFA), paragrafo 5.2: emivita ~4-6 ore per via endovenosa, escrezione renale.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/ventolin_fiale_iniettabili/",
+        "identifier": "RCP - farmacocinetica",
+        "retrievedAt": "2026-07-25"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Agenti d'urgenza: le dosi di emergenza vanno adattate ai protocolli locali. Nell'iperkaliemia e' adiuvante (non sostituisce il calcio e l'insulina+glucosio); l'effetto e' ridotto nei pazienti in terapia con betabloccanti.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Salbutamolo",
+    "inn": "salbutamolo",
+    "brandExamplesIt": [
+      "Ventolin",
+      "Broncovaleas"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Beta2-agonista a breve durata d'azione (SABA)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "electrolyte-metabolic-agents"
+  ],
+  "quickSummary": {
+    "whatItIs": "Broncodilatatore beta2-agonista a rapida azione per il broncospasmo; in urgenza, ad alte dosi nebulizzate, e' usato per abbassare il potassio nell'iperkaliemia (shift intracellulare).",
+    "mainUses": [
+      "Broncospasmo (asma, BPCO)",
+      "Uso d'urgenza nell'iperkaliemia (nebulizzato ad alta dose) come adiuvante"
+    ],
+    "mainRisks": [
+      "Ipokaliemia (specie con diuretici/steroidi/xantine)",
+      "Tachicardia, aritmie, palpitazioni",
+      "Tremore; acidosi lattica ad alte dosi"
+    ],
+    "essentialMonitoring": [
+      "Frequenza cardiaca",
+      "Potassiemia (nebulizzazione ripetuta/alte dosi)",
+      "Risposta respiratoria"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento e prevenzione del broncospasmo nell'asma e nella broncopneumopatia cronica ostruttiva (ostruzione reversibile delle vie aeree)",
+      "Uso d'urgenza nell'iperkaliemia (nebulizzato ad alta dose) come adiuvante allo shift del potassio (uso da linee guida)"
+    ],
+    "guidelineIndications": [
+      "Nell'iperkaliemia: salbutamolo 10-20 mg nebulizzato (dose superiore a quella broncodilatatrice), in aggiunta a insulina+glucosio; effetto additivo, ridotto dai betabloccanti - ERC 2021",
+      "SABA di riferimento per il broncospasmo acuto - confermare su GINA"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al salbutamolo o agli eccipienti"
+    ],
+    "warnings": [
+      "Puo' causare ipokaliemia anche grave (specie per via parenterale/nebulizzata): effetto potenziato da xantine, steroidi, diuretici e ipossia - monitorare la potassiemia",
+      "Tachicardia, palpitazioni, aritmie (fibrillazione atriale, tachicardia sopraventricolare, extrasistolia): cautela in cardiopatia ischemica, aritmie, ipertensione, scompenso, ipertiroidismo, feocromocitoma, diabete",
+      "In caso di sintomi cardiaci considerare la sospensione (eventuali betabloccanti cardioselettivi); aumenta la richiesta di ossigeno miocardico",
+      "Acidosi lattica riportata con alte dosi/sovradosaggio; la mancata risposta puo' indicare peggioramento dell'asma"
+    ],
+    "adverseEffects": [
+      "Tremore, tachicardia, palpitazioni",
+      "Cefalea",
+      "Ipokaliemia",
+      "Crampi muscolari",
+      "Aritmie (rare), acidosi lattica (alte dosi)"
+    ],
+    "overdose": "Il sovradosaggio causa tachicardia, tremore, ipokaliemia e acidosi lattica: trattamento sintomatico, monitorare il potassio; eventuale betabloccante cardioselettivo con cautela (rischio di broncospasmo).",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico.",
+      "hepatic": "Cautela.",
+      "elderly": "Cautela (effetti cardiaci).",
+      "pregnancy": "Utilizzabile se necessario.",
+      "breastfeeding": "Compatibile."
+    },
+    "alternativeDrugIds": []
+  },
+  "deep": {
+    "simpleExplanation": "L'inalatore 'salvavita' dell'asma; in pronto soccorso, ad alte dosi nebulizzate, aiuta anche ad abbassare il potassio quando e' troppo alto. Puo' far battere forte il cuore e abbassare il potassio.",
+    "clinicalExplanation": "Beta2-agonista selettivo a breve durata (SABA): broncodilatazione rapida. Nell'iperkaliemia, ad alte dosi nebulizzate, stimola la Na/K-ATPasi spostando il potassio nelle cellule (adiuvante a insulina+glucosio). Effetti cardiaci (tachicardia) e ipokaliemia da sorvegliare.",
+    "molecularExplanation": "Agonizza i recettori beta2-adrenergici (adenilato ciclasi/cAMP): rilassamento della muscolatura liscia bronchiale e attivazione della Na/K-ATPasi.",
+    "pharmacodynamics": "Broncodilatazione; spostamento intracellulare del potassio (riduzione della potassiemia).",
+    "molecularTarget": "Recettore beta2-adrenergico",
+    "agonismAntagonism": "Agonismo beta2 selettivo",
+    "pharmacokinetics": {
+      "route": "Inalatoria/nebulizzata (anche EV)",
+      "onset": "~5 minuti",
+      "duration": "4-6 ore",
+      "halfLife": "~4-6 ore per via endovenosa (durata d'azione clinica 4-6 ore); eliminazione renale in parte immodificato e in parte come metabolita inattivo 4'-O-solfato"
+    },
+    "bibliography": []
+  }
+}

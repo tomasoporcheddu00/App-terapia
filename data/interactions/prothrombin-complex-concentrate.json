@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "prothrombin-complex-concentrate",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Concentrato di complesso protrombinico (Confidex/Beriplex, Octaplex) - RCP AIFA (Torrinomedica/Codifa) + protocolli SIMEU: reversal urgente degli antagonisti della vitamina K; dose secondo INR e peso; rischio trombotico/CID.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/confidex/",
+        "identifier": "Confidex RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "prothrombin-complex-concentrate",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Antagonisti della vitamina K (warfarin, acenocumarolo)",
+      "effect": "Antagonismo dell'effetto anticoagulante (e' l'indicazione)",
+      "management": "Atteso; associare vitamina K1 e controllare l'INR"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Antifibrinolitici",
+      "effect": "Aumento del rischio trombotico",
+      "management": "Cautela nell'associazione"
+    }
+  ]
+}

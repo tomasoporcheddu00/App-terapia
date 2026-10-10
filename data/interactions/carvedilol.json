@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "id": "carvedilol",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Carvedilolo - RCP (Codifa/Torrinomedica su base AIFA): indicazioni, titolazione, assunzione con cibo nello scompenso.",
+        "url": "https://www.codifa.it/farmaci/c/carvedilolo-eg-carvedilolo-betabloccanti",
+        "identifier": "Carvedilolo RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni di classe dei betabloccanti (§4.5), applicabili alla molecola; severita' secondo posizionamento RCP e rilevanza clinica.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "carvedilol",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Calcioantagonisti non diidropiridinici (verapamil, diltiazem), specie per via endovenosa",
+      "effect": "Bradicardia grave, blocco AV, ipotensione, depressione della contrattilita'",
+      "management": "Associazione EV controindicata; per via orale usare con cautela e monitoraggio ECG/PA"
+    },
+    {
+      "severity": "major",
+      "agent": "Farmaci che deprimono il nodo/la conduzione (digossina, amiodarone, altri antiaritmici, ivabradina)",
+      "effect": "Bradicardia e blocco atrioventricolare",
+      "management": "Monitorare frequenza cardiaca e conduzione; cautela nell'associazione"
+    },
+    {
+      "severity": "major",
+      "agent": "Clonidina e antipertensivi ad azione centrale",
+      "effect": "Ipertensione da rimbalzo se il betabloccante viene sospeso per primo",
+      "management": "Sospendere prima il betabloccante e solo dopo, gradualmente, la clonidina"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Insulina e ipoglicemizzanti orali",
+      "effect": "Mascheramento dei sintomi dell'ipoglicemia; possibile alterazione del controllo glicemico",
+      "management": "Informare il paziente; monitorare la glicemia"
+    },
+    {
+      "severity": "moderate",
+      "agent": "FANS",
+      "effect": "Riduzione dell'effetto antipertensivo",
+      "management": "Monitorare la pressione arteriosa"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Anestetici, altri antipertensivi, calcioantagonisti diidropiridinici",
+      "effect": "Potenziamento dell'ipotensione",
+      "management": "Cautela perioperatoria; informare l'anestesista"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Digossina",
+      "effect": "Aumento dei livelli di digossina e rallentamento della conduzione AV",
+      "management": "Monitorare la digossinemia, specie in titolazione"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Induttori/inibitori del CYP2D6 (es. rifampicina, fluoxetina, paroxetina)",
+      "effect": "Variazione dell'esposizione al carvedilolo",
+      "management": "Monitorare la risposta clinica"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "ambrisentan",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Ambrisentan (Volibris) - RCP EMA/AIFA: antagonista selettivo ETA; PAH classe II-III, anche in combinazione con tadalafil; teratogeno, edema, anemia; controindicato nella fibrosi polmonare idiopatica.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/EPAR/volibris",
+        "identifier": "Volibris RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "ambrisentan",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Ciclosporina A",
+      "effect": "Aumento dei livelli di ambrisentan",
+      "management": "Limitare la dose di ambrisentan a 5 mg"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Rifampicina",
+      "effect": "Variazione transitoria dei livelli",
+      "management": "Monitorare"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Contraccettivi ormonali",
+      "effect": "Minore induzione rispetto al bosentan",
+      "management": "Comunque garantire una contraccezione affidabile"
+    }
+  ]
+}

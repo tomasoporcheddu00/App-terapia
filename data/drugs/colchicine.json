@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "id": "colchicine",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Colchicina Lirca - RCP (Torrinomedica/Codifa/Mediately su base AIFA): indicazioni gottose, controindicazioni, interazioni CYP3A4/P-gp, avvertenze.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/colchicina_lirca/",
+        "identifier": "Colchicina Lirca RCP",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2025 - Linee guida su miocardite e pericardite: colchicina come adiuvante di prima linea; dosi per peso e durata.",
+        "url": "https://www.giornaledicardiologia.it/archivio/4620/articoli/46292/",
+        "identifier": "ESC 2025 IMPS",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP italiani (Torrinomedica/Codifa/Univadis/Mediately su base Banca Dati AIFA) e, dove indicato, da documenti AIFA. DA CONFERMARE sugli RCP ufficiali AIFA/EMA. Stato: revisione fonti (source-review), non ancora approvato. ATTENZIONE: per queste molecole l'indicazione cardiologica (pericardite, miocardite, sarcoidosi, prevenzione secondaria) deriva dalle linee guida e NON coincide con le indicazioni autorizzate in scheda tecnica: verificare regime prescrittivo e rimborsabilita'. In cardiologia si usa a dosi basse e fisse (0,5-1 mg/die), molto inferiori a quelle antigottose. L'indicazione pericardite e prevenzione secondaria e' da linee guida, non da scheda tecnica italiana.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Colchicina",
+    "inn": "colchicina",
+    "brandExamplesIt": [
+      "Colchicina Lirca"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Alcaloide antimitotico ad azione antinfiammatoria",
+  "identity": {
+    "atcCodes": [
+      "M04AC01"
+    ],
+    "formulations": [
+      "Compresse divisibili 0,5 mg e 1 mg"
+    ],
+    "potentialRoutes": [
+      "orale"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "colchicine-class"
+  ],
+  "quickSummary": {
+    "whatItIs": "Alcaloide del colchico che blocca la polimerizzazione dei microtubuli: riduce la migrazione dei neutrofili e l'attivazione dell'inflammasoma. In cardiologia e' l'adiuvante di prima linea nella pericardite e il farmaco piu' studiato per il rischio infiammatorio residuo.",
+    "mainUses": [
+      "Attacco acuto di artrite gottosa e profilassi delle recidive (indicazioni autorizzate)",
+      "Pericardite acuta e recidivante, in associazione a FANS/aspirina (indicazione da linee guida)",
+      "Prevenzione secondaria nel rischio infiammatorio residuo della coronaropatia (indicazione da linee guida)"
+    ],
+    "mainRisks": [
+      "Indice terapeutico stretto: tossicita' grave, anche fatale, con inibitori del CYP3A4 e della glicoproteina-P",
+      "Diarrea e disturbi gastrointestinali (limite d'uso piu' frequente)",
+      "Mielosoppressione e rabdomiolisi (specie in associazione a statine o nell'insufficienza renale)"
+    ],
+    "essentialMonitoring": [
+      "Funzione renale ed epatica prima e durante il trattamento",
+      "Emocromo in caso di trattamento prolungato",
+      "Sintomi muscolari (dolore/debolezza) se associata a statine"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Attacco acuto di artrite gottosa",
+      "Trattamento profilattico dell'artrite gottosa ricorrente"
+    ],
+    "guidelineIndications": [
+      "Pericardite acuta e recidivante: adiuvante di PRIMA LINEA da associare sempre ad aspirina/FANS per ridurre le recidive - ESC 2025. Schema di riferimento: 0,5 mg al giorno se peso <70 kg oppure 0,5 mg due volte al giorno se >=70 kg, per 3 mesi (6 mesi dopo una recidiva), sospendendo gradualmente e per ultima rispetto agli altri farmaci",
+      "Profilassi della sindrome post-pericardiotomica prima della cardiochirurgia - ESC 2025",
+      "Prevenzione secondaria nella coronaropatia con rischio infiammatorio residuo, 0,5 mg al giorno - ESC 2024 sindromi coronariche croniche (NB: evidenza discordante, studio CLEAR SYNERGY neutro; vedere la scheda Rischio infiammatorio residuo)"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Grave insufficienza cardiaca",
+      "Grave insufficienza renale",
+      "Grave insufficienza gastrointestinale",
+      "Danno renale o epatico in pazienti che assumono inibitori della glicoproteina-P o del CYP3A4 (associazione controindicata)",
+      "Gravidanza e allattamento"
+    ],
+    "warnings": [
+      "INDICE TERAPEUTICO STRETTO: la somministrazione contemporanea di inibitori del CYP3A4 o della glicoproteina-P aumenta le concentrazioni plasmatiche e la tossicita' della colchicina. Sono stati riportati casi post-marketing di tossicita' da colchicina, alcuni con esito fatale, con l'uso concomitante di claritromicina, specialmente negli anziani e nei pazienti con insufficienza renale",
+      "I macrolidi (claritromicina, eritromicina) NON devono essere usati nei pazienti con insufficienza renale o epatica che assumono colchicina; nei pazienti con funzione renale ed epatica normale, se e' necessario un inibitore della P-gp o un forte inibitore del CYP3A4, va ridotta la dose di colchicina o interrotto il trattamento",
+      "Molti farmaci cardiologici sono inibitori della glicoproteina-P e aumentano le concentrazioni di colchicina: amiodarone, verapamil, chinidina, dronedarone, ticagrelor (oltre a ketoconazolo e claritromicina)",
+      "Rabdomiolisi riportata nei pazienti in co-trattamento con statine: istruire il paziente a riferire dolore o debolezza muscolare",
+      "La dose raccomandata varia in base alla funzione renale ed epatica; contiene lattosio e saccarosio (cautela nelle intolleranze ereditarie)"
+    ],
+    "adverseEffects": [
+      "Diarrea, nausea, vomito, dolore addominale (dose-dipendenti, causa frequente di sospensione)",
+      "Mielosoppressione (leucopenia, trombocitopenia, anemia) nel trattamento prolungato o nel sovradosaggio",
+      "Miopatia e rabdomiolisi (rischio aumentato con statine e nell'insufficienza renale)",
+      "Neuropatia periferica; alopecia (trattamenti prolungati)",
+      "Aumento delle transaminasi"
+    ],
+    "overdose": "A dosaggi elevati provoca diarrea profusa, emorragia gastrointestinale, eruzioni cutanee e danni renali ed epatici. Il margine tra dose terapeutica e dose tossica e' ristretto: il sovradosaggio (accidentale o volontario) e' potenzialmente fatale e richiede gestione in ambiente ospedaliero con supporto intensivo; non esiste un antidoto specifico disponibile.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Controindicata nell'insufficienza renale grave; ridurre la dose e sorvegliare nelle forme lievi-moderate. Controindicata l'associazione con inibitori di P-gp/CYP3A4 in presenza di danno renale.",
+      "hepatic": "Controindicata nell'insufficienza epatica grave; stessa avvertenza per l'associazione con inibitori di P-gp/CYP3A4.",
+      "elderly": "Maggior rischio di tossicita' (funzione renale spesso ridotta): usare la dose minima e sorvegliare.",
+      "pregnancy": "Controindicata.",
+      "breastfeeding": "Controindicata."
+    },
+    "alternativeDrugIds": [
+      "ibuprofen",
+      "aspirin",
+      "prednisone",
+      "anakinra"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' un antinfiammatorio molto antico, ricavato da una pianta. Non e' un cortisone e non e' un antidolorifico: spegne l'infiammazione bloccando i globuli bianchi. Il punto delicato e' che la dose giusta e la dose tossica sono vicine, e molti farmaci del cuore (amiodarone, verapamil, ticagrelor) ne aumentano i livelli.",
+    "clinicalExplanation": "Alcaloide che si lega alla tubulina impedendo la polimerizzazione dei microtubuli: inibisce chemiotassi, degranulazione e fagocitosi dei neutrofili e l'attivazione dell'inflammasoma NLRP3 con ridotta produzione di IL-1beta. In cardiologia e' l'adiuvante di prima linea nella pericardite (riduce le recidive) e il farmaco piu' studiato per il rischio infiammatorio residuo. Substrato di CYP3A4 e P-gp: le interazioni sono la principale fonte di tossicita' grave.",
+    "molecularExplanation": "Si lega alla tubulina formando un complesso che blocca l'allungamento del microtubulo; ne derivano il blocco della migrazione neutrofila e l'inibizione dell'assemblaggio dell'inflammasoma NLRP3.",
+    "pharmacodynamics": "Effetto antinfiammatorio non analgesico e non steroideo, con riduzione della risposta neutrofila e della produzione di IL-1beta; nessun effetto sull'uricemia.",
+    "molecularTarget": "Tubulina (inibizione della polimerizzazione dei microtubuli); a valle, inflammasoma NLRP3",
+    "agonismAntagonism": "Inibizione della polimerizzazione della tubulina",
+    "pharmacokinetics": {
+      "route": "Orale",
+      "halfLife": "Variabile, prolungata nell'insufficienza renale ed epatica; accumulo nei leucociti con effetto piu' lungo della permanenza plasmatica",
+      "note": "Substrato di CYP3A4 e della glicoproteina-P; ricircolo enteroepatico; eliminazione biliare e renale"
+    },
+    "bibliography": []
+  }
+}

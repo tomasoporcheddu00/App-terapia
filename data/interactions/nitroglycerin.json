@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "id": "nitroglycerin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Nitroglicerina (trinitrato di glicerile) - RCP (Codifa/Teva/Pharmamedix su base AIFA): nitrato organico, formulazioni sublinguale/transdermica/EV, tolleranza, controindicazione PDE5.",
+        "url": "https://www.codifa.it/farmaci/n/nitroglicerina-teva-nitroglicerina-nitrati",
+        "identifier": "Nitroglicerina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "nitroglycerin",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Inibitori della PDE5 (sildenafil, tadalafil, vardenafil)",
+      "effect": "Ipotensione grave, potenzialmente fatale",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "contraindicated",
+      "agent": "Stimolatori della guanilato ciclasi solubile (riociguat)",
+      "effect": "Ipotensione grave (effetto additivo sulla via NO-cGMP)",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Altri antipertensivi, calcioantagonisti, alcol",
+      "effect": "Potenziamento dell'effetto ipotensivo",
+      "management": "Monitorare la pressione; adeguare le dosi"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Eparina (nitroglicerina EV)",
+      "effect": "Possibile riduzione dell'effetto anticoagulante dell'eparina",
+      "management": "Monitorare l'aPTT quando si modifica l'infusione"
+    }
+  ]
+}

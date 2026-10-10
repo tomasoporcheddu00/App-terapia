@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "id": "mexiletine",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Mexiletina - RCP (Codifa/Torrinomedica/EMA Namuscla): classe Ib orale, aritmie ventricolari (Mexitil, uso storico); in Italia Namuscla per la miotonia, con controindicazioni cardiache.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/namuscla/",
+        "identifier": "Mexiletina RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Mexiletina - RCP EU (Commissione Europea, allegato IT), paragrafo 5.2: emivita di eliminazione media ~10-12 ore, escrezione prevalentemente renale; influenzata da CYP2D6/CYP1A2.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2020/20200713148656/anx_148656_it.pdf",
+        "identifier": "RCP - farmacocinetica",
+        "retrievedAt": "2026-07-25"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC) e da monografie di riferimento: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Antiaritmici a indice terapeutico stretto: verificare dosi e QT prima dell'uso. Come antiaritmico (Mexitil) in gran parte non piu' disponibile in Italia; presente come Namuscla (miotonia, RRL specialistica). Verificare disponibilita'/indicazione.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Mexiletina",
+    "inn": "mexiletina",
+    "brandExamplesIt": [
+      "Namuscla (miotonia)",
+      "Mexitil (uso storico)"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antiaritmico classe Ib (orale)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "aa-class-ib"
+  ],
+  "quickSummary": {
+    "whatItIs": "Analogo orale della lidocaina (classe Ib) per le aritmie ventricolari; in Italia oggi disponibile soprattutto come Namuscla per la miotonia non distrofica.",
+    "mainUses": [
+      "Aritmie ventricolari (uso storico come antiaritmico)",
+      "Miotonia non distrofica (Namuscla)"
+    ],
+    "mainRisks": [
+      "Disturbi neurologici (tremori, capogiri, atassia)",
+      "Disturbi gastrointestinali",
+      "Proaritmia cardiaca"
+    ],
+    "essentialMonitoring": [
+      "ECG",
+      "Elettroliti",
+      "Valutazione cardiologica (Namuscla)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Aritmie ventricolari (extrasistoli e tachicardie ventricolari, anche post-infartuali e da digitale) - indicazione dell'uso storico come antiaritmico",
+      "Trattamento sintomatico della miotonia nei disturbi miotonici non distrofici (formulazione Namuscla)"
+    ],
+    "guidelineIndications": [
+      "Puo' essere associata ai betabloccanti nelle tachiaritmie ventricolari; profilo simile alla lidocaina per via orale - confermare su fonte"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Blocco cardiaco completo o suscettibile di evolvere in blocco completo (blocco AV di 1o grado con PR >=240 ms e/o QRS >=120 ms, 2o grado, blocco di branca/bi-trifascicolare)",
+      "Infarto miocardico (acuto o pregresso) o onde Q anomale",
+      "Coronaropatia sintomatica",
+      "Scompenso cardiaco con frazione di eiezione ridotta (<40%) o intermedia (40-49%)",
+      "Tachicardia, fibrillazione o flutter atriale",
+      "Disfunzione del nodo del seno (frequenza <50 bpm)",
+      "Uso concomitante di farmaci che inducono torsione di punta",
+      "Shock cardiogeno"
+    ],
+    "warnings": [
+      "Richiede valutazione cardiologica e monitoraggio ECG; correggere gli squilibri elettrolitici prima dell'inizio",
+      "Effetti neurologici: tremori, capogiri, confusione, atassia, diplopia",
+      "Associazione con altri antiaritmici (betabloccanti, verapamil, diltiazem) non raccomandata salvo casi eccezionali",
+      "Sospensione graduale (1-2 settimane)"
+    ],
+    "adverseEffects": [
+      "Nausea, vomito, disturbi gastrici",
+      "Tremori, capogiri, sonnolenza, atassia, parestesie",
+      "Bradicardia, ipotensione",
+      "Proaritmia"
+    ],
+    "overdose": "Il sovradosaggio causa convulsioni, bradicardia e ipotensione; benzodiazepine per le convulsioni, atropina per bradicardia/ipotensione, supporto.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Cautela.",
+      "hepatic": "Ridurre la dose (metabolismo epatico); rischio nell'insufficienza epatica.",
+      "elderly": "Cautela.",
+      "pregnancy": "Solo se necessario.",
+      "breastfeeding": "Passa nel latte; valutare."
+    },
+    "alternativeDrugIds": [
+      "lidocaine",
+      "amiodarone",
+      "flecainide"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "La 'versione in compresse' della lidocaina per le aritmie ventricolari; oggi in Italia si trova soprattutto come farmaco per la miotonia.",
+    "clinicalExplanation": "Antiaritmico di classe Ib orale (analogo della lidocaina): riduce la velocita' di depolarizzazione (fase 0) e la conduzione. Come antiaritmico (Mexitil) e' oggi poco disponibile in Italia; presente come Namuscla per la miotonia (RRL specialistica) con ampie controindicazioni cardiache.",
+    "molecularExplanation": "Blocca i canali del sodio voltaggio-dipendenti (tessuto ventricolare), analogamente alla lidocaina.",
+    "pharmacodynamics": "Riduzione dell'automatismo e della conduzione ventricolare senza effetti rilevanti sul nodo AV.",
+    "molecularTarget": "Canali del sodio cardiaci",
+    "agonismAntagonism": "Blocco dei canali del sodio",
+    "pharmacokinetics": {
+      "route": "Orale",
+      "metabolism": "Epatico",
+      "elimination": "Renale",
+      "halfLife": "~10-12 ore (media), prolungata nell'insufficienza epatica, nella ridotta gittata cardiaca e nei metabolizzatori lenti; ridotta dagli induttori (fenitoina, fumo)"
+    },
+    "bibliography": []
+  }
+}

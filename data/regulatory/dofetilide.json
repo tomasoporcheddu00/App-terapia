@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "dofetilide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Dofetilide (Tikosyn): non commercializzato in Europa/Italia; dati da label statunitense.",
+        "url": "https://www.ccjm.org/content/ccjom/68/4/353.full.pdf",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Non disponibile in Europa/Italia (solo USA). Scheda a fini di completezza tassonomica."
+  },
+  "drugId": "dofetilide",
+  "authorisation": "Nazionale (AIFA)",
+  "marketed": false,
+  "reimbursementClass": "Non in commercio (IT/UE)",
+  "supplyRegime": "Non disponibile in Italia",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Non disponibile",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

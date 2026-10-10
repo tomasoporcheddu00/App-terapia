@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "id": "macitentan",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Macitentan (Opsumit) - RCP EMA/AIFA: antagonista duale, PAH classe II-III, mono/combinazione (SERAPHIN); epatotossicita', anemia, teratogenicita'; controllo mensile delle transaminasi.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/EPAR/opsumit",
+        "identifier": "Opsumit RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Macitentan (Opsumit) - monografie di farmacocinetica: emivita ~16 ore, metabolita attivo ACT-132577 ~40-66 ore.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4815360/table/T1",
+        "identifier": "Monografia - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Farmaci specialistici per l'ipertensione polmonare: prescrizione da centri esperti (piano terapeutico/registro AIFA).",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Macitentan",
+    "inn": "macitentan",
+    "brandExamplesIt": [
+      "Opsumit"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antagonista duale del recettore dell'endotelina (ETA/ETB)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "era"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antagonista duale dei recettori dell'endotelina a monosomministrazione, con occupazione recettoriale prolungata; usato a lungo termine nella PAH.",
+    "mainUses": [
+      "Trattamento a lungo termine della PAH classe II-III, mono o in combinazione"
+    ],
+    "mainRisks": [
+      "Anemia (talora trasfusione)",
+      "Epatotossicita'",
+      "Teratogenicita'"
+    ],
+    "essentialMonitoring": [
+      "Emoglobina (prima e durante)",
+      "Transaminasi (prima e mensilmente)",
+      "Test di gravidanza"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento a lungo termine dell'ipertensione arteriosa polmonare (PAH) in adulti (e pediatrici >=40 kg) in classe funzionale OMS II e III, in monoterapia o in associazione; efficacia nella PAH idiopatica/ereditaria, associata a malattia del tessuto connettivo o a cardiopatie congenite semplici corrette (studio SERAPHIN, morbilita'/mortalita')"
+    ],
+    "guidelineIndications": [
+      "ERA con dati di outcome a lungo termine (SERAPHIN); monosomministrazione, mono o in combinazione - confermare su ESC/ERS"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' (o alla soia)",
+      "Gravidanza",
+      "Donne in eta' fertile che non usano un metodo contraccettivo affidabile",
+      "Allattamento",
+      "Compromissione epatica severa o transaminasi basali >3x il limite superiore della norma"
+    ],
+    "warnings": [
+      "Epatotossicita': misurare le transaminasi prima del trattamento e controllarle mensilmente; sospendere se la bilirubina supera 2x il limite superiore della norma o compaiono sintomi",
+      "Anemia/riduzione dell'emoglobina: controllare prima e durante; non iniziare in anemia grave (talora trasfusione)",
+      "Teratogeno: controindicato in gravidanza; programma di prevenzione della gravidanza con contraccezione affidabile nelle donne in eta' fertile.",
+      "Ritenzione idrica/edema; in caso di edema polmonare considerare una malattia veno-occlusiva polmonare",
+      "Non raccomandato nella compromissione epatica moderata"
+    ],
+    "adverseEffects": [
+      "Anemia",
+      "Rinofaringite, bronchite",
+      "Cefalea",
+      "Edema/ritenzione idrica",
+      "Ipotensione"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione e cefalea; supporto e monitoraggio.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico.",
+      "hepatic": "Controindicato nella grave; non raccomandato nella moderata.",
+      "elderly": "Utilizzabile.",
+      "pregnancy": "Controindicato (teratogeno).",
+      "breastfeeding": "Controindicato."
+    },
+    "alternativeDrugIds": [
+      "bosentan",
+      "ambrisentan",
+      "sildenafil"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Simile al bosentan (blocca due recettori dell'endotelina), ma basta una compressa al giorno ed ha dati a lungo termine; da sorvegliare emoglobina e fegato, vietato in gravidanza.",
+    "clinicalExplanation": "Antagonista duale dei recettori dell'endotelina con elevata affinita' e occupazione recettoriale protratta. Unico ERA con endpoint di morbilita'/mortalita' (SERAPHIN). Monitoraggio di transaminasi ed emoglobina; teratogeno.",
+    "molecularExplanation": "Antagonizza i recettori dell'endotelina-1 ETA ed ETB con occupazione recettoriale prolungata.",
+    "pharmacodynamics": "Vasodilatazione polmonare e riduzione della proliferazione vascolare; beneficio su morbilita'/mortalita'.",
+    "molecularTarget": "Recettori dell'endotelina ETA ed ETB",
+    "agonismAntagonism": "Antagonismo recettoriale duale",
+    "pharmacokinetics": {
+      "route": "Orale (monosomministrazione)",
+      "metabolism": "Epatico (CYP3A4); metabolita attivo",
+      "halfLife": "~16 ore; il metabolita attivo ACT-132577 ha emivita molto piu' lunga (~40-66 ore) ed e' responsabile di gran parte dell'effetto, consentendo la monosomministrazione. Lenta dissociazione dal recettore ETA (antagonismo insormontabile)"
+    },
+    "bibliography": []
+  }
+}

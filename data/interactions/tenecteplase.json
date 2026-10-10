@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "tenecteplase",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Tenecteplase (Metalyse) - RCP EMA/AIFA (Mediately/Codifa): TNK-tPA, bolo unico EV peso-dipendente (max 10.000 U / 50 mg) nell'IMA con sopra-ST entro 6h.",
+        "url": "https://mediately.co/it/drugs/IcvguA9fJUrekeWHhqKNCYLyREG/metalyse-10000-u-polvere-e-solvente-per-soluzione-iniettabile",
+        "identifier": "Metalyse RCP",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "tenecteplase",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Anticoagulanti (eparina, AVK, DOAC)",
+      "effect": "Aumento del rischio emorragico",
+      "management": "Associazione secondo protocollo; monitorare"
+    },
+    {
+      "severity": "major",
+      "agent": "Antiaggreganti (ASA, P2Y12, GPIIb/IIIa)",
+      "effect": "Aumento del rischio emorragico",
+      "management": "Monitorare; secondo linee guida"
+    }
+  ]
+}

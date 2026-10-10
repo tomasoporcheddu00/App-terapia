@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "id": "acenocoumarol__thromboembolism__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Sintrom (acenocumarolo), sez. 4.2. Posologia individualizzata guidata da PT/INR.",
+        "url": "https://www.codifa.it/farmaci/s/sintrom-acenocumarolo-anticoagulanti-orali-indiretti",
+        "identifier": "Sintrom",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "La dose e' strettamente individualizzata e guidata dall'INR; la RCP non fornisce una dose fissa. Dose iniziale, di mantenimento e target INR per singola indicazione da confermare su RCP + linee guida.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "acenocoumarol",
+  "indication": "thromboembolism",
+  "scenario": "Trattamento e prevenzione delle affezioni tromboemboliche",
+  "route": "oral",
+  "formulation": null,
+  "population": "adult-standard",
+  "dose": {
+    "loading": null,
+    "initial": "Individualizzata; nell'anziano dosi iniziali inferiori (valore numerico da confermare su RCP)",
+    "interval": "Una volta al giorno, alla stessa ora",
+    "maintenance": "Titolata sull'INR",
+    "target": "INR individualizzato per indicazione; nella FA 2,0-3,0 (ESC 2024)",
+    "max": null,
+    "titration": "Aggiustamento in base a PT/INR periodico",
+    "duration": null,
+    "weightBased": null,
+    "cumulative": null,
+    "renalAdjustment": "Controindicato in compromissione renale grave.",
+    "hepaticAdjustment": "Controindicato in compromissione epatica grave; cautela nella lieve-moderata.",
+    "elderly": "Dosi iniziali e di mantenimento inferiori; monitoraggio piu' frequente.",
+    "pregnancy": "Controindicato.",
+    "dialysis": null
+  },
+  "administration": {
+    "preparation": null,
+    "solvent": null,
+    "concentration": null,
+    "rate": null,
+    "access": null,
+    "notes": "Assumere l'intera dose giornaliera alla stessa ora, deglutendo la compressa con acqua."
+  },
+  "monitoring": [
+    "PT/INR periodico con adattamento della dose",
+    "Segni di sanguinamento"
+  ],
+  "stoppingCriteria": [
+    "Emorragia",
+    "Chirurgia (gestione secondo rischio e linee guida)"
+  ],
+  "approvalEvidence": {
+    "primarySourceVerified": false,
+    "smpcVerified": true,
+    "clinicalReviewDone": true,
+    "verificationDate": "2026-07-18",
+    "reviewer": "Curatore clinico"
+  }
+}

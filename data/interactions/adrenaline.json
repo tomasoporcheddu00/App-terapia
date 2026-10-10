@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "adrenaline",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Adrenalina/epinefrina - RCP (Codifa/Mediately/Torrinomedica su base AIFA): alfa+beta-agonista; arresto cardiaco (1 mg EV), anafilassi (0,5 mg IM), shock; EV solo da esperti.",
+        "url": "https://mediately.co/it/drugs/7iqOAuVhUkF2xmQFr1U8BY8vvTi/adrenalina-aguettant-1-mg-10-ml-1-10-000-soluzione-iniettabile",
+        "identifier": "Adrenalina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "adrenaline",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Betabloccanti non selettivi",
+      "effect": "Ipertensione grave e bradicardia riflessa (attivita' alfa non contrastata)",
+      "management": "Cautela; monitorare"
+    },
+    {
+      "severity": "major",
+      "agent": "IMAO / antidepressivi triciclici",
+      "effect": "Potenziamento dell'effetto pressorio",
+      "management": "Cautela; ridurre la dose"
+    },
+    {
+      "severity": "major",
+      "agent": "Anestetici alogenati / glicosidi digitalici",
+      "effect": "Aritmie",
+      "management": "Cautela; monitorare l'ECG"
+    }
+  ]
+}

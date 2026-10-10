@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "propofol",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Banca Dati AIFA - propofol (Diprivan): anestetico generale, uso ospedaliero riservato agli anestesisti.",
+        "url": "https://www.codifa.it/farmaci/d/diprivan-emulsione-propofol-anestetici-generali",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Prescrivibilita' da portale su base Banca Dati AIFA/EMA; confermare sul prontuario aggiornato."
+  },
+  "drugId": "propofol",
+  "authorisation": "EMA/Nazionale",
+  "marketed": true,
+  "reimbursementClass": "C",
+  "supplyRegime": "OSP - uso ospedaliero (specialista anestesista)",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Ospedaliera",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

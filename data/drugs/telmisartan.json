@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "id": "telmisartan",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Telmisartan - RCP (rese da Mediately/Torrinomedica/Codifa su base AIFA): indicazioni, posologia §4.2, prevenzione CV (ONTARGET/TRANSCEND).",
+        "url": "https://mediately.co/it/drugs/8GLLnhQ6sJi3fQvjUfzaxryxNdl/telmisartan-doc-generici-40-mg-compresse",
+        "identifier": "Telmisartan RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "Sartani (antagonisti del recettore AT1 dell'angiotensina II): meccanismo, controindicazioni, avvertenze e interazioni di classe; sintesi da RCP/portali AIFA (Codifa, Mediately, Torrinomedica).",
+        "url": "https://www.santagostino.it/magazine/losartan/",
+        "identifier": "Sartani classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Controindicazioni/avvertenze/interazioni in gran parte comuni alla classe dei sartani. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Telmisartan",
+    "inn": "telmisartan",
+    "brandExamplesIt": [
+      "Micardis",
+      "Pritor"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antagonista del recettore AT1 (sartano), lunga durata",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "arb"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antagonista AT1 a lunga durata d'azione, per ipertensione e prevenzione cardiovascolare.",
+    "mainUses": [
+      "Ipertensione arteriosa",
+      "Prevenzione cardiovascolare in pazienti ad alto rischio"
+    ],
+    "mainRisks": [
+      "Iperkaliemia",
+      "Ipotensione",
+      "Peggioramento della funzione renale"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa",
+      "Potassio sierico",
+      "Funzione renale"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipertensione arteriosa essenziale negli adulti",
+      "Prevenzione cardiovascolare: riduzione della morbilita' cardiovascolare in adulti con malattia aterotrombotica manifesta (coronaropatia, ictus o arteriopatia periferica) o diabete di tipo 2 con danno d'organo documentato"
+    ],
+    "guidelineIndications": [
+      "Riduzione degli eventi cardiovascolari in pazienti ad alto rischio (ONTARGET/TRANSCEND) - confermare su fonte primaria"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alla molecola o agli eccipienti",
+      "Secondo e terzo trimestre di gravidanza",
+      "Uso concomitante con aliskiren in diabete mellito o compromissione renale (GFR <60 mL/min/1,73 m2)",
+      "Disturbi ostruttivi delle vie biliari; grave insufficienza epatica"
+    ],
+    "warnings": [
+      "Ipotensione sintomatica nei pazienti con deplezione di volume/sale (correggere prima o iniziare a dose ridotta)",
+      "Iperkaliemia: rischio aumentato in insufficienza renale, diabete, uso di sali/integratori di potassio o diuretici risparmiatori di potassio; monitorare il potassio",
+      "Monitorare la funzione renale; rischio in stenosi bilaterale dell'arteria renale",
+      "Duplice blocco del sistema renina-angiotensina-aldosterone (ACE-inibitore + sartano o aliskiren) non raccomandato",
+      "Gravidanza: sospendere e non iniziare in gravidanza",
+      "Rispetto agli ACE-inibitori, minore incidenza di tosse secca e (raramente) angioedema",
+      "Minore incidenza di tosse secca rispetto agli ACE-inibitori"
+    ],
+    "adverseEffects": [
+      "Ipotensione, capogiro",
+      "Iperkaliemia",
+      "Aumento della creatinina/riduzione della funzione renale",
+      "Cefalea",
+      "Angioedema (raro)"
+    ],
+    "overdose": null,
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento sistematico; esperienza limitata nell'insufficienza renale grave/dialisi; monitorare potassio e funzione renale.",
+      "hepatic": "Controindicato nei disturbi ostruttivi biliari e nell'insufficienza epatica grave; nelle forme lievi-moderate non superare 40 mg.",
+      "elderly": "Nessun aggiustamento sistematico.",
+      "pregnancy": "Controindicato nel 2o-3o trimestre; evitare in gravidanza.",
+      "breastfeeding": "Sconsigliato."
+    },
+    "alternativeDrugIds": [
+      "losartan",
+      "valsartan",
+      "irbesartan"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Abbassa la pressione per l'intera giornata e riduce il rischio cardiovascolare; una compressa al giorno.",
+    "clinicalExplanation": "Bloccante AT1 a lunga emivita; nella prevenzione CV (ONTARGET) e' un'alternativa al ramipril in pazienti ad alto rischio, con minore tosse.",
+    "molecularExplanation": "Antagonista selettivo AT1, non profarmaco, con lunga durata d'azione.",
+    "pharmacodynamics": "Blocco selettivo del recettore AT1: riduzione della vasocostrizione e della secrezione di aldosterone senza accumulo di bradichinina, da cui minore tosse/angioedema rispetto agli ACE-inibitori; aumento di renina e angiotensina II circolanti.",
+    "molecularTarget": "Recettore AT1 dell'angiotensina II",
+    "agonismAntagonism": "Antagonista recettoriale (blocco AT1)",
+    "pharmacokinetics": {
+      "metabolism": "Scarsamente metabolizzato (coniugazione glucuronica)",
+      "elimination": "Prevalentemente biliare/fecale",
+      "halfLife": "Lunga (circa 24 ore)"
+    },
+    "bibliography": [
+      "ONTARGET (telmisartan vs ramipril) - da citare con fonte primaria",
+      "TRANSCEND (telmisartan negli intolleranti agli ACE-inibitori) - da citare con fonte primaria"
+    ]
+  }
+}

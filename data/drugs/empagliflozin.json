@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "id": "empagliflozin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Empagliflozin (Jardiance) - RCP/EPAR (EMA, Codifa, Mediately): indicazioni HF/CKD/T2D, dose, chetoacidosi.",
+        "url": "https://www.codifa.it/farmaci/j/jardiance-empagliflozin-ipoglicemizzanti-orali",
+        "identifier": "Empagliflozin RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA / EPAR EMA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Empagliflozin",
+    "inn": "empagliflozin",
+    "brandExamplesIt": [
+      "Jardiance"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Inibitore del cotrasportatore sodio-glucosio di tipo 2 (SGLT2)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "sglt2i"
+  ],
+  "quickSummary": {
+    "whatItIs": "SGLT2-inibitore con benefici nello scompenso (a FE ridotta e preservata), nella malattia renale e nel diabete tipo 2.",
+    "mainUses": [
+      "Scompenso cardiaco cronico sintomatico",
+      "Malattia renale cronica",
+      "Diabete mellito di tipo 2"
+    ],
+    "mainRisks": [
+      "Chetoacidosi (anche euglicemica)",
+      "Infezioni genitali/urinarie",
+      "Deplezione di volume"
+    ],
+    "essentialMonitoring": [
+      "Funzione renale (eGFR)",
+      "Volemia/pressione",
+      "Chetoni se sintomi sospetti"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Scompenso cardiaco cronico sintomatico",
+      "Malattia renale cronica",
+      "Diabete mellito di tipo 2 (in aggiunta a dieta ed esercizio)"
+    ],
+    "guidelineIndications": [
+      "Riduzione di mortalita' cardiovascolare/ospedalizzazioni nello scompenso (EMPEROR-Reduced e EMPEROR-Preserved) e della progressione renale (EMPA-KIDNEY); caposaldo HFrEF (confermare su ESC)"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Non usare nel diabete mellito di tipo 1 (rischio di chetoacidosi)"
+    ],
+    "warnings": [
+      "Chetoacidosi diabetica anche euglicemica (glicemia poco elevata): informare il paziente; misurare i chetoni (preferibilmente ematici) in caso di sintomi; sospendere in situazioni a rischio (digiuno, chirurgia, malattia acuta)",
+      "Infezioni genitali micotiche e delle vie urinarie; raro rischio di gangrena di Fournier (fascite necrotizzante del perineo)",
+      "Deplezione di volume/ipotensione: cautela con diuretici o nell'anziano; correggere l'ipovolemia",
+      "Efficacia ipoglicemizzante ridotta se eGFR <45; non iniziare per il controllo glicemico con eGFR molto basso",
+      "Rischio di ipoglicemia se associati a insulina o secretagoghi: considerarne la riduzione"
+    ],
+    "adverseEffects": [
+      "Infezioni genitali (candidosi)",
+      "Infezioni delle vie urinarie",
+      "Deplezione di volume/ipotensione",
+      "Aumento dell'ematocrito",
+      "Chetoacidosi (rara)"
+    ],
+    "overdose": "Non e' noto un quadro specifico da sovradosaggio; trattamento di supporto.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Per lo scompenso/CKD si puo' proseguire a eGFR piu' bassi; efficacia glicemica ridotta con eGFR ridotto; per il solo controllo glicemico la dose puo' salire a 25 mg se eGFR >=60.",
+      "hepatic": "Cautela nell'insufficienza epatica grave.",
+      "elderly": "Attenzione alla deplezione di volume.",
+      "pregnancy": "Non raccomandato.",
+      "breastfeeding": "Non raccomandato."
+    },
+    "alternativeDrugIds": [
+      "dapagliflozin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Come il dapagliflozin: elimina zucchero e sale con le urine e protegge cuore e reni; utile nello scompenso a qualsiasi frazione d'eiezione.",
+    "clinicalExplanation": "SGLT2-inibitore; benefico nell'HFrEF e nell'HFpEF (programma EMPEROR) e nella malattia renale (EMPA-KIDNEY). Dose 10 mg (25 mg solo per il controllo glicemico se eGFR>=60).",
+    "molecularExplanation": "Inibisce il cotrasportatore SGLT2 nel tubulo prossimale.",
+    "pharmacodynamics": "Glicosuria e natriuresi con effetti emodinamici e metabolici favorevoli nello scompenso e nella malattia renale.",
+    "molecularTarget": "Cotrasportatore SGLT2 (tubulo prossimale renale)",
+    "agonismAntagonism": "Inibizione del trasportatore",
+    "pharmacokinetics": {
+      "elimination": "Metabolismo (glucuronidazione) ed escrezione renale/fecale",
+      "halfLife": "~12,4 ore",
+      "administration": "Indipendente dai pasti"
+    },
+    "bibliography": [
+      "EMPEROR-Reduced / EMPEROR-Preserved (empagliflozin nello scompenso) - da citare con fonte primaria",
+      "EMPA-KIDNEY (empagliflozin nella malattia renale) - da citare con fonte primaria"
+    ]
+  }
+}

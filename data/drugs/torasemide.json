@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "id": "torasemide",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Torasemide - RCP (Mediately/Codifa/Torrinomedica su base AIFA): indicazioni edema/scompenso/ipertensione, dose 5-20 mg, biodisponibilita' orale stabile.",
+        "url": "https://mediately.co/it/drugs/UC86xXxwwV0BlO0Quvn9RWVridT/torasemide-teva-italia-10-mg-compresse",
+        "identifier": "Torasemide RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Torasemide",
+    "inn": "torasemide",
+    "brandExamplesIt": [
+      "Diuresix",
+      "Diuretor"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Diuretico dell'ansa (sulfonamide)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "loop-diuretics"
+  ],
+  "quickSummary": {
+    "whatItIs": "Diuretico dell'ansa con biodisponibilita' orale piu' stabile e durata piu' lunga della furosemide, con minore perdita di potassio; usato in scompenso, edema e ipertensione.",
+    "mainUses": [
+      "Edema da scompenso cardiaco",
+      "Edemi di origine epatica, renale, polmonare",
+      "Ipertensione arteriosa"
+    ],
+    "mainRisks": [
+      "Ipopotassiemia (minore della furosemide)",
+      "Disidratazione/ipotensione"
+    ],
+    "essentialMonitoring": [
+      "Elettroliti",
+      "Funzione renale",
+      "Volemia/pressione"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Edema causato da insufficienza cardiaca congestizia",
+      "Edemi di origine epatica, renale o polmonare",
+      "Ipertensione arteriosa"
+    ],
+    "guidelineIndications": [
+      "Alternativa alla furosemide con assorbimento orale piu' prevedibile; utile nella resistenza ai diuretici legata al malassorbimento (equivalenza furosemide:torasemide ~2:1) - confermare su fonte"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo (e ai sulfamidici per torasemide/bumetanide)",
+      "Anuria o insufficienza renale non responsiva al diuretico",
+      "Coma o precoma epatico",
+      "Ipopotassiemia o iponatriemia gravi",
+      "Ipovolemia/disidratazione",
+      "Disturbi della minzione (es. ipertrofia prostatica) con ritenzione",
+      "Aritmie da disturbi della conduzione (blocco seno-atriale, blocco AV di 2o-3o grado)",
+      "Trattamento concomitante con aminoglicosidi o cefalosporine"
+    ],
+    "warnings": [
+      "Squilibri elettrolitici: ipopotassiemia, iponatriemia, ipomagnesiemia, alcalosi ipocloremica; monitorare gli elettroliti",
+      "Aumento dell'escrezione di calcio (ipocalcemia; utile invece nell'ipercalcemia)",
+      "Iperuricemia e gotta; aumento di glicemia e lipidi",
+      "Disidratazione e ipotensione, specie nell'anziano",
+      "Ototossicita' (di norma reversibile), favorita da somministrazione EV rapida, dosi elevate, insufficienza renale e associazione con aminoglicosidi",
+      "Assicurare il libero deflusso urinario (attenzione nell'ipertrofia prostatica)",
+      "Biodisponibilita' orale elevata e piu' costante (~80-90%); equivalenza orale/EV ~1:1"
+    ],
+    "adverseEffects": [
+      "Ipopotassiemia, iponatriemia, ipomagnesiemia",
+      "Disidratazione, ipotensione",
+      "Iperuricemia/gotta",
+      "Aumento di glicemia e lipidi",
+      "Ototossicita' (rara)",
+      "Aumento di creatinina/azotemia"
+    ],
+    "overdose": "Il sovradosaggio causa disidratazione e squilibri elettrolitici; reidratare e correggere.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Efficace anche nell'insufficienza renale (aumentare la dose per ottenere quantita' efficaci al sito d'azione).",
+      "hepatic": "Cautela (le concentrazioni plasmatiche possono aumentare).",
+      "elderly": "Nessuna raccomandazione specifica; monitorare gli elettroliti.",
+      "pregnancy": "Solo con indicazioni convincenti; monitorare elettroliti/ematocrito e crescita fetale.",
+      "breastfeeding": "Dati insufficienti; i diuretici dell'ansa possono ridurre la produzione di latte."
+    },
+    "alternativeDrugIds": [
+      "furosemide",
+      "bumetanide"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Come la furosemide ma piu' 'prevedibile' se preso per bocca e con effetto piu' lungo; toglie meno potassio.",
+    "clinicalExplanation": "Diuretico dell'ansa (sulfonamide) con biodisponibilita' orale elevata e costante e durata maggiore della furosemide; alcuni dati suggeriscono minore ipokaliemia.",
+    "molecularExplanation": "Inibisce il cotrasportatore Na-K-2Cl nella branca ascendente dell'ansa di Henle.",
+    "pharmacodynamics": "Riduzione dell'edema e miglioramento delle condizioni di lavoro del cuore (riduzione di precarico e postcarico) nello scompenso; effetto ceiling elevato tra 5 e 100 mg.",
+    "molecularTarget": "Cotrasportatore Na-K-2Cl (NKCC2)",
+    "agonismAntagonism": "Inibizione del cotrasportatore",
+    "pharmacokinetics": {
+      "bioavailability": "Orale ~80-90% (stabile)",
+      "elimination": "Epatica e renale",
+      "halfLife": "~3-4 ore",
+      "onset": "Diuresi entro 1 ora, picco 2-3 ore"
+    },
+    "bibliography": []
+  }
+}

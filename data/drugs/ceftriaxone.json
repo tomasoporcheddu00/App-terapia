@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "id": "ceftriaxone",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "SPILF-AEPEI - position statement sulla terapia antibiotica dell'endocardite secondo le linee guida ESC 2023 (strategie per streptococchi, enterococchi e stafilococchi; daptomicina, rifampicina, monitoraggi).",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2666991924001787",
+        "identifier": "SPILF-AEPEI 2024",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "SCOPO DELLA SCHEDA: in questo atlante cardiologico gli antibiotici sono trattati SOLO per il ruolo nell'endocardite infettiva; per ogni altro impiego fare riferimento all'RCP e alla consulenza infettivologica. Regimi sintetizzati dalle linee guida ESC 2023 sull'endocardite (tabelle 7-10) tramite fonti secondarie e dal position statement SPILF-AEPEI: DA CONFERMARE sul testo integrale delle linee guida e sul corrigendum 2025, che ha corretto le dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10. La scelta di molecola, dose e durata dipende da patogeno, MIC, tipo di valvola (nativa o protesica) e funzione renale, e va concordata con l'Endocarditis Team. Stato: revisione fonti (source-review). Ruolo nell'endocardite: la scelta e la durata dipendono da patogeno, MIC e tipo di valvola. Verificare sempre le tabelle ESC 2023 aggiornate al corrigendum e concordare con l'Endocarditis Team.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Ceftriaxone",
+    "inn": "ceftriaxone",
+    "brandExamplesIt": [
+      "Rocefin"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Cefalosporina di terza generazione",
+  "identity": {
+    "atcCodes": [
+      "J01DD04"
+    ],
+    "formulations": [
+      "Polvere per soluzione iniettabile"
+    ],
+    "potentialRoutes": [
+      "endovenosa"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "cephalosporins"
+  ],
+  "quickSummary": {
+    "whatItIs": "Cefalosporina di terza generazione a somministrazione monogiornaliera: e' il farmaco che ha reso possibile la terapia ambulatoriale dell'endocardite streptococcica ed e' il partner del doppio beta-lattamico nell'endocardite enterococcica.",
+    "mainUses": [
+      "Endocardite da streptococchi orali e del gruppo S. gallolyticus",
+      "Endocardite da Enterococcus faecalis in associazione ad amoxicillina o ampicillina",
+      "Terapia empirica iniziale dell'endocardite"
+    ],
+    "mainRisks": [
+      "Reazioni di ipersensibilita'",
+      "Pseudolitiasi biliare (fango biliare), reversibile",
+      "Incompatibilita' con le soluzioni contenenti calcio"
+    ],
+    "essentialMonitoring": [
+      "Funzione renale prima e durante il trattamento",
+      "Emocolture di controllo per documentare la sterilizzazione",
+      "Segni di reazione allergica"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Infezioni sostenute da microrganismi sensibili, secondo la scheda tecnica"
+    ],
+    "guidelineIndications": [
+      "Endocardite da streptococchi sensibili alla penicillina: ceftriaxone 2 g al giorno per via endovenosa per 4 settimane (valvola nativa), con o senza gentamicina per le prime 2 settimane; 6 settimane su valvola protesica - ESC 2023",
+      "Endocardite da Enterococcus faecalis sensibile all'amoxicillina: AMOXICILLINA + CEFTRIAXONE per 6 settimane, su valvola nativa o protesica, INDIPENDENTEMENTE dal livello di resistenza alla gentamicina - schema a doppio beta-lattamico che risparmia l'aminoglicoside (SPILF-AEPEI su ESC 2023)",
+      "Terapia empirica iniziale: ceftriaxone 2 g due volte al giorno in associazione a gentamicina e ampicillina, con rivalutazione entro 24-48 ore",
+      "La monosomministrazione giornaliera lo rende il farmaco cardine dei percorsi di terapia parenterale ambulatoriale (OPAT)"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alle cefalosporine; cautela in caso di reazione grave a penicilline",
+      "Neonati con iperbilirubinemia e somministrazione contemporanea di soluzioni contenenti calcio (vedere RCP)"
+    ],
+    "warnings": [
+      "INCOMPATIBILITA' CON IL CALCIO: non somministrare contemporaneamente soluzioni endovenose contenenti calcio nella stessa linea (rischio di precipitati); rispettare i tempi di separazione previsti dall'RCP",
+      "Pseudolitiasi biliare da precipitati di ceftriaxone-calcio: puo' dare dolore addominale ed e' reversibile alla sospensione",
+      "Reattivita' crociata con le penicilline: valutare il tipo di allergia",
+      "Colite da Clostridioides difficile",
+      "Test di Coombs diretto positivo e rare anemie emolitiche immunomediate"
+    ],
+    "adverseEffects": [
+      "Reazioni di ipersensibilita' e rash",
+      "Diarrea e colite da Clostridioides difficile",
+      "Pseudolitiasi biliare",
+      "Alterazioni dell'emocromo (eosinofilia, neutropenia)",
+      "Aumento delle transaminasi"
+    ],
+    "overdose": "Il sovradosaggio non e' rimosso efficacemente dalla dialisi; gestione di supporto e sorveglianza neurologica.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento nella maggior parte dei casi grazie alla doppia eliminazione biliare e renale; cautela nell'insufficienza renale ed epatica combinate.",
+      "hepatic": "Cautela se associata a insufficienza renale.",
+      "elderly": "Nessun aggiustamento sistematico.",
+      "pregnancy": "Utilizzabile secondo valutazione clinica.",
+      "breastfeeding": "Consultare l'RCP."
+    },
+    "alternativeDrugIds": [
+      "amoxicillin",
+      "penicillin-g",
+      "cefotaxime"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Si fa una volta al giorno: per questo permette di continuare la cura a casa o in day hospital. Nell'endocardite da enterococco si usa insieme all'amoxicillina per evitare la gentamicina.",
+    "clinicalExplanation": "Cefalosporina di terza generazione con emivita lunga e monosomministrazione giornaliera. Tre ruoli nell'endocardite: alternativa alla penicillina negli streptococchi sensibili (2 g/die per 4 settimane su valvola nativa); partner dell'amoxicillina nello schema a doppio beta-lattamico contro E. faecalis per 6 settimane, che evita l'aminoglicoside anche nei ceppi con resistenza di alto livello alla gentamicina; componente della terapia empirica iniziale. La monosomministrazione lo rende cardine dell'OPAT.",
+    "molecularExplanation": "Inibisce le proteine leganti la penicillina; la struttura di terza generazione conferisce stabilita' verso molte beta-lattamasi.",
+    "pharmacodynamics": "Battericida tempo-dipendente; l'emivita lunga consente la monosomministrazione.",
+    "molecularTarget": "Proteine leganti la penicillina (PBP)",
+    "agonismAntagonism": "Inibizione della sintesi o della funzione batterica",
+    "pharmacokinetics": {
+      "route": "Endovenosa",
+      "halfLife": "Circa 8 ore, da cui la somministrazione una volta al giorno",
+      "note": "Eliminazione biliare e renale; elevato legame proteico"
+    },
+    "bibliography": []
+  }
+}

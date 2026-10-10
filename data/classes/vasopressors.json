@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "id": "vasopressors",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Vasopressori (noradrenalina, adrenalina, vasopressina, dopamina, fenilefrina, angiotensina II): sintesi da RCP/EMA.",
+        "url": "https://mediately.co/it/drugs/56OYLLMOGOH9vAKkC3TYoJi3qpb/noradrenalina-tartrato-aguettant-0-5-mg-ml-soluzione-per-infusione",
+        "identifier": "Vasopressori classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe dei vasopressori sintetizzata da RCP/EMA; confermare su RCP ufficiali e linee guida (Surviving Sepsis, ESC)."
+  },
+  "name": "Vasopressori",
+  "atcGroup": "C01CA / altri (vasopressori)",
+  "memberDrugIds": [
+    "noradrenaline",
+    "adrenaline",
+    "vasopressin",
+    "dopamine",
+    "phenylephrine",
+    "angiotensin-ii"
+  ],
+  "mechanismSummary": "Vasocostrizione e aumento della pressione arteriosa con meccanismi diversi: agonismo alfa-adrenergico (noradrenalina, fenilefrina; adrenalina alfa+beta; dopamina dose-dipendente), agonismo dei recettori V1 della vasopressina (argipressina) o dei recettori AT1 dell'angiotensina (angiotensina II).",
+  "molecularTarget": "Recettori alfa/beta-adrenergici, dopaminergici, V1 della vasopressina, AT1 dell'angiotensina",
+  "pharmacodynamics": "Aumento delle resistenze vascolari e della pressione arteriosa media; alcuni agenti aggiungono effetti inotropi/cronotropi (adrenalina, dopamina).",
+  "classEffects": [
+    "Ripristino della pressione di perfusione negli stati di shock",
+    "Meccanismi complementari (adrenergico, vasopressina, angiotensina) per lo shock refrattario",
+    "Rischio comune di ischemia periferica/d'organo e (per alcuni) aritmie"
+  ],
+  "sharedContraindications": [
+    "Ipersensibilita'",
+    "Ipovolemia non corretta (non devono sostituire il riempimento)",
+    "Controindicazioni specifiche (feocromocitoma/tachiaritmie per la dopamina; IMAO e vasculopatia grave per la fenilefrina; shock non distributivo per l'angiotensina II)"
+  ],
+  "sharedAdverseEffects": [
+    "Ischemia periferica/d'organo e necrosi da stravaso",
+    "Aritmie",
+    "Ipertensione; bradicardia riflessa (fenilefrina)"
+  ],
+  "monitoring": [
+    "Pressione arteriosa (preferibilmente invasiva)",
+    "ECG",
+    "Perfusione periferica e diuresi",
+    "Sito di infusione"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "La noradrenalina e' il vasopressore di prima scelta nello shock settico. L'adrenalina e' il farmaco dell'arresto cardiaco e dell'anafilassi (e vasopressore di seconda linea). La dopamina (dose-dipendente) e' oggi meno usata (piu' aritmie). La fenilefrina (alfa1 puro) e' utile nell'ipotensione da anestesia (bradicardia riflessa). Vasopressina e angiotensina II agiscono con meccanismi non adrenergici e si aggiungono nello shock refrattario (l'angiotensina II con rischio tromboembolico). Quasi tutti richiedono via centrale e attenzione allo stravaso (antidoto fentolamina). Dettagli nelle singole schede."
+}

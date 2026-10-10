@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "id": "amiodarone",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Amiodarone (Cordarone) - RCP (Codifa/Pharmamedix/informazionisuifarmaci su base AIFA): classe III multi-effetto; tossicita' tiroidea/polmonare/epatica/corneale, QT; interazioni con QT-prolunganti, digossina, warfarin, statine.",
+        "url": "http://www.carloanibaldi.com/terapia/schede/CORDARONE.html",
+        "identifier": "Cordarone RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "amiodarone",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Farmaci che inducono torsione di punta (alcuni antiaritmici, macrolidi, fluorochinoloni, azoli, antipsicotici)",
+      "effect": "Prolungamento del QT e torsione di punta",
+      "management": "Associazione controindicata/da evitare"
+    },
+    {
+      "severity": "major",
+      "agent": "Digossina",
+      "effect": "Aumento marcato dei livelli di digossina",
+      "management": "Dimezzare la digossina e monitorare"
+    },
+    {
+      "severity": "major",
+      "agent": "Antagonisti della vitamina K (warfarin)",
+      "effect": "Potenziamento dell'effetto anticoagulante",
+      "management": "Ridurre il warfarin e monitorare l'INR"
+    },
+    {
+      "severity": "major",
+      "agent": "Betabloccanti e calcioantagonisti che riducono la frequenza (verapamil, diltiazem)",
+      "effect": "Bradicardia e blocco AV",
+      "management": "Associazione non raccomandata/monitorare"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Statine (simvastatina)",
+      "effect": "Aumento del rischio di miopatia",
+      "management": "Limitare la simvastatina (<=20 mg)"
+    }
+  ]
+}

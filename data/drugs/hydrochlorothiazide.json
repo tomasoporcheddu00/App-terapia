@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "id": "hydrochlorothiazide",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Idroclorotiazide - RCP (Mediately/Codifa/informazionisuifarmaci su base AIFA): indicazioni ipertensione/edema, dose 12,5-50 mg, controindicazioni sulfamidici e IR grave, segnale EMA tumori cutanei.",
+        "url": "https://mediately.co/it/drugs/aJaWW6OkepJ5jStkyBplergXAz1/idroclorotiazide-aurobindo-25-mg-compresse-divisibili",
+        "identifier": "Idroclorotiazide RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Idroclorotiazide",
+    "inn": "idroclorotiazide",
+    "brandExamplesIt": [
+      "Esidrex"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Diuretico tiazidico",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "thiazide-diuretics"
+  ],
+  "quickSummary": {
+    "whatItIs": "Diuretico tiazidico di riferimento, usato soprattutto nell'ipertensione (spesso in associazione) e negli edemi.",
+    "mainUses": [
+      "Ipertensione arteriosa",
+      "Edemi di origine cardiaca, renale o epatica"
+    ],
+    "mainRisks": [
+      "Ipopotassiemia",
+      "Iponatriemia",
+      "Iperuricemia, iperglicemia"
+    ],
+    "essentialMonitoring": [
+      "Elettroliti (potassio, sodio, calcio)",
+      "Funzione renale",
+      "Glicemia/uricemia"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipertensione arteriosa (in monoterapia o in associazione)",
+      "Edemi di origine cardiaca, renale o epatica"
+    ],
+    "guidelineIndications": [
+      "Ampiamente usato nell'ipertensione, spesso in associazione fissa; nell'ipertensione non complicata alcune evidenze favoriscono il clortalidone - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' ai sulfamidici o al principio attivo",
+      "Insufficienza renale grave (di norma GFR <30 mL/min: i tiazidici perdono efficacia)",
+      "Insufficienza epatica grave / encefalopatia epatica",
+      "Ipopotassiemia o iponatriemia refrattarie",
+      "Ipercalcemia",
+      "Iperuricemia sintomatica / gotta in atto",
+      "Malattia di Addison",
+      "Ipertensione gestazionale / gravidanza (di norma)"
+    ],
+    "warnings": [
+      "Ipopotassiemia (rischio maggiore con digossina e con farmaci che prolungano il QT); monitorare il potassio",
+      "Iponatriemia (anziani, cirrotici): monitorare il sodio",
+      "Ipercalcemia (i tiazidici riducono l'escrezione urinaria di calcio, a differenza dei diuretici dell'ansa)",
+      "Iperuricemia/gotta; possibile aumento di glicemia e lipidi (l'indapamide e' metabolicamente piu' neutra)",
+      "Fotosensibilita'; rara reazione idiosincrasica sulfamidica (miopia acuta, glaucoma acuto ad angolo chiuso)",
+      "Segnalato aumento del rischio di tumori cutanei non-melanoma (basocellulari/squamocellulari) con esposizione cumulativa elevata (avvertenza EMA): proteggersi dal sole e sorvegliare la cute"
+    ],
+    "adverseEffects": [
+      "Ipopotassiemia, iponatriemia",
+      "Ipercalcemia, ipomagnesiemia",
+      "Iperuricemia/gotta",
+      "Iperglicemia, dislipidemia",
+      "Ipotensione ortostatica",
+      "Fotosensibilita'",
+      "Disfunzione erettile"
+    ],
+    "overdose": "Il sovradosaggio causa disidratazione e squilibri elettrolitici; reidratare e correggere.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Perde efficacia con GFR <30 mL/min (controindicata nell'IR grave).",
+      "hepatic": "Cautela (rischio di encefalopatia da squilibrio elettrolitico); controindicata nella grave.",
+      "elderly": "Concentrazioni piu' alte e clearance ridotta: sorvegliare.",
+      "pregnancy": "Non usare nell'ipertensione gestazionale/pre-eclampsia; evitare in gravidanza salvo casi rari.",
+      "breastfeeding": "Non raccomandata (puo' ridurre la lattazione)."
+    },
+    "alternativeDrugIds": [
+      "chlorthalidone",
+      "indapamide"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un diuretico 'leggero' per la pressione: fa perdere sodio e acqua (e potassio), ma trattiene il calcio; da usare con attenzione al sole.",
+    "clinicalExplanation": "Tiazidico che inibisce il cotrasportatore Na-Cl nel tubulo distale. Cardine dell'ipertensione (spesso in associazione). Effetti metabolici (ipokaliemia, iperuricemia, iperglicemia) e segnale EMA di tumori cutanei non-melanoma.",
+    "molecularExplanation": "Blocca il cotrasportatore sodio-cloro (NCC) nel tubulo contorto distale.",
+    "pharmacodynamics": "Natriuresi moderata con ritenzione di calcio; effetto antipertensivo (in parte vasodilatatore a lungo termine).",
+    "molecularTarget": "Cotrasportatore Na-Cl (NCC) del tubulo distale",
+    "agonismAntagonism": "Inibizione del cotrasportatore",
+    "pharmacokinetics": {
+      "bioavailability": "~50-80%",
+      "elimination": "Renale (immodificata)",
+      "halfLife": "~6-15 ore",
+      "onset": "Diuresi 1-2 ore, durata 6-12 ore"
+    },
+    "bibliography": []
+  }
+}

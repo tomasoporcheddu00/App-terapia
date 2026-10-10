@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "id": "glucose",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Glucosio (soluzioni) - RCP (Codifa/Mediately su base AIFA); Standard italiani diabete 2014: ipoglicemia (glucosata ipertonica) e componente glucosio nell'iperkaliemia con insulina; ipertoniche via centrale.",
+        "url": "https://mediately.co/it/drugs/ZdVPB4STPioTgqqe2ORDH30nwwo/glucosio-monico-50-soluzione-per-infusione",
+        "identifier": "Glucosio RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Agenti d'urgenza: le dosi di emergenza vanno adattate ai protocolli locali. Nell'iperkaliemia sempre associato all'insulina; monitorare la glicemia per prevenire l'ipoglicemia tardiva.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Glucosio",
+    "inn": "glucosio",
+    "brandExamplesIt": [
+      "Glucosata (varie)"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Carboidrato / soluzione per infusione",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "electrolyte-metabolic-agents"
+  ],
+  "quickSummary": {
+    "whatItIs": "Soluzione di glucosio (destrosio) per correggere l'ipoglicemia e come apporto calorico; nell'iperkaliemia si associa all'insulina per spostare il potassio nelle cellule. Le concentrazioni >=10% sono ipertoniche.",
+    "mainUses": [
+      "Ipoglicemia (glucosata ipertonica EV)",
+      "Con insulina, per il trattamento dell'iperkaliemia (shift del potassio)",
+      "Apporto calorico/idrico e veicolo per farmaci"
+    ],
+    "mainRisks": [
+      "Iperglicemia (specie nel diabetico)",
+      "Sovraccarico di liquidi, iponatriemia da diluizione",
+      "Tromboflebite/necrosi da stravaso (ipertoniche)"
+    ],
+    "essentialMonitoring": [
+      "Glicemia",
+      "Elettroliti (K, fosfato, sodio)",
+      "Volemia/sito di infusione"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ripristino delle concentrazioni ematiche di glucosio nell'ipoglicemia",
+      "Apporto calorico e reintegro idrico; veicolo per la somministrazione di altri farmaci",
+      "Componente glucosio nel trattamento dell'iperkaliemia in associazione all'insulina (uso da linee guida)"
+    ],
+    "guidelineIndications": [
+      "Ipoglicemia grave EV: 15-25 g di glucosio in soluzione ipertonica (es. 50 mL di glucosata 33% o 50%) in 1-3 min; bambini 200-500 mg/kg - Standard italiani diabete",
+      "Iperkaliemia: 25 g di glucosio (50 mL di glucosata 50% o 75 mL di glucosata 33%) con 10 U di insulina rapida; NON dare glucosio se gia' iperglicemico"
+    ],
+    "absoluteContraindications": [
+      "Iperglicemia non controllata",
+      "Soluzioni ipertoniche controindicate in anuria, emorragia intracranica o intraspinale",
+      "Non miscelare con sangue intero (emolisi)"
+    ],
+    "warnings": [
+      "Le soluzioni ipertoniche (>=10%) vanno infuse a velocita' controllata in una vena grande/centrale: lo stravaso causa tromboflebite e necrosi; non per via sottocutanea/intramuscolare",
+      "Cautela nel diabete e nell'intolleranza al glucosio: monitorare glicemia e glicosuria, somministrare insulina se necessario",
+      "L'uso prolungato di soluzioni concentrate causa sovraccarico idrico e deficit di elettroliti (potassio, fosfato); le soluzioni ipotoniche dopo metabolizzazione possono dare iponatriemia",
+      "Cautela nello scompenso cardiaco congestizio, nell'insufficienza renale grave e negli stati edematosi"
+    ],
+    "adverseEffects": [
+      "Iperglicemia, glicosuria",
+      "Ipokaliemia e ipofosfatemia (shift)",
+      "Sovraccarico idrico/edema, iponatriemia",
+      "Tromboflebite/necrosi da stravaso"
+    ],
+    "overdose": "Il sovradosaggio causa iperglicemia, iperosmolarita', disidratazione e squilibri elettrolitici: ridurre/sospendere l'infusione, insulina e correzione idroelettrolitica.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Cautela nella grave (sovraccarico).",
+      "hepatic": "Cautela.",
+      "elderly": "Cautela.",
+      "pregnancy": "Utilizzabile.",
+      "breastfeeding": "Compatibile."
+    },
+    "alternativeDrugIds": []
+  },
+  "deep": {
+    "simpleExplanation": "Zucchero in vena: alza la glicemia quando e' troppo bassa e, insieme all'insulina, aiuta a far rientrare il potassio nelle cellule quando e' troppo alto. Le soluzioni concentrate vanno in vena grande.",
+    "clinicalExplanation": "Glucosio (destrosio). Ipoglicemia: glucosata ipertonica EV. Iperkaliemia: fornisce il glucosio associato all'insulina per lo shift intracellulare del potassio, prevenendo l'ipoglicemia. Le soluzioni concentrate (>=10%) sono ipertoniche (via centrale).",
+    "molecularExplanation": "Substrato energetico; con l'insulina promuove l'ingresso di glucosio (e di potassio) nelle cellule tramite l'attivazione della pompa Na/K-ATPasi.",
+    "pharmacodynamics": "Aumento della glicemia; con l'insulina, spostamento intracellulare del potassio.",
+    "molecularTarget": "Metabolismo del glucosio / (con insulina) Na-K-ATPasi",
+    "agonismAntagonism": "Substrato metabolico",
+    "pharmacokinetics": {
+      "route": "Endovenosa",
+      "note": "1 g glucosio ≈ 3,74 kcal; >=10% ipertonico",
+      "halfLife": "Non applicabile in senso farmacocinetico: substrato metabolico, rimosso per utilizzazione tissutale (insulino-mediata)"
+    },
+    "bibliography": []
+  }
+}

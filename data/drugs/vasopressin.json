@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "id": "vasopressin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Argipressina/vasopressina (Empressin) - RCP EMA/AIFA (Codifa/Mediately/Torrinomedica): vasocostrittore via recettori V1; ipotensione refrattaria alle catecolamine nello shock settico; infusione 0,01-0,03 U/min; uso ospedaliero.",
+        "url": "https://www.codifa.it/farmaci/e/empressin-argipressina-ormoni-antidiuretici",
+        "identifier": "Empressin RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC) e da monografie di terapia intensiva: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Agenti vasoattivi EV di terapia intensiva: dosi da titolare con monitoraggio emodinamico continuo. In Italia commercializzata come Empressin (argipressina), uso ospedaliero.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Vasopressina",
+    "inn": "vasopressina (argipressina)",
+    "brandExamplesIt": [
+      "Empressin"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Vasopressore (analogo della vasopressina, agonista dei recettori V1)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "vasopressors"
+  ],
+  "quickSummary": {
+    "whatItIs": "Ormone (arginina-vasopressina) che restringe i vasi tramite i recettori V1, con un meccanismo diverso dalle catecolamine; si aggiunge alla noradrenalina nello shock settico refrattario per ridurne la dose.",
+    "mainUses": [
+      "Ipotensione refrattaria alle catecolamine nello shock settico (adulti)"
+    ],
+    "mainRisks": [
+      "Ischemia mesenterica, digitale e miocardica",
+      "Aritmie",
+      "Iponatriemia"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa",
+      "ECG",
+      "Perfusione periferica/splancnica",
+      "Sodiemia"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento dell'ipotensione refrattaria alle catecolamine conseguente a shock settico in pazienti adulti (>18 anni)"
+    ],
+    "guidelineIndications": [
+      "Da aggiungere alla noradrenalina nello shock settico per raggiungere l'obiettivo di pressione e ridurre la dose di catecolamine; l'effetto pressorio e' conservato in ipossia e acidosi (VASST) - confermare su fonte"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Cautela/controindicazione relativa in presenza di malattia coronarica, mesenterica o vascolare periferica grave (rischio ischemico)"
+    ],
+    "warnings": [
+      "Effetti ischemici gravi: aritmie potenzialmente fatali, ischemia mesenterica, ischemia digitale, ischemia miocardica acuta",
+      "Somministrare alla dose piu' bassa efficace; monitorare perfusione e segni di ischemia",
+      "Non e' un vasopressore di prima linea: si usa in aggiunta alle catecolamine",
+      "Ritenzione idrica/iponatriemia (effetto V2); monitorare la sodiemia",
+      "Solo uso ospedaliero (terapia intensiva)"
+    ],
+    "adverseEffects": [
+      "Ischemia (mesenterica, digitale, miocardica)",
+      "Aritmie",
+      "Iponatriemia",
+      "Ischemia/necrosi cutanea"
+    ],
+    "overdose": "Il sovradosaggio causa ischemia e ipertensione; ridurre/interrompere l'infusione (emivita breve) e trattamento di supporto.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Cautela.",
+      "hepatic": "Cautela.",
+      "elderly": "Cautela (rischio ischemico).",
+      "pregnancy": "Solo se strettamente necessario.",
+      "breastfeeding": "Cautela."
+    },
+    "alternativeDrugIds": [
+      "noradrenaline",
+      "adrenaline",
+      "angiotensin-ii"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un ormone che stringe i vasi in modo diverso dall'adrenalina; si aggiunge alla noradrenalina quando la pressione resta bassa nonostante le catecolamine, nello shock settico.",
+    "clinicalExplanation": "Arginina-vasopressina: vasocostrizione mediata dai recettori V1a (via fosfatidil-inositolo, aumento del calcio citoplasmatico), efficace anche in ipossia e acidosi. Terapia aggiuntiva alla noradrenalina nello shock settico (dose fissa bassa, VASST).",
+    "molecularExplanation": "Attiva i recettori V1a della muscolatura liscia vascolare (vasocostrizione); i recettori V2 renali mediano la ritenzione idrica.",
+    "pharmacodynamics": "Vasocostrizione e aumento della pressione arteriosa media indipendente dai recettori adrenergici.",
+    "molecularTarget": "Recettori della vasopressina V1a (e V2)",
+    "agonismAntagonism": "Agonismo dei recettori V1/V2",
+    "pharmacokinetics": {
+      "route": "Infusione endovenosa continua",
+      "halfLife": "Breve",
+      "elimination": "Metabolica/renale"
+    },
+    "bibliography": []
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "id": "bosentan",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Bosentan (Tracleer) - RCP EMA/AIFA: antagonista duale ETA/ETB; PAH classe II-III e ulcere digitali nella sclerosi sistemica; epatotossicita', teratogenicita', anemia; controindicato con ciclosporina.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/EPAR/tracleer",
+        "identifier": "Tracleer RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "bosentan",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Ciclosporina A",
+      "effect": "Aumento marcato dei livelli di bosentan e riduzione di quelli di ciclosporina",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "major",
+      "agent": "Glibenclamide, fluconazolo, rifampicina",
+      "effect": "Interazioni epatiche/riduzione dell'efficacia",
+      "management": "Associazione non raccomandata"
+    },
+    {
+      "severity": "major",
+      "agent": "Contraccettivi ormonali",
+      "effect": "Riduzione dell'efficacia contraccettiva (induzione enzimatica)",
+      "management": "Usare un metodo contraccettivo aggiuntivo/alternativo"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Sildenafil",
+      "effect": "Riduzione del sildenafil e aumento del bosentan",
+      "management": "Monitorare la risposta"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Warfarin, statine (simvastatina)",
+      "effect": "Riduzione dei livelli (induzione del CYP)",
+      "management": "Monitorare/aggiustare"
+    }
+  ]
+}

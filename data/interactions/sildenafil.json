@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "id": "sildenafil",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Sildenafil (Revatio) - RCP EMA/AIFA: PDE5-inibitore per la PAH classe II-III; 20 mg tre volte al giorno; controindicato con nitrati, riociguat, inibitori potenti CYP3A4, NAION.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/EPAR/revatio",
+        "identifier": "Revatio RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "sildenafil",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Nitrati / donatori di ossido nitrico",
+      "effect": "Ipotensione grave potenzialmente fatale",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "contraindicated",
+      "agent": "Riociguat (stimolatore della sGC)",
+      "effect": "Ipotensione sintomatica",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "contraindicated",
+      "agent": "Inibitori potenti del CYP3A4 (ketoconazolo, itraconazolo, ritonavir)",
+      "effect": "Aumento marcato dei livelli di sildenafil",
+      "management": "Associazione controindicata (Revatio)"
+    },
+    {
+      "severity": "major",
+      "agent": "Alfa-bloccanti",
+      "effect": "Ipotensione posturale",
+      "management": "Stabilizzare il paziente prima; cautela"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Bosentan",
+      "effect": "Riduzione dei livelli di sildenafil e aumento di quelli di bosentan",
+      "management": "Monitorare la risposta"
+    }
+  ]
+}

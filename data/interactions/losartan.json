@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "id": "losartan",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Losartan potassico - RCP (rese da Mediately/Codifa/Pharmamedix su base AIFA): indicazioni, posologia §4.2, avvertenze §4.4.",
+        "url": "https://mediately.co/it/drugs/MyB3hspSIG8EMgcKM85pHCnFSnC/losartan-teva-100-mg-compresse-rivestite-divisibili",
+        "identifier": "Losartan RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni di classe dei sartani (§4.5), applicabili alla molecola; severita' secondo posizionamento RCP e rilevanza clinica. Rifampicina e fluconazolo possono alterare i livelli del metabolita attivo E-3174. Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "losartan",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Aliskiren (in diabete o IR con GFR <60)",
+      "effect": "Iperkaliemia, ipotensione, peggioramento della funzione renale (duplice blocco RAAS)",
+      "management": "Controindicato in questi pazienti"
+    },
+    {
+      "severity": "major",
+      "agent": "ACE-inibitori (duplice blocco RAAS)",
+      "effect": "Ipotensione, iperkaliemia, riduzione della funzione renale (inclusa IRA)",
+      "management": "Associazione non raccomandata; se indispensabile, solo sotto specialista con monitoraggio stretto"
+    },
+    {
+      "severity": "major",
+      "agent": "Diuretici risparmiatori di potassio, sali/integratori di potassio, eparina",
+      "effect": "Iperkaliemia",
+      "management": "Evitare o monitorare strettamente potassio e funzione renale"
+    },
+    {
+      "severity": "major",
+      "agent": "FANS e acido acetilsalicilico",
+      "effect": "Riduzione dell'effetto antipertensivo, nefrotossicita' additiva (rischio IRA), iperkaliemia",
+      "management": "Cautela; monitorare funzione renale e potassio, mantenere idratazione"
+    },
+    {
+      "severity": "major",
+      "agent": "Litio",
+      "effect": "Aumento della litiemia con rischio di tossicita'",
+      "management": "Associazione non raccomandata; se necessaria, monitorare la litiemia"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Diuretici (tiazidici, dell'ansa) e altri antipertensivi",
+      "effect": "Potenziamento dell'effetto ipotensivo",
+      "management": "Iniziare a dose bassa nei pazienti deplezionati; correggere l'ipovolemia"
+    }
+  ]
+}

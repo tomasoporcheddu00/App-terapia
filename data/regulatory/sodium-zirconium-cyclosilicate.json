@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "sodium-zirconium-cyclosilicate",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Banca Dati AIFA - sodio zirconio ciclosilicato (Lokelma): iperkaliemia, prescrizione specialistica RRL.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/EPAR/lokelma",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Prescrivibilita' da portale su base Banca Dati AIFA; confermare sul prontuario AIFA aggiornato."
+  },
+  "drugId": "sodium-zirconium-cyclosilicate",
+  "authorisation": "Nazionale (AIFA)",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RRL (ricetta ripetibile limitativa)",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Specialistica (centri/specialisti)",
+  "law648_1996": false,
+  "prescriberRestrictions": "Prescrizione limitativa (centri ospedalieri o specialisti)."
+}

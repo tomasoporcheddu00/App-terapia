@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "id": "vutrisiran",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Amvuttra (vutrisiran) - RCP/EPAR EMA: posologia 25 mg sottocute ogni 3 mesi, riduzione della vitamina A sierica e integrazione raccomandata.",
+        "url": "https://www.pharmastar.it/news/ema/amiloidosi-attr-con-cardiomiopatia-approvazione-europea-per-vutrisiran-47616",
+        "identifier": "Amvuttra RCP/EPAR",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "AIFA - estensione della rimborsabilita' di vutrisiran (Amvuttra) all'ATTR-CM; dati HELIOS-A e HELIOS-B.",
+        "url": "https://www.sismed-it.com/vutrisiran-attr-cm-rimborsabilita-aifa/",
+        "identifier": "AIFA/HELIOS",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "vutrisiran",
+  "items": [
+    {
+      "severity": "moderate",
+      "agent": "Integratori di vitamina A ad alte dosi",
+      "effect": "La supplementazione raccomandata non deve superare 2500-3000 UI al giorno: dosi superiori non sono indicate",
+      "management": "Attenersi alla dose raccomandata e valutare i sintomi oculari"
+    },
+    {
+      "severity": "minor",
+      "agent": "Tafamidis",
+      "effect": "Nello studio registrativo una quota rilevante di pazienti assumeva contemporaneamente un stabilizzatore della TTR, con profilo di soppressione coerente",
+      "management": "Associazione osservata negli studi; verificare i criteri prescrittivi e di rimborsabilita'"
+    },
+    {
+      "severity": "minor",
+      "agent": "Farmaci a metabolismo epatico",
+      "effect": "Non sono attese interazioni farmacocinetiche rilevanti (meccanismo a RNA interference)",
+      "management": "Nessuna precauzione specifica; consultare l'RCP"
+    }
+  ]
+}

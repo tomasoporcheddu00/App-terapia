@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "id": "acoramidis",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Beyonttra (acoramidis) - RCP EMA (registro comunitario EC, allegato IT): indicazione ATTR-CM, posologia 712 mg due volte al giorno, farmacocinetica.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2025/20250210165087/anx_165087_it.pdf",
+        "identifier": "Beyonttra RCP EMA",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Comunicato di approvazione della Commissione Europea (febbraio 2025) e risultati dello studio ATTRibute-CM.",
+        "url": "https://www.bayer.com/media/en-us/heart-drug-beyonttra-acoramidis-approved-in-eu-for-treatment-of-transthyretin-amyloidosis-in-adults-with-cardiomyopathy/",
+        "identifier": "EC/ATTRibute-CM",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Interazioni da RCP. Profilo di interazione da verificare sull'RCP integrale: farmaco di recente approvazione europea. Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "acoramidis",
+  "items": [
+    {
+      "severity": "moderate",
+      "agent": "Farmaci a stretto indice terapeutico e substrati di trasportatori",
+      "effect": "Le interazioni sono descritte nel paragrafo 4.5 dell'RCP; il farmaco e' di introduzione recente",
+      "management": "Consultare l'RCP aggiornato prima dell'associazione"
+    },
+    {
+      "severity": "minor",
+      "agent": "Cibo",
+      "effect": "L'assorbimento complessivo non e' influenzato dall'assunzione di cibo",
+      "management": "Somministrabile con o senza cibo"
+    }
+  ]
+}

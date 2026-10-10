@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "doxazosin__hypertension__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Doxazosina - RCP (Codifa/Torrinomedica/EC Europa su base AIFA): alfa-1 bloccante, ipertensione (non prima linea) e IPB; ipotensione da prima dose, iride a bandiera, interazione con PDE5-inibitori.",
+        "url": "https://www.codifa.it/farmaci/d/doxazosina-aurobindo-doxazosin-mesilato-alfabloccanti",
+        "identifier": "Doxazosina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Da confermare e approvare."
+  },
+  "drugId": "doxazosin",
+  "indication": "hypertension",
+  "scenario": "Ipertensione / iperplasia prostatica",
+  "route": "orale",
+  "dose": {
+    "initial": "1 mg una volta al giorno (alla sera) per ridurre l'ipotensione posturale",
+    "titration": "aumentare a 2 mg dopo 1-2 settimane, poi secondo risposta",
+    "maintenance": "1-8 mg (IPB) / fino a 16 mg (ipertensione) al giorno",
+    "max": "16 mg/die (ipertensione)"
+  },
+  "administration": {
+    "notes": "Iniziare basso, preferibilmente alla sera. Informare l'oculista in caso di chirurgia della cataratta."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

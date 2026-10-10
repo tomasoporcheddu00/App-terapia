@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "id": "fenofibrate",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Fenofibrato - RCP (Mediately/Univadis/Codifa su base AIFA): agonista PPAR-alfa, indicazioni ipertrigliceridemia/dislipidemia mista, dose 145 mg, controindicazioni epatiche/renali/colecisti, miopatia con statine; Nota 13.",
+        "url": "https://mediately.co/it/drugs/KWHSHGPxDdjqSum8mzAxuDRRYKd/fenofibrato-eg-145-mg-compresse",
+        "identifier": "Fenofibrato RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Fenofibrato - RCP (Torrinomedica/Mediately), paragrafo 5.2: emivita plasmatica dell'acido fenofibrico ~20 ore, eliminazione urinaria.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/fenofibrato_eg/",
+        "identifier": "RCP - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Fenofibrato",
+    "inn": "fenofibrato",
+    "brandExamplesIt": [
+      "Lipsin",
+      "Fulcrosupra",
+      "Fenofibrato (generici)"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Fibrato (agonista PPAR-alfa)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "fibrates"
+  ],
+  "quickSummary": {
+    "whatItIs": "Fibrato che agisce soprattutto sui trigliceridi (e sull'HDL); usato nell'ipertrigliceridemia grave o nella dislipidemia mista quando la statina non basta o non e' tollerata.",
+    "mainUses": [
+      "Ipertrigliceridemia grave",
+      "Iperlipidemia mista (in alternativa o in aggiunta alla statina)"
+    ],
+    "mainRisks": [
+      "Miopatia (aumentata in associazione a statine)",
+      "Aumento reversibile della creatinina",
+      "Calcolosi biliare"
+    ],
+    "essentialMonitoring": [
+      "Profilo lipidico",
+      "Transaminasi",
+      "Funzione renale",
+      "CK se sintomi muscolari"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento dell'ipertrigliceridemia grave con o senza bassi livelli di colesterolo HDL",
+      "Iperlipidemia mista quando una statina e' controindicata o non tollerata",
+      "Iperlipidemia mista nei pazienti ad alto rischio cardiovascolare, in aggiunta a una statina, quando i livelli di trigliceridi e di HDL non sono adeguatamente controllati"
+    ],
+    "guidelineIndications": [
+      "Agisce prevalentemente sui trigliceridi; nella dislipidemia mista ad alto rischio con trigliceridi elevati puo' essere aggiunto alla statina (con cautela per la miopatia) - confermare su ESC/EAS"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo (o fotoallergia/fototossicita' a fibrati o ketoprofene)",
+      "Insufficienza epatica grave",
+      "Insufficienza renale grave",
+      "Malattia della colecisti / colelitiasi",
+      "Pancreatite acuta o cronica (eccetto la pancreatite acuta da grave ipertrigliceridemia)",
+      "Gravidanza e allattamento"
+    ],
+    "warnings": [
+      "Rischio di miopatia/rabdomiolisi, aumentato in associazione a una statina e nei soggetti predisposti (eta' >70 anni, malattie muscolari, insufficienza renale, ipoalbuminemia, ipotiroidismo, alcol): l'associazione con statina va riservata a dislipidemia combinata grave ad alto rischio senza anamnesi muscolare",
+      "Aumento reversibile della creatinina sierica (monitorare la funzione renale)",
+      "Monitorare le transaminasi; rischio di calcolosi biliare",
+      "Con warfarin: potenziamento dell'effetto anticoagulante"
+    ],
+    "adverseEffects": [
+      "Disturbi gastrointestinali",
+      "Aumento delle transaminasi",
+      "Aumento reversibile della creatinina",
+      "Mialgie/miopatia",
+      "Calcolosi biliare",
+      "Reazioni cutanee/fotosensibilita'"
+    ],
+    "overdose": "In caso di sovradosaggio, trattamento sintomatico e di supporto (non dializzabile).",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Ridurre la dose nell'insufficienza renale; controindicato nella grave.",
+      "hepatic": "Controindicato nell'insufficienza epatica grave.",
+      "elderly": "Maggiore attenzione al rischio muscolare e renale.",
+      "pregnancy": "Controindicato.",
+      "breastfeeding": "Controindicato."
+    },
+    "alternativeDrugIds": [
+      "ezetimibe",
+      "icosapent-ethyl",
+      "atorvastatin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Abbassa soprattutto i trigliceridi; si usa quando questi sono molto alti o quando la statina da sola non basta o non e' tollerata.",
+    "clinicalExplanation": "Agonista del recettore PPAR-alfa: aumenta la lipolisi e la clearance delle lipoproteine ricche di trigliceridi e l'HDL. In add-on alla statina va usato con cautela per il rischio di miopatia (minore rispetto al gemfibrozil).",
+    "molecularExplanation": "Attiva il recettore nucleare PPAR-alfa, aumentando la lipoprotein-lipasi e l'ossidazione degli acidi grassi e riducendo l'apoC-III, con calo dei trigliceridi.",
+    "pharmacodynamics": "Riduzione dei trigliceridi (e in parte dell'LDL), aumento dell'HDL; effetto reversibile sulla creatinina.",
+    "molecularTarget": "Recettore nucleare PPAR-alfa",
+    "agonismAntagonism": "Agonismo",
+    "pharmacokinetics": {
+      "formulations": "145 mg (nanocristalli) equivalente a 160/200 mg delle formulazioni precedenti",
+      "food": "Assumere con il cibo",
+      "elimination": "Renale (come acido fenofibrico)",
+      "halfLife": "Acido fenofibrico (metabolita attivo): emivita plasmatica di eliminazione ~20 ore; nessun accumulo con dosi ripetute, eliminazione prevalentemente urinaria, non rimosso dall'emodialisi"
+    },
+    "bibliography": [
+      "FIELD e ACCORD-Lipid (fenofibrato) - da citare con fonte primaria"
+    ]
+  }
+}

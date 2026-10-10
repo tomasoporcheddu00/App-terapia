@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "id": "insulin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Insulina umana regolare (Actrapid/Humulin R) - RCP EMA/AIFA (EC/Codifa) + Consensus AMD-SID-FADOI Trialogue 2012: unica insulina somministrabile EV; infusione continua nel paziente critico, target 140-180 mg/dL.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2005/2005100510376/anx_10376_it.pdf",
+        "identifier": "Actrapid RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (EMA/EC, Banca Dati AIFA, portali Mediately/Codifa/Torrinomedica/Univadis): indicazioni, posologia, controindicazioni, avvertenze, interazioni. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; PK parziale. Stato: revisione fonti (source-review), non ancora approvato. Dosi da adattare al paziente e ai protocolli locali. In cardiologia intensiva e' anche parte del trattamento dell'iperkaliemia (con glucosio). Il glucosio e il glucagone sono i rimedi dell'ipoglicemia da sovradosaggio.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Insulina",
+    "inn": "insulina umana regolare",
+    "brandExamplesIt": [
+      "Actrapid",
+      "Humulin R"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Insulina umana ad azione rapida (somministrabile per via endovenosa)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "insulins"
+  ],
+  "quickSummary": {
+    "whatItIs": "Insulina umana ad azione rapida: e' l'unica formulazione che si puo' somministrare anche per via endovenosa, ed e' quindi quella usata in infusione continua nel paziente critico e nelle emergenze iperglicemiche. In cardiologia serve anche, con il glucosio, per abbassare il potassio.",
+    "mainUses": [
+      "Controllo dell'iperglicemia nel paziente critico (infusione endovenosa continua)",
+      "Diabete mellito (terapia sottocutanea)",
+      "Con glucosio, spostamento intracellulare del potassio nell'iperkaliemia (uso da linee guida)"
+    ],
+    "mainRisks": [
+      "Ipoglicemia (rischio principale)",
+      "Ipokaliemia (l'insulina sposta il potassio nelle cellule)",
+      "Errori di somministrazione (farmaco ad alto rischio)"
+    ],
+    "essentialMonitoring": [
+      "Glicemia capillare oraria durante l'infusione, poi ogni 2 ore a target",
+      "Potassiemia",
+      "Bilancio dei liquidi e apporto di glucosio"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento del diabete mellito",
+      "Controllo dell'iperglicemia in ambito ospedaliero e nel paziente critico, anche per via endovenosa (l'insulina umana regolare e' somministrabile EV sotto controllo medico)"
+    ],
+    "guidelineIndications": [
+      "Nel paziente critico si usa l'infusione endovenosa continua con pompa, in fisiologica o glucosata, applicando un protocollo/algoritmo per glicemie superiori a ~200 mg/dL o in caso di grave instabilita' glicemica - Consensus AMD-SID-FADOI",
+      "Obiettivo glicemico nel paziente critico: 140-180 mg/dL; obiettivi piu' stretti aumentano significativamente il rischio di ipoglicemia - Consensus AMD-SID-FADOI",
+      "Nell'iperkaliemia: 10 U di insulina rapida EV con 25 g di glucosio per lo shift intracellulare del potassio (vedi la sezione Disionie)"
+    ],
+    "absoluteContraindications": [
+      "Ipoglicemia in atto o sospetta",
+      "Ipersensibilita' al principio attivo o agli eccipienti"
+    ],
+    "warnings": [
+      "L'ipoglicemia e' il rischio principale, favorita da dosi eccessive rispetto al fabbisogno, digiuno, riduzione dell'apporto di glucosio o miglioramento improvviso della sensibilita' insulinica: monitoraggio glicemico frequente e protocollo di correzione pronto (glucosio EV)",
+      "L'insulina sposta il potassio nelle cellule: monitorare la potassiemia durante l'infusione endovenosa, specie nel paziente critico e nella chetoacidosi",
+      "Farmaco ad alto rischio: la via endovenosa va gestita con pompa di infusione, linea dedicata/separata e protocolli scritti; la soluzione deve essere limpida e incolore",
+      "Il fabbisogno cambia con infezioni, stress, corticosteroidi, insufficienza renale ed epatica: rivalutare frequentemente la velocita' di infusione"
+    ],
+    "adverseEffects": [
+      "Ipoglicemia",
+      "Ipokaliemia",
+      "Reazioni al sito di iniezione, lipodistrofia (via sottocutanea)",
+      "Reazioni di ipersensibilita' (rare); edema e disturbi transitori della rifrazione a inizio terapia"
+    ],
+    "overdose": "Il sovradosaggio provoca ipoglicemia, anche grave: nelle forme lievi carboidrati per os; nelle forme severe glucosio endovenoso (o glucagone se la via venosa non e' disponibile), con monitoraggio glicemico prolungato per il rischio di recidiva.",
+    "antidoteDrugIds": [
+      "glucose",
+      "glucagon"
+    ],
+    "specialPopulations": {
+      "renal": "Il fabbisogno si riduce nell'insufficienza renale (ridotta clearance dell'insulina): monitorare.",
+      "hepatic": "Il fabbisogno puo' ridursi; monitorare.",
+      "elderly": "Maggiore rischio di ipoglicemia e minore percezione dei sintomi.",
+      "pregnancy": "Utilizzabile (l'insulina non attraversa la placenta); intensificare il monitoraggio.",
+      "breastfeeding": "Compatibile; puo' essere necessario un aggiustamento della dose."
+    },
+    "alternativeDrugIds": []
+  },
+  "deep": {
+    "simpleExplanation": "E' l'insulina 'classica' a rapida azione, l'unica che si puo' mettere in vena: in terapia intensiva si infonde con la pompa per tenere la glicemia nel range. Il pericolo principale e' l'ipoglicemia, e abbassa anche il potassio.",
+    "clinicalExplanation": "Insulina umana regolare (solubile): unica somministrabile EV. Per via sottocutanea agisce entro ~30 minuti con picco a 1,5-3,5 ore; per via endovenosa l'effetto e' immediato e l'emivita di pochi minuti, il che la rende titolabile nel paziente critico (target 140-180 mg/dL). Attenzione a ipoglicemia e ipokaliemia.",
+    "molecularExplanation": "Si lega al recettore insulinico (tirosin-chinasi) favorendo la captazione cellulare di glucosio e potassio (attivazione della Na/K-ATPasi) e inibendo la produzione epatica di glucosio.",
+    "pharmacodynamics": "Riduzione della glicemia per aumento della captazione periferica e inibizione della gluconeogenesi epatica; spostamento intracellulare del potassio.",
+    "molecularTarget": "Recettore insulinico (tirosin-chinasi)",
+    "agonismAntagonism": "Agonismo del recettore insulinico",
+    "pharmacokinetics": {
+      "route": "Sottocutanea ed endovenosa",
+      "halfLife": "Pochi minuti per via endovenosa; effetto SC entro ~30 min, picco 1,5-3,5 ore",
+      "note": "Unica insulina somministrabile EV; nel critico usare pompa e linea dedicata"
+    },
+    "bibliography": []
+  }
+}

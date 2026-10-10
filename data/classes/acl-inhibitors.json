@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "id": "acl-inhibitors",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Inibitori dell'ATP-citrato liasi (acido bempedoico): sintesi da RCP EMA/AIFA.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/nilemdo/",
+        "identifier": "ACL classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP EMA/AIFA; confermare su RCP ufficiali e linee guida ESC/EAS."
+  },
+  "name": "Inibitori dell'ATP-citrato liasi",
+  "atcGroup": "C10AX15",
+  "memberDrugIds": [
+    "bempedoic-acid"
+  ],
+  "mechanismSummary": "Inibizione dell'ATP-citrato liasi (ACL), enzima a monte della HMG-CoA reduttasi nella biosintesi del colesterolo: riduzione della sintesi epatica del colesterolo e aumento dei recettori LDL. Profarmaco attivato solo nel fegato (minori effetti muscolari).",
+  "molecularTarget": "ATP-citrato liasi (ACL)",
+  "pharmacodynamics": "Riduzione della sintesi epatica del colesterolo e dell'LDL-C, con minore incidenza di effetti muscolari rispetto alle statine.",
+  "classEffects": [
+    "Riduzione dell'LDL in aggiunta o in alternativa alle statine",
+    "Minori effetti muscolari (attivazione epato-specifica)",
+    "Beneficio sugli eventi nei pazienti statino-intolleranti (CLEAR Outcomes)"
+  ],
+  "sharedContraindications": [
+    "Ipersensibilita'",
+    "Gravidanza e allattamento"
+  ],
+  "sharedAdverseEffects": [
+    "Iperuricemia/gotta",
+    "Disturbi tendinei",
+    "Spasmi muscolari",
+    "Aumento delle transaminasi"
+  ],
+  "monitoring": [
+    "Profilo lipidico",
+    "Acido urico",
+    "Sintomi tendinei/muscolari"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Classe rappresentata dall'acido bempedoico. Utile soprattutto nell'intolleranza alle statine e in add-on quando l'obiettivo di LDL non e' raggiunto; da ricordare iperuricemia/gotta, rischio tendineo e il limite di dose della simvastatina. Dettagli nella scheda."
+}

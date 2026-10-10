@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "reversal-agents",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Antidoti dell'anticoagulazione: sintesi da RCP EMA/AIFA e centri antiveleni.",
+        "url": "https://www.ema.europa.eu/en/medicines",
+        "identifier": "Reversal classe",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP/EMA e centri antidoti; confermare su RCP ufficiali e protocolli locali. Complesso protrombinico non ancora dettagliato in scheda propria."
+  },
+  "name": "Antidoti e agenti di inversione (reversal)",
+  "atcGroup": "V03AB / B02BA / V03 (antidoti)",
+  "memberDrugIds": [
+    "idarucizumab",
+    "andexanet-alfa",
+    "prothrombin-complex-concentrate",
+    "phytomenadione",
+    "protamine"
+  ],
+  "mechanismSummary": "Agenti che neutralizzano rapidamente l'effetto degli anticoagulanti in caso di emorragia grave o chirurgia d'urgenza: leganti specifici (idarucizumab per il dabigatran; andexanet alfa per gli inibitori del fattore Xa), neutralizzazione ionica (protamina per l'eparina) e reintegro procoagulante (vitamina K1 per i cumarinici; complesso protrombinico).",
+  "molecularTarget": "Anticoagulante bersaglio o fattori della coagulazione",
+  "pharmacodynamics": "Ripristino dell'emostasi neutralizzando o bypassando l'effetto anticoagulante; il bersaglio e la rapidita' dipendono dall'agente.",
+  "classEffects": [
+    "Reversal mirato all'anticoagulante in causa (dabigatran, FXa-inibitori, eparina, cumarinici)",
+    "Effetto immediato per i leganti (idarucizumab, andexanet, protamina); differito per la vitamina K1 (ore)",
+    "Rischio tromboembolico dopo l'inversione: riprendere l'anticoagulazione appena possibile"
+  ],
+  "sharedContraindications": [
+    "Ipersensibilita' allo specifico agente"
+  ],
+  "sharedAdverseEffects": [
+    "Rischio tromboembolico da riattivazione dello stato protrombotico",
+    "Reazioni all'infusione/anafilattoidi (protamina, andexanet)",
+    "Rebound dell'anticoagulante (idarucizumab, protamina)"
+  ],
+  "monitoring": [
+    "Parametri coagulativi specifici (aPTT/dTT/ECT, anti-Xa, INR/PT)",
+    "Segni di risanguinamento e di eventi tromboembolici",
+    "Ripresa dell'anticoagulazione"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Ogni antidoto e' specifico per il proprio anticoagulante: idarucizumab (dabigatran), andexanet alfa (apixaban/rivaroxaban), protamina (eparina; parziale per EBPM), fitomenadione/vitamina K1 (cumarinici, effetto in ore), complesso protrombinico (bypass procoagulante, cumarinici e FXa-inibitori). Non sono intercambiabili. Dopo l'inversione permane il rischio trombotico della malattia di base: riprendere l'anticoagulazione appena clinicamente sicuro. Dosi e dettagli nelle singole schede."
+}

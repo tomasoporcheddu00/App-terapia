@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "id": "nifedipine",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Nifedipina - RCP (Mediately/Univadis/Codifa su base AIFA): indicazioni angina/ipertensione, uso del rilascio prolungato, controindicazione rifampicina, rischio del rilascio immediato.",
+        "url": "https://mediately.co/it/drugs/Oa1nZwVnHqcmTOi6iZe51XR7Lcb/nifedipina-doc-30-mg-compresse-a-rilascio-prolungato",
+        "identifier": "Nifedipina RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Nifedipina - RCP (foglietto illustrativo su base AIFA), paragrafo 5.2: emivita di eliminazione 2-2,5 ore (rilascio immediato), prolungata nei neonati.",
+        "url": "https://www.fogliettoillustrativo.net/034105/nifedipina-doc",
+        "identifier": "RCP - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Preferire le formulazioni a rilascio prolungato; evitare il rilascio immediato nella terapia cronica di angina/ipertensione.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Nifedipina",
+    "inn": "nifedipina",
+    "brandExamplesIt": [
+      "Adalat",
+      "Nifedicor"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Calcioantagonista diidropiridinico",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "dhp-ccb"
+  ],
+  "quickSummary": {
+    "whatItIs": "Diidropiridinico per angina e ipertensione; da usare nelle formulazioni a rilascio prolungato (il rilascio immediato e' associato a eventi cardiovascolari).",
+    "mainUses": [
+      "Angina pectoris cronica stabile (da sforzo)",
+      "Ipertensione arteriosa"
+    ],
+    "mainRisks": [
+      "Edema declive",
+      "Vampate, cefalea",
+      "Tachicardia riflessa (rilascio immediato)"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa",
+      "Comparsa di edemi periferici"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Cardiopatia ischemica: angina pectoris cronica stabile (angina da sforzo)",
+      "Ipertensione arteriosa"
+    ],
+    "guidelineIndications": [
+      "Impiegare le formulazioni a rilascio prolungato; il rilascio immediato a breve durata e' associato a un aumento dose-dipendente di eventi cardiovascolari (infarto) e va evitato nella terapia cronica - confermare su fonte primaria"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alle diidropiridine o agli eccipienti",
+      "Shock cardiovascolare",
+      "Uso concomitante con rifampicina (induzione enzimatica: livelli inefficaci)"
+    ],
+    "warnings": [
+      "Preferire le formulazioni a rilascio prolungato; evitare il rilascio immediato nella terapia cronica",
+      "Cautela in ipotensione grave (sistolica <90 mmHg), scompenso manifesto e stenosi aortica grave",
+      "Cautela e riduzione della dose nell'insufficienza epatica",
+      "Evitare il succo di pompelmo"
+    ],
+    "adverseEffects": [
+      "Edema periferico",
+      "Vampate di calore",
+      "Cefalea",
+      "Tachicardia/palpitazioni",
+      "Capogiro"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione marcata e tachicardia; trattamento di supporto.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento sistematico rilevante.",
+      "hepatic": "Ridurre la dose e monitorare la pressione (metabolismo epatico).",
+      "elderly": "Titolare con prudenza.",
+      "pregnancy": "Solo nell'ipertensione grave non responsiva alla terapia standard (uso ostetrico specialistico); attenersi all'RCP.",
+      "breastfeeding": "Escreta nel latte; per il rilascio immediato allattare a distanza dalla dose."
+    },
+    "alternativeDrugIds": [
+      "amlodipine",
+      "felodipine",
+      "lercanidipine"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Dilata le arterie per angina e pressione; va usata nella forma 'a lento rilascio' (quella rapida puo' far male al cuore).",
+    "clinicalExplanation": "Diidropiridinico; usare formulazioni a rilascio prolungato. Il rilascio immediato provoca vasodilatazione brusca con tachicardia riflessa ed e' associato a eventi CV.",
+    "molecularExplanation": "Blocca i canali del calcio di tipo L vascolari; selettivita' vascolare.",
+    "pharmacodynamics": "Vasodilatazione arteriosa selettiva con riduzione delle resistenze periferiche; a dosi terapeutiche scarso effetto su contrattilita' e conduzione AV (a differenza dei non diidropiridinici).",
+    "molecularTarget": "Canali del calcio di tipo L (voltaggio-dipendenti) della muscolatura liscia vascolare",
+    "agonismAntagonism": "Antagonista (blocco del canale del calcio)",
+    "pharmacokinetics": {
+      "metabolism": "Epatico (CYP3A4)",
+      "elimination": "Metaboliti urinari",
+      "notes": "Preferire formulazioni a rilascio prolungato",
+      "halfLife": "~2-2,5 ore per la formulazione a rilascio immediato (nei neonati fino a ~26 ore); le formulazioni a rilascio prolungato (GITS/Adalat Crono) estendono la durata d'azione consentendo la monosomministrazione"
+    },
+    "bibliography": [
+      "Metanalisi sul rilascio immediato di nifedipina (eventi CV) - da citare con fonte primaria"
+    ]
+  }
+}

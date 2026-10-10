@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "id": "flecainide",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Flecainide (Almarytm) - RCP (Univadis/Torrinomedica/Xagena su base AIFA): classe Ic, TPSV/FA parossistica senza cardiopatia strutturale; controindicazioni post-IM/scompenso/Brugada; CAST.",
+        "url": "https://www.univadis.it/index.php/references/drug-database/C01/viewdrug/almarytm-1294",
+        "identifier": "Almarytm RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Flecainide - RCP (Torrinomedica/Univadis su base AIFA), paragrafo 5.2: emivita di eliminazione ~20 ore; 12-27 ore nei pazienti; 7-18 ore dopo somministrazione EV.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/flecainide_teva/",
+        "identifier": "RCP - farmacocinetica",
+        "retrievedAt": "2026-07-24"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC) e da monografie di riferimento: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Antiaritmici a indice terapeutico stretto: verificare dosi e QT prima dell'uso.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Flecainide",
+    "inn": "flecainide",
+    "brandExamplesIt": [
+      "Almarytm"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antiaritmico classe Ic",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "aa-class-ic"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antiaritmico di classe Ic potente per le aritmie sopraventricolari (e ventricolari selezionate) nei pazienti senza cardiopatia strutturale; usato anche come 'pillola in tasca'.",
+    "mainUses": [
+      "TPSV (rientro nodale, WPW) e FA/flutter parossistica sintomatica senza cardiopatia strutturale",
+      "Tachicardia ventricolare sostenuta pericolosa per la vita (in ospedale)"
+    ],
+    "mainRisks": [
+      "Proaritmia (specie nella cardiopatia strutturale)",
+      "Conversione della FA in flutter con conduzione 1:1",
+      "Effetto inotropo negativo"
+    ],
+    "essentialMonitoring": [
+      "ECG (QRS)",
+      "Funzione cardiaca",
+      "Elettroliti"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Tachicardie parossistiche sopraventricolari (rientro nodale AV, rientro AV, WPW) e fibrillazione/flutter atriale parossistica con sintomi invalidanti, in pazienti senza cardiopatia strutturale",
+      "Aritmie ipercinetiche ventricolari documentate e pericolose per la vita (es. tachicardia ventricolare sostenuta), con inizio in ospedale"
+    ],
+    "guidelineIndications": [
+      "Uso come 'pillola in tasca' (con propafenone) per la conversione della FA parossistica in pazienti selezionati, dopo verifica ospedaliera di efficacia/sicurezza; nel flutter/FA associare un bloccante del nodo AV - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Scompenso cardiaco",
+      "Pregresso infarto miocardico con ectopia ventricolare asintomatica o TV non sostenuta asintomatica (e cardiopatia strutturale in genere)",
+      "Shock cardiogeno",
+      "Fibrillazione atriale di lunga data senza tentativo di conversione; valvulopatia emodinamicamente significativa",
+      "Sindrome di Brugada accertata",
+      "Disfunzione del nodo del seno, disturbi della conduzione atriale, blocco AV di 2o grado o superiore, blocco di branca o distale senza pacemaker"
+    ],
+    "warnings": [
+      "Controindicato/da evitare nella cardiopatia strutturale (post-infarto, scompenso) per l'effetto proaritmico (studio CAST).",
+      "Nel flutter/FA puo' rallentare la frequenza atriale favorendo una conduzione 1:1 con risposta ventricolare rapida: associare un bloccante del nodo AV (betabloccante/calcioantagonista)",
+      "Effetto inotropo negativo",
+      "Monitorare l'allargamento del QRS; correggere gli squilibri elettrolitici",
+      "Evitare nella fibrillazione atriale cronica (non documentato)"
+    ],
+    "adverseEffects": [
+      "Capogiri, disturbi visivi",
+      "Dispnea, effetto inotropo negativo",
+      "Proaritmia (TV, conversione a flutter 1:1)"
+    ],
+    "overdose": "Il sovradosaggio causa allargamento del QRS, proaritmia grave, ipotensione e depressione miocardica; supporto emodinamico, bicarbonato di sodio (per l'allargamento del QRS), eventuale supporto circolatorio.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Ridurre la dose nell'insufficienza renale.",
+      "hepatic": "Ridurre la dose.",
+      "elderly": "Cautela.",
+      "pregnancy": "Solo se necessario (usata anche per aritmie fetali sotto specialista).",
+      "breastfeeding": "Passa nel latte; valutare."
+    },
+    "alternativeDrugIds": [
+      "propafenone",
+      "amiodarone",
+      "sotalol"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un antiaritmico potente per le aritmie 'di sopra' (atriali) in chi ha un cuore strutturalmente sano; da non usare dopo infarto o con lo scompenso.",
+    "clinicalExplanation": "Antiaritmico di classe Ic: blocca fortemente i canali del sodio rallentando la conduzione (allarga il QRS). Efficace nella FA/TPSV senza cardiopatia strutturale; nel flutter va associato a un bloccante del nodo AV. Controindicato nella cardiopatia strutturale (CAST).",
+    "molecularExplanation": "Blocca i canali del sodio voltaggio-dipendenti con lenta cinetica di dissociazione, riducendo marcatamente la velocita' di conduzione.",
+    "pharmacodynamics": "Rallentamento marcato della conduzione (allargamento del QRS); effetto inotropo negativo.",
+    "molecularTarget": "Canali del sodio cardiaci",
+    "agonismAntagonism": "Blocco dei canali del sodio",
+    "pharmacokinetics": {
+      "route": "Orale ed endovenosa",
+      "metabolism": "Epatico (CYP2D6)",
+      "elimination": "Renale ed epatica",
+      "halfLife": "~20 ore (RCP); nei pazienti l'intervallo e' 12-27 ore. Dopo somministrazione endovenosa 7-18 ore (media ~13). Eliminazione rallentata nell'anziano e nell'insufficienza epatica"
+    },
+    "bibliography": [
+      "CAST (flecainide/encainide post-infarto) - da citare con fonte primaria"
+    ]
+  }
+}

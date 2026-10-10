@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "id": "chlorthalidone",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Clortalidone (Igroton) - RCP (Univadis/Starbene su base AIFA): indicazioni ipertensione/edema, dose 12,5-50 mg, lunga durata d'azione.",
+        "url": "https://www.starbene.it/farmaci/igroton-30cpr-25mg_016861015/",
+        "identifier": "Clortalidone RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Clortalidone",
+    "inn": "clortalidone",
+    "brandExamplesIt": [
+      "Igroton"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Diuretico simil-tiazidico (lunga durata)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "thiazide-diuretics"
+  ],
+  "quickSummary": {
+    "whatItIs": "Diuretico simil-tiazidico a lunga durata d'azione, con buone evidenze di esito nell'ipertensione; usato anche negli edemi.",
+    "mainUses": [
+      "Ipertensione arteriosa",
+      "Edemi (cardiaci, renali, epatici lievi-moderati)"
+    ],
+    "mainRisks": [
+      "Ipopotassiemia",
+      "Iponatriemia",
+      "Iperuricemia/iperglicemia"
+    ],
+    "essentialMonitoring": [
+      "Elettroliti",
+      "Funzione renale",
+      "Glicemia/uricemia"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipertensione arteriosa (monoterapia o associazione)",
+      "Edema conseguente a insufficienza cardiaca, renale o epatica lieve-moderata; edema premestruale e idiopatico"
+    ],
+    "guidelineIndications": [
+      "Nell'ipertensione ha evidenze di esito favorevoli (SHEP, ALLHAT) e maggiore potenza/durata rispetto all'idroclorotiazide - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' ai sulfamidici o al principio attivo",
+      "Insufficienza renale grave (di norma GFR <30 mL/min: i tiazidici perdono efficacia)",
+      "Insufficienza epatica grave / encefalopatia epatica",
+      "Ipopotassiemia o iponatriemia refrattarie",
+      "Ipercalcemia",
+      "Iperuricemia sintomatica / gotta in atto",
+      "Malattia di Addison",
+      "Ipertensione gestazionale / gravidanza (di norma)"
+    ],
+    "warnings": [
+      "Ipopotassiemia (rischio maggiore con digossina e con farmaci che prolungano il QT); monitorare il potassio",
+      "Iponatriemia (anziani, cirrotici): monitorare il sodio",
+      "Ipercalcemia (i tiazidici riducono l'escrezione urinaria di calcio, a differenza dei diuretici dell'ansa)",
+      "Iperuricemia/gotta; possibile aumento di glicemia e lipidi (l'indapamide e' metabolicamente piu' neutra)",
+      "Fotosensibilita'; rara reazione idiosincrasica sulfamidica (miopia acuta, glaucoma acuto ad angolo chiuso)",
+      "Lunga emivita: nella terapia prolungata usare la dose di mantenimento piu' bassa (anche a giorni alterni)"
+    ],
+    "adverseEffects": [
+      "Ipopotassiemia, iponatriemia",
+      "Ipercalcemia, ipomagnesiemia",
+      "Iperuricemia/gotta",
+      "Iperglicemia, dislipidemia",
+      "Ipotensione ortostatica",
+      "Fotosensibilita'",
+      "Disfunzione erettile"
+    ],
+    "overdose": "Il sovradosaggio causa disidratazione e squilibri elettrolitici; reidratare e correggere.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Efficacia ridotta nell'IR grave; usare con cautela.",
+      "hepatic": "Cautela; controindicato nella grave.",
+      "elderly": "Eliminazione piu' lenta: usare la dose efficace piu' bassa.",
+      "pregnancy": "Controindicato nell'ipertensione gestazionale; evitare.",
+      "breastfeeding": "Da evitare (passa nel latte)."
+    },
+    "alternativeDrugIds": [
+      "hydrochlorothiazide",
+      "indapamide"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un 'cugino' dei tiazidici che dura piu' a lungo ed e' molto efficace per la pressione; bastano dosi basse.",
+    "clinicalExplanation": "Simil-tiazidico (sulfonamide) a lunga emivita (~40-60 h) con buoni dati di esito nell'ipertensione; stesse cautele elettrolitiche dei tiazidici.",
+    "molecularExplanation": "Blocca il cotrasportatore Na-Cl nel tubulo distale (come i tiazidici).",
+    "pharmacodynamics": "Natriuresi con ritenzione di calcio; effetto antipertensivo prolungato.",
+    "molecularTarget": "Cotrasportatore Na-Cl (NCC) del tubulo distale",
+    "agonismAntagonism": "Inibizione del cotrasportatore",
+    "pharmacokinetics": {
+      "elimination": "Renale",
+      "halfLife": "~40-60 ore (lunga)",
+      "onset": "Effetto pieno a 3-4 settimane"
+    },
+    "bibliography": [
+      "SHEP e ALLHAT (clortalidone nell'ipertensione) - da citare con fonte primaria"
+    ]
+  }
+}

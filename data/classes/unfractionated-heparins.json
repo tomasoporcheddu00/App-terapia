@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "id": "unfractionated-heparins",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Eparina Sodica - meccanismo (antitrombina III, inibizione fattore Xa e trombina).",
+        "url": "https://www.codifa.it/farmaci/n/normoparin-eparina-sodica-eparine",
+        "identifier": "UFH",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Schema del file di classe non definito nei template forniti: struttura proposta, da riconciliare con lo schema del progetto (classes/).",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": "Eparina non frazionata (UFH)",
+  "memberDrugIds": [
+    "unfractionated-heparin"
+  ],
+  "atcGroup": "B01AB",
+  "mechanismSummary": "Potenzia l'antitrombina III inibendo in misura bilanciata sia la trombina (fattore IIa) sia il fattore Xa (rapporto ~1:1); azione immediata per via endovenosa.",
+  "molecularTarget": "Complesso antitrombina III - trombina (IIa) e fattore Xa",
+  "pharmacodynamics": "Anticoagulazione rapida e titolabile; risposta variabile che richiede monitoraggio dell'aPTT (o ACT in emodinamica) alle dosi terapeutiche; emivita breve.",
+  "classEffects": [
+    "Anticoagulazione parenterale rapida e rapidamente reversibile",
+    "Non eliminazione renale (utile in insufficienza renale grave)",
+    "Rischio di HIT maggiore rispetto alle EBPM"
+  ],
+  "sharedContraindications": [
+    "Grave trombocitopenia/diatesi emorragica",
+    "Impossibilita' di monitorare l'aPTT (dosi terapeutiche)",
+    "Accidenti cerebrovascolari emorragici",
+    "Via intramuscolare (vietata)"
+  ],
+  "sharedAdverseEffects": [
+    "Emorragia",
+    "Trombocitopenia (HIT/HITT)",
+    "Osteoporosi (uso prolungato)"
+  ],
+  "monitoring": [
+    "aPTT/ACT (dosi terapeutiche)",
+    "Conta piastrinica"
+  ],
+  "reversal": "Protamina solfato (neutralizzazione rapida).",
+  "notesOnClassVsMolecule": "Rispetto alle EBPM: azione bilanciata anti-IIa/anti-Xa, emivita piu' breve, reversibilita' piu' completa con protamina, ma maggiore necessita' di monitoraggio e maggior rischio di HIT."
+}

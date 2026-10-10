@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "epoprostenol",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Epoprostenolo (Flolan/Veletri) - RCP EMA/AIFA: prostaciclina sintetica in infusione EV continua per la PAH classe III-IV; emivita brevissima, catetere venoso centrale; rimbalzo fatale alla sospensione brusca.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/referrals/flolan",
+        "identifier": "Flolan RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "epoprostenol",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Anticoagulanti/antiaggreganti",
+      "effect": "Aumento del rischio di sanguinamento",
+      "management": "Monitorare la coagulazione"
+    },
+    {
+      "severity": "major",
+      "agent": "Altri vasodilatatori/antipertensivi",
+      "effect": "Ipotensione additiva",
+      "management": "Titolare con monitoraggio"
+    }
+  ]
+}

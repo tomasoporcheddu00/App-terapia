@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "ivabradine__angina__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Ivabradina (Procoralan) - RCP/EPAR (EMA, Mediately, Codifa): indicazioni angina/scompenso (ritmo sinusale), dose, fosfeni, controindicazioni.",
+        "url": "https://mediately.co/it/drugs/K62gnQ6kVUKg5xBCm1GEnOaSEwG/procoralan-7-5-mg-compresse-rivestite",
+        "identifier": "Ivabradina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EPAR; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "ivabradine",
+  "indication": "angina",
+  "scenario": "Angina pectoris cronica stabile (ritmo sinusale, FC>=70)",
+  "route": "orale",
+  "dose": {
+    "initial": "5 mg due volte al giorno (2,5 mg BID se eta' >=75)",
+    "titration": "dopo 3-4 settimane fino a 7,5 mg BID se ancora sintomatico e FC >60 bpm",
+    "maintenance": "5-7,5 mg due volte al giorno",
+    "max": "7,5 mg due volte al giorno"
+  },
+  "administration": {
+    "notes": "Se non c'e' miglioramento dell'angina entro 3 mesi, sospendere."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

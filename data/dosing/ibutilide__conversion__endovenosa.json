@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "ibutilide__conversion__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Ibutilide (Corvert) - RCP (Codifa/Torrinomedica/dica33 su base AIFA): classe III EV per conversione acuta di FA/flutter; torsione di punta ~5%; correggere K/Mg; uso ospedaliero.",
+        "url": "https://www.codifa.it/farmaci/c/corvert-ibutilide-fumarato-antiaritmici",
+        "identifier": "Corvert RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Antiaritmico a indice terapeutico stretto: confermare dose, funzione renale/epatica e QT."
+  },
+  "drugId": "ibutilide",
+  "indication": "atrial-fibrillation",
+  "scenario": "Conversione acuta di FA/flutter (endovena)",
+  "route": "endovenosa",
+  "dose": {
+    "weight60plus": ">=60 kg: 1 mg EV in 10 minuti",
+    "weightUnder60": "<60 kg: 0,01 mg/kg EV in 10 minuti",
+    "repeat": "se l'aritmia persiste 10 minuti dopo la fine, una seconda dose uguale; non oltre",
+    "postSurgery": "post-cardiochirurgia dose ridotta (0,5 mg / 0,005 mg/kg)"
+  },
+  "administration": {
+    "notes": "Infusione EV in 10 minuti con monitoraggio ECG continuo durante e per almeno 4 ore dopo. Correggere K/Mg. Uso ospedaliero."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

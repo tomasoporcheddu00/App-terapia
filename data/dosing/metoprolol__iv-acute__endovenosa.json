@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "metoprolol__iv-acute__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Metoprololo tartrato (Seloken 1 mg/mL soluzione iniettabile) - RCP AIFA (Codifa/infermieriattivi): aritmie e infarto miocardico acuto; 5 mg EV lenti ripetibili, fino a 15 mg complessivi.",
+        "url": "https://www.codifa.it/farmaci/s/seloken-soluzione-uso-interno--metoprololo-tartrato-betabloccanti-selettivi",
+        "identifier": "Seloken RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EMA-AIFA; smpcVerified=false. Adattare al paziente e ai protocolli locali."
+  },
+  "drugId": "metoprolol",
+  "indication": "acute-cardiac",
+  "scenario": "Aritmie e infarto miocardico acuto (via endovenosa)",
+  "route": "endovenosa",
+  "dose": {
+    "arrhythmias": "dose iniziale fino a 5 mg EV lenti (1-2 mg/minuto), ripetibile a intervalli di 5 minuti fino all'effetto desiderato; difficilmente utili dosi superiori a 15 mg",
+    "acute-mi": "5 mg in bolo il piu' precocemente possibile; se ben tollerato ripetere a intervalli di 2 minuti fino a un totale di 15 mg; dopo 15 minuti dall'ultima iniezione iniziare la terapia orale (50 mg ogni 6 ore per 48 ore, poi 100 mg due volte al giorno)",
+    "stop-rules": "non somministrare la seconda o terza dose se frequenza cardiaca <40/min, pressione sistolica <90 mmHg, intervallo P-Q >0,26 secondi, o se compaiono peggioramento della dispnea o sudorazione fredda"
+  },
+  "administration": {
+    "notes": "EV lenta con monitoraggio emodinamico ed ECG dopo ciascuna dose. Non associare a verapamil o diltiazem EV. Controindicato in IMA sospetto con FC <45, P-Q >0,24 s o PAS <100 mmHg."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "milrinone",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Milrinone - RCP/monografie (Torrinomedica/UpToDate/A.Re.S.S.): inibitore della fosfodiesterasi-3, inotropo e vasodilatatore; scompenso grave a breve termine; carico 50 mcg/kg poi 0,375-0,75 mcg/kg/min; proaritmico; ridurre in IR.",
+        "url": "https://www.torrinomedica.it/approfondimenti/cardiologia/qual-e-un-farmaco-che-stimola-lazione-del-cuore/",
+        "identifier": "Milrinone RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "milrinone",
+  "items": [
+    {
+      "severity": "moderate",
+      "agent": "Altri inotropi/vasodilatatori",
+      "effect": "Effetti emodinamici additivi",
+      "management": "Titolare con monitoraggio"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Furosemide (stessa linea)",
+      "effect": "Precipitazione in linea",
+      "management": "Non co-infondere nella stessa via"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Diuretici (deplezione di volume/potassio)",
+      "effect": "Ipotensione e aritmie",
+      "management": "Correggere volemia ed elettroliti"
+    }
+  ]
+}

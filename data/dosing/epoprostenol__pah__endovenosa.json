@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "epoprostenol__pah__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Epoprostenolo (Flolan/Veletri) - RCP EMA/AIFA: prostaciclina sintetica in infusione EV continua per la PAH classe III-IV; emivita brevissima, catetere venoso centrale; rimbalzo fatale alla sospensione brusca.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/referrals/flolan",
+        "identifier": "Flolan RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Titolazione da centro esperto in ipertensione polmonare."
+  },
+  "drugId": "epoprostenol",
+  "indication": "pulmonary-arterial-hypertension",
+  "scenario": "PAH avanzata (infusione EV continua)",
+  "route": "endovenosa",
+  "dose": {
+    "initial": "2 ng/kg/min, con incrementi di 2 ng/kg/min ogni 15 minuti o piu' fino al massimo effetto emodinamico/tollerabilita'",
+    "maintenance": "individualizzata (spesso 20-40 ng/kg/min), infusione continua a lungo termine",
+    "note": "catetere venoso centrale permanente + pompa; evitare interruzioni brusche"
+  },
+  "administration": {
+    "notes": "Solo infusione EV continua tramite catetere centrale e pompa. Inizio in ospedale. Non interrompere bruscamente."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "id": "disopyramide",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Disopiramide (Ritmodan) - RCP (Mediately/Codifa/Torrinomedica su base AIFA): classe Ia, recidive di FA/flutter e aritmie ventricolari; forte effetto anticolinergico e inotropo negativo.",
+        "url": "https://mediately.co/it/drugs/6eh94hkDyDiDdOWkRpdELIYzeL7/ritmodan-100-mg-capsule-rigide",
+        "identifier": "Ritmodan RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Disopiramide - RCP (Torrinomedica: Ritmodan) e monografia di farmacocinetica clinica: emivita di eliminazione ~7 ore (range 4-10), prolungata nell'insufficienza renale.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/ritmodan/",
+        "identifier": "RCP - farmacocinetica",
+        "retrievedAt": "2026-07-25"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC) e da monografie di riferimento: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Antiaritmici a indice terapeutico stretto: verificare dosi e QT prima dell'uso.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Disopiramide",
+    "inn": "disopiramide",
+    "brandExamplesIt": [
+      "Ritmodan",
+      "Ritmodan Retard"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antiaritmico classe Ia",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "aa-class-ia"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antiaritmico di classe Ia con marcato effetto anticolinergico e inotropo negativo; usato per le recidive di aritmie atriali e ventricolari.",
+    "mainUses": [
+      "Recidive di fibrillazione/flutter atriale dopo cardioversione",
+      "Tachicardie parossistiche e ventricolari",
+      "Aritmie nell'infarto miocardico"
+    ],
+    "mainRisks": [
+      "Effetti anticolinergici (ritenzione urinaria, glaucoma)",
+      "Peggioramento dello scompenso (inotropo negativo)",
+      "Torsione di punta"
+    ],
+    "essentialMonitoring": [
+      "ECG (QRS, QT)",
+      "Potassiemia",
+      "Funzione cardiaca (segni di scompenso)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Prevenzione delle recidive di fibrillazione/flutter atriale dopo regolarizzazione del ritmo",
+      "Tachicardie parossistiche sopraventricolari e ventricolari",
+      "Alterazioni del ritmo nell'infarto miocardico"
+    ],
+    "guidelineIndications": [
+      "Utile anche nella cardiomiopatia ipertrofica ostruttiva (sfrutta l'effetto inotropo negativo) - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Blocco atrioventricolare di 2o-3o grado o blocco bifascicolare senza pacemaker",
+      "Prolungamento preesistente del QT",
+      "Grave disfunzione del nodo del seno",
+      "Grave scompenso cardiaco non secondario ad aritmia",
+      "Shock cardiogeno",
+      "Glaucoma (ad angolo chiuso)",
+      "Ritenzione urinaria / ipertrofia prostatica con ostruzione",
+      "Miastenia grave",
+      "Uso concomitante di altri antiaritmici o farmaci che inducono torsione di punta"
+    ],
+    "warnings": [
+      "Marcati effetti anticolinergici: ritenzione urinaria, glaucoma, secchezza delle fauci, stipsi",
+      "Inotropo negativo: puo' precipitare scompenso/ipotensione (soprattutto nella cardiomiopatia o scompenso scompensato) - sospendere se compare ipotensione",
+      "Effetto proaritmico: torsione di punta; monitorare QT/QRS e sospendere se allargamento >25%",
+      "Correggere l'ipopotassiemia; cautela nel flutter (conversione a risposta 1:1)"
+    ],
+    "adverseEffects": [
+      "Effetti anticolinergici (secchezza fauci, ritenzione urinaria, visione offuscata, stipsi)",
+      "Ipotensione, peggioramento dello scompenso",
+      "Torsione di punta / proaritmia"
+    ],
+    "overdose": "Il sovradosaggio causa allungamento del QT, torsione di punta, ipotensione, effetti anticolinergici; terapia intensiva, isoproterenolo/vasopressori/inotropi, magnesio per la torsione di punta; per gli effetti anticolinergici derivati della prostigmina.",
+    "antidoteDrugIds": [
+      "magnesium-sulfate"
+    ],
+    "specialPopulations": {
+      "renal": "Ridurre la dose (eliminazione renale); rilascio prolungato controindicato nell'insufficienza renale.",
+      "hepatic": "Ridurre la dose.",
+      "elderly": "Maggiore rischio di effetti anticolinergici; iniziare basso.",
+      "pregnancy": "Solo se necessario.",
+      "breastfeeding": "Escreta nel latte; interrompere l'allattamento o la terapia."
+    },
+    "alternativeDrugIds": [
+      "quinidine",
+      "flecainide",
+      "amiodarone"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un antiaritmico che 'asciuga' (bocca secca, difficolta' a urinare) e indebolisce un po' la pompa cardiaca; utile per prevenire il ritorno di alcune aritmie.",
+    "clinicalExplanation": "Antiaritmico di classe Ia con spiccato effetto anticolinergico e inotropo negativo. Utile nella cardiomiopatia ipertrofica ostruttiva; da evitare nello scompenso e nel glaucoma/ritenzione urinaria.",
+    "molecularExplanation": "Blocca i canali del sodio (e in parte del potassio) con marcata attivita' antimuscarinica.",
+    "pharmacodynamics": "Rallentamento della conduzione, allungamento del periodo refrattario/QT, riduzione della contrattilita', effetti anticolinergici.",
+    "molecularTarget": "Canali del sodio cardiaci (attivita' antimuscarinica)",
+    "agonismAntagonism": "Blocco dei canali ionici",
+    "pharmacokinetics": {
+      "route": "Orale (pronto e rilascio prolungato)",
+      "elimination": "Renale",
+      "halfLife": "~6,7 ore (intervallo 4-10 ore; circa 7 ore nei soggetti sani e nei pazienti), prolungata nell'insufficienza renale (clearance della creatinina <60 mL/min); metabolita attivo mono-N-dealchil-disopiramide"
+    },
+    "bibliography": []
+  }
+}

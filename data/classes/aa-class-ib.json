@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "id": "aa-class-ib",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Antiaritmici di classe Ib: sintesi da RCP/monografie.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/lidocaina_cloridrato_bioindustria_lim/",
+        "identifier": "Ib classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe Ib sintetizzata da RCP; confermare su RCP ufficiali e linee guida ESC."
+  },
+  "name": "Antiaritmici classe Ib",
+  "atcGroup": "C01BB (classe Ib)",
+  "memberDrugIds": [
+    "lidocaine",
+    "mexiletine"
+  ],
+  "mechanismSummary": "Blocco dei canali del sodio a rapida cinetica di dissociazione, con effetto preferenziale sul tessuto ventricolare depolarizzato/ischemico; accorciamento della durata del potenziale d'azione. Nessun effetto rilevante su atri e nodo AV.",
+  "molecularTarget": "Canali del sodio cardiaci (tessuto ventricolare)",
+  "pharmacodynamics": "Riduzione dell'automatismo ectopico ventricolare e innalzamento della soglia di fibrillazione, senza allungamento del QT; inefficaci sulle aritmie sopraventricolari.",
+  "classEffects": [
+    "Efficacia sulle aritmie ventricolari (specie ischemiche)",
+    "Nessun allungamento del QT",
+    "Inefficacia sulle aritmie sopraventricolari"
+  ],
+  "sharedContraindications": [
+    "Blocco seno-atriale/atrioventricolare grave senza pacemaker",
+    "Cardiopatia strutturale avanzata (per mexiletina: post-infarto, coronaropatia sintomatica, FE ridotta)",
+    "Ipersensibilita'"
+  ],
+  "sharedAdverseEffects": [
+    "Tossicita' del SNC (parestesie, tremori, convulsioni)",
+    "Disturbi gastrointestinali",
+    "Bradicardia/ipotensione"
+  ],
+  "monitoring": [
+    "ECG",
+    "Elettroliti",
+    "Segni di tossicita' neurologica"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "La lidocaina (EV) e' il prototipo per le aritmie ventricolari acute (IMA, procedure); la mexiletina e' l'analogo orale (uso storico come antiaritmico, oggi in Italia soprattutto come Namuscla per la miotonia). Entrambe agiscono sul ventricolo e non allungano il QT. Dettagli nelle singole schede."
+}

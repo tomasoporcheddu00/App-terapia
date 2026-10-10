@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "flecainide__svt-af__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Flecainide (Almarytm) - RCP (Univadis/Torrinomedica/Xagena su base AIFA): classe Ic, TPSV/FA parossistica senza cardiopatia strutturale; controindicazioni post-IM/scompenso/Brugada; CAST.",
+        "url": "https://www.univadis.it/index.php/references/drug-database/C01/viewdrug/almarytm-1294",
+        "identifier": "Almarytm RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Antiaritmico a indice terapeutico stretto: confermare dose, funzione renale/epatica e QT."
+  },
+  "drugId": "flecainide",
+  "indication": "supraventricular-tachycardia",
+  "scenario": "TPSV / FA parossistica (orale) e pillola in tasca",
+  "route": "orale",
+  "dose": {
+    "initial": "50 mg due volte al giorno, titolabile secondo risposta",
+    "max": "300 mg al giorno (aritmie sopraventricolari)",
+    "pillInPocket": "dose singola orale in pazienti selezionati, dopo verifica ospedaliera di efficacia/sicurezza",
+    "iv": "per il controllo rapido: EV secondo peso sotto monitoraggio (uso ospedaliero)"
+  },
+  "administration": {
+    "notes": "Associare un bloccante del nodo AV nel flutter/FA. Monitorare il QRS. Inizio ospedaliero per la TV."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

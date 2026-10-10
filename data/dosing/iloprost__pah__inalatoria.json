@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "iloprost__pah__inalatoria",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Iloprost (Ventavis) - RCP EMA/AIFA: analogo della prostaciclina inalatorio per la PAH classe III; 6-9 inalazioni/die; controindicato in sanguinamento/coronaropatia grave; broncospasmo, sincope.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/EPAR/ventavis",
+        "identifier": "Ventavis RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Titolazione da centro esperto in ipertensione polmonare."
+  },
+  "drugId": "iloprost",
+  "indication": "pulmonary-arterial-hypertension",
+  "scenario": "PAH (inalatoria)",
+  "route": "inalatoria",
+  "dose": {
+    "initial": "prima dose 2,5 mcg al boccaglio; se tollerata aumentare a 5 mcg",
+    "frequency": "6-9 inalazioni al giorno secondo necessita' e tollerabilita'",
+    "note": "ogni seduta inalatoria dura alcuni minuti; iniziare/monitorare da centro esperto"
+  },
+  "administration": {
+    "notes": "Inalatoria con nebulizzatore dedicato, 6-9 volte al giorno. Non iniziare se sistolica <85 mmHg. Uso specialistico."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

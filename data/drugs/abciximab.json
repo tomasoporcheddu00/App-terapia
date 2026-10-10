@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "id": "abciximab",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.0.0",
+    "editorialStatus": "placeholder",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [],
+    "notes": "Record placeholder: identità e classe registrate, contenuto clinico ancora da reperire e verificare da fonte primaria.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Abciximab",
+    "inn": null,
+    "brandExamplesIt": []
+  },
+  "synonyms": [],
+  "subclass": null,
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "gpiib-iiia-inhibitors"
+  ],
+  "quickSummary": {
+    "whatItIs": null,
+    "mainUses": [],
+    "mainRisks": [],
+    "essentialMonitoring": []
+  },
+  "clinical": {
+    "authorisedIndications": [],
+    "guidelineIndications": [],
+    "absoluteContraindications": [],
+    "warnings": [],
+    "adverseEffects": [],
+    "overdose": null,
+    "antidoteDrugIds": [],
+    "specialPopulations": {},
+    "alternativeDrugIds": []
+  },
+  "deep": {
+    "simpleExplanation": null,
+    "clinicalExplanation": null,
+    "molecularExplanation": null,
+    "pharmacodynamics": null,
+    "molecularTarget": null,
+    "agonismAntagonism": null,
+    "pharmacokinetics": {},
+    "bibliography": []
+  }
+}

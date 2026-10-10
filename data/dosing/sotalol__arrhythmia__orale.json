@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "id": "sotalol__arrhythmia__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Sotalolo - RCP (Mediately/Torrinomedica/Codifa su base AIFA): indicazioni antiaritmiche, posologia con titolazione lenta, avvertenza torsione di punta e monitoraggio QT.",
+        "url": "https://mediately.co/it/drugs/HO4vrq87grrJzILqk7YktX5Ykqq/sotalolo-hexal-40-cpr-80-mg",
+        "identifier": "Sotalolo RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "sotalol",
+  "indication": "arrhythmia",
+  "scenario": "Aritmie sopraventricolari/ventricolari (titolazione lenta)",
+  "route": "orale",
+  "dose": {
+    "initial": "80 mg al giorno (o 80 mg due volte al giorno)",
+    "titration": "aumento a intervalli di 2-3 giorni monitorando il QT",
+    "maintenance": "160-320 mg al giorno in 2 dosi",
+    "max": "nelle aritmie ventricolari refrattarie 480-640 mg/die solo da specialista, se il beneficio supera il rischio",
+    "renalAdjustment": "Ridurre la dose e allungare gli intervalli secondo la clearance della creatinina"
+  },
+  "administration": {
+    "notes": "Titolazione lenta con controllo dell'ECG (QT/QTc), del potassio/magnesio e della funzione renale. Per le aritmie ventricolari iniziare in ambiente monitorato."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

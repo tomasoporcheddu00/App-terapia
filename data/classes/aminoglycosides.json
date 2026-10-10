@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "id": "aminoglycosides",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Pagina di classe da linee guida ESC 2023 sull'endocardite e position statement SPILF-AEPEI; in questo atlante gli antibiotici sono trattati solo per il ruolo nell'endocardite."
+  },
+  "name": "Aminoglicosidi",
+  "atcGroup": "J01G - Antibatterici aminoglicosidici",
+  "memberDrugIds": [
+    "gentamicin"
+  ],
+  "mechanismSummary": "Legame irreversibile alla subunita' ribosomiale 30S con lettura errata dell'mRNA e blocco della sintesi proteica; l'ingresso nella cellula e' favorito dai beta-lattamici, base della sinergia.",
+  "molecularTarget": "Subunita' ribosomiale batterica 30S",
+  "pharmacodynamics": "Battericidi concentrazione-dipendenti con effetto post-antibiotico prolungato: da cui la monosomministrazione giornaliera.",
+  "classEffects": [
+    "Nell'endocardite si usano solo in ASSOCIAZIONE, per la sinergia con beta-lattamici e glicopeptidi",
+    "La tendenza delle linee guida recenti e' a RIDURRE l'esposizione: omessi in molte forme streptococciche, evitabili negli enterococchi con lo schema amoxicillina + ceftriaxone, limitati ai primi giorni nell'MSSA su valvola nativa",
+    "Nefrotossicita' (di solito reversibile) e ototossicita' cocleo-vestibolare (spesso irreversibile) governano la durata d'uso"
+  ],
+  "sharedContraindications": [
+    "Ipersensibilita' agli aminoglicosidi",
+    "Miastenia gravis"
+  ],
+  "sharedAdverseEffects": [
+    "Nefrotossicita'",
+    "Ototossicita' cocleare e vestibolare, potenzialmente irreversibile",
+    "Blocco neuromuscolare"
+  ],
+  "monitoring": [
+    "Funzione renale almeno bisettimanale",
+    "Livelli plasmatici di picco e valle",
+    "Sintomi cocleari e vestibolari"
+  ],
+  "reversal": "Rimossi dall'emodialisi, che puo' essere impiegata nei sovradosaggi gravi.",
+  "notesOnClassVsMolecule": "Nel paziente cardiologico l'associazione con diuretici dell'ansa, mezzi di contrasto, FANS e RAAS-inibitori aumenta sensibilmente il rischio renale: valutare sempre se lo schema puo' farne a meno."
+}

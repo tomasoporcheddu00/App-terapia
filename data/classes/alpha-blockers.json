@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Alfa-bloccanti: sintesi da RCP/portali AIFA.",
+        "url": "https://www.codifa.it/farmaci/d/doxazosina-aurobindo-doxazosin-mesilato-alfabloccanti",
+        "identifier": "Alfa-bloccanti classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP; confermare su RCP ufficiali e linee guida ESC.",
+    "id": "alpha-blockers"
+  },
+  "name": "Alfa-bloccanti (antagonisti alfa-1)",
+  "atcGroup": "C02CA",
+  "memberDrugIds": [
+    "doxazosin",
+    "prazosin",
+    "urapidil"
+  ],
+  "mechanismSummary": "Blocco dei recettori alfa-1 adrenergici della muscolatura liscia vascolare (e prostatica), con riduzione delle resistenze periferiche e della pressione senza marcata tachicardia riflessa. L'urapidil aggiunge un'azione centrale (agonismo 5-HT1A).",
+  "molecularTarget": "Recettori alfa-1 adrenergici (e 5-HT1A centrali per l'urapidil)",
+  "pharmacodynamics": "Vasodilatazione con riduzione della pressione; miglioramento dei sintomi urinari nell'IPB (doxazosina/prazosina).",
+  "classEffects": [
+    "Riduzione della pressione (add-on) e dei sintomi dell'IPB",
+    "Assenza di tachicardia riflessa marcata",
+    "Ipotensione da prima dose (doxazosina/prazosina) e ortostatica"
+  ],
+  "sharedContraindications": [
+    "Ipersensibilita' alle chinazoline (doxazosina/prazosina)",
+    "Coartazione aortica/shunt AV e gravidanza-allattamento per l'urapidil EV",
+    "Ipotensione/anamnesi ortostatica (uso nell'IPB)"
+  ],
+  "sharedAdverseEffects": [
+    "Ipotensione ortostatica e sincope (specie prima dose)",
+    "Capogiro, cefalea",
+    "Palpitazioni, edema/ritenzione idrica"
+  ],
+  "monitoring": [
+    "Pressione arteriosa (posturale)",
+    "Sintomi urinari (IPB)"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Doxazosina e prazosina sono alfa-1 bloccanti orali: utili come add-on nell'ipertensione (non di prima linea - ALLHAT) e nell'IPB, con il caratteristico 'effetto prima dose' (iniziare bassi, alla sera). L'urapidil, alfa-1 bloccante con azione centrale 5-HT1A, e' impiegato soprattutto per via endovenosa nelle emergenze ipertensive. Attenzione all'interazione con i PDE5-inibitori e alla sindrome dell'iride a bandiera. Dettagli nelle singole schede."
+}

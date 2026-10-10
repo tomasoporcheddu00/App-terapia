@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "potassium-chloride__hypokalemia__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Cloruro di potassio - RCP (Codifa/Torrinomedica/EMpills su base AIFA): reintegro del potassio; EV mai non diluito (letale), farmaco ad alto rischio; controindicato in iperkaliemia/Addison/IR grave.",
+        "url": "https://www.torrinomedica.it/farmaci/schedetecniche/Potassio_Cloruro.asp",
+        "identifier": "Cloruro di potassio RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false. Dosi d'urgenza da adattare ai protocolli locali."
+  },
+  "drugId": "potassium-chloride",
+  "indication": "hypokalemia",
+  "scenario": "Ipokaliemia",
+  "route": "orale",
+  "dose": {
+    "oral": "40-100 mEq/die in 2-4 dosi (max 200 mEq/die adulto; 2-3 mEq/kg bambino)",
+    "iv": "diluito in glucosata 5%/fisiologica; velocita' <=10 mmol/h periferica; emergenza (K<=2 + ECG) fino a ~40 mEq/h da via centrale con ECG, max ~400 mEq/die",
+    "note": "MAI in bolo; mai non diluito"
+  },
+  "administration": {
+    "notes": "Preferire la via orale. EV solo diluito, con limiti di velocita' e ECG. Correggere il magnesio."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

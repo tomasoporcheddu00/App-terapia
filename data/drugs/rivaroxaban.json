@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "id": "rivaroxaban",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Xarelto (rivaroxaban), Bayer - sez. 4.1-4.4, 5.1 (RCP europea/italiana).",
+        "url": "https://www.torrinomedica.it/schede-farmaci/xarelto-20/",
+        "identifier": "Xarelto 15/20 mg; ATC B01AF01",
+        "retrievedAt": "2026-07-18"
+      },
+      {
+        "type": "smpc",
+        "citation": "RCP Xarelto (Registro CE/EMA) - posologia FANV, TVP/EP, PCI e compromissione renale.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2011/20111209112692/anx_112692_it.pdf",
+        "identifier": "Xarelto EMA PI",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Monografia con focus cardiologico (FANV, TVP/EP, dose vascolare 2,5 mg con ASA). Xarelto ha molteplici dosaggi/indicazioni: dettagli completi (profilassi ortopedica 10 mg, pediatria) da RCP integrale. ATC B01AF01. Agente di reversione (andexanet alfa) non nominato nello snippet recuperato: antidoteDrugIds lasciato vuoto in attesa di fonte. Compresse 15/20 mg da assumere con il cibo.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Rivaroxaban",
+    "inn": "rivaroxaban",
+    "brandExamplesIt": [
+      "Xarelto"
+    ]
+  },
+  "synonyms": [],
+  "classIds": [
+    "factor-xa-inhibitors"
+  ],
+  "subclass": "Inibitore diretto del fattore Xa (DOAC)",
+  "classificationStatus": "confirmed",
+  "identity": {
+    "atcCodes": [
+      "B01AF01"
+    ],
+    "formulations": [
+      "compresse rivestite 2,5 mg",
+      "compresse rivestite 10 mg",
+      "compresse rivestite 15 mg",
+      "compresse rivestite 20 mg"
+    ],
+    "potentialRoutes": [
+      "oral"
+    ],
+    "availabilityStatus": "available",
+    "marketingAuthorisationIt": true
+  },
+  "linkedMacroAreaIds": [
+    "atrial-fibrillation",
+    "venous-thromboembolism",
+    "chronic-coronary-syndrome",
+    "peripheral-artery-disease"
+  ],
+  "quickSummary": {
+    "whatItIs": "Anticoagulante orale diretto inibitore del fattore Xa, con dosaggi diversi secondo l'indicazione.",
+    "mainUses": [
+      "Prevenzione di ictus ed embolia sistemica nella FANV",
+      "Trattamento e prevenzione delle recidive di TVP ed EP",
+      "Dose vascolare 2,5 mg due volte/die con ASA nella coronaropatia/arteriopatia periferica"
+    ],
+    "mainRisks": [
+      "Emorragia",
+      "Interazioni con inibitori/induttori forti di CYP3A4 e P-gp"
+    ],
+    "essentialMonitoring": [
+      "Funzione renale",
+      "Segni di sanguinamento"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Prevenzione di ictus ed embolia sistemica in adulti con fibrillazione atriale non valvolare e almeno un fattore di rischio",
+      "Trattamento della TVP e dell'EP e prevenzione delle recidive di TVP ed EP negli adulti",
+      "In associazione ad ASA (o ASA + clopidogrel/ticlopidina), prevenzione degli eventi aterotrombotici in adulti dopo sindrome coronarica acuta con biomarcatori elevati (dose 2,5 mg due volte/die)",
+      "In associazione ad ASA, prevenzione degli eventi aterotrombotici in adulti con coronaropatia o arteriopatia periferica sintomatica ad alto rischio ischemico (dose 2,5 mg due volte/die)",
+      "Profilassi del tromboembolismo venoso in chirurgia ortopedica maggiore dell'anca/ginocchio (dose 10 mg - contesto ortopedico)"
+    ],
+    "guidelineIndications": [
+      "ESC/EACTS 2024 (FA): i DOAC come classe (incluso rivaroxaban) sono preferiti ai VKA nei pazienti eleggibili, eccetto protesi meccaniche e stenosi mitralica moderata-severa (classe I)."
+    ],
+    "offLabelUses": [],
+    "populations": [
+      "FANV (studio ROCKET AF); TVP/EP (EINSTEIN); coronaropatia/PAD (COMPASS)"
+    ],
+    "advantages": [
+      "Monosomministrazione giornaliera nella FANV",
+      "Dose vascolare 2,5 mg per la prevenzione secondaria"
+    ],
+    "limitations": [
+      "Compresse 15/20 mg da assumere con il cibo per l'assorbimento",
+      "Sconsigliato con CrCl <15 mL/min",
+      "Interazioni con inibitori/induttori forti di CYP3A4 e P-gp"
+    ],
+    "alternativeDrugIds": [
+      "apixaban",
+      "edoxaban",
+      "dabigatran",
+      "warfarin"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Sanguinamento clinicamente significativo in atto",
+      "Lesione o condizione a rischio di sanguinamento maggiore",
+      "Trattamento concomitante con altri anticoagulanti (salvo switch/UFH per catetere)",
+      "Epatopatia associata a coagulopatia e rischio emorragico rilevante (es. Child-Pugh B e C)",
+      "Trattamento concomitante con inibitori forti sia di CYP3A4 sia di P-gp (azoli sistemici, inibitori delle proteasi HIV) per i dosaggi 15/20 mg",
+      "Gravidanza e allattamento"
+    ],
+    "relativeContraindications": [],
+    "warnings": [
+      "Valutare la funzione renale; usare con cautela con CrCl 15-29 mL/min; sconsigliato con CrCl <15 mL/min",
+      "Compresse 15 e 20 mg da assumere con il cibo",
+      "Rischio emorragico aumentato con antiaggreganti/FANS concomitanti",
+      "Sospensione perioperatoria secondo rischio; gestione dell'anestesia neurassiale",
+      "Per la dose vascolare 2,5 mg con ASA: cautela in caso di pregresso ictus/TIA"
+    ],
+    "adverseEffects": [
+      "Emorragia (inclusa GI e intracranica)",
+      "Anemia",
+      "Nausea",
+      "Aumento transaminasi"
+    ],
+    "overdose": "Il sovradosaggio aumenta il rischio emorragico; il carbone attivo puo' ridurre l'assorbimento. E' disponibile un agente di reversione per gli inibitori del fattore Xa; considerare PCC/rFVIIa. L'emodialisi non e' efficace (elevato legame proteico).",
+    "antidoteDrugIds": [
+      "andexanet-alfa"
+    ],
+    "monitoring": [
+      "Funzione renale",
+      "Segni di sanguinamento",
+      "Emocromo"
+    ],
+    "discontinuation": "Sospensione perioperatoria secondo rischio; riprendere appena ottenuta l'emostasi.",
+    "specialPopulations": {
+      "renal": "CrCl >50: dose piena. CrCl 15-50: FANV 15 mg/die; TVP/EP fase iniziale 15 mg due volte/die poi valutazione. CrCl <15 mL/min: sconsigliato.",
+      "hepatic": "Controindicato in epatopatia con coagulopatia (Child-Pugh B/C).",
+      "elderly": "Nessun aggiustamento per la sola eta'; maggior rischio emorragico.",
+      "lowBodyWeight": null,
+      "obesity": null,
+      "pregnancy": "Controindicato.",
+      "breastfeeding": "Controindicato."
+    },
+    "dosingRegimenIds": [
+      "rivaroxaban__nvaf-stroke-prevention__oral"
+    ],
+    "interactionRefs": [],
+    "regulatoryItId": "rivaroxaban"
+  },
+  "deep": {
+    "simpleExplanation": "Blocca il fattore Xa riducendo la formazione di coaguli; il dosaggio cambia in base all'indicazione.",
+    "clinicalExplanation": "Inibitore orale diretto e selettivo del fattore Xa; nella FANV una sola dose giornaliera, nella TEV schema iniziale intensificato, nella malattia vascolare stabile una dose bassa (2,5 mg due volte/die) con ASA.",
+    "molecularExplanation": "Si lega in modo reversibile e competitivo al sito attivo del fattore Xa, libero e legato al complesso protrombinasico, riducendo la generazione di trombina.",
+    "molecularTarget": "Fattore Xa",
+    "agonismAntagonism": "Inibitore diretto reversibile",
+    "selectivity": "Altamente selettivo per il fattore Xa",
+    "pharmacodynamics": "Attivita' anti-fattore Xa correlata alla concentrazione; effetto prevedibile senza monitoraggio routinario.",
+    "hemodynamicEffects": "Nessun effetto emodinamico diretto.",
+    "electrophysiologicEffects": "Nessuno.",
+    "pharmacokinetics": {
+      "bioavailability": "10 mg ~80-100%; 15/20 mg elevata solo con il cibo",
+      "timeToPeak": "2-4 ore",
+      "halfLife": "~5-9 ore (fino a 11-13 ore nell'anziano)",
+      "proteinBinding": "~92-95%",
+      "metabolism": "Metabolismo epatico via CYP3A4/CYP2J2 e vie indipendenti dai CYP",
+      "enzymes": [
+        "CYP3A4",
+        "CYP2J2"
+      ],
+      "transporters": [
+        "P-gp",
+        "BCRP"
+      ],
+      "activeMetabolites": [],
+      "elimination": "~1/3 renale immodificato; resto come metaboliti (renale/fecale)",
+      "dialyzability": "Non dializzabile (elevato legame proteico)"
+    },
+    "evidenceIds": [],
+    "recommendationIds": [],
+    "bibliography": [
+      "ROCKET AF (rivaroxaban vs warfarin, NEJM 2011)",
+      "EINSTEIN-DVT/PE (NEJM 2010/2012)",
+      "COMPASS (rivaroxaban +/- ASA, NEJM 2017)",
+      "2024 ESC/EACTS AF Guidelines"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "id": "prothrombin-complex-concentrate__vka-reversal__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Concentrato di complesso protrombinico (Confidex/Beriplex, Octaplex) - RCP AIFA (Torrinomedica/Codifa) + protocolli SIMEU: reversal urgente degli antagonisti della vitamina K; dose secondo INR e peso; rischio trombotico/CID.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/confidex/",
+        "identifier": "Confidex RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EMA-AIFA; smpcVerified=false. Adattare al paziente e ai protocolli locali."
+  },
+  "drugId": "prothrombin-complex-concentrate",
+  "indication": "anticoagulant-reversal",
+  "scenario": "Reversione urgente degli antagonisti della vitamina K",
+  "route": "endovenosa",
+  "dose": {
+    "dosing": "dose individualizzata secondo INR basale e peso corporeo, in base allo schema riportato nell'RCP del prodotto in uso",
+    "administration": "infusione endovenosa (in genere in 15-20 minuti)",
+    "check": "controllo dell'INR pochi minuti dopo la fine dell'infusione, obiettivo INR <1,5; se superiore, dose aggiuntiva secondo schema",
+    "associate": "associare sempre vitamina K1 (fitomenadione)",
+    "note": "il dosaggio ripetuto per la reversione urgente degli AVK non e' supportato da dati clinici"
+  },
+  "administration": {
+    "notes": "EV, uso ospedaliero. Sempre con vitamina K1. Sorvegliare i segni di trombosi/CID. Non superare le dosi previste."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

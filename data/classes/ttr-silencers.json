@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "id": "ttr-silencers",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Amvuttra (vutrisiran) - RCP/EPAR EMA: posologia 25 mg sottocute ogni 3 mesi, riduzione della vitamina A sierica e integrazione raccomandata.",
+        "url": "https://www.pharmastar.it/news/ema/amiloidosi-attr-con-cardiomiopatia-approvazione-europea-per-vutrisiran-47616",
+        "identifier": "Amvuttra RCP/EPAR",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "AIFA - estensione della rimborsabilita' di vutrisiran (Amvuttra) all'ATTR-CM; dati HELIOS-A e HELIOS-B.",
+        "url": "https://www.sismed-it.com/vutrisiran-attr-cm-rimborsabilita-aifa/",
+        "identifier": "AIFA/HELIOS",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Pagina di classe da RCP/EPAR EMA e documentazione AIFA; patisiran e altri silenziatori non sono presenti in questo atlante."
+  },
+  "name": "Silenziatori della transtiretina",
+  "atcGroup": "N07XX - Terapie a RNA interference per l'amiloidosi da transtiretina",
+  "memberDrugIds": [
+    "vutrisiran"
+  ],
+  "mechanismSummary": "Silenziamento post-trascrizionale dell'mRNA della transtiretina mediante RNA interference: il siRNA coniugato a GalNAc viene captato dall'epatocita e degrada selettivamente l'mRNA, riducendo la sintesi della proteina alla fonte.",
+  "molecularTarget": "mRNA della transtiretina (complesso RISC)",
+  "pharmacodynamics": "Riduzione rapida e sostenuta della TTR circolante (oltre l'80%), mantenuta da somministrazioni distanziate nel tempo.",
+  "classEffects": [
+    "Agiscono A MONTE rispetto agli stabilizzatori, riducendo la produzione della proteina invece di stabilizzarla",
+    "Somministrazione sottocutanea trimestrale: impatto organizzativo favorevole per i centri amiloidosi",
+    "Riduzione dei livelli sierici di vitamina A, che richiede integrazione",
+    "Nessun effetto sull'amiloide gia' depositata"
+  ],
+  "sharedContraindications": [
+    "Ipersensibilita' al principio attivo"
+  ],
+  "sharedAdverseEffects": [
+    "Reazioni al sito di iniezione",
+    "Riduzione dei livelli sierici di vitamina A",
+    "Artralgia, dispnea"
+  ],
+  "monitoring": [
+    "Conferma diagnostica di ATTR-CM ed esclusione dell'amiloidosi AL prima di iniziare",
+    "Sintomi oculari suggestivi di carenza di vitamina A",
+    "Aderenza allo schema trimestrale"
+  ],
+  "reversal": "Nessun antidoto: gestione di supporto; l'effetto di silenziamento persiste per mesi.",
+  "notesOnClassVsMolecule": "L'emivita plasmatica e' breve ma la durata d'azione e' di mesi: e' il tipico caso in cui l'emivita non descrive la posologia. Negli studi registrativi una quota rilevante di pazienti assumeva contemporaneamente uno stabilizzatore della TTR."
+}

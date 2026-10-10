@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "amlodipine__hypertension-angina__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Amlodipina - RCP (Mediately/Torrinomedica/Codifa su base AIFA): indicazioni ipertensione/angina, dose 5-10 mg, uso nello scompenso (PRAISE).",
+        "url": "https://www.torrinomedica.it/schede-farmaci/Amlodipina/",
+        "identifier": "Amlodipina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "amlodipine",
+  "indication": "hypertension",
+  "scenario": "Ipertensione / angina",
+  "route": "orale",
+  "dose": {
+    "initial": "5 mg una volta al giorno",
+    "maintenance": "5-10 mg una volta al giorno",
+    "max": "10 mg al giorno"
+  },
+  "administration": {
+    "notes": "Con o senza cibo; evitare il succo di pompelmo."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

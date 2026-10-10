@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "id": "pioglitazone__diabete__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Pioglitazone (anche in associazione con metformina) - RCP (Codifa/Torrinomedica/EMA Competact): controindicazione nello scompenso cardiaco di qualsiasi classe NYHA, ritenzione idrica, carcinoma della vescica, fratture.",
+        "url": "https://www.codifa.it/farmaci/p/pioglitazone-e-metformina-eg-pioglitazone-e-metformina-ipoglicemizzanti-orali",
+        "identifier": "Pioglitazone RCP",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida diabete: pioglitazone non raccomandato nei pazienti con scompenso cardiaco.",
+        "url": "https://academic.oup.com/eurheartj/article/45/15/1298/7513467",
+        "identifier": "ESC 2023 diabete",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Posologia da fonti su base RCP/AIFA o da linee guida citate; smpcVerified=false. Verificare sempre su RCP ufficiale e adattare a funzione renale/epatica."
+  },
+  "drugId": "pioglitazone",
+  "indication": "diabetes",
+  "scenario": "Diabete mellito di tipo 2 (in pazienti senza scompenso cardiaco)",
+  "route": "orale",
+  "dose": {
+    "principio": "posologia secondo la specialita' e la risposta glicemica; le compresse disponibili sono da 15, 30 e 45 mg",
+    "verifica preliminare": "escludere scompenso cardiaco in atto o pregresso (NYHA I-IV), carcinoma della vescica ed ematuria macroscopica non accertata prima di prescrivere"
+  },
+  "administration": {
+    "notes": "Rivalutare a ogni controllo la comparsa di edemi, aumento di peso o dispnea: sono segni di ritenzione idrica e impongono la sospensione. Rischio aumentato in associazione a insulina e FANS."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

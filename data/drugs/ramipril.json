@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "id": "ramipril",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Ramipril - Riassunto delle Caratteristiche del Prodotto / Foglio Illustrativo (rese da portali su base RCP AIFA): controindicazioni (§4.3), avvertenze (§4.4) e interazioni (§4.5).",
+        "url": "https://www.codifa.it/farmaci/r/ramipril-git-ramipril-ace-inibitori",
+        "identifier": "Ramipril RCP §4.3-4.5",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "Pharmamedix - Ramipril: indicazioni, posologia, controindicazioni, interazioni (monografia su base RCP).",
+        "url": "https://www.pharmamedix.com/principio.php?pa=Ramipril",
+        "identifier": "Pharmamedix Ramipril",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "Schede posologiche ramipril (my-personaltrainer, equivalente.it/Egualia su base Banca Dati AIFA): titolazione e dosi per indicazione.",
+        "url": "https://www.my-personaltrainer.it/Foglietti-illustrativi/Ramipril_-_Farmaco_Generico.html",
+        "identifier": "Ramipril posologia",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "ACE-inibitori - meccanismo, effetti e interazioni di classe (Torrinomedica, Santagostino, my-personaltrainer; iperkaliemia da farmaci, Giornale Italiano di Nefrologia).",
+        "url": "https://www.santagostino.it/magazine/ace-inibitori/",
+        "identifier": "ACE-inibitori (classe)",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "Position Paper SIF-SIIA 2015 (Societa' Italiana di Farmacologia / Societa' Italiana dell'Ipertensione Arteriosa), sezione Farmacocinetica di ACE-inibitori e sartani.",
+        "url": "https://sif2022-production.s3.amazonaws.com/uploads/attachment/file_it/1702/sif_position_paper_cardiovascolare_lug15.pdf",
+        "identifier": "SIF-SIIA 2015",
+        "retrievedAt": "2026-07-24"
+      }
+    ],
+    "notes": "Contenuto clinico sintetizzato da fonti secondarie derivate dagli RCP (portali AIFA/foglietti illustrativi e monografie): indicazioni, posologia, controindicazioni (§4.3), avvertenze (§4.4) e interazioni (§4.5). DA CONFERMARE dal revisore sugli RCP ufficiali EMA/AIFA in italiano e sulle linee guida primarie (ESC). Farmacocinetica (§5.2) ancora da completare. Stato: revisione fonti (source-review), non ancora approvato clinicamente.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Ramipril",
+    "inn": "ramipril",
+    "brandExamplesIt": [
+      "Triatec",
+      "Unipril"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "ACE-inibitore (profarmaco)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "ace-inhibitors"
+  ],
+  "quickSummary": {
+    "whatItIs": "ACE-inibitore che riduce la formazione di angiotensina II e la degradazione della bradichinina, con effetto vasodilatatore, antipertensivo e nefroprotettivo.",
+    "mainUses": [
+      "Ipertensione arteriosa essenziale",
+      "Insufficienza cardiaca sintomatica",
+      "Post-infarto miocardico con insufficienza cardiaca",
+      "Prevenzione cardiovascolare nel paziente ad alto rischio",
+      "Nefroprotezione (nefropatia, anche diabetica)"
+    ],
+    "mainRisks": [
+      "Ipotensione (specie da prima dose)",
+      "Iperkaliemia",
+      "Peggioramento della funzione renale",
+      "Angioedema (raro, potenzialmente grave)",
+      "Tosse secca"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa",
+      "Potassio sierico",
+      "Funzione renale (creatinina/eGFR)",
+      "Emocromo nei pazienti a rischio"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipertensione arteriosa essenziale",
+      "Insufficienza cardiaca sintomatica: migliora la sopravvivenza e riduce le ospedalizzazioni",
+      "Trattamento dopo infarto miocardico acuto in presenza di insufficienza cardiaca (a partire da 48 ore, in paziente stabile)",
+      "Riduzione del rischio cardiovascolare (infarto, ictus, morte CV) nel paziente ad alto rischio",
+      "Nefropatia glomerulare incipiente/conclamata (compresa quella diabetica): rallentamento della progressione"
+    ],
+    "guidelineIndications": [
+      "Caposaldo del trattamento dell'insufficienza cardiaca a frazione d'eiezione ridotta e della prevenzione secondaria post-infarto (posizionamento di classe ACE-inibitori; confermare sulla linea guida ESC primaria)"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al ramipril, agli eccipienti o ad altri ACE-inibitori",
+      "Anamnesi di angioedema (ereditario, idiopatico o pregresso con ACE-inibitori/ARB)",
+      "Secondo e terzo trimestre di gravidanza",
+      "Stenosi bilaterale significativa dell'arteria renale o stenosi unilaterale su rene unico funzionante",
+      "Ipotensione o stati emodinamicamente instabili",
+      "Uso concomitante con sacubitril/valsartan (rischio di angioedema; rispettare almeno 36 ore tra i due trattamenti)",
+      "Uso concomitante con aliskiren nei pazienti con diabete mellito o compromissione renale (GFR <60 mL/min/1,73 m2)",
+      "Trattamenti extracorporei che portano il sangue a contatto con superfici caricate negativamente (rischio di reazioni anafilattoidi)"
+    ],
+    "warnings": [
+      "Ipotensione sintomatica, soprattutto alla prima dose e nei pazienti con deplezione idrosalina o in terapia diuretica",
+      "Iperkaliemia: rischio aumentato in insufficienza renale, eta' >70 anni, diabete non controllato, disidratazione, scompenso acuto, acidosi metabolica, uso di sali/integratori di potassio o diuretici risparmiatori di potassio; monitorare il potassio",
+      "Angioedema (sospendere immediatamente); rischio aumentato con mTOR-inibitori, racecadotril e vildagliptin",
+      "Compromissione della funzione renale: monitorare creatinina ed elettroliti, in particolare all'avvio e dopo aumenti di dose",
+      "Rare neutropenia/agranulocitosi, trombocitopenia, anemia e depressione midollare: monitorare l'emocromo nei pazienti a rischio",
+      "Duplice blocco del sistema renina-angiotensina-aldosterone non raccomandato",
+      "Gravidanza: sospendere; non iniziare in gravidanza",
+      "Tosse secca persistente (effetto di classe da bradichinina)"
+    ],
+    "adverseEffects": [
+      "Ipotensione, capogiro, vertigini",
+      "Tosse secca",
+      "Iperkaliemia",
+      "Aumento della creatinina/riduzione della funzione renale",
+      "Cefalea, affaticamento",
+      "Angioedema (raro)",
+      "Reazioni cutanee",
+      "Rare alterazioni ematologiche"
+    ],
+    "overdose": null,
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Compromissione renale: ridurre la dose iniziale e la dose massima in base alla clearance della creatinina (particolare cautela per CrCl <30 mL/min) con monitoraggio stretto di funzione renale ed elettroliti; controindicato in stenosi bilaterale dell'arteria renale.",
+      "hepatic": "Nell'insufficienza epatica la risposta puo' essere aumentata o ridotta: iniziare a dose bassa sotto stretto controllo medico (dettagli da confermare su RCP §4.2/5.2).",
+      "elderly": "Nell'anziano valutare una dose iniziale piu' bassa per il maggior rischio di ipotensione e di iperkaliemia; monitorare funzione renale ed elettroliti.",
+      "pregnancy": "Controindicato nel 2o e 3o trimestre; da evitare in tutta la gravidanza (tossicita' fetale). Sospendere e passare ad alternativa se si programma una gravidanza.",
+      "breastfeeding": "Uso durante l'allattamento generalmente sconsigliato; valutare alternative (confermare su RCP §4.6)."
+    },
+    "alternativeDrugIds": [
+      "enalapril",
+      "lisinopril",
+      "perindopril",
+      "candesartan",
+      "valsartan"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Rilassa e allarga i vasi sanguigni riducendo una sostanza che li restringe (l'angiotensina II): cosi' la pressione scende e il cuore lavora piu' facilmente.",
+    "clinicalExplanation": "Inibendo l'ACE riduce angiotensina II e aldosterone e aumenta la bradichinina: ne derivano riduzione di pre/postcarico, effetto antipertensivo, prevenzione del rimodellamento cardiaco post-infarto e nefroprotezione (dilatazione dell'arteriola efferente con calo della pressione intraglomerulare).",
+    "molecularExplanation": "Il ramipril e' un profarmaco che, attivato a metabolita attivo, inibisce l'enzima di conversione dell'angiotensina (chininasi II) bloccando la conversione di angiotensina I in angiotensina II.",
+    "pharmacodynamics": "Vasodilatazione senza tachicardia riflessa marcata; riduzione della pressione intraglomerulare; l'accumulo di bradichinina spiega tosse secca e, raramente, angioedema.",
+    "molecularTarget": "Enzima di conversione dell'angiotensina (ACE / chininasi II)",
+    "agonismAntagonism": "Inibitore enzimatico",
+    "pharmacokinetics": {
+      "halfLife": "Ramiprilato: cinetica polifasica (fase iniziale ~3 ore, intermedia ~15 ore); fase terminale prolungata per il legame saturabile all'ACE"
+    },
+    "bibliography": [
+      "HOPE (ramipril nella prevenzione CV ad alto rischio) - da citare con fonte primaria",
+      "AIRE (ramipril post-infarto con scompenso) - da citare con fonte primaria"
+    ]
+  }
+}

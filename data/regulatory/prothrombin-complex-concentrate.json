@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "prothrombin-complex-concentrate",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Banca Dati AIFA - concentrato di complesso protrombinico: emoderivato, uso ospedaliero.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/confidex/",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Prescrivibilita' da portale su base Banca Dati AIFA/EMA; confermare sul prontuario aggiornato."
+  },
+  "drugId": "prothrombin-complex-concentrate",
+  "authorisation": "EMA/Nazionale",
+  "marketed": true,
+  "reimbursementClass": "H (OSP)",
+  "supplyRegime": "OSP - uso ospedaliero",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Ospedaliera",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "id": "ezetimibe",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Ezetimibe - RCP (Mediately/Codifa su base AIFA): inibitore dell'assorbimento del colesterolo (NPC1L1), dose 10 mg, add-on a statina o monoterapia, IMPROVE-IT.",
+        "url": "https://www.codifa.it/farmaci/e/ezetimibe",
+        "identifier": "Ezetimibe RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Ezetimibe (Ezetrol) - RCP e monografie di farmacocinetica: emivita di eliminazione ~22 ore per ezetimibe e il metabolita glucuronide, ricircolo enteroepatico.",
+        "url": "https://www.informazionisuifarmaci.it/ezetimibe",
+        "identifier": "RCP - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Ezetimibe",
+    "inn": "ezetimibe",
+    "brandExamplesIt": [
+      "Ezetrol",
+      "Zient"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Inibitore dell'assorbimento intestinale del colesterolo",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "cholesterol-absorption-inhibitors"
+  ],
+  "quickSummary": {
+    "whatItIs": "Farmaco che riduce l'assorbimento intestinale del colesterolo; complementare alle statine (circa 15-20% di riduzione aggiuntiva dell'LDL) o utilizzabile da solo se le statine non sono tollerate.",
+    "mainUses": [
+      "Ipercolesterolemia primaria (in aggiunta a una statina o da solo)",
+      "Ipercolesterolemia familiare omozigote (con statina)",
+      "Sitosterolemia omozigote"
+    ],
+    "mainRisks": [
+      "In genere ben tollerato",
+      "Mialgie (soprattutto in associazione a statine)"
+    ],
+    "essentialMonitoring": [
+      "Profilo lipidico",
+      "Transaminasi (in associazione a statina)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipercolesterolemia primaria: in aggiunta a una statina quando questa non e' sufficiente, oppure da solo quando una statina non e' appropriata o non e' tollerata",
+      "Ipercolesterolemia familiare omozigote (in associazione a una statina)",
+      "Sitosterolemia (fitosterolemia) omozigote",
+      "Riduzione degli eventi cardiovascolari in aggiunta a una statina dopo sindrome coronarica acuta (IMPROVE-IT)"
+    ],
+    "guidelineIndications": [
+      "Secondo farmaco di scelta dopo la statina alla massima dose tollerata per raggiungere l'obiettivo di LDL; alternativa in intolleranza alle statine - confermare su ESC/EAS"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "In associazione a una statina si applicano le controindicazioni della statina (epatopatia attiva, gravidanza e allattamento)"
+    ],
+    "warnings": [
+      "In monoterapia e' generalmente ben tollerato; in associazione a statina valgono le avvertenze della statina (rischio muscolare, transaminasi)",
+      "Non raccomandato nell'insufficienza epatica moderata-grave",
+      "Distanziare dalle resine sequestranti gli acidi biliari (colestiramina): assumere ezetimibe >=2 ore prima o >=4 ore dopo"
+    ],
+    "adverseEffects": [
+      "Disturbi gastrointestinali",
+      "Mialgie",
+      "Aumento delle transaminasi (soprattutto in associazione a statina)",
+      "Cefalea, astenia"
+    ],
+    "overdose": "In caso di sovradosaggio, trattamento sintomatico e di supporto.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico.",
+      "hepatic": "Non raccomandato nell'insufficienza epatica moderata-grave.",
+      "elderly": "Nessun aggiustamento.",
+      "pregnancy": "Non raccomandato (e controindicato se associato a statina).",
+      "breastfeeding": "Non raccomandato."
+    },
+    "alternativeDrugIds": [
+      "bempedoic-acid",
+      "atorvastatin",
+      "rosuvastatin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Riduce il colesterolo che l'intestino assorbe dal cibo; si affianca alla statina per abbassare ancora l'LDL, o si usa da solo se la statina non e' tollerata.",
+    "clinicalExplanation": "Inibitore selettivo dell'assorbimento intestinale del colesterolo (blocco del trasportatore NPC1L1 all'orletto a spazzola); complementare alle statine (~15-20% di riduzione aggiuntiva dell'LDL), con beneficio sugli eventi in add-on a simvastatina dopo SCA (IMPROVE-IT).",
+    "molecularExplanation": "Inibisce il trasportatore NPC1L1 (Niemann-Pick C1-like 1) sull'orletto a spazzola degli enterociti, riducendo l'assorbimento del colesterolo alimentare e biliare.",
+    "pharmacodynamics": "Riduzione dell'assorbimento intestinale del colesterolo (~54%) con compensatorio aumento dell'espressione dei recettori LDL epatici; effetto additivo con le statine.",
+    "molecularTarget": "Trasportatore NPC1L1 (orletto a spazzola intestinale)",
+    "agonismAntagonism": "Inibizione del trasportatore",
+    "pharmacokinetics": {
+      "elimination": "Prevalentemente fecale (circolo enteroepatico)",
+      "food": "Indipendente dai pasti",
+      "notes": "Disponibile anche in associazione fissa con statine o con acido bempedoico",
+      "halfLife": "~22 ore (ezetimibe e il suo metabolita glucuronide attivo); rapida glucuronidazione intestinale ed epatica con ricircolo enteroepatico, eliminazione prevalentemente fecale (~78%). Farmacocinetica non influenzata da eta', sesso, funzione renale"
+    },
+    "bibliography": [
+      "IMPROVE-IT (ezetimibe + simvastatina post-SCA) - da citare con fonte primaria"
+    ]
+  }
+}

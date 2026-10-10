@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "bempedoic-acid",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Acido bempedoico (Nilemdo) - RCP EMA/AIFA (EC Europa/Torrinomedica/Codifa): inibitore ATP-citrato liasi, dose 180 mg, iperuricemia/gotta, rischio tendineo, limite simvastatina, controindicazione in gravidanza; CLEAR Outcomes.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/nilemdo/",
+        "identifier": "Nilemdo RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5; severita' secondo posizionamento RCP e rilevanza clinica.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "bempedoic-acid",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Simvastatina (>40 mg) e pravastatina",
+      "effect": "Aumento dei livelli della statina con rischio di miopatia",
+      "management": "Non superare 40 mg/die di simvastatina; limitare la pravastatina"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Fibrati",
+      "effect": "Aumento dei trigliceridi e riduzione dell'HDL osservati in associazione",
+      "management": "Monitorare trigliceridi e HDL"
+    }
+  ]
+}

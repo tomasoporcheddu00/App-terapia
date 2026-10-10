@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "id": "iloprost",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Iloprost (Ventavis) - RCP EMA/AIFA: analogo della prostaciclina inalatorio per la PAH classe III; 6-9 inalazioni/die; controindicato in sanguinamento/coronaropatia grave; broncospasmo, sincope.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/EPAR/ventavis",
+        "identifier": "Ventavis RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Farmaci specialistici per l'ipertensione polmonare: prescrizione da centri esperti (piano terapeutico/registro AIFA).",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Iloprost",
+    "inn": "iloprost",
+    "brandExamplesIt": [
+      "Ventavis"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Analogo della prostaciclina (inalatorio)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "prostacyclin-pathway"
+  ],
+  "quickSummary": {
+    "whatItIs": "Analogo della prostaciclina somministrato per inalazione con nebulizzatore: agisce direttamente sulle arterie polmonari con meno effetti sistemici, ma richiede 6-9 inalazioni al giorno.",
+    "mainUses": [
+      "Ipertensione arteriosa polmonare primaria (idiopatica) classe funzionale III"
+    ],
+    "mainRisks": [
+      "Broncospasmo",
+      "Ipotensione, sincope",
+      "Sanguinamento (effetto antiaggregante)"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa",
+      "Funzione respiratoria (broncospasmo)",
+      "Aderenza allo schema inalatorio"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento dell'ipertensione arteriosa polmonare primaria (idiopatica) in classe funzionale OMS III, per migliorare i sintomi e la capacita' di esercizio"
+    ],
+    "guidelineIndications": [
+      "Prostaciclina inalatoria: minori effetti sistemici (no catetere), ma richiede molte inalazioni al giorno; utile come add-on - confermare su ESC/ERS"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Condizioni in cui l'effetto sulle piastrine aumenta il rischio di sanguinamento (ulcera peptica attiva, trauma, emorragia intracranica)",
+      "Coronaropatia grave o angina instabile",
+      "Infarto miocardico negli ultimi 6 mesi",
+      "Scompenso cardiaco scompensato non sotto stretta sorveglianza",
+      "Aritmie gravi",
+      "Eventi cerebrovascolari (TIA, ictus) negli ultimi 3 mesi",
+      "Ipertensione polmonare da malattia veno-occlusiva; valvulopatie con disfunzione miocardica non correlata alla PH"
+    ],
+    "warnings": [
+      "Non iniziare se la pressione sistolica e' inferiore a 85 mmHg (rischio di ipotensione)",
+      "Sincope (comune nella PH): evitare sforzi eccessivi; un aumento della sincope puo' indicare insufficienza terapeutica",
+      "Rischio di broncospasmo/respiro sibilante, in particolare nell'iperreattivita' bronchiale/asma; beneficio non stabilito nella BPCO/asma grave",
+      "In caso di edema polmonare considerare una malattia veno-occlusiva polmonare e sospendere",
+      "Evitare il contatto con pelle/occhi e l'ingestione della soluzione"
+    ],
+    "adverseEffects": [
+      "Tosse, cefalea",
+      "Vampate",
+      "Dolore mandibolare",
+      "Ipotensione, sincope",
+      "Broncospasmo",
+      "Nausea"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione, vampate, cefalea; ridurre la dose/sospendere e supporto (effetto di breve durata).",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Cautela (insufficienza grave).",
+      "hepatic": "Cautela (ridurre la frequenza nell'epatopatia).",
+      "elderly": "Cautela.",
+      "pregnancy": "Solo se strettamente necessario.",
+      "breastfeeding": "Cautela."
+    },
+    "alternativeDrugIds": [
+      "treprostinil",
+      "epoprostenol",
+      "selexipag"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Una prostaciclina che si respira col nebulizzatore: agisce sui polmoni con meno effetti sul resto del corpo, ma va inalata 6-9 volte al giorno.",
+    "clinicalExplanation": "Analogo della prostaciclina per via inalatoria: vasodilatazione polmonare selettiva di breve durata (1-2 ore), da cui la necessita' di 6-9 inalazioni/die. Rischio di broncospasmo e ipotensione; effetto antiaggregante.",
+    "molecularExplanation": "Attiva i recettori IP della prostaciclina nella muscolatura liscia vascolare polmonare (vasodilatazione) e nelle piastrine.",
+    "pharmacodynamics": "Vasodilatazione polmonare di breve durata; inibizione dell'aggregazione piastrinica.",
+    "molecularTarget": "Recettori IP della prostaciclina",
+    "agonismAntagonism": "Agonismo del recettore IP",
+    "pharmacokinetics": {
+      "route": "Inalatoria (nebulizzatore)",
+      "halfLife": "~20-30 minuti",
+      "duration": "Vasodilatazione polmonare 1-2 ore"
+    },
+    "bibliography": []
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "empagliflozin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "AIFA/EMA - Jardiance: classe A con condizioni di prescrizione AIFA per le diverse indicazioni.",
+        "url": "https://www.codifa.it/farmaci/j/jardiance-empagliflozin-ipoglicemizzanti-orali",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Classe A con condizioni di prescrizione AIFA differenti per indicazione; confermare su determina AIFA aggiornata."
+  },
+  "drugId": "empagliflozin",
+  "authorisation": "Nazionale (AIFA) / EMA (procedura centralizzata)",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RR (ricetta ripetibile)",
+  "aifaNote": null,
+  "therapeuticPlan": true,
+  "distribution": "Farmacia",
+  "law648_1996": false,
+  "prescriberRestrictions": "Condizioni/piano terapeutico AIFA a seconda dell'indicazione."
+}

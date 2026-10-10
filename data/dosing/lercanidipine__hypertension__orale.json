@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "lercanidipine__hypertension__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Lercanidipina - RCP (Mediately/Codifa/Pharmamedix su base AIFA): indicazione ipertensione lieve-moderata, dose 10-20 mg prima dei pasti, minor edema, controindicazioni renali/epatiche.",
+        "url": "https://www.codifa.it/farmaci/l/lercanidipina-doc-generici-lercanidipina-cloridrato-calcioantagonisti",
+        "identifier": "Lercanidipina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "lercanidipine",
+  "indication": "hypertension",
+  "scenario": "Ipertensione arteriosa lieve-moderata",
+  "route": "orale",
+  "dose": {
+    "initial": "10 mg una volta al giorno, almeno 15 minuti prima dei pasti",
+    "titration": "eventuale aumento a 20 mg (effetto massimo a ~2 settimane; plateau a 20-30 mg)",
+    "maintenance": "10-20 mg una volta al giorno",
+    "max": "20 mg al giorno"
+  },
+  "administration": {
+    "notes": "Assumere a digiuno, almeno 15 minuti prima dei pasti (preferibilmente prima di colazione)."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

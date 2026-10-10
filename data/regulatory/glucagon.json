@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "glucagon",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Banca Dati AIFA - glucagone (GlucaGen HypoKit): ipoglicemia grave; conservazione in frigorifero.",
+        "url": "https://www.codifa.it/farmaci/g/glucagen-hypokit-glucagone-cloridrato-ormoni-glicogenolitici",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "GlucaGen HypoKit in farmacia (ipoglicemia); uso come antidoto in ambito ospedaliero. Confermare classe/regime."
+  },
+  "drugId": "glucagon",
+  "authorisation": "Nazionale (AIFA)",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RR (ricetta ripetibile)",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Farmacia/ospedaliera",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

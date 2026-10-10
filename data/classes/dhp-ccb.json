@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "id": "dhp-ccb",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Calcioantagonisti diidropiridinici: sintesi da RCP/portali AIFA.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/Amlodipina/",
+        "identifier": "DHP classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe diidropiridinici sintetizzata da RCP; confermare su RCP ufficiali e linee guida ESC."
+  },
+  "name": "Calcioantagonisti diidropiridinici",
+  "atcGroup": "C08CA (diidropiridine)",
+  "memberDrugIds": [
+    "amlodipine",
+    "nifedipine",
+    "felodipine",
+    "lercanidipine"
+  ],
+  "mechanismSummary": "Blocco dei canali del calcio di tipo L della muscolatura liscia vascolare: vasodilatazione arteriosa selettiva con riduzione delle resistenze periferiche; a dosi terapeutiche scarso effetto su contrattilita' e conduzione atrioventricolare.",
+  "molecularTarget": "Canali del calcio di tipo L (vascolari)",
+  "pharmacodynamics": "Vasodilatazione arteriosa e riduzione della pressione; nell'angina migliorano l'apporto di ossigeno (anche vasospastica). Assenza di effetto significativo su frequenza e conduzione AV.",
+  "classEffects": [
+    "Riduzione della pressione arteriosa",
+    "Effetto antianginoso (incluso vasospasmo)",
+    "Nessuna depressione rilevante di contrattilita'/conduzione AV"
+  ],
+  "sharedContraindications": [
+    "Ipersensibilita' alle diidropiridine",
+    "Shock cardiogeno",
+    "Stenosi aortica grave / ostruzione all'efflusso",
+    "Angina instabile e infarto miocardico recente",
+    "Ipotensione grave"
+  ],
+  "sharedAdverseEffects": [
+    "Edema periferico (declive)",
+    "Vampate di calore, cefalea",
+    "Palpitazioni/tachicardia riflessa (specie con il rilascio immediato)"
+  ],
+  "monitoring": [
+    "Pressione arteriosa",
+    "Comparsa di edemi periferici"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Le diidropiridine agiscono soprattutto sui vasi (nessun rallentamento di frequenza/conduzione, a differenza di verapamil/diltiazem), quindi sono associabili ai betabloccanti. Differenze: amlodipina e felodipina sono a lunga durata e considerate utilizzabili nello scompenso se serve un antipertensivo; la nifedipina va usata a rilascio prolungato (evitare il rilascio immediato); la lercanidipina da' meno edema. Tutte risentono di CYP3A4 e succo di pompelmo. Dettagli nelle singole schede."
+}

@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "nebivolol__hypertension__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Nebivololo - RCP (Codifa/Torrinomedica/Pharmamedix su base AIFA): indicazioni, posologia, vasodilatazione NO-mediata (SENIORS).",
+        "url": "https://www.codifa.it/principi-attivi/Nebivololo",
+        "identifier": "Nebivololo RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "nebivolol",
+  "indication": "hypertension",
+  "scenario": "Ipertensione arteriosa",
+  "route": "orale",
+  "dose": {
+    "initial": "5 mg una volta al giorno",
+    "maintenance": "5 mg una volta al giorno",
+    "max": "5 mg al giorno (di norma)",
+    "renalAdjustment": "Insufficienza renale: iniziare con 2,5 mg/die"
+  },
+  "administration": {
+    "notes": "Assumibile durante i pasti, alla stessa ora."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

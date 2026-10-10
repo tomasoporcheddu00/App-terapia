@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "id": "acenocoumarol",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": "Curatore clinico",
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": "2026-07-19",
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "AIFA - Nota 97 (Determina DG 1034/2020): prescrivibilita' degli AVK (warfarin, acenocumarolo) e dei NAO/DOAC nella FANV.",
+        "url": "https://www.aifa.gov.it/en/-/adozione-definitiva-della-nota-97-su-terapia-anticoagulante-nei-pazienti-con-fanv",
+        "identifier": "Nota 97",
+        "retrievedAt": "2026-07-18"
+      },
+      {
+        "type": "other",
+        "citation": "AIFA - Aggiornamenti Note 39, 74, 97, 99 in vigore dal 9 luglio 2026 (abrogazione della Scheda di Valutazione e Prescrizione per la NVAF, inclusi warfarin e acenocumarolo).",
+        "url": "https://www.aifa.gov.it/-/aggiornamenti-delle-note-aifa-39-74-97-e-99-in-vigore-dal-9-luglio-2026",
+        "identifier": "Aggiornamento Nota 97 (09/07/2026)",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Acenocumarolo (Sintrom) autorizzato a livello nazionale in Italia. Nell'indicazione FANV rientra nella Nota 97; scheda di prescrizione abrogata dal 09/07/2026. Classe di rimborsabilita', regime di fornitura per confezione e AIC da verificare su banca dati AIFA.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "acenocoumarol",
+  "authorisation": "Autorizzato a livello nazionale in Italia (Sintrom).",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RR (da confermare per confezione/indicazione)",
+  "aifaNote": "Nota 97 (per l'indicazione FANV)",
+  "therapeuticPlan": false,
+  "registry": null,
+  "distribution": null,
+  "law648_1996": false,
+  "prescriberRestrictions": "Nella FANV segue la Nota 97; scheda di valutazione/prescrizione abrogata dall'aggiornamento in vigore dal 9 luglio 2026.",
+  "availableFormulations": [
+    "compresse 1 mg",
+    "compresse 4 mg"
+  ],
+  "verificationDate": "2026-07-18"
+}

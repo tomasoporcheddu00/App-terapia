@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "potassium-chloride",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Cloruro di potassio - RCP (Codifa/Torrinomedica/EMpills su base AIFA): reintegro del potassio; EV mai non diluito (letale), farmaco ad alto rischio; controindicato in iperkaliemia/Addison/IR grave.",
+        "url": "https://www.torrinomedica.it/farmaci/schedetecniche/Potassio_Cloruro.asp",
+        "identifier": "Cloruro di potassio RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "potassium-chloride",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "ACE-inibitori/sartani, inibitori della renina",
+      "effect": "Iperkaliemia (ritenzione)",
+      "management": "Monitorare la potassiemia"
+    },
+    {
+      "severity": "major",
+      "agent": "Diuretici risparmiatori di potassio / MRA",
+      "effect": "Iperkaliemia",
+      "management": "Monitorare; cautela nell'IR"
+    },
+    {
+      "severity": "moderate",
+      "agent": "FANS, trimetoprim, eparina",
+      "effect": "Rischio di iperkaliemia",
+      "management": "Monitorare"
+    }
+  ]
+}

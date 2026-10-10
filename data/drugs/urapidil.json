@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Urapidil (Ebrantil) - RCP (Codifa/Mediately/Torrinomedica su base AIFA): alfa-1 bloccante + agonista centrale 5-HT1A, urgenze/emergenze ipertensive e ipertensione resistente; EV bolo/infusione; controindicato in coartazione aortica/shunt AV.",
+        "url": "https://www.codifa.it/farmaci/u/urapidil-kalceks-urapidil-alfabloccanti",
+        "identifier": "Ebrantil RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Urapidil (Ebrantil) - RCP (Torrinomedica), paragrafo 5.2: emivita sierica ~2,7 ore (1,8-3,9) dopo bolo EV, prolungata nell'anziano e nell'insufficienza epatica/renale.",
+        "url": "https://www.torrinomedica.it/farmaci/sicurezza/ebrantil-azione-sicurezza/",
+        "identifier": "RCP - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false,
+    "id": "urapidil"
+  },
+  "name": {
+    "generic": "urapidil",
+    "inn": "urapidil",
+    "brandExamplesIt": [
+      "Ebrantil"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Alfa-bloccante (alfa-1 antagonista + agonista centrale 5-HT1A)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "alpha-blockers"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antipertensivo con doppio meccanismo (blocca gli alfa-1 periferici e stimola i recettori centrali 5-HT1A) senza tachicardia riflessa; usato soprattutto per via endovenosa nelle emergenze ipertensive.",
+    "mainUses": [
+      "Urgenze ed emergenze ipertensive",
+      "Ipertensione grave o resistente",
+      "Riduzione controllata della pressione in chirurgia"
+    ],
+    "mainRisks": [
+      "Ipotensione",
+      "Capogiro, cefalea"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa (continua nell'uso EV)",
+      "Frequenza cardiaca"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Emergenze ipertensive (es. crisi ipertensive), forme gravi/molto gravi di ipertensione e ipertensione resistente al trattamento",
+      "Riduzione controllata della pressione arteriosa durante e/o dopo un intervento chirurgico",
+      "Ipertensione (formulazione orale a rilascio prolungato)"
+    ],
+    "guidelineIndications": [
+      "Utile nelle emergenze ipertensive per l'assenza di tachicardia riflessa; ridurre la pressione del 20-25% nelle prime ore (evitare cali bruschi) - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Stenosi aortica dell'istmo (coartazione) o shunt artero-venoso (eccetto lo shunt dialitico non emodinamicamente attivo)",
+      "Gravidanza e allattamento (per la formulazione endovenosa)"
+    ],
+    "warnings": [
+      "Non ridurre la pressione troppo rapidamente (rischio di ipoperfusione/ictus ischemico): obiettivo -20/25% nelle prime ore, paziente supino",
+      "Cautela nello scompenso da causa meccanica (stenosi aortica/mitralica, embolia polmonare, malattia pericardica)",
+      "Cautela nell'insufficienza epatica/renale e nel trauma cranico (segnalato aumento della pressione intracranica)",
+      "Interazione con la cimetidina (aumento dei livelli di urapidil)",
+      "Non associare a un altro antipertensivo finche' non e' esaurito l'effetto del precedente"
+    ],
+    "adverseEffects": [
+      "Capogiro, cefalea",
+      "Nausea",
+      "Ipotensione, palpitazioni",
+      "Astenia"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione; posizione supina, fluidi ed eventuali vasopressori.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Cautela (ridurre nell'insufficienza moderata-grave).",
+      "hepatic": "Cautela.",
+      "elderly": "Cautela.",
+      "pregnancy": "Controindicato (EV).",
+      "breastfeeding": "Controindicato (EV)."
+    },
+    "alternativeDrugIds": [
+      "doxazosin",
+      "prazosin",
+      "labetalol"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un antipertensivo usato soprattutto in vena nelle emergenze: abbassa la pressione senza far accelerare il cuore; la pressione va ridotta gradualmente, non di colpo.",
+    "clinicalExplanation": "Doppio meccanismo: antagonismo alfa-1 periferico (vasodilatazione) e agonismo centrale dei recettori 5-HT1A (riduzione del tono simpatico, assenza di tachicardia riflessa). EV nelle emergenze ipertensive, con formulazione orale a rilascio prolungato per il mantenimento.",
+    "molecularExplanation": "Blocca i recettori alfa-1 adrenergici periferici e agonizza i recettori serotoninergici 5-HT1A centrali.",
+    "pharmacodynamics": "Riduzione delle resistenze periferiche e della pressione senza tachicardia riflessa.",
+    "molecularTarget": "Recettori alfa-1 adrenergici (periferici) e 5-HT1A (centrali)",
+    "agonismAntagonism": "Antagonismo alfa-1 / agonismo 5-HT1A",
+    "pharmacokinetics": {
+      "route": "Endovenosa (bolo/infusione) e orale a rilascio prolungato",
+      "onset": "Ipotensione entro 5-10 minuti (EV)",
+      "halfLife": "~2,7 ore (range 1,8-3,9) dopo bolo endovenoso; emivita di distribuzione ~35 minuti. Metabolismo epatico ed eliminazione in parte renale (50-70%); prolungata nell'anziano e nell'insufficienza epatica/renale"
+    },
+    "bibliography": []
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "acoramidis",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Commissione Europea - acoramidis (Beyonttra): autorizzazione all'immissione in commercio nell'UE (febbraio 2025) per l'ATTR-CM.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2025/20250210165087/anx_165087_it.pdf",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Autorizzato dalla Commissione Europea nel febbraio 2025. Disponibilita' effettiva, classe di rimborso e piano terapeutico in Italia DA VERIFICARE su AIFA prima della prescrizione."
+  },
+  "drugId": "acoramidis",
+  "authorisation": "EMA/Nazionale",
+  "marketed": true,
+  "reimbursementClass": "Da definire",
+  "supplyRegime": "RNRL - prescrizione limitativa specialistica",
+  "aifaNote": null,
+  "therapeuticPlan": true,
+  "distribution": "Distribuzione diretta/per conto",
+  "law648_1996": false,
+  "prescriberRestrictions": "Centri esperti in amiloidosi cardiaca"
+}

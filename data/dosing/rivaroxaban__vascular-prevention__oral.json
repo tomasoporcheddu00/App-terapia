@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "id": "rivaroxaban__vascular-prevention__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Xarelto (rivaroxaban) sez. 4.2 - dose vascolare 2,5 mg due volte/die in associazione ad ASA (post-SCA, coronaropatia/arteriopatia periferica).",
+        "url": "https://www.torrinomedica.it/schede-farmaci/xarelto-20/",
+        "identifier": "Xarelto 2,5 mg",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Dose 'vascolare' sempre in associazione ad ASA (o ASA + clopidogrel/ticlopidina nel post-SCA). id indicazione da riconciliare col vocabolario.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "rivaroxaban",
+  "indication": "vascular-prevention",
+  "scenario": "Prevenzione aterotrombotica in coronaropatia/arteriopatia periferica o post-SCA (con ASA)",
+  "route": "oral",
+  "formulation": "compresse 2,5 mg",
+  "population": "adult-standard",
+  "dose": {
+    "loading": null,
+    "initial": "2,5 mg due volte al giorno",
+    "interval": "ogni 12 ore",
+    "maintenance": "2,5 mg due volte al giorno in associazione ad ASA 75-100 mg/die",
+    "target": null,
+    "max": "5 mg/die (come 2,5 mg x2)",
+    "titration": null,
+    "duration": "A lungo termine secondo rischio/beneficio",
+    "weightBased": null,
+    "cumulative": null,
+    "renalAdjustment": "Cautela con CrCl 15-29 mL/min; sconsigliato con CrCl <15 mL/min.",
+    "hepaticAdjustment": "Controindicato in epatopatia con coagulopatia (Child-Pugh B/C).",
+    "elderly": "Nessun aggiustamento per la sola eta'.",
+    "pregnancy": "Controindicato.",
+    "dialysis": "Sconsigliato."
+  },
+  "administration": {
+    "preparation": null,
+    "solvent": null,
+    "concentration": null,
+    "rate": null,
+    "access": null,
+    "notes": "La compressa da 2,5 mg puo' essere assunta con o senza cibo. Attenzione all'anamnesi di ictus/TIA."
+  },
+  "monitoring": [
+    "Segni di sanguinamento",
+    "Funzione renale"
+  ],
+  "stoppingCriteria": [
+    "Emorragia",
+    "Chirurgia: sospensione secondo rischio"
+  ],
+  "approvalEvidence": {
+    "primarySourceVerified": false,
+    "smpcVerified": true,
+    "clinicalReviewDone": true,
+    "verificationDate": "2026-07-18",
+    "reviewer": "Curatore clinico"
+  }
+}

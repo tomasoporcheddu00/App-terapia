@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "id": "enalapril__hypertension__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Enalapril - RCP (rese da Codifa/Mediately/Torrinomedica su base AIFA): indicazioni, posologia §4.2, avvertenze e interazioni.",
+        "url": "https://www.codifa.it/farmaci/e/enalapril-eg-enalapril-maleato-ace-inibitori",
+        "identifier": "Enalapril RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "enalapril",
+  "indication": "hypertension",
+  "scenario": "Ipertensione arteriosa",
+  "route": "orale",
+  "dose": {
+    "initial": "5 mg una volta al giorno",
+    "titration": "aumento secondo risposta pressoria",
+    "maintenance": "10-20 mg al giorno",
+    "max": "40 mg al giorno",
+    "renalAdjustment": "RAAS attivato/deplezione di volume o diuretici: iniziare con dose <=5 mg sotto controllo; sospendere il diuretico 2-3 giorni prima se possibile"
+  },
+  "administration": {
+    "notes": "Se possibile sospendere il diuretico 2-3 giorni prima dell'avvio; monitorare funzione renale e potassio."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

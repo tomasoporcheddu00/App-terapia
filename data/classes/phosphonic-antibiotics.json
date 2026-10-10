@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "id": "phosphonic-antibiotics",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Pagina di classe da linee guida ESC 2023 sull'endocardite e position statement SPILF-AEPEI; in questo atlante gli antibiotici sono trattati solo per il ruolo nell'endocardite."
+  },
+  "name": "Antibiotici fosfonici",
+  "atcGroup": "J01XX01 - Fosfomicina",
+  "memberDrugIds": [
+    "fosfomycin"
+  ],
+  "mechanismSummary": "Inibizione della MurA (UDP-N-acetilglucosamina enolpiruvil transferasi), primo passaggio della sintesi del peptidoglicano; meccanismo unico senza resistenza crociata.",
+  "molecularTarget": "Enzima MurA della sintesi del peptidoglicano",
+  "pharmacodynamics": "Battericidi; l'assenza di resistenza crociata li rende utili nelle combinazioni difficili.",
+  "classEffects": [
+    "Nell'endocardite la fosfomicina endovenosa e' un'opzione di salvataggio in ASSOCIAZIONE (tipicamente con daptomicina) nei Gram-positivi multiresistenti",
+    "Mai in monoterapia: la resistenza si sviluppa rapidamente",
+    "La formulazione ORALE in granulato ha indicazione urologica e NON e' utilizzabile per l'endocardite"
+  ],
+  "sharedContraindications": [
+    "Ipersensibilita' alla fosfomicina"
+  ],
+  "sharedAdverseEffects": [
+    "Ipokaliemia",
+    "Sovraccarico di sodio ed edema",
+    "Disturbi gastrointestinali"
+  ],
+  "monitoring": [
+    "Sodio e potassio sierici",
+    "Stato volemico e peso",
+    "Emocolture di controllo"
+  ],
+  "reversal": "Nessun antidoto: correzione elettrolitica e supporto; rimossa dall'emodialisi.",
+  "notesOnClassVsMolecule": "Il carico di sodio della formulazione endovenosa e' la criticita' specifica nel paziente con scompenso cardiaco: va conteggiato nel bilancio idro-salino."
+}

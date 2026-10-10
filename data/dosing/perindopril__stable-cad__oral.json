@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "perindopril__stable-cad__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Perindopril - RCP (rese da Torrinomedica/Mediately/Egualia su base AIFA): indicazioni, posologia §4.2, controindicazioni.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/Perindopril_teva_italia/",
+        "identifier": "Perindopril RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "perindopril",
+  "indication": "stable-cad",
+  "scenario": "Coronaropatia stabile",
+  "route": "orale",
+  "dose": {
+    "initial": "5 mg (arginina) una volta al giorno per 2 settimane",
+    "titration": "se ben tollerata e funzione renale adeguata, aumentare a 10 mg una volta al giorno",
+    "maintenance": "10 mg al giorno",
+    "elderly": "Iniziare con 2,5 mg, poi 5 mg dopo 1 settimana, quindi 10 mg secondo tollerabilita'"
+  },
+  "administration": {
+    "notes": "Riduzione degli eventi cardiaci nel post-infarto/rivascolarizzazione; assumere prima del pasto."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

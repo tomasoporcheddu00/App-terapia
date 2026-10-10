@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "id": "aspirin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Cardioaspirin (acido acetilsalicilico) sez. 4.5 - interazioni con farmaci che alterano l'emostasi e con metotressato.",
+        "url": "https://www.codifa.it/farmaci/c/cardioaspirin-acido-acetilsalicilico-antiaggreganti-piastrinici-antipiretici-analgesici-fans",
+        "identifier": "Cardioaspirin 4.5",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Categorie principali; elenco 4.5 completo da verificare sulla RCP integrale.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "aspirin",
+  "items": [
+    {
+      "agent": "Altri antiaggreganti e anticoagulanti",
+      "effect": "Aumento del rischio emorragico",
+      "management": "Valutare rischio/beneficio (la DAPT e' spesso intenzionale)",
+      "severity": "major"
+    },
+    {
+      "agent": "FANS (incluso ibuprofene)",
+      "effect": "Possibile interferenza con l'effetto antiaggregante e aumento del rischio gastrointestinale",
+      "management": "Cautela; distanziare le somministrazioni",
+      "severity": "moderate"
+    },
+    {
+      "agent": "Metotressato (dosi elevate)",
+      "effect": "Aumento della tossicita' del metotressato",
+      "management": "Evitare l'associazione",
+      "severity": "major"
+    },
+    {
+      "agent": "Corticosteroidi",
+      "effect": "Aumento del rischio di sanguinamento gastrointestinale",
+      "management": "Cautela",
+      "severity": "moderate"
+    }
+  ]
+}

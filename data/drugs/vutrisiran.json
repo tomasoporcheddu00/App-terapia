@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "id": "vutrisiran",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Amvuttra (vutrisiran) - RCP/EPAR EMA: posologia 25 mg sottocute ogni 3 mesi, riduzione della vitamina A sierica e integrazione raccomandata.",
+        "url": "https://www.pharmastar.it/news/ema/amiloidosi-attr-con-cardiomiopatia-approvazione-europea-per-vutrisiran-47616",
+        "identifier": "Amvuttra RCP/EPAR",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "AIFA - estensione della rimborsabilita' di vutrisiran (Amvuttra) all'ATTR-CM; dati HELIOS-A e HELIOS-B.",
+        "url": "https://www.sismed-it.com/vutrisiran-attr-cm-rimborsabilita-aifa/",
+        "identifier": "AIFA/HELIOS",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da RCP EMA/AIFA e da fonti secondarie derivate dagli RCP (Torrinomedica/Codifa/Mediately, registro comunitario EC). DA CONFERMARE sugli RCP ufficiali. Stato: revisione fonti (source-review), non ancora approvato. Farmaci specialistici per amiloidosi cardiaca e cardiomiopatia ipertrofica: prescrizione in centri esperti, con piano terapeutico e criteri diagnostici stringenti. A differenza degli stabilizzatori agisce a monte silenziando la produzione di TTR; nello studio registrativo una quota rilevante di pazienti assumeva contemporaneamente tafamidis.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Vutrisiran",
+    "inn": "vutrisiran",
+    "brandExamplesIt": [
+      "Amvuttra"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Terapia a RNA interference (siRNA) che silenzia la transtiretina",
+  "identity": {
+    "atcCodes": [
+      "N07XX21"
+    ],
+    "formulations": [
+      "Soluzione iniettabile 25 mg in siringa preriempita"
+    ],
+    "potentialRoutes": [
+      "sottocutanea"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "ttr-silencers"
+  ],
+  "quickSummary": {
+    "whatItIs": "Terapia a RNA interference coniugata a GalNAc che silenzia la produzione epatica di transtiretina. A differenza degli stabilizzatori agisce a monte, riducendo la proteina alla fonte, con una sola iniezione ogni 3 mesi.",
+    "mainUses": [
+      "Amiloidosi da transtiretina wild type o ereditaria in pazienti adulti con cardiomiopatia (ATTR-CM)",
+      "Amiloidosi ereditaria da transtiretina con polineuropatia in stadio 1 o 2 (indicazione originaria)"
+    ],
+    "mainRisks": [
+      "Riduzione dei livelli sierici di vitamina A, che richiede integrazione",
+      "Reazioni al sito di iniezione",
+      "Come per gli altri farmaci della classe, nessun effetto sull'amiloide gia' depositata"
+    ],
+    "essentialMonitoring": [
+      "Conferma diagnostica di ATTR-CM ed esclusione dell'amiloidosi AL prima di iniziare",
+      "Sintomi oculari suggestivi di carenza di vitamina A (es. cecita' notturna)",
+      "Aderenza allo schema trimestrale"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento dell'amiloidosi da transtiretina wild type o ereditaria in pazienti adulti affetti da cardiomiopatia (ATTR-CM)",
+      "Trattamento dell'amiloidosi ereditaria da transtiretina (hATTR) in pazienti adulti con polineuropatia in stadio 1 o 2"
+    ],
+    "guidelineIndications": [
+      "Nello studio HELIOS-B vutrisiran ha migliorato la sopravvivenza e ridotto ospedalizzazioni e progressione di malattia nell'ATTR-CM, in una popolazione in cui una quota rilevante di pazienti era gia' in terapia con tafamidis",
+      "Farmacodinamica: nello studio HELIOS-A la riduzione media dei livelli sierici di TTR raggiungeva circa il 73% gia' alla settimana 6, con riduzioni dell'83% e dell'88% rispettivamente a 9 e 18 mesi",
+      "In Italia AIFA ha esteso la rimborsabilita' all'indicazione ATTR-CM: verificare i criteri e il piano terapeutico aggiornati"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti"
+    ],
+    "warnings": [
+      "Il trattamento determina una RIDUZIONE DEI LIVELLI SIERICI DI VITAMINA A: e' raccomandata l'integrazione orale di circa, ma non superiore a, 2500-3000 UI di vitamina A al giorno",
+      "I pazienti che sviluppano sintomi oculari suggestivi di carenza di vitamina A (per esempio cecita' notturna) devono essere indirizzati a un oculista",
+      "La somministrazione e' sottocutanea una volta ogni tre mesi, da parte di un operatore sanitario oppure in autosomministrazione da parte del paziente o del caregiver",
+      "La diagnosi di ATTR-CM va confermata e l'amiloidosi AL esclusa prima di iniziare"
+    ],
+    "adverseEffects": [
+      "Reazioni al sito di iniezione",
+      "Artralgia",
+      "Dispnea",
+      "Riduzione dei livelli sierici di vitamina A"
+    ],
+    "overdose": "Non sono disponibili dati specifici sul sovradosaggio: gestione di supporto e sorveglianza clinica. Non esiste un antidoto specifico.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Fare riferimento all'RCP; l'esperienza nell'insufficienza renale severa e' limitata.",
+      "hepatic": "Fare riferimento all'RCP; l'esperienza nell'insufficienza epatica severa e' limitata.",
+      "elderly": "Utilizzato nella popolazione anziana degli studi registrativi senza aggiustamenti sistematici.",
+      "pregnancy": "Da evitare salvo necessita' (la riduzione della vitamina A puo' essere teratogena); consultare l'RCP.",
+      "breastfeeding": "Consultare l'RCP."
+    },
+    "alternativeDrugIds": [
+      "tafamidis",
+      "acoramidis"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' una puntura sottocute ogni tre mesi che 'spegne' la produzione della proteina responsabile dell'amiloidosi, agendo sul fegato. Richiede di prendere un integratore di vitamina A, perche' il farmaco ne abbassa i livelli nel sangue.",
+    "clinicalExplanation": "siRNA coniugato a GalNAc per la captazione epatocitaria, che degrada l'mRNA della transtiretina riducendone la sintesi di oltre l'80%. Nello studio HELIOS-B ha migliorato la sopravvivenza e ridotto le ospedalizzazioni nell'ATTR-CM, anche in aggiunta al tafamidis. La somministrazione trimestrale semplifica l'organizzazione del follow-up nei centri amiloidosi. Richiede integrazione di vitamina A.",
+    "molecularExplanation": "Il siRNA, coniugato a N-acetilgalattosamina per il legame al recettore delle asialoglicoproteine dell'epatocita, si incorpora nel complesso RISC e degrada selettivamente l'mRNA della transtiretina, riducendo la sintesi della proteina sia wild type sia variante.",
+    "pharmacodynamics": "Riduzione rapida e sostenuta della TTR sierica (circa 73% a 6 settimane, 83-88% a 9-18 mesi), mantenuta dallo schema trimestrale.",
+    "molecularTarget": "mRNA della transtiretina (silenziamento post-trascrizionale via RISC)",
+    "agonismAntagonism": "Silenziamento genico (RNA interference)",
+    "pharmacokinetics": {
+      "route": "Sottocutanea, una volta ogni 3 mesi",
+      "halfLife": "Emivita plasmatica breve, dissociata dalla durata d'azione: l'effetto sul silenziamento della TTR persiste per mesi grazie alla captazione epatocitaria",
+      "note": "Coniugazione GalNAc per il targeting epatico"
+    },
+    "bibliography": []
+  }
+}

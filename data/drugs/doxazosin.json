@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Doxazosina - RCP (Codifa/Torrinomedica/EC Europa su base AIFA): alfa-1 bloccante, ipertensione (non prima linea) e IPB; ipotensione da prima dose, iride a bandiera, interazione con PDE5-inibitori.",
+        "url": "https://www.codifa.it/farmaci/d/doxazosina-aurobindo-doxazosin-mesilato-alfabloccanti",
+        "identifier": "Doxazosina RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Doxazosina - monografie di farmacocinetica (FDA/DailyMed): emivita di eliminazione ~22 ore (22-30 ore), metabolismo epatico.",
+        "url": "https://en.wikipedia.org/wiki/Doxazosin",
+        "identifier": "Monografia - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false,
+    "id": "doxazosin"
+  },
+  "name": {
+    "generic": "doxazosina",
+    "inn": "doxazosina",
+    "brandExamplesIt": [
+      "Cardura",
+      "Benur"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Alfa-bloccante (antagonista alfa-1 selettivo)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "alpha-blockers"
+  ],
+  "quickSummary": {
+    "whatItIs": "Alfa-1 bloccante che dilata i vasi (e rilassa la muscolatura di prostata e collo vescicale): utile nell'ipertensione (come aggiuntivo) e nei sintomi dell'ipertrofia prostatica.",
+    "mainUses": [
+      "Ipertensione essenziale (seconda/terza linea, add-on)",
+      "Iperplasia prostatica benigna (sintomi urinari)"
+    ],
+    "mainRisks": [
+      "Ipotensione ortostatica/sincope da prima dose",
+      "Capogiro, edema",
+      "Sindrome dell'iride a bandiera (chirurgia della cataratta)"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa (posturale)",
+      "Sintomi urinari (IPB)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipertensione essenziale (non di prima linea): in monoterapia nei pazienti non responsivi/controindicati ad altri agenti, oppure come trattamento di seconda-terza linea in associazione",
+      "Trattamento sintomatico dell'iperplasia prostatica benigna"
+    ],
+    "guidelineIndications": [
+      "Non di prima linea nell'ipertensione (ALLHAT: peggiori esiti sullo scompenso rispetto al diuretico); utile come add-on, in particolare con IPB concomitante - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alle chinazoline (prazosina, terazosina, doxazosina)",
+      "Per l'uso nell'IPB: anamnesi di ipotensione ortostatica; monoterapia nei pazienti con incontinenza da rigurgito, anuria o insufficienza renale progressiva",
+      "Ipotensione (uso nell'IPB)"
+    ],
+    "warnings": [
+      "Ipotensione ortostatica e sincope, soprattutto con la prima dose: iniziare con 1 mg, preferibilmente alla sera",
+      "Cautela nelle patologie cardiache acute (edema polmonare da stenosi aortica/mitralica, scompenso ad alta gittata, insufficienza ventricolare destra da embolia polmonare/versamento pericardico, insufficienza ventricolare sinistra con basse pressioni di riempimento)",
+      "Sindrome dell'iride a bandiera intraoperatoria (chirurgia della cataratta): informare l'oculista",
+      "Cautela con gli inibitori della PDE5 (ipotensione sintomatica additiva)",
+      "Insufficienza epatica: cautela"
+    ],
+    "adverseEffects": [
+      "Ipotensione ortostatica, capogiro",
+      "Cefalea, astenia",
+      "Palpitazioni, edema",
+      "Sonnolenza, nausea",
+      "Sincope (prima dose)"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione marcata; posizione supina, fluidi ed eventuali vasopressori (la dialisi non e' utile per l'elevato legame proteico).",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico.",
+      "hepatic": "Cautela (metabolismo epatico); evitare nella grave.",
+      "elderly": "Iniziare a dose bassa (rischio ortostatico).",
+      "pregnancy": "Solo se necessario.",
+      "breastfeeding": "Cautela."
+    },
+    "alternativeDrugIds": [
+      "prazosin",
+      "amlodipine"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Rilassa i vasi e la prostata: abbassa la pressione ed aiuta a urinare meglio; la prima dose puo' dare un calo di pressione, quindi si inizia bassa e alla sera.",
+    "clinicalExplanation": "Antagonista selettivo alfa-1 adrenergico: riduce le resistenze periferiche senza tachicardia riflessa marcata e rilassa la muscolatura liscia prostatica/del collo vescicale. Non di prima linea nell'ipertensione (ALLHAT); utile con IPB concomitante.",
+    "molecularExplanation": "Blocca i recettori alfa-1 adrenergici della muscolatura liscia vascolare e prostatica.",
+    "pharmacodynamics": "Riduzione delle resistenze vascolari periferiche e della pressione; miglioramento del flusso urinario nell'IPB.",
+    "molecularTarget": "Recettori alfa-1 adrenergici",
+    "agonismAntagonism": "Antagonismo alfa-1 selettivo",
+    "pharmacokinetics": {
+      "route": "Orale (pronto rilascio e GITS)",
+      "duration": "~24 ore (monosomministrazione)",
+      "metabolism": "Epatico",
+      "halfLife": "~22 ore (fino a 22-30 ore; eliminazione bifasica), non influenzata da eta', funzione renale o dose: consente la monosomministrazione giornaliera. Metabolismo epatico, elevato legame proteico (~98%)"
+    },
+    "bibliography": []
+  }
+}

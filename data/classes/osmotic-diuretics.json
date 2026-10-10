@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "id": "osmotic-diuretics",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Diuretici osmotici: sintesi da RCP AIFA.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/mannitolo_18pc_eurospital/",
+        "identifier": "Osmotici classe",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP; confermare su RCP ufficiali e protocolli locali."
+  },
+  "name": "Diuretici osmotici",
+  "atcGroup": "B05BC (soluzioni per diuresi osmotica)",
+  "memberDrugIds": [
+    "mannitol"
+  ],
+  "mechanismSummary": "Soluzioni ipertoniche di sostanze osmoticamente attive non riassorbite dal tubulo renale: richiamano acqua dallo spazio intracellulare e la trascinano nelle urine, riducendo l'edema cerebrale e inducendo diuresi.",
+  "molecularTarget": "Gradiente osmotico (tubulo renale e compartimento extracellulare)",
+  "pharmacodynamics": "Disidratazione cellulare con transitoria espansione del volume intravascolare, seguita da diuresi osmotica; riduzione della pressione intracranica e oculare.",
+  "classEffects": [
+    "Riduzione rapida della pressione intracranica e oculare",
+    "Diuresi osmotica indipendente dai trasportatori tubulari",
+    "Rischio di sovraccarico acuto di volume (rilevante nel cardiopatico)",
+    "Squilibri elettrolitici e iperosmolarita'; nefrosi osmotica se la diuresi non e' mantenuta"
+  ],
+  "sharedContraindications": [
+    "Anuria da grave compromissione renale, congestione/edema polmonare, emorragia intracranica in atto, disidratazione grave"
+  ],
+  "sharedAdverseEffects": [
+    "Sovraccarico di volume, scompenso cardiaco, edema polmonare",
+    "Iponatriemia da diluizione e altri squilibri elettrolitici",
+    "Insufficienza renale/nefrosi osmotica",
+    "Cefalea, nausea, effetto rebound sulla pressione intracranica"
+  ],
+  "monitoring": [
+    "Diuresi oraria (mantenere 30-50 mL/ora)",
+    "Funzione renale, elettroliti e osmolarita' plasmatica",
+    "Bilancio dei fluidi e segni di sovraccarico"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Il mannitolo e' il rappresentante principale. A differenza dei diuretici dell'ansa e tiazidici non agisce su un trasportatore ma per gradiente osmotico: e' quindi utile nell'ipertensione endocranica, ma comporta un'espansione volemica transitoria che puo' scompensare un cardiopatico. Dosi e dettagli nella scheda del farmaco."
+}

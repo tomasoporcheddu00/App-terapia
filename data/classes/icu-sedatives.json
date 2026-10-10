@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "icu-sedatives",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Sedativi in terapia intensiva: sintesi da RCP EMA/AIFA.",
+        "url": "https://www.codifa.it/farmaci/d/dexdor-dexmedetomidina-cloridrato-ipnotici-sedativi",
+        "identifier": "Sedativi classe",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP/EMA; confermare su RCP ufficiali e protocolli locali di sedoanalgesia."
+  },
+  "name": "Sedativi e ipnotici in terapia intensiva",
+  "atcGroup": "N01AX / N05CD / N05CM (anestetici, ipnotici e sedativi)",
+  "memberDrugIds": [
+    "propofol",
+    "midazolam",
+    "dexmedetomidine"
+  ],
+  "mechanismSummary": "Farmaci endovenosi usati per indurre e mantenere la sedazione del paziente critico: potenziatori del GABA-A (propofol, midazolam) e agonisti alfa-2 adrenergici (dexmedetomidina). Si titolano su scale di sedazione validate (es. RASS).",
+  "molecularTarget": "Recettore GABA-A (propofol, midazolam); recettore alfa-2 adrenergico (dexmedetomidina)",
+  "pharmacodynamics": "Sedazione dose-dipendente con effetti emodinamici e respiratori diversi secondo la molecola: propofol e midazolam deprimono il respiro, la dexmedetomidina sostanzialmente no ma rallenta il cuore.",
+  "classEffects": [
+    "Sedazione titolabile del paziente critico, in genere associata a un analgesico (nessuno di questi farmaci e' analgesico)",
+    "Ipotensione comune a tutta la classe (marcata con propofol, simpaticolitica con dexmedetomidina)",
+    "Depressione respiratoria con propofol e midazolam; assente o minima con dexmedetomidina",
+    "Rischio di sedazione prolungata, delirium, tolleranza e astinenza con l'uso protratto"
+  ],
+  "sharedContraindications": [
+    "Ipersensibilita' allo specifico agente; controindicazioni proprie di ciascuna molecola (allergia a soia/arachidi per il propofol, blocco AV avanzato non stimolato e ipotensione non controllata per la dexmedetomidina, insufficienza respiratoria grave per il midazolam)"
+  ],
+  "sharedAdverseEffects": [
+    "Ipotensione",
+    "Bradicardia (soprattutto dexmedetomidina, anche propofol)",
+    "Depressione respiratoria (propofol, midazolam)",
+    "Sedazione prolungata e delirium; astinenza dopo uso protratto"
+  ],
+  "monitoring": [
+    "Livello di sedazione con scale validate (RASS) e rivalutazione quotidiana",
+    "Pressione arteriosa, frequenza cardiaca ed ECG",
+    "Ventilazione e ossigenazione; con il propofol prolungato anche lattati, CK, trigliceridi e potassio"
+  ],
+  "reversal": "Solo il midazolam ha un antagonista specifico (flumazenil), da usare con cautela per il rischio di convulsioni e risedazione. Per propofol e dexmedetomidina non esistono antidoti: si sospende l'infusione e si supportano circolo e respiro.",
+  "notesOnClassVsMolecule": "Propofol: risveglio piu' rapido e facile titolabilita', ma piu' ipotensione e rischio di sindrome da infusione (PRIS) con dosi >4 mg/kg/h protratte; non usabile per la sedazione in terapia intensiva sotto i 16 anni. Midazolam: unico con antidoto, ma si accumula nelle sedazioni prolungate (metabolita attivo che si accumula nell'insufficienza renale) ed e' associato a piu' delirium e ventilazione piu' lunga. Dexmedetomidina: sedazione superficiale e risvegliabile senza depressione respiratoria, utile nello svezzamento, ma controindicata nel blocco AV avanzato non stimolato e nell'ipotensione non controllata, con bradicardia frequente. Nessuno dei tre e' analgesico: va sempre associata un'analgesia adeguata. Dosi e dettagli nelle singole schede."
+}

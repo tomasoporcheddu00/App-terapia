@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "semaglutide__peso__sottocutanea",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Ozempic (semaglutide) - RCP (Mediately/Torrinomedica su base AIFA): indicazione nel diabete tipo 2, sicurezza cardiovascolare SUSTAIN-6, retinopatia, NAION, gastroparesi.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/ozempic/",
+        "identifier": "Ozempic RCP",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "smpc",
+        "citation": "Wegovy (semaglutide 2,4 mg) - RCP e foglio illustrativo: indicazione nel controllo del peso, titolazione 0,25 mg con incrementi ogni 4 settimane fino a 2,4 mg, divieto di associazione con altri GLP-1 agonisti.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/wegovy/",
+        "identifier": "Wegovy RCP",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "SELECT (Lincoff et al., NEJM 2023): semaglutide 2,4 mg riduce del 20% gli eventi cardiovascolari maggiori nel sovrappeso/obesita' con malattia cardiovascolare senza diabete.",
+        "url": "https://www.acc.org/Latest-in-Cardiology/Articles/2023/08/10/14/29/SELECT-Semaglutide-Reduces-Risk-of-MACE-in-Adults-With-Overweight-or-Obesity",
+        "identifier": "SELECT",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Posologia da fonti su base RCP/AIFA o da linee guida citate; smpcVerified=false. Verificare sempre su RCP ufficiale e adattare a funzione renale/epatica."
+  },
+  "drugId": "semaglutide",
+  "indication": "weight-management",
+  "scenario": "Controllo del peso corporeo (formulazione da 2,4 mg)",
+  "route": "sottocutanea",
+  "dose": {
+    "inizio": "0,25 mg una volta a settimana",
+    "titolazione": "aumento graduale ogni 4 settimane secondo la sequenza 0,5 mg, 1 mg, 1,7 mg fino alla dose di mantenimento",
+    "mantenimento": "2,4 mg una volta a settimana; raggiunta questa dose non aumentare ulteriormente",
+    "durata della titolazione": "circa 16 settimane"
+  },
+  "administration": {
+    "notes": "Da associare sempre a dieta ipocalorica e aumento dell'attivita' fisica. In Italia verificare regime di rimborsabilita' per l'indicazione peso."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

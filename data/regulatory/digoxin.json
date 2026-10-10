@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "digoxin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "AIFA - digossina (Lanoxin): classe A, ricetta ripetibile (RR).",
+        "url": "https://www.ausl.pr.it/azienda/farmaci_solo_alcune_indicazioni/digossina.aspx",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Prescrivibilita' da portale su base Banca Dati AIFA; confermare sul prontuario AIFA aggiornato."
+  },
+  "drugId": "digoxin",
+  "authorisation": "Nazionale (AIFA) / EMA (procedura centralizzata)",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RR (ricetta ripetibile)",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Farmacia",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

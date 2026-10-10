@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "id": "tirofiban",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Tirofiban (Aggrastat) - RCP EMA/AIFA (emc/cercafarmaco su base AIFA): antagonista non peptidico reversibile della GPIIb/IIIa; NSTE-ACS e PCI con ASA+eparina; regime PCI bolo 25 mcg/kg poi 0,15 mcg/kg/min; ridurre nell'insufficienza renale.",
+        "url": "https://www.medicines.org.uk/emc/product/566/smpc",
+        "identifier": "Aggrastat RCP",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "tirofiban",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Terapia trombolitica (concomitante o nelle 48 ore precedenti)",
+      "effect": "Aumento rilevante del rischio emorragico",
+      "management": "Associazione non raccomandata"
+    },
+    {
+      "severity": "major",
+      "agent": "Anticoagulanti orali, altri inibitori GPIIb/IIIa parenterali, soluzioni di destrano",
+      "effect": "Aumento rilevante del rischio emorragico",
+      "management": "Associazione non raccomandata"
+    },
+    {
+      "severity": "major",
+      "agent": "Warfarin (con tirofiban ed eparina)",
+      "effect": "Aumento del rischio di sanguinamento",
+      "management": "Evitare/monitorare strettamente"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Eparina, ASA, clopidogrel",
+      "effect": "Associazione prevista dall'indicazione; incidenza di sanguinamento comparabile alla sola triplice",
+      "management": "Uso secondo protocollo con monitoraggio"
+    }
+  ]
+}

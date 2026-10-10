@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "minoxidil",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Minoxidil (Loniten) - RCP (Codifa/Mediately/Torrinomedica su base AIFA): vasodilatatore diretto (apertura dei canali del potassio); ipertensione grave refrattaria in associazione a simpaticolitico + diuretico dell'ansa; versamento pericardico, ritenzione idrica, ipertricosi.",
+        "url": "https://www.codifa.it/farmaci/l/loniten-minoxidil-vasodilatatori-diretti",
+        "identifier": "Loniten RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "minoxidil",
+  "items": [
+    {
+      "severity": "moderate",
+      "agent": "Altri antipertensivi",
+      "effect": "Ipotensione additiva",
+      "management": "Monitorare"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Guanetidina",
+      "effect": "Ipotensione ortostatica grave",
+      "management": "Evitare/sospendere prima"
+    }
+  ]
+}

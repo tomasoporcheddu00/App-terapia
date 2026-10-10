@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "pitavastatin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Pitavastatina - RCP (Mediately/Codifa su base AIFA): dose 1-4 mg, minima via CYP3A4, controindicazione con ciclosporina, sospensione con macrolidi.",
+        "url": "https://www.codifa.it/farmaci/l/livazo-pitavastatina",
+        "identifier": "Pitavastatina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5; severita' secondo posizionamento RCP e rilevanza clinica. Nessuna interazione clinicamente rilevante con digossina o warfarin; effetto trascurabile degli inibitori del CYP3A4. Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "pitavastatin",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Ciclosporina",
+      "effect": "Aumento marcato dell'esposizione alla pitavastatina (~4,6 volte)",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "major",
+      "agent": "Eritromicina / macrolidi",
+      "effect": "Aumento dell'esposizione (~2,8 volte)",
+      "management": "Sospendere la pitavastatina durante il trattamento"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Gemfibrozil / fibrati",
+      "effect": "Aumento del rischio di miopatia",
+      "management": "Cautela; evitare il gemfibrozil"
+    }
+  ]
+}

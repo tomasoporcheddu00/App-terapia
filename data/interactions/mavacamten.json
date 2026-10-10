@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "id": "mavacamten",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Camzyos (mavacamten) - RCP EMA (registro comunitario EC, allegato IT; Torrinomedica/Codifa): indicazione, genotipizzazione CYP2C19, schema di titolazione ecoguidato, controindicazione in gravidanza.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2023/20230626159388/anx_159388_it.pdf",
+        "identifier": "Camzyos RCP EMA",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida sulle cardiomiopatie: mavacamten Classe IIa nei pazienti sintomatici nonostante terapia ottimale.",
+        "url": "https://academic.oup.com/eurheartj/article/44/37/3503/7246608",
+        "identifier": "ESC 2023 cardiomiopatie",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Interazioni da RCP. Attenzione agli inibitori di pompa protonica: sono inibitori del CYP2C19 e sono di uso frequentissimo nel cardiopatico. Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "mavacamten",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Inibitori del CYP2C19 (es. omeprazolo, esomeprazolo, fluvoxamina, fluconazolo) e inibitori del CYP3A4",
+      "effect": "Aumento dell'esposizione a mavacamten con rischio di disfunzione sistolica e scompenso",
+      "management": "Seguire la tabella di modifica della dose dell'RCP; in alcuni casi interrompere il mavacamten; controllo ecocardiografico 4 settimane dopo l'avvio dell'inibitore e nessuna titolazione prima di 12 settimane"
+    },
+    {
+      "severity": "major",
+      "agent": "Induttori del CYP2C19 o del CYP3A4 (rifampicina, carbamazepina, erba di San Giovanni)",
+      "effect": "Riduzione dell'esposizione a mavacamten con possibile perdita di efficacia",
+      "management": "Associazione da evitare; seguire l'RCP"
+    },
+    {
+      "severity": "major",
+      "agent": "Altri inotropi negativi (betabloccanti, verapamil, diltiazem, disopiramide)",
+      "effect": "Effetto additivo sulla contrattilita' con rischio di disfunzione sistolica; la sicurezza dell'associazione di betabloccante con verapamil o diltiazem non e' stata stabilita",
+      "management": "Attenta supervisione medica con monitoraggio della LVEF quando si inizia o si aumenta un inotropo negativo, fino al raggiungimento di dosi stabili"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Contraccettivi orali (etinilestradiolo, noretindrone)",
+      "effect": "Un trattamento di 17 giorni con mavacamten non ha ridotto l'esposizione a questi substrati del CYP3A4 nei metabolizzatori normali/rapidi/ultrarapidi",
+      "management": "Nessun aggiustamento specifico; mantenere comunque la contraccezione efficace richiesta"
+    }
+  ]
+}

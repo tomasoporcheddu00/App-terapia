@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "digoxin__chronic-heart-failure__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Digossina - RCP/fonti cliniche (AUSL, prescrivere.substack, ESC 2021, RATE-AF): indicazioni scompenso/FA, dose e digossinemia target, controindicazioni, tossicita', interazioni. Indice terapeutico stretto.",
+        "url": "https://www.ausl.pr.it/azienda/farmaci_solo_alcune_indicazioni/digossina.aspx",
+        "identifier": "Digossina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EPAR; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "digoxin",
+  "indication": "chronic-heart-failure",
+  "scenario": "Scompenso cardiaco a FE ridotta (add-on)",
+  "route": "orale",
+  "dose": {
+    "initial": "0,125 mg/die (0,0625 mg/die nell'anziano o nell'insufficienza renale)",
+    "maintenance": "Adeguare alla digossinemia target",
+    "target": "Digossinemia orientativa ~0,5-0,9 ng/mL",
+    "max": "di norma 0,25 mg/die, minore nell'anziano/IR"
+  },
+  "administration": {
+    "notes": "Usare la dose piu' bassa efficace e verificare la digossinemia; correggere ipokaliemia/ipomagnesiemia."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

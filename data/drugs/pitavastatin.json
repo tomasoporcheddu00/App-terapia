@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "id": "pitavastatin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Pitavastatina - RCP (Mediately/Codifa su base AIFA): dose 1-4 mg, minima via CYP3A4, controindicazione con ciclosporina, sospensione con macrolidi.",
+        "url": "https://www.codifa.it/farmaci/l/livazo-pitavastatina",
+        "identifier": "Pitavastatina RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Pitavastatina (Livazo) - monografie di farmacocinetica: emivita di eliminazione ~11 ore, captazione epatica OATP1B1, eliminazione biliare.",
+        "url": "https://en.wikipedia.org/wiki/Pitavastatin",
+        "identifier": "Monografia - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Pitavastatina",
+    "inn": "pitavastatina",
+    "brandExamplesIt": [
+      "Livazo",
+      "Alipza"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Statina (inibitore HMG-CoA reduttasi) a intensita' moderata",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "statins"
+  ],
+  "quickSummary": {
+    "whatItIs": "Statina con minima metabolizzazione da parte del CYP3A4 e quindi poche interazioni; intensita' moderata.",
+    "mainUses": [
+      "Ipercolesterolemia primaria e familiare eterozigote",
+      "Dislipidemia combinata/mista"
+    ],
+    "mainRisks": [
+      "Mialgie/miopatia (rara)",
+      "Interazione con ciclosporina"
+    ],
+    "essentialMonitoring": [
+      "Profilo lipidico",
+      "Transaminasi",
+      "CK se sintomi muscolari"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipercolesterolemia primaria (inclusa la forma familiare eterozigote) e dislipidemia combinata/mista negli adulti",
+      "Ipercolesterolemia familiare eterozigote in eta' pediatrica (>=6 anni)"
+    ],
+    "guidelineIndications": [
+      "Statina a intensita' moderata con minime interazioni via CYP3A4; alternativa utile in politerapia - confermare su ESC/EAS"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Epatopatia in fase attiva o aumento persistente e inspiegato delle transaminasi (>3 volte il limite superiore della norma)",
+      "Gravidanza e allattamento (e donne in eta' fertile senza contraccezione adeguata)",
+      "Uso concomitante con ciclosporina"
+    ],
+    "warnings": [
+      "Miopatia/rabdomiolisi (rara): rischio aumentato con dosi elevate, eta' avanzata, insufficienza renale, ipotiroidismo, abuso di alcol, anamnesi personale/familiare di malattie muscolari e interazioni farmacologiche; misurare la CK in caso di dolore/debolezza muscolare e sospendere se marcato aumento della CK o sospetta rabdomiolisi",
+      "Monitorare le transaminasi prima dell'inizio e quando clinicamente indicato",
+      "Piccolo aumento del rischio di diabete di nuova insorgenza (beneficio cardiovascolare comunque prevalente)",
+      "Rara miopatia necrotizzante immuno-mediata (persistenza della debolezza nonostante la sospensione)",
+      "Minima metabolizzazione da parte del CYP3A4 (inibitori del CYP3A4 e pompelmo con effetto trascurabile): profilo di interazioni favorevole",
+      "Substrato dei trasportatori OATP: sospendere la pitavastatina durante l'uso di eritromicina/macrolidi"
+    ],
+    "adverseEffects": [
+      "Mialgie",
+      "Aumento delle transaminasi",
+      "Aumento della CK",
+      "Disturbi gastrointestinali",
+      "Cefalea",
+      "Diabete di nuova insorgenza (piccolo aumento)",
+      "Rara miopatia/rabdomiolisi"
+    ],
+    "overdose": "In caso di sovradosaggio, trattamento sintomatico e di supporto.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Cautela nell'insufficienza renale (i trasportatori OATP possono essere coinvolti); seguire l'RCP.",
+      "hepatic": "Controindicata nell'epatopatia attiva.",
+      "elderly": "Ben tollerata.",
+      "pregnancy": "Controindicata.",
+      "breastfeeding": "Controindicata."
+    },
+    "alternativeDrugIds": [
+      "atorvastatin",
+      "rosuvastatin",
+      "pravastatin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Una statina con pochissime interazioni: bastano dosi piccole (1-4 mg).",
+    "clinicalExplanation": "Statina a intensita' moderata con metabolismo CYP3A4 trascurabile; la ciclosporina e' controindicata (forte aumento dell'esposizione), i macrolidi impongono la sospensione temporanea.",
+    "molecularExplanation": "Inibisce la HMG-CoA reduttasi, enzima limitante della sintesi epatica del colesterolo; la deplezione intracellulare di colesterolo aumenta l'espressione dei recettori delle LDL, incrementando la rimozione delle LDL dal circolo.",
+    "pharmacodynamics": "Riduzione del colesterolo LDL (marcata), modesta riduzione dei trigliceridi e lieve aumento del colesterolo HDL; riduzione degli eventi cardiovascolari in prevenzione primaria e secondaria.",
+    "molecularTarget": "HMG-CoA reduttasi (idrossimetilglutaril-CoA reduttasi)",
+    "agonismAntagonism": "Inibizione enzimatica",
+    "pharmacokinetics": {
+      "metabolism": "Minimo (glucuronazione; CYP2C9/2C8 marginale, CYP3A4 trascurabile)",
+      "transporters": "Substrato di OATP1B1",
+      "elimination": "Prevalentemente biliare",
+      "food": "Indipendente dai pasti",
+      "halfLife": "~11-12 ore; metabolismo epatico minimo (CYP2C9 marginale), captazione epatica via OATP1B1 ed eliminazione prevalentemente biliare; biodisponibilita' orale relativamente alta (~60%) per una statina"
+    },
+    "bibliography": [
+      "Cholesterol Treatment Trialists' (CTT) - metanalisi sull'efficacia delle statine - da citare con fonte primaria"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "id": "idarucizumab",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Idarucizumab (Praxbind) - RCP EMA: reversal specifico del dabigatran; 5 g EV (2 fiale da 2,5 g), eventuale seconda dose da 5 g; solo uso ospedaliero.",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/praxbind-epar-product-information_en.pdf",
+        "identifier": "Praxbind RCP",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5. Nessuna interazione farmacocinetica clinicamente rilevante attesa. Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "idarucizumab",
+  "items": [
+    {
+      "severity": "minor",
+      "agent": "Altri anticoagulanti",
+      "effect": "Idarucizumab non li neutralizza (specifico per dabigatran)",
+      "management": "Usare l'antidoto/strategia appropriati per l'anticoagulante in causa"
+    }
+  ]
+}

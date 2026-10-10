@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "id": "apixaban",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Riassunto delle Caratteristiche del Prodotto Eliquis (apixaban), Bristol-Myers Squibb/Pfizer EEIG. Data di revisione del testo: 04/01/2024 (versione emc/Datapharm).",
+        "url": "https://www.medicines.org.uk/emc/product/2878/smpc",
+        "identifier": "ATC B01AF02",
+        "retrievedAt": "2026-07-18"
+      },
+      {
+        "type": "guideline",
+        "citation": "2024 ESC Guidelines for the management of atrial fibrillation (ESC/EACTS), Eur Heart J 2024. Sintesi consultata: ACC 'Ten Points to Remember' (ESC 2024 AF).",
+        "url": "https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2024/09/17/04/05/2024-esc-guidelines-for-af-esc-2024",
+        "identifier": "ESC/EACTS 2024 AF",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Contenuto clinico tratto dalla SmPC (indicazioni, posologia, controindicazioni, avvertenze, farmacocinetica, popolazioni speciali) e dal posizionamento di classe della linea guida ESC/EACTS 2024 (raccomandazione di CLASSE DOAC, non prova per la singola molecola). ATTENZIONE REVISORE: la SmPC recuperata e' la resa emc (Regno Unito), armonizzata con l'originale EMA per il prodotto ad autorizzazione centralizzata; il revisore deve confermare i campi contro la SmPC EMA/AIFA in italiano. Il posizionamento ESC e' stato tratto da una sintesi ACC, non dal testo primario Eur Heart J: da sostituire con la fonte primaria. Gli id di classe/patologia e i riferimenti a interazioni sono da riconciliare con il vocabolario controllato del progetto (classes/, pathologies/, interactions/). Agente di reversione (andexanet alfa) non nominato nella SmPC recuperata: antidoteDrugIds lasciato vuoto in attesa di fonte.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Apixaban",
+    "inn": "apixaban",
+    "brandExamplesIt": [
+      "Eliquis"
+    ]
+  },
+  "synonyms": [],
+  "classIds": [
+    "factor-xa-inhibitors"
+  ],
+  "subclass": "Inibitore diretto del fattore Xa (DOAC)",
+  "classificationStatus": "confirmed",
+  "identity": {
+    "atcCodes": [
+      "B01AF02"
+    ],
+    "formulations": [
+      "compresse rivestite con film 2,5 mg",
+      "compresse rivestite con film 5 mg"
+    ],
+    "potentialRoutes": [
+      "oral"
+    ],
+    "availabilityStatus": "available",
+    "marketingAuthorisationIt": true
+  },
+  "linkedMacroAreaIds": [
+    "atrial-fibrillation",
+    "venous-thromboembolism"
+  ],
+  "quickSummary": {
+    "whatItIs": "Anticoagulante orale ad azione diretta che inibisce in modo selettivo e reversibile il fattore Xa.",
+    "mainUses": [
+      "Prevenzione di ictus ed embolia sistemica nella fibrillazione atriale non valvolare con almeno un fattore di rischio",
+      "Trattamento di TVP ed embolia polmonare e prevenzione delle recidive nell'adulto"
+    ],
+    "mainRisks": [
+      "Emorragia (inclusa emorragia maggiore/intracranica)",
+      "Anemia post-emorragica"
+    ],
+    "essentialMonitoring": [
+      "Segni di sanguinamento",
+      "Funzione renale",
+      "Funzione epatica (all'avvio)",
+      "Emocromo"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Prevenzione di ictus ed embolia sistemica negli adulti con fibrillazione atriale non valvolare (FANV) e almeno un fattore di rischio (es. pregresso ictus/TIA, eta' >=75 anni, ipertensione, diabete, scompenso cardiaco sintomatico NYHA >=II)",
+      "Trattamento della trombosi venosa profonda (TVP) e dell'embolia polmonare (EP) e prevenzione delle recidive di TVP ed EP nell'adulto"
+    ],
+    "guidelineIndications": [
+      "ESC/EACTS 2024 (FA): i DOAC come classe (di cui apixaban fa parte) sono preferiti agli antagonisti della vitamina K per la prevenzione di ictus e tromboembolismo nei pazienti eleggibili all'anticoagulazione, con eccezione di protesi valvolari meccaniche e stenosi mitralica moderata-severa (raccomandazione di classe I). Nota: raccomandazione riferita alla classe DOAC, non prova specifica per la singola molecola."
+    ],
+    "offLabelUses": [],
+    "populations": [
+      "FANV con >=1 fattore di rischio (studi ARISTOTLE vs warfarin, AVERROES vs ASA)",
+      "TVP/EP sintomatiche acute e prevenzione delle recidive (studi AMPLIFY, AMPLIFY-EXT)"
+    ],
+    "advantages": [
+      "Non richiede monitoraggio routinario della coagulazione",
+      "In ARISTOTLE superiorita' vs warfarin per ictus/embolia sistemica, emorragie maggiori e mortalita' per tutte le cause"
+    ],
+    "limitations": [
+      "Nessuna esperienza clinica con CrCl <15 mL/min o in dialisi: non raccomandato",
+      "Non studiato/non raccomandato con protesi valvolari cardiache",
+      "Non raccomandato nella sindrome da anticorpi antifosfolipidi (in particolare triplo-positivi)",
+      "Non raccomandato in EP emodinamicamente instabile o candidata a trombolisi/embolectomia",
+      "Non raccomandato con inibitori o induttori forti sia di CYP3A4 sia di P-gp"
+    ],
+    "alternativeDrugIds": [
+      "rivaroxaban",
+      "edoxaban",
+      "dabigatran",
+      "warfarin"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Sanguinamento attivo clinicamente significativo",
+      "Epatopatia associata a coagulopatia e rischio emorragico clinicamente rilevante",
+      "Lesione o condizione considerata fattore di rischio significativo per emorragia maggiore (es. ulcerazione gastrointestinale in atto/recente, neoplasie ad alto rischio emorragico, trauma o chirurgia cerebrale/spinale/oftalmica recente, emorragia intracranica recente, varici esofagee note/sospette, malformazioni artero-venose, aneurismi vascolari)",
+      "Trattamento concomitante con altri anticoagulanti (UFH, EBPM, derivati eparinici, altri anticoagulanti orali), salvo specifiche circostanze di switch, UFH per mantenere pervio un catetere, o UFH durante ablazione transcatetere della FA"
+    ],
+    "relativeContraindications": [],
+    "warnings": [
+      "Rischio emorragico: osservare i pazienti per segni di sanguinamento; sospendere in caso di emorragia severa",
+      "L'uso concomitante con antiaggreganti, FANS, SSRI/SNRI aumenta il rischio emorragico",
+      "Non raccomandato con inibitori forti sia di CYP3A4 sia di P-gp (es. azoli antimicotici, inibitori delle proteasi HIV): possibile raddoppio dell'esposizione",
+      "Con induttori forti di CYP3A4 e P-gp (es. rifampicina, fenitoina, carbamazepina, fenobarbital, iperico): riduzione ~50% dell'esposizione; non usare nel trattamento di TVP/EP",
+      "Non raccomandato in insufficienza epatica severa; cautela in insufficienza epatica lieve-moderata (Child-Pugh A/B)",
+      "Non raccomandato in protesi valvolari e nella sindrome da anticorpi antifosfolipidi",
+      "Non alternativa all'UFH nell'EP emodinamicamente instabile",
+      "Gestione perioperatoria: sospendere almeno 24 h (basso rischio emorragico) o almeno 48 h (rischio moderato-alto) prima di chirurgia/procedure elettive; non interrompere per l'ablazione transcatetere della FA"
+    ],
+    "adverseEffects": [
+      "Comuni: emorragia ed ematoma, contusione, epistassi, emorragia gastrointestinale, ematuria, emorragia gengivale/rettale, anemia, nausea",
+      "Non comuni: emorragia cerebrale, trombocitopenia (comune nel setting VTE), ipersensibilita'/angioedema",
+      "Complicanze da emorragia severa: nefropatia correlata all'anticoagulante"
+    ],
+    "overdose": "Il sovradosaggio aumenta il rischio emorragico. In caso di emorragia sospendere e ricercare la fonte; il carbone attivo somministrato entro poche ore riduce l'esposizione. E' disponibile un agente di reversione per gli inibitori del fattore Xa; possono essere considerati concentrati di complesso protrombinico (PCC) o fattore VIIa ricombinante. L'emodialisi e' poco efficace (riduce l'AUC ~14%).",
+    "antidoteDrugIds": [
+      "andexanet-alfa"
+    ],
+    "monitoring": [
+      "Non e' richiesto monitoraggio routinario dell'esposizione",
+      "Dosaggio anti-fattore Xa calibrato utile in situazioni eccezionali (sovradosaggio, chirurgia d'urgenza)",
+      "Funzione renale",
+      "Funzione epatica (test prima dell'avvio)",
+      "Segni/sintomi di sanguinamento ed emocromo"
+    ],
+    "discontinuation": "Evitare interruzioni non necessarie (rischio trombotico); se l'interruzione e' inevitabile, riprendere appena possibile una volta ottenuta un'emostasi adeguata.",
+    "specialPopulations": {
+      "renal": "Lieve-moderata: nella FANV nessun aggiustamento salvo criteri di riduzione; nel VTE nessun aggiustamento. Severa (CrCl 15-29 mL/min): nella FANV usare 2,5 mg due volte/die; nel VTE usare con cautela. CrCl <15 mL/min o dialisi: non raccomandato.",
+      "hepatic": "Controindicato in epatopatia con coagulopatia e rischio emorragico rilevante. Non raccomandato in insufficienza epatica severa. Cautela in Child-Pugh A/B senza aggiustamento posologico; eseguire test di funzionalita' epatica prima dell'avvio.",
+      "elderly": "Nessun aggiustamento salvo criteri di riduzione nella FANV; l'eta' avanzata puo' aumentare il rischio emorragico. Cautela con ASA concomitante.",
+      "lowBodyWeight": "Peso <=60 kg e' uno dei criteri di riduzione della dose nella FANV; peso <60 kg puo' aumentare il rischio emorragico.",
+      "obesity": "Peso >120 kg associato a esposizione ~30% inferiore (dato di farmacocinetica); nessuna raccomandazione posologica specifica nella SmPC.",
+      "pregnancy": "Nessun dato nelle donne in gravidanza; come misura precauzionale e' preferibile evitarne l'uso.",
+      "breastfeeding": "Escrezione nel latte non nota nell'uomo (rilevata negli animali); decidere se sospendere l'allattamento o la terapia."
+    },
+    "dosingRegimenIds": [
+      "apixaban__nvaf-stroke-prevention__oral"
+    ],
+    "interactionRefs": [],
+    "regulatoryItId": "apixaban"
+  },
+  "deep": {
+    "simpleExplanation": "Un farmaco che 'fluidifica' il sangue bloccando il fattore Xa, un ingranaggio chiave della coagulazione, riducendo la formazione di coaguli responsabili di ictus ed embolie.",
+    "clinicalExplanation": "Inibitore orale diretto e reversibile del fattore Xa che riduce la generazione di trombina senza richiedere l'antitrombina III. A dose fissa, senza monitoraggio routinario, previene tromboembolie nella FANV e tratta/previene TVP ed EP.",
+    "molecularExplanation": "Si lega in modo reversibile al sito attivo del fattore Xa, inibendo sia il fattore Xa libero sia quello legato al coagulo e l'attivita' protrombinasica; non ha effetti diretti sull'aggregazione piastrinica ma la inibisce indirettamente riducendo la trombina.",
+    "molecularTarget": "Fattore Xa",
+    "agonismAntagonism": "Inibitore (antagonista del sito attivo), reversibile",
+    "selectivity": "Altamente selettivo per il fattore Xa; non richiede antitrombina III",
+    "pharmacodynamics": "Prolunga PT, INR e aPTT in misura piccola e variabile (non utili per il monitoraggio); riduce il potenziale trombinico endogeno; l'attivita' anti-fattore Xa e' in relazione lineare con la concentrazione plasmatica.",
+    "hemodynamicEffects": "Nessun effetto emodinamico diretto rilevante.",
+    "electrophysiologicEffects": "Nessun effetto elettrofisiologico diretto.",
+    "pharmacokinetics": {
+      "bioavailability": "~50% per dosi fino a 10 mg",
+      "timeToPeak": "3-4 ore",
+      "halfLife": "~12 ore",
+      "proteinBinding": "~87%",
+      "metabolism": "Metabolismo principalmente via CYP3A4/5, con contributi minori di CYP1A2, 2C8, 2C9, 2C19, 2J2; nessun metabolita attivo circolante",
+      "enzymes": [
+        "CYP3A4",
+        "CYP3A5"
+      ],
+      "transporters": [
+        "P-gp",
+        "BCRP"
+      ],
+      "activeMetabolites": [],
+      "elimination": "Vie multiple: escrezione renale ~27% della clearance totale, resto per via fecale/biliare/intestinale; clearance totale ~3,3 L/h",
+      "dialyzability": "Scarsa (l'emodialisi riduce l'AUC ~14%)"
+    },
+    "evidenceIds": [],
+    "recommendationIds": [],
+    "bibliography": [
+      "ARISTOTLE (apixaban vs warfarin, NEJM 2011)",
+      "AVERROES (apixaban vs ASA, NEJM 2011)",
+      "AMPLIFY (apixaban vs enoxaparina/warfarin, NEJM 2013)",
+      "AMPLIFY-EXT (apixaban vs placebo, NEJM 2013)",
+      "AUGUSTUS (FA con SCA/PCI, NEJM 2019)",
+      "2024 ESC/EACTS Guidelines for the management of atrial fibrillation, Eur Heart J 2024"
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Ranolazina (Ranexa) - RCP EMA/AIFA (EMA/Mediately/medisoc): antianginoso add-on, dose 375-750 mg x2, controindicazioni renali/epatiche/CYP3A4/antiaritmici, prolungamento QT.",
+        "url": "https://www.ema.europa.eu/it/documents/product-information/ranexa-epar-product-information_it.pdf",
+        "identifier": "Ranexa RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Ranolazina (Ranexa) - RCP EMA e scheda farmacologica: emivita ~7 ore, metabolismo CYP3A4/CYP2D6, cinetica di eliminazione saturabile.",
+        "url": "https://fcrinforma.fcr.re.it/area-farmacista/biblioteca/informazioni-sui-farmaci/consulta-la-rivista/anno-2010-617/numero-3-del-2010/ranolazina/",
+        "identifier": "RCP/monografia - farmacocinetica",
+        "retrievedAt": "2026-07-25"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false,
+    "id": "ranolazine"
+  },
+  "name": {
+    "generic": "Ranolazina",
+    "inn": "ranolazina",
+    "brandExamplesIt": [
+      "Ranexa"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antianginoso metabolico (inibitore della corrente tardiva del sodio)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "other-antianginals"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antianginoso 'metabolico' aggiuntivo che non modifica frequenza e pressione: si usa quando betabloccanti e calcioantagonisti non bastano o non sono tollerati.",
+    "mainUses": [
+      "Angina pectoris stabile (terapia aggiuntiva)"
+    ],
+    "mainRisks": [
+      "Prolungamento del QT",
+      "Capogiri, nausea",
+      "Numerose interazioni (CYP3A4)"
+    ],
+    "essentialMonitoring": [
+      "Sintomi anginosi",
+      "Funzione renale ed epatica",
+      "ECG/QT in pazienti a rischio"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Terapia aggiuntiva nel trattamento sintomatico dell'angina pectoris stabile negli adulti non adeguatamente controllati o intolleranti alle terapie antianginose di prima linea (betabloccanti e/o calcioantagonisti)"
+    ],
+    "guidelineIndications": [
+      "Antianginoso di seconda linea in add-on; utile perche' non riduce frequenza cardiaca ne' pressione - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Insufficienza renale grave (clearance della creatinina <30 mL/min)",
+      "Insufficienza epatica moderata o grave",
+      "Uso concomitante di inibitori potenti del CYP3A4 (itraconazolo, ketoconazolo, voriconazolo, posaconazolo, inibitori delle proteasi HIV, claritromicina, telitromicina, nefazodone)",
+      "Uso concomitante di antiaritmici di classe Ia (es. chinidina) o di classe III diversi dall'amiodarone (es. dofetilide, sotalolo)"
+    ],
+    "warnings": [
+      "Prolungamento dose-dipendente dell'intervallo QT: cautela con altri farmaci che allungano il QT e nei pazienti a rischio",
+      "Aggiustare la dose con inibitori moderati del CYP3A4 (diltiazem, fluconazolo, eritromicina) e con inibitori della P-glicoproteina (verapamil, ciclosporina)",
+      "Cautela nell'insufficienza renale moderata, nell'anziano e nei pazienti a basso peso corporeo",
+      "Ridurre la dose in caso di capogiri, nausea o vomito"
+    ],
+    "adverseEffects": [
+      "Capogiri",
+      "Cefalea",
+      "Stipsi, nausea",
+      "Astenia",
+      "Prolungamento del QT"
+    ],
+    "overdose": "Il sovradosaggio puo' causare capogiri, nausea, vomito, diplopia, ipotensione e prolungamento del QT; trattamento sintomatico e monitoraggio ECG.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Aggiustare la dose nell'insufficienza lieve-moderata; controindicata se clearance <30 mL/min.",
+      "hepatic": "Aggiustare nella lieve; controindicata nella moderata-grave.",
+      "elderly": "Iniziare con prudenza (maggiore esposizione).",
+      "pregnancy": "Non raccomandata.",
+      "breastfeeding": "Non raccomandata."
+    },
+    "alternativeDrugIds": [
+      "trimetazidine",
+      "nicorandil",
+      "nitroglycerin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Una compressa che riduce gli attacchi di angina senza rallentare il cuore ne' abbassare la pressione; si aggiunge quando gli altri farmaci non bastano.",
+    "clinicalExplanation": "Inibitore della corrente tardiva del sodio (late INa): riduce il sovraccarico intracellulare di sodio e calcio nel miocardio ischemico, migliorando la tolleranza allo sforzo senza effetti su frequenza e pressione. Numerose interazioni (CYP3A4/P-gp) e prolungamento del QT.",
+    "molecularExplanation": "Inibisce la corrente tardiva del sodio nei cardiomiociti, riducendo l'accumulo di calcio intracellulare mediato dallo scambiatore sodio-calcio e la tensione diastolica.",
+    "pharmacodynamics": "Miglioramento della perfusione e della funzione diastolica del miocardio ischemico; nessun effetto rilevante su frequenza cardiaca e pressione.",
+    "molecularTarget": "Corrente tardiva del sodio (late INa) miocardica",
+    "agonismAntagonism": "Inibizione della corrente ionica",
+    "pharmacokinetics": {
+      "metabolism": "Epatico (CYP3A4, in parte CYP2D6); substrato della P-gp",
+      "route": "Orale (rilascio prolungato)",
+      "elimination": "Renale e fecale",
+      "halfLife": "~7 ore (formulazione a rilascio prolungato; steady state in ~3 giorni con la doppia somministrazione). Metabolismo prevalente CYP3A4 (e CYP2D6): eliminazione saturabile, esposizione non lineare con la dose"
+    },
+    "bibliography": [
+      "MERLIN-TIMI 36, CARISA, ERICA (ranolazina) - da citare con fonte primaria"
+    ]
+  }
+}

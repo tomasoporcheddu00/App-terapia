@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "id": "insulin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Insulina umana regolare (Actrapid/Humulin R) - RCP EMA/AIFA (EC/Codifa) + Consensus AMD-SID-FADOI Trialogue 2012: unica insulina somministrabile EV; infusione continua nel paziente critico, target 140-180 mg/dL.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2005/2005100510376/anx_10376_it.pdf",
+        "identifier": "Actrapid RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "insulin",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Betabloccanti (specie non selettivi)",
+      "effect": "Mascheramento dei sintomi adrenergici dell'ipoglicemia e possibile prolungamento",
+      "management": "Monitoraggio glicemico piu' attento; educare il paziente"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Corticosteroidi, diuretici tiazidici, simpaticomimetici",
+      "effect": "Riduzione dell'effetto ipoglicemizzante (aumento del fabbisogno)",
+      "management": "Rivalutare la dose"
+    },
+    {
+      "severity": "moderate",
+      "agent": "ACE-inibitori, salicilati, alcol",
+      "effect": "Potenziamento dell'effetto ipoglicemizzante",
+      "management": "Monitorare la glicemia"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Beta2-agonisti (salbutamolo), bicarbonato",
+      "effect": "Effetto additivo sull'abbassamento del potassio",
+      "management": "Monitorare la potassiemia"
+    }
+  ]
+}

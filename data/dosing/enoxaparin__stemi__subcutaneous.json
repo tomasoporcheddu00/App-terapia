@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "id": "enoxaparin__stemi__subcutaneous",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Clexane (enoxaparina) sez. 4.2 - STEMI: bolo EV 30 mg + 1 mg/kg SC, poi 1 mg/kg SC q12h.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/clexane/",
+        "identifier": "Clexane STEMI",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "1 mg = 100 UI anti-Xa. Nei pazienti >=75 anni: nessun bolo EV, dose SC ridotta. id indicazione da riconciliare col vocabolario.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "enoxaparin",
+  "indication": "stemi",
+  "scenario": "Infarto miocardico acuto con sopraslivellamento ST (STEMI)",
+  "route": "subcutaneous",
+  "formulation": "siringa preriempita",
+  "population": "adult-standard",
+  "dose": {
+    "loading": "Bolo endovenoso singolo di 30 mg",
+    "initial": "30 mg EV in bolo + 1 mg/kg SC in concomitanza",
+    "interval": "ogni 12 ore (via SC)",
+    "maintenance": "1 mg/kg SC ogni 12 ore (massimo 100 mg per ciascuna delle prime due dosi SC)",
+    "target": null,
+    "max": "100 mg per ciascuna delle prime due dosi SC",
+    "titration": null,
+    "duration": "Fino a 8 giorni o dimissione",
+    "weightBased": "Si (1 mg/kg = 100 UI/kg)",
+    "cumulative": null,
+    "renalAdjustment": "CrCl 15-30 mL/min: 1 mg/kg SC una volta al giorno (con adattamento del bolo EV secondo RCP). CrCl <15: non raccomandata.",
+    "hepaticAdjustment": "Cautela.",
+    "elderly": ">=75 anni: nessun bolo EV; 0,75 mg/kg SC ogni 12 ore (massimo 75 mg per ciascuna delle prime due dosi).",
+    "pregnancy": "Secondo valutazione rischio/beneficio.",
+    "dialysis": "Non raccomandata."
+  },
+  "administration": {
+    "preparation": null,
+    "solvent": null,
+    "concentration": null,
+    "rate": null,
+    "access": "Bolo EV per la dose iniziale; mantenimento SC",
+    "notes": "Associare ASA. Non somministrare IM."
+  },
+  "monitoring": [
+    "Conta piastrinica (HIT)",
+    "Funzione renale",
+    "Segni di sanguinamento"
+  ],
+  "stoppingCriteria": [
+    "Sanguinamento (protamina parziale)",
+    "HIT"
+  ],
+  "approvalEvidence": {
+    "primarySourceVerified": false,
+    "smpcVerified": true,
+    "clinicalReviewDone": true,
+    "verificationDate": "2026-07-18",
+    "reviewer": "Curatore clinico"
+  }
+}

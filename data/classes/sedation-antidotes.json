@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "id": "sedation-antidotes",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Antidoti della sedazione: sintesi da RCP AIFA e centri antidoti.",
+        "url": "https://antidoti.ospfe.it/antidoto/naloxone/",
+        "identifier": "Antidoti sedazione classe",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP/AIFA e centri antidoti; confermare su RCP ufficiali e protocolli locali."
+  },
+  "name": "Antidoti della sedazione e degli oppioidi",
+  "atcGroup": "V03AB (antidoti)",
+  "memberDrugIds": [
+    "naloxone",
+    "flumazenil"
+  ],
+  "mechanismSummary": "Antagonisti competitivi che revertono rapidamente gli effetti dei sedativi e degli oppioidi: il naloxone sui recettori oppioidi, il flumazenil sul sito benzodiazepinico del recettore GABA-A.",
+  "molecularTarget": "Recettori oppioidi mu (naloxone); sito benzodiazepinico del recettore GABA-A (flumazenil)",
+  "pharmacodynamics": "Spiazzamento competitivo dell'agonista dal recettore con reversione della depressione respiratoria e della sedazione entro pochi minuti.",
+  "classEffects": [
+    "Reversione rapida (minuti) della depressione respiratoria e della sedazione",
+    "Durata d'azione piu' breve dell'agonista da antagonizzare: rischio di RISEDAZIONE, che impone sorveglianza prolungata ed eventuale infusione continua",
+    "Rischio di sindrome da astinenza acuta nei pazienti dipendenti (agitazione, ipertensione, tachicardia; convulsioni con il flumazenil)"
+  ],
+  "sharedContraindications": [
+    "Ipersensibilita' allo specifico agente; per il flumazenil, benzodiazepine somministrate per controllare condizioni pericolose per la vita (stato epilettico, ipertensione endocranica)"
+  ],
+  "sharedAdverseEffects": [
+    "Nausea, vomito, sudorazione",
+    "Tachicardia e ipertensione (attivazione simpatica da astinenza)",
+    "Agitazione",
+    "Convulsioni (flumazenil); rari edema polmonare e aritmie (naloxone nel cardiopatico)"
+  ],
+  "monitoring": [
+    "Frequenza respiratoria, saturazione e stato di coscienza per un periodo prolungato (ricomparsa della sedazione)",
+    "Pressione arteriosa, frequenza cardiaca ed ECG",
+    "Segni di astinenza acuta"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Sono antidoti specifici e non intercambiabili: il naloxone agisce solo sugli oppioidi, il flumazenil solo sulle benzodiazepine; nessuno dei due reverte propofol o dexmedetomidina. Il problema comune e' la breve durata d'azione rispetto all'agonista (naloxone ~45 minuti, flumazenil 30-60 minuti): il paziente va sorvegliato a lungo e puo' servire un'infusione continua. Il flumazenil ha in piu' un rischio convulsivo rilevante negli epilettici, nei consumatori cronici di benzodiazepine e nelle intossicazioni miste con antidepressivi triciclici. Dosi e dettagli nelle singole schede."
+}

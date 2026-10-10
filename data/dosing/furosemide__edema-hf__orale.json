@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "furosemide__edema-hf__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Furosemide - RCP (Codifa/Torrinomedica su base AIFA) e monografie: indicazioni edema/scompenso/edema polmonare/ipertensione, dose orale ed EV, ototossicita'.",
+        "url": "https://www.codifa.it/farmaci/f/furosemide-fisiopharma-furosemide-diuretici-dell-ansa",
+        "identifier": "Furosemide RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "furosemide",
+  "indication": "chronic-heart-failure",
+  "scenario": "Edema / scompenso (orale)",
+  "route": "orale",
+  "dose": {
+    "initial": "20-40 mg al giorno (al mattino)",
+    "titration": "aumentare secondo la risposta; ripetibile a distanza di 4-6 ore",
+    "maintenance": "secondo il grado di congestione",
+    "max": "anche >200 mg/die in casi selezionati (specie in IR)"
+  },
+  "administration": {
+    "notes": "Assumere a stomaco vuoto. Nella scompenso passare alla via orale appena possibile dopo la fase EV."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "id": "sodium-zirconium-cyclosilicate",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Sodio zirconio ciclosilicato (Lokelma) - RCP EMA/AIFA: chelante del potassio non assorbito per l'iperkaliemia; correzione 10 g x3 poi mantenimento 5 g/die; edema/sodio, ipokaliemia.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/EPAR/lokelma",
+        "identifier": "Lokelma RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5. Non assorbito: interazioni sistemiche minime; l'effetto e' locale sul pH gastrico. Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "sodium-zirconium-cyclosilicate",
+  "items": [
+    {
+      "severity": "moderate",
+      "agent": "Farmaci a biodisponibilita' pH-dipendente (azoli antimicotici, anti-HIV, inibitori delle tirosin-chinasi)",
+      "effect": "Alterato assorbimento (aumento transitorio del pH gastrico)",
+      "management": "Somministrare 2 ore prima o dopo il ciclosilicato"
+    }
+  ]
+}

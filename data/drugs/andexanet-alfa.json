@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "id": "andexanet-alfa",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Andexanet alfa (Ondexxya) - RCP EMA/Mediately: reversal degli inibitori diretti del fattore Xa (apixaban/rivaroxaban) nelle emorragie potenzialmente fatali; bolo + infusione; uso ospedaliero.",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/ondexxya-epar-product-information_en.pdf",
+        "identifier": "Ondexxya RCP",
+        "retrievedAt": "2026-07-21"
+      },
+      {
+        "type": "smpc",
+        "citation": "Andexanet alfa (Ondexxya/Andexxa) - monografie/studio ANNEXA-4: proteina esca del fattore Xa, effetto durante bolo + infusione ~2 ore, ritorno dell'attivita' anti-Xa (rebound) alla sospensione.",
+        "url": "https://www.amjmed.com/article/s0002-9343(16)31243-8/fulltext",
+        "identifier": "Monografia - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (EMA/EC, Banca Dati AIFA, portali Mediately/Codifa/Torrinomedica/Univadis) e da centri antiveleni regionali: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Antidoti d'urgenza: dosi da adattare ai protocolli locali e ai test coagulativi. Alternativa/complementare al complesso protrombinico (4F-PCC) nel reversal degli inibitori del fattore Xa; scelta secondo disponibilita' e protocollo locale.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Andexanet alfa",
+    "inn": "andexanet alfa",
+    "brandExamplesIt": [
+      "Ondexxya"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antidoto - reversal degli inibitori del fattore Xa (FXa esca)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "reversal-agents"
+  ],
+  "quickSummary": {
+    "whatItIs": "Proteina ricombinante 'esca' simile al fattore Xa: cattura gli inibitori diretti del fattore Xa (apixaban, rivaroxaban) neutralizzandone l'effetto anticoagulante nelle emorragie gravi.",
+    "mainUses": [
+      "Reversal di apixaban o rivaroxaban in emorragia potenzialmente fatale/incontrollata"
+    ],
+    "mainRisks": [
+      "Rischio tromboembolico (riattivazione dello stato protrombotico)",
+      "Interferenza con l'eparina: da evitare se sara' necessaria anticoagulazione con eparina",
+      "Reazioni all'infusione (vampate, calore)"
+    ],
+    "essentialMonitoring": [
+      "Segni clinici di emostasi/risanguinamento",
+      "Eventi tromboembolici",
+      "Ripresa dell'anticoagulazione"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Reversal dell'effetto anticoagulante negli adulti trattati con un inibitore diretto del fattore Xa (apixaban o rivaroxaban) in caso di emorragie potenzialmente fatali o non controllate"
+    ],
+    "guidelineIndications": [
+      "Regime a dose bassa o elevata secondo l'inibitore, la dose e il tempo dall'ultima assunzione (tabelle RCP); massima inversione dell'attivita' anti-FXa entro ~2 minuti dal bolo - ANNEXA-4/EMA",
+      "Non validato per il reversal di edoxaban (evidenze insufficienti); posizione confrontabile con il complesso protrombinico nelle linee guida - confermare"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' nota ad andexanet alfa o agli eccipienti (valutare nell'emergenza)"
+    ],
+    "warnings": [
+      "Rischio di eventi tromboembolici per riattivazione dello stato protrombotico della malattia di base: monitorare e riprendere l'anticoagulazione appena clinicamente appropriato",
+      "Da evitare se si prevede la necessita' di anticoagulazione con eparina (andexanet puo' inattivare l'effetto dell'eparina, es. in circolazione extracorporea)",
+      "L'attivita' anti-FXa non e' un indicatore affidabile dell'efficacia emostatica clinica",
+      "Reazioni correlate all'infusione (vampate, sensazione di calore); ricomparsa dell'attivita' anti-FXa ~2 h dopo il termine dell'infusione; nessun dato pediatrico"
+    ],
+    "adverseEffects": [
+      "Vampate e sensazione di calore (correlate all'infusione)",
+      "Aumento transitorio dei marcatori di coagulazione (D-dimero, F1+2)",
+      "Eventi tromboembolici (trombosi, IMA, ictus)",
+      "Sviluppo di anticorpi"
+    ],
+    "overdose": "Non definita una dose massima; la gestione del sovradosaggio e' di supporto con attenzione al rischio trombotico.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico.",
+      "hepatic": "Nessun aggiustamento specifico.",
+      "elderly": "Utilizzabile.",
+      "pregnancy": "Solo se chiaramente necessario.",
+      "breastfeeding": "Solo se necessario."
+    },
+    "alternativeDrugIds": [
+      "prothrombin-complex-concentrate"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' l'antidoto per apixaban e rivaroxaban: funziona come un 'finto' fattore Xa che intrappola l'anticoagulante, permettendo al sangue di coagulare di nuovo in un'emorragia grave.",
+    "clinicalExplanation": "Analogo ricombinante modificato del fattore Xa umano, cataliticamente inattivo: agisce da esca legando e sequestrando gli inibitori diretti (e indiretti) del FXa, riducendo l'attivita' anti-FXa. Bolo seguito da infusione (dose bassa/alta). Rischio tromboembolico; interferisce con l'eparina.",
+    "molecularExplanation": "Lega con alta affinita' gli inibitori del fattore Xa, riducendo la frazione libera di inibitore e ripristinando la generazione di trombina.",
+    "pharmacodynamics": "Riduzione rapida dell'attivita' anti-FXa; effetto sostenuto durante l'infusione, con ricomparsa dopo il termine.",
+    "molecularTarget": "Inibitori del fattore Xa (sequestro)",
+    "agonismAntagonism": "Antidoto (esca del fattore Xa)",
+    "pharmacokinetics": {
+      "route": "Endovenosa (bolo + infusione)",
+      "onset": "Massima inversione ~2 min dopo il bolo",
+      "note": "Attivita' anti-FXa risale ~2 h dopo l'infusione",
+      "halfLife": "Effetto legato alla somministrazione (bolo seguito da infusione di ~2 ore); emivita breve. Alla sospensione l'attivita' anti-fattore Xa tende a RITORNARE ai valori pre-trattamento (rebound), per cui il controllo del sanguinamento oltre le ~2 ore non e' garantito - dato rilevante nella gestione clinica"
+    },
+    "bibliography": []
+  }
+}

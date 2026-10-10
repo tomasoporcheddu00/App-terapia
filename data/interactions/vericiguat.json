@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "vericiguat",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Vericiguat (Verquvo) - RCP/EPAR (EMA, Mediately, SwissPAR): indicazione HFrEF dopo riacutizzazione, titolazione 2,5->10 mg con cibo, controindicazione riociguat/PDE5.",
+        "url": "https://mediately.co/it/drugs/7c1YbrtSteLbFYGsKPMVAi7G4MS/verquvo-14-cpr-riv-2-5-mg",
+        "identifier": "Vericiguat RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5; severita' secondo posizionamento RCP e rilevanza clinica.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "vericiguat",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Altri stimolatori della sGC (riociguat)",
+      "effect": "Ipotensione",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "major",
+      "agent": "Inibitori della PDE5 (sildenafil, tadalafil, ecc.)",
+      "effect": "Ipotensione additiva",
+      "management": "Evitare l'associazione"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Nitrati e altri vasodilatatori/antipertensivi",
+      "effect": "Potenziamento dell'ipotensione",
+      "management": "Cautela; monitorare la pressione"
+    }
+  ]
+}

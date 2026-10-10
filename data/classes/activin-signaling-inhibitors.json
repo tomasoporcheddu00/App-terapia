@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "id": "activin-signaling-inhibitors",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Inibitori del signaling dell'activina (sotatercept) nella PAH: sintesi da label EMA/FDA e STELLAR.",
+        "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/winrevair",
+        "identifier": "Activina classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da label EMA/FDA e dati STELLAR; confermare su RCP ufficiali e linee guida ESC/ERS."
+  },
+  "name": "Inibitori del signaling dell'activina",
+  "atcGroup": "Inibitori del signaling dell'activina (nuova classe PAH)",
+  "memberDrugIds": [
+    "sotatercept"
+  ],
+  "mechanismSummary": "Inibizione del segnale dell'activina mediante una proteina di fusione (ActRIIA-Fc) che sequestra l'activina A e altri ligandi del TGF-beta, riequilibrando la segnalazione activina/BMP alterata nella PAH: riduzione del rimodellamento vascolare polmonare.",
+  "molecularTarget": "Activina A e ligandi del TGF-beta (recettore ActRIIA)",
+  "pharmacodynamics": "Effetto 'disease-modifying' (non vasodilatatore): riduzione del rimodellamento e delle resistenze vascolari polmonari, con miglioramento emodinamico.",
+  "classEffects": [
+    "Meccanismo nuovo, disease-modifying (add-on alla terapia di fondo)",
+    "Eritrocitosi e trombocitopenia",
+    "Sanguinamento/teleangectasie"
+  ],
+  "sharedContraindications": [
+    "Ipersensibilita'",
+    "Gravidanza (tossicita' embriofetale)"
+  ],
+  "sharedAdverseEffects": [
+    "Aumento dell'emoglobina (eritrocitosi)",
+    "Trombocitopenia",
+    "Sanguinamento/teleangectasie"
+  ],
+  "monitoring": [
+    "Emoglobina/ematocrito",
+    "Conta piastrinica",
+    "Segni di sanguinamento; test di gravidanza"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Classe rappresentata dal sotatercept (Winrevair), primo inibitore del signaling dell'activina e primo farmaco biologico disease-modifying per la PAH, usato come terapia aggiuntiva a quella di fondo (STELLAR). A differenza delle altre classi non e' un vasodilatatore ma agisce sul rimodellamento vascolare. Effetti caratteristici: eritrocitosi, trombocitopenia e sanguinamento. Farmaco molto recente (2024): disponibilita' in Italia da confermare. Dettagli nella scheda."
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "protamine",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Protamina solfato - RCP (LEO Pharma/Meda su base AIFA) + Centro Antidoti: antidoto dell'eparina; 1-2 mg ogni 100 UI, EV lenta max 50 mg in 10 min; ipotensione se rapida, rischio anafilattico.",
+        "url": "https://mediately.co/it/drugs/BEK3C7NxlAQtI0rS6i5TsiHAZFu/protamina-solfato-leo-pharma-anti-1400-ui-di-eparina-10mg-ml-soluzione-iniettabile-o-per-infusione",
+        "identifier": "Protamina RCP",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "protamine",
+  "items": [
+    {
+      "severity": "moderate",
+      "agent": "Insulina NPH (contenente protamina)",
+      "effect": "Aumento del rischio di reazioni anafilattiche",
+      "management": "Cautela; somministrazione lenta, pronti al trattamento anafilattico"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Antibiotici / mezzi di contrasto (in soluzione)",
+      "effect": "Formazione di precipitati",
+      "management": "Non miscelare"
+    }
+  ]
+}

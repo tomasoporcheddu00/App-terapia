@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "id": "cardiac-glycosides",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Glicosidi cardioattivi (digossina): sintesi da RCP/fonti cliniche; indice terapeutico stretto.",
+        "url": "https://prescrivere.substack.com/p/approfondimento-digossina",
+        "identifier": "Glicosidi classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe dei glicosidi cardioattivi sintetizzata da RCP/fonti cliniche; dosi e digossinemia orientative da confermare sull'RCP ufficiale e caso per caso."
+  },
+  "name": "Glicosidi cardioattivi",
+  "atcGroup": "C01AA05",
+  "memberDrugIds": [
+    "digoxin"
+  ],
+  "mechanismSummary": "Inibizione della pompa Na/K-ATPasi (aumento del calcio intracellulare e inotropismo positivo) e potenziamento del tono vagale, con rallentamento della conduzione atrioventricolare.",
+  "molecularTarget": "Pompa Na/K-ATPasi (e tono vagale sul nodo AV)",
+  "pharmacodynamics": "Effetto inotropo positivo e cronotropo/dromotropo negativo; utile per il controllo della frequenza nella fibrillazione atriale.",
+  "classEffects": [
+    "Controllo della frequenza ventricolare nella fibrillazione/flutter atriale",
+    "Riduzione delle ospedalizzazioni nello scompenso a FE ridotta (effetto neutro sulla mortalita')"
+  ],
+  "sharedContraindications": [
+    "Bradiaritmie e blocco AV avanzato senza pacemaker",
+    "Tachiaritmie ventricolari",
+    "WPW con fibrillazione atriale",
+    "Cardiomiopatia ipertrofica ostruttiva; stenosi aortica grave",
+    "Ipokaliemia/ipercalcemia non corrette"
+  ],
+  "sharedAdverseEffects": [
+    "Intossicazione digitalica (aritmie, sintomi gastrointestinali, disturbi visivi)",
+    "Bradicardia/blocco AV"
+  ],
+  "monitoring": [
+    "Digossinemia (indice terapeutico stretto, target basso)",
+    "Funzione renale",
+    "Potassio, magnesio, calcio",
+    "ECG"
+  ],
+  "reversal": "Antidoto in caso di intossicazione grave: frammenti anticorpali Fab anti-digossina.",
+  "notesOnClassVsMolecule": "Classe rappresentata dalla digossina (indice terapeutico stretto). Richiede dosi individualizzate, riduzione nell'insufficienza renale e nell'anziano, monitoraggio della digossinemia e correzione degli elettroliti; molte interazioni ne aumentano i livelli. Dettagli nella scheda."
+}

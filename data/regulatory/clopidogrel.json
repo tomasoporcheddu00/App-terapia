@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "id": "clopidogrel",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": "Curatore clinico",
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": "2026-07-19",
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Plavix (clopidogrel), Sanofi; disponibile anche come generico. Autorizzazione EMA (procedura centralizzata per Plavix).",
+        "url": "https://www.univadis.it/references/drug-database/B01/viewdrug/plavix-12976",
+        "identifier": "Plavix / clopidogrel",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Clopidogrel disponibile come Plavix (autorizzazione centralizzata EMA) e come generici. Classe di rimborsabilita', regime di fornitura per confezione, eventuali note/PT storici e AIC da verificare su banca dati AIFA.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "clopidogrel",
+  "authorisation": "Autorizzato (Plavix via EMA, procedura centralizzata); disponibili generici.",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RR (da confermare per confezione)",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "registry": null,
+  "distribution": null,
+  "law648_1996": false,
+  "prescriberRestrictions": null,
+  "availableFormulations": [
+    "compresse 75 mg",
+    "compresse 300 mg"
+  ],
+  "verificationDate": "2026-07-18"
+}

@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "id": "ethacrynic-acid",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Acido etacrinico (Reomax) - RCP AIFA (Torrinomedica/Mediately/Univadis): diuretico dell'ansa NON sulfamidico; orale 50-150 mg/die, EV etacrinato sodico 50 mg o 0,5-1 mg/kg nell'edema polmonare acuto; ototossicita'.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/reomax/",
+        "identifier": "Reomax RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "ethacrynic-acid",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Antibiotici aminoglicosidici",
+      "effect": "Potenziamento dell'ototossicita'",
+      "management": "Evitare l'associazione"
+    },
+    {
+      "severity": "major",
+      "agent": "Litio",
+      "effect": "Aumento della litiemia e rischio di tossicita'",
+      "management": "Non somministrare insieme"
+    },
+    {
+      "severity": "major",
+      "agent": "Glicosidi digitalici",
+      "effect": "L'ipokaliemia indotta favorisce la tossicita' digitalica",
+      "management": "Monitorare potassiemia ed ECG"
+    },
+    {
+      "severity": "moderate",
+      "agent": "FANS",
+      "effect": "Riduzione della risposta diuretica e rischio di insufficienza renale",
+      "management": "Monitorare diuresi e funzione renale"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Inibitori dell'anidrasi carbonica (acetazolamide)",
+      "effect": "Potenziamento di natriuresi e kaliuresi",
+      "management": "Monitorare gli elettroliti"
+    }
+  ]
+}

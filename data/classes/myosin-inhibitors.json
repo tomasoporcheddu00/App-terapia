@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "id": "myosin-inhibitors",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Camzyos (mavacamten) - RCP EMA (registro comunitario EC, allegato IT; Torrinomedica/Codifa): indicazione, genotipizzazione CYP2C19, schema di titolazione ecoguidato, controindicazione in gravidanza.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2023/20230626159388/anx_159388_it.pdf",
+        "identifier": "Camzyos RCP EMA",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida sulle cardiomiopatie: mavacamten Classe IIa nei pazienti sintomatici nonostante terapia ottimale.",
+        "url": "https://academic.oup.com/eurheartj/article/44/37/3503/7246608",
+        "identifier": "ESC 2023 cardiomiopatie",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Commissione Europea - approvazione di MYQORZO (aficamten) del 17 febbraio 2026 per la cardiomiopatia ipertrofica ostruttiva sintomatica NYHA II-III; compresse da 5, 10, 15 e 20 mg; studio SEQUOIA-HCM.",
+        "url": "https://ir.cytokinetics.com/press-releases/press-release-details/2026/Cytokinetics-Announces-European-Commission-Approval-of-MYQORZO-aficamten-for-the-Treatment-of-Adults-with-Symptomatic-Obstructive-Hypertrophic-Cardiomyopathy/default.aspx",
+        "identifier": "EC/MYQORZO 2026",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Notiziario associativo (marzo 2026): approvazione europea di aficamten e richiesta di approvazione ad AIFA per l'Italia; primo lancio europeo atteso in Germania nel secondo trimestre 2026.",
+        "url": "https://www.aicarm.it/aicarm-news-marzo-2026/",
+        "identifier": "Stato regolatorio IT",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Pagina di classe da RCP EMA e comunicazioni regolatorie; dati di aficamten parziali in attesa dell'RCP italiano."
+  },
+  "name": "Inibitori della miosina cardiaca",
+  "atcGroup": "C01E - Altri preparati cardiaci",
+  "memberDrugIds": [
+    "mavacamten",
+    "aficamten"
+  ],
+  "mechanismSummary": "Inibizione allosterica e reversibile della miosina cardiaca: riduce il numero di teste di miosina disponibili a formare ponti con l'actina, diminuendo l'ipercontrattilita' e migliorando il rilasciamento diastolico.",
+  "molecularTarget": "Miosina cardiaca (beta-miosina a catena pesante)",
+  "pharmacodynamics": "Riduzione dose-dipendente della contrattilita' e del gradiente all'efflusso ventricolare sinistro, con miglioramento della capacita' funzionale e dei sintomi.",
+  "classEffects": [
+    "Prima classe che agisce sul meccanismo fisiopatologico della cardiomiopatia ipertrofica, e non solo sui sintomi",
+    "Riduzione della frazione d'eiezione e disfunzione sistolica come rischio di classe: titolazione guidata dall'ecocardiogramma",
+    "Riduzione del ricorso alle procedure invasive di riduzione settale (mavacamten, studio VALOR-HCM)"
+  ],
+  "sharedContraindications": [
+    "Frazione d'eiezione ventricolare sinistra ridotta (per il mavacamten non iniziare se <55%)",
+    "Gravidanza e donne in eta' fertile senza contraccezione efficace (mavacamten)"
+  ],
+  "sharedAdverseEffects": [
+    "Riduzione della frazione d'eiezione e scompenso cardiaco",
+    "Capogiri e sincope",
+    "Fibrillazione atriale"
+  ],
+  "monitoring": [
+    "Frazione d'eiezione ecocardiografica secondo lo schema previsto",
+    "Gradiente all'efflusso con manovra di Valsalva",
+    "Genotipo CYP2C19 (mavacamten)"
+  ],
+  "reversal": "Nessun antidoto: sospendere e sorvegliare la funzione ventricolare; la lunga emivita del mavacamten comporta un recupero non immediato.",
+  "notesOnClassVsMolecule": "Il mavacamten e' disponibile da piu' tempo e ha uno schema di titolazione ecoguidato con genotipizzazione CYP2C19; l'aficamten e' stato autorizzato dalla Commissione Europea nel febbraio 2026 e alla compilazione di questa scheda non risultava ancora disponibile in Italia. Attenzione all'effetto additivo con gli altri inotropi negativi (betabloccanti, verapamil, diltiazem, disopiramide)."
+}

@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "vutrisiran",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "EMA/AIFA - vutrisiran (Amvuttra): medicinale orfano; la Commissione Europea ha esteso l'indicazione all'ATTR-CM e AIFA ha esteso la rimborsabilita' al SSN.",
+        "url": "https://www.sismed-it.com/vutrisiran-attr-cm-rimborsabilita-aifa/",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Farmaco orfano ad alto costo con piano terapeutico e registro di monitoraggio: verificare i criteri di eleggibilita' AIFA aggiornati per l'indicazione ATTR-CM."
+  },
+  "drugId": "vutrisiran",
+  "authorisation": "EMA/Nazionale",
+  "marketed": true,
+  "reimbursementClass": "A (registro)",
+  "supplyRegime": "RNRL - prescrizione limitativa specialistica",
+  "aifaNote": null,
+  "therapeuticPlan": true,
+  "distribution": "Distribuzione diretta",
+  "law648_1996": false,
+  "prescriberRestrictions": "Centri esperti in amiloidosi cardiaca"
+}

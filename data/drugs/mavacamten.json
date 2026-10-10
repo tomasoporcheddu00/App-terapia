@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "id": "mavacamten",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Camzyos (mavacamten) - RCP EMA (registro comunitario EC, allegato IT; Torrinomedica/Codifa): indicazione, genotipizzazione CYP2C19, schema di titolazione ecoguidato, controindicazione in gravidanza.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2023/20230626159388/anx_159388_it.pdf",
+        "identifier": "Camzyos RCP EMA",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida sulle cardiomiopatie: mavacamten Classe IIa nei pazienti sintomatici nonostante terapia ottimale.",
+        "url": "https://academic.oup.com/eurheartj/article/44/37/3503/7246608",
+        "identifier": "ESC 2023 cardiomiopatie",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da RCP EMA/AIFA e da fonti secondarie derivate dagli RCP (Torrinomedica/Codifa/Mediately, registro comunitario EC). DA CONFERMARE sugli RCP ufficiali. Stato: revisione fonti (source-review), non ancora approvato. Farmaci specialistici per amiloidosi cardiaca e cardiomiopatia ipertrofica: prescrizione in centri esperti, con piano terapeutico e criteri diagnostici stringenti. La titolazione e' guidata dall'ecocardiogramma e dal fenotipo CYP2C19: e' un farmaco da centro esperto, non da avvio ambulatoriale improvvisato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Mavacamten",
+    "inn": "mavacamten",
+    "brandExamplesIt": [
+      "Camzyos"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Inibitore allosterico reversibile della miosina cardiaca",
+  "identity": {
+    "atcCodes": [
+      "C01EB24"
+    ],
+    "formulations": [
+      "Capsule rigide 2,5 mg, 5 mg, 10 mg, 15 mg"
+    ],
+    "potentialRoutes": [
+      "orale"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "myosin-inhibitors"
+  ],
+  "quickSummary": {
+    "whatItIs": "Primo inibitore selettivo, allosterico e reversibile della miosina cardiaca: riduce il numero di ponti actina-miosina, diminuendo l'ipercontrattilita' e quindi l'ostruzione all'efflusso. Agisce sul meccanismo fisiopatologico della cardiomiopatia ipertrofica ostruttiva.",
+    "mainUses": [
+      "Cardiomiopatia ipertrofica ostruttiva sintomatica (NYHA II-III) nell'adulto"
+    ],
+    "mainRisks": [
+      "Disfunzione sistolica e scompenso cardiaco (riduzione della frazione d'eiezione): richiede sorveglianza ecocardiografica programmata",
+      "Esposizione fino a 3 volte maggiore nei metabolizzatori lenti del CYP2C19",
+      "Controindicato in gravidanza e nelle donne in eta' fertile senza contraccezione efficace"
+    ],
+    "essentialMonitoring": [
+      "Frazione d'eiezione all'ecocardiogramma prima e durante il trattamento secondo lo schema previsto",
+      "Gradiente all'efflusso con manovra di Valsalva",
+      "Genotipo/fenotipo CYP2C19 per stabilire la dose",
+      "Test di gravidanza prima dell'avvio nelle donne in eta' fertile"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento della cardiomiopatia ipertrofica ostruttiva sintomatica (classe NYHA II-III) nei pazienti adulti"
+    ],
+    "guidelineIndications": [
+      "Nelle linee guida ESC 2023 sulle cardiomiopatie il mavacamten va considerato (Classe IIa) nei pazienti che restano sintomatici nonostante la terapia ottimale, e come monoterapia in chi ha intolleranza o controindicazione a betabloccanti, verapamil/diltiazem e disopiramide",
+      "Nello studio VALOR-HCM ha ridotto in modo significativo il ricorso alle procedure invasive di riduzione settale"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Gravidanza e donne in eta' fertile che non usano misure contraccettive efficaci"
+    ],
+    "warnings": [
+      "NON INIZIARE se la frazione d'eiezione ventricolare sinistra e' inferiore al 55%: la LVEF va determinata con ecocardiografia prima dell'avvio",
+      "E' necessaria la GENOTIPIZZAZIONE per il CYP2C19 per stabilire la dose: i metabolizzatori lenti possono presentare esposizioni fino a 3 volte maggiori, con aumentato rischio di disfunzione sistolica. Se il trattamento viene iniziato prima di conoscere il fenotipo, seguire le istruzioni previste per i metabolizzatori lenti",
+      "Schema di sorveglianza: rivalutare stato clinico, gradiente all'efflusso con manovra di Valsalva e LVEF a 4 e 8 settimane dall'avvio; dopo un aumento di dose ricontrollare a 4 settimane e mantenere la dose per le successive 8 settimane a meno che la LVEF sia <50%; un ulteriore incremento e' ammesso dopo 12 settimane se la LVEF e' >=55%. Sospendere il trattamento se la LVEF scende sotto il 50%",
+      "Inibitori e induttori di CYP2C19 e CYP3A4 modificano l'esposizione al farmaco a seconda del fenotipo: seguire le modifiche di dose previste dall'RCP",
+      "Se si inizia o si aumenta un altro inotropo negativo, e' necessaria un'attenta supervisione con monitoraggio della LVEF fino a dosi stabili; la sicurezza dell'associazione di betabloccante con verapamil o diltiazem non e' stata stabilita",
+      "Le donne in eta' fertile devono avere un test di gravidanza negativo prima dell'avvio e usare contraccezione efficace durante il trattamento e per 6 mesi dopo la sospensione (sono necessarie circa 5 emivite: circa 45 giorni nei metabolizzatori normali e 115 giorni nei metabolizzatori lenti)"
+    ],
+    "adverseEffects": [
+      "Riduzione della frazione d'eiezione ventricolare sinistra e scompenso cardiaco",
+      "Capogiri e sincope",
+      "Fibrillazione atriale",
+      "Dispnea"
+    ],
+    "overdose": "In caso di sovradosaggio il rischio principale e' la disfunzione sistolica: sospendere il trattamento, monitorare la funzione ventricolare con ecocardiografia e trattare l'eventuale scompenso. Non esiste un antidoto specifico.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento richiesto nella compromissione da lieve a moderata (eGFR 30-89 mL/min/1,73 m2).",
+      "hepatic": "Consultare l'RCP per gli aggiustamenti.",
+      "elderly": "Nessun aggiustamento della dose e dello schema di titolazione nei pazienti di eta' >=65 anni.",
+      "pregnancy": "CONTROINDICATO in gravidanza e nelle donne in eta' fertile senza contraccezione efficace; test di gravidanza negativo prima dell'avvio.",
+      "breastfeeding": "Non raccomandato."
+    },
+    "alternativeDrugIds": [
+      "aficamten",
+      "disopyramide",
+      "verapamil"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' la prima pastiglia che agisce sul difetto di fondo del cuore ipertrofico: riduce la 'forza eccessiva' della contrazione e quindi l'ostacolo all'uscita del sangue. Proprio per questo puo' ridurre troppo la funzione di pompa, e richiede ecocardiogrammi programmati.",
+    "clinicalExplanation": "Inibitore allosterico reversibile della miosina cardiaca: riduce il numero di ponti actina-miosina e quindi l'ipercontrattilita', migliorando anche il rilasciamento diastolico. Indicato nella CMI ostruttiva sintomatica NYHA II-III; Classe IIa nelle linee guida ESC 2023 quando persistono i sintomi nonostante la terapia ottimale. Due elementi governano la pratica: la sorveglianza ecocardiografica della LVEF (non iniziare se <55%, sospendere se <50%) e la genotipizzazione del CYP2C19, che determina dose iniziale e massima.",
+    "molecularExplanation": "Si lega a un sito allosterico della miosina cardiaca stabilizzandone lo stato super-rilassato e riducendo il numero di teste di miosina disponibili a formare ponti con l'actina; ne derivano riduzione della contrattilita' e miglioramento della compliance diastolica.",
+    "pharmacodynamics": "Riduzione dose-dipendente della contrattilita' e del gradiente all'efflusso ventricolare sinistro, con miglioramento della capacita' funzionale e dei sintomi.",
+    "molecularTarget": "Miosina cardiaca (beta-miosina a catena pesante)",
+    "agonismAntagonism": "Inibizione allosterica reversibile della miosina",
+    "pharmacokinetics": {
+      "route": "Orale, una volta al giorno",
+      "halfLife": "Lunga e dipendente dal fenotipo CYP2C19 (circa 45 giorni per 5 emivite nei metabolizzatori normali, circa 115 giorni nei lenti)",
+      "note": "Metabolismo prevalente CYP2C19 (CYP3A4 nei metabolizzatori lenti); assorbimento rapido con tmax mediano di 1 ora"
+    },
+    "bibliography": []
+  }
+}

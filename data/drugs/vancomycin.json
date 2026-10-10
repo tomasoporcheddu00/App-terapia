@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "id": "vancomycin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "SPILF-AEPEI - position statement sulla terapia antibiotica dell'endocardite secondo le linee guida ESC 2023 (strategie per streptococchi, enterococchi e stafilococchi; daptomicina, rifampicina, monitoraggi).",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2666991924001787",
+        "identifier": "SPILF-AEPEI 2024",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "SCOPO DELLA SCHEDA: in questo atlante cardiologico gli antibiotici sono trattati SOLO per il ruolo nell'endocardite infettiva; per ogni altro impiego fare riferimento all'RCP e alla consulenza infettivologica. Regimi sintetizzati dalle linee guida ESC 2023 sull'endocardite (tabelle 7-10) tramite fonti secondarie e dal position statement SPILF-AEPEI: DA CONFERMARE sul testo integrale delle linee guida e sul corrigendum 2025, che ha corretto le dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10. La scelta di molecola, dose e durata dipende da patogeno, MIC, tipo di valvola (nativa o protesica) e funzione renale, e va concordata con l'Endocarditis Team. Stato: revisione fonti (source-review). Ruolo nell'endocardite: la scelta e la durata dipendono da patogeno, MIC e tipo di valvola. Verificare sempre le tabelle ESC 2023 aggiornate al corrigendum e concordare con l'Endocarditis Team.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Vancomicina",
+    "inn": "vancomicina",
+    "brandExamplesIt": [
+      "Vancomicina cloridrato"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Glicopeptide",
+  "identity": {
+    "atcCodes": [
+      "J01XA01"
+    ],
+    "formulations": [
+      "Polvere per soluzione per infusione"
+    ],
+    "potentialRoutes": [
+      "endovenosa"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "glycopeptides"
+  ],
+  "quickSummary": {
+    "whatItIs": "Glicopeptide di riferimento contro i Gram-positivi resistenti ai beta-lattamici (MRSA, enterococchi beta-lattamico-resistenti) e nei pazienti con allergia grave alle penicilline.",
+    "mainUses": [
+      "Endocardite da MRSA",
+      "Endocardite da enterococchi resistenti ai beta-lattamici",
+      "Endocardite in paziente con allergia grave ai beta-lattamici"
+    ],
+    "mainRisks": [
+      "Nefrotossicita', amplificata dall'associazione con gentamicina",
+      "Necessita' di monitoraggio dei livelli (valle o AUC)",
+      "Reazione da infusione rapida (sindrome dell'uomo rosso)",
+      "Efficacia ridotta se la MIC e' superiore a 1 mg/L"
+    ],
+    "essentialMonitoring": [
+      "Livelli plasmatici di valle (target 15-20 microgrammi/mL negli schemi dell'endocardite) o AUC secondo il protocollo locale",
+      "Funzione renale ravvicinata, soprattutto se associata a gentamicina",
+      "Emocolture di controllo"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Infezioni gravi da Gram-positivi sensibili, secondo la scheda tecnica"
+    ],
+    "guidelineIndications": [
+      "Endocardite da MRSA: vancomicina 30-60 mg/kg al giorno per via endovenosa (target di valle 15-20 microgrammi/mL) per 4-6 settimane; su valvola protesica in associazione a rifampicina 900 mg al giorno in 3 somministrazioni e gentamicina 3 mg/kg al giorno per 2 settimane - ESC 2023",
+      "Endocardite enterococcica da ceppi resistenti ai beta-lattamici: vancomicina 30-60 mg/kg al giorno con gentamicina 3 mg/kg al giorno per 6 settimane",
+      "Paziente con allergia grave ai beta-lattamici o resistenza a penicilline e cefalosporine: la vancomicina e' l'opzione preferita",
+      "LIMITE IMPORTANTE: la vancomicina non dovrebbe essere usata quando la MIC e' superiore a 1 mg/L; nell'endocardite su protesi l'aggiunta sistematica di gentamicina rende il regime molto rischioso sul piano renale, per cui la daptomicina puo' essere preferita (SPILF-AEPEI)"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alla vancomicina"
+    ],
+    "warnings": [
+      "NEFROTOSSICITA': rischio marcatamente aumentato dall'associazione con gentamicina, dall'ipovolemia, dai mezzi di contrasto e dai FANS. Nell'endocardite su protesi l'associazione sistematica con gentamicina e' considerata particolarmente rischiosa",
+      "Necessita' di monitoraggio terapeutico: target di valle 15-20 microgrammi/mL negli schemi dell'endocardite, o monitoraggio dell'AUC secondo il protocollo locale; adeguare dose e intervallo alla funzione renale",
+      "Reazione all'infusione rapida (sindrome dell'uomo rosso) da rilascio di istamina: infondere in almeno 60 minuti",
+      "Non usare se la MIC e' superiore a 1 mg/L: efficacia insufficiente",
+      "Ototossicita' (meno frequente che con gli aminoglicosidi) e neutropenia nei trattamenti prolungati"
+    ],
+    "adverseEffects": [
+      "Nefrotossicita'",
+      "Reazione da infusione (sindrome dell'uomo rosso)",
+      "Neutropenia e trombocitopenia nei trattamenti prolungati",
+      "Ototossicita'",
+      "Flebite in sede di infusione",
+      "Rare reazioni cutanee gravi (DRESS)"
+    ],
+    "overdose": "Il sovradosaggio aumenta il rischio di nefrotossicita' e ototossicita'. Sospensione, idratazione e supporto; la rimozione con emodialisi convenzionale e' limitata, migliore con tecniche ad alto flusso.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Adeguamento della dose e dell'intervallo alla clearance con monitoraggio dei livelli; e' il farmaco per cui il monitoraggio e' piu' importante.",
+      "hepatic": "Nessun aggiustamento sistematico.",
+      "elderly": "Rischio nefrotossico aumentato: monitoraggio ravvicinato.",
+      "pregnancy": "Consultare l'RCP.",
+      "breastfeeding": "Consultare l'RCP."
+    },
+    "alternativeDrugIds": [
+      "daptomycin",
+      "linezolid",
+      "gentamicin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' l'antibiotico per lo stafilococco resistente e per chi e' fortemente allergico alla penicillina. Richiede il dosaggio nel sangue e attenzione ai reni, soprattutto se associato alla gentamicina.",
+    "clinicalExplanation": "Glicopeptide battericida tempo-dipendente attivo sui Gram-positivi, inclusi MRSA ed enterococchi beta-lattamico-resistenti. Nell'endocardite si usa a 30-60 mg/kg/die con target di valle 15-20 microgrammi/mL per 4-6 settimane, associata a rifampicina e gentamicina nelle forme su protesi. Due limiti governano la scelta: l'efficacia si riduce con MIC superiore a 1 mg/L, e la nefrotossicita' diventa rilevante quando si aggiunge la gentamicina, situazione in cui la daptomicina puo' essere preferibile.",
+    "molecularExplanation": "Si lega ai residui D-alanil-D-alanina dei precursori del peptidoglicano impedendone la polimerizzazione e la transpeptidazione.",
+    "pharmacodynamics": "Battericida tempo-dipendente; l'efficacia si correla al rapporto AUC/MIC.",
+    "molecularTarget": "Precursori del peptidoglicano (terminale D-Ala-D-Ala)",
+    "agonismAntagonism": "Inibizione della sintesi o della funzione batterica",
+    "pharmacokinetics": {
+      "route": "Endovenosa, in infusione di almeno 60 minuti",
+      "halfLife": "Circa 4-6 ore con funzione renale normale, molto prolungata nell'insufficienza renale",
+      "note": "Eliminazione renale per filtrazione glomerulare; scarsa rimozione con dialisi convenzionale"
+    },
+    "bibliography": []
+  }
+}

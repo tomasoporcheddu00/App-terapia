@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "candesartan__hypertension__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Candesartan cilexetil - RCP (rese da Mediately/Codifa/Torrinomedica su base AIFA): indicazioni, posologia §4.2, controindicazioni §4.3; ATC C09CA06.",
+        "url": "https://mediately.co/it/drugs/GmtUE56ZuiY7WhAoOYpUrpOKpWv/candesartan-sandoz-16-mg-compresse-divisibili",
+        "identifier": "Candesartan RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "candesartan",
+  "indication": "hypertension",
+  "scenario": "Ipertensione arteriosa",
+  "route": "orale",
+  "dose": {
+    "initial": "8 mg una volta al giorno",
+    "maintenance": "8 mg una volta al giorno",
+    "max": "32 mg al giorno",
+    "titration": "aumentare secondo pressione (8 -> 16 -> 32 mg)"
+  },
+  "administration": {
+    "notes": "Assumibile con o senza cibo. Nei pazienti deplezionati iniziare a dose ridotta."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

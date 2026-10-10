@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "potassium-chloride",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Banca Dati AIFA - cloruro di potassio: soluzioni concentrate EV ad alto rischio (uso ospedaliero); forme orali con ricetta.",
+        "url": "https://www.torrinomedica.it/farmaci/schedetecniche/Potassio_Cloruro.asp",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Le soluzioni concentrate EV sono uso ospedaliero ad alto rischio; le forme orali sono in farmacia. Confermare classe per formulazione."
+  },
+  "drugId": "potassium-chloride",
+  "authorisation": "Nazionale (AIFA)",
+  "marketed": true,
+  "reimbursementClass": "A/C (secondo formulazione)",
+  "supplyRegime": "OSP (EV concentrato) / RR (orale)",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Ospedaliera/farmacia",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

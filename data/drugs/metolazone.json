@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "id": "metolazone",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Metolazone (Zaroxolyn) - RCP (Codifa/my-personaltrainer) e letteratura: indicazioni ipertensione/edema, dose 2,5-20 mg, efficacia mantenuta in IR e blocco sequenziale del nefrone con i diuretici dell'ansa.",
+        "url": "https://www.codifa.it/farmaci/z/zaroxolyn-metolazone-diuretici",
+        "identifier": "Metolazone RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Disponibilita' in Italia limitata/da confermare (Zaroxolyn): dati posologici da RCP storico e letteratura; verificare disponibilita' e modalita' di reperimento.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Metolazone",
+    "inn": "metolazone",
+    "brandExamplesIt": [
+      "Zaroxolyn"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Diuretico simil-tiazidico (potente, attivo in insufficienza renale)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "thiazide-diuretics"
+  ],
+  "quickSummary": {
+    "whatItIs": "Simil-tiazidico potente che mantiene efficacia anche nell'insufficienza renale; usato per l'edema refrattario in associazione ai diuretici dell'ansa (blocco sequenziale del nefrone).",
+    "mainUses": [
+      "Ipertensione arteriosa",
+      "Edemi (scompenso, insufficienza renale)",
+      "Edema refrattario (add-on ai diuretici dell'ansa)"
+    ],
+    "mainRisks": [
+      "Ipopotassiemia marcata (specie in associazione ai diuretici dell'ansa)",
+      "Iponatriemia, ipovolemia",
+      "Peggioramento della funzione renale"
+    ],
+    "essentialMonitoring": [
+      "Elettroliti (potassio, sodio, magnesio)",
+      "Funzione renale",
+      "Volemia/pressione"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipertensione arteriosa (da sola o in associazione)",
+      "Edemi da ritenzione idrico-salina (scompenso cardiaco, insufficienza renale)"
+    ],
+    "guidelineIndications": [
+      "Utile per il blocco sequenziale del nefrone nell'edema refrattario ai diuretici dell'ansa (somministrato ~30-60 minuti prima del diuretico dell'ansa), mantenendo efficacia anche con GFR ridotto; monitoraggio stretto degli elettroliti (linee guida HF) - confermare su ESC/ACC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' ai sulfamidici o al principio attivo",
+      "Coma/precoma epatico",
+      "Anuria",
+      "Grave deplezione elettrolitica"
+    ],
+    "warnings": [
+      "Ipopotassiemia (rischio maggiore con digossina e con farmaci che prolungano il QT); monitorare il potassio",
+      "Iponatriemia (anziani, cirrotici): monitorare il sodio",
+      "Ipercalcemia (i tiazidici riducono l'escrezione urinaria di calcio, a differenza dei diuretici dell'ansa)",
+      "Iperuricemia/gotta; possibile aumento di glicemia e lipidi (l'indapamide e' metabolicamente piu' neutra)",
+      "Fotosensibilita'; rara reazione idiosincrasica sulfamidica (miopia acuta, glaucoma acuto ad angolo chiuso)",
+      "In associazione ai diuretici dell'ansa: rischio elevato di ipopotassiemia/ipomagnesiemia/ipovolemia e peggioramento renale; usare per brevi cicli con monitoraggio stretto",
+      "Mantiene efficacia anche con funzione renale ridotta (a differenza degli altri tiazidici)"
+    ],
+    "adverseEffects": [
+      "Ipopotassiemia, iponatriemia",
+      "Ipercalcemia, ipomagnesiemia",
+      "Iperuricemia/gotta",
+      "Iperglicemia, dislipidemia",
+      "Ipotensione ortostatica",
+      "Fotosensibilita'",
+      "Disfunzione erettile"
+    ],
+    "overdose": "Il sovradosaggio causa disidratazione, ipotensione e squilibri elettrolitici; reidratare e correggere.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Mantiene efficacia anche nell'insufficienza renale (a differenza degli altri tiazidici).",
+      "hepatic": "Cautela (rischio di squilibri e sindrome iposalina).",
+      "elderly": "Iniziare a dose bassa (maggiore suscettibilita').",
+      "pregnancy": "Non raccomandato.",
+      "breastfeeding": "Non raccomandato."
+    },
+    "alternativeDrugIds": [
+      "hydrochlorothiazide",
+      "chlorthalidone",
+      "furosemide"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un diuretico 'da associare' quando gli altri non bastano piu': potenzia molto l'effetto dei diuretici dell'ansa, ma va sorvegliato da vicino per il potassio.",
+    "clinicalExplanation": "Simil-tiazidico (chinazolinico) potente e a lunga durata, efficace anche in insufficienza renale; il suo ruolo principale e' l'edema refrattario in add-on ai diuretici dell'ansa (blocco sequenziale del nefrone), con rischio elevato di squilibri elettrolitici.",
+    "molecularExplanation": "Inibisce il cotrasportatore Na-Cl nel tubulo distale (con effetto anche prossimale).",
+    "pharmacodynamics": "Natriuresi potente e prolungata; sinergia con i diuretici dell'ansa (blocco sequenziale del nefrone).",
+    "molecularTarget": "Cotrasportatore Na-Cl (NCC) del tubulo distale",
+    "agonismAntagonism": "Inibizione del cotrasportatore",
+    "pharmacokinetics": {
+      "bioavailability": "~65%",
+      "elimination": "Renale",
+      "onset": "Entro ~1 ora",
+      "halfLife": "Lunga"
+    },
+    "bibliography": []
+  }
+}

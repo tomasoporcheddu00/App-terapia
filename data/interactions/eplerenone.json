@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "id": "eplerenone",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Eplerenone (Inspra) - RCP/fonti (informazionisuifarmaci, EPHESUS/EMPHASIS-HF, PTR): indicazioni post-IM e scompenso NYHA II, dose, iperkaliemia, CYP3A4.",
+        "url": "https://www.informazionisuifarmaci.it/eplerenone",
+        "identifier": "Eplerenone RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5; severita' secondo posizionamento RCP e rilevanza clinica.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "eplerenone",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "ACE-inibitori, sartani, aliskiren",
+      "effect": "Iperkaliemia (blocco combinato del RAAS)",
+      "management": "Monitorare strettamente potassio e funzione renale"
+    },
+    {
+      "severity": "major",
+      "agent": "Sali/integratori di potassio, altri risparmiatori di potassio, eparina",
+      "effect": "Iperkaliemia",
+      "management": "Evitare o monitorare"
+    },
+    {
+      "severity": "major",
+      "agent": "FANS",
+      "effect": "Iperkaliemia e riduzione dell'effetto; nefrotossicita'",
+      "management": "Cautela; monitorare potassio e funzione renale"
+    },
+    {
+      "severity": "contraindicated",
+      "agent": "Inibitori potenti del CYP3A4 (ketoconazolo, itraconazolo, ritonavir, claritromicina, nefazodone)",
+      "effect": "Forte aumento dell'esposizione all'eplerenone e dell'iperkaliemia",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Inibitori moderati del CYP3A4 (es. diltiazem, verapamil, eritromicina, fluconazolo)",
+      "effect": "Aumento dell'esposizione",
+      "management": "Ridurre la dose e monitorare"
+    }
+  ]
+}

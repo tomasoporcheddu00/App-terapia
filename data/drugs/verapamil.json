@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "id": "verapamil",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Verapamil - RCP (Torrinomedica/Mediately/Pharmamedix su base AIFA): indicazioni ipertensione/angina/aritmie SV, dose, controindicazioni (scompenso, WPW+FA, betabloccante EV), stipsi.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/verapamil_angenerico/",
+        "identifier": "Verapamil RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Verapamil",
+    "inn": "verapamil",
+    "brandExamplesIt": [
+      "Isoptin"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Calcioantagonista non diidropiridinico (fenilalchilamina)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "nondhp-ccb"
+  ],
+  "quickSummary": {
+    "whatItIs": "Calcioantagonista non diidropiridinico che rallenta frequenza e conduzione AV e riduce la contrattilita': utile in aritmie sopraventricolari, angina e ipertensione.",
+    "mainUses": [
+      "Aritmie sopraventricolari (TPSV; controllo frequenza in FA/flutter)",
+      "Angina pectoris",
+      "Ipertensione arteriosa"
+    ],
+    "mainRisks": [
+      "Bradicardia/blocco AV",
+      "Peggioramento dello scompenso (inotropo negativo)",
+      "Stitichezza"
+    ],
+    "essentialMonitoring": [
+      "Frequenza cardiaca e conduzione (ECG)",
+      "Pressione arteriosa"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Aritmie ipercinetiche sopraventricolari (tachicardia parossistica sopraventricolare; controllo della frequenza in fibrillazione/flutter atriale)",
+      "Angina pectoris (stabile, instabile, vasospastica)",
+      "Ipertensione arteriosa",
+      "Prevenzione secondaria post-infarto quando i betabloccanti sono controindicati e non c'e' scompenso"
+    ],
+    "guidelineIndications": [
+      "Opzione per il controllo della frequenza nella FA quando i betabloccanti non sono utilizzabili; da evitare nell'HFrEF (inotropo negativo) - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Shock cardiogeno",
+      "Ipotensione marcata",
+      "Bradicardia grave",
+      "Malattia del nodo del seno; blocco seno-atriale",
+      "Blocco AV di 2o-3o grado senza pacemaker",
+      "Scompenso cardiaco / disfunzione ventricolare sinistra significativa",
+      "Fibrillazione/flutter atriale con via accessoria (WPW, Lown-Ganong-Levine)",
+      "Uso concomitante con betabloccanti per via endovenosa",
+      "Ipersensibilita'"
+    ],
+    "warnings": [
+      "Inotropo negativo: evitare nello scompenso a FE ridotta",
+      "Bradicardia e blocco AV: monitorare la conduzione",
+      "Non associare a betabloccanti EV; per via orale solo con stretto monitoraggio",
+      "Stitichezza (frequente): gestire con misure dietetiche",
+      "Non interrompere bruscamente nell'angina",
+      "Inibitore del CYP3A4: attenzione alle interazioni"
+    ],
+    "adverseEffects": [
+      "Stitichezza",
+      "Bradicardia, blocco AV",
+      "Ipotensione, edema",
+      "Peggioramento dello scompenso",
+      "Iperplasia gengivale (uso prolungato)"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione, bradicardia e blocco AV; gestione con calcio EV, atropina, fluidi, vasopressori, eventualmente pacing; nei casi gravi terapia con insulina/glucosio ad alte dosi.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Cautela; monitorare.",
+      "hepatic": "Ridurre la dose (metabolismo epatico esteso).",
+      "elderly": "Iniziare a dose bassa; maggiore rischio di bradicardia/stipsi.",
+      "pregnancy": "Usare solo se necessario.",
+      "breastfeeding": "Escreto nel latte; valutare."
+    },
+    "alternativeDrugIds": [
+      "diltiazem",
+      "bisoprolol",
+      "metoprolol"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un calcioantagonista che agisce soprattutto sul cuore: rallenta il battito ed e' utile in alcune tachicardie, ma non va usato nello scompenso e da' spesso stitichezza.",
+    "clinicalExplanation": "Non diidropiridinico con marcato effetto inotropo/cronotropo/dromotropo negativo; utile per il controllo della frequenza nelle tachiaritmie SV. Controindicato nell'HFrEF e con betabloccanti EV; nella FA con via accessoria puo' accelerare la risposta ventricolare.",
+    "molecularExplanation": "Blocca i canali del calcio di tipo L cardiaci (nodo SA/AV e miocardio) e vascolari; fenilalchilamina.",
+    "pharmacodynamics": "Riduzione della contrattilita' (inotropo negativo), della frequenza sinusale e della conduzione atrioventricolare (dromotropo negativo), oltre a vasodilatazione arteriosa.",
+    "molecularTarget": "Canali del calcio di tipo L del miocardio, del nodo senoatriale e atrioventricolare (oltre che vascolari)",
+    "agonismAntagonism": "Antagonista (blocco del canale del calcio)",
+    "pharmacokinetics": {
+      "metabolism": "Epatico (CYP3A4); e' anche inibitore del CYP3A4",
+      "elimination": "Metaboliti urinari",
+      "halfLife": "~4-12 ore"
+    },
+    "bibliography": [
+      "Studi sul controllo della frequenza nella FA con verapamil - da citare con fonte primaria"
+    ]
+  }
+}

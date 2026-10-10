@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "id": "acetazolamide",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Acetazolamide (Diamox) - RCP/monografie (informazionisuifarmaci, materdomini) e trial ADVOR: indicazioni edema da scompenso, glaucoma, epilessia; dose; ruolo nella decongestione dello scompenso acuto.",
+        "url": "https://www.informazionisuifarmaci.it/acetazolamide",
+        "identifier": "Acetazolamide RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "ADVOR - acetazolamide in aggiunta ai diuretici dell'ansa nello scompenso scompensato con sovraccarico di volume (NEJM 2022).",
+        "url": "https://www.empillsblog.com/un-colpo-al-cerchio-e-un-colpo-alla-botte/",
+        "identifier": "ADVOR",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Acetazolamide (Diamox) - monografie di farmacocinetica: emivita di eliminazione 2-4 ore, escrezione renale immodificata.",
+        "url": "https://en.wikipedia.org/wiki/Acetazolamide",
+        "identifier": "Monografia - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. L'uso come 'booster' della decongestione nello scompenso acuto (protocollo ADVOR, EV in add-on ai diuretici dell'ansa) e' evidenza recente/di posizionamento specialistico; verificare l'indicazione approvata sull'RCP.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Acetazolamide",
+    "inn": "acetazolamide",
+    "brandExamplesIt": [
+      "Diamox"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Inibitore dell'anidrasi carbonica",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "carbonic-anhydrase-inhibitors"
+  ],
+  "quickSummary": {
+    "whatItIs": "Inibitore dell'anidrasi carbonica: diuretico debole (con acidosi metabolica) utile come 'booster' della decongestione nello scompenso; usato anche in glaucoma, epilessia e mal di montagna.",
+    "mainUses": [
+      "Edema da scompenso cardiaco (e decongestione in add-on ai diuretici dell'ansa)",
+      "Glaucoma",
+      "Epilessia (coadiuvante)",
+      "Mal di montagna (profilassi)"
+    ],
+    "mainRisks": [
+      "Acidosi metabolica",
+      "Ipopotassiemia",
+      "Parestesie"
+    ],
+    "essentialMonitoring": [
+      "Equilibrio acido-base ed elettroliti (potassio, bicarbonato)",
+      "Funzione renale"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Edema da insufficienza cardiaca",
+      "Glaucoma (riduzione della pressione intraoculare)",
+      "Coadiuvante nel trattamento dell'epilessia",
+      "Profilassi del mal di montagna (secondo scheda/uso)"
+    ],
+    "guidelineIndications": [
+      "Nello scompenso acuto con sovraccarico di volume, l'aggiunta di acetazolamide endovenosa ai diuretici dell'ansa migliora e accelera la decongestione (trial ADVOR); posizionamento come 'booster' diuretico - confermare su ESC/fonte primaria"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' ai sulfamidici o al principio attivo",
+      "Insufficienza renale o epatica grave",
+      "Acidosi ipercloremica / squilibri acido-base",
+      "Ipopotassiemia o iponatriemia",
+      "Insufficienza surrenalica (morbo di Addison)"
+    ],
+    "warnings": [
+      "Acidosi metabolica (l'effetto diuretico e' modesto e tende all'autolimitazione)",
+      "Ipopotassiemia; parestesie, alterazione del gusto",
+      "Cautela nella BPCO (rischio di acidosi) e nel diabete (iperglicemia/glicosuria)",
+      "Nella gotta possibile precipitazione di calcoli di urato: mantenere buona idratazione",
+      "Rare reazioni sulfamidiche gravi (cutanee/ematologiche)"
+    ],
+    "adverseEffects": [
+      "Acidosi metabolica",
+      "Ipopotassiemia",
+      "Parestesie",
+      "Alterazione del gusto, disturbi gastrointestinali",
+      "Sonnolenza"
+    ],
+    "overdose": "Il sovradosaggio puo' causare acidosi metabolica, squilibri elettrolitici e sonnolenza; correggere l'equilibrio acido-base e gli elettroliti.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Controindicata nell'insufficienza renale grave; l'efficacia diuretica si riduce con l'acidosi.",
+      "hepatic": "Controindicata nell'insufficienza epatica grave (rischio di encefalopatia).",
+      "elderly": "Sorvegliare equilibrio acido-base ed elettroliti.",
+      "pregnancy": "Usare solo se necessario.",
+      "breastfeeding": "Cautela."
+    },
+    "alternativeDrugIds": [
+      "furosemide",
+      "hydrochlorothiazide"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un diuretico particolare: da solo scarica pochi liquidi e rende il sangue leggermente acido, ma unito ai diuretici dell'ansa aiuta a 'strizzare' meglio i liquidi nello scompenso.",
+    "clinicalExplanation": "Inibitore dell'anidrasi carbonica nel tubulo prossimale: aumenta l'escrezione di bicarbonato e sodio (diuresi debole, autolimitante, con acidosi metabolica). Nello scompenso acuto potenzia la decongestione dei diuretici dell'ansa (ADVOR).",
+    "molecularExplanation": "Inibisce l'anidrasi carbonica (CO2 + H2O <-> H+ + HCO3-), riducendo il riassorbimento prossimale di bicarbonato e sodio.",
+    "pharmacodynamics": "Bicarbonaturia e natriuresi prossimale (diuresi debole con acidosi metabolica); riduzione della produzione di umor acqueo (glaucoma) e del liquor.",
+    "molecularTarget": "Anidrasi carbonica (tubulo prossimale renale; anche corpo ciliare e SNC)",
+    "agonismAntagonism": "Inibizione enzimatica",
+    "pharmacokinetics": {
+      "elimination": "Renale (immodificata)",
+      "administration": "Orale (compresse) ed endovenosa",
+      "halfLife": "~2-4 ore; inibitore dell'anidrasi carbonica non metabolizzato, escreto immodificato per via renale (~90%). Legame proteico elevato (70-90%)"
+    },
+    "bibliography": [
+      "ADVOR (acetazolamide nello scompenso scompensato con sovraccarico di volume) - da citare con fonte primaria"
+    ]
+  }
+}

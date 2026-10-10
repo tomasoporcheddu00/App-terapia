@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "id": "sodium-bicarbonate",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Bicarbonato di sodio - RCP (Codifa/Mediately su base AIFA): alcalinizzante; acidosi metabolica 2-5 mEq/kg in 4-8h; controindicato in alcalosi/ipernatriemia/ipocalcemia; sovraccarico di sodio.",
+        "url": "https://www.codifa.it/farmaci/s/sodio-bicarbonato-8-4-salf-sodio-bicarbonato-soluzioni-endovena-elettrolitiche",
+        "identifier": "Bicarbonato di sodio RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Agenti d'urgenza: le dosi di emergenza vanno adattate ai protocolli locali. Nell'iperkaliemia il ruolo e' adiuvante; da non miscelare con il calcio.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Bicarbonato di sodio",
+    "inn": "bicarbonato di sodio",
+    "brandExamplesIt": [
+      "Sodio Bicarbonato (varie)"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Alcalinizzante / elettrolita EV",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "electrolyte-metabolic-agents"
+  ],
+  "quickSummary": {
+    "whatItIs": "Soluzione alcalinizzante per correggere l'acidosi metabolica e alcalinizzare le urine; adiuvante nell'iperkaliemia con acidosi. La soluzione 8,4% e' ipertonica.",
+    "mainUses": [
+      "Acidosi metabolica acuta/subacuta",
+      "Alcalinizzazione urinaria (intossicazioni, iperuricemia)",
+      "Adiuvante nell'iperkaliemia (in presenza di acidosi)"
+    ],
+    "mainRisks": [
+      "Alcalosi, ipernatriemia, sovraccarico di sodio/liquidi",
+      "Ipokaliemia e ipocalcemia (tetania)",
+      "Necrosi da stravaso (ipertonica)"
+    ],
+    "essentialMonitoring": [
+      "Equilibrio acido-base/emogas",
+      "Sodio, potassio, calcio",
+      "Volemia (scompenso/IR)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento dell'acidosi metabolica acuta e subacuta",
+      "Alcalinizzazione delle urine (es. intossicazioni, iperuricemia/lisi tumorale)",
+      "Perdite di bicarbonato (diarrea) e shock; adiuvante nell'iperkaliemia con acidosi"
+    ],
+    "guidelineIndications": [
+      "Nell'iperkaliemia il bicarbonato ha un ruolo limitato, utile soprattutto in presenza di acidosi metabolica - ERC/confermare",
+      "Non correggere completamente l'acidosi nelle prime 24 ore (rischio di alcalosi da ipercompensazione)"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Alcalosi metabolica o respiratoria",
+      "Ipernatriemia / sovraccarico di sodio",
+      "Ipocalcemia (il bicarbonato riduce il calcio ionizzato: rischio di tetania)",
+      "Ipocloremia"
+    ],
+    "warnings": [
+      "Soluzione 8,4% ipertonica: infusione a velocita' controllata, evitare grandi volumi rapidi; preferire la via centrale (lo stravaso causa necrosi)",
+      "Rischio di sovraccarico di sodio e liquidi: cautela nello scompenso cardiaco congestizio, nell'insufficienza renale grave e negli stati edematosi",
+      "Puo' indurre ipokaliemia (shift) e ridurre il calcio ionizzato (tetania in ipocalcemici)",
+      "NON miscelare con soluzioni contenenti calcio (precipitazione); aumenta l'emivita di farmaci basici (chinidina, efedrina)"
+    ],
+    "adverseEffects": [
+      "Alcalosi metabolica",
+      "Ipernatriemia, ipervolemia/edema",
+      "Ipokaliemia, ipocalcemia/tetania",
+      "Necrosi da stravaso"
+    ],
+    "overdose": "Il sovradosaggio causa alcalemia, ipernatriemia e ipervolemia (fino a edema polmonare/cerebrale): sospendere l'infusione e correggere gli squilibri.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Cautela nella grave (sovraccarico di sodio).",
+      "hepatic": "Cautela.",
+      "elderly": "Cautela (dose massima ridotta).",
+      "pregnancy": "Utilizzabile se necessario.",
+      "breastfeeding": "Compatibile."
+    },
+    "alternativeDrugIds": []
+  },
+  "deep": {
+    "simpleExplanation": "Corregge il sangue 'troppo acido' e alcalinizza le urine. Attenzione: apporta molto sodio, puo' abbassare potassio e calcio e non va mischiato col calcio.",
+    "clinicalExplanation": "Alcalinizzante (HCO3-): tampona l'acidosi metabolica e alcalinizza le urine. Nell'iperkaliemia ha ruolo adiuvante (soprattutto con acidosi). La 8,4% e' ipertonica (1 mEq/mL); rischio di sovraccarico di sodio, ipokaliemia e riduzione del calcio ionizzato.",
+    "molecularExplanation": "Lo ione bicarbonato tampona gli idrogenioni (H+ + HCO3- -> H2O + CO2), aumentando il pH.",
+    "pharmacodynamics": "Aumento del pH ematico e urinario; spostamento intracellulare del potassio.",
+    "molecularTarget": "Equilibrio acido-base (tampone bicarbonato)",
+    "agonismAntagonism": "Alcalinizzazione / tampone",
+    "pharmacokinetics": {
+      "route": "Endovenosa (8,4% ipertonica via centrale)",
+      "note": "1 mEq/mL al 8,4%",
+      "halfLife": "Non applicabile in senso farmacocinetico: lo ione bicarbonato entra nel pool tampone dell'organismo (equilibrio acido-base)"
+    },
+    "bibliography": []
+  }
+}

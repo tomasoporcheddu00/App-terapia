@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "bempedoic-acid__hypercholesterolemia__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Acido bempedoico (Nilemdo) - RCP EMA/AIFA (EC Europa/Torrinomedica/Codifa): inibitore ATP-citrato liasi, dose 180 mg, iperuricemia/gotta, rischio tendineo, limite simvastatina, controindicazione in gravidanza; CLEAR Outcomes.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/nilemdo/",
+        "identifier": "Nilemdo RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "bempedoic-acid",
+  "indication": "hypercholesterolemia",
+  "scenario": "Ipercolesterolemia / dislipidemia mista",
+  "route": "orale",
+  "dose": {
+    "initial": "180 mg una volta al giorno",
+    "maintenance": "180 mg una volta al giorno",
+    "max": "180 mg al giorno"
+  },
+  "administration": {
+    "notes": "In qualsiasi momento, con o senza cibo. Non associare a simvastatina >40 mg/die."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

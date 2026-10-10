@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "lisinopril__chronic-heart-failure__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Lisinopril - RCP (rese da Mediately/Torrinomedica/Starbene su base AIFA): indicazioni, posologia §4.2, avvertenze.",
+        "url": "https://mediately.co/it/drugs/WS9I5vGygB2RhDVQP9VjXHtKJT8/lisinopril-eg-5-mg-compresse",
+        "identifier": "Lisinopril RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "lisinopril",
+  "indication": "chronic-heart-failure",
+  "scenario": "Insufficienza cardiaca sintomatica",
+  "route": "orale",
+  "dose": {
+    "initial": "2,5-5 mg una volta al giorno sotto osservazione",
+    "titration": "aumenti non superiori a 10 mg a intervalli >=2 settimane",
+    "maintenance": "fino a 35 mg una volta al giorno secondo tollerabilita'",
+    "max": "35 mg al giorno"
+  },
+  "administration": {
+    "notes": "Terapia aggiuntiva a diuretici ed eventualmente digitale/betabloccanti; sorvegliare pressione, potassio e funzione renale."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "id": "clopidogrel__acs-secondary-prevention__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Plavix (clopidogrel) sez. 4.2 + PI EMA (dose di carico 300 mg, mantenimento 75 mg/die).",
+        "url": "https://www.ema.europa.eu/it/documents/product-information/clopidogrel-hcs-epar-product-information_it.pdf",
+        "identifier": "clopidogrel PI EMA",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Mantenimento 75 mg/die confermato; dose di carico 300 mg (fino a 600 mg in alcuni contesti PCI secondo linee guida - da confermare con ESC). id di indicazione da riconciliare col vocabolario del progetto.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "clopidogrel",
+  "indication": "acs-secondary-prevention",
+  "scenario": "Sindrome coronarica acuta / prevenzione secondaria (in DAPT con ASA)",
+  "route": "oral",
+  "formulation": null,
+  "population": "adult-standard",
+  "dose": {
+    "loading": "300 mg (dose di carico nelle SCA; in alcuni contesti PCI dosi superiori secondo linee guida - da confermare)",
+    "initial": "75 mg una volta al giorno",
+    "interval": "ogni 24 ore",
+    "maintenance": "75 mg una volta al giorno",
+    "target": null,
+    "max": null,
+    "titration": null,
+    "duration": "Secondo indicazione e schema DAPT (da linee guida)",
+    "weightBased": null,
+    "cumulative": null,
+    "renalAdjustment": "Esperienza limitata nell'insufficienza renale.",
+    "hepaticAdjustment": "Controindicato in compromissione epatica grave.",
+    "elderly": "Nessun aggiustamento specifico.",
+    "pregnancy": "Evitare salvo necessita'.",
+    "dialysis": null
+  },
+  "administration": {
+    "preparation": null,
+    "solvent": null,
+    "concentration": null,
+    "rate": null,
+    "access": null,
+    "notes": "Assumibile durante o fuori dai pasti."
+  },
+  "monitoring": [
+    "Segni di sanguinamento",
+    "Emocromo se sospetto sanguinamento"
+  ],
+  "stoppingCriteria": [
+    "Sanguinamento significativo",
+    "Chirurgia maggiore (sospensione ~5-7 giorni prima secondo rischio)"
+  ],
+  "approvalEvidence": {
+    "primarySourceVerified": false,
+    "smpcVerified": true,
+    "clinicalReviewDone": true,
+    "verificationDate": "2026-07-18",
+    "reviewer": "Curatore clinico"
+  }
+}

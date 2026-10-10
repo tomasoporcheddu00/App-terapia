@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "calcium-chloride__emergency__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Calcio cloruro - RCP (Mediately/S.A.L.F. su base AIFA): sale di calcio EV piu' potente e piu' irritante (via centrale); ipocalcemia/iperkaliemia/antidoto; controindicato con digitale, FV, ipercalcemia.",
+        "url": "https://mediately.co/it/drugs/53dyFY528xcfi6PVQx9Dic49s3S/calcio-cloruro-s-a-l-f-1-g-10-ml-concentrato-per-soluzione-per-infusione",
+        "identifier": "Calcio cloruro RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false. Dosi d'urgenza da adattare ai protocolli locali."
+  },
+  "drugId": "calcium-chloride",
+  "indication": "electrolyte-emergency",
+  "scenario": "Ipocalcemia acuta / iperkaliemia / antidoto",
+  "route": "endovenosa",
+  "dose": {
+    "hyperkalemia": "calcio cloruro 10% 10 mL EV in 2-5 min se alterazioni ECG (via centrale)",
+    "hypocalcemia": "5-10 mL di calcio cloruro 10% EV lento dopo diluizione",
+    "note": "contiene ~3 volte il calcio elementare del gluconato"
+  },
+  "administration": {
+    "notes": "EV lenta in via centrale, diluita. Non con bicarbonato/fosfato. Monitoraggio ECG, cautela con la digitale."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

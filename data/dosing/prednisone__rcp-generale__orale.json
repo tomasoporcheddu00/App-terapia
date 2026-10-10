@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "id": "prednisone__rcp-generale__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-28T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Deltacortene (prednisone) - RCP (Torrinomedica/Codifa/Univadis su base AIFA): indicazioni, posologia d'attacco e mantenimento, controindicazioni, avvertenze.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/DELTACORTENE/",
+        "identifier": "Deltacortene RCP",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2025 - Linee guida su miocardite e pericardite: corticosteroidi non di prima linea nella pericardite, dosi medio-basse in associazione.",
+        "url": "https://www.giornaledicardiologia.it/archivio/4620/articoli/46292/",
+        "identifier": "ESC 2025 IMPS",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Posologia da fonti su base RCP/AIFA o da linee guida citate; smpcVerified=false. Verificare sempre su RCP ufficiale e adattare a funzione renale/epatica."
+  },
+  "drugId": "prednisone",
+  "indication": "anti-inflammatory",
+  "scenario": "Posologia generale da scheda tecnica (adulto di peso medio)",
+  "route": "orale",
+  "dose": {
+    "attacco": "20-30 mg al giorno",
+    "mantenimento": "riducibile entro una settimana a 10-15 mg al giorno in media",
+    "principio": "la dose di mantenimento deve essere sempre la minima capace di controllare la sintomatologia; la riduzione va fatta sempre gradualmente"
+  },
+  "administration": {
+    "notes": "Il fabbisogno corticosteroideo e' variabile: la posologia va individualizzata in base alla malattia e alla risposta terapeutica."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

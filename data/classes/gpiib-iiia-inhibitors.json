@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "gpiib-iiia-inhibitors",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Inibitori GPIIb/IIIa: sintesi da RCP EMA/AIFA e linee guida ESC.",
+        "url": "https://www.medicines.org.uk/emc/product/566/smpc",
+        "identifier": "GPIIb/IIIa classe",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP/EMA e linee guida; confermare su RCP ufficiali e protocolli locali. Abciximab non piu' commercializzato in EU: scheda non popolata."
+  },
+  "name": "Inibitori della glicoproteina IIb/IIIa",
+  "atcGroup": "B01AC (antiaggreganti piastrinici, esclusa eparina)",
+  "memberDrugIds": [
+    "abciximab",
+    "eptifibatide",
+    "tirofiban"
+  ],
+  "mechanismSummary": "Antiaggreganti endovenosi che bloccano il recettore piastrinico GPIIb/IIIa, la via finale comune dell'aggregazione: impediscono al fibrinogeno di formare ponti fra le piastrine. Sono i piu' potenti antiaggreganti disponibili.",
+  "molecularTarget": "Recettore piastrinico GPIIb/IIIa (integrina alfaIIb-beta3)",
+  "pharmacodynamics": "Inibizione rapida e marcata dell'aggregazione piastrinica indipendentemente dallo stimolo attivante; effetto reversibile in poche ore per tirofiban ed eptifibatide.",
+  "classEffects": [
+    "Inibizione piastrinica molto potente, utile nelle complicanze trombotiche periprocedurali e nel carico trombotico elevato",
+    "Rischio emorragico elevato (sede di accesso vascolare in particolare)",
+    "Trombocitopenia, talora precoce e grave, comune alla classe",
+    "Uso oggi riservato a situazioni selezionate (bail-out), non routinario"
+  ],
+  "sharedContraindications": [
+    "Sanguinamento in atto o recente, ictus emorragico o recente, patologia intracranica, chirurgia/trauma maggiori recenti, ipertensione grave non controllata, trombocitopenia o coagulopatia, insufficienza epatica significativa"
+  ],
+  "sharedAdverseEffects": [
+    "Sanguinamento (accesso vascolare, gastrointestinale, genitourinario; raro intracranico)",
+    "Trombocitopenia (talora grave)",
+    "Ipotensione, bradicardia/reazione vasovagale",
+    "Reazioni di ipersensibilita' (rare)"
+  ],
+  "monitoring": [
+    "Conta piastrinica basale e nelle prime ore dall'inizio, poi quotidiana",
+    "Emoglobina/ematocrito e segni di sanguinamento",
+    "Funzione renale (aggiustamento posologico) e aPTT/ACT se associati a eparina"
+  ],
+  "reversal": "Nessun antidoto specifico: interrompere l'infusione (effetto reversibile in poche ore per tirofiban ed eptifibatide) e considerare trasfusione di piastrine; entrambi sono rimovibili con la dialisi. La trasfusione piastrinica e' invece la misura chiave per l'abciximab, il cui legame e' quasi irreversibile.",
+  "notesOnClassVsMolecule": "Tirofiban (non peptidico) ed eptifibatide (ciclopeptide) sono antagonisti reversibili a emivita breve (~2-2,5 ore) con eliminazione prevalentemente renale: richiedono riduzione posologica nell'insufficienza renale (l'eptifibatide e' controindicato nella forma grave e in dialisi). L'abciximab, frammento anticorpale a legame quasi irreversibile e potenzialmente immunogeno, non e' piu' commercializzato in Europa e resta come record placeholder. Nelle linee guida attuali questi farmaci non sono di uso routinario: l'indicazione principale e' il bail-out per complicanze trombotiche periprocedurali. Dosi e dettagli nelle singole schede."
+}

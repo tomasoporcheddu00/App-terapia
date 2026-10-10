@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "id": "bivalirudin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Bivalirudina (Angiox) - RCP EMA/AIFA + Nota Informativa AIFA 2013: inibitore diretto della trombina; PCI bolo 0,75 mg/kg + infusione 1,75 mg/kg/h; SCA 0,1 mg/kg + 0,25 mg/kg/h; ridurre a 1,4 mg/kg/h se VFG 30-59; controindicata nell'insufficienza renale grave e in dialisi.",
+        "url": "https://www.ema.europa.eu/it/documents/product-information/angiox-epar-product-information_it.pdf",
+        "identifier": "Angiox RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (EMA/EC, Banca Dati AIFA, portali Mediately/Codifa/Torrinomedica/Univadis): indicazioni, posologia, controindicazioni, avvertenze, interazioni. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; PK parziale. Stato: revisione fonti (source-review), non ancora approvato. Dosi da adattare al paziente e ai protocolli locali. Nessun antidoto specifico ma emivita breve ed emodializzabile. Da usare sempre con ASA e clopidogrel secondo RCP.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Bivalirudina",
+    "inn": "bivalirudina",
+    "brandExamplesIt": [
+      "Angiox"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Inibitore diretto e reversibile della trombina (parenterale)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "direct-thrombin-inhibitors"
+  ],
+  "quickSummary": {
+    "whatItIs": "Anticoagulante endovenoso che blocca direttamente la trombina, sia libera sia legata al coagulo, con emivita molto breve. Usato in emodinamica come alternativa all'eparina, in particolare quando si vuole ridurre il rischio emorragico o in caso di trombocitopenia da eparina.",
+    "mainUses": [
+      "Anticoagulazione nella PCI, inclusa la PCI primaria nello STEMI",
+      "Angina instabile/NSTEMI con intervento urgente o immediato"
+    ],
+    "mainRisks": [
+      "Emorragia",
+      "Trombosi acuta di stent (segnalata nella PCI primaria)",
+      "Accumulo nell'insufficienza renale (controindicata nella grave/dialisi)"
+    ],
+    "essentialMonitoring": [
+      "ACT durante la procedura (secondo bolo se <225 s a 5 minuti)",
+      "Segni di sanguinamento e sede di accesso",
+      "Funzione renale (VFG)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Anticoagulante in pazienti adulti sottoposti a intervento coronarico percutaneo (PCI), inclusi i pazienti con STEMI sottoposti a PCI primaria",
+      "Trattamento di pazienti adulti con angina instabile/infarto miocardico senza sopraslivellamento ST (UA/NSTEMI) per i quali e' previsto un intervento urgente e immediato",
+      "Da somministrare con acido acetilsalicilico e clopidogrel"
+    ],
+    "guidelineIndications": [
+      "Nella PCI il bolo DEVE essere immediatamente seguito dall'infusione: il mancato avvio dell'infusione produce concentrazioni sub-terapeutiche (Nota Informativa AIFA 2013)",
+      "Alternativa all'eparina nei pazienti ad alto rischio emorragico o con trombocitopenia indotta da eparina (HIT) - confermare su linee guida",
+      "L'introduttore arterioso puo' essere rimosso 2 ore dopo la sospensione dell'infusione senza monitoraggio dell'anticoagulazione - RCP"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo, agli eccipienti o alle irudine",
+      "Sanguinamento in atto o aumentato rischio emorragico per alterazioni dell'emostasi",
+      "Ipertensione grave non controllata",
+      "Endocardite batterica subacuta",
+      "Compromissione renale grave (VFG <30 mL/min) e pazienti in dialisi"
+    ],
+    "warnings": [
+      "Il bolo endovenoso deve essere seguito immediatamente dall'infusione: interrompere o ritardare l'infusione produce concentrazioni sub-terapeutiche con rischio trombotico",
+      "Nell'insufficienza renale moderata (VFG 30-59 mL/min) ridurre l'infusione a 1,4 mg/kg/h mantenendo invariato il bolo, e monitorare l'ACT; nella compromissione renale sorvegliare attentamente i segni di sanguinamento",
+      "Se l'ACT a 5 minuti dal bolo e' <225 secondi somministrare un secondo bolo di 0,3 mg/kg e ricontrollare l'ACT; un aumento insufficiente dell'ACT deve far sospettare errori di preparazione o guasti della pompa",
+      "Sono state segnalate trombosi acute di stent nella PCI primaria per STEMI: sorvegliare il paziente dopo la procedura; non somministrare per via intramuscolare"
+    ],
+    "adverseEffects": [
+      "Emorragia (sede di accesso, ematomi, ematuria, gastrointestinale)",
+      "Anemia",
+      "Trombosi di stent (nella PCI primaria)",
+      "Reazioni di ipersensibilita' (rare)"
+    ],
+    "overdose": "Sono state segnalate dosi in bolo fino a 7,5 mg/kg senza sanguinamento. In caso di sovradosaggio o sanguinamento maggiore interrompere immediatamente il trattamento e monitorare il paziente: non esiste un antidoto, ma la bivalirudina e' emodializzabile.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Controindicata nella grave (<30 mL/min) e in dialisi; nella moderata ridurre l'infusione a 1,4 mg/kg/h.",
+      "hepatic": "Nessun aggiustamento (metabolismo non epatico).",
+      "elderly": "Cautela (funzione renale ridotta).",
+      "pregnancy": "Solo se strettamente necessario.",
+      "breastfeeding": "Cautela."
+    },
+    "alternativeDrugIds": [
+      "unfractionated-heparin",
+      "enoxaparin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Anticoagulante in vena che blocca direttamente la trombina e dura pochissimo: si usa durante l'angioplastica, soprattutto quando si teme il sanguinamento o non si puo' usare l'eparina.",
+    "clinicalExplanation": "Inibitore diretto, specifico e reversibile della trombina: si lega sia al sito catalitico sia all'esosito anionico, agendo anche sulla trombina legata al coagulo. Emivita ~25 minuti con metabolismo proteolitico (non epatico); eliminazione in parte renale. Bolo + infusione obbligatoriamente consecutivi; riduzione dell'infusione se VFG 30-59.",
+    "molecularExplanation": "Polipeptide di 20 aminoacidi (analogo dell'irudina) che lega in modo bivalente e reversibile la trombina, inibendone l'attivita' catalitica.",
+    "pharmacodynamics": "Anticoagulazione rapida, prevedibile e rapidamente reversibile (l'effetto si esaurisce in ~1 ora dalla sospensione).",
+    "molecularTarget": "Trombina (fattore IIa), libera e legata al coagulo",
+    "agonismAntagonism": "Inibizione diretta e reversibile della trombina",
+    "pharmacokinetics": {
+      "route": "Endovenosa (bolo + infusione)",
+      "halfLife": "~25 minuti (prolungata nell'insufficienza renale)",
+      "note": "Degradazione proteolitica ed eliminazione renale; emodializzabile"
+    },
+    "bibliography": []
+  }
+}

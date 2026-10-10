@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "fenofibrate__dyslipidemia__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Fenofibrato - RCP (Mediately/Univadis/Codifa su base AIFA): agonista PPAR-alfa, indicazioni ipertrigliceridemia/dislipidemia mista, dose 145 mg, controindicazioni epatiche/renali/colecisti, miopatia con statine; Nota 13.",
+        "url": "https://mediately.co/it/drugs/KWHSHGPxDdjqSum8mzAxuDRRYKd/fenofibrato-eg-145-mg-compresse",
+        "identifier": "Fenofibrato RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "fenofibrate",
+  "indication": "hypertriglyceridemia",
+  "scenario": "Ipertrigliceridemia / dislipidemia mista",
+  "route": "orale",
+  "dose": {
+    "initial": "145 mg una volta al giorno (con il cibo)",
+    "maintenance": "145 mg una volta al giorno",
+    "max": "145 mg al giorno (le formulazioni da 200/160 mg equivalgono a 145 mg di nanocristalli)"
+  },
+  "administration": {
+    "notes": "Con il cibo. Rivalutare la risposta lipidica dopo circa 3 mesi."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "aminophylline__severe-asthma__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Aminofillina (fiale 240 mg/10 mL) - RCP AIFA (Torrinomedica/Codifa/Mediately): derivato xantinico; asma bronchiale e affezioni polmonari con componente spastica; EV lenta 480 mg diluiti in 50 mL, max 25 mg/min e 5,6 mg/kg; controindicato nell'infarto miocardico acuto e negli stati ipotensivi.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/aminophilline/",
+        "identifier": "Aminofillina RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EMA-AIFA; smpcVerified=false. Adattare al paziente e ai protocolli locali."
+  },
+  "drugId": "aminophylline",
+  "indication": "bronchospasm",
+  "scenario": "Asma bronchiale grave (via endovenosa)",
+  "route": "endovenosa",
+  "dose": {
+    "loading": "480 mg di aminofillina (2 fiale da 240 mg/10 mL) diluiti in 50 mL di soluzione compatibile (fisiologica o glucosata), infusi lentamente: velocita' non superiore a 3,6 mL/minuto (pari a 25 mg/minuto) e dose totale non superiore a 0,8 mL/kg (pari a 5,6 mg/kg)",
+    "maintenance": "240 mg (1 fiala) in 500 mL di soluzione: 0,9 mg/kg/h negli adulti sotto i 50 anni fumatori; 0,45 mg/kg/h negli adulti sotto i 50 anni non fumatori; 0,25 mg/kg/h negli adulti con scompenso cardiaco o compromissione epatica",
+    "administration": "paziente in clinostatismo, somministrazione lenta e controllata (15-20 minuti)"
+  },
+  "administration": {
+    "notes": "EV lenta con paziente supino e monitoraggio ECG. Non usare se sono presenti cristalli. Le fiale IM non vanno mai iniettate in vena."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

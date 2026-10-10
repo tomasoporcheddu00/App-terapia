@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "id": "ticagrelor",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Brilique 90/60 mg (ticagrelor), AstraZeneca - sez. 4.1-4.2, 5.1 (RCP italiana/EMA).",
+        "url": "https://www.codifa.it/farmaci/b/brilique-compresse-rivestite-ticagrelor-antiaggreganti-piastrinici",
+        "identifier": "Brilique 90/60 mg; ATC B01AC24",
+        "retrievedAt": "2026-07-18"
+      },
+      {
+        "type": "smpc",
+        "citation": "RCP Brilique - meccanismo (inibitore reversibile P2Y12, aumento adenosina via ENT-1) e dispnea (studio PEGASUS).",
+        "url": "https://www.connessiallasalute.it/content/dam/intelligentcontent/multibrand/it/rcp/RCP_Brilique_90mg.pdf",
+        "identifier": "RCP Brilique 90 mg",
+        "retrievedAt": "2026-07-18"
+      },
+      {
+        "type": "other",
+        "citation": "AIFA - regime prescrittivo ticagrelor: piano terapeutico (Determinazione AIFA 22/05/2017) e PHT (distribuzione diretta).",
+        "url": "https://medisoc.it/scheda-ticagrelor/",
+        "identifier": "AIFA PT/PHT ticagrelor",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Indicazione, posologia e meccanismo verificati su RCP Brilique. Le controindicazioni (sez. 4.3) riportate sono lo standard Brilique: da confermare sul testo integrale. ATC B01AC24. Regime italiano con piano terapeutico e PHT: verificare lo stato attuale su banca dati AIFA.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Ticagrelor",
+    "inn": "ticagrelor",
+    "brandExamplesIt": [
+      "Brilique"
+    ]
+  },
+  "synonyms": [],
+  "classIds": [
+    "p2y12-inhibitors"
+  ],
+  "subclass": "Ciclopentil-triazolopirimidina (inibitore reversibile del P2Y12) - non profarmaco",
+  "classificationStatus": "confirmed",
+  "identity": {
+    "atcCodes": [
+      "B01AC24"
+    ],
+    "formulations": [
+      "compresse rivestite 60 mg",
+      "compresse rivestite 90 mg",
+      "compresse orodispersibili 90 mg"
+    ],
+    "potentialRoutes": [
+      "oral"
+    ],
+    "availabilityStatus": "available",
+    "marketingAuthorisationIt": true
+  },
+  "linkedMacroAreaIds": [
+    "acute-coronary-syndrome",
+    "ischemic-heart-disease",
+    "secondary-cardiovascular-prevention"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antiaggregante inibitore diretto e reversibile del recettore P2Y12 (non tienopiridina, non profarmaco).",
+    "mainUses": [
+      "Sindrome coronarica acuta in associazione ad ASA",
+      "Prevenzione a lungo termine dopo IM ad alto rischio (dose 60 mg)"
+    ],
+    "mainRisks": [
+      "Emorragia",
+      "Dispnea",
+      "Bradiaritmie/pause ventricolari"
+    ],
+    "essentialMonitoring": [
+      "Segni di sanguinamento",
+      "Comparsa di dispnea"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "In associazione ad ASA, prevenzione degli eventi aterotrombotici in adulti con sindrome coronarica acuta (dose 90 mg due volte/die)",
+      "In associazione ad ASA, prevenzione degli eventi aterotrombotici in adulti con storia di infarto miocardico (di almeno un anno) e alto rischio di evento aterotrombotico (dose 60 mg due volte/die)"
+    ],
+    "guidelineIndications": [
+      "Inibitore P2Y12 preferenziale in molte SCA (in DAPT con ASA) secondo linee guida ESC; posizionamento rispetto a prasugrel e durata della DAPT da compilare con la fonte primaria."
+    ],
+    "offLabelUses": [],
+    "populations": [
+      "SCA (studio PLATO); post-IM ad alto rischio (studio PEGASUS-TIMI 54)"
+    ],
+    "advantages": [
+      "Inibizione reversibile e rapida",
+      "Non profarmaco (indipendente dal genotipo CYP2C19)",
+      "Superiore a clopidogrel su morte CV/IM/ictus in PLATO"
+    ],
+    "limitations": [
+      "Somministrazione due volte al giorno",
+      "Dispnea frequente (puo' richiedere sospensione)",
+      "Rischio di bradiaritmie",
+      "Interazioni con forti inibitori/induttori del CYP3A4"
+    ],
+    "alternativeDrugIds": [
+      "prasugrel",
+      "clopidogrel"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Sanguinamento patologico in atto",
+      "Anamnesi di emorragia intracranica",
+      "Compromissione epatica grave",
+      "Co-somministrazione con forti inibitori del CYP3A4 (es. ketoconazolo, claritromicina, nefazodone, ritonavir)"
+    ],
+    "relativeContraindications": [],
+    "warnings": [
+      "Rischio emorragico; se pianificata CABG sospendere (in genere >=96 ore prima) per ridurre il sanguinamento",
+      "Dispnea frequente: valutare, in genere non richiede sospensione salvo intolleranza",
+      "Rischio di bradiaritmie/pause ventricolari (cautela in pazienti a rischio)",
+      "Mantenere ASA a basse dosi (>100 mg/die riducono l'efficacia di ticagrelor)",
+      "Non interrompere prematuramente in DAPT (rischio trombosi di stent)"
+    ],
+    "adverseEffects": [
+      "Emorragia",
+      "Dispnea",
+      "Bradiaritmie/pause",
+      "Aumento di creatinina e acido urico",
+      "Cefalea"
+    ],
+    "overdose": "Il sovradosaggio puo' causare sanguinamento; nessun antidoto specifico approvato; l'emodialisi non e' efficace. Gestione di supporto.",
+    "antidoteDrugIds": [],
+    "monitoring": [
+      "Segni di sanguinamento",
+      "Comparsa di dispnea",
+      "Frequenza cardiaca nei pazienti a rischio di bradicardia",
+      "Funzione renale e uricemia"
+    ],
+    "discontinuation": "Non interrompere prematuramente in DAPT; sospendere >=96 ore prima di CABG (o secondo linee guida).",
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento; monitorare la funzione renale.",
+      "hepatic": "Controindicato in compromissione grave; cautela nella moderata.",
+      "elderly": "Nessun aggiustamento specifico.",
+      "lowBodyWeight": null,
+      "obesity": null,
+      "pregnancy": "Non raccomandato in gravidanza (verificare RCP).",
+      "breastfeeding": "Non raccomandato durante l'allattamento (verificare RCP)."
+    },
+    "dosingRegimenIds": [
+      "ticagrelor__acs__oral"
+    ],
+    "interactionRefs": [],
+    "regulatoryItId": "ticagrelor"
+  },
+  "deep": {
+    "simpleExplanation": "Blocca il recettore P2Y12 delle piastrine in modo reversibile e senza bisogno di attivazione epatica; agisce rapidamente ma va preso due volte al giorno.",
+    "clinicalExplanation": "Inibitore diretto e reversibile del P2Y12 (classe ciclopentil-triazolopirimidina); non e' un profarmaco, quindi l'effetto non dipende dal genotipo CYP2C19. Aumenta i livelli locali di adenosina inibendo l'ENT-1, il che contribuisce alla dispnea.",
+    "molecularExplanation": "Si lega in modo reversibile e non competitivo a un sito del recettore P2Y12 distinto dal sito dell'ADP, inibendo l'attivazione piastrinica ADP-mediata.",
+    "molecularTarget": "Recettore piastrinico P2Y12 (sito allosterico); inibizione del trasportatore ENT-1",
+    "agonismAntagonism": "Inibitore reversibile (allosterico)",
+    "selectivity": "Selettivo per il P2Y12; effetto aggiuntivo sull'adenosina via ENT-1",
+    "pharmacodynamics": "Dopo carico di 180 mg, IPA media ~41% a 0,5 ore ed effetto massimo ~89% entro 2-4 ore; rapida insorgenza e offset piu' rapido delle tienopiridine.",
+    "hemodynamicEffects": "Possibili effetti su frequenza cardiaca (bradiaritmie/pause) legati anche all'adenosina.",
+    "electrophysiologicEffects": "Segnalate pause ventricolari/bradiaritmie.",
+    "pharmacokinetics": {
+      "bioavailability": null,
+      "timeToPeak": "~1,5-3 ore",
+      "halfLife": "~7 ore (ticagrelor); metabolita attivo piu' lungo",
+      "proteinBinding": ">99%",
+      "metabolism": "Metabolismo via CYP3A4 (metabolita attivo AR-C124910XX)",
+      "enzymes": [
+        "CYP3A4"
+      ],
+      "transporters": [
+        "P-gp"
+      ],
+      "activeMetabolites": [
+        "AR-C124910XX"
+      ],
+      "elimination": "Prevalentemente biliare/fecale",
+      "dialyzability": "Non dializzabile"
+    },
+    "evidenceIds": [],
+    "recommendationIds": [],
+    "bibliography": [
+      "PLATO (ticagrelor vs clopidogrel, NEJM 2009)",
+      "PEGASUS-TIMI 54 (ticagrelor post-IM, NEJM 2015)"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "nitroglycerin__angina-prophylaxis__transdermica",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Nitroglicerina (trinitrato di glicerile) - RCP (Codifa/Teva/Pharmamedix su base AIFA): nitrato organico, formulazioni sublinguale/transdermica/EV, tolleranza, controindicazione PDE5.",
+        "url": "https://www.codifa.it/farmaci/n/nitroglicerina-teva-nitroglicerina-nitrati",
+        "identifier": "Nitroglicerina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Da confermare e approvare."
+  },
+  "drugId": "nitroglycerin",
+  "indication": "angina",
+  "scenario": "Profilassi dell'angina (transdermica)",
+  "route": "transdermica",
+  "dose": {
+    "initial": "cerotto 5 mg/24 h",
+    "maintenance": "5-15 mg/24 h",
+    "note": "applicare con intervallo libero da nitrati di 8-12 ore ogni 24 ore per prevenire la tolleranza"
+  },
+  "administration": {
+    "notes": "Cerotto transdermico su cute integra; ruotare le sedi; rimuovere per l'intervallo libero e prima di cardioversione/defibrillazione."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

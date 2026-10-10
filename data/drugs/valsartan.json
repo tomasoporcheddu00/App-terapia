@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "id": "valsartan",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Valsartan - RCP (rese da Codifa/Starbene/Pharmamedix su base AIFA): indicazioni, posologia §4.2 (ipertensione, post-infarto, scompenso).",
+        "url": "https://www.codifa.it/farmaci/v/valsartan-sandoz-valsartan-antagonisti-dell-angiotensina-ii",
+        "identifier": "Valsartan RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "Sartani (antagonisti del recettore AT1 dell'angiotensina II): meccanismo, controindicazioni, avvertenze e interazioni di classe; sintesi da RCP/portali AIFA (Codifa, Mediately, Torrinomedica).",
+        "url": "https://www.santagostino.it/magazine/losartan/",
+        "identifier": "Sartani classe",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Valsartan - RCP EMA/EPAR e monografie: emivita di eliminazione ~6-9 ore, eliminazione prevalentemente biliare.",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK507904/",
+        "identifier": "RCP/monografia - farmacocinetica",
+        "retrievedAt": "2026-07-25"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Controindicazioni/avvertenze/interazioni in gran parte comuni alla classe dei sartani. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Valsartan",
+    "inn": "valsartan",
+    "brandExamplesIt": [
+      "Tareg",
+      "Nisisco"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antagonista del recettore AT1 (sartano)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "arb"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antagonista del recettore AT1 con indicazioni in ipertensione, post-infarto e scompenso cardiaco.",
+    "mainUses": [
+      "Ipertensione arteriosa",
+      "Post-infarto miocardico recente con disfunzione VS/scompenso",
+      "Scompenso cardiaco sintomatico (alternativa/aggiunta agli ACE-inibitori)"
+    ],
+    "mainRisks": [
+      "Ipotensione da prima dose",
+      "Iperkaliemia",
+      "Peggioramento della funzione renale"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa",
+      "Potassio sierico",
+      "Funzione renale"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipertensione arteriosa essenziale (adulti e bambini/adolescenti 6-18 anni)",
+      "Infarto miocardico recente (12 ore-10 giorni) con scompenso sintomatico o disfunzione sistolica VS asintomatica, in paziente stabile",
+      "Scompenso cardiaco sintomatico quando gli ACE-inibitori non sono tollerati, o come aggiunta agli ACE-inibitori se non e' utilizzabile un antagonista dei mineralcorticoidi"
+    ],
+    "guidelineIndications": [
+      "Alternativa agli ACE-inibitori nel post-infarto/scompenso (studi VALIANT, Val-HeFT) - confermare su linea guida/fonte primaria"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alla molecola o agli eccipienti",
+      "Secondo e terzo trimestre di gravidanza",
+      "Uso concomitante con aliskiren in diabete mellito o compromissione renale (GFR <60 mL/min/1,73 m2)",
+      "Grave insufficienza epatica, cirrosi biliare e colestasi (confermare su RCP §4.3)"
+    ],
+    "warnings": [
+      "Ipotensione sintomatica nei pazienti con deplezione di volume/sale (correggere prima o iniziare a dose ridotta)",
+      "Iperkaliemia: rischio aumentato in insufficienza renale, diabete, uso di sali/integratori di potassio o diuretici risparmiatori di potassio; monitorare il potassio",
+      "Monitorare la funzione renale; rischio in stenosi bilaterale dell'arteria renale",
+      "Duplice blocco del sistema renina-angiotensina-aldosterone (ACE-inibitore + sartano o aliskiren) non raccomandato",
+      "Gravidanza: sospendere e non iniziare in gravidanza",
+      "Rispetto agli ACE-inibitori, minore incidenza di tosse secca e (raramente) angioedema",
+      "Non associare valsartan + ACE-inibitore + betabloccante nello scompenso"
+    ],
+    "adverseEffects": [
+      "Ipotensione, capogiro",
+      "Iperkaliemia",
+      "Aumento della creatinina/riduzione della funzione renale",
+      "Cefalea",
+      "Angioedema (raro)"
+    ],
+    "overdose": null,
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento per CrCl >10 mL/min; monitorare potassio e funzione renale.",
+      "hepatic": "Controindicato/da evitare nell'insufficienza epatica grave, cirrosi biliare e colestasi; nelle forme lievi-moderate non superare 80 mg.",
+      "elderly": "Nessun aggiustamento sistematico; monitoraggio.",
+      "pregnancy": "Controindicato nel 2o-3o trimestre; evitare in gravidanza.",
+      "breastfeeding": "Sconsigliato (dati insufficienti)."
+    },
+    "alternativeDrugIds": [
+      "losartan",
+      "candesartan",
+      "ramipril"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Abbassa la pressione e protegge il cuore dopo l'infarto e nello scompenso; nell'ipertensione una volta al giorno.",
+    "clinicalExplanation": "Bloccante AT1; nel post-infarto e nello scompenso e' un'alternativa agli ACE-inibitori in caso di intolleranza. Nello scompenso non associare a ACE-inibitore + betabloccante.",
+    "molecularExplanation": "Antagonista selettivo del recettore AT1, non profarmaco.",
+    "pharmacodynamics": "Blocco selettivo del recettore AT1: riduzione della vasocostrizione e della secrezione di aldosterone senza accumulo di bradichinina, da cui minore tosse/angioedema rispetto agli ACE-inibitori; aumento di renina e angiotensina II circolanti.",
+    "molecularTarget": "Recettore AT1 dell'angiotensina II",
+    "agonismAntagonism": "Antagonista recettoriale (blocco AT1)",
+    "pharmacokinetics": {
+      "metabolism": "Scarsamente metabolizzato",
+      "elimination": "Prevalentemente biliare/fecale",
+      "halfLife": "~6 ore (fino a ~9-10 ore); antagonista AT1 non profarmaco, metabolismo epatico minimo (~20%), eliminazione prevalentemente biliare/fecale"
+    },
+    "bibliography": [
+      "VALIANT (valsartan post-infarto) - da citare con fonte primaria",
+      "Val-HeFT (valsartan nello scompenso) - da citare con fonte primaria"
+    ]
+  }
+}

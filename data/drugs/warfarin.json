@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "id": "warfarin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Coumadin (warfarin sodico), Teofarma - sez. 4.1-4.5 (RCP italiana AIFA).",
+        "url": "https://www.codifa.it/farmaci/c/coumadin-warfarin-sodico-anticoagulanti-orali-indiretti",
+        "identifier": "Coumadin; ATC B01AA03",
+        "retrievedAt": "2026-07-18"
+      },
+      {
+        "type": "smpc",
+        "citation": "RCP Coumadin - farmacogenetica (CYP2C9, VKORC1), metabolismo enantiomeri S/R, gravidanza (embriopatia da warfarin).",
+        "url": "https://www.torrinomedica.it/schede-farmaci/coumadin/",
+        "identifier": "Coumadin farmacologia",
+        "retrievedAt": "2026-07-18"
+      },
+      {
+        "type": "guideline",
+        "citation": "2024 ESC/EACTS AF Guidelines (target INR 2,0-3,0 per FA in terapia con VKA).",
+        "url": "https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2024/09/17/04/05/2024-esc-guidelines-for-af-esc-2024",
+        "identifier": "ESC/EACTS 2024 AF",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Contenuto dalla RCP italiana Coumadin. Dose individualizzata e INR-guidata; target INR variabile per indicazione (FA 2,0-3,0; protesi valvolari meccaniche piu' alto, secondo tipo/posizione - da linee guida). ATC B01AA03. Antidoto: fitomenadione (vitamina K1). Elenco verbatim 4.1/4.3 da confermare su RCP integrale del titolare.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Warfarin sodico",
+    "inn": "warfarin",
+    "brandExamplesIt": [
+      "Coumadin"
+    ]
+  },
+  "synonyms": [],
+  "classIds": [
+    "vitamin-k-antagonists"
+  ],
+  "subclass": "Derivato cumarinico (antagonista della vitamina K)",
+  "classificationStatus": "confirmed",
+  "identity": {
+    "atcCodes": [
+      "B01AA03"
+    ],
+    "formulations": [
+      "compresse 5 mg"
+    ],
+    "potentialRoutes": [
+      "oral"
+    ],
+    "availabilityStatus": "available",
+    "marketingAuthorisationIt": true
+  },
+  "linkedMacroAreaIds": [
+    "atrial-fibrillation",
+    "venous-thromboembolism",
+    "mechanical-heart-valves",
+    "ischemic-heart-disease"
+  ],
+  "quickSummary": {
+    "whatItIs": "Anticoagulante orale antagonista della vitamina K, con dose individualizzata guidata dall'INR.",
+    "mainUses": [
+      "Prevenzione/trattamento di TVP ed EP",
+      "Fibrillazione atriale cronica",
+      "Protesi valvolari cardiache",
+      "Riduzione del rischio di reinfarto dopo IM"
+    ],
+    "mainRisks": [
+      "Emorragia",
+      "Teratogenicita' (embriopatia da warfarin)",
+      "Ampia variabilita' di risposta (genetica e dietetica)"
+    ],
+    "essentialMonitoring": [
+      "PT/INR periodico con adattamento della dose"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Prevenzione e trattamento della trombosi venosa profonda e dell'embolia polmonare",
+      "Fibrillazione atriale cronica",
+      "Protesi valvolari cardiache (incluse le meccaniche)",
+      "Riduzione del rischio di recidiva di infarto miocardico"
+    ],
+    "guidelineIndications": [
+      "ESC/EACTS 2024 (FA): i VKA (warfarin) sono indicati quando i DOAC sono controindicati (protesi meccaniche, stenosi mitralica moderata-severa) o non appropriati; target INR 2,0-3,0. Il warfarin resta l'anticoagulante di scelta nelle protesi valvolari meccaniche (i DOAC sono controindicati)."
+    ],
+    "offLabelUses": [],
+    "populations": [
+      "Adulti con indicazione ad anticoagulazione orale; unica opzione orale nelle protesi valvolari meccaniche"
+    ],
+    "advantages": [
+      "Reversibilita' con vitamina K",
+      "Utilizzabile nelle protesi valvolari meccaniche (dove i DOAC sono controindicati)",
+      "Esperienza clinica pluridecennale, monitoraggio standardizzato (INR)"
+    ],
+    "limitations": [
+      "Necessita' di monitoraggio INR",
+      "Ampia variabilita' inter-individuale (CYP2C9, VKORC1)",
+      "Numerose interazioni con farmaci, dieta (vitamina K) ed erbe",
+      "Finestra terapeutica stretta"
+    ],
+    "alternativeDrugIds": [
+      "acenocoumarol",
+      "apixaban",
+      "rivaroxaban",
+      "edoxaban",
+      "dabigatran"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al warfarin o agli eccipienti",
+      "Gravidanza (attraversa la placenta: embriopatia, emorragie fetali, aborto/mortalita' fetale)",
+      "Tendenze emorragiche o discrasie ematiche; sanguinamento in atto",
+      "Chirurgia recente o pianificata del SNC/occhio o chirurgia traumatizzante ampia",
+      "Ipertensione grave non controllata",
+      "Scarsa collaborazione/impossibilita' di monitoraggio INR affidabile"
+    ],
+    "relativeContraindications": [],
+    "warnings": [
+      "Monitoraggio regolare di PT/INR con adattamento della dose; controlli piu' frequenti all'inizio/sospensione di altri farmaci o cambi di dieta",
+      "Ampia variabilita' genetica (CYP2C9, VKORC1): massima cautela se il polimorfismo e' noto",
+      "Rara necrosi cutanea da warfarin (deficit di proteina C/S)",
+      "Nell'anziano dosi iniziali inferiori e maggiore variabilita' dell'INR",
+      "Numerose interazioni: iperico, antibiotici/antifungini, corticosteroidi, alimenti ricchi di vitamina K"
+    ],
+    "adverseEffects": [
+      "Emorragia (piu' frequente)",
+      "Necrosi cutanea (rara)",
+      "Sindrome delle dita blu (rara)",
+      "Reazioni di ipersensibilita'"
+    ],
+    "overdose": "Rischio emorragico dose-dipendente. Gestione: sospensione, vitamina K1 (fitomenadione); nelle emorragie gravi concentrati di complesso protrombinico o plasma fresco congelato (secondo entita' e INR; verificare linee guida).",
+    "antidoteDrugIds": [
+      "phytomenadione"
+    ],
+    "monitoring": [
+      "PT/INR periodico",
+      "Segni di sanguinamento",
+      "Interazioni farmacologiche/dietetiche"
+    ],
+    "discontinuation": "Valutare rischi/benefici anche per brevi interruzioni; possibile bridging con eparina secondo indicazione e rischio trombotico.",
+    "specialPopulations": {
+      "renal": "Cautela; aggiustare in base a rischio emorragico e monitoraggio (verificare RCP).",
+      "hepatic": "Cautela (l'epatopatia altera sintesi dei fattori e metabolismo del warfarin).",
+      "elderly": "Dosi iniziali inferiori; maggiore sensibilita' e variabilita' dell'INR.",
+      "lowBodyWeight": null,
+      "obesity": null,
+      "pregnancy": "Controindicato (embriopatia da warfarin); usare contraccezione; considerare EBPM come alternativa.",
+      "breastfeeding": "Non passa nel latte in quantita' significative; utilizzabile con cautela monitorando il neonato."
+    },
+    "dosingRegimenIds": [
+      "warfarin__oral-anticoagulation__oral"
+    ],
+    "interactionRefs": [],
+    "regulatoryItId": "warfarin"
+  },
+  "deep": {
+    "simpleExplanation": "Riduce i fattori della coagulazione che dipendono dalla vitamina K; richiede controlli periodici dell'INR per regolare la dose. E' l'unico anticoagulante orale ammesso per le valvole meccaniche.",
+    "clinicalExplanation": "Antagonista della vitamina K con emivita relativamente lunga; effetto anticoagulante ritardato e monitorato tramite INR, con dose personalizzata influenzata da genetica, dieta e interazioni.",
+    "molecularExplanation": "Inibisce la vitamina K epossido-reduttasi (VKORC1), impedendo il riciclo della vitamina K necessaria alla gamma-carbossilazione dei fattori II, VII, IX, X e delle proteine C ed S.",
+    "molecularTarget": "Vitamina K epossido-reduttasi (VKORC1)",
+    "agonismAntagonism": "Inibitore (antagonista della vitamina K)",
+    "selectivity": "Agisce sulla sintesi epatica dei fattori vitamina K-dipendenti",
+    "pharmacodynamics": "Riduce progressivamente i fattori II, VII, IX, X e le proteine C/S; effetto pieno in alcuni giorni; monitoraggio con PT/INR.",
+    "hemodynamicEffects": "Nessun effetto emodinamico diretto.",
+    "electrophysiologicEffects": "Nessuno.",
+    "pharmacokinetics": {
+      "bioavailability": "Elevata per via orale",
+      "timeToPeak": "~4 ore (concentrazione); effetto anticoagulante ritardato",
+      "halfLife": "~20-60 ore (media ~40 ore)",
+      "proteinBinding": "~99%",
+      "metabolism": "Enantiomero S (piu' potente) via CYP2C9; enantiomero R via CYP1A2 e CYP3A4",
+      "enzymes": [
+        "CYP2C9",
+        "CYP1A2",
+        "CYP3A4",
+        "CYP2C19"
+      ],
+      "transporters": [],
+      "activeMetabolites": [],
+      "elimination": "Renale come metaboliti inattivi",
+      "dialyzability": null
+    },
+    "evidenceIds": [],
+    "recommendationIds": [],
+    "bibliography": [
+      "2024 ESC/EACTS AF Guidelines, Eur Heart J 2024"
+    ]
+  }
+}

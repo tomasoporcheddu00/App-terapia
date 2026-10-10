@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "id": "enoxaparin__nstemi__subcutaneous",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Clexane sez. 4.2 (angina instabile/NSTEMI: 100 UI/kg (1 mg/kg) SC ogni 12 ore con ASA).",
+        "url": "https://www.pharmamedix.com/principiovoce.php?pa=Enoxaparina&vo=Posologia",
+        "identifier": "Clexane posologia SCA",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Regime per angina instabile/NSTEMI. Esistono regimi distinti per STEMI (bolo EV 30 mg + 1 mg/kg SC, poi 1 mg/kg q12h; anziani >=75 senza bolo, 0,75 mg/kg q12h), per trattamento TVP/EP (1,5 mg/kg/die o 1 mg/kg q12h) e per profilassi: da compilare in file dosing dedicati. id indicazione da riconciliare col vocabolario.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "enoxaparin",
+  "indication": "nstemi",
+  "scenario": "Angina instabile / NSTEMI (in associazione ad ASA)",
+  "route": "subcutaneous",
+  "formulation": "siringa preriempita",
+  "population": "adult-standard",
+  "dose": {
+    "loading": null,
+    "initial": "100 UI/kg (1 mg/kg) per via sottocutanea ogni 12 ore",
+    "interval": "ogni 12 ore",
+    "maintenance": "100 UI/kg (1 mg/kg) SC ogni 12 ore fino a stabilizzazione clinica (in genere 2-8 giorni), con ASA orale",
+    "target": null,
+    "max": null,
+    "titration": null,
+    "duration": "Fino a stabilizzazione clinica",
+    "weightBased": "Si (1 mg/kg = 100 UI/kg)",
+    "cumulative": null,
+    "renalAdjustment": "CrCl 15-30 mL/min: 100 UI/kg (1 mg/kg) SC una volta al giorno. CrCl <15 mL/min: non raccomandata.",
+    "hepaticAdjustment": "Cautela (aumentato rischio emorragico).",
+    "elderly": "Nessuna riduzione per la sola eta' salvo compromissione renale.",
+    "pregnancy": "Uso secondo valutazione rischio/beneficio.",
+    "dialysis": "Non raccomandata (salvo circolazione extracorporea)."
+  },
+  "administration": {
+    "preparation": null,
+    "solvent": null,
+    "concentration": null,
+    "rate": null,
+    "access": "Via sottocutanea (NON intramuscolare)",
+    "notes": "Iniezione sottocutanea profonda; non espellere la bolla d'aria dalle siringhe preriempite; alternare i lati."
+  },
+  "monitoring": [
+    "Conta piastrinica (HIT)",
+    "Funzione renale",
+    "Segni di sanguinamento"
+  ],
+  "stoppingCriteria": [
+    "Sanguinamento (neutralizzazione parziale con protamina)",
+    "Trombocitopenia da eparina"
+  ],
+  "approvalEvidence": {
+    "primarySourceVerified": false,
+    "smpcVerified": true,
+    "clinicalReviewDone": true,
+    "verificationDate": "2026-07-18",
+    "reviewer": "Curatore clinico"
+  }
+}

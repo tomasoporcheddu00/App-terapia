@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "id": "lidocaine",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Lidocaina - RCP (Torrinomedica/Starbene/Pharmamedix su base AIFA): classe Ib EV, aritmie ventricolari nell'IMA/procedure, tossicita' SNC.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/lidocaina_cloridrato_bioindustria_lim/",
+        "identifier": "Lidocaina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC) e da monografie di riferimento: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Antiaritmici a indice terapeutico stretto: verificare dosi e QT prima dell'uso.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Lidocaina",
+    "inn": "lidocaina",
+    "brandExamplesIt": [
+      "Lidocaina cloridrato (varie)"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antiaritmico classe Ib (endovenoso) / anestetico locale",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "aa-class-ib"
+  ],
+  "quickSummary": {
+    "whatItIs": "Anestetico locale che per via endovenosa agisce come antiaritmico di classe Ib sulle aritmie ventricolari; inefficace sulle aritmie sopraventricolari.",
+    "mainUses": [
+      "Aritmie ventricolari (TV/FV) nell'infarto miocardico acuto o durante procedure cardiache",
+      "Alternativa all'amiodarone nella FV/TV senza polso"
+    ],
+    "mainRisks": [
+      "Tossicita' del SNC (parestesie, convulsioni)",
+      "Ipotensione, bradicardia",
+      "Depressione miocardica"
+    ],
+    "essentialMonitoring": [
+      "ECG continuo",
+      "Pressione arteriosa",
+      "Segni di tossicita' neurologica"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento in fase acuta delle aritmie ventricolari (tachicardia/fibrillazione ventricolare) nell'infarto miocardico acuto o durante manipolazioni cardiache (cateterismo, cardiochirurgia)"
+    ],
+    "guidelineIndications": [
+      "Alternativa all'amiodarone nell'arresto da FV/TV senza polso refrattaria (ACLS); non modifica la sopravvivenza alla dimissione (ALPS) ma facilita il ripristino del ritmo - confermare su fonte"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' agli anestetici locali di tipo amidico",
+      "Blocco seno-atriale, atrioventricolare o intraventricolare grave senza pacemaker",
+      "Sindrome di Adams-Stokes",
+      "Sindrome di Wolff-Parkinson-White (per via EV, puo' aumentare la risposta ventricolare)"
+    ],
+    "warnings": [
+      "Tossicita' del SNC dose-dipendente: parestesie periorali, capogiri, confusione, nistagmo, acufeni, fino a convulsioni e depressione respiratoria",
+      "Tossicita' cardiaca: bradicardia, ipotensione, depressione miocardica, arresto",
+      "Ridurre la dose nell'insufficienza epatica, nello scompenso e nell'anziano (metabolismo epatico)",
+      "L'ipopotassiemia/iperkaliemia puo' favorire la proaritmia; monitoraggio ECG continuo e mezzi di rianimazione disponibili"
+    ],
+    "adverseEffects": [
+      "Capogiri, parestesie, confusione",
+      "Convulsioni (dosi elevate)",
+      "Ipotensione, bradicardia",
+      "Depressione miocardica/respiratoria"
+    ],
+    "overdose": "Il sovradosaggio causa tossicita' del SNC (convulsioni) e cardiaca (bradicardia, ipotensione, arresto); sospendere, supporto ventilatorio, benzodiazepine per le convulsioni, rianimazione.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento sistematico rilevante.",
+      "hepatic": "Ridurre la dose (metabolismo epatico).",
+      "elderly": "Ridurre la dose.",
+      "pregnancy": "Utilizzabile se necessario (categoria B).",
+      "breastfeeding": "Escreta in piccole quantita'; generalmente compatibile."
+    },
+    "alternativeDrugIds": [
+      "amiodarone",
+      "mexiletine",
+      "procainamide"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Il classico anestetico locale che, dato in vena, calma le aritmie che partono dai ventricoli (per esempio dopo un infarto); non funziona sulle aritmie 'di sopra' (atriali).",
+    "clinicalExplanation": "Antiaritmico di classe Ib: blocca i canali del sodio inattivati (rapida cinetica on/off) nel tessuto ventricolare/Purkinje, riduce l'automatismo e accorcia la durata del potenziale d'azione. Solo EV per uso antiaritmico; emivita breve (~110 min) che richiede infusione continua.",
+    "molecularExplanation": "Blocca i canali del sodio voltaggio-dipendenti (stato inattivato), con maggiore effetto sul tessuto ventricolare depolarizzato/ischemico.",
+    "pharmacodynamics": "Riduzione dell'automatismo ectopico ventricolare e innalzamento della soglia di fibrillazione; nessun effetto sul nodo AV/atri.",
+    "molecularTarget": "Canali del sodio cardiaci (tessuto ventricolare)",
+    "agonismAntagonism": "Blocco dei canali del sodio",
+    "pharmacokinetics": {
+      "route": "Endovenosa (bolo + infusione)",
+      "metabolism": "Epatico",
+      "halfLife": "~1,5-2 ore"
+    },
+    "bibliography": []
+  }
+}

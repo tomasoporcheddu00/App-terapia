@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "id": "lisinopril__hypertension__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Lisinopril - RCP (rese da Mediately/Torrinomedica/Starbene su base AIFA): indicazioni, posologia §4.2, avvertenze.",
+        "url": "https://mediately.co/it/drugs/WS9I5vGygB2RhDVQP9VjXHtKJT8/lisinopril-eg-5-mg-compresse",
+        "identifier": "Lisinopril RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "lisinopril",
+  "indication": "hypertension",
+  "scenario": "Ipertensione arteriosa",
+  "route": "orale",
+  "dose": {
+    "initial": "10 mg una volta al giorno",
+    "maintenance": "20 mg una volta al giorno",
+    "max": "in genere fino a 80 mg/die secondo risposta (confermare su RCP)",
+    "renalAdjustment": "CrCl <80 mL/min: dose iniziale ridotta secondo clearance",
+    "titration": "RAAS attivato/deplezione: iniziare con 2,5-5 mg sotto controllo"
+  },
+  "administration": {
+    "notes": "Somministrazione unica giornaliera alla stessa ora; assorbimento non influenzato dal cibo."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

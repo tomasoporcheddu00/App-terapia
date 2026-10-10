@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "empagliflozin__hf-ckd__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Empagliflozin (Jardiance) - RCP/EPAR (EMA, Codifa, Mediately): indicazioni HF/CKD/T2D, dose, chetoacidosi.",
+        "url": "https://www.codifa.it/farmaci/j/jardiance-empagliflozin-ipoglicemizzanti-orali",
+        "identifier": "Empagliflozin RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EPAR; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "empagliflozin",
+  "indication": "chronic-heart-failure",
+  "scenario": "Scompenso cardiaco / malattia renale cronica",
+  "route": "orale",
+  "dose": {
+    "initial": "10 mg una volta al giorno",
+    "maintenance": "10 mg una volta al giorno",
+    "max": "10 mg al giorno (25 mg solo per il controllo glicemico nel T2D con eGFR >=60)"
+  },
+  "administration": {
+    "notes": "Assumibile con o senza cibo."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

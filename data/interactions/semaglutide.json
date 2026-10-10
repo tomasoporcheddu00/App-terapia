@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "id": "semaglutide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Ozempic (semaglutide) - RCP (Mediately/Torrinomedica su base AIFA): indicazione nel diabete tipo 2, sicurezza cardiovascolare SUSTAIN-6, retinopatia, NAION, gastroparesi.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/ozempic/",
+        "identifier": "Ozempic RCP",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "smpc",
+        "citation": "Wegovy (semaglutide 2,4 mg) - RCP e foglio illustrativo: indicazione nel controllo del peso, titolazione 0,25 mg con incrementi ogni 4 settimane fino a 2,4 mg, divieto di associazione con altri GLP-1 agonisti.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/wegovy/",
+        "identifier": "Wegovy RCP",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "SELECT (Lincoff et al., NEJM 2023): semaglutide 2,4 mg riduce del 20% gli eventi cardiovascolari maggiori nel sovrappeso/obesita' con malattia cardiovascolare senza diabete.",
+        "url": "https://www.acc.org/Latest-in-Cardiology/Articles/2023/08/10/14/29/SELECT-Semaglutide-Reduces-Risk-of-MACE-in-Adults-With-Overweight-or-Obesity",
+        "identifier": "SELECT",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "semaglutide",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Altri agonisti del recettore del GLP-1 (liraglutide, dulaglutide, exenatide, tirzepatide)",
+      "effect": "Duplicazione terapeutica senza beneficio aggiuntivo e con aumento degli effetti avversi",
+      "management": "Non associare"
+    },
+    {
+      "severity": "major",
+      "agent": "Insulina e sulfaniluree",
+      "effect": "Aumento del rischio di ipoglicemia",
+      "management": "Considerare la riduzione della dose di insulina o sulfanilurea all'avvio e durante la titolazione; intensificare l'automonitoraggio"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Farmaci orali a stretto indice terapeutico (es. warfarin, levotiroxina, digossina)",
+      "effect": "Il rallentamento dello svuotamento gastrico puo' modificare velocita' ed entita' dell'assorbimento, soprattutto all'inizio del trattamento",
+      "management": "Sorveglianza clinica e di laboratorio (INR, TSH, digossinemia) nelle fasi di avvio e titolazione"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Diuretici, ACE-inibitori e sartani in caso di vomito o diarrea protratti",
+      "effect": "Disidratazione con rischio di danno renale acuto",
+      "management": "Sospensione temporanea dei farmaci nefroattivi durante gli episodi (sick day rules) e reidratazione"
+    }
+  ]
+}

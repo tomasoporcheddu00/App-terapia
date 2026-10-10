@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "id": "midazolam",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Midazolam (fiale) - RCP AIFA (Torrinomedica/Codifa/documento AIFA): sedazione in terapia intensiva, carico EV 0,03-0,3 mg/kg a incrementi lenti, mantenimento 0,03-0,2 mg/kg/h; antidoto flumazenil; interazioni CYP3A4.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/midazolam/",
+        "identifier": "Midazolam RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (EMA/EC, Banca Dati AIFA, portali Mediately/Codifa/Torrinomedica) e da centri antidoti: indicazioni, posologia, controindicazioni, avvertenze, interazioni. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; PK parziale. Stato: revisione fonti (source-review), non ancora approvato. Sedazione e antidoti: dosi da titolare sul singolo paziente e sui protocolli locali. Unico sedativo del gruppo con antidoto specifico (flumazenil). Rispetto a propofol e dexmedetomidina si accumula di piu' nelle sedazioni prolungate.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Midazolam",
+    "inn": "midazolam",
+    "brandExamplesIt": [
+      "Midazolam (varie)",
+      "Ipnovel"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Benzodiazepina a breve durata d'azione (sedativo-ipnotico)",
+  "identity": {
+    "atcCodes": [
+      "N05CD08"
+    ]
+  },
+  "classIds": [
+    "icu-sedatives"
+  ],
+  "quickSummary": {
+    "whatItIs": "Benzodiazepina endovenosa a breve durata: seda, provoca amnesia e ha effetto anticonvulsivante. In terapia intensiva si usa in infusione per la sedazione del paziente ventilato; ha un antidoto specifico, il flumazenil.",
+    "mainUses": [
+      "Sedazione in terapia intensiva (con o senza ventilazione meccanica)",
+      "Sedazione cosciente per procedure diagnostiche/interventistiche",
+      "Componente sedativa dell'anestesia; premedicazione"
+    ],
+    "mainRisks": [
+      "Depressione respiratoria e ostruzione delle vie aeree",
+      "Accumulo con infusioni prolungate (soprattutto nell'insufficienza renale ed epatica): risveglio ritardato",
+      "Ipotensione, specie in associazione agli oppioidi; delirium e tolleranza/astinenza"
+    ],
+    "essentialMonitoring": [
+      "Frequenza respiratoria e saturazione di ossigeno",
+      "Pressione arteriosa e livello di sedazione (scale validate)",
+      "Durata della sedazione (rischio di accumulo)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Sedazione in terapia intensiva (adulti e bambini)",
+      "Sedazione cosciente prima e durante procedure diagnostiche o terapeutiche",
+      "Premedicazione prima dell'induzione dell'anestesia e componente sedativa dell'anestesia combinata"
+    ],
+    "guidelineIndications": [
+      "Sedazione in terapia intensiva: dose di carico EV 0,03-0,3 mg/kg per incrementi lenti (1-2,5 mg in 20-30 secondi, intervalli di 2 minuti), mantenimento 0,03-0,2 mg/kg/h - RCP",
+      "Se si associa un analgesico potente, somministrarlo per primo, cosi' da titolare il midazolam sulla sedazione gia' prodotta dall'analgesico - RCP",
+      "Nelle linee guida di terapia intensiva le benzodiazepine sono associate a piu' delirium e ventilazione piu' prolungata rispetto a propofol e dexmedetomidina - confermare su linee guida"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alle benzodiazepine o agli eccipienti",
+      "Insufficienza respiratoria grave o depressione respiratoria acuta (per la sedazione cosciente)",
+      "Miastenia grave; sindrome delle apnee notturne grave; insufficienza epatica grave"
+    ],
+    "warnings": [
+      "Depressione respiratoria e ostruzione delle vie aeree, potenzialmente fatali: somministrare solo dove sono disponibili monitoraggio, ossigeno e presidi per la ventilazione; il rischio aumenta con l'iniezione rapida, nell'anziano e in associazione agli oppioidi (somministrare l'analgesico per primo e titolare)",
+      "Non somministrare come bolo endovenoso rapido; ridurre o evitare la dose di carico nei pazienti ipovolemici, vasocostretti o ipotermici; negli adulti >60 anni, debilitati o con malattie croniche servono dosi minori",
+      "Accumulo con la sedazione prolungata: l'insufficienza epatica riduce la clearance e nell'insufficienza renale si accumula il metabolita attivo alfa-idrossimidazolam glucuronide, con effetto sedativo notevolmente piu' lungo; possibile tolleranza (necessario aumento della dose) e sindrome da astinenza alla sospensione brusca (svezzamento graduale)",
+      "Forte interazione con gli inibitori del CYP3A4 (ketoconazolo aumenta di 5 volte le concentrazioni e triplica l'emivita): in caso di associazione la somministrazione parenterale va effettuata in terapia intensiva o ambiente equivalente; evitare alcol e altri depressori del SNC"
+    ],
+    "adverseEffects": [
+      "Depressione respiratoria, apnea, ostruzione delle vie aeree",
+      "Ipotensione",
+      "Sedazione prolungata, confusione, delirium",
+      "Reazioni paradosse (agitazione, ostilita'), specie nell'anziano e nel bambino",
+      "Dipendenza/astinenza dopo uso prolungato; nausea, singhiozzo"
+    ],
+    "overdose": "Il sovradosaggio provoca depressione del SNC e respiratoria: supporto respiratorio e cardiocircolatorio; il flumazenil e' l'antagonista specifico, da usare con cautela (rischio di convulsioni negli epilettici, nel trattamento cronico con benzodiazepine e nelle intossicazioni miste con antidepressivi triciclici).",
+    "antidoteDrugIds": [
+      "flumazenil"
+    ],
+    "specialPopulations": {
+      "renal": "Accumulo del metabolita attivo con infusioni prolungate: effetto sedativo molto piu' lungo; ridurre e monitorare.",
+      "hepatic": "Clearance ridotta ed effetti prolungati; controindicato nell'insufficienza grave.",
+      "elderly": ">60 anni: dosi di mantenimento minori e titolazione piu' lenta.",
+      "pregnancy": "Solo se strettamente necessario.",
+      "breastfeeding": "Cautela (passa nel latte in piccole quantita')."
+    },
+    "alternativeDrugIds": [
+      "propofol",
+      "dexmedetomidine"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' una benzodiazepina in vena: calma, fa dimenticare la procedura e blocca le convulsioni. In terapia intensiva si usa per tenere sedato il paziente, ma se l'infusione dura giorni tende ad accumularsi e il risveglio si allunga. Ha un antidoto, il flumazenil.",
+    "clinicalExplanation": "Benzodiazepina idrosolubile a breve emivita che potenzia il GABA-A: sedazione, amnesia anterograda, ansiolisi e azione anticonvulsivante, senza analgesia. In terapia intensiva carico 0,03-0,3 mg/kg e mantenimento 0,03-0,2 mg/kg/h. Metabolismo CYP3A4 con metabolita attivo che si accumula nell'insufficienza renale. Antagonista specifico: flumazenil.",
+    "molecularExplanation": "Si lega al sito benzodiazepinico del recettore GABA-A aumentando la frequenza di apertura del canale del cloro indotta dal GABA.",
+    "pharmacodynamics": "Sedazione dose-dipendente con amnesia anterograda, ansiolisi ed effetto anticonvulsivante; depressione respiratoria dose-dipendente e modesta riduzione pressoria.",
+    "molecularTarget": "Recettore GABA-A (sito benzodiazepinico)",
+    "agonismAntagonism": "Agonismo allosterico del sito benzodiazepinico",
+    "pharmacokinetics": {
+      "route": "Endovenosa (bolo e infusione), intramuscolare, orale/nasale",
+      "halfLife": "~1,5-2,5 ore (prolungata nell'anziano, nell'epatopatico e dopo infusione prolungata)",
+      "note": "Metabolismo CYP3A4; metabolita attivo alfa-idrossimidazolam glucuronide accumulato nell'insufficienza renale"
+    },
+    "bibliography": []
+  }
+}

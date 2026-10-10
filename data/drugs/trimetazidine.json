@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Trimetazidina - RCP EMA/AIFA (EMA Art.31/AIFA): antianginoso metabolico add-on (restrizione EMA 2012), dose 35 mg x2 o 20 mg x3, controindicazione Parkinson/disturbi del movimento e IR grave.",
+        "url": "https://www.ema.europa.eu/it/documents/referral/questions-and-answers-review-medicines-containing-trimetazidine-20-mg-tablets-35-mg-modified-release-tablet-and-20-mgml-oral-solution_it.pdf",
+        "identifier": "Trimetazidina RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Trimetazidina (Vastarel) - RCP AIFA (Torrinomedica), paragrafo 5.2: emivita media 5,5 ore, eliminazione renale.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/vastarel/",
+        "identifier": "RCP - farmacocinetica",
+        "retrievedAt": "2026-07-25"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false,
+    "id": "trimetazidine"
+  },
+  "name": {
+    "generic": "Trimetazidina",
+    "inn": "trimetazidina",
+    "brandExamplesIt": [
+      "Vastarel",
+      "Trimetazidina (generici)"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antianginoso metabolico (modulatore del metabolismo del miocardio)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "other-antianginals"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antianginoso 'metabolico' aggiuntivo che protegge il miocardio dall'ischemia senza modificare frequenza e pressione; uso limitato all'angina in add-on dopo la revisione EMA.",
+    "mainUses": [
+      "Angina pectoris stabile (terapia aggiuntiva)"
+    ],
+    "mainRisks": [
+      "Disturbi del movimento / sintomi parkinsoniani",
+      "Capogiri"
+    ],
+    "essentialMonitoring": [
+      "Sintomi anginosi",
+      "Comparsa di disturbi del movimento (tremori, instabilita', gambe senza riposo)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Terapia aggiuntiva per il trattamento sintomatico dei pazienti adulti con angina pectoris stabile non adeguatamente controllati o intolleranti alle terapie antianginose di prima linea"
+    ],
+    "guidelineIndications": [
+      "Dopo la revisione EMA (2012) l'uso e' limitato all'angina in add-on; non piu' indicato per acufeni, vertigini e disturbi del campo visivo - confermare su fonte"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Morbo di Parkinson, sintomi parkinsoniani, tremori, sindrome delle gambe senza riposo e altri disturbi del movimento correlati",
+      "Insufficienza renale grave (clearance della creatinina <30 mL/min)"
+    ],
+    "warnings": [
+      "Puo' causare o aggravare sintomi parkinsoniani, tremori, instabilita' della marcia e sindrome delle gambe senza riposo: in tal caso sospendere definitivamente (di norma reversibili; se persistono oltre 4 mesi consultare un neurologo)",
+      "Rischio di cadute (instabilita', ipotensione)",
+      "Ridurre la dose nell'insufficienza renale moderata (clearance 30-60 mL/min) e nell'anziano"
+    ],
+    "adverseEffects": [
+      "Capogiri, cefalea",
+      "Disturbi gastrointestinali",
+      "Astenia",
+      "Disturbi del movimento (sintomi parkinsoniani, tremori)",
+      "Raramente ipotensione ortostatica"
+    ],
+    "overdose": "Il sovradosaggio richiede trattamento sintomatico; dati limitati.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Ridurre la dose nell'insufficienza moderata (30-60 mL/min); controindicata nella grave (<30).",
+      "hepatic": "Dati limitati; cautela.",
+      "elderly": "Ridurre la dose (aumento dell'esposizione per la riduzione fisiologica della funzione renale).",
+      "pregnancy": "Preferibile evitare.",
+      "breastfeeding": "Non raccomandata."
+    },
+    "alternativeDrugIds": [
+      "ranolazine",
+      "nicorandil",
+      "nitroglycerin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Una compressa che aiuta il cuore a 'usare meglio l'ossigeno' durante l'angina, senza toccare battito e pressione; da sospendere se compaiono tremori o disturbi del movimento.",
+    "clinicalExplanation": "Agente metabolico (inibitore parziale dell'ossidazione degli acidi grassi) che sposta il metabolismo miocardico verso l'ossidazione del glucosio, piu' efficiente in ischemia; add-on senza effetti emodinamici. La revisione EMA ha introdotto controindicazioni per i disturbi del movimento.",
+    "molecularExplanation": "Inibisce parzialmente la beta-ossidazione degli acidi grassi (3-chetoacil-CoA tiolasi), favorendo l'ossidazione del glucosio e preservando l'ATP miocardico in ischemia.",
+    "pharmacodynamics": "Protezione metabolica del miocardio ischemico senza effetti su frequenza cardiaca e pressione.",
+    "molecularTarget": "Metabolismo energetico del cardiomiocita (ossidazione degli acidi grassi)",
+    "agonismAntagonism": "Modulazione metabolica (inibizione enzimatica)",
+    "pharmacokinetics": {
+      "route": "Orale (35 mg rilascio modificato x2; 20 mg x3; soluzione orale)",
+      "elimination": "Prevalentemente renale (ridurre in IR)",
+      "halfLife": "~5,5 ore (media); eliminazione prevalentemente renale, aumentata esposizione nell'anziano e nell'insufficienza renale (controindicata se clearance <30 mL/min)"
+    },
+    "bibliography": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "sodium-bicarbonate__metabolic-acidosis__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Bicarbonato di sodio - RCP (Codifa/Mediately su base AIFA): alcalinizzante; acidosi metabolica 2-5 mEq/kg in 4-8h; controindicato in alcalosi/ipernatriemia/ipocalcemia; sovraccarico di sodio.",
+        "url": "https://www.codifa.it/farmaci/s/sodio-bicarbonato-8-4-salf-sodio-bicarbonato-soluzioni-endovena-elettrolitiche",
+        "identifier": "Bicarbonato di sodio RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false. Dosi d'urgenza da adattare ai protocolli locali."
+  },
+  "drugId": "sodium-bicarbonate",
+  "indication": "metabolic-acidosis",
+  "scenario": "Acidosi metabolica / alcalinizzazione",
+  "route": "endovenosa",
+  "dose": {
+    "acidosis": "dose iniziale 2-5 mEq/kg in 4-8 ore secondo la gravita' (non correggere del tutto nelle prime 24h)",
+    "alternative": "1 mEq/kg EV lento (diluito a 0,5 mEq/ml), max 8 mEq/kg/die; anziani >60 max 90-100 mEq/die",
+    "note": "8,4% ipertonica: via centrale, velocita' controllata"
+  },
+  "administration": {
+    "notes": "EV a velocita' controllata; 8,4% via centrale. Non miscelare con calcio. Monitorare emogas ed elettroliti."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

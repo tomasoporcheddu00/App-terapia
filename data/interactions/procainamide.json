@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "procainamide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Procainamide - RCP/label FDA (Pfizer/StatPearls): classe Ia EV per aritmie ventricolari pericolose per la vita e WPW con FA preeccitata; sindrome lupus-simile, discrasie, torsione di punta.",
+        "url": "https://labeling.pfizer.com/ShowLabeling.aspx?id=4587",
+        "identifier": "Procainamide label",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "procainamide",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Altri antiaritmici / farmaci che prolungano il QT",
+      "effect": "Effetto additivo su conduzione e QT (torsione di punta)",
+      "management": "Evitare o monitorare l'ECG"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Farmaci anticolinergici",
+      "effect": "Potenziamento degli effetti vagolitici sulla conduzione AV",
+      "management": "Cautela"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Amiodarone, cimetidina, trimetoprim",
+      "effect": "Aumento dei livelli di procainamide/NAPA",
+      "management": "Ridurre la dose e monitorare"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "id": "ethacrynic-acid",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Acido etacrinico (Reomax) - RCP AIFA (Torrinomedica/Mediately/Univadis): diuretico dell'ansa NON sulfamidico; orale 50-150 mg/die, EV etacrinato sodico 50 mg o 0,5-1 mg/kg nell'edema polmonare acuto; ototossicita'.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/reomax/",
+        "identifier": "Reomax RCP",
+        "retrievedAt": "2026-07-23"
+      },
+      {
+        "type": "smpc",
+        "citation": "Acido etacrinico - monografie di farmacocinetica (medicine.com) e RCP Reomax: esordio ~5 min EV / ~30 min orale, durata d'azione breve; emivita di eliminazione breve.",
+        "url": "https://www.medicine.com/drug/ethacrynic-acid/hcp",
+        "identifier": "Monografia - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (EMA/EC, Banca Dati AIFA, portali Mediately/Codifa/Torrinomedica/Univadis): indicazioni, posologia, controindicazioni, avvertenze, interazioni. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; PK parziale. Stato: revisione fonti (source-review), non ancora approvato. Dosi da adattare al paziente e ai protocolli locali. Unico diuretico dell'ansa non sulfamidico: alternativa nell'allergia ai sulfamidici. Ototossicita' piu' rilevante rispetto a furosemide e torasemide.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Acido etacrinico",
+    "inn": "acido etacrinico",
+    "brandExamplesIt": [
+      "Reomax"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Diuretico dell'ansa non sulfamidico (derivato dell'acido arilossiacetico)",
+  "identity": {
+    "atcCodes": [
+      "C03CC01"
+    ]
+  },
+  "classIds": [
+    "loop-diuretics"
+  ],
+  "quickSummary": {
+    "whatItIs": "Potente diuretico dell'ansa che, a differenza di furosemide e torasemide, non contiene il gruppo sulfamidico: e' quindi l'alternativa nei pazienti con allergia ai sulfamidici. Per via endovenosa agisce in circa 5 minuti.",
+    "mainUses": [
+      "Sindromi da ritenzione idrosalina: edemi cardiaci, renali/nefrosici, cirrosi con ascite",
+      "Edema polmonare acuto (via endovenosa)",
+      "Alternativa ai diuretici dell'ansa sulfamidici in caso di allergia"
+    ],
+    "mainRisks": [
+      "Ototossicita' (ipoacusia, di solito reversibile ma talvolta permanente)",
+      "Deplezione idroelettrolitica (ipokaliemia con rischio di tossicita' digitalica)",
+      "Ipovolemia e insufficienza renale prerenale"
+    ],
+    "essentialMonitoring": [
+      "Elettroliti (potassio, sodio, magnesio) e funzione renale",
+      "Peso, diuresi e stato volemico",
+      "Udito (specie con altri farmaci ototossici)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Tutte le sindromi da ritenzione idrosalina, in particolare edemi di origine cardiaca, edemi di origine renale e forme nefrosiche, insufficienza renale cronica, cirrosi con ascite e malattie epatiche ascitogene",
+      "La somministrazione endovenosa dell'etacrinato sodico e' indicata quando si richiede un rapido instaurarsi della diuresi, come nell'edema polmonare acuto"
+    ],
+    "guidelineIndications": [
+      "Alternativa d'elezione ai diuretici dell'ansa sulfamidici (furosemide, torasemide, bumetanide) nei pazienti con documentata allergia ai sulfamidici - confermare su fonte",
+      "Nell'edema polmonare acuto complicante uno shock cardiogeno da infarto usare cautela: l'ipovolemia indotta dal diuretico puo' ridurre ulteriormente la gittata cardiaca - RCP"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' accertata verso l'acido etacrinico",
+      "Anuria",
+      "Gravidanza e allattamento",
+      "Bambini di eta' inferiore a due anni"
+    ],
+    "warnings": [
+      "OTOTOSSICITA': sono descritti acufeni e ipoacusia, piu' frequenti dopo somministrazione endovenosa e con dosi superiori a quelle consigliate; la sordita' e' di solito reversibile e breve (1-24 ore) ma in alcuni pazienti e' stata permanente, specie con altri farmaci ototossici - evitare l'associazione con aminoglicosidi",
+      "Deplezione elettrolitica: l'eccessiva perdita di potassio puo' precipitare la tossicita' digitalica nei pazienti in terapia con glicosidi; particolare attenzione anche nei pazienti che assumono steroidi",
+      "Cautela nella cirrosi epatica avanzata, specie con anamnesi di squilibri elettrolitici o encefalopatia: come altri diuretici puo' portare a coma epatico",
+      "Le iniezioni possono causare irritazione locale e dolore da stravaso: cambiare sede in caso di seconda somministrazione (rischio di tromboflebiti); la formulazione iniettabile contiene metile para-idrossibenzoato (possibili reazioni allergiche e broncospasmo)"
+    ],
+    "adverseEffects": [
+      "Ipoacusia/acufeni (ototossicita')",
+      "Ipokaliemia, iponatriemia, alcalosi ipocloremica",
+      "Ipovolemia, ipotensione, insufficienza renale prerenale",
+      "Disturbi gastrointestinali (diarrea, dolore addominale)",
+      "Iperuricemia, iperglicemia"
+    ],
+    "overdose": "Il sovradosaggio provoca deplezione idroelettrolitica marcata con ipovolemia e squilibri: interrompere il trattamento e correggere le perdite di elettroliti (in particolare il potassio) e di liquidi.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Utilizzabile (efficace anche nell'insufficienza renale); controindicato in anuria.",
+      "hepatic": "Cautela nella cirrosi avanzata (rischio di coma epatico).",
+      "elderly": "Cautela (ipovolemia, ototossicita').",
+      "pregnancy": "Controindicato.",
+      "breastfeeding": "Controindicato."
+    },
+    "alternativeDrugIds": [
+      "furosemide",
+      "torasemide"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' un diuretico potente 'cugino' della furosemide, ma senza la parte sulfamidica: si usa soprattutto in chi e' allergico ai sulfamidici. Puo' dare disturbi all'udito, di solito passeggeri.",
+    "clinicalExplanation": "Diuretico dell'ansa derivato dell'acido arilossiacetico, privo del gruppo sulfamidico: inibisce il riassorbimento di sodio, potassio e cloro nel tratto ascendente dell'ansa di Henle (e in parte nei tubuli prossimale e distale). Esordio ~30 minuti per via orale e ~5 minuti per via endovenosa. Utile nell'allergia ai sulfamidici; ototossicita' piu' marcata rispetto agli altri diuretici dell'ansa.",
+    "molecularExplanation": "Inibisce il cotrasportatore Na-K-2Cl (NKCC2) nel tratto ascendente spesso dell'ansa di Henle, riducendo il riassorbimento di sodio e cloro.",
+    "pharmacodynamics": "Diuresi e natriuresi intense e rapide con perdita di potassio, magnesio e calcio; riduzione del precarico.",
+    "molecularTarget": "Cotrasportatore Na-K-2Cl (NKCC2)",
+    "agonismAntagonism": "Inibizione del cotrasporto Na-K-2Cl",
+    "pharmacokinetics": {
+      "route": "Orale ed endovenosa",
+      "onset": "~30 minuti per via orale; ~5 minuti per via endovenosa",
+      "note": "Privo di gruppo sulfamidico",
+      "halfLife": "Emivita di eliminazione breve; esordio rapido (~30 minuti per via orale, ~5 minuti per via endovenosa) e durata d'azione relativamente breve (~2 ore dopo somministrazione endovenosa, ~6-8 ore per via orale), da cui l'eventuale ripetizione della dose"
+    },
+    "bibliography": []
+  }
+}

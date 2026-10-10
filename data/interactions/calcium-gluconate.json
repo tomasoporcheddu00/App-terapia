@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "id": "calcium-gluconate",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Calcio gluconato - RCP (Codifa/Univadis/Mediately su base AIFA): ipocalcemia acuta, protezione cardiaca nell'iperkaliemia, antidoto di MgSO4/fluoruri; controindicato con glicosidi cardioattivi, FV, ipercalcemia.",
+        "url": "https://www.univadis.it/references/drug-database/B05/viewdrug/calcio-gluconato-26154",
+        "identifier": "Calcio gluconato RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "calcium-gluconate",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Glicosidi cardioattivi (digossina)",
+      "effect": "Potenziamento della tossicita' digitalica (aritmie gravi)",
+      "management": "Calcio EV controindicato salvo ipocalcemia pericolosa per la vita senza alternative"
+    },
+    {
+      "severity": "major",
+      "agent": "Ceftriaxone (neonati)",
+      "effect": "Precipitazione calcio-ceftriaxone",
+      "management": "Controindicato nei neonati <=28 giorni"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Diuretici tiazidici",
+      "effect": "Rischio di ipercalcemia (ridotta escrezione)",
+      "management": "Monitorare la calcemia"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Bicarbonato/fosfati/solfati (in soluzione)",
+      "effect": "Precipitazione",
+      "management": "Non miscelare"
+    }
+  ]
+}

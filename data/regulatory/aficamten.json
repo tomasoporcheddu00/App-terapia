@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "aficamten",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Commissione Europea - aficamten (Myqorzo): autorizzazione all'immissione in commercio nell'UE del 17 febbraio 2026 per la CMI ostruttiva sintomatica.",
+        "url": "https://ir.cytokinetics.com/press-releases/press-release-details/2026/Cytokinetics-Announces-European-Commission-Approval-of-MYQORZO-aficamten-for-the-Treatment-of-Adults-with-Symptomatic-Obstructive-Hypertrophic-Cardiomyopathy/default.aspx",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Autorizzato dalla Commissione Europea nel febbraio 2026. Alla data di compilazione NON risultava ancora disponibile in Italia (approvazione richiesta ad AIFA; primo lancio europeo atteso in Germania): verificare lo stato aggiornato prima di qualsiasi considerazione prescrittiva."
+  },
+  "drugId": "aficamten",
+  "authorisation": "EMA/Nazionale",
+  "marketed": false,
+  "reimbursementClass": "Non definita in Italia",
+  "supplyRegime": "Da definire",
+  "aifaNote": null,
+  "therapeuticPlan": true,
+  "distribution": "Da definire",
+  "law648_1996": false,
+  "prescriberRestrictions": "Centri esperti in cardiomiopatie"
+}

@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "diltiazem",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Banca Dati AIFA - diltiazem: classe A, ricetta ripetibile (RR).",
+        "url": "https://mediately.co/it/drugs/E1FXu5Rl0PZJWYe6niXRNWHUWbr/dilzene-24-cpr-120-mg-rilascio-prolungato",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Prescrivibilita' da portale su base Banca Dati AIFA; confermare sul prontuario AIFA aggiornato."
+  },
+  "drugId": "diltiazem",
+  "authorisation": "Nazionale (AIFA)",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RR (ricetta ripetibile)",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Farmacia (convenzionata)",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

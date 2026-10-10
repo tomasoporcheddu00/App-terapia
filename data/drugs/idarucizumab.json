@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "id": "idarucizumab",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Idarucizumab (Praxbind) - RCP EMA: reversal specifico del dabigatran; 5 g EV (2 fiale da 2,5 g), eventuale seconda dose da 5 g; solo uso ospedaliero.",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/praxbind-epar-product-information_en.pdf",
+        "identifier": "Praxbind RCP",
+        "retrievedAt": "2026-07-21"
+      },
+      {
+        "type": "smpc",
+        "citation": "Idarucizumab (Praxbind) - EPAR EMA/monografie: frammento di anticorpo monoclonale, reversione immediata del dabigatran, emivita breve con possibile ricomparsa di dabigatran libero (seconda dose eventuale).",
+        "url": "https://en.wikipedia.org/wiki/Idarucizumab",
+        "identifier": "Monografia - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (EMA/EC, Banca Dati AIFA, portali Mediately/Codifa/Torrinomedica/Univadis) e da centri antiveleni regionali: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Antidoti d'urgenza: dosi da adattare ai protocolli locali e ai test coagulativi. Specifico per il dabigatran: non usare per altri anticoagulanti (per gli inibitori del fattore Xa vedi andexanet alfa/complesso protrombinico).",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Idarucizumab",
+    "inn": "idarucizumab",
+    "brandExamplesIt": [
+      "Praxbind"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antidoto - reversal del dabigatran (frammento anticorpale)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "reversal-agents"
+  ],
+  "quickSummary": {
+    "whatItIs": "Frammento di anticorpo monoclonale che si lega specificamente al dabigatran neutralizzandone in pochi minuti l'effetto anticoagulante. E' l'antidoto specifico del dabigatran.",
+    "mainUses": [
+      "Reversal urgente del dabigatran: emorragia potenzialmente fatale/incontrollata o chirurgia/procedura d'urgenza"
+    ],
+    "mainRisks": [
+      "Ritorno del rischio trombotico della malattia di base (riprendere l'anticoagulazione appena possibile)",
+      "Ricomparsa (rebound) del dabigatran libero fino a 24 h",
+      "Reazioni di ipersensibilita'; contenuto di sorbitolo"
+    ],
+    "essentialMonitoring": [
+      "Parametri coagulativi (aPTT, dTT, ECT)",
+      "Segni di risanguinamento fino a 24 h",
+      "Ripresa dell'anticoagulazione"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Reversal rapido dell'effetto anticoagulante del dabigatran etexilato negli adulti, quando necessario per: interventi chirurgici/procedure d'urgenza; emorragie potenzialmente fatali o non controllate"
+    ],
+    "guidelineIndications": [
+      "Inversione completa gia' entro pochi minuti dalla somministrazione; non neutralizza altri anticoagulanti - RE-VERSE AD/EMA",
+      "Il dabigatran puo' essere ripreso dopo 24 h se stabile ed emostasi adeguata; altri antitrombotici (es. EBPM) in qualsiasi momento se stabile - confermare su RCP"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' nota a idarucizumab o agli eccipienti (valutare rischio/beneficio nell'emergenza)"
+    ],
+    "warnings": [
+      "Non neutralizza gli anticoagulanti diversi dal dabigatran",
+      "L'assenza di terapia antitrombotica espone il paziente al rischio trombotico della malattia di base: riprendere l'anticoagulazione appena clinicamente appropriato",
+      "In un sottogruppo di pazienti: ricomparsa (rebound) di dabigatran libero e prolungamento dei test coagulativi fino a 24 h dopo la somministrazione (possibile seconda dose da 5 g)",
+      "Intolleranza ereditaria al fruttosio: ogni flacone contiene 2 g di sorbitolo (rischio); contiene anche sodio; usare la fiala entro 60 minuti dalla perforazione"
+    ],
+    "adverseEffects": [
+      "Generalmente ben tollerato",
+      "Reazioni di ipersensibilita' (rare)",
+      "Eventi riportati nella popolazione critica: ipokaliemia, delirio, stipsi, piressia, polmonite",
+      "Eventi tromboembolici legati alla malattia di base (non all'idarucizumab)"
+    ],
+    "overdose": "Non e' stata identificata una dose massima; il profilo di sicurezza alle dosi studiate e' favorevole. Gestione di supporto.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento (l'IR non riduce l'efficacia).",
+      "hepatic": "Nessun aggiustamento.",
+      "elderly": "Nessun aggiustamento (>=65 anni).",
+      "pregnancy": "Solo se il beneficio supera il rischio.",
+      "breastfeeding": "Utilizzabile (improbabile passaggio significativo)."
+    },
+    "alternativeDrugIds": []
+  },
+  "deep": {
+    "simpleExplanation": "E' l'antidoto specifico del dabigatran: si lega al farmaco e ne annulla l'effetto anticoagulante in pochi minuti, per fermare un'emorragia grave o permettere un intervento urgente.",
+    "clinicalExplanation": "Frammento Fab di anticorpo monoclonale umanizzato che lega il dabigatran e i suoi metaboliti con affinita' ~350 volte superiore a quella del dabigatran per la trombina, neutralizzandone l'effetto senza attivita' pro/anticoagulante propria. Effetto entro minuti; possibile rebound fino a 24 h.",
+    "molecularExplanation": "Si lega stechiometricamente al dabigatran libero e legato alla trombina, sequestrandolo e ripristinando l'attivita' della trombina.",
+    "pharmacodynamics": "Neutralizzazione rapida e completa dell'effetto anticoagulante del dabigatran.",
+    "molecularTarget": "Dabigatran (sequestro)",
+    "agonismAntagonism": "Antidoto specifico (legante)",
+    "pharmacokinetics": {
+      "route": "Endovenosa",
+      "onset": "Entro pochi minuti",
+      "note": "Possibile ricomparsa di dabigatran libero fino a 24 h",
+      "halfLife": "Reversione immediata e completa del dabigatran; emivita relativamente breve (frammento di anticorpo monoclonale). E' descritto un possibile re-innalzamento delle concentrazioni di dabigatran libero (redistribuzione dai tessuti) entro 12-24 ore, che in caso di sanguinamento persistente puo' richiedere una seconda dose da 5 g"
+    },
+    "bibliography": []
+  }
+}

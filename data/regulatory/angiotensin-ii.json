@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "angiotensin-ii",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Angiotensina II (Giapreza): autorizzazione EMA; disponibilita' in Italia/UE da confermare.",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/giapreza-epar-product-information_en.pdf",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Autorizzazione EMA (Giapreza); commercializzazione/disponibilita' in Italia/UE da confermare."
+  },
+  "drugId": "angiotensin-ii",
+  "authorisation": "Nazionale (AIFA)",
+  "marketed": false,
+  "reimbursementClass": "Da confermare",
+  "supplyRegime": "OSP - uso ospedaliero (ove disponibile)",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Ospedaliera",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "sacubitril-valsartan",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Entresto (sacubitril/valsartan) - RCP/EPAR (EMA, Torrinomedica, Codifa, AIFA): indicazione HFrEF, titolazione, washout 36h dagli ACE-inibitori, controindicazioni.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/entresto/",
+        "identifier": "Entresto RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "epar",
+        "citation": "EMA/AIFA - Entresto: comunicato e caratteristiche del prodotto.",
+        "url": "https://www.aifa.gov.it/en/-/l-ema-raccomanda-sacubitril-valsartan-per-il-trattamento-dell-insufficienza-cardiaca",
+        "identifier": "Entresto EPAR",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5; severita' secondo posizionamento RCP e rilevanza clinica.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "sacubitril-valsartan",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "ACE-inibitori",
+      "effect": "Angioedema; ipotensione, iperkaliemia",
+      "management": "Controindicati in contemporanea; rispettare il washout di 36 ore in entrambe le direzioni"
+    },
+    {
+      "severity": "contraindicated",
+      "agent": "Aliskiren (in diabete o IR con GFR <60)",
+      "effect": "Iperkaliemia, ipotensione, peggioramento renale",
+      "management": "Controindicato in questi pazienti"
+    },
+    {
+      "severity": "major",
+      "agent": "Altri ARB",
+      "effect": "Doppio blocco del recettore AT1",
+      "management": "Non associare"
+    },
+    {
+      "severity": "major",
+      "agent": "Diuretici risparmiatori di potassio, sali di potassio, MRA",
+      "effect": "Iperkaliemia",
+      "management": "Monitorare strettamente il potassio"
+    },
+    {
+      "severity": "major",
+      "agent": "FANS",
+      "effect": "Peggioramento della funzione renale, riduzione dell'effetto",
+      "management": "Cautela, specie nell'anziano/nefropatico; monitorare"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Statine (es. atorvastatina), inibitori OATP",
+      "effect": "Possibile aumento dell'esposizione",
+      "management": "Sorvegliare"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Litio",
+      "effect": "Aumento della litiemia",
+      "management": "Monitorare la litiemia"
+    }
+  ]
+}

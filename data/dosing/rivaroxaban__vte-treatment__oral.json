@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "id": "rivaroxaban__vte-treatment__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Xarelto (rivaroxaban) sez. 4.2 - TVP/EP: 15 mg due volte/die per 3 settimane, poi 20 mg/die; prevenzione recidive 10 o 20 mg/die.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/xarelto-20/",
+        "identifier": "Xarelto TVP/EP",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Le compresse 15 e 20 mg si assumono con il cibo. id indicazione da riconciliare col vocabolario.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "rivaroxaban",
+  "indication": "vte-treatment",
+  "scenario": "Trattamento TVP/EP e prevenzione delle recidive",
+  "route": "oral",
+  "formulation": null,
+  "population": "adult-standard",
+  "dose": {
+    "loading": "15 mg due volte al giorno per le prime 3 settimane",
+    "initial": "15 mg due volte al giorno (settimane 1-3)",
+    "interval": "ogni 12 ore (fase iniziale), poi ogni 24 ore",
+    "maintenance": "20 mg una volta al giorno dalla 4a settimana; per la prevenzione delle recidive 10 mg/die o 20 mg/die secondo rischio",
+    "target": null,
+    "max": null,
+    "titration": null,
+    "duration": "Trattamento e prevenzione secondo rischio",
+    "weightBased": null,
+    "cumulative": null,
+    "renalAdjustment": "CrCl 15-49 mL/min: valutare 15 mg/die dopo la fase iniziale se il rischio emorragico supera quello di recidiva. CrCl <15: sconsigliato.",
+    "hepaticAdjustment": "Controindicato in epatopatia con coagulopatia (Child-Pugh B/C).",
+    "elderly": "Nessun aggiustamento per la sola eta'.",
+    "pregnancy": "Controindicato.",
+    "dialysis": "Sconsigliato."
+  },
+  "administration": {
+    "preparation": null,
+    "solvent": null,
+    "concentration": null,
+    "rate": null,
+    "access": null,
+    "notes": "Compresse 15 e 20 mg con il cibo; le due dosi da 15 mg della fase iniziale preferibilmente a ~12 ore."
+  },
+  "monitoring": [
+    "Funzione renale",
+    "Segni di sanguinamento"
+  ],
+  "stoppingCriteria": [
+    "Emorragia",
+    "Chirurgia: sospensione secondo rischio"
+  ],
+  "approvalEvidence": {
+    "primarySourceVerified": false,
+    "smpcVerified": true,
+    "clinicalReviewDone": true,
+    "verificationDate": "2026-07-18",
+    "reviewer": "Curatore clinico"
+  }
+}

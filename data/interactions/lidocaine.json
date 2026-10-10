@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "lidocaine",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Lidocaina - RCP (Torrinomedica/Starbene/Pharmamedix su base AIFA): classe Ib EV, aritmie ventricolari nell'IMA/procedure, tossicita' SNC.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/lidocaina_cloridrato_bioindustria_lim/",
+        "identifier": "Lidocaina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "lidocaine",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Betabloccanti, cimetidina (inibitori del metabolismo epatico)",
+      "effect": "Aumento dei livelli di lidocaina (tossicita')",
+      "management": "Ridurre la dose e monitorare"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Altri antiaritmici di classe I / anestetici locali",
+      "effect": "Tossicita' cardiaca additiva",
+      "management": "Cautela"
+    }
+  ]
+}

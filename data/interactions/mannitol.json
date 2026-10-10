@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "mannitol",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Mannitolo 18% - RCP AIFA (Torrinomedica/Codifa/Univadis): diuretico osmotico; ipertensione endocranica e masse cerebrali, fase oligurica dell'insufficienza renale acuta, pressione endo-oculare; 50-200 g/24h; controindicato in anuria, edema polmonare, emorragia intracranica in atto, disidratazione grave.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/mannitolo_18pc_eurospital/",
+        "identifier": "Mannitolo RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "mannitol",
+  "items": [
+    {
+      "severity": "moderate",
+      "agent": "Trasfusione di sangue intero (stessa linea)",
+      "effect": "Pseudoagglutinazione",
+      "management": "Non somministrare nella stessa infusione venosa; se necessario aggiungere 20 mEq/L di sodio cloruro"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Altri diuretici",
+      "effect": "Potenziamento della deplezione idroelettrolitica",
+      "management": "Monitorare elettroliti e volemia"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Farmaci nefrotossici",
+      "effect": "Aumento del rischio di danno renale",
+      "management": "Monitorare la funzione renale"
+    }
+  ]
+}

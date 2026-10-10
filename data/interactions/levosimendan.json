@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "levosimendan",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Levosimendan (Simdax) - RCP (Mediately/Codifa/informazionisuifarmaci su base AIFA): sensibilizzante del calcio + apertura dei canali del potassio; scompenso cronico grave in instabilita' acuta; carico 6-12 mcg/kg poi 0,1 mcg/kg/min; uso ospedaliero.",
+        "url": "https://www.codifa.it/farmaci/s/simdax-levosimendan-inotropi",
+        "identifier": "Simdax RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "levosimendan",
+  "items": [
+    {
+      "severity": "moderate",
+      "agent": "Altri vasodilatatori / nitrati (es. isosorbide mononitrato)",
+      "effect": "Potenziamento dell'ipotensione (anche ortostatica)",
+      "management": "Monitorare la pressione"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Farmaci che prolungano il QT",
+      "effect": "Rischio additivo di prolungamento del QT",
+      "management": "Cautela; monitorare l'ECG"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Altri inotropi/vasoattivi",
+      "effect": "Effetti emodinamici additivi (esperienza limitata)",
+      "management": "Titolare con monitoraggio"
+    }
+  ]
+}

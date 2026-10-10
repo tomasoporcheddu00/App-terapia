@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "id": "eptifibatide",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Eptifibatide (Integrilin) - RCP EMA (Commissione Europea, allegato IT): ciclopeptide antagonista della GPIIb/IIIa; UA/NSTEMI bolo 180 mcg/kg poi 2 mcg/kg/min fino a 72h; PCI doppio bolo; controindicato nell'insufficienza renale grave/dialisi.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2010/2010012073426/anx_73426_it.pdf",
+        "identifier": "Integrilin RCP",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (EMA/EC, Banca Dati AIFA, portali Mediately/Codifa/Torrinomedica): indicazioni, posologia, controindicazioni, avvertenze, interazioni. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; PK parziale. Stato: revisione fonti (source-review), non ancora approvato. Antiaggreganti EV ad alto rischio emorragico: dosi da adattare a peso/funzione renale e protocolli locali. Rispetto al tirofiban ha eliminazione renale piu' critica (controindicato in dialisi). Nella PCI si usa lo schema a doppio bolo.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Eptifibatide",
+    "inn": "eptifibatide",
+    "brandExamplesIt": [
+      "Integrilin"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antagonista ciclopeptidico della glicoproteina IIb/IIIa (reversibile)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "gpiib-iiia-inhibitors"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antiaggregante endovenoso ciclopeptidico che blocca il recettore piastrinico GPIIb/IIIa. Si usa nell'angina instabile/infarto non-Q e durante l'angioplastica, sempre con acido acetilsalicilico ed eparina.",
+    "mainUses": [
+      "Angina instabile o infarto miocardico non-Q (con ASA ed eparina)",
+      "Copertura antiaggregante durante la PCI (schema a doppio bolo)"
+    ],
+    "mainRisks": [
+      "Sanguinamento (principale)",
+      "Trombocitopenia",
+      "Accumulo e rischio aumentato nell'insufficienza renale"
+    ],
+    "essentialMonitoring": [
+      "Conta piastrinica (basale e nelle prime ore)",
+      "Emoglobina/ematocrito, creatinina",
+      "aPTT/ACT quando associato a eparina"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Prevenzione dell'infarto miocardico precoce negli adulti con angina instabile o infarto miocardico non-Q, con ultimo episodio di dolore toracico nelle 24 ore precedenti e alterazioni ECG e/o enzimi cardiaci elevati, in associazione ad acido acetilsalicilico ed eparina non frazionata"
+    ],
+    "guidelineIndications": [
+      "Nei pazienti sottoposti a PCI si utilizza lo schema a doppio bolo (180 mcg/kg, secondo bolo dopo 10 minuti) con infusione, proseguita in genere fino a 18-24 ore - RCP/linee guida",
+      "Come per gli altri GPIIb/IIIa, l'impiego attuale e' riservato a situazioni selezionate (complicanze trombotiche periprocedurali, carico trombotico elevato) - confermare su ESC 2023",
+      "Durante PCI mantenere l'ACT tra 300 e 350 secondi con eparina; sospendere l'eparina se ACT >300 secondi"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Sanguinamento in atto o anamnesi di sanguinamento anomalo negli ultimi 30 giorni",
+      "Ictus emorragico (anamnesi) o ictus di qualsiasi tipo nei 30 giorni precedenti",
+      "Patologia intracranica nota (neoplasia, malformazione artero-venosa, aneurisma)",
+      "Chirurgia maggiore o trauma grave nelle ultime settimane",
+      "Ipertensione arteriosa grave non controllata",
+      "Trombocitopenia (piastrine <100.000/mm3) o coagulopatia nota",
+      "Insufficienza epatica clinicamente significativa",
+      "Insufficienza renale grave (creatinina elevata) o dipendenza dalla dialisi",
+      "Anamnesi di trombocitopenia dopo precedenti antagonisti della GPIIb/IIIa",
+      "Ipertensione grave non controllata; chirurgia maggiore nelle 6 settimane precedenti"
+    ],
+    "warnings": [
+      "Il sanguinamento e' l'evento avverso principale, in particolare a livello della sede di accesso femorale: gestire con attenzione gli accessi vascolari e rimuovere l'introduttore solo con parametri coagulativi adeguati",
+      "Trombocitopenia: eseguire la conta piastrinica basale e nelle prime ore; sospendere in caso di trombocitopenia significativa; non ci sono dati nei pazienti con trombocitopenia da altri GPIIb/IIIa parenterali (monitoraggio attento)",
+      "Eliminazione prevalentemente renale: controindicato/da evitare nell'insufficienza renale grave e in dialisi; nelle forme moderate ridurre la velocita' di infusione secondo RCP",
+      "Quando associato a eparina monitorare aPTT (50-70 secondi) o ACT in corso di PCI (300-350 secondi); non somministrare con altri GPIIb/IIIa parenterali"
+    ],
+    "adverseEffects": [
+      "Sanguinamento (sede di accesso vascolare, gastrointestinale, genitourinario; raro intracranico)",
+      "Trombocitopenia",
+      "Ipotensione",
+      "Reazioni di ipersensibilita' (rare, incluse anafilattiche)"
+    ],
+    "overdose": "In caso di sovradosaggio o emorragia interrompere l'infusione (effetto reversibile in poche ore); considerare trasfusione di piastrine/emoderivati. L'eptifibatide puo' essere rimosso con la dialisi.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Controindicato nell'insufficienza grave e in dialisi; ridurre la velocita' di infusione nelle forme moderate.",
+      "hepatic": "Cautela; controindicato nell'insufficienza epatica clinicamente significativa.",
+      "elderly": "Maggiore rischio emorragico; adeguare alla funzione renale.",
+      "pregnancy": "Solo se strettamente necessario.",
+      "breastfeeding": "Sospendere l'allattamento/valutare."
+    },
+    "alternativeDrugIds": [
+      "tirofiban",
+      "cangrelor"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Come il tirofiban, blocca l'aggancio finale tra le piastrine, ma e' un piccolo peptide. Si usa in vena nell'angina instabile e in angioplastica; attenzione al sanguinamento e ai reni.",
+    "clinicalExplanation": "Ciclopeptide antagonista reversibile della GPIIb/IIIa derivato dalla sequenza KGD: inibisce il legame del fibrinogeno alla via finale comune dell'aggregazione. Emivita ~2,5 ore ed eliminazione prevalentemente renale (controindicato nell'insufficienza grave/dialisi). Schema a doppio bolo nella PCI.",
+    "molecularExplanation": "Si lega in modo reversibile al recettore GPIIb/IIIa (integrina alfaIIb-beta3) impedendo il legame del fibrinogeno e la formazione dei ponti interpiastrinici.",
+    "pharmacodynamics": "Inibizione rapida e reversibile dell'aggregazione piastrinica; ripristino della funzione piastrinica entro poche ore dalla sospensione.",
+    "molecularTarget": "Recettore piastrinico GPIIb/IIIa (integrina alfaIIb-beta3)",
+    "agonismAntagonism": "Antagonismo competitivo reversibile della GPIIb/IIIa",
+    "pharmacokinetics": {
+      "route": "Endovenosa (bolo/doppio bolo + infusione)",
+      "halfLife": "~2,5 ore",
+      "note": "Eliminazione prevalentemente renale; rimovibile con dialisi"
+    },
+    "bibliography": []
+  }
+}

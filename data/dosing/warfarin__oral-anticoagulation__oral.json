@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "id": "warfarin__oral-anticoagulation__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Coumadin (warfarin) sez. 4.2 - dose individualizzata guidata dall'INR; dosi iniziali inferiori nell'anziano.",
+        "url": "https://www.codifa.it/farmaci/c/coumadin-warfarin-sodico-anticoagulanti-orali-indiretti",
+        "identifier": "Coumadin posologia",
+        "retrievedAt": "2026-07-18"
+      },
+      {
+        "type": "guideline",
+        "citation": "2024 ESC/EACTS AF Guidelines - target INR 2,0-3,0 nella FA.",
+        "url": "https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2024/09/17/04/05/2024-esc-guidelines-for-af-esc-2024",
+        "identifier": "ESC 2024 AF",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "La dose e' individualizzata e INR-guidata; nessuna dose fissa. Target INR per indicazione (FA 2,0-3,0; protesi valvolari meccaniche piu' alto secondo tipo/posizione, da linee guida). id indicazione da riconciliare col vocabolario.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "warfarin",
+  "indication": "oral-anticoagulation",
+  "scenario": "Anticoagulazione orale (FA, TEV, protesi valvolari, post-IM)",
+  "route": "oral",
+  "formulation": null,
+  "population": "adult-standard",
+  "dose": {
+    "loading": null,
+    "initial": "Individualizzata; dosi iniziali inferiori nell'anziano (valore numerico da RCP/protocollo)",
+    "interval": "Una volta al giorno",
+    "maintenance": "Titolata sull'INR",
+    "target": "INR per indicazione: FA 2,0-3,0 (ESC 2024); protesi valvolari meccaniche piu' alto secondo tipo/posizione (da linee guida)",
+    "max": null,
+    "titration": "Aggiustamento in base a PT/INR periodico",
+    "duration": null,
+    "weightBased": null,
+    "cumulative": null,
+    "renalAdjustment": "Cautela; monitoraggio (verificare RCP).",
+    "hepaticAdjustment": "Cautela (l'epatopatia altera sintesi dei fattori e metabolismo).",
+    "elderly": "Dosi iniziali inferiori; maggiore variabilita' dell'INR.",
+    "pregnancy": "Controindicato.",
+    "dialysis": null
+  },
+  "administration": {
+    "preparation": null,
+    "solvent": null,
+    "concentration": null,
+    "rate": null,
+    "access": null,
+    "notes": "Assumere una volta al giorno, preferibilmente alla stessa ora; mantenere costante l'apporto dietetico di vitamina K."
+  },
+  "monitoring": [
+    "PT/INR periodico con adattamento della dose",
+    "Segni di sanguinamento"
+  ],
+  "stoppingCriteria": [
+    "Emorragia (reversione con vitamina K +/- PCC/plasma)",
+    "Chirurgia (gestione/bridging secondo rischio)"
+  ],
+  "approvalEvidence": {
+    "primarySourceVerified": false,
+    "smpcVerified": true,
+    "clinicalReviewDone": true,
+    "verificationDate": "2026-07-18",
+    "reviewer": "Curatore clinico"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "id": "dofetilide",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Dofetilide (Tikosyn) - label FDA/UpToDate/Cleveland Clinic: classe III puro (IKr), conversione/mantenimento nella FA/flutter, sicuro in scompenso/post-IM; inizio ospedaliero >=72h per torsione di punta; non disponibile in Europa.",
+        "url": "https://www.ccjm.org/content/ccjom/68/4/353.full.pdf",
+        "identifier": "Dofetilide label",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Dofetilide (Tikosyn) - monografia/RCP FDA: emivita di eliminazione ~10 ore, eliminazione prevalentemente renale.",
+        "url": "https://en.wikipedia.org/wiki/Dofetilide",
+        "identifier": "Monografia dofetilide",
+        "retrievedAt": "2026-07-25"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC) e da monografie di riferimento: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Antiaritmici a indice terapeutico stretto: verificare dosi e QT prima dell'uso. Non disponibile in Europa/Italia (Tikosyn, solo USA): scheda a fini di completezza; dati da label internazionali.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Dofetilide",
+    "inn": "dofetilide",
+    "brandExamplesIt": [
+      "Tikosyn (non in commercio in Europa/Italia)"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antiaritmico classe III (IKr-selettivo)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "aa-class-iii"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antiaritmico di classe III 'puro' (blocca selettivamente la corrente del potassio IKr) per la fibrillazione/flutter atriale; richiede inizio in ospedale per il rischio di torsione di punta. Non disponibile in Europa.",
+    "mainUses": [
+      "Conversione a ritmo sinusale e mantenimento nella fibrillazione/flutter atriale (pazienti molto sintomatici)"
+    ],
+    "mainRisks": [
+      "Torsione di punta (prolungamento del QT, dose-dipendente)"
+    ],
+    "essentialMonitoring": [
+      "ECG continuo (QT/QTc) all'inizio",
+      "Funzione renale",
+      "Potassiemia e magnesiemia"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Conversione a ritmo sinusale e mantenimento del ritmo nella fibrillazione/flutter atriale in pazienti molto sintomatici (indicazione FDA)"
+    ],
+    "guidelineIndications": [
+      "A differenza di altri antiaritmici e' emodinamicamente sicuro nello scompenso e nel post-infarto; il rischio di torsione di punta impone l'inizio in ospedale con monitoraggio - confermare su fonte"
+    ],
+    "absoluteContraindications": [
+      "Insufficienza renale grave",
+      "Prolungamento del QT/QTc basale o sindrome del QT lungo congenita/acquisita",
+      "Ipopotassiemia o ipomagnesiemia non corrette",
+      "Uso concomitante di farmaci che aumentano i livelli di dofetilide (cimetidina, ketoconazolo, verapamil, trimetoprim-sulfametossazolo) o che inducono torsione di punta"
+    ],
+    "warnings": [
+      "Torsione di punta dose-dipendente, massima nei primi giorni: inizio obbligatorio in ospedale con monitoraggio ECG continuo per almeno 72 ore; sospendere se il QTc supera 500 ms",
+      "Aggiustare la dose secondo clearance della creatinina e QTc",
+      "Correggere potassio e magnesio prima dell'inizio",
+      "Numerose interazioni farmacologiche"
+    ],
+    "adverseEffects": [
+      "Torsione di punta / proaritmia",
+      "Cefalea",
+      "Dolore toracico",
+      "Capogiri"
+    ],
+    "overdose": "Il sovradosaggio causa prolungamento marcato del QT e torsione di punta; monitoraggio continuo, magnesio EV, correzione elettrolitica, eventuale pacing/isoprenalina.",
+    "antidoteDrugIds": [
+      "magnesium-sulfate"
+    ],
+    "specialPopulations": {
+      "renal": "Aggiustare/controindicato secondo clearance della creatinina.",
+      "hepatic": "Cautela.",
+      "elderly": "Aggiustare per funzione renale.",
+      "pregnancy": "Solo se necessario.",
+      "breastfeeding": "Non raccomandato."
+    },
+    "alternativeDrugIds": [
+      "amiodarone",
+      "dronedarone",
+      "sotalol"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un antiaritmico per la fibrillazione atriale che si puo' iniziare solo in ospedale per il rischio di un'aritmia pericolosa (torsione di punta); in Italia non e' disponibile.",
+    "clinicalExplanation": "Antiaritmico di classe III puro: blocco selettivo della corrente del potassio IKr, allunga la ripolarizzazione senza effetti sulla conduzione o sull'emodinamica (sicuro in scompenso/post-IM). Necessario inizio ospedaliero con dosaggio guidato da clearance e QTc.",
+    "molecularExplanation": "Blocca selettivamente la componente rapida della corrente rettificante ritardata del potassio (IKr).",
+    "pharmacodynamics": "Allungamento della durata del potenziale d'azione e del periodo refrattario (atriale e ventricolare) senza rallentare la conduzione.",
+    "molecularTarget": "Canale del potassio IKr (hERG)",
+    "agonismAntagonism": "Blocco selettivo del canale del potassio",
+    "pharmacokinetics": {
+      "route": "Orale",
+      "elimination": "Renale (aggiustamento per clearance)",
+      "dosing": "Guidato da clearance della creatinina e QTc",
+      "halfLife": "~10 ore (biodisponibilita' orale ~96%; eliminazione prevalentemente renale con secrezione tubulare cationica). NB: non commercializzato in Europa (Tikosyn)"
+    },
+    "bibliography": []
+  }
+}

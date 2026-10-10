@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "dexmedetomidine",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "EMA/AIFA - dexmedetomidina (Dexdor): sedativo, ricetta OSP uso esclusivamente ospedaliero.",
+        "url": "https://www.codifa.it/farmaci/d/dexdor-dexmedetomidina-cloridrato-ipnotici-sedativi",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Prescrivibilita' da portale su base Banca Dati AIFA/EMA; confermare sul prontuario aggiornato."
+  },
+  "drugId": "dexmedetomidine",
+  "authorisation": "EMA/Nazionale",
+  "marketed": true,
+  "reimbursementClass": "H (OSP)",
+  "supplyRegime": "OSP - uso esclusivamente ospedaliero",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Ospedaliera",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

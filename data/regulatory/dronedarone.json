@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "dronedarone",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Banca Dati AIFA - dronedarone (Multaq): classe A, prescrizione specialistica.",
+        "url": "https://www.aifa.gov.it/documents/20142/241044/multaq_rcp_clean.pdf",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Prescrizione specialistica; confermare condizioni sul prontuario AIFA."
+  },
+  "drugId": "dronedarone",
+  "authorisation": "Nazionale (AIFA)",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RRL (ricetta ripetibile limitativa)",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Specialistica",
+  "law648_1996": false,
+  "prescriberRestrictions": "Prescrizione sotto supervisione specialistica."
+}

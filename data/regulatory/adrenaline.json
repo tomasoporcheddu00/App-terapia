@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "adrenaline",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Banca Dati AIFA - adrenalina: emergenza/uso ospedaliero; autoiniettori disponibili con ricetta.",
+        "url": "https://mediately.co/it/drugs/7iqOAuVhUkF2xmQFr1U8BY8vvTi/adrenalina-aguettant-1-mg-10-ml-1-10-000-soluzione-iniettabile",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Formulazioni per emergenza/uso ospedaliero; autoiniettori disponibili in farmacia. Confermare classe per formulazione."
+  },
+  "drugId": "adrenaline",
+  "authorisation": "Nazionale (AIFA)",
+  "marketed": true,
+  "reimbursementClass": "C",
+  "supplyRegime": "OSP / RR (autoiniettori)",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Ospedaliera/farmacia",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

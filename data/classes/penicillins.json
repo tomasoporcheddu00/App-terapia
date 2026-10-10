@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "penicillins",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Pagina di classe da linee guida ESC 2023 sull'endocardite e position statement SPILF-AEPEI; in questo atlante gli antibiotici sono trattati solo per il ruolo nell'endocardite."
+  },
+  "name": "Penicilline",
+  "atcGroup": "J01C - Antibatterici beta-lattamici, penicilline",
+  "memberDrugIds": [
+    "penicillin-g",
+    "amoxicillin",
+    "ampicillin",
+    "flucloxacillin",
+    "oxacillin"
+  ],
+  "mechanismSummary": "Inibizione delle proteine leganti la penicillina (PBP) con blocco della transpeptidazione del peptidoglicano e lisi batterica.",
+  "molecularTarget": "Proteine leganti la penicillina (PBP)",
+  "pharmacodynamics": "Attivita' battericida TEMPO-dipendente: l'efficacia dipende dal tempo di permanenza sopra la MIC, da cui le somministrazioni frequenti o l'infusione continua.",
+  "classEffects": [
+    "Nell'endocardite sono il cardine del trattamento: penicillina G e amoxicillina per streptococchi ed enterococchi, flucloxacillina e oxacillina per lo stafilococco meticillino-sensibile",
+    "Lo schema a doppio beta-lattamico amoxicillina + ceftriaxone consente di evitare l'aminoglicoside nell'endocardite enterococcica",
+    "Le dosi impiegate comportano un carico di volume e di sodio rilevante nel paziente con scompenso"
+  ],
+  "sharedContraindications": [
+    "Ipersensibilita' alle penicilline o ad altri beta-lattamici"
+  ],
+  "sharedAdverseEffects": [
+    "Reazioni di ipersensibilita' fino all'anafilassi",
+    "Diarrea e colite da Clostridioides difficile",
+    "Nefrite interstiziale",
+    "Neurotossicita' e convulsioni da accumulo nell'insufficienza renale",
+    "Epatotossicita' colestatica (flucloxacillina)"
+  ],
+  "monitoring": [
+    "Anamnesi allergologica prima della prima dose",
+    "Funzione renale ed elettroliti con le dosi elevate",
+    "Funzione epatica con le penicilline antistafilococciche",
+    "Emocolture di controllo"
+  ],
+  "reversal": "Nessun antidoto: sospensione e terapia di supporto; la maggior parte delle penicilline e' rimossa dall'emodialisi.",
+  "notesOnClassVsMolecule": "Il corrigendum 2025 alle linee guida ESC 2023 ha corretto le dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10: usare la versione aggiornata. Nel cardiopatico ricordare il carico di sodio delle dosi elevate."
+}

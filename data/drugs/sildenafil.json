@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "id": "sildenafil",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Sildenafil (Revatio) - RCP EMA/AIFA: PDE5-inibitore per la PAH classe II-III; 20 mg tre volte al giorno; controindicato con nitrati, riociguat, inibitori potenti CYP3A4, NAION.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/EPAR/revatio",
+        "identifier": "Revatio RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Farmaci specialistici per l'ipertensione polmonare: prescrizione da centri esperti (piano terapeutico/registro AIFA).",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Sildenafil",
+    "inn": "sildenafil",
+    "brandExamplesIt": [
+      "Revatio"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Inibitore della fosfodiesterasi-5 (PDE5)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "pde5-inhibitors"
+  ],
+  "quickSummary": {
+    "whatItIs": "Inibitore della PDE5 che dilata le arterie polmonari aumentando il cGMP; per l'ipertensione arteriosa polmonare (la specialita' Revatio, distinta da quella per la disfunzione erettile).",
+    "mainUses": [
+      "Ipertensione arteriosa polmonare (PAH) classe funzionale II-III per migliorare la capacita' di esercizio"
+    ],
+    "mainRisks": [
+      "Ipotensione grave con nitrati/riociguat",
+      "Disturbi visivi, NAION",
+      "Cefalea, vampate, epistassi"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa",
+      "Risposta clinica/capacita' di esercizio",
+      "Vista (se disturbi)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipertensione arteriosa polmonare (PAH) negli adulti in classe funzionale OMS II e III, per migliorare la capacita' di esercizio; efficacia dimostrata nella PAH primaria e nella PAH associata a malattia del tessuto connettivo",
+      "Popolazione pediatrica (1-17 anni) con PAH"
+    ],
+    "guidelineIndications": [
+      "PDE5-inibitore di prima linea nella PAH (spesso in combinazione con ERA); nella pratica si usa la specialita' Revatio 20 mg tre volte al giorno - confermare su ESC/ERS"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Co-somministrazione con nitrati o donatori di ossido nitrico",
+      "Co-somministrazione con stimolatori della guanilato ciclasi solubile (riociguat)",
+      "Anamnesi di neuropatia ottica ischemica anteriore non arteritica (NAION)",
+      "Grave compromissione epatica",
+      "Ipotensione grave (<90/50 mmHg) all'inizio del trattamento",
+      "Recente ictus o infarto miocardico",
+      "Co-somministrazione con inibitori potenti del CYP3A4 (ketoconazolo, itraconazolo, ritonavir)",
+      "Ipertensione polmonare associata ad anemia falciforme"
+    ],
+    "warnings": [
+      "Controindicato con nitrati/donatori di ossido nitrico e con gli stimolatori della guanilato ciclasi solubile (riociguat): la via NO-cGMP condivisa causa ipotensione grave.",
+      "Disturbi visivi: interrompere in caso di improvvisa perdita della vista (rischio di NAION)",
+      "Cautela con gli alfa-bloccanti (ipotensione posturale): stabilizzare prima il paziente",
+      "Non stabilita l'efficacia nella PAH grave (classe IV); ridurre gradualmente alla sospensione",
+      "Cautela nelle condizioni predisponenti al priapismo (anemia falciforme, mieloma, leucemia) e nella retinite pigmentosa",
+      "In caso di edema polmonare considerare una malattia veno-occlusiva polmonare"
+    ],
+    "adverseEffects": [
+      "Cefalea, vampate",
+      "Dispepsia",
+      "Epistassi",
+      "Disturbi visivi",
+      "Ipotensione",
+      "Congestione nasale, dolori muscolari"
+    ],
+    "overdose": "Il sovradosaggio accentua gli effetti avversi (cefalea, vampate, ipotensione, disturbi visivi); trattamento di supporto (l'emodialisi non e' efficace per l'elevato legame proteico).",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Cautela nell'insufficienza grave.",
+      "hepatic": "Controindicato nella grave; cautela nella lieve-moderata.",
+      "elderly": "Utilizzabile.",
+      "pregnancy": "Solo se strettamente necessario.",
+      "breastfeeding": "Cautela."
+    },
+    "alternativeDrugIds": [
+      "tadalafil",
+      "riociguat",
+      "bosentan"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Lo stesso principio del 'Viagra', ma qui a dose e schema dedicati (Revatio) per dilatare le arterie dei polmoni; non va mai unito ai nitrati o al riociguat.",
+    "clinicalExplanation": "Inibitore selettivo della PDE5: impedisce la degradazione del cGMP nella muscolatura liscia vascolare polmonare, potenziando la via NO-cGMP e la vasodilatazione. Nella PAH si usa 20 mg tre volte al giorno (Revatio).",
+    "molecularExplanation": "Inibisce la fosfodiesterasi-5, aumentando il cGMP nel muscolo liscio vascolare polmonare (vasodilatazione).",
+    "pharmacodynamics": "Vasodilatazione polmonare con riduzione delle resistenze vascolari polmonari e miglioramento della capacita' di esercizio.",
+    "molecularTarget": "Fosfodiesterasi-5 (PDE5)",
+    "agonismAntagonism": "Inibizione enzimatica",
+    "pharmacokinetics": {
+      "route": "Orale",
+      "metabolism": "Epatico (CYP3A4, CYP2C9)",
+      "halfLife": "~4 ore"
+    },
+    "bibliography": []
+  }
+}

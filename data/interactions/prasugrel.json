@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "id": "prasugrel",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Efient (prasugrel) sez. 4.5 - farmaci che alterano l'emostasi.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/efient_10_mg/",
+        "identifier": "Efient 4.5",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Prasugrel ha poche interazioni CYP clinicamente rilevanti; prevale il rischio emorragico additivo. Elenco 4.5 completo da verificare sulla RCP integrale.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "prasugrel",
+  "items": [
+    {
+      "agent": "Anticoagulanti, altri antiaggreganti, FANS",
+      "effect": "Aumento del rischio emorragico",
+      "management": "Evitare le associazioni non necessarie",
+      "severity": "major"
+    }
+  ]
+}

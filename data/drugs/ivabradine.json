@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "id": "ivabradine",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Ivabradina (Procoralan) - RCP/EPAR (EMA, Mediately, Codifa): indicazioni angina/scompenso (ritmo sinusale), dose, fosfeni, controindicazioni.",
+        "url": "https://mediately.co/it/drugs/K62gnQ6kVUKg5xBCm1GEnOaSEwG/procoralan-7-5-mg-compresse-rivestite",
+        "identifier": "Ivabradina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA / EPAR EMA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Ivabradina",
+    "inn": "ivabradina",
+    "brandExamplesIt": [
+      "Procoralan",
+      "Corlentor"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Inibitore selettivo della corrente If del nodo del seno",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "if-inhibitors"
+  ],
+  "quickSummary": {
+    "whatItIs": "Riduce selettivamente la frequenza cardiaca agendo sulla corrente pacemaker If del nodo del seno; efficace solo in ritmo sinusale.",
+    "mainUses": [
+      "Scompenso cardiaco cronico a FE ridotta (ritmo sinusale, FC >=75)",
+      "Angina pectoris cronica stabile (ritmo sinusale, FC >=70)"
+    ],
+    "mainRisks": [
+      "Bradicardia",
+      "Fibrillazione atriale",
+      "Fenomeni luminosi (fosfeni)"
+    ],
+    "essentialMonitoring": [
+      "Frequenza cardiaca",
+      "Comparsa di fibrillazione atriale"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Scompenso cardiaco cronico da classe NYHA II a IV con disfunzione sistolica, in pazienti in ritmo sinusale con frequenza cardiaca a riposo >=75 bpm, in aggiunta alla terapia standard (incluso il beta-bloccante) o quando il beta-bloccante e' controindicato/non tollerato",
+      "Trattamento sintomatico dell'angina pectoris cronica stabile in coronaropatia con ritmo sinusale e FC >=70 bpm, in intolleranza/controindicazione ai beta-bloccanti o in associazione"
+    ],
+    "guidelineIndications": [
+      "Nello scompenso a FE ridotta con ritmo sinusale e FC elevata, riduce le ospedalizzazioni (SHIFT); nell'angina e' sintomatico (nessun beneficio sugli esiti CV) - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Frequenza cardiaca a riposo <70 bpm prima del trattamento",
+      "Shock cardiogeno",
+      "Infarto miocardico acuto",
+      "Ipotensione grave",
+      "Malattia del nodo del seno, blocco seno-atriale, blocco AV di 3o grado",
+      "Insufficienza cardiaca acuta o instabile",
+      "Dipendenza da pacemaker (frequenza imposta esclusivamente dal pacemaker)",
+      "Angina instabile",
+      "Insufficienza epatica grave",
+      "Uso concomitante con inibitori potenti del CYP3A4 (azoli, macrolidi, inibitori delle proteasi dell'HIV, nefazodone)",
+      "Uso concomitante con verapamil o diltiazem",
+      "Gravidanza e allattamento",
+      "Ipersensibilita'"
+    ],
+    "warnings": [
+      "Non e' efficace ne' indicata per le aritmie; monitorare la comparsa di fibrillazione atriale (rischio aumentato) e sospendere se compare",
+      "Fosfeni (fenomeni luminosi transitori) frequenti, legati alla corrente Ih retinica; di solito lievi",
+      "Bradicardia: ridurre/sospendere se FC <50 bpm o sintomi",
+      "Evitare i farmaci che prolungano il QT (la riduzione della FC puo' aggravare il prolungamento)",
+      "Valutare la risposta dell'angina a 3 mesi: se assente, sospendere"
+    ],
+    "adverseEffects": [
+      "Bradicardia",
+      "Fibrillazione atriale",
+      "Fosfeni (fenomeni luminosi)",
+      "Cefalea, capogiro"
+    ],
+    "overdose": "Il sovradosaggio causa bradicardia marcata: trattamento sintomatico; se scarsa tolleranza, supporto emodinamico e possibile stimolazione beta-adrenergica.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento per CrCl >15 mL/min.",
+      "hepatic": "Controindicato nell'insufficienza epatica grave; cautela nella moderata.",
+      "elderly": "Titolare con prudenza (maggiore rischio di bradicardia).",
+      "pregnancy": "Controindicato.",
+      "breastfeeding": "Controindicato."
+    },
+    "alternativeDrugIds": [
+      "bisoprolol",
+      "carvedilol",
+      "metoprolol"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Rallenta il cuore agendo solo sul 'pacemaker naturale', senza abbassare la pressione; funziona soltanto se il ritmo e' sinusale (non nella fibrillazione atriale).",
+    "clinicalExplanation": "Inibitore selettivo della corrente If del nodo senoatriale: riduce la sola frequenza sinusale. Nello scompenso a FE ridotta con FC >=75 in ritmo sinusale riduce le ospedalizzazioni (SHIFT), in aggiunta al beta-bloccante.",
+    "molecularExplanation": "Blocca selettivamente i canali HCN responsabili della corrente If (funny current) nel nodo del seno.",
+    "pharmacodynamics": "Riduzione della frequenza sinusale (circa 10 bpm) senza effetti su contrattilita', conduzione o pressione; minore consumo miocardico di ossigeno.",
+    "molecularTarget": "Canali HCN / corrente If del nodo senoatriale",
+    "agonismAntagonism": "Inibizione del canale",
+    "pharmacokinetics": {
+      "metabolism": "Epatico via CYP3A4",
+      "elimination": "Metaboliti",
+      "halfLife": "~2 ore (effettiva ~11 ore)"
+    },
+    "bibliography": [
+      "SHIFT (ivabradina nello scompenso a FE ridotta) - da citare con fonte primaria",
+      "BEAUTIFUL / SIGNIFY (ivabradina nella coronaropatia) - da citare con fonte primaria"
+    ]
+  }
+}

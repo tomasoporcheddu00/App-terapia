@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "id": "thiazolidinediones",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Pioglitazone (anche in associazione con metformina) - RCP (Codifa/Torrinomedica/EMA Competact): controindicazione nello scompenso cardiaco di qualsiasi classe NYHA, ritenzione idrica, carcinoma della vescica, fratture.",
+        "url": "https://www.codifa.it/farmaci/p/pioglitazone-e-metformina-eg-pioglitazone-e-metformina-ipoglicemizzanti-orali",
+        "identifier": "Pioglitazone RCP",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida diabete: pioglitazone non raccomandato nei pazienti con scompenso cardiaco.",
+        "url": "https://academic.oup.com/eurheartj/article/45/15/1298/7513467",
+        "identifier": "ESC 2023 diabete",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Pagina di classe da RCP e linee guida ESC 2023."
+  },
+  "name": "Tiazolidinedioni (glitazoni)",
+  "atcGroup": "A10BG - Tiazolidinedioni",
+  "memberDrugIds": [
+    "pioglitazone"
+  ],
+  "mechanismSummary": "Agonismo del recettore nucleare PPAR-gamma con modulazione trascrizionale dei geni del metabolismo glucidico e lipidico: aumento della sensibilita' insulinica in tessuto adiposo, muscolo e fegato.",
+  "molecularTarget": "Recettore nucleare PPAR-gamma",
+  "pharmacodynamics": "Riduzione dell'insulino-resistenza con calo di HbA1c a comparsa lenta; aumento di peso e ritenzione idrica come effetti attesi.",
+  "classEffects": [
+    "CONTROINDICATI nello scompenso cardiaco e nell'anamnesi di scompenso (classi NYHA da I a IV): la ritenzione idrica puo' esacerbarlo o precipitarlo",
+    "Le linee guida ESC 2023 sul diabete non raccomandano il pioglitazone nei pazienti con scompenso cardiaco",
+    "Rischio aumentato di ritenzione idrica in associazione a insulina e FANS",
+    "Fratture ossee e carcinoma della vescica come rischi specifici"
+  ],
+  "sharedContraindications": [
+    "Insufficienza cardiaca o storia di insufficienza cardiaca (NYHA I-IV)",
+    "Carcinoma della vescica in fase attiva o pregresso; ematuria macroscopica non accertata",
+    "Insufficienza epatica"
+  ],
+  "sharedAdverseEffects": [
+    "Ritenzione idrica ed edema",
+    "Aumento di peso",
+    "Scompenso cardiaco nei predisposti",
+    "Fratture ossee",
+    "Anemia da emodiluizione"
+  ],
+  "monitoring": [
+    "Peso, edemi e sintomi di congestione a ogni controllo",
+    "Ematuria e sintomi urinari",
+    "Funzione epatica"
+  ],
+  "reversal": "Nessun antidoto: sospensione e gestione della congestione.",
+  "notesOnClassVsMolecule": "Per il cardiologo questa classe conta soprattutto in negativo: e' un farmaco da riconoscere nella terapia domiciliare del paziente con scompenso e da rivalutare, non da prescrivere."
+}

@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "id": "olmesartan",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Olmesartan medoxomil - RCP (rese da Mediately/Codifa/Starbene su base AIFA): indicazioni, posologia §4.2, avvertenza enteropatia simil-sprue.",
+        "url": "https://mediately.co/it/drugs/JmtSKPaFzONaOZ3mW0qkygyuiV1/olmesartan-medoxomil-eg-40-mg-compresse-rivestite",
+        "identifier": "Olmesartan RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "Sartani (antagonisti del recettore AT1 dell'angiotensina II): meccanismo, controindicazioni, avvertenze e interazioni di classe; sintesi da RCP/portali AIFA (Codifa, Mediately, Torrinomedica).",
+        "url": "https://www.santagostino.it/magazine/losartan/",
+        "identifier": "Sartani classe",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "Position Paper SIF-SIIA 2015 (Societa' Italiana di Farmacologia / Societa' Italiana dell'Ipertensione Arteriosa), sezione Farmacocinetica di ACE-inibitori e sartani.",
+        "url": "https://sif2022-production.s3.amazonaws.com/uploads/attachment/file_it/1702/sif_position_paper_cardiovascolare_lug15.pdf",
+        "identifier": "SIF-SIIA 2015",
+        "retrievedAt": "2026-07-24"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Controindicazioni/avvertenze/interazioni in gran parte comuni alla classe dei sartani. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Olmesartan",
+    "inn": "olmesartan",
+    "brandExamplesIt": [
+      "Olmetec",
+      "Plaunac"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antagonista del recettore AT1 (sartano), profarmaco (medoxomil)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "arb"
+  ],
+  "quickSummary": {
+    "whatItIs": "Profarmaco (olmesartan medoxomil) antagonista AT1 per l'ipertensione; segnalata rara enteropatia simil-sprue.",
+    "mainUses": [
+      "Ipertensione arteriosa"
+    ],
+    "mainRisks": [
+      "Ipotensione",
+      "Iperkaliemia",
+      "Enteropatia simil-sprue (rara)"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa",
+      "Potassio sierico",
+      "Funzione renale"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipertensione arteriosa essenziale (adulti; bambini e adolescenti 6-18 anni)"
+    ],
+    "guidelineIndications": [
+      "Efficace controllo pressorio a lungo termine dose-dipendente (posizionamento di classe; confermare su linea guida)"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alla molecola o agli eccipienti",
+      "Secondo e terzo trimestre di gravidanza",
+      "Uso concomitante con aliskiren in diabete mellito o compromissione renale (GFR <60 mL/min/1,73 m2)",
+      "Ostruzione biliare"
+    ],
+    "warnings": [
+      "Ipotensione sintomatica nei pazienti con deplezione di volume/sale (correggere prima o iniziare a dose ridotta)",
+      "Iperkaliemia: rischio aumentato in insufficienza renale, diabete, uso di sali/integratori di potassio o diuretici risparmiatori di potassio; monitorare il potassio",
+      "Monitorare la funzione renale; rischio in stenosi bilaterale dell'arteria renale",
+      "Duplice blocco del sistema renina-angiotensina-aldosterone (ACE-inibitore + sartano o aliskiren) non raccomandato",
+      "Gravidanza: sospendere e non iniziare in gravidanza",
+      "Rispetto agli ACE-inibitori, minore incidenza di tosse secca e (raramente) angioedema",
+      "Enteropatia simil-sprue: rara diarrea cronica grave con calo ponderale (anche mesi/anni dopo l'avvio); sospendere e non riprendere se confermata alla biopsia",
+      "Non raccomandato nell'aldosteronismo primario",
+      "Cautela nella stenosi aortica/mitralica e nella cardiomiopatia ipertrofica ostruttiva"
+    ],
+    "adverseEffects": [
+      "Ipotensione, capogiro",
+      "Iperkaliemia",
+      "Aumento della creatinina/riduzione della funzione renale",
+      "Cefalea",
+      "Angioedema (raro)",
+      "Enteropatia simil-sprue (rara)"
+    ],
+    "overdose": null,
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Compromissione lieve-moderata (CrCl 20-60 mL/min): dose massima 20 mg/die; esperienza limitata con CrCl <20.",
+      "hepatic": "Cautela; controindicato in ostruzione biliare.",
+      "elderly": "Generalmente nessun aggiustamento; monitorare.",
+      "pregnancy": "Controindicato nel 2o-3o trimestre; evitare in gravidanza.",
+      "breastfeeding": "Sconsigliato."
+    },
+    "alternativeDrugIds": [
+      "telmisartan",
+      "irbesartan",
+      "valsartan"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Abbassa la pressione; una compressa al giorno, effetto pieno dopo qualche settimana.",
+    "clinicalExplanation": "Profarmaco AT1; da conoscere il segnale di enteropatia simil-sprue (diarrea cronica grave con calo di peso) che impone la sospensione.",
+    "molecularExplanation": "L'olmesartan medoxomil e' idrolizzato ad olmesartan, antagonista AT1 selettivo.",
+    "pharmacodynamics": "Blocco selettivo del recettore AT1: riduzione della vasocostrizione e della secrezione di aldosterone senza accumulo di bradichinina, da cui minore tosse/angioedema rispetto agli ACE-inibitori; aumento di renina e angiotensina II circolanti.",
+    "molecularTarget": "Recettore AT1 dell'angiotensina II",
+    "agonismAntagonism": "Antagonista recettoriale (blocco AT1)",
+    "pharmacokinetics": {
+      "metabolism": "Profarmaco idrolizzato ad olmesartan (forma attiva)",
+      "elimination": "Renale e biliare",
+      "timeToPeak": "Effetto massimo a ~8 settimane",
+      "halfLife": "Eliminazione terminale ~10-15 ore"
+    },
+    "bibliography": [
+      "Programma di sviluppo clinico olmesartan (ipertensione) - da citare con fonte primaria"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "id": "acetazolamide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Acetazolamide (Diamox) - RCP/monografie (informazionisuifarmaci, materdomini) e trial ADVOR: indicazioni edema da scompenso, glaucoma, epilessia; dose; ruolo nella decongestione dello scompenso acuto.",
+        "url": "https://www.informazionisuifarmaci.it/acetazolamide",
+        "identifier": "Acetazolamide RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "ADVOR - acetazolamide in aggiunta ai diuretici dell'ansa nello scompenso scompensato con sovraccarico di volume (NEJM 2022).",
+        "url": "https://www.empillsblog.com/un-colpo-al-cerchio-e-un-colpo-alla-botte/",
+        "identifier": "ADVOR",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5; severita' secondo posizionamento RCP e rilevanza clinica.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "acetazolamide",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Acido acetilsalicilico ad alte dosi / salicilati",
+      "effect": "Rischio di tossicita' da salicilati e acidosi grave",
+      "management": "Evitare l'associazione; monitorare"
+    },
+    {
+      "severity": "major",
+      "agent": "Altri farmaci che causano ipopotassiemia (diuretici, corticosteroidi) e digossina",
+      "effect": "Ipopotassiemia additiva; aumento della tossicita' digitalica",
+      "management": "Monitorare e correggere il potassio"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Litio",
+      "effect": "Aumento dell'escrezione di litio (riduzione dei livelli)",
+      "management": "Monitorare la litiemia"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Farmaci la cui eliminazione dipende dal pH urinario (es. anfetamine, chinidina; salicilati)",
+      "effect": "Alterazione dell'escrezione per alcalinizzazione delle urine",
+      "management": "Cautela; adeguare secondo necessita'"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Farmaci che prolungano il QT",
+      "effect": "L'ipopotassiemia aumenta il rischio aritmico",
+      "management": "Monitorare il potassio"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "sotatercept__pah__sottocutanea",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Sotatercept (Winrevair) - label FDA/EMA e STELLAR (NEJM 2023): inibitore del signaling dell'activina (proteina di fusione ActRIIA-Fc), add-on nella PAH gruppo 1; SC ogni 3 settimane; eritrocitosi, trombocitopenia, sanguinamento/teleangectasie.",
+        "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/winrevair",
+        "identifier": "Winrevair label",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Titolazione da centro esperto in ipertensione polmonare."
+  },
+  "drugId": "sotatercept",
+  "indication": "pulmonary-arterial-hypertension",
+  "scenario": "PAH (sottocutanea, add-on)",
+  "route": "sottocutanea",
+  "dose": {
+    "initial": "dose iniziale 0,3 mg/kg sottocute",
+    "target": "dose target 0,7 mg/kg sottocute",
+    "frequency": "ogni 3 settimane",
+    "note": "controllo di emoglobina e piastrine prima di ogni dose (prime 5 dosi), poi periodicamente"
+  },
+  "administration": {
+    "notes": "Iniezione sottocutanea ogni 3 settimane, in aggiunta alla terapia di fondo. Monitoraggio di emoglobina e piastrine. Uso specialistico."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

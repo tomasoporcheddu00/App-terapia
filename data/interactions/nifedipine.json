@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "id": "nifedipine",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Nifedipina - RCP (Mediately/Univadis/Codifa su base AIFA): indicazioni angina/ipertensione, uso del rilascio prolungato, controindicazione rifampicina, rischio del rilascio immediato.",
+        "url": "https://mediately.co/it/drugs/Oa1nZwVnHqcmTOi6iZe51XR7Lcb/nifedipina-doc-30-mg-compresse-a-rilascio-prolungato",
+        "identifier": "Nifedipina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5; severita' secondo posizionamento RCP e rilevanza clinica.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "nifedipine",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Rifampicina",
+      "effect": "Forte riduzione dei livelli di nifedipina (induzione del CYP3A4): possibile inefficacia",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "major",
+      "agent": "Inibitori potenti del CYP3A4 (itraconazolo, ketoconazolo, claritromicina, eritromicina, inibitori delle proteasi HIV)",
+      "effect": "Aumento delle concentrazioni del calcioantagonista con ipotensione/edema",
+      "management": "Evitare o ridurre la dose e monitorare"
+    },
+    {
+      "severity": "major",
+      "agent": "Induttori del CYP3A4 (rifampicina, carbamazepina, fenitoina, fenobarbital, erba di San Giovanni)",
+      "effect": "Riduzione dell'efficacia del calcioantagonista",
+      "management": "Evitare l'associazione o adeguare la dose"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Succo di pompelmo",
+      "effect": "Aumento dei livelli plasmatici (effetto di classe delle diidropiridine)",
+      "management": "Evitare il succo di pompelmo"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Altri antipertensivi, nitrati, alfa-bloccanti",
+      "effect": "Potenziamento dell'effetto ipotensivo",
+      "management": "Monitorare la pressione"
+    }
+  ]
+}

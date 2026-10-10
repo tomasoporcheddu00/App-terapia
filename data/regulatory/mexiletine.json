@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "mexiletine",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Mexiletina - Banca Dati AIFA: come Namuscla (miotonia) RRL specialistica; come antiaritmico (Mexitil) disponibilita' da confermare.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/namuscla/",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Disponibilita' come antiaritmico (Mexitil) da confermare; Namuscla (miotonia) RRL specialistica."
+  },
+  "drugId": "mexiletine",
+  "authorisation": "Nazionale (AIFA)",
+  "marketed": true,
+  "reimbursementClass": "A (Namuscla)",
+  "supplyRegime": "RRL (ricetta ripetibile limitativa)",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Specialistica (Namuscla)",
+  "law648_1996": false,
+  "prescriberRestrictions": "Namuscla: prescrizione di centri ospedalieri/specialisti; valutazione cardiologica."
+}

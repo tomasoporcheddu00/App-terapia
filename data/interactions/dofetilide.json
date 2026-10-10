@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "dofetilide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Dofetilide (Tikosyn) - label FDA/UpToDate/Cleveland Clinic: classe III puro (IKr), conversione/mantenimento nella FA/flutter, sicuro in scompenso/post-IM; inizio ospedaliero >=72h per torsione di punta; non disponibile in Europa.",
+        "url": "https://www.ccjm.org/content/ccjom/68/4/353.full.pdf",
+        "identifier": "Dofetilide label",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "dofetilide",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Cimetidina, ketoconazolo, verapamil, trimetoprim-sulfametossazolo, proclorperazina, idroclorotiazide",
+      "effect": "Aumento dei livelli di dofetilide con rischio di torsione di punta",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "contraindicated",
+      "agent": "Altri farmaci che prolungano il QT",
+      "effect": "Torsione di punta",
+      "management": "Associazione controindicata"
+    }
+  ]
+}

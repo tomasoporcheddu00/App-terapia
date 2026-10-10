@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "id": "ambrisentan",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Ambrisentan (Volibris) - RCP EMA/AIFA: antagonista selettivo ETA; PAH classe II-III, anche in combinazione con tadalafil; teratogeno, edema, anemia; controindicato nella fibrosi polmonare idiopatica.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/EPAR/volibris",
+        "identifier": "Volibris RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Ambrisentan (Volibris) - monografie/RCP: emivita terminale ~15 ore, glucuronidazione epatica, monosomministrazione giornaliera.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4815360/table/T1",
+        "identifier": "Monografia - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Farmaci specialistici per l'ipertensione polmonare: prescrizione da centri esperti (piano terapeutico/registro AIFA).",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Ambrisentan",
+    "inn": "ambrisentan",
+    "brandExamplesIt": [
+      "Volibris"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antagonista selettivo del recettore dell'endotelina A (ETA)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "era"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antagonista selettivo del recettore dell'endotelina A (ETA), a monosomministrazione giornaliera; meno epatotossico del bosentan.",
+    "mainUses": [
+      "Ipertensione arteriosa polmonare (PAH) classe II-III, mono o in combinazione (es. con tadalafil)"
+    ],
+    "mainRisks": [
+      "Edema periferico/ritenzione idrica",
+      "Anemia",
+      "Teratogenicita'"
+    ],
+    "essentialMonitoring": [
+      "Emocromo (emoglobina)",
+      "Test di gravidanza",
+      "Peso/edemi; transaminasi (secondo giudizio)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento dell'ipertensione arteriosa polmonare (PAH, gruppo 1) in classe funzionale OMS II e III, incluso il trattamento in combinazione; efficacia nella PAH idiopatica/ereditaria e associata a malattia del tessuto connettivo (anche in eta' pediatrica 8-18 anni)"
+    ],
+    "guidelineIndications": [
+      "ERA selettivo con il vantaggio della monosomministrazione; l'associazione con tadalafil (AMBITION) e' una strategia di combinazione iniziale - confermare su ESC/ERS"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' (o alla soia)",
+      "Gravidanza",
+      "Donne in eta' fertile che non usano un metodo contraccettivo efficace",
+      "Allattamento",
+      "Compromissione epatica severa (con o senza cirrosi)",
+      "Valori basali di transaminasi (AST/ALT) >3x il limite superiore della norma",
+      "Fibrosi polmonare idiopatica (IPF), con o senza ipertensione polmonare secondaria"
+    ],
+    "warnings": [
+      "Teratogeno: controindicato in gravidanza; programma di prevenzione della gravidanza con contraccezione affidabile nelle donne in eta' fertile.",
+      "Ritenzione idrica/edema periferico (comune): puo' richiedere un intervento; in caso di edema polmonare acuto considerare una malattia veno-occlusiva polmonare e sospendere",
+      "Riduzione dell'emoglobina/anemia: controllare l'emocromo prima e durante",
+      "Epatotossicita'/epatite autoimmune (meno frequente del bosentan): monitorare le transaminasi",
+      "Non usare nella fibrosi polmonare idiopatica"
+    ],
+    "adverseEffects": [
+      "Edema periferico, ritenzione idrica",
+      "Cefalea",
+      "Anemia",
+      "Congestione nasale, vampate",
+      "Palpitazioni"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione e cefalea; supporto e monitoraggio.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico.",
+      "hepatic": "Controindicato nella grave; cautela.",
+      "elderly": "Utilizzabile.",
+      "pregnancy": "Controindicato (teratogeno).",
+      "breastfeeding": "Controindicato."
+    },
+    "alternativeDrugIds": [
+      "bosentan",
+      "macitentan",
+      "tadalafil"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Blocca in modo selettivo un solo tipo di recettore dell'endotelina; basta una compressa al giorno ed e' un po' piu' 'gentile' col fegato del bosentan, ma trattiene liquidi.",
+    "clinicalExplanation": "Antagonista selettivo del recettore ETA dell'endotelina-1: vasodilatazione polmonare. Monosomministrazione; profilo epatico piu' favorevole del bosentan, ma edema/anemia e teratogenicita'. Controindicato nella fibrosi polmonare idiopatica.",
+    "molecularExplanation": "Antagonizza selettivamente il recettore dell'endotelina di tipo A (ETA).",
+    "pharmacodynamics": "Vasodilatazione polmonare con riduzione delle resistenze vascolari polmonari.",
+    "molecularTarget": "Recettore dell'endotelina ETA",
+    "agonismAntagonism": "Antagonismo selettivo ETA",
+    "pharmacokinetics": {
+      "route": "Orale (monosomministrazione)",
+      "metabolism": "Glucuronidazione/CYP; poche interazioni CYP",
+      "halfLife": "~15 ore (emivita terminale; emivita effettiva di accumulo ~9 ore), che consente la monosomministrazione giornaliera; metabolismo prevalente per glucuronidazione, eliminazione biliare"
+    },
+    "bibliography": []
+  }
+}

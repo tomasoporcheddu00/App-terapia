@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "ranolazine",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Banca Dati AIFA - ranolazina (Ranexa): classe A (PHT), ricetta limitativa con diagnosi e piano terapeutico.",
+        "url": "https://www.ema.europa.eu/it/documents/product-information/ranexa-epar-product-information_it.pdf",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Classe A (PHT) con diagnosi e piano terapeutico; confermare su prontuario AIFA aggiornato."
+  },
+  "drugId": "ranolazine",
+  "authorisation": "Nazionale (AIFA)",
+  "marketed": true,
+  "reimbursementClass": "A (PHT)",
+  "supplyRegime": "RRL (ricetta ripetibile limitativa)",
+  "aifaNote": null,
+  "therapeuticPlan": true,
+  "distribution": "Continuita' Ospedale-Territorio (PHT)",
+  "law648_1996": false,
+  "prescriberRestrictions": "Diagnosi e piano terapeutico; prescrizione specialistica."
+}

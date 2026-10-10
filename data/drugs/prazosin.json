@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Prazosina (Minipress) - RCP/monografie (AccessMedicina/label Minipress): alfa-1 bloccante selettivo, ipertensione; fenomeno della prima dose (sincope); emivita breve.",
+        "url": "https://accessmedicina.mhmedical.com/data/accessmedicina/vidal/FT_C02CA01.html",
+        "identifier": "Prazosina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false,
+    "id": "prazosin"
+  },
+  "name": {
+    "generic": "prazosina",
+    "inn": "prazosina",
+    "brandExamplesIt": [
+      "Minipress"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Alfa-bloccante (antagonista alfa-1 selettivo)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "alpha-blockers"
+  ],
+  "quickSummary": {
+    "whatItIs": "Capostipite degli alfa-1 bloccanti selettivi: dilata i vasi riducendo le resistenze; ha una durata d'azione breve e un marcato 'effetto prima dose' (possibile svenimento all'inizio).",
+    "mainUses": [
+      "Ipertensione arteriosa (seconda linea, in associazione)",
+      "Iperplasia prostatica benigna",
+      "Fenomeno di Raynaud (uso selezionato)"
+    ],
+    "mainRisks": [
+      "Sincope da prima dose",
+      "Ipotensione ortostatica",
+      "Ritenzione idrica"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa (posturale)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipertensione arteriosa (in monoterapia o, piu' spesso, in associazione ad altri antipertensivi)",
+      "Trattamento sintomatico dell'iperplasia prostatica benigna"
+    ],
+    "guidelineIndications": [
+      "Alfa-bloccante di seconda linea; l'emivita breve richiede piu' somministrazioni al giorno; utile in alcune condizioni (Raynaud, incubi post-traumatici - uso off-label) - confermare su fonte"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alla prazosina o alle chinazoline"
+    ],
+    "warnings": [
+      "Fenomeno della prima dose: sincope/ipotensione posturale (~1% con dose iniziale >=2 mg): iniziare con 0,5 mg alla sera",
+      "Ipotensione ortostatica (informare il paziente su come gestirla)",
+      "Emivita breve (2-3 ore): richiede piu' somministrazioni al giorno",
+      "Sindrome dell'iride a bandiera nella chirurgia della cataratta",
+      "Cautela con gli inibitori della PDE5 (ipotensione additiva); ritenzione idrica (puo' servire un diuretico)",
+      "Insufficienza renale: iniziare con 0,5 mg"
+    ],
+    "adverseEffects": [
+      "Sincope da prima dose",
+      "Capogiro, cefalea",
+      "Ipotensione ortostatica, palpitazioni",
+      "Astenia, nausea",
+      "Ritenzione idrica/edema",
+      "Priapismo (raro)"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione marcata; posizione supina, fluidi ed eventuali vasopressori.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Iniziare con 0,5 mg (cautela).",
+      "hepatic": "Cautela.",
+      "elderly": "Iniziare a dose bassa (rischio ortostatico).",
+      "pregnancy": "Solo se necessario.",
+      "breastfeeding": "Cautela."
+    },
+    "alternativeDrugIds": [
+      "doxazosin",
+      "urapidil",
+      "amlodipine"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Il 'progenitore' degli alfa-bloccanti: dilata i vasi e abbassa la pressione, ma la prima dose puo' far svenire, quindi si comincia con pochissimo, alla sera.",
+    "clinicalExplanation": "Antagonista selettivo alfa-1 (circa mille volte piu' attivo su alfa-1 che alfa-2): riduce le resistenze periferiche senza tachicardia riflessa marcata. Emivita breve (2-3 ore) e marcato effetto prima dose.",
+    "molecularExplanation": "Blocca selettivamente i recettori alfa-1 adrenergici della muscolatura liscia vascolare.",
+    "pharmacodynamics": "Riduzione delle resistenze vascolari periferiche (arteriose e venose) e della pressione.",
+    "molecularTarget": "Recettori alfa-1 adrenergici",
+    "agonismAntagonism": "Antagonismo alfa-1 selettivo",
+    "pharmacokinetics": {
+      "route": "Orale",
+      "halfLife": "~2-3 ore",
+      "bioavailability": "~60%",
+      "metabolism": "Epatico"
+    },
+    "bibliography": []
+  }
+}

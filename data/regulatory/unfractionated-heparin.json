@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "id": "unfractionated-heparin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": "Curatore clinico",
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": "2026-07-19",
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Eparina Sodica (piu' titolari) - medicinale iniettabile ad uso prevalentemente ospedaliero.",
+        "url": "https://www.codifa.it/farmaci/n/normoparin-eparina-sodica-eparine",
+        "identifier": "Eparina sodica",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Eparina sodica autorizzata a livello nazionale (piu' specialita'). Prevalente uso ospedaliero. Classe di rimborsabilita', regime di fornitura (es. OSP/uso ospedaliero vs RR per confezioni territoriali) e AIC per titolare/confezione da verificare su banca dati AIFA.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "unfractionated-heparin",
+  "authorisation": "Autorizzata in Italia (piu' specialita' di eparina sodica).",
+  "marketed": true,
+  "reimbursementClass": null,
+  "supplyRegime": "Prevalentemente uso ospedaliero (da confermare per confezione)",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "registry": null,
+  "distribution": null,
+  "law648_1996": false,
+  "prescriberRestrictions": null,
+  "availableFormulations": [
+    "soluzione iniettabile/per infusione a vari titoli (UI/mL)"
+  ],
+  "verificationDate": "2026-07-18"
+}

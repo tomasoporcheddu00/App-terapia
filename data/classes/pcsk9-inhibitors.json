@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "id": "pcsk9-inhibitors",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Inibitori di PCSK9 (anticorpi e siRNA): sintesi da RCP EMA/AIFA.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/repatha-siringa-preriempita/",
+        "identifier": "PCSK9 classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP EMA/AIFA; prescrivibilita' (piani terapeutici/registri AIFA) da confermare sul portale AIFA aggiornato."
+  },
+  "name": "Inibitori di PCSK9",
+  "atcGroup": "C10AX (anti-PCSK9)",
+  "memberDrugIds": [
+    "evolocumab",
+    "alirocumab",
+    "inclisiran"
+  ],
+  "mechanismSummary": "Inibizione della PCSK9: impedendo la degradazione dei recettori delle LDL (anticorpi monoclonali) o spegnendone la sintesi epatica (siRNA), aumenta il riciclo dei recettori LDL e la rimozione delle LDL dal circolo, con riduzione dell'LDL-C ~50-60%.",
+  "molecularTarget": "PCSK9 (proteina o suo mRNA)",
+  "pharmacodynamics": "Marcata riduzione dell'LDL-C in aggiunta alle statine; riduzione degli eventi cardiovascolari (anticorpi monoclonali).",
+  "classEffects": [
+    "Riduzione potente dell'LDL-C additiva alle statine",
+    "Opzione nell'intolleranza alle statine e nell'ipercolesterolemia familiare",
+    "Riduzione degli eventi in prevenzione secondaria (evolocumab FOURIER, alirocumab ODYSSEY OUTCOMES)"
+  ],
+  "sharedContraindications": [
+    "Ipersensibilita'"
+  ],
+  "sharedAdverseEffects": [
+    "Reazioni nel sito di iniezione",
+    "Sintomi delle vie respiratorie superiori (anticorpi)"
+  ],
+  "monitoring": [
+    "Profilo lipidico",
+    "Tollerabilita' locale"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "La classe comprende due meccanismi: gli anticorpi monoclonali evolocumab e alirocumab (iniezione ogni 2 settimane o mensile, con dati di riduzione degli eventi) e l'inclisiran, un siRNA a somministrazione semestrale che ne spegne la sintesi epatica (effetto sugli eventi non ancora determinato). Tutti sono ipolipemizzanti iniettabili di secondo livello, con prescrizione specialistica e piano terapeutico AIFA. Dettagli nelle singole schede."
+}

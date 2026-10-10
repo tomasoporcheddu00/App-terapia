@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "id": "naloxone__opioid-reversal__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Naloxone cloridrato - RCP AIFA (Codifa/Mediately/Torrinomedica) + Centro Antidoti (antidoti.ospfe.it): antidoto delle intossicazioni acute da oppioidi; 0,4-2 mg EV ripetibili ogni 2-3 min; durata ~45 min (rischio di risedazione).",
+        "url": "https://www.codifa.it/farmaci/n/naloxone-cloridrato-salf-naloxone-cloridrato-antidoti",
+        "identifier": "Naloxone RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EMA-AIFA; smpcVerified=false. Sedazione: titolare sulla risposta clinica e sui protocolli locali."
+  },
+  "drugId": "naloxone",
+  "indication": "antidote",
+  "scenario": "Intossicazione acuta da oppioidi / depressione respiratoria",
+  "route": "endovenosa",
+  "dose": {
+    "adult-emergency": "dose iniziale 0,4-2 mg EV; ripetere a intervalli di 2-3 minuti se non migliora la funzione respiratoria",
+    "titration": "per antagonismo graduale (paziente in terapia con oppioidi): incrementi di 0,1-0,2 mg EV ogni 2-3 minuti",
+    "repeat": "puo' essere necessario ripetere entro 1-2 ore; considerare l'infusione continua con oppioidi a lunga durata",
+    "children": "0,01 mg/kg EV/IM/SC, ripetibile (fino a 0,1 mg/kg se risposta insufficiente)",
+    "no-response": "mancato miglioramento dopo 10 mg complessivi: rivalutare la diagnosi"
+  },
+  "administration": {
+    "notes": "EV preferita in emergenza (IM/SC se non praticabile). Diluibile in fisiologica o glucosata 5%. Sorveglianza prolungata e ospedalizzazione per il rischio di risedazione."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

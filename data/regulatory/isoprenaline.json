@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "isoprenaline",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Banca Dati AIFA - isoprenalina (Isoprenalina Monico/Isonly): farmaco d'urgenza, uso ospedaliero.",
+        "url": "https://www.codifa.it/farmaci/i/isoprenalina-cloridrato-monico-isoprenalina-cloridrato-inotropi-simpaticomimetici",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Farmaco d'urgenza; disponibilita' soggetta a fornitura. Confermare."
+  },
+  "drugId": "isoprenaline",
+  "authorisation": "Nazionale (AIFA)",
+  "marketed": true,
+  "reimbursementClass": "C",
+  "supplyRegime": "RR / uso ospedaliero (urgenza)",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Ospedaliera",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

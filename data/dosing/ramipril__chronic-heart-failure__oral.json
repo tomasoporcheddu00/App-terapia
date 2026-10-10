@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "ramipril__chronic-heart-failure__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Schede posologiche ramipril (my-personaltrainer, equivalente.it/Egualia su base Banca Dati AIFA): titolazione e dosi per indicazione.",
+        "url": "https://www.my-personaltrainer.it/Foglietti-illustrativi/Ramipril_-_Farmaco_Generico.html",
+        "identifier": "Ramipril posologia",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Ramipril - Riassunto delle Caratteristiche del Prodotto / Foglio Illustrativo (rese da portali su base RCP AIFA): controindicazioni (§4.3), avvertenze (§4.4) e interazioni (§4.5).",
+        "url": "https://www.codifa.it/farmaci/r/ramipril-git-ramipril-ace-inibitori",
+        "identifier": "Ramipril RCP §4.3-4.5",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false perche' non verificata contro l'RCP ufficiale integrale. Da confermare e approvare dal revisore."
+  },
+  "drugId": "ramipril",
+  "indication": "chronic-heart-failure",
+  "scenario": "Insufficienza cardiaca sintomatica",
+  "route": "orale",
+  "dose": {
+    "initial": "1,25 mg una volta al giorno",
+    "titration": "raddoppio della dose ogni 1-2 settimane secondo tollerabilita'",
+    "maintenance": "fino a 10 mg al giorno, preferibilmente in due somministrazioni",
+    "max": "10 mg al giorno"
+  },
+  "administration": {
+    "notes": "Avvio a dose bassa con monitoraggio di pressione, potassio e funzione renale a ogni step di titolazione."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

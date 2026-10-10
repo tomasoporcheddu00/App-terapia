@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "id": "dabigatran",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": "Curatore clinico",
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": "2026-07-19",
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "AIFA - Nota 97 (Determina DG 1034/2020): NAO/DOAC (incl. dabigatran) nella FANV.",
+        "url": "https://www.aifa.gov.it/en/-/adozione-definitiva-della-nota-97-su-terapia-anticoagulante-nei-pazienti-con-fanv",
+        "identifier": "Nota 97",
+        "retrievedAt": "2026-07-18"
+      },
+      {
+        "type": "other",
+        "citation": "AIFA - Aggiornamento Nota 97 in vigore dal 9 luglio 2026 (abrogazione scheda NVAF).",
+        "url": "https://www.aifa.gov.it/-/aggiornamenti-delle-note-aifa-39-74-97-e-99-in-vigore-dal-9-luglio-2026",
+        "identifier": "Aggiornamento Nota 97 (09/07/2026)",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Dabigatran (Pradaxa) autorizzato EMA (procedura centralizzata). FANV in Nota 97; scheda abrogata dal 09/07/2026. Classe/regime per confezione e AIC da verificare su banca dati AIFA.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "dabigatran",
+  "authorisation": "Autorizzato dall'EMA con procedura centralizzata (Pradaxa).",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RR per la FANV (Nota 97; ex RRL); altre indicazioni da verificare.",
+  "aifaNote": "Nota 97 (per l'indicazione FANV)",
+  "therapeuticPlan": false,
+  "registry": null,
+  "distribution": null,
+  "law648_1996": false,
+  "prescriberRestrictions": "FANV secondo Nota 97; scheda di valutazione/prescrizione abrogata dal 9 luglio 2026.",
+  "availableFormulations": [
+    "capsule 110 mg",
+    "capsule 150 mg"
+  ],
+  "verificationDate": "2026-07-18"
+}

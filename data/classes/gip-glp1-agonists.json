@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "id": "gip-glp1-agonists",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Mounjaro (tirzepatide) - RCP EMA (registro comunitario EC, allegato IT; Torrinomedica/Codifa/Mediately): indicazioni diabete e controllo del peso, posologia 2,5 mg con incrementi di 2,5 mg ogni 4 settimane fino a 15 mg, rallentamento dello svuotamento gastrico.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2022/20220915156773/anx_156773_it.pdf",
+        "identifier": "Mounjaro RCP EMA",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "SUMMIT - tirzepatide nello scompenso a frazione d'eiezione preservata associato a obesita'.",
+        "url": "https://www.jacc.org/doi/10.1016/j.jacc.2024.11.001",
+        "identifier": "SUMMIT",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Pagina di classe da RCP EMA e studio SUMMIT."
+  },
+  "name": "Doppi agonisti GIP/GLP-1",
+  "atcGroup": "A10BX - Altri ipoglicemizzanti",
+  "memberDrugIds": [
+    "tirzepatide"
+  ],
+  "mechanismSummary": "Agonismo combinato dei recettori del GIP e del GLP-1, con effetto additivo sulla secrezione insulinica glucosio-dipendente, sulla sazieta' e sul metabolismo del tessuto adiposo.",
+  "molecularTarget": "Recettori GIP e GLP-1",
+  "pharmacodynamics": "Riduzioni di HbA1c e peso corporeo superiori a quelle dei soli agonisti del GLP-1 alle dosi studiate.",
+  "classEffects": [
+    "Nello scompenso a frazione d'eiezione preservata associato a obesita' la tirzepatide ha ridotto del 38% morte ed eventi di peggioramento (SUMMIT)",
+    "Effetti gastrointestinali dose-dipendenti con necessita' di titolazione a partire da una dose non terapeutica",
+    "Rallentamento dello svuotamento gastrico piu' pronunciato all'inizio del trattamento"
+  ],
+  "sharedContraindications": [
+    "Ipersensibilita' al principio attivo",
+    "Associazione con agonisti del recettore del GLP-1"
+  ],
+  "sharedAdverseEffects": [
+    "Nausea, vomito, diarrea, stipsi",
+    "Riduzione dell'appetito",
+    "Colelitiasi",
+    "Ipoglicemia in associazione a insulina o sulfaniluree"
+  ],
+  "monitoring": [
+    "Tollerabilita' gastrointestinale a ogni incremento di 2,5 mg",
+    "Assorbimento dei farmaci orali a stretto indice terapeutico nelle prime settimane",
+    "Quadro oculare nel diabetico con retinopatia"
+  ],
+  "reversal": "Nessun antidoto: sospensione, idratazione e terapia di supporto.",
+  "notesOnClassVsMolecule": "Classe con un'unica molecola disponibile (tirzepatide). In Italia il regime prescrittivo e la rimborsabilita' differiscono tra l'indicazione diabete e quella per il controllo del peso: verificare prima di prescrivere."
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Pagina non trovata — CardioTherapy Atlas</title>
+<style>
+  :root{color-scheme:light only}
+  body{margin:0;min-height:100vh;display:grid;place-items:center;background:#fff;color:#111A24;
+       font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+  .c{max-width:420px;padding:32px;text-align:center}
+  h1{font-size:20px;margin:0 0 10px}
+  p{color:#566575;font-size:14px;line-height:1.5;margin:0 0 20px}
+  a{display:inline-block;background:#0B6570;color:#fff;text-decoration:none;border-radius:10px;
+    padding:10px 18px;font-size:14px;font-weight:600}
+</style>
+</head>
+<body>
+<div class="c">
+  <h1>Pagina non trovata</h1>
+  <p>L'indirizzo non corrisponde ad alcuna pagina. Stai per essere reindirizzato all'atlante.</p>
+  <a id="go" href="./">Apri CardioTherapy Atlas</a>
+</div>
+<script>
+  /* Pages serve questa pagina a qualunque profondita': ricavo la radice del sito.
+     Sito di progetto (utente.github.io/repo/...) -> /repo/ ; dominio proprio -> / */
+  (function(){
+    var seg = location.pathname.split('/').filter(Boolean);
+    var base = /\.github\.io$/.test(location.hostname) && seg.length ? '/' + seg[0] + '/' : '/';
+    document.getElementById('go').href = base;
+    setTimeout(function(){ location.replace(base); }, 2500);
+  })();
+</script>
+</body>
+</html>

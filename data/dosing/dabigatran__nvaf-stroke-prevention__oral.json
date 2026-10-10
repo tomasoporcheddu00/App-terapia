@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "id": "dabigatran__nvaf-stroke-prevention__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Pradaxa (dabigatran) sez. 4.2 - posologia FANV e aggiustamenti.",
+        "url": "https://www.cardiorrenal.es/arxius/imatgesbutlleti/Pradaxa_Indicaciones_Posologiavf0206.pdf",
+        "identifier": "Pradaxa posologia",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Dose FANV 150 mg BID standard; 110 mg BID in >=80 anni, con verapamil o alto rischio emorragico. CrCl <30: controindicato. id indicazione da riconciliare col vocabolario del progetto.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "dabigatran",
+  "indication": "nvaf-stroke-prevention",
+  "scenario": "Prevenzione di ictus ed embolia sistemica nella FANV",
+  "route": "oral",
+  "formulation": "capsule",
+  "population": "adult-standard",
+  "dose": {
+    "loading": null,
+    "initial": "150 mg due volte al giorno",
+    "interval": "ogni 12 ore",
+    "maintenance": "150 mg due volte al giorno; 110 mg due volte al giorno in eta' >=80 anni, con verapamil concomitante o ad alto rischio emorragico",
+    "target": null,
+    "max": "300 mg/die",
+    "titration": null,
+    "duration": "A lungo termine",
+    "weightBased": null,
+    "cumulative": null,
+    "renalAdjustment": "CrCl 30-50 mL/min: 150 mg due volte/die (o 110 mg due volte/die se alto rischio emorragico). CrCl <30 mL/min: controindicato.",
+    "hepaticAdjustment": "Controindicato in malattia epatica con impatto atteso sulla sopravvivenza.",
+    "elderly": ">=80 anni: 110 mg due volte/die.",
+    "pregnancy": "Non raccomandato.",
+    "dialysis": "Controindicato (CrCl <30); il dabigatran e' comunque dializzabile in emergenza."
+  },
+  "administration": {
+    "preparation": null,
+    "solvent": null,
+    "concentration": null,
+    "rate": null,
+    "access": null,
+    "notes": "Deglutire le capsule intere con acqua; non aprire (aumenta l'esposizione)."
+  },
+  "monitoring": [
+    "Funzione renale (CrCl)",
+    "Segni di sanguinamento"
+  ],
+  "stoppingCriteria": [
+    "Emorragia (disponibile idarucizumab)",
+    "Chirurgia: sospensione in base a CrCl"
+  ],
+  "approvalEvidence": {
+    "primarySourceVerified": false,
+    "smpcVerified": true,
+    "clinicalReviewDone": true,
+    "verificationDate": "2026-07-18",
+    "reviewer": "Curatore clinico"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "id": "unfractionated-heparin__therapeutic-anticoagulation__intravenous",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Eparina Sodica sez. 4.2 - dose anticoagulante aggiustata sull'aPTT; infusione EV continua preferita.",
+        "url": "https://www.codifa.it/farmaci/e/epsoclar-eparina-sodica-eparine",
+        "identifier": "Eparina sodica posologia",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "La dose terapeutica e' aPTT-guidata e dipende dal protocollo locale (nomogramma peso-basato: bolo EV seguito da infusione, con aggiustamenti sull'aPTT). Valori numerici specifici del nomogramma da RCP/linee guida locali: non inseriti per non inventare.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "unfractionated-heparin",
+  "indication": "therapeutic-anticoagulation",
+  "scenario": "Anticoagulazione terapeutica endovenosa (es. TEV, SCA)",
+  "route": "intravenous",
+  "formulation": "soluzione per infusione",
+  "population": "adult-standard",
+  "dose": {
+    "loading": "Bolo EV iniziale peso-basato secondo protocollo locale",
+    "initial": "Infusione EV continua peso-basata, aggiustata sull'aPTT",
+    "interval": "Infusione continua",
+    "maintenance": "Titolata per mantenere l'aPTT nel range terapeutico (in genere 1,5-2,5 volte il controllo, secondo protocollo)",
+    "target": "aPTT nel range terapeutico definito dal laboratorio/protocollo",
+    "max": null,
+    "titration": "Aggiustamenti seriati in base all'aPTT (nomogramma)",
+    "duration": null,
+    "weightBased": "Si (bolo e infusione tipicamente per kg)",
+    "cumulative": null,
+    "renalAdjustment": "Non eliminazione renale: utilizzabile nell'insufficienza renale grave (a differenza delle EBPM).",
+    "hepaticAdjustment": "Controindicata nelle epatopatie gravi.",
+    "elderly": "Cautela per maggior rischio emorragico.",
+    "pregnancy": "Non attraversa la placenta; utilizzabile secondo indicazione.",
+    "dialysis": "Utilizzata anche per anticoagulazione del circuito di emodialisi."
+  },
+  "administration": {
+    "preparation": "Diluizione secondo protocollo",
+    "solvent": null,
+    "concentration": null,
+    "rate": "Infusione EV continua (preferita)",
+    "access": "Via endovenosa (NON intramuscolare)",
+    "notes": "Preferire l'infusione EV continua all'iniezione intermittente per l'emivita breve; non somministrare IM."
+  },
+  "monitoring": [
+    "aPTT seriato",
+    "Conta piastrinica (HIT)",
+    "Emocromo/segni di sanguinamento"
+  ],
+  "stoppingCriteria": [
+    "Sanguinamento (neutralizzazione con protamina)",
+    "Trombocitopenia indotta da eparina (HIT)"
+  ],
+  "approvalEvidence": {
+    "primarySourceVerified": false,
+    "smpcVerified": true,
+    "clinicalReviewDone": true,
+    "verificationDate": "2026-07-18",
+    "reviewer": "Curatore clinico"
+  }
+}

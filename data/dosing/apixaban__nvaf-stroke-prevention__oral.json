@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "id": "apixaban__nvaf-stroke-prevention__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Riassunto delle Caratteristiche del Prodotto Eliquis (apixaban), sez. 4.2. Revisione testo 04/01/2024 (versione emc/Datapharm).",
+        "url": "https://www.medicines.org.uk/emc/product/2878/smpc",
+        "identifier": "ATC B01AF02",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Regime relativo alla sola indicazione FANV (prevenzione ictus/embolia sistemica). Dose ed aggiustamenti derivati dalla SmPC sez. 4.2. L'id di indicazione 'nvaf-stroke-prevention' e' da riconciliare con il vocabolario controllato del progetto (pathologies/). primarySourceVerified=false perche' non verificato contro il paper del trial ARISTOTLE, ma solo contro la SmPC (smpcVerified=true).",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "apixaban",
+  "indication": "nvaf-stroke-prevention",
+  "scenario": "Prevenzione di ictus ed embolia sistemica nella fibrillazione atriale non valvolare",
+  "route": "oral",
+  "formulation": null,
+  "population": "adult-standard",
+  "dose": {
+    "loading": null,
+    "initial": "5 mg per via orale due volte al giorno",
+    "interval": "ogni 12 ore",
+    "maintenance": "5 mg due volte al giorno; ridurre a 2,5 mg due volte al giorno se presenti almeno 2 dei seguenti: eta' >=80 anni, peso <=60 kg, creatinina sierica >=1,5 mg/dL (133 micromol/L)",
+    "target": null,
+    "max": "10 mg/die",
+    "titration": null,
+    "duration": "A lungo termine",
+    "weightBased": null,
+    "cumulative": null,
+    "renalAdjustment": "CrCl 15-29 mL/min: 2,5 mg due volte/die. Creatinina >=1,5 mg/dL con eta' >=80 anni o peso <=60 kg: 2,5 mg due volte/die. CrCl <15 mL/min o dialisi: non raccomandato (nessuna esperienza clinica).",
+    "hepaticAdjustment": "Controindicato in epatopatia con coagulopatia e rischio emorragico rilevante; non raccomandato in insufficienza epatica severa; cautela in Child-Pugh A/B senza aggiustamento posologico.",
+    "elderly": "Nessun aggiustamento salvo criteri di riduzione (vedi 'maintenance').",
+    "pregnancy": "Preferibile evitare in gravidanza.",
+    "dialysis": "Non raccomandato."
+  },
+  "administration": {
+    "preparation": null,
+    "solvent": null,
+    "concentration": null,
+    "rate": null,
+    "access": null,
+    "notes": "Assumere con o senza cibo, deglutendo con acqua. Per chi non riesce a deglutire, la compressa puo' essere frantumata e sospesa in acqua, glucosata 5% o succo di mela e assunta subito (anche via sondino nasogastrico)."
+  },
+  "monitoring": [
+    "Funzione renale ed epatica",
+    "Segni/sintomi di sanguinamento ed emocromo",
+    "Non richiesto monitoraggio routinario della coagulazione"
+  ],
+  "stoppingCriteria": [
+    "Emorragia severa",
+    "Chirurgia/procedura invasiva elettiva: sospendere almeno 24 h (basso rischio) o almeno 48 h (rischio moderato-alto) prima"
+  ],
+  "approvalEvidence": {
+    "primarySourceVerified": false,
+    "smpcVerified": true,
+    "clinicalReviewDone": true,
+    "verificationDate": "2026-07-18",
+    "reviewer": "Curatore clinico"
+  }
+}

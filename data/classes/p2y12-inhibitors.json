@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "id": "p2y12-inhibitors",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Plavix (clopidogrel), Efient (prasugrel), Brilique (ticagrelor) - sez. 5.1 (inibizione del recettore P2Y12).",
+        "url": "https://www.codifa.it/farmaci/b/brilique-compresse-rivestite-ticagrelor-antiaggreganti-piastrinici",
+        "identifier": "P2Y12",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Schema del file di classe non definito nei template forniti: struttura proposta, da riconciliare con lo schema del progetto (classes/).",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": "Inibitori del recettore P2Y12",
+  "memberDrugIds": [
+    "clopidogrel",
+    "prasugrel",
+    "ticagrelor",
+    "cangrelor"
+  ],
+  "atcGroup": "B01AC",
+  "mechanismSummary": "Bloccano il recettore piastrinico P2Y12 dell'ADP, inibendo l'attivazione del complesso GPIIb/IIIa e l'aggregazione piastrinica. Le tienopiridine (clopidogrel, prasugrel) sono profarmaci a inibizione irreversibile; ticagrelor e' un inibitore diretto e reversibile (non profarmaco).",
+  "molecularTarget": "Recettore piastrinico P2Y12 (ADP)",
+  "pharmacodynamics": "Inibizione dell'aggregazione ADP-mediata; insorgenza ed entita' variabili per molecola (piu' rapide/potenti con prasugrel e ticagrelor rispetto a clopidogrel). Ticagrelor aumenta anche l'adenosina locale (ENT-1).",
+  "classEffects": [
+    "Componenti della doppia antiaggregazione (DAPT) con ASA nella SCA/post-PCI",
+    "Rischio emorragico dose-dipendente",
+    "Sospensione pre-chirurgica (5-7 giorni tienopiridine; >=96 h ticagrelor pre-CABG)"
+  ],
+  "sharedContraindications": [
+    "Sanguinamento patologico in atto",
+    "Compromissione epatica grave (prasugrel, ticagrelor)"
+  ],
+  "sharedAdverseEffects": [
+    "Emorragia",
+    "Dispnea (specifica del ticagrelor)"
+  ],
+  "monitoring": [
+    "Segni di sanguinamento"
+  ],
+  "reversal": "Nessun antidoto specifico approvato; eventuale trasfusione piastrinica (efficacia limitata per ticagrelor per il legame reversibile circolante).",
+  "notesOnClassVsMolecule": "Clopidogrel: profarmaco dipendente dal CYP2C19 (variabilita' genetica). Prasugrel: profarmaco piu' efficiente, controindicato dopo ictus/TIA, cautela in >=75 anni/<60 kg. Ticagrelor: reversibile, non profarmaco, due volte/die, dispnea e bradiaritmie."
+}

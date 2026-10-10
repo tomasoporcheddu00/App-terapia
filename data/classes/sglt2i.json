@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "id": "sglt2i",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "SGLT2-inibitori nello scompenso e nella malattia cardiorenale: sintesi da RCP/EPAR.",
+        "url": "https://www.codifa.it/farmaci/f/forxiga-dapagliflozin-propanediolo-monoidrato-ipoglicemizzanti-orali",
+        "identifier": "SGLT2i classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe SGLT2i sintetizzata da RCP/EPAR; confermare su RCP ufficiali e linee guida ESC."
+  },
+  "name": "Inibitori di SGLT2",
+  "atcGroup": "A10BK (o B01... n/d)",
+  "memberDrugIds": [
+    "dapagliflozin",
+    "empagliflozin"
+  ],
+  "mechanismSummary": "Inibizione del cotrasportatore sodio-glucosio di tipo 2 (SGLT2) nel tubulo renale prossimale: aumento dell'escrezione urinaria di glucosio e sodio, con effetti emodinamici, metabolici e cardiorenali favorevoli.",
+  "molecularTarget": "Cotrasportatore SGLT2 (tubulo prossimale renale)",
+  "pharmacodynamics": "Glicosuria e natriuresi; riduzione di precarico/postcarico e della pressione, effetti anti-rimodellamento e nefroprotettivi indipendenti dal calo glicemico.",
+  "classEffects": [
+    "Riduzione di ospedalizzazioni e mortalita' cardiovascolare nello scompenso (a FE ridotta e preservata)",
+    "Rallentamento della progressione della malattia renale cronica",
+    "Controllo glicemico nel diabete tipo 2"
+  ],
+  "sharedContraindications": [
+    "Diabete mellito di tipo 1 (rischio di chetoacidosi)",
+    "Ipersensibilita'"
+  ],
+  "sharedAdverseEffects": [
+    "Chetoacidosi (anche euglicemica)",
+    "Infezioni genitali/urinarie (raramente gangrena di Fournier)",
+    "Deplezione di volume/ipotensione"
+  ],
+  "monitoring": [
+    "Funzione renale (eGFR)",
+    "Volemia e pressione arteriosa",
+    "Chetoni in caso di sintomi sospetti"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Dapagliflozin ed empagliflozin condividono meccanismo e profilo; entrambi indicati nello scompenso indipendentemente dalla FE, nella CKD e nel T2D. L'empagliflozin puo' arrivare a 25 mg per il solo controllo glicemico. Il beneficio cardiorenale e' indipendente dall'effetto ipoglicemizzante. Dettagli nelle singole schede."
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "id": "sgc-stimulators",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Stimolatori della guanilato ciclasi solubile: sintesi da RCP/EPAR vericiguat.",
+        "url": "https://mediately.co/it/drugs/7c1YbrtSteLbFYGsKPMVAi7G4MS/verquvo-14-cpr-riv-2-5-mg",
+        "identifier": "sGC classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe sGC sintetizzata da RCP/EPAR; il riociguat (PAH) resta placeholder. Confermare su RCP ufficiali e linee guida."
+  },
+  "name": "Stimolatori della guanilato ciclasi solubile",
+  "atcGroup": "C01DX22",
+  "memberDrugIds": [
+    "vericiguat",
+    "riociguat"
+  ],
+  "mechanismSummary": "Stimolazione diretta della guanilato ciclasi solubile (sGC) e aumento della sua sensibilita' all'ossido nitrico endogeno: incremento del cGMP con vasodilatazione.",
+  "molecularTarget": "Guanilato ciclasi solubile (sGC)",
+  "pharmacodynamics": "Aumento del cGMP con vasodilatazione arteriosa e venosa e riduzione dello stress di parete.",
+  "classEffects": [
+    "Riduzione di ospedalizzazioni/mortalita' cardiovascolare nello scompenso a FE ridotta dopo riacutizzazione (vericiguat)"
+  ],
+  "sharedContraindications": [
+    "Associazione con altri stimolatori della sGC",
+    "(Vericiguat) gravidanza; (riociguat) inibitori della PDE5 e nitrati",
+    "Ipersensibilita'"
+  ],
+  "sharedAdverseEffects": [
+    "Ipotensione",
+    "Sincope",
+    "(Vericiguat) anemia"
+  ],
+  "monitoring": [
+    "Pressione arteriosa",
+    "(Vericiguat) emoglobina"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Due molecole con lo stesso meccanismo ma indicazioni diverse: il vericiguat e' indicato nello scompenso cardiaco cronico con frazione di eiezione ridotta; il riociguat e' indicato nell'ipertensione polmonare (PAH e CTEPH) ed e' l'unico farmaco approvato nella CTEPH inoperabile/persistente. I due non vanno associati tra loro; il riociguat, in particolare, e' controindicato con i PDE5-inibitori e con i nitrati (via NO-cGMP condivisa). Dettagli nelle singole schede."
+}

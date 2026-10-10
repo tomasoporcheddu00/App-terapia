@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "id": "dopamine",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Dopamina - RCP (Codifa/Mediately/Torrinomedica su base AIFA): agonista dopaminergico/adrenergico dose-dipendente; shock di varia natura; 5-15 mcg/kg/min; controindicata in feocromocitoma/ipertiroidismo/tachiaritmie/FV.",
+        "url": "https://mediately.co/it/drugs/TGZjSnnN7bsPkRoZgSai54tdMNu/dopamina-pfizer-200-mg-5-ml-concentrato-per-soluzione-per-infusione",
+        "identifier": "Dopamina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "dopamine",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "IMAO",
+      "effect": "Potenziamento e prolungamento marcato dell'effetto (crisi ipertensiva)",
+      "management": "Ridurre la dose (fino a ~1/10) / evitare"
+    },
+    {
+      "severity": "major",
+      "agent": "Anestetici alogenati / ciclopropano",
+      "effect": "Aritmie ventricolari",
+      "management": "Evitare"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Fenitoina",
+      "effect": "Ipotensione e bradicardia",
+      "management": "Cautela"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Alfa e beta-bloccanti",
+      "effect": "Alterazione della risposta emodinamica",
+      "management": "Monitorare"
+    }
+  ]
+}

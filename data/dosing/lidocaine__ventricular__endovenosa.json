@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "lidocaine__ventricular__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Lidocaina - RCP (Torrinomedica/Starbene/Pharmamedix su base AIFA): classe Ib EV, aritmie ventricolari nell'IMA/procedure, tossicita' SNC.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/lidocaina_cloridrato_bioindustria_lim/",
+        "identifier": "Lidocaina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Antiaritmico a indice terapeutico stretto: confermare dose, funzione renale/epatica e QT."
+  },
+  "drugId": "lidocaine",
+  "indication": "ventricular-tachycardia",
+  "scenario": "Aritmie ventricolari (endovena)",
+  "route": "endovenosa",
+  "dose": {
+    "bolus": "50-100 mg (0,7-1,4 mg/kg) EV a 25-50 mg/min, ripetibile dopo 5-10 minuti (non oltre 200-300 mg/ora)",
+    "acls": "nell'arresto FV/TV: 1-1,5 mg/kg in bolo, ripetibile 0,5-0,75 mg/kg ogni 5-10 minuti (max 3 mg/kg)",
+    "maintenance": "infusione 1-4 mg/min (0,01-0,05 mg/kg/min); ridurre nell'anziano/epatopatia; raramente oltre 24 ore"
+  },
+  "administration": {
+    "notes": "Bolo EV lento sotto monitoraggio ECG, seguito da infusione. Passare a un antiaritmico orale appena possibile."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

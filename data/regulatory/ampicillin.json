@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "ampicillin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "AIFA - ampicillina sodica: medicinale per uso ospedaliero endovenoso.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Impiego ospedaliero; nell'endocardite la gestione e' dell'Endocarditis Team."
+  },
+  "drugId": "ampicillin",
+  "authorisation": "EMA/Nazionale",
+  "marketed": true,
+  "reimbursementClass": "H",
+  "supplyRegime": "OSP - uso ospedaliero",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Ospedale",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

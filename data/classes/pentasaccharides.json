@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "id": "pentasaccharides",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Pentasaccaridi: sintesi da RCP EMA/AIFA.",
+        "url": "https://www.univadis.it/references/drug-database/viewdrug/arixtra-70760",
+        "identifier": "Pentasaccaridi classe",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP/EMA; confermare su RCP ufficiali."
+  },
+  "name": "Pentasaccaridi (inibitori indiretti del fattore Xa)",
+  "atcGroup": "B01AX05 (antitrombotici)",
+  "memberDrugIds": [
+    "fondaparinux"
+  ],
+  "mechanismSummary": "Pentasaccaridi sintetici che si legano all'antitrombina potenziandone selettivamente l'inibizione del fattore Xa, senza azione sulla trombina. Dose fissa sottocutanea una volta al giorno, senza monitoraggio di routine.",
+  "molecularTarget": "Fattore Xa (via antitrombina)",
+  "pharmacodynamics": "Inibizione selettiva e prevedibile del fattore Xa; nessun effetto sulla trombina gia' formata e rischio trascurabile di trombocitopenia da eparina.",
+  "classEffects": [
+    "Anticoagulazione a dose fissa monogiornaliera senza monitoraggio",
+    "Rischio di HIT trascurabile rispetto alle eparine",
+    "Eliminazione renale: accumulo e controindicazione nell'insufficienza renale severa",
+    "Nessun antidoto specifico (la protamina non e' efficace)"
+  ],
+  "sharedContraindications": [
+    "Sanguinamento in atto clinicamente significativo, endocardite batterica acuta, compromissione renale severa"
+  ],
+  "sharedAdverseEffects": [
+    "Emorragia",
+    "Anemia",
+    "Rialzo degli enzimi epatici",
+    "Trombocitopenia (rara)"
+  ],
+  "monitoring": [
+    "Funzione renale (clearance della creatinina)",
+    "Segni di sanguinamento ed emoglobina",
+    "Intervalli di sicurezza con anestesia neurassiale"
+  ],
+  "reversal": "Nessun antidoto specifico: la protamina non neutralizza il fondaparinux. In caso di emorragia grave, sospensione e misure di supporto; parziale rimozione con la dialisi.",
+  "notesOnClassVsMolecule": "Il fondaparinux e' l'unico rappresentante disponibile: rispetto alle eparine a basso peso molecolare offre dose fissa, monosomministrazione e rischio di HIT trascurabile, ma non ha antidoto ed e' controindicato nell'insufficienza renale severa. Dosi e dettagli nella scheda del farmaco."
+}

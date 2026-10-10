@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "id": "pioglitazone",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Pioglitazone (anche in associazione con metformina) - RCP (Codifa/Torrinomedica/EMA Competact): controindicazione nello scompenso cardiaco di qualsiasi classe NYHA, ritenzione idrica, carcinoma della vescica, fratture.",
+        "url": "https://www.codifa.it/farmaci/p/pioglitazone-e-metformina-eg-pioglitazone-e-metformina-ipoglicemizzanti-orali",
+        "identifier": "Pioglitazone RCP",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida diabete: pioglitazone non raccomandato nei pazienti con scompenso cardiaco.",
+        "url": "https://academic.oup.com/eurheartj/article/45/15/1298/7513467",
+        "identifier": "ESC 2023 diabete",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Interazioni da RCP. L'associazione con insulina e FANS aumenta il rischio dell'evento avverso piu' rilevante per il cardiologo, cioe' lo scompenso. Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "pioglitazone",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Scompenso cardiaco (condizione, non farmaco) e farmaci che ne peggiorano la congestione",
+      "effect": "Ritenzione idrica che puo' esacerbare o precipitare l'insufficienza cardiaca",
+      "management": "Controindicato nello scompenso in atto o pregresso di qualsiasi classe NYHA"
+    },
+    {
+      "severity": "major",
+      "agent": "Insulina",
+      "effect": "Aumento del rischio di ritenzione idrica e di scompenso cardiaco",
+      "management": "Associazione da valutare con attenzione; sorvegliare peso, edemi e sintomi"
+    },
+    {
+      "severity": "major",
+      "agent": "FANS",
+      "effect": "Effetto additivo sulla ritenzione idrica",
+      "management": "Evitare l'uso prolungato; monitorare peso ed edemi"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Gemfibrozil (inibitore del CYP2C8) e rifampicina (induttore)",
+      "effect": "Aumento o riduzione dell'esposizione al pioglitazone",
+      "management": "Valutare l'aggiustamento della dose secondo RCP"
+    }
+  ]
+}

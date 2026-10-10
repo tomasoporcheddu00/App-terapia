@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "id": "electrolyte-metabolic-agents",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Elettroliti e agenti metabolici d'urgenza: sintesi da RCP/linee guida.",
+        "url": "https://www.msdmanuals.com/it/professionale/malattie-endocrine-e-metaboliche/squilibri-elettrolitici",
+        "identifier": "Elettroliti classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP/linee guida; confermare su RCP ufficiali e protocolli locali."
+  },
+  "name": "Elettroliti e agenti metabolici d'urgenza",
+  "atcGroup": "B05X / V03 / A12 (elettroliti e agenti metabolici)",
+  "memberDrugIds": [
+    "potassium-chloride",
+    "calcium-gluconate",
+    "calcium-chloride",
+    "sodium-bicarbonate",
+    "glucose",
+    "glucagon",
+    "salbutamol",
+    "sodium-zirconium-cyclosilicate"
+  ],
+  "mechanismSummary": "Gruppo eterogeneo di agenti per la correzione d'urgenza degli squilibri elettrolitici e metabolici: sali di calcio (protezione di membrana), reintegro/chelazione del potassio, alcalinizzazione (bicarbonato), glucosio (con insulina) e beta2-agonista per lo shift del potassio, glucagone (ipoglicemia/antidoto).",
+  "molecularTarget": "Ioni ed effettori del potenziale di membrana, dell'equilibrio acido-base e del metabolismo del glucosio/potassio",
+  "pharmacodynamics": "Ripristino dell'omeostasi elettrolitica/metabolica e stabilizzazione cardiaca; nell'iperkaliemia agiscono su piani complementari (protezione, shift, rimozione).",
+  "classEffects": [
+    "Correzione rapida di disionie e ipoglicemia",
+    "Nell'iperkaliemia: protezione cardiaca (calcio), shift (glucosio+insulina, salbutamolo, bicarbonato) e rimozione (chelanti, diuretici, dialisi)",
+    "Rischi di iper-correzione (iperkaliemia iatrogena da KCl, ipercalcemia, alcalosi, iperglicemia)"
+  ],
+  "sharedContraindications": [
+    "Controindicazioni specifiche per agente (es. calcio con digitale/FV; KCl in iperkaliemia; bicarbonato in alcalosi/ipocalcemia; glucagone nel feocromocitoma)"
+  ],
+  "sharedAdverseEffects": [
+    "Reazioni al sito di infusione/necrosi da stravaso (soluzioni ipertoniche)",
+    "Squilibri iatrogeni (iper/ipokaliemia, ipercalcemia, alcalosi, iperglicemia, ipokaliemia da beta2/bicarbonato)",
+    "Effetti cardiaci (aritmie da calcio rapido, tachicardia da salbutamolo)"
+  ],
+  "monitoring": [
+    "Elettrolita bersaglio e correlati (K, Ca, Mg, Na)",
+    "ECG (specie iper/ipokaliemia e calcio)",
+    "Glicemia (glucosio/insulina/glucagone); equilibrio acido-base"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Classe 'strumentale' che raccoglie gli agenti d'urgenza usati nella sezione Disionie. Nell'iperkaliemia i farmaci agiscono su piani diversi e complementari: il calcio (gluconato/cloruro) protegge il cuore senza abbassare il potassio; glucosio+insulina, salbutamolo e (con acidosi) il bicarbonato spostano il potassio nelle cellule; i chelanti (sodio zirconio ciclosilicato) e i diuretici/la dialisi lo rimuovono. Il cloruro di potassio corregge invece l'ipokaliemia (forma EV ad alto rischio). Calcio gluconato e glucagone hanno anche ruolo di antidoto (magnesio/calcioantagonisti il primo; betabloccanti/calcioantagonisti il secondo). Dosi ed dettagli nelle singole schede e nella sezione Disionie."
+}

@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "id": "enoxaparin__dvt-pe-treatment__subcutaneous",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Clexane (enoxaparina) sez. 4.2 - trattamento TVP/EP: 1,5 mg/kg/die oppure 1 mg/kg ogni 12 ore.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/clexane/",
+        "identifier": "Clexane TVP/EP",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Scelta tra monosomministrazione e due volte/die secondo rischio tromboembolico/emorragico. id indicazione da riconciliare col vocabolario.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "enoxaparin",
+  "indication": "dvt-pe-treatment",
+  "scenario": "Trattamento della TVP con o senza EP",
+  "route": "subcutaneous",
+  "formulation": "siringa preriempita",
+  "population": "adult-standard",
+  "dose": {
+    "loading": null,
+    "initial": "1,5 mg/kg SC una volta al giorno, oppure 1 mg/kg SC ogni 12 ore",
+    "interval": "ogni 24 ore o ogni 12 ore",
+    "maintenance": "1,5 mg/kg/die (una volta/die) o 1 mg/kg ogni 12 ore",
+    "target": null,
+    "max": null,
+    "titration": null,
+    "duration": "In genere >=5 giorni e fino ad anticoagulazione orale adeguata",
+    "weightBased": "Si",
+    "cumulative": null,
+    "renalAdjustment": "CrCl 15-30 mL/min: 1 mg/kg SC una volta al giorno. CrCl <15: non raccomandata.",
+    "hepaticAdjustment": "Cautela.",
+    "elderly": "Nessuna riduzione per la sola eta' salvo compromissione renale.",
+    "pregnancy": "Secondo valutazione rischio/beneficio.",
+    "dialysis": "Non raccomandata."
+  },
+  "administration": {
+    "preparation": null,
+    "solvent": null,
+    "concentration": null,
+    "rate": null,
+    "access": "Via sottocutanea (NON IM)",
+    "notes": "Iniezione SC profonda; alternare i lati."
+  },
+  "monitoring": [
+    "Conta piastrinica (HIT)",
+    "Funzione renale",
+    "Anti-Xa in situazioni particolari"
+  ],
+  "stoppingCriteria": [
+    "Sanguinamento",
+    "HIT"
+  ],
+  "approvalEvidence": {
+    "primarySourceVerified": false,
+    "smpcVerified": true,
+    "clinicalReviewDone": true,
+    "verificationDate": "2026-07-18",
+    "reviewer": "Curatore clinico"
+  }
+}

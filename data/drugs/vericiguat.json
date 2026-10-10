@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "id": "vericiguat",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Vericiguat (Verquvo) - RCP/EPAR (EMA, Mediately, SwissPAR): indicazione HFrEF dopo riacutizzazione, titolazione 2,5->10 mg con cibo, controindicazione riociguat/PDE5.",
+        "url": "https://mediately.co/it/drugs/7c1YbrtSteLbFYGsKPMVAi7G4MS/verquvo-14-cpr-riv-2-5-mg",
+        "identifier": "Vericiguat RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA / EPAR EMA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Vericiguat",
+    "inn": "vericiguat",
+    "brandExamplesIt": [
+      "Verquvo"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Stimolatore della guanilato ciclasi solubile (sGC)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "sgc-stimulators"
+  ],
+  "quickSummary": {
+    "whatItIs": "Stimola la guanilato ciclasi solubile aumentando il cGMP (via NO-sGC-cGMP): vasodilatazione e miglioramento della funzione miocardica nello scompenso dopo una riacutizzazione.",
+    "mainUses": [
+      "Scompenso cardiaco cronico sintomatico a FE ridotta, dopo recente riacutizzazione"
+    ],
+    "mainRisks": [
+      "Ipotensione sintomatica",
+      "Anemia",
+      "Sincope"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa",
+      "Emoglobina (anemia)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Scompenso cardiaco cronico sintomatico dell'adulto con frazione d'eiezione ridotta, stabilizzato dopo un recente evento di riacutizzazione che ha richiesto terapia endovenosa (ricovero o diuretici EV ambulatoriali)"
+    ],
+    "guidelineIndications": [
+      "Riduzione di mortalita' cardiovascolare/ospedalizzazioni in pazienti ad alto rischio dopo riacutizzazione (VICTORIA); opzione aggiuntiva alla terapia ottimizzata dell'HFrEF - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Uso concomitante con altri stimolatori della guanilato ciclasi solubile (es. riociguat)",
+      "Gravidanza",
+      "Ipersensibilita'"
+    ],
+    "warnings": [
+      "Ipotensione sintomatica: ottimizzare volemia e diuretici prima dell'avvio; iniziare a 2,5 mg se ipotensione recente",
+      "Evitare l'associazione con inibitori della PDE5 (es. sildenafil) e usare cautela con i nitrati (ipotensione additiva)",
+      "Anemia riportata negli studi",
+      "Assumere con il cibo"
+    ],
+    "adverseEffects": [
+      "Ipotensione",
+      "Sincope",
+      "Anemia",
+      "Capogiro"
+    ],
+    "overdose": "Il sovradosaggio puo' causare ipotensione: trattamento sintomatico e di supporto emodinamico.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Non raccomandato con eGFR <15 o in dialisi (dati insufficienti).",
+      "hepatic": "Non raccomandato nell'insufficienza epatica grave.",
+      "elderly": "Nessun aggiustamento specifico; sorvegliare l'ipotensione.",
+      "pregnancy": "Controindicato.",
+      "breastfeeding": "Non raccomandato."
+    },
+    "alternativeDrugIds": [
+      "dapagliflozin",
+      "sacubitril-valsartan"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Attiva un enzima (guanilato ciclasi) che rilassa i vasi e aiuta il cuore; si usa nello scompenso dopo un peggioramento recente, iniziando a basse dosi per non abbassare troppo la pressione.",
+    "clinicalExplanation": "Stimolatore diretto della sGC (via NO-sGC-cGMP); indicato nell'HFrEF stabilizzato dopo riacutizzazione (VICTORIA). Titolazione guidata da pressione/sintomi fino a 10 mg, con il cibo.",
+    "molecularExplanation": "Stimola direttamente la guanilato ciclasi solubile e ne aumenta la sensibilita' al NO endogeno, incrementando il cGMP.",
+    "pharmacodynamics": "Aumento del cGMP con vasodilatazione e riduzione dello stress di parete; modesto calo pressorio (~1-2 mmHg in add-on).",
+    "molecularTarget": "Guanilato ciclasi solubile (sGC)",
+    "agonismAntagonism": "Stimolatore enzimatico",
+    "pharmacokinetics": {
+      "administration": "Con il cibo (aumenta la biodisponibilita')",
+      "elimination": "Glucuronidazione ed escrezione",
+      "halfLife": "~30 ore"
+    },
+    "bibliography": [
+      "VICTORIA (vericiguat nello scompenso a FE ridotta dopo riacutizzazione) - da citare con fonte primaria"
+    ]
+  }
+}

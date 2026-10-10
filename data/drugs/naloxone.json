@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "id": "naloxone",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Naloxone cloridrato - RCP AIFA (Codifa/Mediately/Torrinomedica) + Centro Antidoti (antidoti.ospfe.it): antidoto delle intossicazioni acute da oppioidi; 0,4-2 mg EV ripetibili ogni 2-3 min; durata ~45 min (rischio di risedazione).",
+        "url": "https://www.codifa.it/farmaci/n/naloxone-cloridrato-salf-naloxone-cloridrato-antidoti",
+        "identifier": "Naloxone RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (EMA/EC, Banca Dati AIFA, portali Mediately/Codifa/Torrinomedica) e da centri antidoti: indicazioni, posologia, controindicazioni, avvertenze, interazioni. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; PK parziale. Stato: revisione fonti (source-review), non ancora approvato. Sedazione e antidoti: dosi da titolare sul singolo paziente e sui protocolli locali. Specifico per gli oppioidi (non agisce su benzodiazepine o altri sedativi). E' anche l'antidoto usato per la depressione respiratoria da oppioidi somministrati in terapia intensiva.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Naloxone",
+    "inn": "naloxone cloridrato",
+    "brandExamplesIt": [
+      "Narcan",
+      "Naloxone cloridrato (varie)"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antagonista competitivo dei recettori oppioidi (antidoto)",
+  "identity": {
+    "atcCodes": [
+      "V03AB15"
+    ]
+  },
+  "classIds": [
+    "sedation-antidotes"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antidoto degli oppioidi: sposta la morfina e gli altri oppiacei dai loro recettori, facendo riprendere il respiro in pochi minuti. Dura pero' meno degli oppioidi, quindi il paziente puo' ricadere in depressione respiratoria e va sorvegliato.",
+    "mainUses": [
+      "Intossicazione acuta da oppioidi/analgesici narcotici (depressione respiratoria, coma, miosi)",
+      "Depressione respiratoria del neonato da esposizione materna a oppioidi prima del parto (formulazione pediatrica)"
+    ],
+    "mainRisks": [
+      "Risedazione quando l'effetto dell'oppioide supera quello del naloxone (durata ~45 minuti)",
+      "Sindrome da astinenza acuta se l'antagonismo e' troppo rapido (agitazione, nausea, vomito, tachicardia, ipertensione)",
+      "Cautela nel cardiopatico (edema polmonare e aritmie descritti)"
+    ],
+    "essentialMonitoring": [
+      "Frequenza respiratoria e saturazione di ossigeno (sorveglianza prolungata)",
+      "Stato di coscienza e diametro pupillare",
+      "Pressione arteriosa e frequenza cardiaca"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Antidoto nel trattamento delle intossicazioni acute da analgesici narcotici (oppioidi)",
+      "Depressione respiratoria del neonato causata da esposizione della madre a sostanze oppioidi prima del parto (formulazione pediatrica)"
+    ],
+    "guidelineIndications": [
+      "Nel paziente in cui si vuole conservare l'analgesia (es. depressione respiratoria iatrogena da oppioidi in terapia intensiva) titolare per incrementi di 0,1-0,2 mg ogni 2-3 minuti, per evitare un antagonismo brusco - RCP",
+      "Se la depressione e' causata da un oppioide a lunga durata d'azione (es. metadone, oppioidi a rilascio prolungato), considerare l'infusione continua per la breve emivita del naloxone - RCP",
+      "Un mancato miglioramento dopo 10 mg complessivi suggerisce che la depressione non sia (solo) da oppioidi - RCP"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti"
+    ],
+    "warnings": [
+      "La durata d'azione del naloxone (circa 45 minuti dopo dose parenterale) e' piu' breve di quella di molti oppioidi: sorvegliare costantemente il paziente e ripetere le somministrazioni o passare all'infusione continua; ospedalizzare sempre dopo il primo intervento",
+      "Un antagonismo troppo rapido o dosi eccessive possono indurre sindrome da astinenza acuta con nausea, vomito, sudorazione, tachicardia, ipertensione, e annullare l'analgesia: titolare per piccoli incrementi nel paziente in terapia con oppioidi",
+      "Cautela nei pazienti cardiopatici o in terapia con farmaci cardiotossici (sono descritti edema polmonare acuto, aritmie ventricolari e arresto cardiaco, soprattutto nel postoperatorio) e in chi ha avuto laringospasmo",
+      "Sconsigliato nei neonati di madri dipendenti da oppioidi: puo' precipitare una sindrome di astinenza con convulsioni; la comparsa d'azione puo' essere ritardata nell'ipoteso o con circolo periferico compromesso"
+    ],
+    "adverseEffects": [
+      "Nausea, vomito, sudorazione",
+      "Tachicardia, ipertensione",
+      "Agitazione, tremori (sindrome da astinenza)",
+      "Edema polmonare acuto e aritmie ventricolari (rari, soprattutto nel postoperatorio o nel cardiopatico)"
+    ],
+    "overdose": "Dosi eccessive causano perdita dell'analgesia e sintomi di astinenza (agitazione, ipertensione, tachicardia): trattamento sintomatico e di supporto; l'effetto si esaurisce in circa 45-60 minuti.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico.",
+      "hepatic": "Nessun aggiustamento specifico (metabolismo epatico).",
+      "elderly": "Cautela nel cardiopatico.",
+      "pregnancy": "Utilizzabile se necessario (valutare l'astinenza fetale).",
+      "breastfeeding": "Utilizzabile."
+    },
+    "alternativeDrugIds": [
+      "flumazenil"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' l'antidoto della morfina e degli altri oppiacei: in due-tre minuti fa riprendere il respiro. Attenzione: dura meno dell'oppiaceo, quindi il paziente puo' 'riaddormentarsi' e va tenuto sotto controllo.",
+    "clinicalExplanation": "Antagonista competitivo puro dei recettori oppioidi (soprattutto mu), privo di attivita' agonista. Effetto in 2-3 minuti per via endovenosa (15 minuti IM/SC) e durata di circa 45 minuti: piu' breve di molti oppioidi, da cui il rischio di risedazione e l'indicazione all'infusione continua nelle intossicazioni da oppioidi a lunga durata. La titolazione per piccoli incrementi evita l'astinenza acuta.",
+    "molecularExplanation": "Compete con gli oppioidi per il legame ai recettori mu (e in misura minore kappa e delta), spiazzandoli e revertendo l'analgesia e la depressione respiratoria.",
+    "pharmacodynamics": "Reversione rapida della depressione respiratoria, della sedazione e dell'analgesia indotte dagli oppioidi.",
+    "molecularTarget": "Recettori oppioidi (soprattutto mu)",
+    "agonismAntagonism": "Antagonismo competitivo puro",
+    "pharmacokinetics": {
+      "route": "Endovenosa (preferita in emergenza), intramuscolare, sottocutanea",
+      "halfLife": "~60-90 minuti; durata d'azione clinica ~45 minuti",
+      "note": "Esordio EV 2-3 minuti; IM/SC ~15 minuti"
+    },
+    "bibliography": []
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "naloxone",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Naloxone cloridrato - RCP AIFA (Codifa/Mediately/Torrinomedica) + Centro Antidoti (antidoti.ospfe.it): antidoto delle intossicazioni acute da oppioidi; 0,4-2 mg EV ripetibili ogni 2-3 min; durata ~45 min (rischio di risedazione).",
+        "url": "https://www.codifa.it/farmaci/n/naloxone-cloridrato-salf-naloxone-cloridrato-antidoti",
+        "identifier": "Naloxone RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "naloxone",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Oppioidi (morfina, fentanil, metadone, ossicodone)",
+      "effect": "Antagonismo dell'effetto analgesico e della depressione respiratoria (e' l'antidoto); rischio di astinenza acuta",
+      "management": "Atteso; titolare per piccoli incrementi se si vuole conservare l'analgesia"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Farmaci cardiotossici",
+      "effect": "Aumentato rischio di aritmie/edema polmonare in associazione all'attivazione simpatica da astinenza",
+      "management": "Cautela nel cardiopatico; monitoraggio ECG"
+    }
+  ]
+}

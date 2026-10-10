@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "id": "dulaglutide",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Dulaglutide (Trulicity) - RCP e schemi posologici: 0,75 mg una volta a settimana come dose iniziale, mantenimento 0,75-4,5 mg una volta a settimana.",
+        "url": "https://www.straighthealthcare.com/glp-1-analog-dosing.html",
+        "identifier": "Trulicity RCP/schemi",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida diabete: dulaglutide tra i GLP-1 agonisti con beneficio cardiovascolare dimostrato.",
+        "url": "https://academic.oup.com/eurheartj/article/45/15/1298/7513467",
+        "identifier": "ESC 2023 diabete",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da RCP EMA/AIFA e da fonti secondarie derivate dagli RCP (Torrinomedica/Codifa/Mediately, registro comunitario EC). DA CONFERMARE sugli RCP ufficiali. Stato: revisione fonti (source-review), non ancora approvato. NB: per questi farmaci l'indicazione, la rimborsabilita' e il piano terapeutico in Italia variano per prodotto commerciale e indicazione (diabete vs controllo del peso): verificare sempre prima di prescrivere.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Dulaglutide",
+    "inn": "dulaglutide",
+    "brandExamplesIt": [
+      "Trulicity"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Agonista del recettore del GLP-1 a somministrazione settimanale",
+  "identity": {
+    "atcCodes": [
+      "A10BJ05"
+    ],
+    "formulations": [
+      "Soluzione iniettabile in penna monodose 0,75 / 1,5 / 3 / 4,5 mg"
+    ],
+    "potentialRoutes": [
+      "sottocutanea"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "glp1-agonists"
+  ],
+  "quickSummary": {
+    "whatItIs": "Agonista del recettore del GLP-1 settimanale, con beneficio cardiovascolare dimostrato nel diabete tipo 2 (studio REWIND). Penna monodose, titolazione semplice.",
+    "mainUses": [
+      "Diabete mellito di tipo 2 non adeguatamente controllato, in monoterapia o in associazione"
+    ],
+    "mainRisks": [
+      "Effetti gastrointestinali",
+      "Pancreatite acuta",
+      "Ipoglicemia in associazione a insulina o sulfaniluree"
+    ],
+    "essentialMonitoring": [
+      "Tollerabilita' gastrointestinale",
+      "Glicemia in associazione a insulina o sulfanilurea"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Diabete mellito di tipo 2 negli adulti non adeguatamente controllato in aggiunta a dieta ed esercizio fisico, in monoterapia quando la metformina e' inappropriata o in associazione ad altri antidiabetici"
+    ],
+    "guidelineIndications": [
+      "Nel diabete tipo 2 con malattia aterosclerotica le linee guida ESC 2023 raccomandano un agonista del recettore del GLP-1 con beneficio dimostrato indipendentemente dal controllo glicemico: la dulaglutide e' tra questi"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti"
+    ],
+    "warnings": [
+      "Non associare ad altri agonisti del recettore del GLP-1",
+      "Rischio di ipoglicemia con insulina o sulfanilurea: valutare la riduzione della dose",
+      "Pancreatite acuta: sospendere in caso di sospetto",
+      "Rallentamento dello svuotamento gastrico con possibile alterazione dell'assorbimento dei farmaci orali",
+      "Cautela nella retinopatia diabetica"
+    ],
+    "adverseEffects": [
+      "Nausea, vomito, diarrea, dolore addominale",
+      "Riduzione dell'appetito",
+      "Tachicardia sinusale e blocco atrioventricolare di primo grado (segnalati per la classe: consultare l'RCP)",
+      "Pancreatite acuta (non comune)"
+    ],
+    "overdose": "Il sovradosaggio comporta effetti gastrointestinali marcati e possibile ipoglicemia; gestione di supporto. Non esiste un antidoto specifico.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Consultare l'RCP; attenzione alla disidratazione.",
+      "hepatic": "Consultare l'RCP.",
+      "elderly": "Nessun aggiustamento sistematico.",
+      "pregnancy": "Non raccomandata.",
+      "breastfeeding": "Non raccomandata."
+    },
+    "alternativeDrugIds": [
+      "semaglutide",
+      "liraglutide",
+      "tirzepatide"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Puntura settimanale con penna monodose gia' pronta, della stessa famiglia della semaglutide. Anche questa riduce glicemia, peso ed eventi cardiovascolari nel diabete.",
+    "clinicalExplanation": "Agonista del recettore del GLP-1 settimanale (proteina di fusione GLP-1/Fc). Nel diabete tipo 2 con malattia aterosclerotica e' tra i GLP-1 agonisti con beneficio cardiovascolare dimostrato secondo ESC 2023. Titolazione a partire da 0,75 mg settimanali, con mantenimento fino a 4,5 mg.",
+    "molecularExplanation": "Proteina di fusione costituita da due peptidi analoghi del GLP-1 legati a un frammento Fc di IgG4 modificata, che ne prolunga l'emivita e ne consente la somministrazione settimanale.",
+    "pharmacodynamics": "Secrezione insulinica glucosio-dipendente, riduzione del glucagone, rallentamento dello svuotamento gastrico, riduzione di HbA1c e peso.",
+    "molecularTarget": "Recettore del GLP-1",
+    "agonismAntagonism": "Agonismo del recettore del GLP-1",
+    "pharmacokinetics": {
+      "route": "Sottocutanea, una volta a settimana",
+      "halfLife": "Circa 5 giorni, compatibile con la somministrazione settimanale",
+      "note": "Degradazione proteolitica; la struttura Fc ne prolunga la permanenza"
+    },
+    "bibliography": []
+  }
+}

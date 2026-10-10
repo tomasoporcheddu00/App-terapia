@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "propranolol__angina-arrhythmia__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Propranololo - RCP (Mediately/Codifa/Torrinomedica su base AIFA): indicazioni ampie e posologia; ATC C07AA05.",
+        "url": "https://mediately.co/it/drugs/HUrPItk8hbBRvj6dcIQaxnfKvZ3/inderal-40-mg-compresse",
+        "identifier": "Propranololo RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "propranolol",
+  "indication": "angina",
+  "scenario": "Angina / aritmie / cardiomiopatia ipertrofica / tireotossicosi",
+  "route": "orale",
+  "dose": {
+    "initial": "40 mg 2-3 volte al giorno (angina); 10-40 mg 3-4 volte al giorno (aritmie/HOCM/tireotossicosi)",
+    "maintenance": "secondo indicazione e risposta",
+    "max": "240 mg al giorno (angina)"
+  },
+  "administration": {
+    "notes": "Per le crisi anginose acute usare comunque la nitroglicerina."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

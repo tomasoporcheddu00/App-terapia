@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "id": "pde5-inhibitors",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Inibitori della PDE5 nella PAH: sintesi da RCP EMA/AIFA.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/EPAR/revatio",
+        "identifier": "PDE5 classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP EMA/AIFA; confermare su RCP ufficiali e linee guida ESC/ERS."
+  },
+  "name": "Inibitori della fosfodiesterasi-5",
+  "atcGroup": "G04BE / C02 (PDE5-inibitori)",
+  "memberDrugIds": [
+    "sildenafil",
+    "tadalafil"
+  ],
+  "mechanismSummary": "Inibizione della fosfodiesterasi-5, con accumulo di cGMP nella muscolatura liscia vascolare polmonare e potenziamento della via ossido nitrico-cGMP: vasodilatazione delle arterie polmonari.",
+  "molecularTarget": "Fosfodiesterasi-5 (PDE5)",
+  "pharmacodynamics": "Riduzione delle resistenze vascolari polmonari e miglioramento della capacita' di esercizio nella PAH.",
+  "classEffects": [
+    "Vasodilatazione polmonare (miglioramento della capacita' di esercizio)",
+    "Ipotensione grave se associati a nitrati o a stimolatori della sGC (riociguat)",
+    "Disturbi visivi (rischio di NAION)"
+  ],
+  "sharedContraindications": [
+    "Co-somministrazione con nitrati/donatori di NO",
+    "Co-somministrazione con riociguat (stimolatore della sGC)",
+    "Anamnesi di NAION",
+    "Grave compromissione epatica"
+  ],
+  "sharedAdverseEffects": [
+    "Cefalea, vampate",
+    "Dispepsia, congestione nasale, epistassi",
+    "Disturbi visivi",
+    "Ipotensione"
+  ],
+  "monitoring": [
+    "Pressione arteriosa",
+    "Capacita' di esercizio/risposta clinica",
+    "Vista (se disturbi)"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Sildenafil (Revatio, 20 mg tre volte al giorno) e tadalafil (Adcirca, 40 mg una volta al giorno) sono i PDE5-inibitori per la PAH (classe II-III), spesso in combinazione con un antagonista dell'endotelina. Regola fondamentale della via NO-cGMP: sono controindicati con i nitrati e con il riociguat (stimolatore della sGC) per il rischio di ipotensione grave. Dettagli nelle singole schede."
+}

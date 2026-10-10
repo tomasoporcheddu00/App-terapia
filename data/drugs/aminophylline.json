@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "id": "aminophylline",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Aminofillina (fiale 240 mg/10 mL) - RCP AIFA (Torrinomedica/Codifa/Mediately): derivato xantinico; asma bronchiale e affezioni polmonari con componente spastica; EV lenta 480 mg diluiti in 50 mL, max 25 mg/min e 5,6 mg/kg; controindicato nell'infarto miocardico acuto e negli stati ipotensivi.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/aminophilline/",
+        "identifier": "Aminofillina RCP",
+        "retrievedAt": "2026-07-23"
+      },
+      {
+        "type": "smpc",
+        "citation": "Teofillina/aminofillina - monografie di farmacocinetica (Drugs.com/PubMed): emivita media ~8-9 ore nell'adulto, ridotta dal fumo, prolungata in epatopatia/scompenso.",
+        "url": "https://www.drugs.com/ppa/theophylline.html",
+        "identifier": "Monografia - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (EMA/EC, Banca Dati AIFA, portali Mediately/Codifa/Torrinomedica/Univadis): indicazioni, posologia, controindicazioni, avvertenze, interazioni. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; PK parziale. Stato: revisione fonti (source-review), non ancora approvato. Dosi da adattare al paziente e ai protocolli locali. Da distinguere dall'adenosina, di cui e' antagonista: le xantine possono ridurre l'efficacia dell'adenosina nelle tachicardie sopraventricolari.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Aminofillina",
+    "inn": "aminofillina",
+    "brandExamplesIt": [
+      "Aminofillina",
+      "Aminophilline"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Derivato xantinico (teofillina-etilendiamina), broncodilatatore sistemico",
+  "identity": {
+    "atcCodes": [
+      "R03DA05"
+    ]
+  },
+  "classIds": [
+    "xanthines"
+  ],
+  "quickSummary": {
+    "whatItIs": "Combinazione di teofillina ed etilendiamina, molto piu' solubile della teofillina e quindi adatta all'uso endovenoso: broncodilatatore usato nell'asma grave. Ha un indice terapeutico stretto e importanti effetti cardiaci.",
+    "mainUses": [
+      "Asma bronchiale e affezioni polmonari con componente spastica bronchiale",
+      "Via endovenosa riservata ai casi gravi di asma bronchiale"
+    ],
+    "mainRisks": [
+      "Indice terapeutico stretto: tachicardia, aritmie ventricolari e convulsioni da sovradosaggio",
+      "Controindicata nell'infarto miocardico acuto e negli stati ipotensivi",
+      "Numerose interazioni (metabolismo epatico)"
+    ],
+    "essentialMonitoring": [
+      "Frequenza cardiaca ed ECG",
+      "Livelli ematici di teofillina (terapeutici ~10-15 mcg/mL; tossicita' vicino a 20)",
+      "Sintomi neurologici e gastrointestinali di tossicita'"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Asma bronchiale",
+      "Affezioni polmonari con componente spastica bronchiale (la via endovenosa e' riservata ai casi gravi di asma bronchiale)"
+    ],
+    "guidelineIndications": [
+      "In cardiologia i derivati xantinici sono stati usati come opzione nella bradicardia refrattaria (per esempio da blocco AV in alcuni contesti) e nelle bradiaritmie post-trapianto: si tratta di impieghi non registrati, da valutare caso per caso - confermare su linee guida",
+      "La via endovenosa richiede infusione lenta con il paziente in posizione supina (15-20 minuti); l'assorbimento rettale e' irregolare e la via rettale non e' indicata in emergenza - RCP"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' nota alla teofillina o ad altri derivati xantinici",
+      "Infarto miocardico acuto",
+      "Stati ipotensivi",
+      "Allattamento"
+    ],
+    "warnings": [
+      "Indice terapeutico stretto: i primi segni di intossicazione possono essere direttamente crisi convulsive generalizzate tonico-cloniche e aritmie ventricolari gravi; controllare i livelli ematici di teofillina se si superano le dosi standard (valori terapeutici ~10-15 mcg/mL, ai limiti della tossicita' ~20 mcg/mL)",
+      "La somministrazione endovenosa va eseguita con il paziente in clinostatismo e con lentezza controllata (15-20 minuti); non superare 25 mg/minuto ne' 5,6 mg/kg totali per l'infusione di attacco",
+      "La clearance e' ridotta nello scompenso cardiaco, nell'epatopatia, nell'anziano e con numerosi farmaci (macrolidi, chinoloni, cimetidina), mentre e' aumentata nei fumatori: adeguare l'infusione di mantenimento",
+      "Le fiale destinate alla via intramuscolare non devono essere iniettate in vena neppure dopo diluizione; non usare la soluzione se sono presenti cristalli"
+    ],
+    "adverseEffects": [
+      "Tachicardia, extrasistolia, palpitazioni",
+      "Nausea, vomito, dolore epigastrico",
+      "Cefalea, irritabilita', insonnia, tremore",
+      "Tachipnea; occasionalmente albuminuria e alterazioni glicemiche",
+      "Convulsioni e aritmie ventricolari gravi (tossicita')"
+    ],
+    "overdose": "Il sovradosaggio si manifesta con agitazione, tremore, confusione, vomito e tachicardia, seguiti da ematemesi, convulsioni tonico-cloniche generalizzate, aritmie cardiache e febbre. Trattamento: diazepam per le manifestazioni neurologiche, assistenza respiratoria, controllo della pressione e reidratazione; sospendere il farmaco.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Cautela; nessun aggiustamento formale.",
+      "hepatic": "Clearance ridotta: ridurre la dose di mantenimento (0,25 mg/kg/h nello scompenso o nell'epatopatia).",
+      "elderly": "Clearance ridotta: dosi inferiori.",
+      "pregnancy": "Solo se strettamente necessario.",
+      "breastfeeding": "Controindicata."
+    },
+    "alternativeDrugIds": []
+  },
+  "deep": {
+    "simpleExplanation": "E' la 'teofillina iniettabile': allarga i bronchi nell'asma grave. Ha pero' un margine di sicurezza stretto e fa battere il cuore piu' in fretta, quindi va infusa lentamente e con il paziente sdraiato.",
+    "clinicalExplanation": "Combinazione di teofillina ed etilendiamina, idrosolubile e adatta alla via parenterale. Le proprieta' sono interamente riferibili alla teofillina: inibizione delle fosfodiesterasi con aumento dell'AMP ciclico e antagonismo dei recettori dell'adenosina, con broncodilatazione, effetto inotropo e cronotropo positivo e stimolazione del SNC. Indice terapeutico stretto (livelli terapeutici ~10-15 mcg/mL) e clearance influenzata da eta', scompenso, epatopatia, fumo e numerosi farmaci.",
+    "molecularExplanation": "Inibisce le fosfodiesterasi aumentando l'AMP ciclico intracellulare e antagonizza i recettori dell'adenosina, rilassando la muscolatura liscia bronchiale.",
+    "pharmacodynamics": "Broncodilatazione; effetti cardiaci (tachicardia, aritmie) e stimolazione del sistema nervoso centrale; modesto effetto diuretico.",
+    "molecularTarget": "Fosfodiesterasi (non selettiva) e recettori dell'adenosina",
+    "agonismAntagonism": "Inibizione delle fosfodiesterasi / antagonismo dell'adenosina",
+    "pharmacokinetics": {
+      "route": "Endovenosa lenta, intramuscolare (fiale dedicate), rettale, orale",
+      "note": "Metabolismo epatico (CYP1A2); clearance ridotta in scompenso, epatopatia e anziano, aumentata nei fumatori",
+      "halfLife": "Riferita alla teofillina (l'aminofillina e' teofillina + etilendiamina, ~80% teofillina): emivita media ~8-9 ore nell'adulto (range ampio 3-13 ore), piu' breve nei bambini e nei fumatori (induzione CYP1A2), piu' lunga nell'epatopatia, nello scompenso e nelle infezioni virali. Indice terapeutico stretto: monitorare i livelli (5-20 mg/L)"
+    },
+    "bibliography": []
+  }
+}

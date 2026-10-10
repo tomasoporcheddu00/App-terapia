@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "propranolol__hypertension__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Propranololo - RCP (Mediately/Codifa/Torrinomedica su base AIFA): indicazioni ampie e posologia; ATC C07AA05.",
+        "url": "https://mediately.co/it/drugs/HUrPItk8hbBRvj6dcIQaxnfKvZ3/inderal-40-mg-compresse",
+        "identifier": "Propranololo RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "propranolol",
+  "indication": "hypertension",
+  "scenario": "Ipertensione arteriosa",
+  "route": "orale",
+  "dose": {
+    "initial": "40 mg due volte al giorno",
+    "titration": "aumento a intervalli settimanali secondo risposta",
+    "maintenance": "160-320 mg al giorno",
+    "max": "320 mg al giorno (in casi selezionati oltre)"
+  },
+  "administration": {
+    "notes": ""
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

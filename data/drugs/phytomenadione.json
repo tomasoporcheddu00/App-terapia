@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "id": "phytomenadione",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Fitomenadione (Konakion 10 mg/mL) - RCP (Univadis/Codifa su base AIFA) + Nota Informativa AIFA 2014: antidoto degli anticoagulanti cumarinici; EV lenta 5-10 mg con PFC/CCP nell'emorragia grave; NON per via IM negli adulti.",
+        "url": "https://www.univadis.it/references/drug-database/viewdrug/konakion-40478",
+        "identifier": "Konakion RCP",
+        "retrievedAt": "2026-07-21"
+      },
+      {
+        "type": "smpc",
+        "citation": "Fitomenadione/vitamina K1 (Konakion) - RCP (Torrinomedica/Mediately): ripristina la carbossilazione epatica dei fattori II/VII/IX/X; effetto sull'INR ritardato (ore) e prolungato (giorni), dissociato dalla breve emivita plasmatica.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/konakion/",
+        "identifier": "RCP - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (EMA/EC, Banca Dati AIFA, portali Mediately/Codifa/Torrinomedica/Univadis) e da centri antiveleni regionali: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Antidoti d'urgenza: dosi da adattare ai protocolli locali e ai test coagulativi. Antidoto dei cumarinici (warfarin/acenocumarolo): non efficace sui DOAC. Nell'emorragia grave si associa a PFC o complesso protrombinico per l'effetto immediato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Fitomenadione (vitamina K1)",
+    "inn": "fitomenadione (vitamina K1)",
+    "brandExamplesIt": [
+      "Konakion"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antidoto degli anticoagulanti cumarinici (vitamina K1)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "reversal-agents"
+  ],
+  "quickSummary": {
+    "whatItIs": "Vitamina K1 sintetica, necessaria alla sintesi dei fattori della coagulazione II, VII, IX e X: e' l'antidoto degli anticoagulanti cumarinici (es. warfarin) e corregge le carenze di vitamina K.",
+    "mainUses": [
+      "Emorragia o rischio emorragico da sovradosaggio di anticoagulanti cumarinici (INR elevato)",
+      "Ipovitaminosi K (ittero ostruttivo, epatopatie/enteropatie, antibiotici prolungati)",
+      "Malattia emorragica del neonato"
+    ],
+    "mainRisks": [
+      "Effetto non immediato (i fattori richiedono ore): nelle emorragie gravi associare PFC/complesso protrombinico",
+      "Difficolta' a ri-anticoagulare se sovracorretto",
+      "Reazioni anafilattoidi (rare) dopo EV rapida"
+    ],
+    "essentialMonitoring": [
+      "INR/tempo di protrombina (a 24 h e seriato)",
+      "Segni di sanguinamento",
+      "Ripresa dell'anticoagulazione"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Emorragie o rischio di emorragie da grave ipoprotrombinemia (deficit dei fattori II, VII, IX, X) di varia eziologia, incluso il sovradosaggio di anticoagulanti cumarinici",
+      "Altre forme di ipovitaminosi K (ittero ostruttivo, epatopatie ed enteropatie, dopo trattamenti prolungati con antibiotici, sulfamidici o salicilati)",
+      "Malattia emorragica del neonato"
+    ],
+    "guidelineIndications": [
+      "Emorragia grave/pericolosa per la vita (qualsiasi INR): sospendere il cumarinico + fitomenadione 5-10 mg EV lenta (in >=30 sec) insieme a plasma fresco congelato o complesso protrombinico - RCP",
+      "INR elevato senza sanguinamento maggiore: dosi basse (0,5-2 mg) riducono l'INR in 24 h; ripetibile - confermare su linee guida"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al fitomenadione o agli eccipienti"
+    ],
+    "warnings": [
+      "NON somministrare per via intramuscolare negli adulti (Nota AIFA 2014): effetto deposito e rilascio prolungato che ostacola la ripresa dell'anticoagulazione, con rischio di ematomi nel paziente anticoagulato",
+      "L'iniezione EV deve essere lenta (in almeno 30 secondi); non diluire ne' miscelare (puo' essere iniettato nella porzione terminale di un set in corso di fisiologica 0,9% o glucosata 5%)",
+      "Effetto non immediato: i fattori della coagulazione impiegano ore (Quick al 15-25% in 3-5 h); nelle emorragie gravi associare PFC/complesso protrombinico",
+      "Evitare la sovracorrezione (l'eccesso rende difficile la ripresa dell'anticoagulazione, INR sottoterapeutico); anziani piu' sensibili (dose minima)"
+    ],
+    "adverseEffects": [
+      "Reazioni anafilattoidi dopo somministrazione EV (molto rare)",
+      "Irritazione venosa/flebite (molto rara)",
+      "Alterazione del gusto"
+    ],
+    "overdose": "Il sovradosaggio provoca resistenza temporanea agli anticoagulanti cumarinici (difficolta' a ri-anticoagulare): gestire con eparina se e' necessaria l'anticoagulazione, in attesa dell'esaurimento dell'effetto.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico.",
+      "hepatic": "Utilizzabile (spesso indicato); cautela.",
+      "elderly": "Usare il dosaggio piu' basso (maggiore sensibilita').",
+      "pregnancy": "Utilizzabile se necessario.",
+      "breastfeeding": "Compatibile."
+    },
+    "alternativeDrugIds": [
+      "prothrombin-complex-concentrate"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' la vitamina K: serve al fegato per produrre i fattori della coagulazione. E' l'antidoto del warfarin e dei simili; agisce in qualche ora, quindi nelle emorragie gravi si associa a plasma o complesso protrombinico per un effetto immediato.",
+    "clinicalExplanation": "Vitamina K1 sintetica: cofattore della carbossilazione dei fattori II, VII, IX, X e delle proteine C e S. Antagonizza gli anticoagulanti cumarinici ripristinando i fattori funzionali (effetto in ore). EV lenta o orale; mai IM negli adulti. Nelle emorragie gravi associare PFC/CCP per l'immediato.",
+    "molecularExplanation": "Fornisce vitamina K1 ridotta come cofattore della gamma-glutamil-carbossilasi epatica, consentendo la sintesi dei fattori della coagulazione vitamina K-dipendenti.",
+    "pharmacodynamics": "Ripristino dei fattori della coagulazione vitamina K-dipendenti; riduzione dell'INR in ore.",
+    "molecularTarget": "gamma-glutamil-carbossilasi (fattori II, VII, IX, X)",
+    "agonismAntagonism": "Antidoto/reintegro (procoagulante)",
+    "pharmacokinetics": {
+      "route": "Orale ed endovenosa lenta",
+      "onset": "Quick 15-25% in 3-5 h; INR ridotto entro 24 h",
+      "note": "Mai IM negli adulti (effetto deposito)",
+      "halfLife": "Emivita plasmatica breve, ma il parametro rilevante e' l'effetto sull'INR, che e' RITARDATO e PROLUNGATO: dopo somministrazione endovenosa la correzione dell'INR inizia in ~1-2 ore ed e' significativa entro 6-12 ore, perche' la vitamina K1 agisce ripristinando la sintesi epatica dei fattori II, VII, IX e X; l'effetto dura giorni. Non neutralizza l'eparina (per quella serve la protamina)"
+    },
+    "bibliography": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "propofol",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Propofol (Diprivan) - RCP AIFA (Codifa/Mediately): anestesia generale e sedazione in terapia intensiva nei ventilati >16 anni; sedazione UTI 0,3-4,0 mg/kg/h; sindrome da infusione di propofol; contiene olio di soia.",
+        "url": "https://www.codifa.it/farmaci/d/diprivan-emulsione-propofol-anestetici-generali",
+        "identifier": "Diprivan RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "propofol",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Oppioidi, benzodiazepine e altri depressori del SNC",
+      "effect": "Potenziamento della sedazione, della depressione respiratoria e dell'ipotensione",
+      "management": "Ridurre le dosi e titolare; monitoraggio respiratorio ed emodinamico continuo"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Farmaci ipotensivi e anestetici",
+      "effect": "Ipotensione additiva",
+      "management": "Ridurre la velocita' di somministrazione; supporto volemico"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Farmaci che riducono la portata cardiaca/flusso epatico",
+      "effect": "Ridotta eliminazione del propofol (clearance flusso-dipendente)",
+      "management": "Attendersi effetti prolungati; ridurre la dose"
+    }
+  ]
+}

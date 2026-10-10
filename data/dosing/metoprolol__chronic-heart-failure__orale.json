@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "metoprolol__chronic-heart-failure__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Metoprololo (tartrato/succinato) - RCP (Mediately/Torrinomedica su base AIFA): indicazioni e posologia.",
+        "url": "https://mediately.co/it/drugs/ZRHO3Q6fQ125xTlxQnonrEbkbAr/metoprololo-doc-generici-100-mg-compresse",
+        "identifier": "Metoprololo RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "metoprolol",
+  "indication": "chronic-heart-failure",
+  "scenario": "Scompenso cardiaco a FE ridotta (succinato, titolazione)",
+  "route": "orale",
+  "dose": {
+    "initial": "11,875-23,75 mg (succinato) una volta al giorno",
+    "titration": "raddoppio a intervalli di circa 2 settimane secondo tollerabilita'",
+    "maintenance": "fino a 190 mg (succinato) una volta al giorno",
+    "max": "190 mg al giorno"
+  },
+  "administration": {
+    "notes": "Solo formulazione succinato; avviare in paziente stabile da specialista, con monitoraggio."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

@@ -1,0 +1,23 @@
+# sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# lavoro locale
+/tmp/
+*.log
+*.bak
+*.orig
+estratti/

@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "id": "ibuprofen__pericardite__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-28T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Ibuprofene - RCP (Torrinomedica: Ibuprofene DR, Ibuprofene Alter, Brufen; Codifa): controindicazioni, avvertenze cardiovascolari e gastrointestinali, interazione con acido acetilsalicilico a basse dosi.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/Ibuprofene_Alter_cp/",
+        "identifier": "Ibuprofene RCP",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "other",
+        "citation": "Pharmamedix - Ibuprofene, sezioni Controindicazioni e Interazioni: revisione EMA 2015 sulle dosi elevate (>=2400 mg/die) e antagonismo sull'effetto antiaggregante dell'ASA.",
+        "url": "https://www.pharmamedix.com/principiovoce.php?pa=Ibuprofene&vo=Controindicazioni",
+        "identifier": "Pharmamedix ibuprofene",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2025 - Linee guida su miocardite e pericardite: FANS ad alte dosi con gastroprotezione, sempre associati a colchicina.",
+        "url": "https://www.giornaledicardiologia.it/archivio/4620/articoli/46292/",
+        "identifier": "ESC 2025 IMPS",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Posologia da fonti su base RCP/AIFA o da linee guida citate; smpcVerified=false. Verificare sempre su RCP ufficiale e adattare a funzione renale/epatica."
+  },
+  "drugId": "ibuprofen",
+  "indication": "pericarditis",
+  "scenario": "Pericardite acuta o recidivante (con colchicina e gastroprotezione)",
+  "route": "orale",
+  "dose": {
+    "dose": "600 mg ogni 8 ore",
+    "durata": "1-2 settimane, poi riduzione guidata da sintomi e PCR",
+    "associazioni": "sempre con colchicina; gastroprotezione con inibitore di pompa protonica"
+  },
+  "administration": {
+    "notes": "Indicazione da linee guida ESC 2025, non da scheda tecnica. Alternativa: aspirina 750-1000 mg ogni 8 ore. Rivalutare in presenza di ipertensione, scompenso o insufficienza renale."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

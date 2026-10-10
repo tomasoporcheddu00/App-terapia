@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "id": "loop-diuretics",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Diuretici dell'ansa: sintesi da RCP e conversioni di dose.",
+        "url": "https://www.codifa.it/farmaci/f/furosemide-fisiopharma-furosemide-diuretici-dell-ansa",
+        "identifier": "Loop classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe dei diuretici dell'ansa sintetizzata da RCP; equivalenze indicative da confermare caso per caso."
+  },
+  "name": "Diuretici dell'ansa",
+  "atcGroup": "C03CA",
+  "memberDrugIds": [
+    "furosemide",
+    "torasemide",
+    "bumetanide",
+    "ethacrynic-acid"
+  ],
+  "mechanismSummary": "Inibizione del cotrasportatore Na-K-2Cl (NKCC2) nella branca ascendente spessa dell'ansa di Henle: marcata natriuresi e diuresi ('effetto ceiling' elevato), attive anche nell'insufficienza renale.",
+  "molecularTarget": "Cotrasportatore Na-K-2Cl (NKCC2)",
+  "pharmacodynamics": "Aumento dell'escrezione di sodio, cloro, potassio, calcio e magnesio; riduzione della congestione e del precarico.",
+  "classEffects": [
+    "Decongestione rapida ed efficace nello scompenso e nell'edema polmonare",
+    "Efficacia mantenuta anche in insufficienza renale (a dosi maggiori)",
+    "Aumento dell'escrezione di calcio (utile nell'ipercalcemia)"
+  ],
+  "sharedContraindications": [
+    "Anuria/insufficienza renale non responsiva",
+    "Coma/precoma epatico",
+    "Ipopotassiemia o iponatriemia gravi, ipovolemia",
+    "Ipersensibilita' (sulfamidici per torasemide/bumetanide)"
+  ],
+  "sharedAdverseEffects": [
+    "Ipopotassiemia, iponatriemia, ipomagnesiemia, alcalosi ipocloremica",
+    "Disidratazione/ipotensione",
+    "Iperuricemia/gotta",
+    "Ototossicita' (EV rapida, dosi alte)"
+  ],
+  "monitoring": [
+    "Elettroliti (potassio, sodio, magnesio)",
+    "Funzione renale",
+    "Volemia e pressione arteriosa"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Furosemide, torasemide e bumetanide condividono il meccanismo. La torasemide ha biodisponibilita' orale piu' costante e durata maggiore (e forse minore ipokaliemia); la bumetanide e' la piu' potente per milligrammo (~40:1 vs furosemide, disponibilita' in Italia da confermare). Equivalenze indicative: 40 mg furosemide ~ 20 mg torasemide ~ 1 mg bumetanide. Dettagli nelle singole schede."
+}

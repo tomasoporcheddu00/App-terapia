@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "nebivolol__chronic-heart-failure__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Nebivololo - RCP (Codifa/Torrinomedica/Pharmamedix su base AIFA): indicazioni, posologia, vasodilatazione NO-mediata (SENIORS).",
+        "url": "https://www.codifa.it/principi-attivi/Nebivololo",
+        "identifier": "Nebivololo RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "nebivolol",
+  "indication": "chronic-heart-failure",
+  "scenario": "Scompenso cardiaco nell'anziano (titolazione)",
+  "route": "orale",
+  "dose": {
+    "initial": "1,25 mg una volta al giorno",
+    "titration": "aumento a intervalli di 1-2 settimane: 2,5 -> 5 -> 10 mg",
+    "maintenance": "10 mg una volta al giorno (o massima dose tollerata)",
+    "max": "10 mg al giorno"
+  },
+  "administration": {
+    "notes": "Avviare in paziente stabile con monitoraggio; step successivi solo se ben tollerati."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

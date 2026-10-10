@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "id": "apixaban__vte-treatment__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "SmPC Eliquis (apixaban) sez. 4.2 - trattamento TVP/EP e prevenzione recidive.",
+        "url": "https://www.medicines.org.uk/emc/product/2878/smpc",
+        "identifier": "Eliquis",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Schema TVP/EP. La prevenzione delle recidive (2,5 mg due volte/die) inizia dopo almeno 6 mesi di trattamento. id indicazione da riconciliare col vocabolario.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "apixaban",
+  "indication": "vte-treatment",
+  "scenario": "Trattamento TVP/EP e prevenzione delle recidive",
+  "route": "oral",
+  "formulation": null,
+  "population": "adult-standard",
+  "dose": {
+    "loading": "10 mg due volte al giorno per i primi 7 giorni",
+    "initial": "10 mg due volte al giorno (giorni 1-7)",
+    "interval": "ogni 12 ore",
+    "maintenance": "5 mg due volte al giorno dal giorno 8; per la prevenzione delle recidive dopo almeno 6 mesi: 2,5 mg due volte al giorno",
+    "target": null,
+    "max": null,
+    "titration": null,
+    "duration": "Trattamento >=3-6 mesi; prevenzione recidive a lungo termine",
+    "weightBased": null,
+    "cumulative": null,
+    "renalAdjustment": "Cautela con CrCl 15-29 mL/min; non raccomandato con CrCl <15 mL/min o in dialisi.",
+    "hepaticAdjustment": "Controindicato in epatopatia con coagulopatia; non raccomandato in grave.",
+    "elderly": "Nessun aggiustamento per la sola eta'.",
+    "pregnancy": "Non raccomandato.",
+    "dialysis": "Non raccomandato."
+  },
+  "administration": {
+    "preparation": null,
+    "solvent": null,
+    "concentration": null,
+    "rate": null,
+    "access": null,
+    "notes": "Con o senza cibo."
+  },
+  "monitoring": [
+    "Segni di sanguinamento",
+    "Funzione renale"
+  ],
+  "stoppingCriteria": [
+    "Emorragia",
+    "Chirurgia: sospensione secondo rischio"
+  ],
+  "approvalEvidence": {
+    "primarySourceVerified": false,
+    "smpcVerified": true,
+    "clinicalReviewDone": true,
+    "verificationDate": "2026-07-18",
+    "reviewer": "Curatore clinico"
+  }
+}

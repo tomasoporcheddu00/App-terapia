@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "id": "alirocumab",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Alirocumab (Praluent) - RCP EMA/AIFA (EC Europa/Sanofi/medisoc): anticorpo anti-PCSK9 SC, dose 75-150 mg ogni 2 settimane o 300 mg/mese, ASCVD; ODYSSEY OUTCOMES.",
+        "url": "https://medisoc.it/schede-farmaci/scheda-alirocumab/",
+        "identifier": "Praluent RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5; severita' secondo posizionamento RCP e rilevanza clinica. Anticorpo monoclonale: non metabolizzato dal citocromo P450, interazioni farmacocinetiche classiche non attese. Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "alirocumab",
+  "items": [
+    {
+      "severity": "minor",
+      "agent": "Statine/ezetimibe/fenofibrato",
+      "effect": "Riduzione dell'esposizione ad alirocumab (~40%/15%/35%) per aumento della PCSK9, senza perdita dell'efficacia con lo schema ogni 2 settimane",
+      "management": "Nessun aggiustamento"
+    }
+  ]
+}

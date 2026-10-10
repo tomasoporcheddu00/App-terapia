@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "id": "arb",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Sartani (antagonisti del recettore AT1 dell'angiotensina II): meccanismo, controindicazioni, avvertenze e interazioni di classe; sintesi da RCP/portali AIFA (Codifa, Mediately, Torrinomedica).",
+        "url": "https://www.santagostino.it/magazine/losartan/",
+        "identifier": "Sartani classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da fonti secondarie su base RCP; da confermare sugli RCP ufficiali EMA/AIFA e sulle linee guida primarie (ESC). Le peculiarita' delle singole molecole (profarmaco, emivita, indicazioni aggiuntive) restano nelle rispettive schede."
+  },
+  "name": "Antagonisti recettoriali dell'angiotensina II (sartani)",
+  "atcGroup": "C09CA (antagonisti dell'angiotensina II, non associati)",
+  "memberDrugIds": [
+    "candesartan",
+    "valsartan",
+    "losartan",
+    "irbesartan",
+    "telmisartan",
+    "olmesartan"
+  ],
+  "mechanismSummary": "Bloccano selettivamente il recettore AT1 dell'angiotensina II, impedendone gli effetti (vasocostrizione, secrezione di aldosterone, ritenzione idrosalina) a valle dell'ACE. A differenza degli ACE-inibitori non aumentano la bradichinina, da cui minore tosse e angioedema.",
+  "molecularTarget": "Recettore AT1 dell'angiotensina II",
+  "pharmacodynamics": "Riduzione delle resistenze vascolari periferiche e della pressione intraglomerulare (nefroprotezione); aumento compensatorio di renina e angiotensina II circolanti; assenza dell'effetto bradichinina-mediato tipico degli ACE-inibitori.",
+  "classEffects": [
+    "Effetto antipertensivo sostenuto nelle 24 ore",
+    "Nefroprotezione nel diabete di tipo 2",
+    "Alternativa agli ACE-inibitori in caso di tosse o angioedema",
+    "Evidenze specifiche di molecola in scompenso (candesartan, valsartan, losartan), post-infarto (valsartan) e prevenzione CV (telmisartan)"
+  ],
+  "sharedContraindications": [
+    "Secondo e terzo trimestre di gravidanza",
+    "Uso concomitante con aliskiren in diabete o insufficienza renale (GFR <60)",
+    "Ipersensibilita' alla molecola",
+    "(Per alcune molecole) grave insufficienza epatica/colestasi o ostruzione biliare"
+  ],
+  "sharedAdverseEffects": [
+    "Ipotensione, capogiro",
+    "Iperkaliemia",
+    "Aumento della creatinina/riduzione della funzione renale",
+    "Cefalea",
+    "Angioedema (raro, meno frequente che con gli ACE-inibitori)"
+  ],
+  "monitoring": [
+    "Pressione arteriosa",
+    "Potassio sierico",
+    "Funzione renale (creatinina/eGFR), soprattutto all'avvio e in titolazione"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Rispetto agli ACE-inibitori i sartani danno meno tosse e angioedema. Le molecole differiscono per essere o meno profarmaci (candesartan, olmesartan sono profarmaci), per emivita (telmisartan la piu' lunga) e per indicazioni aggiuntive oltre l'ipertensione (scompenso: candesartan/valsartan/losartan; post-infarto: valsartan; prevenzione CV: telmisartan; nefropatia diabetica: losartan/irbesartan). L'olmesartan e' associato al raro segnale di enteropatia simil-sprue. Dettagli nelle singole schede."
+}

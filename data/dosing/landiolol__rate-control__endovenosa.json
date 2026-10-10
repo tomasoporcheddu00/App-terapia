@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "landiolol__rate-control__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Landiololo (Landiobloc) - RCP (Codifa/Mediately/Torrinomedica su base AIFA): indicazioni EV e posologia (bolo/infusione); beta1-selettivita' 255x.",
+        "url": "https://www.codifa.it/farmaci/l/landiobloc-concentrato-per-soluzione-per-infusione-landiololo-cloridrato-betabloccanti",
+        "identifier": "Landiololo RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "landiolol",
+  "indication": "af-flutter",
+  "scenario": "Controllo rapido della frequenza (FA/flutter, SVT) perioperatorio",
+  "route": "endovenosa",
+  "dose": {
+    "loading": "Bolo endovenoso 0,1-0,3 mg/kg (iniziale consigliato 0,1-0,2 mg/kg)",
+    "maintenance": "Infusione 10-40 microgrammi/kg/min, titolando alla risposta",
+    "max": "Dose giornaliera massima 100 mg/paziente (per il bolo)"
+  },
+  "administration": {
+    "notes": "Solo per via endovenosa in ambiente monitorato. La riduzione della frequenza si osserva in 10-20 minuti; il bolo puo' essere ripetuto se necessario."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

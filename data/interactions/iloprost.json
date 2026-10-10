@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "iloprost",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Iloprost (Ventavis) - RCP EMA/AIFA: analogo della prostaciclina inalatorio per la PAH classe III; 6-9 inalazioni/die; controindicato in sanguinamento/coronaropatia grave; broncospasmo, sincope.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/EPAR/ventavis",
+        "identifier": "Ventavis RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "iloprost",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Antipertensivi/vasodilatatori",
+      "effect": "Ipotensione additiva",
+      "management": "Monitorare la pressione"
+    },
+    {
+      "severity": "major",
+      "agent": "Anticoagulanti/antiaggreganti",
+      "effect": "Aumento del rischio di sanguinamento",
+      "management": "Monitorare"
+    }
+  ]
+}

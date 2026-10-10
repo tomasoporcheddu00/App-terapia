@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "alirocumab",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Banca Dati AIFA - alirocumab (Praluent): prescrizione specialistica con piano terapeutico AIFA; ricetta limitativa.",
+        "url": "https://medisoc.it/schede-farmaci/scheda-alirocumab/",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Piano terapeutico AIFA e criteri di eleggibilita' (registro) da confermare sul portale AIFA aggiornato."
+  },
+  "drugId": "alirocumab",
+  "authorisation": "Nazionale (AIFA)",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RRL (ricetta ripetibile limitativa)",
+  "aifaNote": null,
+  "therapeuticPlan": true,
+  "distribution": "Distribuzione per conto/diretta (specialistica)",
+  "law648_1996": false,
+  "prescriberRestrictions": "Prescrizione a cura di centri/specialisti con piano terapeutico AIFA (criteri di eleggibilita' su registro)."
+}

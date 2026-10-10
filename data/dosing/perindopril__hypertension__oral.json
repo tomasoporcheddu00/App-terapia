@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "perindopril__hypertension__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Perindopril - RCP (rese da Torrinomedica/Mediately/Egualia su base AIFA): indicazioni, posologia §4.2, controindicazioni.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/Perindopril_teva_italia/",
+        "identifier": "Perindopril RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "perindopril",
+  "indication": "hypertension",
+  "scenario": "Ipertensione arteriosa",
+  "route": "orale",
+  "dose": {
+    "initial": "5 mg (arginina) una volta al giorno al mattino, prima del pasto",
+    "maintenance": "5-10 mg al giorno",
+    "max": "10 mg al giorno",
+    "titration": "RAAS attivato/deplezione: iniziare con 2,5 mg sotto controllo"
+  },
+  "administration": {
+    "notes": "Assumere prima del pasto, alla stessa ora. Nota: 5/10 mg come sale arginina equivalgono a 4/8 mg come tert-butilammina."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

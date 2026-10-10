@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "nicorandil",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Nicorandil (Ikorel/Dancor): antianginoso; disponibilita' e classe in Italia da confermare.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2015/20150605131936/anx_131936_it.pdf",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Disponibilita' in Italia da confermare (non risulta ampiamente commercializzato); dati da RCP EMA."
+  },
+  "drugId": "nicorandil",
+  "authorisation": "Nazionale (AIFA)",
+  "marketed": false,
+  "reimbursementClass": "Da confermare",
+  "supplyRegime": "RR (ricetta ripetibile)",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Farmacia (convenzionata)",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

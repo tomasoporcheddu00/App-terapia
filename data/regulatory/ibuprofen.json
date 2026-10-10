@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "ibuprofen",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-28T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "AIFA - ibuprofene: disponibile in classe A e come medicinale senza obbligo di ricetta a seconda del dosaggio e della confezione.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/Ibuprofene_Alter_cp/",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Regime variabile per dosaggio e confezione (fino a 400 mg spesso senza obbligo di ricetta; 600 mg con ricetta). Le dosi usate nella pericardite sono soggette a prescrizione."
+  },
+  "drugId": "ibuprofen",
+  "authorisation": "EMA/Nazionale",
+  "marketed": true,
+  "reimbursementClass": "A / C-SOP a seconda della confezione",
+  "supplyRegime": "RR o SOP a seconda del dosaggio",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Farmacia",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

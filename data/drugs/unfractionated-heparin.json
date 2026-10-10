@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "id": "unfractionated-heparin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Eparina Sodica (es. Athena Pharma Italia / Normoparin / Epsoclar) - sez. 4.2-4.4, meccanismo (antitrombina III, anti-Xa e anti-IIa).",
+        "url": "https://www.codifa.it/farmaci/n/normoparin-eparina-sodica-eparine",
+        "identifier": "Eparina sodica; ATC B01AB01",
+        "retrievedAt": "2026-07-18"
+      },
+      {
+        "type": "smpc",
+        "citation": "RCP Eparina Sodica - controindicazioni e gestione HIT (sospensione se piastrine <100.000/mm3 o trombosi ricorrente); protamina come antidoto.",
+        "url": "https://www.torrinomedica.it/effetti-collaterali/eparina-effetti-collaterali/",
+        "identifier": "Eparina sodica avvertenze",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Eparina non frazionata (eparina sodica). Dose strettamente aPTT-guidata e protocollo-dipendente: qui riportata in forma qualitativa; i nomogrammi peso-basati (bolo + infusione) vanno da RCP/linee guida locali. ATC B01AB01. Antidoto: protamina. Esiste anche l'eparina calcica (per via sottocutanea).",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Eparina non frazionata (eparina sodica)",
+    "inn": "heparin sodium",
+    "brandExamplesIt": [
+      "Eparina Sodica",
+      "Normoparin",
+      "Epsoclar",
+      "Eparina Vister"
+    ]
+  },
+  "synonyms": [
+    "UFH",
+    "Eparina standard"
+  ],
+  "classIds": [
+    "unfractionated-heparins"
+  ],
+  "subclass": "Eparina non frazionata (glicosaminoglicano)",
+  "classificationStatus": "confirmed",
+  "identity": {
+    "atcCodes": [
+      "B01AB01"
+    ],
+    "formulations": [
+      "soluzione iniettabile/per infusione a vari titoli (UI/mL)"
+    ],
+    "potentialRoutes": [
+      "intravenous",
+      "subcutaneous"
+    ],
+    "availabilityStatus": "available",
+    "marketingAuthorisationIt": true
+  },
+  "linkedMacroAreaIds": [
+    "acute-coronary-syndrome",
+    "venous-thromboembolism",
+    "extracorporeal-circulation"
+  ],
+  "quickSummary": {
+    "whatItIs": "Anticoagulante parenterale ad azione rapida e breve che potenzia l'antitrombina III inibendo sia la trombina sia il fattore Xa.",
+    "mainUses": [
+      "Trattamento e profilassi della malattia tromboembolica",
+      "Sindromi coronariche acute",
+      "Circolazione extracorporea (bypass, emodialisi) e pervieta' dei cateteri"
+    ],
+    "mainRisks": [
+      "Emorragia",
+      "Trombocitopenia indotta da eparina (HIT/HITT)"
+    ],
+    "essentialMonitoring": [
+      "aPTT (dosi terapeutiche)",
+      "Conta piastrinica"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento e profilassi delle affezioni tromboemboliche (TVP, EP)",
+      "Sindromi coronariche acute (in ambito ospedaliero)",
+      "Anticoagulazione in circolazione extracorporea (bypass cardiopolmonare, emodialisi)",
+      "Mantenimento della pervieta' di cateteri e circuiti (dosi basse)"
+    ],
+    "guidelineIndications": [
+      "Anticoagulante parenterale titolabile e rapidamente reversibile, preferito quando serve controllo fine dell'anticoagulazione o nell'insufficienza renale grave; posizionamento secondo linee guida ESC (fonte da aggiungere)."
+    ],
+    "offLabelUses": [],
+    "populations": [
+      "Adulti in ambito ospedaliero; utile quando serve reversibilita' rapida (protamina) o in insufficienza renale grave (non eliminazione renale come le EBPM)"
+    ],
+    "advantages": [
+      "Emivita breve e rapida reversibilita' con protamina",
+      "Non eliminazione renale (utile in insufficienza renale grave)",
+      "Titolabile in base all'aPTT"
+    ],
+    "limitations": [
+      "Richiede monitoraggio aPTT alle dosi terapeutiche",
+      "Rischio di HIT maggiore rispetto alle EBPM",
+      "Risposta variabile (necessita' di aggiustamenti)"
+    ],
+    "alternativeDrugIds": [
+      "enoxaparin"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' all'eparina o agli eccipienti",
+      "Grave trombocitopenia o diatesi emorragica",
+      "Patologie epatiche, renali o pancreatiche gravi",
+      "Impossibilita' di monitorare i test di coagulazione (aPTT) a intervalli adeguati (solo per i dosaggi terapeutici)",
+      "Coagulazione intravasale disseminata (CID) attribuibile a trombocitopenia indotta da eparina",
+      "Accidenti cerebrovascolari emorragici",
+      "Stato emorragico non controllato"
+    ],
+    "relativeContraindications": [],
+    "warnings": [
+      "Non somministrare per via intramuscolare (rischio di ematomi)",
+      "Monitorare la conta piastrinica: sospendere se <100.000/mm3 o se trombosi ricorrente (HIT/HITT)",
+      "La HIT puo' manifestarsi anche settimane dopo la sospensione; non riprendere l'eparina entro 3-6 mesi dalla diagnosi e finche' persistono anticorpi anti-HIT",
+      "Ridotta sensibilita' all'eparina in febbre, infezioni con tendenza trombotica, IMA, cancro, carenza di antitrombina III, postchirurgia",
+      "In caso di HIT sospetta/confermata usare anticoagulanti alternativi (attenzione alla cross-reattivita' delle EBPM)"
+    ],
+    "adverseEffects": [
+      "Emorragia",
+      "Trombocitopenia (inclusa HIT/HITT)",
+      "Rialzo transaminasi",
+      "Osteoporosi (uso prolungato)",
+      "Reazioni nel sito di iniezione"
+    ],
+    "overdose": "Il sovradosaggio causa emorragia; la protamina solfato neutralizza rapidamente l'attivita' dell'eparina (circa 1 mg di protamina per ~100 UI di eparina, secondo il tempo trascorso).",
+    "antidoteDrugIds": [
+      "protamine"
+    ],
+    "monitoring": [
+      "aPTT (target in genere 1,5-2,5 volte il controllo, secondo protocollo)",
+      "Conta piastrinica (prima e periodicamente)",
+      "Emocromo/segni di sanguinamento"
+    ],
+    "discontinuation": "Sospensione rapida possibile per l'emivita breve; reversibilita' con protamina in emergenza.",
+    "specialPopulations": {
+      "renal": "Non eliminazione renale: utilizzabile (con cautela) nell'insufficienza renale grave dove le EBPM si accumulano.",
+      "hepatic": "Controindicata nelle patologie epatiche gravi.",
+      "elderly": "Maggior rischio emorragico; cautela.",
+      "lowBodyWeight": null,
+      "obesity": null,
+      "pregnancy": "Non attraversa la placenta; utilizzabile in gravidanza secondo indicazione (verificare RCP).",
+      "breastfeeding": "Non escreta nel latte in forma attiva (verificare RCP)."
+    },
+    "dosingRegimenIds": [
+      "unfractionated-heparin__therapeutic-anticoagulation__intravenous"
+    ],
+    "interactionRefs": [],
+    "regulatoryItId": "unfractionated-heparin"
+  },
+  "deep": {
+    "simpleExplanation": "Un anticoagulante iniettabile che agisce subito e si puo' 'spegnere' rapidamente con un antidoto (protamina); si dosa controllando l'aPTT.",
+    "clinicalExplanation": "Potenzia l'antitrombina III accelerando l'inibizione della trombina e del fattore Xa (rapporto ~1:1), con effetto immediato per via endovenosa ed emivita breve; risposta variabile che richiede monitoraggio dell'aPTT.",
+    "molecularExplanation": "Le lunghe catene polisaccaridiche legano contemporaneamente antitrombina III e trombina formando un complesso ternario che inattiva la trombina; il pentasaccaride accelera anche l'inibizione del fattore Xa.",
+    "molecularTarget": "Complesso antitrombina III - trombina (IIa) e fattore Xa",
+    "agonismAntagonism": "Potenziatore indiretto dell'antitrombina III",
+    "selectivity": "Attivita' bilanciata anti-IIa e anti-Xa (~1:1)",
+    "pharmacodynamics": "Anticoagulazione immediata e titolabile; monitorata con aPTT (o ACT in sala/emodinamica) e, alle dosi terapeutiche, aggiustata di conseguenza.",
+    "hemodynamicEffects": "Nessun effetto emodinamico diretto.",
+    "electrophysiologicEffects": "Nessuno.",
+    "pharmacokinetics": {
+      "bioavailability": "Non attiva per via orale; EV immediata, SC piu' lenta",
+      "timeToPeak": "Immediato per via EV",
+      "halfLife": "Breve, dose-dipendente (~1-2 ore)",
+      "proteinBinding": "Elevato legame a proteine plasmatiche/endotelio",
+      "metabolism": "Sistema reticolo-endoteliale ed epatico (eparinasi)",
+      "enzymes": [],
+      "transporters": [],
+      "activeMetabolites": [],
+      "elimination": "Depolimerizzazione; a dosi elevate anche renale",
+      "dialyzability": null
+    },
+    "evidenceIds": [],
+    "recommendationIds": [],
+    "bibliography": []
+  }
+}

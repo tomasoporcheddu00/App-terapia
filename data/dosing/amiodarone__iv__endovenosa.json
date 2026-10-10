@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "amiodarone__iv__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Amiodarone (Cordarone) - RCP (Codifa/Pharmamedix/informazionisuifarmaci su base AIFA): classe III multi-effetto; tossicita' tiroidea/polmonare/epatica/corneale, QT; interazioni con QT-prolunganti, digossina, warfarin, statine.",
+        "url": "http://www.carloanibaldi.com/terapia/schede/CORDARONE.html",
+        "identifier": "Cordarone RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Antiaritmico a indice terapeutico stretto: confermare dose, funzione renale/epatica e QT."
+  },
+  "drugId": "amiodarone",
+  "indication": "arrhythmia",
+  "scenario": "Aritmie acute (endovena)",
+  "route": "endovenosa",
+  "dose": {
+    "loading": "150-300 mg EV in bolo/infusione",
+    "maintenance": "circa 900-1200 mg/24 ore in infusione",
+    "note": "preferibile accesso venoso centrale (rischio di flebite periferica)"
+  },
+  "administration": {
+    "notes": "Infusione EV sotto monitoraggio ECG e pressorio. Uso ospedaliero."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

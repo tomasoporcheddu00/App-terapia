@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "diltiazem__hypertension__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Diltiazem - RCP (Mediately/Starbene/Codifa/Pharmamedix su base AIFA): indicazioni angina/ipertensione, dose (rilascio immediato e prolungato), controindicazioni, interazioni CYP3A4 e betabloccanti/ivabradina.",
+        "url": "https://mediately.co/it/drugs/E1FXu5Rl0PZJWYe6niXRNWHUWbr/dilzene-24-cpr-120-mg-rilascio-prolungato",
+        "identifier": "Diltiazem RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "diltiazem",
+  "indication": "hypertension",
+  "scenario": "Ipertensione arteriosa lieve-moderata",
+  "route": "orale",
+  "dose": {
+    "initial": "30-60 mg tre volte al giorno (rilascio immediato); nell'anziano/IR iniziare a 30 mg tre volte/die",
+    "maintenance": "rilascio prolungato 120 mg ogni 12 ore o 240-300 mg una volta/die",
+    "max": "360 mg al giorno"
+  },
+  "administration": {
+    "notes": "Sempre alla stessa ora; formulazioni prolungate da deglutire intere."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

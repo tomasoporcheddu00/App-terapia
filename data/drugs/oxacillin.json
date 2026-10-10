@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "id": "oxacillin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "SCOPO DELLA SCHEDA: in questo atlante cardiologico gli antibiotici sono trattati SOLO per il ruolo nell'endocardite infettiva; per ogni altro impiego fare riferimento all'RCP e alla consulenza infettivologica. Regimi sintetizzati dalle linee guida ESC 2023 sull'endocardite (tabelle 7-10) tramite fonti secondarie e dal position statement SPILF-AEPEI: DA CONFERMARE sul testo integrale delle linee guida e sul corrigendum 2025, che ha corretto le dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10. La scelta di molecola, dose e durata dipende da patogeno, MIC, tipo di valvola (nativa o protesica) e funzione renale, e va concordata con l'Endocarditis Team. Stato: revisione fonti (source-review). Ruolo nell'endocardite: la scelta e la durata dipendono da patogeno, MIC e tipo di valvola. Verificare sempre le tabelle ESC 2023 aggiornate al corrigendum e concordare con l'Endocarditis Team.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Oxacillina",
+    "inn": "oxacillina",
+    "brandExamplesIt": [
+      "Oxacillina sodica"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Penicillina isossazolica antistafilococcica",
+  "identity": {
+    "atcCodes": [
+      "J01CF04"
+    ],
+    "formulations": [
+      "Polvere per soluzione iniettabile"
+    ],
+    "potentialRoutes": [
+      "endovenosa"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "penicillins"
+  ],
+  "quickSummary": {
+    "whatItIs": "Penicillina antistafilococcica equivalente alla flucloxacillina, impiegata negli stessi schemi dell'endocardite da MSSA; disponibilita' variabile secondo il paese.",
+    "mainUses": [
+      "Endocardite da Staphylococcus aureus meticillino-sensibile"
+    ],
+    "mainRisks": [
+      "Reazioni di ipersensibilita'",
+      "Epatotossicita'",
+      "Somministrazioni frequenti ad alte dosi"
+    ],
+    "essentialMonitoring": [
+      "Funzione epatica e renale",
+      "Emocolture di controllo"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Infezioni da stafilococchi produttori di penicillinasi, secondo la scheda tecnica"
+    ],
+    "guidelineIndications": [
+      "Endocardite da MSSA: oxacillina 12 g al giorno per via endovenosa in 6 somministrazioni; su valvola protesica in associazione a rifampicina 900 mg al giorno e gentamicina 3 mg/kg al giorno per 2 settimane, con durata di almeno 6 settimane",
+      "Nelle sintesi internazionali oxacillina e flucloxacillina (e nafcillina) sono considerate intercambiabili negli schemi anti-MSSA secondo la disponibilita' locale"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alle penicilline o ad altri beta-lattamici"
+    ],
+    "warnings": [
+      "Epatotossicita' e nefrite interstiziale, come per la classe",
+      "Anafilassi e reazioni di ipersensibilita' gravi",
+      "Carico di sodio alle dosi elevate: attenzione nel paziente con scompenso",
+      "Adeguare la dose alla funzione renale"
+    ],
+    "adverseEffects": [
+      "Reazioni di ipersensibilita'",
+      "Aumento delle transaminasi",
+      "Nefrite interstiziale",
+      "Diarrea e colite da Clostridioides difficile",
+      "Flebite in sede di infusione"
+    ],
+    "overdose": "Il sovradosaggio puo' causare neurotossicita' nell'insufficienza renale. Terapia di supporto.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Ridurre la dose secondo la clearance.",
+      "hepatic": "Cautela e monitoraggio.",
+      "elderly": "Attenzione a funzione renale ed epatica.",
+      "pregnancy": "Consultare l'RCP.",
+      "breastfeeding": "Consultare l'RCP."
+    },
+    "alternativeDrugIds": [
+      "flucloxacillin",
+      "cefazolin",
+      "vancomycin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' equivalente alla flucloxacillina: stessa famiglia, stesso ruolo contro lo stafilococco sensibile. Quale si usa dipende da cosa e' disponibile.",
+    "clinicalExplanation": "Penicillina isossazolica resistente alle penicillinasi, impiegata negli schemi anti-MSSA in alternativa alla flucloxacillina (12 g/die in 6 somministrazioni). Nell'endocardite su protesi si associa a rifampicina e gentamicina con durata di almeno 6 settimane.",
+    "molecularExplanation": "Inibisce le proteine leganti la penicillina, resistendo all'idrolisi delle penicillinasi.",
+    "pharmacodynamics": "Battericida tempo-dipendente.",
+    "molecularTarget": "Proteine leganti la penicillina (PBP) stafilococciche",
+    "agonismAntagonism": "Inibizione della sintesi o della funzione batterica",
+    "pharmacokinetics": {
+      "route": "Endovenosa",
+      "halfLife": "Circa 30-60 minuti",
+      "note": "Elevato legame proteico; eliminazione renale ed epatica"
+    },
+    "bibliography": []
+  }
+}

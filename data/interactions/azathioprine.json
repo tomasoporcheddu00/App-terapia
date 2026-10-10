@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "id": "azathioprine",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-28T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Azatioprina (Azafor, Immunoprin) - RCP (Torrinomedica su base AIFA): indicazioni, controindicazioni, TPMT/NUDT15, riduzione a un quarto con allopurinolo, interazioni con ACE-inibitori.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/azafor_50_mg_compresse_rivestite_con_film/",
+        "identifier": "Azafor RCP",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "smpc",
+        "citation": "Immunoprin (azatioprina) - RCP (Torrinomedica): monitoraggio emocromocitometrico e interazioni con aminosalicilati, ACE-inibitori, trimetoprim/sulfametoxazolo, cimetidina, indometacina.",
+        "url": "https://farmaci.torrinomedica.it/Immunoprin/",
+        "identifier": "Immunoprin RCP",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Interazioni da RCP. Interazione con allopurinolo e con gli ACE-inibitori: entrambe molto rilevanti nel paziente cardiologico. Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "azathioprine",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Allopurinolo, ossipurinolo, tiopurinolo (a dose piena di azatioprina)",
+      "effect": "Inibizione della xantina ossidasi con accumulo dei metaboliti attivi e mielosoppressione grave",
+      "management": "Se l'associazione e' indispensabile, ridurre la dose di azatioprina a UN QUARTO della dose originale e monitorare strettamente l'emocromo"
+    },
+    {
+      "severity": "major",
+      "agent": "ACE-inibitori",
+      "effect": "Aumento del rischio di mielosoppressione (in particolare leucopenia e anemia)",
+      "management": "Monitoraggio ravvicinato dell'emocromo; associazione frequente nel paziente cardiologico"
+    },
+    {
+      "severity": "major",
+      "agent": "Aminosalicilati (mesalazina, olsalazina, sulfasalazina)",
+      "effect": "Inibizione della TPMT con aumento della tossicita' midollare",
+      "management": "Stretto monitoraggio dell'emocromo; valutare riduzione di dose"
+    },
+    {
+      "severity": "major",
+      "agent": "Trimetoprim/sulfametoxazolo, cimetidina, indometacina",
+      "effect": "Aumento del rischio di mielosoppressione",
+      "management": "Monitoraggio ravvicinato dell'emocromo"
+    },
+    {
+      "severity": "major",
+      "agent": "Farmaci citotossici e mielodepressivi, radioterapia",
+      "effect": "Mielosoppressione additiva",
+      "management": "Evitare o ridurre la dose con sorveglianza ematologica stretta"
+    },
+    {
+      "severity": "major",
+      "agent": "Vaccini vivi attenuati",
+      "effect": "Rischio di infezione da ceppo vaccinale nell'immunodepresso",
+      "management": "Non raccomandati durante il trattamento"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Bloccanti neuromuscolari (atracurio, rocuronio, cisatracurio, suxametonio)",
+      "effect": "Alterazione dell'effetto del bloccante neuromuscolare",
+      "management": "Particolare attenzione in ambito anestesiologico; segnalare la terapia in corso"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Warfarin",
+      "effect": "Possibile riduzione dell'effetto anticoagulante",
+      "management": "Controllo ravvicinato dell'INR"
+    }
+  ]
+}

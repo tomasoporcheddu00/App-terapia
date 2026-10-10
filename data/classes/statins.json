@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "id": "statins",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Statine (inibitori della HMG-CoA reduttasi): sintesi da RCP/portali AIFA.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/atorvastatina/",
+        "identifier": "Statine classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe delle statine sintetizzata da RCP; intensita' e interazioni da confermare su RCP ufficiali e linee guida ESC/EAS."
+  },
+  "name": "Statine",
+  "atcGroup": "C10AA",
+  "memberDrugIds": [
+    "atorvastatin",
+    "rosuvastatin",
+    "simvastatin",
+    "pravastatin",
+    "pitavastatin"
+  ],
+  "mechanismSummary": "Inibizione competitiva della HMG-CoA reduttasi (enzima limitante della sintesi epatica del colesterolo): la deplezione di colesterolo intracellulare aumenta l'espressione dei recettori delle LDL e la rimozione delle LDL dal circolo.",
+  "molecularTarget": "HMG-CoA reduttasi",
+  "pharmacodynamics": "Riduzione marcata del colesterolo LDL (dose- e molecola-dipendente), modesta riduzione dei trigliceridi e lieve aumento dell'HDL; riduzione documentata degli eventi cardiovascolari.",
+  "classEffects": [
+    "Riduzione del colesterolo LDL e degli eventi cardiovascolari (prevenzione primaria e secondaria)",
+    "Effetti pleiotropici (stabilizzazione della placca) - da confermare come rilevanza clinica"
+  ],
+  "sharedContraindications": [
+    "Epatopatia attiva o transaminasi persistentemente elevate",
+    "Gravidanza e allattamento",
+    "Ipersensibilita'"
+  ],
+  "sharedAdverseEffects": [
+    "Mialgie e (rara) miopatia/rabdomiolisi",
+    "Aumento delle transaminasi e della CK",
+    "Diabete di nuova insorgenza (piccolo aumento)"
+  ],
+  "monitoring": [
+    "Profilo lipidico",
+    "Transaminasi",
+    "CK in caso di sintomi muscolari"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Le statine differiscono per intensita' e interazioni. Alta intensita': atorvastatina 40-80 mg e rosuvastatina 20-40 mg (rosuvastatina la piu' potente per milligrammo). Intensita' moderata: simvastatina, pravastatina, pitavastatina. Il metabolismo distingue il profilo di interazioni: simvastatina e atorvastatina (CYP3A4) risentono di azoli, macrolidi, inibitori delle proteasi e pompelmo; rosuvastatina e pitavastatina dipendono dai trasportatori (OATP1B1) con la ciclosporina come interazione chiave; pravastatina e pitavastatina hanno il profilo piu' 'pulito'. La rosuvastatina ha restrizioni specifiche per la dose da 40 mg (etnia asiatica, IR, ipotiroidismo, malattie muscolari). Dettagli nelle singole schede."
+}

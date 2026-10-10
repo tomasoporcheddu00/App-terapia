@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "id": "metformin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Metformina - RCP (Codifa/Torrinomedica/EMA Competact): controindicazioni, acidosi lattica, sospensione con mezzo di contrasto iodato, interazioni con FANS, ACE-inibitori, sartani e diuretici.",
+        "url": "https://www.ema.europa.eu/it/documents/product-information/competact-epar-product-information_it.pdf",
+        "identifier": "Metformina RCP",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Associazione Medici Endocrinologi - AME News sulla metformina: uso fino a filtrato di 30 mL/min con riduzione della dose, avvio a 500 mg/die per la tollerabilita', sospensione prima del mezzo di contrasto.",
+        "url": "https://www.associazionemediciendocrinologi.it/images/pubblicazioni/AMEnews/2019/AME_News-38-luglio-2019.pdf",
+        "identifier": "AME News metformina",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da RCP EMA/AIFA e da fonti secondarie derivate dagli RCP (Torrinomedica/Codifa/Mediately, registro comunitario EC). DA CONFERMARE sugli RCP ufficiali. Stato: revisione fonti (source-review), non ancora approvato. NB: per questi farmaci l'indicazione, la rimborsabilita' e il piano terapeutico in Italia variano per prodotto commerciale e indicazione (diabete vs controllo del peso): verificare sempre prima di prescrivere. La regola del mezzo di contrasto (stop e ripresa non prima di 48 ore con funzione renale rivalutata) e' la nozione piu' utile nel paziente cardiologico avviato a coronarografia o TC con contrasto.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Metformina",
+    "inn": "metformina",
+    "brandExamplesIt": [
+      "Glucophage",
+      "Metforal"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Biguanide, prima linea nel diabete tipo 2",
+  "identity": {
+    "atcCodes": [
+      "A10BA02"
+    ],
+    "formulations": [
+      "Compresse a rilascio immediato e prolungato (500, 850, 1000 mg)"
+    ],
+    "potentialRoutes": [
+      "orale"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "biguanides"
+  ],
+  "quickSummary": {
+    "whatItIs": "Biguanide di prima linea nel diabete tipo 2. In cardiologia il punto pratico piu' importante non e' l'efficacia ma la gestione delle sospensioni: mezzo di contrasto iodato, malattie acute, disidratazione.",
+    "mainUses": [
+      "Diabete mellito di tipo 2, in particolare in sovrappeso, in aggiunta a dieta ed esercizio fisico"
+    ],
+    "mainRisks": [
+      "Acidosi lattica: complicanza molto rara ma grave, favorita dal peggioramento acuto della funzione renale, dall'ipossia tissutale e dalla sepsi",
+      "Controindicata con filtrato glomerulare inferiore a 30 mL/min",
+      "Va sospesa prima dell'esame con mezzo di contrasto iodato",
+      "Disturbi gastrointestinali fino a un quarto dei pazienti"
+    ],
+    "essentialMonitoring": [
+      "Funzione renale (eGFR) periodica e a ogni evento intercorrente",
+      "Sospensione temporanea in caso di disidratazione, malattia acuta o esame contrastografico",
+      "Vitamina B12 nei trattamenti prolungati"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento del diabete mellito di tipo 2, in particolare nei pazienti in sovrappeso, quando dieta ed esercizio fisico non sono sufficienti, in monoterapia o in associazione ad altri antidiabetici o all'insulina"
+    ],
+    "guidelineIndications": [
+      "Prima linea nel diabete tipo 2 secondo la pratica corrente; nelle linee guida ESC 2023 sul diabete la priorita' nei pazienti con malattia aterosclerotica, scompenso o malattia renale va comunque ai farmaci con beneficio cardiovascolare dimostrato (SGLT2-inibitori e agonisti del GLP-1), indipendentemente dal controllo glicemico e dall'uso di metformina"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Qualsiasi tipo di acidosi metabolica acuta (acidosi lattica, chetoacidosi diabetica) e pre-coma diabetico",
+      "Insufficienza renale severa (filtrato glomerulare inferiore a 30 mL/min)",
+      "Condizioni acute potenzialmente in grado di alterare la funzione renale (disidratazione, infezione grave, shock)",
+      "Patologie acute o croniche che possono causare ipossia tissutale, come insufficienza cardiaca o respiratoria, infarto miocardico recente, shock",
+      "Insufficienza epatica, intossicazione alcolica acuta, alcolismo",
+      "Somministrazione intravascolare di mezzi di contrasto iodati (vedere avvertenze)"
+    ],
+    "warnings": [
+      "MEZZO DI CONTRASTO IODATO: la somministrazione intravascolare puo' causare nefropatia da contrasto, con accumulo di metformina e aumento del rischio di acidosi lattica. La metformina deve essere INTERROTTA prima o al momento dell'esame e NON deve essere ripresa finche' non siano trascorse ALMENO 48 ORE, e solo dopo aver rivalutato la funzione renale e averla trovata stabile - avvertenza cruciale in cardiologia interventistica",
+      "ACIDOSI LATTICA: complicanza metabolica molto rara ma grave, che insorge soprattutto per peggioramento acuto della funzione renale, malattia cardiorespiratoria o sepsi. Altri fattori di rischio: eccessivo consumo di alcol, compromissione epatica, diabete scarsamente controllato, chetosi, digiuno prolungato e ogni condizione associata a ipossia",
+      "In caso di disidratazione (vomito o diarrea gravi, febbre, esposizione al calore, ridotta assunzione di liquidi) la metformina va sospesa temporaneamente e il paziente deve rivolgersi al medico",
+      "Cautela nell'iniziare farmaci che possono compromettere acutamente la funzione renale in pazienti in metformina: FANS (inclusi gli inibitori selettivi della COX-2), ACE-inibitori, sartani e diuretici, in particolare i diuretici dell'ansa",
+      "Nell'anziano la riduzione della funzione renale e' frequente e asintomatica: particolare cautela all'avvio di terapia antipertensiva, diuretica o con FANS",
+      "Per migliorare la tollerabilita' gastrointestinale iniziare con dosaggio basso (500 mg al giorno) e aumentare gradualmente"
+    ],
+    "adverseEffects": [
+      "Disturbi gastrointestinali (diarrea, nausea, dolore addominale), fino a circa un quarto dei pazienti",
+      "Disgeusia (sapore metallico)",
+      "Riduzione dell'assorbimento di vitamina B12 nei trattamenti prolungati",
+      "Acidosi lattica (molto rara ma grave)"
+    ],
+    "overdose": "Il sovradosaggio o l'accumulo comportano rischio di acidosi lattica, che si manifesta con crampi, dolore addominale, astenia intensa, dispnea e ipotermia e puo' evolvere in coma: e' un'emergenza medica. Il trattamento e' l'emodialisi, che rimuove efficacemente la metformina e corregge l'acidosi.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Controindicata con eGFR <30 mL/min; con eGFR 30-59 e' possibile l'uso con riduzione della dose e sorveglianza; sospendere temporaneamente in ogni condizione che alteri acutamente la funzione renale.",
+      "hepatic": "Controindicata nell'insufficienza epatica (rischio di acidosi lattica).",
+      "elderly": "La funzione renale ridotta e' frequente e asintomatica: valutare l'eGFR prima e durante il trattamento e a ogni introduzione di antipertensivi, diuretici o FANS.",
+      "pregnancy": "Valutazione specialistica; consultare l'RCP.",
+      "breastfeeding": "Consultare l'RCP."
+    },
+    "alternativeDrugIds": [
+      "dapagliflozin",
+      "empagliflozin",
+      "semaglutide"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' la pastiglia storica per il diabete. In cardiologia la cosa da ricordare non e' come si prende ma quando si sospende: prima di una coronarografia con mezzo di contrasto va fermata e ripresa solo dopo almeno 48 ore, con la funzione dei reni ricontrollata.",
+    "clinicalExplanation": "Biguanide che riduce la produzione epatica di glucosio e migliora la sensibilita' insulinica periferica, senza causare ipoglicemia in monoterapia. Prima linea nel diabete tipo 2. Il rischio raro ma temibile e' l'acidosi lattica, legata all'accumulo del farmaco quando la funzione renale peggiora acutamente o in condizioni di ipossia tissutale: da qui le controindicazioni (eGFR <30, scompenso o insufficienza respiratoria, infarto recente, shock) e la regola di sospensione prima del mezzo di contrasto iodato con ripresa non prima di 48 ore.",
+    "molecularExplanation": "Attiva la AMP-chinasi epatica riducendo la gluconeogenesi; aumenta la captazione periferica di glucosio e riduce l'assorbimento intestinale. Interferisce con il complesso I mitocondriale, meccanismo alla base della produzione di lattato in condizioni di ipossia o accumulo.",
+    "pharmacodynamics": "Riduzione della glicemia senza stimolare la secrezione insulinica (nessuna ipoglicemia in monoterapia); effetto neutro o favorevole sul peso.",
+    "molecularTarget": "AMP-chinasi (AMPK) e complesso I della catena respiratoria mitocondriale",
+    "agonismAntagonism": "Attivazione indiretta di AMPK",
+    "pharmacokinetics": {
+      "route": "Orale",
+      "halfLife": "Circa 6,5 ore in plasma; eliminazione RENALE per secrezione tubulare, immodificata",
+      "note": "L'accumulo nell'insufficienza renale e' il meccanismo dell'acidosi lattica; rimossa dall'emodialisi"
+    },
+    "bibliography": []
+  }
+}

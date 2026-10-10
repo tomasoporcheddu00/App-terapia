@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "id": "glycopeptides",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Pagina di classe da linee guida ESC 2023 sull'endocardite e position statement SPILF-AEPEI; in questo atlante gli antibiotici sono trattati solo per il ruolo nell'endocardite."
+  },
+  "name": "Glicopeptidi",
+  "atcGroup": "J01XA - Antibatterici glicopeptidici",
+  "memberDrugIds": [
+    "vancomycin"
+  ],
+  "mechanismSummary": "Legame ai residui D-alanil-D-alanina dei precursori del peptidoglicano, che impedisce polimerizzazione e transpeptidazione della parete.",
+  "molecularTarget": "Precursori del peptidoglicano (terminale D-Ala-D-Ala)",
+  "pharmacodynamics": "Battericidi tempo-dipendenti; l'efficacia si correla al rapporto AUC/MIC, da cui la necessita' di monitoraggio terapeutico.",
+  "classEffects": [
+    "Sono il riferimento contro i Gram-positivi resistenti ai beta-lattamici (MRSA, enterococchi beta-lattamico-resistenti) e nell'allergia grave alle penicilline",
+    "Nell'endocardite la vancomicina si usa a 30-60 mg/kg/die con target di valle 15-20 microgrammi/mL",
+    "L'efficacia si riduce quando la MIC supera 1 mg/L: in quel caso preferire un'alternativa",
+    "L'associazione con gentamicina, prevista in alcuni schemi su protesi, aumenta sensibilmente il rischio renale"
+  ],
+  "sharedContraindications": [
+    "Ipersensibilita' ai glicopeptidi"
+  ],
+  "sharedAdverseEffects": [
+    "Nefrotossicita'",
+    "Reazione da infusione rapida (sindrome dell'uomo rosso)",
+    "Neutropenia e trombocitopenia nei trattamenti prolungati",
+    "Ototossicita'"
+  ],
+  "monitoring": [
+    "Livelli plasmatici (valle o AUC) secondo il protocollo locale",
+    "Funzione renale ravvicinata",
+    "Emocromo nei trattamenti prolungati"
+  ],
+  "reversal": "Nessun antidoto: sospensione, idratazione e supporto; rimozione limitata con dialisi convenzionale.",
+  "notesOnClassVsMolecule": "Nel paziente con endocardite su protesi in cui servirebbe anche la gentamicina, la daptomicina puo' essere preferibile alla vancomicina per il profilo renale."
+}

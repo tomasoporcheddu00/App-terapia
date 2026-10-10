@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "id": "acenocoumarol",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Riassunto delle Caratteristiche del Prodotto Sintrom (acenocumarolo), sez. 4.1-4.9 (RCP italiana AIFA).",
+        "url": "https://www.codifa.it/farmaci/s/sintrom-acenocumarolo-anticoagulanti-orali-indiretti",
+        "identifier": "Sintrom (acenocumarolo)",
+        "retrievedAt": "2026-07-18"
+      },
+      {
+        "type": "guideline",
+        "citation": "2024 ESC/EACTS Guidelines for the management of atrial fibrillation, Eur Heart J 2024 (target INR 2,0-3,0 per FA in terapia con VKA). Sintesi consultata: Medscape/ACC.",
+        "url": "https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2024/09/17/04/05/2024-esc-guidelines-for-af-esc-2024",
+        "identifier": "ESC/EACTS 2024 AF",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Contenuto tratto dalla RCP italiana Sintrom (via codifa/torrinomedica, che riproducono la scheda AIFA). ATC B01AA07 dalla classificazione WHO (non presente nella fonte recuperata): da confermare. Target INR 2,0-3,0 valido per la FA da ESC 2024; per altre indicazioni il target varia. Codici AIC e classe/regime per confezione da verificare su banca dati AIFA.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Acenocumarolo",
+    "inn": "acenocoumarol",
+    "brandExamplesIt": [
+      "Sintrom"
+    ]
+  },
+  "synonyms": [
+    "Nicumalone"
+  ],
+  "classIds": [
+    "vitamin-k-antagonists"
+  ],
+  "subclass": "Derivato cumarinico (antagonista della vitamina K)",
+  "classificationStatus": "confirmed",
+  "identity": {
+    "atcCodes": [
+      "B01AA07"
+    ],
+    "formulations": [
+      "compresse 1 mg",
+      "compresse 4 mg"
+    ],
+    "potentialRoutes": [
+      "oral"
+    ],
+    "availabilityStatus": "available",
+    "marketingAuthorisationIt": true
+  },
+  "linkedMacroAreaIds": [
+    "atrial-fibrillation",
+    "venous-thromboembolism",
+    "mechanical-heart-valves"
+  ],
+  "quickSummary": {
+    "whatItIs": "Anticoagulante orale cumarinico che antagonizza la vitamina K riducendo la sintesi dei fattori della coagulazione vitamina K-dipendenti.",
+    "mainUses": [
+      "Trattamento e prevenzione delle affezioni tromboemboliche"
+    ],
+    "mainRisks": [
+      "Emorragia",
+      "Teratogenicita' (controindicato in gravidanza)",
+      "Ampia variabilita' di risposta"
+    ],
+    "essentialMonitoring": [
+      "PT/INR regolare con adattamento posologico"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento e prevenzione delle affezioni tromboemboliche"
+    ],
+    "guidelineIndications": [
+      "ESC/EACTS 2024 (FA): i VKA restano indicati quando i DOAC sono controindicati (protesi valvolari meccaniche, stenosi mitralica moderata-severa) o non appropriati; target INR 2,0-3,0. Nei DOAC-eleggibili i DOAC come classe sono preferiti."
+    ],
+    "offLabelUses": [],
+    "populations": [
+      "Adulti con indicazione a terapia anticoagulante orale; nell'anziano dosi iniziali/di mantenimento inferiori"
+    ],
+    "advantages": [
+      "Reversibilita' con vitamina K",
+      "Esperienza clinica pluridecennale",
+      "Utilizzabile quando i DOAC sono controindicati (es. protesi meccaniche)"
+    ],
+    "limitations": [
+      "Necessita' di monitoraggio INR",
+      "Ampia variabilita' inter- e intra-individuale",
+      "Numerose interazioni con farmaci, alimenti ricchi di vitamina K ed erbe"
+    ],
+    "alternativeDrugIds": [
+      "warfarin",
+      "apixaban",
+      "rivaroxaban",
+      "edoxaban",
+      "dabigatran"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' all'acenocumarolo o ad altri derivati cumarinici",
+      "Gravidanza (rischio teratogeno) e donne che potrebbero iniziare una gravidanza",
+      "Diatesi emorragica e/o discrasia ematica",
+      "Immediatamente prima o dopo chirurgia del SNC, chirurgia oftalmica o chirurgia traumatizzante con ampia esposizione tissutale",
+      "Ulcera peptica o emorragia in atto (gastrointestinale, urogenitale, respiratoria); emorragie cerebrovascolari",
+      "Pericardite acuta e versamento pericardico; endocardite batterica",
+      "Ipertensione grave",
+      "Compromissione epatica grave; compromissione renale grave",
+      "Aumentata attivita' fibrinolitica (es. dopo chirurgia su polmoni, prostata, utero; pancreatite acuta)",
+      "Grave insufficienza circolatoria con stasi epatica",
+      "Scarsa collaborazione del paziente (impossibilita' di monitoraggio affidabile)"
+    ],
+    "relativeContraindications": [],
+    "warnings": [
+      "Necessario monitoraggio regolare di PT/INR con adattamento della dose",
+      "La sensibilita' varia tra pazienti e nel tempo",
+      "Cautela in insufficienza epatica lieve-moderata e nell'anziano",
+      "Numerose interazioni (CYP2C9/2C19/3A4, vitamina K alimentare, iperico e altre erbe)"
+    ],
+    "adverseEffects": [
+      "Emorragia (piu' frequente)",
+      "Reazioni di ipersensibilita'",
+      "Necrosi cutanea (rara)",
+      "Alterazioni epatiche"
+    ],
+    "overdose": "Rischio emorragico dose-dipendente. Gestione con sospensione, vitamina K e, nelle emorragie gravi, concentrati di complesso protrombinico o plasma fresco congelato (verificare contro RCP/linee guida specifiche).",
+    "antidoteDrugIds": [
+      "phytomenadione"
+    ],
+    "monitoring": [
+      "PT/INR regolare",
+      "Segni di sanguinamento",
+      "Funzione epatica"
+    ],
+    "discontinuation": "La sospensione va gestita in base al rischio trombotico; possibile bridging secondo indicazione (verificare con linee guida).",
+    "specialPopulations": {
+      "renal": "Controindicato in compromissione renale grave.",
+      "hepatic": "Controindicato in compromissione epatica grave; cautela nella lieve-moderata.",
+      "elderly": "Possono servire dosi iniziali e di mantenimento inferiori e monitoraggio piu' frequente.",
+      "lowBodyWeight": null,
+      "obesity": null,
+      "pregnancy": "Controindicato (teratogeno); usare contraccezione efficace in eta' fertile.",
+      "breastfeeding": "Da valutare secondo RCP (verificare)."
+    },
+    "dosingRegimenIds": [
+      "acenocoumarol__thromboembolism__oral"
+    ],
+    "interactionRefs": [],
+    "regulatoryItId": "acenocoumarol"
+  },
+  "deep": {
+    "simpleExplanation": "Riduce la capacita' del sangue di coagulare abbassando i fattori della coagulazione che dipendono dalla vitamina K; richiede esami del sangue periodici (INR) per regolare la dose.",
+    "clinicalExplanation": "Antagonista della vitamina K a emivita piu' breve del warfarin; effetto anticoagulante monitorato tramite INR e titolato per singolo paziente.",
+    "molecularExplanation": "Inibisce l'enzima vitamina K epossido-reduttasi (VKORC1), impedendo il riciclo della vitamina K necessaria alla gamma-carbossilazione dei fattori II, VII, IX, X e delle proteine C ed S.",
+    "molecularTarget": "Vitamina K epossido-reduttasi (VKORC1)",
+    "agonismAntagonism": "Inibitore (antagonista della vitamina K)",
+    "selectivity": "Agisce sulla sintesi epatica dei fattori vitamina K-dipendenti",
+    "pharmacodynamics": "Riduce fattori II, VII, IX, X e proteine C/S; effetto ritardato per la deplezione dei fattori circolanti; monitoraggio con PT/INR.",
+    "hemodynamicEffects": "Nessun effetto emodinamico diretto.",
+    "electrophysiologicEffects": "Nessun effetto elettrofisiologico diretto.",
+    "pharmacokinetics": {
+      "bioavailability": null,
+      "timeToPeak": null,
+      "halfLife": "Piu' breve del warfarin (da confermare su RCP)",
+      "proteinBinding": null,
+      "metabolism": "Metabolismo epatico via CYP2C9, CYP2C19, CYP3A4",
+      "enzymes": [
+        "CYP2C9",
+        "CYP2C19",
+        "CYP3A4"
+      ],
+      "transporters": [],
+      "activeMetabolites": [],
+      "elimination": null,
+      "dialyzability": null
+    },
+    "evidenceIds": [],
+    "recommendationIds": [],
+    "bibliography": [
+      "2024 ESC/EACTS Guidelines for the management of atrial fibrillation, Eur Heart J 2024"
+    ]
+  }
+}

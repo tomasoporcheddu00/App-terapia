@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "esmolol__svt-rate-control__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Esmololo - RCP (Codifa/Mediately/Informazioni sui farmaci su base AIFA): indicazioni EV e schema posologico perioperatorio.",
+        "url": "https://www.codifa.it/farmaci/e/esmocard-esmololo-cloridrato-betabloccanti-selettivi",
+        "identifier": "Esmololo RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "esmolol",
+  "indication": "svt",
+  "scenario": "Tachiaritmia sopraventricolare / controllo frequenza",
+  "route": "endovenosa",
+  "dose": {
+    "loading": "Dose di carico ~500 microgrammi/kg/min per 1 minuto",
+    "maintenance": "50-200 microgrammi/kg/min in infusione, titolando alla risposta",
+    "max": "fino a 300 microgrammi/kg/min"
+  },
+  "administration": {
+    "notes": "Solo in ambiente monitorato (ECG e PA continui). Titolare alla frequenza/pressione desiderata; l'effetto regredisce rapidamente sospendendo l'infusione."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

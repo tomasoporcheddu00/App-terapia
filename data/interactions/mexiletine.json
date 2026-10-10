@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "mexiletine",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Mexiletina - RCP (Codifa/Torrinomedica/EMA Namuscla): classe Ib orale, aritmie ventricolari (Mexitil, uso storico); in Italia Namuscla per la miotonia, con controindicazioni cardiache.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/namuscla/",
+        "identifier": "Mexiletina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "mexiletine",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Altri antiaritmici (betabloccanti, verapamil, diltiazem) e farmaci che inducono torsione di punta",
+      "effect": "Maggior rischio di reazioni cardiache avverse",
+      "management": "Associazione non raccomandata salvo casi eccezionali"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Oppiacei",
+      "effect": "Rallentamento dell'assorbimento orale",
+      "management": "Considerare nella valutazione della risposta"
+    }
+  ]
+}

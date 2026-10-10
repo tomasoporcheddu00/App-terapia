@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "id": "rivaroxaban__nvaf-stroke-prevention__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Xarelto (rivaroxaban) sez. 4.2 - FANV 20 mg/die (15 mg se CrCl 15-49); assunzione con il cibo.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/xarelto-20/",
+        "identifier": "Xarelto posologia FANV",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Regime FANV. Per TVP/EP: 15 mg due volte/die per 3 settimane poi 20 mg/die; per prevenzione recidive 10 o 20 mg/die; per la dose vascolare 2,5 mg due volte/die con ASA: file dosing separati. id indicazione da riconciliare col vocabolario.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "rivaroxaban",
+  "indication": "nvaf-stroke-prevention",
+  "scenario": "Prevenzione di ictus ed embolia sistemica nella FANV",
+  "route": "oral",
+  "formulation": null,
+  "population": "adult-standard",
+  "dose": {
+    "loading": null,
+    "initial": "20 mg una volta al giorno con il pasto serale",
+    "interval": "ogni 24 ore",
+    "maintenance": "20 mg una volta al giorno (con il cibo); 15 mg una volta al giorno se CrCl 15-49 mL/min",
+    "target": null,
+    "max": "20 mg/die",
+    "titration": null,
+    "duration": "A lungo termine",
+    "weightBased": null,
+    "cumulative": null,
+    "renalAdjustment": "CrCl >50: 20 mg/die. CrCl 15-50: 15 mg/die. CrCl <15 mL/min: sconsigliato.",
+    "hepaticAdjustment": "Controindicato in epatopatia con coagulopatia (Child-Pugh B/C).",
+    "elderly": "Nessun aggiustamento per la sola eta'.",
+    "pregnancy": "Controindicato.",
+    "dialysis": "Sconsigliato (CrCl <15)."
+  },
+  "administration": {
+    "preparation": null,
+    "solvent": null,
+    "concentration": null,
+    "rate": null,
+    "access": null,
+    "notes": "Compresse 15 e 20 mg da assumere con il cibo (migliora l'assorbimento)."
+  },
+  "monitoring": [
+    "Funzione renale",
+    "Segni di sanguinamento"
+  ],
+  "stoppingCriteria": [
+    "Emorragia",
+    "Chirurgia: sospensione secondo rischio"
+  ],
+  "approvalEvidence": {
+    "primarySourceVerified": false,
+    "smpcVerified": true,
+    "clinicalReviewDone": true,
+    "verificationDate": "2026-07-18",
+    "reviewer": "Curatore clinico"
+  }
+}

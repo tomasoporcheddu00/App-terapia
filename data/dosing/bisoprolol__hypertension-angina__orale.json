@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "bisoprolol__hypertension-angina__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Bisoprololo - RCP (Mediately/Torrinomedica/Pharmamedix su base AIFA): indicazioni, titolazione nello scompenso (CIBIS-II).",
+        "url": "https://mediately.co/it/drugs/6eJyZvKWLKkhrBNvX7kUbi12bW6/bisoprololo-teva-3-75-mg-compresse",
+        "identifier": "Bisoprololo RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "bisoprolol",
+  "indication": "hypertension",
+  "scenario": "Ipertensione / angina pectoris",
+  "route": "orale",
+  "dose": {
+    "initial": "5 mg una volta al giorno",
+    "maintenance": "5-10 mg una volta al giorno",
+    "max": "20 mg al giorno"
+  },
+  "administration": {
+    "notes": "Assunzione al mattino."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

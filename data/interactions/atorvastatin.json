@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "id": "atorvastatin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Atorvastatina - RCP (Mediately/Torrinomedica/Codifa su base AIFA): indicazioni ipercolesterolemia/prevenzione CV, dose 10-80 mg, metabolismo CYP3A4/OATP1B1, miopatia.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/atorvastatina/",
+        "identifier": "Atorvastatina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5; severita' secondo posizionamento RCP e rilevanza clinica.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "atorvastatin",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Inibitori potenti del CYP3A4 (itraconazolo, ketoconazolo, claritromicina, telitromicina, inibitori delle proteasi HIV, ciclosporina)",
+      "effect": "Aumento marcato dell'esposizione all'atorvastatina con rischio di miopatia/rabdomiolisi",
+      "management": "Evitare o usare la dose piu' bassa; monitorare"
+    },
+    {
+      "severity": "major",
+      "agent": "Gemfibrozil / fibrati",
+      "effect": "Aumento del rischio di miopatia",
+      "management": "Evitare il gemfibrozil; con fenofibrato usare cautela"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Grandi quantita' di succo di pompelmo",
+      "effect": "Aumento dei livelli di atorvastatina",
+      "management": "Limitare il succo di pompelmo"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Digossina, contraccettivi orali",
+      "effect": "Lieve aumento delle loro concentrazioni",
+      "management": "Monitorare se indicato"
+    }
+  ]
+}

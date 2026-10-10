@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "urokinase",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Urochinasi (Urochinasi EG/Ukidan/Actosolv) - RCP (Torrinomedica/Mediately su base AIFA): attivatore diretto del plasminogeno non fibrino-specifico; tromboembolie venose/arteriose; EP 4.400 UI/kg poi 4.400 UI/kg/h.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/urokinasi/",
+        "identifier": "Urochinasi RCP",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "urokinase",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Anticoagulanti (eparina, AVK)",
+      "effect": "Aumento del rischio emorragico",
+      "management": "Neutralizzare l'eparina con protamina prima; con cumarinici PT (Quick) >50% prima di iniziare"
+    },
+    {
+      "severity": "major",
+      "agent": "Antiaggreganti (ASA, altri)",
+      "effect": "Aumento del rischio emorragico",
+      "management": "Esaurire l'effetto degli antiaggreganti prima; non usare ASA per la febbre indotta"
+    }
+  ]
+}

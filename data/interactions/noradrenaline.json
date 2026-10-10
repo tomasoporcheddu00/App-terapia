@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "noradrenaline",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Noradrenalina/norepinefrina - RCP (Codifa/Mediately/Torrinomedica su base AIFA): alfa-agonista vasocostrittore, vasopressore di prima scelta nello shock settico; infusione per via centrale; necrosi da stravaso (antidoto fentolamina).",
+        "url": "https://mediately.co/it/drugs/56OYLLMOGOH9vAKkC3TYoJi3qpb/noradrenalina-tartrato-aguettant-0-5-mg-ml-soluzione-per-infusione",
+        "identifier": "Noradrenalina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "noradrenaline",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "IMAO e antidepressivi triciclici",
+      "effect": "Potenziamento marcato e prolungato dell'effetto pressorio",
+      "management": "Evitare / usare con estrema cautela e dosi ridotte"
+    },
+    {
+      "severity": "major",
+      "agent": "Anestetici alogenati / glicosidi cardioattivi",
+      "effect": "Aritmie (sensibilizzazione miocardica)",
+      "management": "Cautela; monitorare l'ECG"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Alfa e beta-bloccanti",
+      "effect": "Alterazione della risposta pressoria",
+      "management": "Monitorare"
+    }
+  ]
+}

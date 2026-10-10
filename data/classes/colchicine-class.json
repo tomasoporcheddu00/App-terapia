@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "id": "colchicine-class",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Colchicina Lirca - RCP (Torrinomedica/Codifa/Mediately su base AIFA): indicazioni gottose, controindicazioni, interazioni CYP3A4/P-gp, avvertenze.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/colchicina_lirca/",
+        "identifier": "Colchicina Lirca RCP",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2025 - Linee guida su miocardite e pericardite: colchicina come adiuvante di prima linea; dosi per peso e durata.",
+        "url": "https://www.giornaledicardiologia.it/archivio/4620/articoli/46292/",
+        "identifier": "ESC 2025 IMPS",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Pagina di classe da RCP e linee guida ESC; da confermare su fonti ufficiali."
+  },
+  "name": "Colchicina",
+  "atcGroup": "M04AC - Antigottosi senza effetto sul metabolismo dell'acido urico",
+  "memberDrugIds": [
+    "colchicine"
+  ],
+  "mechanismSummary": "Alcaloide che inibisce la polimerizzazione dei microtubuli legandosi alla tubulina: blocca chemiotassi, degranulazione e fagocitosi dei neutrofili e l'attivazione dell'inflammasoma NLRP3, riducendo la produzione di IL-1beta.",
+  "molecularTarget": "Tubulina; a valle inflammasoma NLRP3 e via dell'IL-1beta",
+  "pharmacodynamics": "Effetto antinfiammatorio non analgesico e non steroideo, senza azione sull'uricemia. In cardiologia riduce le recidive di pericardite e agisce sul rischio infiammatorio residuo.",
+  "classEffects": [
+    "Riduzione delle recidive nella pericardite acuta e ricorrente (adiuvante di prima linea)",
+    "Riduzione dell'endpoint composito nella coronaropatia negli studi COLCOT e LoDoCo2, guidata in larga parte dalle rivascolarizzazioni",
+    "Nessun effetto sull'uricemia e nessuna azione analgesica diretta"
+  ],
+  "sharedContraindications": [
+    "Grave insufficienza renale, epatica, cardiaca o gastrointestinale",
+    "Associazione con inibitori del CYP3A4 o della glicoproteina-P in presenza di danno renale o epatico",
+    "Gravidanza e allattamento"
+  ],
+  "sharedAdverseEffects": [
+    "Diarrea e disturbi gastrointestinali dose-dipendenti",
+    "Mielosoppressione nel trattamento prolungato o nel sovradosaggio",
+    "Miopatia e rabdomiolisi, soprattutto in associazione a statine"
+  ],
+  "monitoring": [
+    "Funzione renale ed epatica",
+    "Emocromo nei trattamenti prolungati",
+    "Sintomi muscolari se associata a statine"
+  ],
+  "reversal": "Non esiste un antidoto specifico: il sovradosaggio richiede gestione intensiva ospedaliera.",
+  "notesOnClassVsMolecule": "Classe con un'unica molecola disponibile in Italia. In cardiologia si usa a dosi fisse basse (0,5-1 mg/die), molto inferiori a quelle antigottose, e con indicazione da linee guida e non da scheda tecnica."
+}

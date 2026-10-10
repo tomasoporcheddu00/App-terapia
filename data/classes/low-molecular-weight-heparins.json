@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "id": "low-molecular-weight-heparins",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Clexane (enoxaparina) - meccanismo (potenziamento antitrombina III, attivita' prevalente anti-Xa).",
+        "url": "https://www.torrinomedica.it/schede-farmaci/clexane/",
+        "identifier": "EBPM",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Schema del file di classe non definito nei template forniti: struttura proposta, da riconciliare con lo schema del progetto (classes/).",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": "Eparine a basso peso molecolare (EBPM)",
+  "memberDrugIds": [
+    "enoxaparin",
+    "dalteparin"
+  ],
+  "atcGroup": "B01AB",
+  "mechanismSummary": "Potenziano l'antitrombina III accelerando l'inibizione del fattore Xa (attivita' prevalente) e, in misura minore, della trombina; le catene piu' corte spiegano il rapporto anti-Xa/anti-IIa piu' alto rispetto all'eparina non frazionata.",
+  "molecularTarget": "Complesso antitrombina III - fattore Xa (prevalente) e trombina (minore)",
+  "pharmacodynamics": "Effetto anticoagulante prevedibile a dose fissa o peso-basata per via sottocutanea; non richiedono monitoraggio routinario dell'aPTT.",
+  "classEffects": [
+    "Somministrazione sottocutanea, risposta prevedibile",
+    "Eliminazione renale (accumulo in insufficienza renale grave)",
+    "Rischio di HIT inferiore all'UFH"
+  ],
+  "sharedContraindications": [
+    "Sanguinamento in atto / alto rischio emorragico",
+    "Anamnesi di HIT",
+    "Ipersensibilita' all'eparina",
+    "Via intramuscolare (vietata)"
+  ],
+  "sharedAdverseEffects": [
+    "Emorragia",
+    "Trombocitopenia (HIT)",
+    "Reazioni nel sito di iniezione"
+  ],
+  "monitoring": [
+    "Conta piastrinica (HIT)",
+    "Funzione renale",
+    "Anti-Xa in situazioni particolari"
+  ],
+  "reversal": "Protamina (neutralizzazione parziale dell'attivita' anti-Xa).",
+  "notesOnClassVsMolecule": "In questo lotto la classe include l'enoxaparina; esistono altre EBPM (dalteparina, nadroparina, ecc.) non intercambiabili UI-per-UI."
+}

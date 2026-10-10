@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "urapidil__hypertensive-emergency__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Urapidil (Ebrantil) - RCP (Codifa/Mediately/Torrinomedica su base AIFA): alfa-1 bloccante + agonista centrale 5-HT1A, urgenze/emergenze ipertensive e ipertensione resistente; EV bolo/infusione; controindicato in coartazione aortica/shunt AV.",
+        "url": "https://www.codifa.it/farmaci/u/urapidil-kalceks-urapidil-alfabloccanti",
+        "identifier": "Ebrantil RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Da confermare e approvare."
+  },
+  "drugId": "urapidil",
+  "indication": "hypertensive-emergency",
+  "scenario": "Emergenza ipertensiva (endovena)",
+  "route": "endovenosa",
+  "dose": {
+    "bolus": "10-50 mg EV lenti (effetto entro 5-10 minuti), ripetibili secondo la pressione",
+    "infusion": "infusione continua di mantenimento (max 4 mg/mL); velocita' iniziale <=2 mg/min, mantenimento ~9 mg/h (max 7 giorni)",
+    "oral": "formulazione orale a rilascio prolungato 30-90 mg due volte al giorno",
+    "goal": "ridurre la pressione del 20-25% nelle prime ore"
+  },
+  "administration": {
+    "notes": "EV a paziente supino con monitoraggio pressorio. Passaggio a terapia orale per il mantenimento."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

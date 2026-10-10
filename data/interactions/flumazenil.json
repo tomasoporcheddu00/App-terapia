@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "id": "flumazenil",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Flumazenil (Anexate) - RCP AIFA (Codifa/Torrinomedica): antagonista specifico delle benzodiazepine; 0,2 mg poi incrementi; rischio di convulsioni negli epilettici e nelle intossicazioni miste con antidepressivi triciclici; risedazione (monitorare fino a 24h).",
+        "url": "https://www.codifa.it/farmaci/a/anexate-flumazenil-antidoti",
+        "identifier": "Anexate RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "flumazenil",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Benzodiazepine somministrate per condizioni pericolose per la vita (stato epilettico, ipertensione endocranica)",
+      "effect": "La reversione elimina l'effetto protettivo con rischio di recidiva della condizione",
+      "management": "Non somministrare"
+    },
+    {
+      "severity": "major",
+      "agent": "Antidepressivi triciclici (intossicazione mista)",
+      "effect": "L'antagonismo delle benzodiazepine puo' smascherare convulsioni e aritmie da antidepressivi",
+      "management": "Evitare/massima cautela; monitoraggio ECG"
+    },
+    {
+      "severity": "major",
+      "agent": "Benzodiazepine (midazolam, diazepam, lorazepam)",
+      "effect": "Antagonismo specifico (e' l'antidoto); rischio di astinenza e risedazione",
+      "management": "Titolare per piccoli incrementi; monitorare la ricomparsa della sedazione"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Farmaci epilettogeni",
+      "effect": "Aumento del rischio convulsivo",
+      "management": "Cautela"
+    }
+  ]
+}

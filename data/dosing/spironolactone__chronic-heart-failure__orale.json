@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "spironolactone__chronic-heart-failure__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Spironolattone - RCP/fonti cliniche (MSD, RALES, portali AIFA): indicazioni scompenso/ipertensione, dose, iperkaliemia, effetti antiandrogeni.",
+        "url": "https://www.msdmanuals.com/it/professionale/disturbi-dell-apparato-cardiovascolare/insufficienza-cardiaca/farmaci-per-l-insufficienza-cardiaca",
+        "identifier": "Spironolattone RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EPAR; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "spironolactone",
+  "indication": "chronic-heart-failure",
+  "scenario": "Scompenso cardiaco (add-on)",
+  "route": "orale",
+  "dose": {
+    "initial": "12,5-25 mg una volta al giorno",
+    "titration": "eventuale aumento fino a 50 mg secondo potassio e funzione renale",
+    "maintenance": "25-50 mg al giorno",
+    "max": "50 mg al giorno"
+  },
+  "administration": {
+    "notes": "Controllare potassio e creatinina 1-2 settimane dopo l'avvio e dopo ogni variazione di dose. Sospendere i supplementi di potassio."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

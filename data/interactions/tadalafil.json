@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "id": "tadalafil",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Tadalafil (Adcirca) - RCP EMA/AIFA: PDE5-inibitore per la PAH classe II-III; 40 mg una volta al giorno; controindicato con nitrati, riociguat, NAION.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/EPAR/adcirca",
+        "identifier": "Adcirca RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "tadalafil",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Nitrati / donatori di ossido nitrico",
+      "effect": "Ipotensione grave potenzialmente fatale",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "contraindicated",
+      "agent": "Riociguat (stimolatore della sGC)",
+      "effect": "Ipotensione sintomatica",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "major",
+      "agent": "Inibitori potenti del CYP3A4 (ketoconazolo, ritonavir)",
+      "effect": "Aumento dei livelli di tadalafil",
+      "management": "Cautela"
+    },
+    {
+      "severity": "major",
+      "agent": "Alfa-bloccanti",
+      "effect": "Ipotensione posturale",
+      "management": "Cautela"
+    }
+  ]
+}

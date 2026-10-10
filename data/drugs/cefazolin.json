@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "id": "cefazolin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "SCOPO DELLA SCHEDA: in questo atlante cardiologico gli antibiotici sono trattati SOLO per il ruolo nell'endocardite infettiva; per ogni altro impiego fare riferimento all'RCP e alla consulenza infettivologica. Regimi sintetizzati dalle linee guida ESC 2023 sull'endocardite (tabelle 7-10) tramite fonti secondarie e dal position statement SPILF-AEPEI: DA CONFERMARE sul testo integrale delle linee guida e sul corrigendum 2025, che ha corretto le dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10. La scelta di molecola, dose e durata dipende da patogeno, MIC, tipo di valvola (nativa o protesica) e funzione renale, e va concordata con l'Endocarditis Team. Stato: revisione fonti (source-review). Ruolo nell'endocardite: la scelta e la durata dipendono da patogeno, MIC e tipo di valvola. Verificare sempre le tabelle ESC 2023 aggiornate al corrigendum e concordare con l'Endocarditis Team.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Cefazolina",
+    "inn": "cefazolina",
+    "brandExamplesIt": [
+      "Cefazolina"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Cefalosporina di prima generazione",
+  "identity": {
+    "atcCodes": [
+      "J01DB04"
+    ],
+    "formulations": [
+      "Polvere per soluzione iniettabile"
+    ],
+    "potentialRoutes": [
+      "endovenosa"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "cephalosporins"
+  ],
+  "quickSummary": {
+    "whatItIs": "Cefalosporina di prima generazione, alternativa alla flucloxacillina nell'endocardite da MSSA, in particolare nei pazienti con allergia non grave alla penicillina.",
+    "mainUses": [
+      "Endocardite da Staphylococcus aureus meticillino-sensibile"
+    ],
+    "mainRisks": [
+      "Reazioni di ipersensibilita' (possibile reattivita' crociata con le penicilline)",
+      "Effetto inoculo con carica batterica elevata (teorico)",
+      "Neurotossicita' da accumulo nell'insufficienza renale"
+    ],
+    "essentialMonitoring": [
+      "Funzione renale prima e durante il trattamento",
+      "Emocolture di controllo per documentare la sterilizzazione",
+      "Segni di reazione allergica"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Infezioni sostenute da microrganismi sensibili, secondo la scheda tecnica"
+    ],
+    "guidelineIndications": [
+      "Endocardite da MSSA: cefazolina 6 g al giorno per via endovenosa in 3 somministrazioni per 4-6 settimane, come alternativa alla flucloxacillina 12 g al giorno - ESC 2023",
+      "Rispetto alle penicilline antistafilococciche offre minore epatotossicita' e somministrazioni meno frequenti"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alle cefalosporine; cautela in caso di reazione grave (anafilassi) a penicilline"
+    ],
+    "warnings": [
+      "Reattivita' crociata con le penicilline: valutare il tipo di reazione allergica prima dell'impiego",
+      "Neurotossicita' con convulsioni da accumulo nell'insufficienza renale: adeguare la dose",
+      "Colite da Clostridioides difficile",
+      "Test di Coombs diretto positivo e rare anemie emolitiche"
+    ],
+    "adverseEffects": [
+      "Reazioni di ipersensibilita' e rash",
+      "Diarrea e colite da Clostridioides difficile",
+      "Aumento delle transaminasi",
+      "Flebite in sede di infusione",
+      "Neurotossicita' nell'insufficienza renale"
+    ],
+    "overdose": "Il sovradosaggio, favorito dall'insufficienza renale, causa neurotossicita' e convulsioni. Terapia di supporto; rimossa dall'emodialisi.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Ridurre la dose secondo la clearance.",
+      "hepatic": "Nessun aggiustamento sistematico.",
+      "elderly": "Attenzione alla funzione renale.",
+      "pregnancy": "Utilizzabile secondo valutazione clinica.",
+      "breastfeeding": "Consultare l'RCP."
+    },
+    "alternativeDrugIds": [
+      "flucloxacillin",
+      "oxacillin",
+      "ceftriaxone"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' una cefalosporina 'vecchia' ma molto efficace contro lo stafilococco sensibile: si da' tre volte al giorno invece di sei ed e' piu' gentile con il fegato rispetto alla flucloxacillina.",
+    "clinicalExplanation": "Cefalosporina di prima generazione con eccellente attivita' antistafilococcica. Nell'endocardite da MSSA e' l'alternativa alla flucloxacillina (6 g/die in 3 somministrazioni per 4-6 settimane), con il vantaggio di somministrazioni meno frequenti e minore epatotossicita'. Utile nei pazienti con allergia non anafilattica alle penicilline.",
+    "molecularExplanation": "Inibisce le proteine leganti la penicillina bloccando la sintesi della parete.",
+    "pharmacodynamics": "Battericida tempo-dipendente.",
+    "molecularTarget": "Proteine leganti la penicillina (PBP)",
+    "agonismAntagonism": "Inibizione della sintesi o della funzione batterica",
+    "pharmacokinetics": {
+      "route": "Endovenosa",
+      "halfLife": "Circa 1,8 ore con funzione renale normale",
+      "note": "Eliminazione renale prevalentemente immodificata"
+    },
+    "bibliography": []
+  }
+}

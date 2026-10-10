@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "phenylephrine",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Banca Dati AIFA - fenilefrina (soluzione iniettabile): uso ospedaliero (OSP), classe C.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/fenilefrina-aguettant/",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Uso ospedaliero (terapia intensiva); confermare classe/regime sul prontuario AIFA."
+  },
+  "drugId": "phenylephrine",
+  "authorisation": "Nazionale (AIFA)",
+  "marketed": true,
+  "reimbursementClass": "C",
+  "supplyRegime": "OSP - uso ospedaliero",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Ospedaliera",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

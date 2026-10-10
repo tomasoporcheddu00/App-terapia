@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "id": "salbutamol__emergency__inalatoria",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Salbutamolo (Ventolin) - RCP (Codifa/Torrinomedica/Mediately su base AIFA): beta2-agonista per broncospasmo; uso d'urgenza nell'iperkaliemia (nebulizzato); ipokaliemia, tachicardia/aritmie.",
+        "url": "https://www.codifa.it/farmaci/v/ventolin-sospensione-salbutamolo-adrenergici-respiratori",
+        "identifier": "Ventolin RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false. Dosi d'urgenza da adattare ai protocolli locali."
+  },
+  "drugId": "salbutamol",
+  "indication": "electrolyte-emergency",
+  "scenario": "Broncospasmo / iperkaliemia (nebulizzato)",
+  "route": "inalatoria",
+  "dose": {
+    "bronchospasm": "nebulizzato 2,5-5 mg fino a 4 volte/die; MDI 100-200 mcg al bisogno (max 8 erogazioni/die)",
+    "hyperkalemia": "10-20 mg nebulizzato (dose elevata), in aggiunta a insulina+glucosio"
+  },
+  "administration": {
+    "notes": "Nebulizzato. Nell'iperkaliemia dose elevata come adiuvante; monitorare FC e potassiemia. Effetto ridotto dai betabloccanti."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

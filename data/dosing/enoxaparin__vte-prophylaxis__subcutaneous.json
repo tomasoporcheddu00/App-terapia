@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "id": "enoxaparin__vte-prophylaxis__subcutaneous",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Clexane (enoxaparina) sez. 4.2 - profilassi TEV: 4000 UI (40 mg)/die (alto rischio) o 2000 UI (20 mg)/die (rischio moderato).",
+        "url": "https://www.torrinomedica.it/schede-farmaci/clexane/",
+        "identifier": "Clexane profilassi",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Livello di rischio (chirurgico/medico) determina 20 vs 40 mg. id indicazione da riconciliare col vocabolario.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "enoxaparin",
+  "indication": "vte-prophylaxis",
+  "scenario": "Profilassi del tromboembolismo venoso",
+  "route": "subcutaneous",
+  "formulation": "siringa preriempita",
+  "population": "adult-standard",
+  "dose": {
+    "loading": null,
+    "initial": "4000 UI (40 mg) SC una volta al giorno (alto rischio) oppure 2000 UI (20 mg) SC una volta al giorno (rischio moderato)",
+    "interval": "ogni 24 ore",
+    "maintenance": "Come iniziale, secondo livello di rischio",
+    "target": null,
+    "max": null,
+    "titration": null,
+    "duration": "Secondo contesto (chirurgico/medico)",
+    "weightBased": null,
+    "cumulative": null,
+    "renalAdjustment": "CrCl 15-30 mL/min: 2000 UI (20 mg) SC una volta al giorno. CrCl <15: non raccomandata.",
+    "hepaticAdjustment": "Cautela.",
+    "elderly": "Nessuna riduzione per la sola eta' salvo compromissione renale.",
+    "pregnancy": "Secondo valutazione rischio/beneficio.",
+    "dialysis": "Non raccomandata."
+  },
+  "administration": {
+    "preparation": null,
+    "solvent": null,
+    "concentration": null,
+    "rate": null,
+    "access": "Via sottocutanea (NON IM)",
+    "notes": "Iniezione SC profonda."
+  },
+  "monitoring": [
+    "Conta piastrinica (HIT)",
+    "Funzione renale"
+  ],
+  "stoppingCriteria": [
+    "Sanguinamento",
+    "HIT"
+  ],
+  "approvalEvidence": {
+    "primarySourceVerified": false,
+    "smpcVerified": true,
+    "clinicalReviewDone": true,
+    "verificationDate": "2026-07-18",
+    "reviewer": "Curatore clinico"
+  }
+}

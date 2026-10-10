@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "id": "dabigatran",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Pradaxa (dabigatran) sez. 4.3/4.5 - inibitori/induttori della P-gp; farmaci che alterano l'emostasi.",
+        "url": "https://www.torrinomedica.it/effetti-collaterali/pradaxa-effetti-collaterali/",
+        "identifier": "Pradaxa 4.5",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Sintesi coerente con substrato P-gp e con le controindicazioni gia' documentate. Elenco 4.5 completo da verificare sulla RCP integrale.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "dabigatran",
+  "items": [
+    {
+      "agent": "Inibitori forti della P-gp (ketoconazolo sistemico, ciclosporina, itraconazolo, dronedarone)",
+      "effect": "Aumento marcato dell'esposizione",
+      "management": "Controindicati",
+      "severity": "major"
+    },
+    {
+      "agent": "Verapamil, amiodarone, chinidina",
+      "effect": "Aumento dell'esposizione a dabigatran",
+      "management": "Cautela / possibile riduzione di dose (verificare RCP)",
+      "severity": "moderate"
+    },
+    {
+      "agent": "Induttori della P-gp (rifampicina, carbamazepina, fenitoina, erba di San Giovanni)",
+      "effect": "Riduzione dell'esposizione e dell'efficacia",
+      "management": "Evitare",
+      "severity": "moderate"
+    },
+    {
+      "agent": "Altri anticoagulanti, antiaggreganti, FANS",
+      "effect": "Aumento del rischio emorragico",
+      "management": "Evitare le associazioni non necessarie",
+      "severity": "major"
+    }
+  ]
+}

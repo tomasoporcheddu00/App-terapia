@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "id": "ticagrelor",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": "Curatore clinico",
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": "2026-07-19",
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Regime prescrittivo ticagrelor (Brilique): piano terapeutico da Determinazione AIFA 22/05/2017 e PHT (Prontuario della distribuzione diretta).",
+        "url": "https://medisoc.it/scheda-ticagrelor/",
+        "identifier": "AIFA PT/PHT ticagrelor",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Ticagrelor (Brilique) autorizzato EMA. In Italia soggetto a piano terapeutico (PT) e distribuzione tramite PHT (distribuzione diretta), confezioni calendarizzate. Verificare lo stato attuale (classe, PT, PHT) su banca dati AIFA; disponibili generici.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "ticagrelor",
+  "authorisation": "Autorizzato dall'EMA con procedura centralizzata (Brilique); disponibili generici.",
+  "marketed": true,
+  "reimbursementClass": "A (PHT)",
+  "supplyRegime": "RRL (prescrizione con piano terapeutico; da confermare)",
+  "aifaNote": null,
+  "therapeuticPlan": true,
+  "registry": null,
+  "distribution": "PHT - distribuzione diretta (confezioni calendarizzate)",
+  "law648_1996": false,
+  "prescriberRestrictions": "Prescrizione soggetta a diagnosi e piano terapeutico (Determinazione AIFA 22/05/2017); verificare eventuali aggiornamenti.",
+  "availableFormulations": [
+    "compresse 60 mg",
+    "compresse 90 mg",
+    "compresse orodispersibili 90 mg"
+  ],
+  "verificationDate": "2026-07-18"
+}

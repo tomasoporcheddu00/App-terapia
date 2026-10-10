@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "id": "amoxicillin__endocardite-enterococchi__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "SPILF-AEPEI - position statement sulla terapia antibiotica dell'endocardite secondo le linee guida ESC 2023 (strategie per streptococchi, enterococchi e stafilococchi; daptomicina, rifampicina, monitoraggi).",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2666991924001787",
+        "identifier": "SPILF-AEPEI 2024",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Posologia da fonti su base RCP/AIFA o da linee guida citate; smpcVerified=false. Verificare sempre su RCP ufficiale e adattare a funzione renale/epatica."
+  },
+  "drugId": "amoxicillin",
+  "indication": "endocarditis",
+  "scenario": "Endocardite da Enterococcus spp. sensibile ai beta-lattamici",
+  "route": "endovenosa",
+  "dose": {
+    "dose": "alte dosi per via endovenosa, fino a 12 g al giorno in 4-6 somministrazioni",
+    "durata": "6 settimane",
+    "associazione A": "gentamicina 3 mg/kg al giorno per 2 settimane",
+    "associazione B (risparmia l'aminoglicoside)": "ceftriaxone per 6 settimane, indipendentemente dal livello di resistenza alla gentamicina",
+    "pediatrico": "200-300 mg/kg/die per via endovenosa in 4-6 dosi, fino a un massimo di 12 g/die"
+  },
+  "administration": {
+    "notes": "Dosi corrette dal corrigendum 2025 alle linee guida ESC 2023 (tabelle 7, 9, 10): verificare sul testo aggiornato. Adeguare alla funzione renale e sorvegliare il carico di sodio nel paziente con scompenso."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

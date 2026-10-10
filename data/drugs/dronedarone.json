@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "id": "dronedarone",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Dronedarone (Multaq) - RCP EMA/AIFA: classe III (analogo dell'amiodarone senza iodio); mantenimento del ritmo nella FA non permanente; controindicazioni FA permanente/scompenso; epatotossicita'.",
+        "url": "https://www.aifa.gov.it/documents/20142/241044/multaq_rcp_clean.pdf",
+        "identifier": "Multaq RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Dronedarone (Multaq) - RCP EMA/AIFA (Mediately/Torrinomedica), paragrafo 5.2: emivita terminale 25-30 ore, metabolita N-debutil 20-25 ore.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/multaq_400/",
+        "identifier": "RCP - farmacocinetica",
+        "retrievedAt": "2026-07-24"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC) e da monografie di riferimento: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Antiaritmici a indice terapeutico stretto: verificare dosi e QT prima dell'uso.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Dronedarone",
+    "inn": "dronedarone",
+    "brandExamplesIt": [
+      "Multaq"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antiaritmico classe III (analogo dell'amiodarone senza iodio)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "aa-class-iii"
+  ],
+  "quickSummary": {
+    "whatItIs": "Analogo dell'amiodarone senza iodio (minore tossicita' tiroidea/polmonare ma minore efficacia), per il mantenimento del ritmo dopo cardioversione nella FA non permanente.",
+    "mainUses": [
+      "Mantenimento del ritmo sinusale dopo cardioversione nella FA parossistica/persistente (non permanente)"
+    ],
+    "mainRisks": [
+      "Controindicato nella FA permanente e nello scompenso (eccesso di eventi/mortalita')",
+      "Epatotossicita'",
+      "Aumento di creatinina e digossinemia"
+    ],
+    "essentialMonitoring": [
+      "ECG periodico (almeno ogni 6 mesi)",
+      "Transaminasi",
+      "Funzione renale"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Mantenimento del ritmo sinusale dopo cardioversione efficace in pazienti adulti clinicamente stabili con fibrillazione atriale parossistica o persistente (non permanente)"
+    ],
+    "guidelineIndications": [
+      "Da prescrivere solo dopo aver valutato le alternative, sotto controllo specialistico; interrompere se la FA diventa permanente - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Fibrillazione atriale permanente (durata >=6 mesi o quando non si intende ripristinare il ritmo)",
+      "Condizioni emodinamicamente instabili",
+      "Scompenso cardiaco pregresso o in corso o disfunzione sistolica ventricolare sinistra",
+      "Insufficienza renale grave (clearance <30 mL/min)",
+      "Insufficienza epatica grave; tossicita' epatica/polmonare da precedente amiodarone",
+      "Bradicardia <50 bpm, PR >280 ms, blocco AV di 2o-3o grado o malattia del nodo del seno senza pacemaker",
+      "Associazione con inibitori potenti del CYP3A4, con dabigatran o con farmaci che inducono torsione di punta",
+      "Gravidanza e allattamento"
+    ],
+    "warnings": [
+      "Interrompere se la fibrillazione atriale diventa permanente (eseguire un ECG almeno ogni 6 mesi)",
+      "Epatotossicita': monitorare le transaminasi",
+      "Aumento della creatinina (inibizione della secrezione tubulare, non vera riduzione del GFR)",
+      "Prolungamento del QT; evitare il succo di pompelmo",
+      "Aumenta i livelli di digossina e dabigatran"
+    ],
+    "adverseEffects": [
+      "Diarrea, nausea, disturbi gastrointestinali",
+      "Aumento della creatinina",
+      "Bradicardia",
+      "Rash cutaneo",
+      "Epatotossicita' (rara ma grave)"
+    ],
+    "overdose": "Il sovradosaggio non ha antidoto specifico; trattamento sintomatico e di supporto.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Controindicato se clearance <30 mL/min; non necessario aggiustamento negli altri casi.",
+      "hepatic": "Controindicato nell'insufficienza epatica grave; monitorare le transaminasi.",
+      "elderly": "Utilizzabile con monitoraggio.",
+      "pregnancy": "Controindicato.",
+      "breastfeeding": "Controindicato."
+    },
+    "alternativeDrugIds": [
+      "amiodarone",
+      "sotalol",
+      "flecainide"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un 'cugino' dell'amiodarone senza iodio: meno effetti su tiroide e polmoni, ma va evitato nella fibrillazione permanente e nello scompenso.",
+    "clinicalExplanation": "Antiaritmico di classe III derivato dall'amiodarone privato dello iodio; mantiene il ritmo nella FA non permanente. Controindicato nella FA permanente (PALLAS) e nello scompenso/disfunzione VS (ANDROMEDA) per eccesso di eventi/mortalita'.",
+    "molecularExplanation": "Blocca canali del potassio, del sodio e del calcio con effetto antiadrenergico, senza contenuto di iodio.",
+    "pharmacodynamics": "Allungamento del periodo refrattario, rallentamento della frequenza e della conduzione AV; efficacia inferiore all'amiodarone.",
+    "molecularTarget": "Canali del potassio (e sodio/calcio) cardiaci",
+    "agonismAntagonism": "Blocco dei canali ionici / antiadrenergico",
+    "pharmacokinetics": {
+      "route": "Orale (con i pasti)",
+      "metabolism": "Epatico (CYP3A4; inibitore di CYP3A4/2D6 e potente inibitore della P-gp)",
+      "food": "Assumere con il cibo",
+      "halfLife": "Eliminazione terminale ~25-30 ore; metabolita N-debutil ~20-25 ore (eliminazione completa dal plasma entro ~2 settimane dalla sospensione)"
+    },
+    "bibliography": [
+      "ATHENA, ANDROMEDA, PALLAS (dronedarone) - da citare con fonte primaria"
+    ]
+  }
+}

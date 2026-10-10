@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "protamine__reversal__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Protamina solfato - RCP (LEO Pharma/Meda su base AIFA) + Centro Antidoti: antidoto dell'eparina; 1-2 mg ogni 100 UI, EV lenta max 50 mg in 10 min; ipotensione se rapida, rischio anafilattico.",
+        "url": "https://mediately.co/it/drugs/BEK3C7NxlAQtI0rS6i5TsiHAZFu/protamina-solfato-leo-pharma-anti-1400-ui-di-eparina-10mg-ml-soluzione-iniettabile-o-per-infusione",
+        "identifier": "Protamina RCP",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EMA-AIFA; smpcVerified=false. Dosi d'urgenza da adattare ai protocolli locali e ai test coagulativi."
+  },
+  "drugId": "protamine",
+  "indication": "anticoagulant-reversal",
+  "scenario": "Neutralizzazione dell'eparina",
+  "route": "endovenosa",
+  "dose": {
+    "standard": "1-2 mg di protamina ogni 100 UI di eparina da neutralizzare",
+    "rate": "EV lenta in ~10 min, max 50 mg (5 mL) per singolo bolo; preferibile infusione diluita in 100-200 mL di fisiologica",
+    "timing": "dose dimezzata se l'eparina e' stata somministrata >30-60 min prima (emivita breve)"
+  },
+  "administration": {
+    "notes": "EV lenta (mai rapida: ipotensione). Guidare la dose con aPTT/ACT/anti-Xa. Non superare la dose di neutralizzazione."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

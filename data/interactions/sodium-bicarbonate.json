@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "sodium-bicarbonate",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Bicarbonato di sodio - RCP (Codifa/Mediately su base AIFA): alcalinizzante; acidosi metabolica 2-5 mEq/kg in 4-8h; controindicato in alcalosi/ipernatriemia/ipocalcemia; sovraccarico di sodio.",
+        "url": "https://www.codifa.it/farmaci/s/sodio-bicarbonato-8-4-salf-sodio-bicarbonato-soluzioni-endovena-elettrolitiche",
+        "identifier": "Bicarbonato di sodio RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "sodium-bicarbonate",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Sali di calcio (in soluzione)",
+      "effect": "Precipitazione calcio-carbonato",
+      "management": "Non miscelare; usare vie/tempi separati"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Diuretici che eliminano potassio",
+      "effect": "Alcalosi ipocloremica/ipokaliemia",
+      "management": "Monitorare potassio e cloro"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Farmaci basici (chinidina, efedrina)",
+      "effect": "Aumento dell'emivita/durata d'azione",
+      "management": "Monitorare"
+    }
+  ]
+}

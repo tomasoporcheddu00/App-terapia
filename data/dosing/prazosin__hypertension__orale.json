@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "prazosin__hypertension__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Prazosina (Minipress) - RCP/monografie (AccessMedicina/label Minipress): alfa-1 bloccante selettivo, ipertensione; fenomeno della prima dose (sincope); emivita breve.",
+        "url": "https://accessmedicina.mhmedical.com/data/accessmedicina/vidal/FT_C02CA01.html",
+        "identifier": "Prazosina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Da confermare e approvare."
+  },
+  "drugId": "prazosin",
+  "indication": "hypertension",
+  "scenario": "Ipertensione",
+  "route": "orale",
+  "dose": {
+    "initial": "0,5 mg 2-3 volte al giorno (prima dose alla sera)",
+    "titration": "aumentare gradualmente in base alla risposta e alla tollerabilita'",
+    "maintenance": "3-20 mg/die in 2-3 dosi",
+    "max": "20 mg/die"
+  },
+  "administration": {
+    "notes": "Iniziare con 0,5 mg alla sera per il fenomeno della prima dose. Piu' somministrazioni per l'emivita breve."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

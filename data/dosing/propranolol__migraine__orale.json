@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "propranolol__migraine__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Propranololo - RCP (Mediately/Codifa/Torrinomedica su base AIFA): indicazioni ampie e posologia; ATC C07AA05.",
+        "url": "https://mediately.co/it/drugs/HUrPItk8hbBRvj6dcIQaxnfKvZ3/inderal-40-mg-compresse",
+        "identifier": "Propranololo RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "propranolol",
+  "indication": "migraine",
+  "scenario": "Profilassi dell'emicrania",
+  "route": "orale",
+  "dose": {
+    "initial": "40-80 mg al giorno in 1-2 dosi",
+    "maintenance": "80-160 mg al giorno (fino a 240)",
+    "max": "240 mg al giorno"
+  },
+  "administration": {
+    "notes": "Beneficio dopo alcune settimane; non arresta l'attacco in corso."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

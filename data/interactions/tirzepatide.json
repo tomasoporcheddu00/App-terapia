@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "id": "tirzepatide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Mounjaro (tirzepatide) - RCP EMA (registro comunitario EC, allegato IT; Torrinomedica/Codifa/Mediately): indicazioni diabete e controllo del peso, posologia 2,5 mg con incrementi di 2,5 mg ogni 4 settimane fino a 15 mg, rallentamento dello svuotamento gastrico.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2022/20220915156773/anx_156773_it.pdf",
+        "identifier": "Mounjaro RCP EMA",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "SUMMIT - tirzepatide nello scompenso a frazione d'eiezione preservata associato a obesita'.",
+        "url": "https://www.jacc.org/doi/10.1016/j.jacc.2024.11.001",
+        "identifier": "SUMMIT",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "tirzepatide",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Agonisti del recettore del GLP-1 (semaglutide, liraglutide, dulaglutide, exenatide)",
+      "effect": "Duplicazione terapeutica",
+      "management": "Non associare"
+    },
+    {
+      "severity": "major",
+      "agent": "Insulina e sulfaniluree",
+      "effect": "Aumento del rischio di ipoglicemia",
+      "management": "Ridurre la dose di insulina o sulfanilurea e intensificare l'automonitoraggio"
+    },
+    {
+      "severity": "major",
+      "agent": "Medicinali orali a stretto indice terapeutico (warfarin, levotiroxina, digossina, contraccettivi orali)",
+      "effect": "Il rallentamento dello svuotamento gastrico riduce la Cmax e ritarda il tmax; l'effetto e' piu' pronunciato all'inizio del trattamento",
+      "management": "Sorveglianza clinica e di laboratorio nelle fasi di avvio e titolazione; per i contraccettivi orali consultare l'RCP"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Diuretici, ACE-inibitori e sartani durante vomito o diarrea protratti",
+      "effect": "Disidratazione con rischio di danno renale acuto",
+      "management": "Sospensione temporanea dei farmaci nefroattivi e reidratazione"
+    }
+  ]
+}

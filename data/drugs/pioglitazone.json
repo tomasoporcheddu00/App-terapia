@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "id": "pioglitazone",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Pioglitazone (anche in associazione con metformina) - RCP (Codifa/Torrinomedica/EMA Competact): controindicazione nello scompenso cardiaco di qualsiasi classe NYHA, ritenzione idrica, carcinoma della vescica, fratture.",
+        "url": "https://www.codifa.it/farmaci/p/pioglitazone-e-metformina-eg-pioglitazone-e-metformina-ipoglicemizzanti-orali",
+        "identifier": "Pioglitazone RCP",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida diabete: pioglitazone non raccomandato nei pazienti con scompenso cardiaco.",
+        "url": "https://academic.oup.com/eurheartj/article/45/15/1298/7513467",
+        "identifier": "ESC 2023 diabete",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da RCP EMA/AIFA e da fonti secondarie derivate dagli RCP (Torrinomedica/Codifa/Mediately, registro comunitario EC). DA CONFERMARE sugli RCP ufficiali. Stato: revisione fonti (source-review), non ancora approvato. NB: per questi farmaci l'indicazione, la rimborsabilita' e il piano terapeutico in Italia variano per prodotto commerciale e indicazione (diabete vs controllo del peso): verificare sempre prima di prescrivere. Da riconoscere nella terapia domiciliare del cardiopatico: controindicato nello scompenso di qualsiasi classe NYHA.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Pioglitazone",
+    "inn": "pioglitazone",
+    "brandExamplesIt": [
+      "Actos"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Tiazolidinedione, agonista di PPAR-gamma",
+  "identity": {
+    "atcCodes": [
+      "A10BG03"
+    ],
+    "formulations": [
+      "Compresse 15, 30, 45 mg"
+    ],
+    "potentialRoutes": [
+      "orale"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "thiazolidinediones"
+  ],
+  "quickSummary": {
+    "whatItIs": "Tiazolidinedione che migliora la sensibilita' insulinica agendo sul recettore nucleare PPAR-gamma. Per il cardiologo e' soprattutto un farmaco da RICONOSCERE E SOSPENDERE: e' controindicato nello scompenso cardiaco di qualsiasi classe.",
+    "mainUses": [
+      "Diabete mellito di tipo 2, in seconda o terza linea, in pazienti senza scompenso cardiaco"
+    ],
+    "mainRisks": [
+      "CONTROINDICATO nello scompenso cardiaco e nell'anamnesi di scompenso (classi NYHA da I a IV)",
+      "Ritenzione idrica che puo' esacerbare o precipitare uno scompenso",
+      "Carcinoma della vescica: controindicato in fase attiva o con anamnesi positiva",
+      "Fratture ossee, soprattutto nelle donne"
+    ],
+    "essentialMonitoring": [
+      "Segni di ritenzione idrica: peso, edemi, dispnea",
+      "Ematuria e sintomi urinari",
+      "Funzione epatica"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Diabete mellito di tipo 2 in aggiunta a dieta ed esercizio fisico, secondo le indicazioni della specialita' (in monoterapia o in associazione), in pazienti in cui non siano presenti le controindicazioni cardiologiche"
+    ],
+    "guidelineIndications": [
+      "Le linee guida ESC 2023 sul diabete NON raccomandano il pioglitazone nei pazienti con scompenso cardiaco (come non raccomandano il saxagliptin nello stesso contesto)"
+    ],
+    "absoluteContraindications": [
+      "Insufficienza cardiaca o storia di insufficienza cardiaca (classi NYHA da I a IV)",
+      "Carcinoma della vescica in fase attiva o anamnesi positiva per carcinoma della vescica",
+      "Ematuria macroscopica di natura non accertata",
+      "Insufficienza epatica",
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Gravidanza e allattamento (secondo la specialita')"
+    ],
+    "warnings": [
+      "RITENZIONE IDRICA: il pioglitazone puo' causare ritenzione di liquidi in grado di esacerbare o precipitare un'insufficienza cardiaca. Nei pazienti con almeno un fattore di rischio per scompenso congestizio la sorveglianza deve essere stretta e il farmaco va sospeso in caso di comparsa di segni di scompenso",
+      "Il rischio di ritenzione idrica aumenta in associazione all'insulina e ai FANS",
+      "Carcinoma della vescica: casi non comuni riportati; istruire il paziente a segnalare sangue nelle urine, dolore alla minzione o urgenza minzionale",
+      "Fratture ossee riportate come evento comune nelle donne e segnalate anche negli uomini",
+      "Nella sindrome dell'ovaio policistico l'aumento della sensibilita' insulinica puo' causare ripresa dell'ovulazione con rischio di gravidanza: informare la paziente e interrompere il trattamento se la gravidanza e' desiderata o interviene",
+      "Monitorare la funzione epatica secondo RCP"
+    ],
+    "adverseEffects": [
+      "Ritenzione idrica ed edema",
+      "Aumento di peso",
+      "Scompenso cardiaco (in pazienti predisposti o in associazione a insulina)",
+      "Fratture ossee",
+      "Carcinoma della vescica (non comune)",
+      "Anemia da emodiluizione"
+    ],
+    "overdose": "Il sovradosaggio non ha un quadro specifico; gestione di supporto con particolare attenzione allo stato volemico e ai segni di scompenso. Non esiste un antidoto specifico.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Consultare l'RCP; nelle associazioni con metformina valgono le controindicazioni renali di quest'ultima.",
+      "hepatic": "Controindicato nell'insufficienza epatica; monitorare gli enzimi epatici.",
+      "elderly": "Cautela per il rischio di scompenso, fratture ed edema.",
+      "pregnancy": "Non indicato; attenzione alla ripresa dell'ovulazione nella sindrome dell'ovaio policistico.",
+      "breastfeeding": "Controindicato."
+    },
+    "alternativeDrugIds": [
+      "metformin",
+      "dapagliflozin",
+      "empagliflozin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' un antidiabetico che fa trattenere liquidi. Per il cuore e' un problema: se il paziente ha o ha avuto uno scompenso non si puo' usare, e se compaiono gambe gonfie o fiato corto va sospeso.",
+    "clinicalExplanation": "Agonista del recettore nucleare PPAR-gamma che migliora la sensibilita' insulinica. Il profilo cardiologico e' sfavorevole: causa ritenzione idrica ed e' CONTROINDICATO nello scompenso cardiaco e nell'anamnesi di scompenso (NYHA I-IV); le linee guida ESC 2023 non lo raccomandano nei pazienti con scompenso. Altre controindicazioni rilevanti sono il carcinoma della vescica e l'ematuria macroscopica non spiegata. Nel paziente cardiologico e' un farmaco da riconoscere nella terapia domiciliare e da rivalutare.",
+    "molecularExplanation": "Attiva il recettore nucleare PPAR-gamma modulando la trascrizione di geni coinvolti nel metabolismo glucidico e lipidico, con aumento della sensibilita' insulinica nel tessuto adiposo, muscolare ed epatico; l'effetto sul riassorbimento renale di sodio spiega la ritenzione idrica.",
+    "pharmacodynamics": "Riduzione dell'insulino-resistenza con calo di HbA1c; aumento di peso e ritenzione di liquidi come effetti attesi.",
+    "molecularTarget": "Recettore nucleare PPAR-gamma",
+    "agonismAntagonism": "Agonismo di PPAR-gamma",
+    "pharmacokinetics": {
+      "route": "Orale",
+      "halfLife": "Consultare l'RCP; metabolismo epatico con metaboliti attivi",
+      "note": "Effetto clinico a comparsa lenta (settimane)"
+    },
+    "bibliography": []
+  }
+}

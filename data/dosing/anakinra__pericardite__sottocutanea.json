@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "id": "anakinra__pericardite__sottocutanea",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-28T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Kineret (anakinra) - RCP EMA/AIFA (Univadis): posologia, compromissione renale, neutropenia, associazione con anti-TNF, interazioni.",
+        "url": "https://www.univadis.it/references/drug-database/L04/viewdrug/kineret-58211",
+        "identifier": "Kineret RCP",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "other",
+        "citation": "AIFA - elenco Legge 648/96: anakinra (Kineret) rimborsata per la pericardite idiopatica ricorrente corticodipendente e colchicina-resistente, adulto 100 mg/die sottocute.",
+        "url": "https://www.aifa.gov.it/sites/default/files/Allegato_1_anakinra_16.01.2019.pdf",
+        "identifier": "AIFA L.648/96 anakinra",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2025 - Linee guida su miocardite e pericardite: inibitori dell'IL-1 di Classe I nella pericardite recidivante o resistente.",
+        "url": "https://www.giornaledicardiologia.it/archivio/4620/articoli/46292/",
+        "identifier": "ESC 2025 IMPS",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Posologia da fonti su base RCP/AIFA o da linee guida citate; smpcVerified=false. Verificare sempre su RCP ufficiale e adattare a funzione renale/epatica."
+  },
+  "drugId": "anakinra",
+  "indication": "pericarditis",
+  "scenario": "Pericardite idiopatica ricorrente corticodipendente e colchicina-resistente (Legge 648/96)",
+  "route": "sottocutanea",
+  "dose": {
+    "adulto": "100 mg al giorno per via sottocutanea",
+    "pediatrico": "2 mg/kg/die fino a un massimo di 100 mg/die per via sottocutanea",
+    "riduzione": "il tapering successivo al primo step puo' essere modificato in base alla situazione clinica (assenza di sintomi, PCR persistentemente normale, assenza di segni ECG ed ecocardiografici) e alla possibilita' di aggiungere FANS"
+  },
+  "administration": {
+    "notes": "Unica via di somministrazione autorizzata: sottocutanea. In Italia rimborsata ai sensi della Legge 648/96 con i criteri AIFA; incluse le forme recidivanti post-pericardiotomiche. Non iniziare se neutrofili <1,5 x 10^9/L; a giorni alterni se clearance <30 mL/min."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

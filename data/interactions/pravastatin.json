@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "pravastatin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Pravastatina - RCP (Mediately/Codifa su base AIFA): idrofila, non CYP3A4, dose 10-40 mg alla sera, prevenzione primaria/secondaria, post-trapianto.",
+        "url": "https://www.codifa.it/farmaci/p/pravastatina",
+        "identifier": "Pravastatina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5; severita' secondo posizionamento RCP e rilevanza clinica. Profilo di interazioni piu' favorevole rispetto alle statine metabolizzate dal CYP3A4. Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "pravastatin",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Gemfibrozil / fibrati",
+      "effect": "Aumento del rischio di miopatia",
+      "management": "Associazione non raccomandata"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Ciclosporina",
+      "effect": "Aumento dei livelli di pravastatina (post-trapianto)",
+      "management": "Iniziare con 20 mg e monitorare"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Resine a scambio ionico (colestiramina/colestipolo)",
+      "effect": "Riduzione dell'assorbimento",
+      "management": "Assumere la pravastatina 1 ora prima o 4 ore dopo la resina"
+    }
+  ]
+}

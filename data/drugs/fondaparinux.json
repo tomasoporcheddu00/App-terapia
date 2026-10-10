@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "id": "fondaparinux",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Fondaparinux (Arixtra) - RCP EMA/AIFA (Univadis/EC): pentasaccaride sintetico anti-Xa indiretto; profilassi TEV 2,5 mg SC/die, trattamento TVP/EP 7,5 mg (5 mg <50 kg, 10 mg >100 kg); controindicato clearance <30, endocardite batterica acuta.",
+        "url": "https://www.univadis.it/references/drug-database/viewdrug/arixtra-70760",
+        "identifier": "Arixtra RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (EMA/EC, Banca Dati AIFA, portali Mediately/Codifa/Torrinomedica/Univadis): indicazioni, posologia, controindicazioni, avvertenze, interazioni. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; PK parziale. Stato: revisione fonti (source-review), non ancora approvato. Dosi da adattare al paziente e ai protocolli locali. Rischio di HIT trascurabile rispetto alle eparine, ma senza antidoto e controindicato nell'insufficienza renale severa.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Fondaparinux",
+    "inn": "fondaparinux sodico",
+    "brandExamplesIt": [
+      "Arixtra"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Pentasaccaride sintetico, inibitore indiretto del fattore Xa",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "pentasaccharides"
+  ],
+  "quickSummary": {
+    "whatItIs": "Pentasaccaride sintetico che, legandosi all'antitrombina, ne potenzia selettivamente l'azione contro il fattore Xa. Si somministra una volta al giorno per via sottocutanea a dose fissa, senza necessita' di monitoraggio.",
+    "mainUses": [
+      "Profilassi del tromboembolismo venoso (chirurgia ortopedica/addominale maggiore, pazienti medici immobilizzati)",
+      "Trattamento della trombosi venosa profonda e dell'embolia polmonare",
+      "Trombosi venosa superficiale degli arti inferiori"
+    ],
+    "mainRisks": [
+      "Emorragia",
+      "Accumulo nell'insufficienza renale (controindicato se clearance <30 mL/min)",
+      "Nessun antidoto specifico (la protamina non lo neutralizza)"
+    ],
+    "essentialMonitoring": [
+      "Funzione renale (clearance della creatinina)",
+      "Segni di sanguinamento; emoglobina",
+      "Conta piastrinica (rischio di trombocitopenia molto basso)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Prevenzione degli episodi tromboembolici venosi in pazienti sottoposti a chirurgia ortopedica maggiore degli arti inferiori o a chirurgia addominale ad alto rischio, e in pazienti internistici immobilizzati per patologia acuta",
+      "Trattamento della trombosi venosa profonda e dell'embolia polmonare acuta, eccetto nei pazienti emodinamicamente instabili o che richiedono trombolisi/embolectomia",
+      "Trattamento della trombosi venosa superficiale spontanea, acuta, sintomatica e isolata degli arti inferiori (>=5 cm)"
+    ],
+    "guidelineIndications": [
+      "Alternativa alle eparine a basso peso molecolare con somministrazione monogiornaliera a dose fissa e rischio molto basso di trombocitopenia da eparina (HIT) - confermare su linee guida",
+      "Il pentasaccaride e' anche impiegato nelle sindromi coronariche acute a gestione conservativa (2,5 mg/die): verificare l'indicazione registrata sull'RCP in uso e i protocolli locali",
+      "La protamina NON neutralizza il fondaparinux: nell'emorragia grave si ricorre a misure di supporto ed eventuali agenti procoagulanti - confermare"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' al principio attivo o agli eccipienti",
+      "Sanguinamento in atto clinicamente significativo",
+      "Endocardite batterica acuta",
+      "Compromissione renale severa (clearance della creatinina <30 mL/min per il trattamento; soglie piu' basse per la profilassi secondo RCP)"
+    ],
+    "warnings": [
+      "Solo per via sottocutanea: NON somministrare per via intramuscolare",
+      "Cautela nei pazienti ad aumentato rischio emorragico (disordini emorragici congeniti o acquisiti, piastrine <50.000/mm3, ulcera gastrointestinale attiva, emorragia intracranica recente o chirurgia cerebrale/spinale/oftalmica recente)",
+      "Accumulo nell'insufficienza renale e nell'anziano a basso peso: valutare la clearance della creatinina prima e durante il trattamento",
+      "Anestesia spinale/peridurale: rischio di ematoma spinale con cateteri peridurali (rispettare gli intervalli); esperienza limitata nei pazienti emodinamicamente instabili"
+    ],
+    "adverseEffects": [
+      "Emorragia (sede di iniezione, gastrointestinale, ematuria, ematomi)",
+      "Anemia",
+      "Nausea, rialzo degli enzimi epatici",
+      "Trombocitopenia (rara)"
+    ],
+    "overdose": "Il sovradosaggio aumenta il rischio emorragico: sospendere il farmaco e adottare misure di supporto; non esiste un antidoto specifico (la protamina non e' efficace). Il fondaparinux e' parzialmente rimovibile con la dialisi.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Controindicato nella compromissione severa; ridurre/valutare nella moderata.",
+      "hepatic": "Nessun aggiustamento nella lieve-moderata; cautela nella grave.",
+      "elderly": "Maggiore rischio emorragico (funzione renale ridotta e basso peso).",
+      "pregnancy": "Solo se chiaramente necessario.",
+      "breastfeeding": "Non raccomandato."
+    },
+    "alternativeDrugIds": [
+      "enoxaparin",
+      "unfractionated-heparin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' un 'anticoagulante sintetico' che si inietta sottocute una volta al giorno a dose fissa: blocca il fattore Xa attraverso l'antitrombina. Non ha antidoto e si accumula se i reni funzionano male.",
+    "clinicalExplanation": "Pentasaccaride sintetico che si lega selettivamente all'antitrombina amplificandone (~300 volte) l'inibizione del fattore Xa, senza attivita' diretta sulla trombina. Dose fissa monogiornaliera SC senza monitoraggio; eliminazione renale (controindicato se clearance <30). Rischio di HIT trascurabile. Nessun antidoto.",
+    "molecularExplanation": "Si lega al sito di legame per l'antitrombina, inducendo un cambiamento conformazionale che accelera l'inattivazione del fattore Xa.",
+    "pharmacodynamics": "Inibizione selettiva del fattore Xa con effetto anticoagulante prevedibile e dose-fissa; nessun effetto sulla trombina gia' formata.",
+    "molecularTarget": "Fattore Xa (via antitrombina)",
+    "agonismAntagonism": "Inibizione indiretta e selettiva del fattore Xa",
+    "pharmacokinetics": {
+      "route": "Sottocutanea",
+      "halfLife": "~17-21 ore (prolungata nell'insufficienza renale e nell'anziano)",
+      "note": "Biodisponibilita' SC ~100%; eliminazione renale immodificata"
+    },
+    "bibliography": []
+  }
+}

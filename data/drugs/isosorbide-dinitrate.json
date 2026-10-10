@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Isosorbide dinitrato (Carvasin) - RCP (Univadis/Mediately/Codifa su base AIFA): insufficienza coronarica e angina, sublinguale/orale, scompenso, tolleranza, controindicazione PDE5.",
+        "url": "https://mediately.co/it/drugs/HAsgzAjdUXON1tBSnj7my1oddGe/carvasin-10-mg-compresse",
+        "identifier": "Carvasin RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Isosorbide dinitrato - RCP e monografie di farmacocinetica: emivita ~45-60 minuti; metaboliti attivi mononitrato con emivita 2-5 ore.",
+        "url": "https://www.informazionisuifarmaci.it/nitrati-per-via-sublinguale-876",
+        "identifier": "RCP/monografia - farmacocinetica",
+        "retrievedAt": "2026-07-25"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false,
+    "id": "isosorbide-dinitrate"
+  },
+  "name": {
+    "generic": "Isosorbide dinitrato",
+    "inn": "isosorbide dinitrato",
+    "brandExamplesIt": [
+      "Carvasin",
+      "Nitrosorbide"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Nitrato organico (sublinguale e orale)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "organic-nitrates"
+  ],
+  "quickSummary": {
+    "whatItIs": "Nitrato disponibile sia sublinguale (rapido, per l'attacco o la prevenzione da sforzo) sia orale (profilassi prolungata); usato anche nello scompenso.",
+    "mainUses": [
+      "Angina pectoris (attacco e prevenzione)",
+      "Insufficienza coronarica",
+      "Scompenso cardiaco congestizio (adiuvante)"
+    ],
+    "mainRisks": [
+      "Cefalea, ipotensione ortostatica",
+      "Tolleranza"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa",
+      "Risposta sintomatica"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Insufficienza coronarica, prevenzione e trattamento dell'angina pectoris",
+      "Trattamento adiuvante dello scompenso cardiaco congestizio"
+    ],
+    "guidelineIndications": [
+      "Il sublinguale (azione ~2 ore) e' utile per l'attacco e per la prevenzione prima di uno sforzo; l'orale/rilascio modificato per la profilassi. Nello scompenso mantenere la pressione sistolica nel range fisiologico - confermare su ESC",
+      "Storicamente usato con idralazina nello scompenso in popolazioni selezionate - confermare su fonte"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' ai nitrati o agli eccipienti",
+      "Uso concomitante di inibitori della PDE5 (sildenafil, tadalafil, vardenafil) o di stimolatori della guanilato ciclasi solubile (riociguat): rischio di ipotensione grave",
+      "Ipotensione grave, ipovolemia o shock cardiogeno (senza adeguato riempimento ventricolare)",
+      "Stenosi aortica o mitralica grave",
+      "Cardiomiopatia ipertrofica ostruttiva (i nitrati possono aggravare l'angina)",
+      "Aumento della pressione endocranica; pericardite costrittiva o tamponamento cardiaco",
+      "Anemia grave"
+    ],
+    "warnings": [
+      "Tolleranza e tolleranza crociata con altri nitroderivati: prevedere un intervallo libero da nitrati (circa 8-12 ore) ed evitare la terapia prolungata ad alte dosi",
+      "Cefalea (molto comune, soprattutto all'inizio), ipotensione anche ortostatica, vampate, capogiro, tachicardia riflessa",
+      "Angina di rimbalzo alla sospensione brusca: sospendere gradualmente",
+      "Cautela in caso di deplezione di volume (terapia diuretica) e di ipotensione preesistente",
+      "Ipotensione ortostatica possibile anche a basse dosi; bradicardia paradossa con aggravamento dell'angina in caso di ipotensione da nitrati",
+      "Nello scompenso mantenere la pressione capillare polmonare >15 mmHg e la sistolica nel range fisiologico"
+    ],
+    "adverseEffects": [
+      "Cefalea",
+      "Ipotensione / ipotensione ortostatica",
+      "Vampate di calore",
+      "Capogiro",
+      "Tachicardia riflessa",
+      "Tolleranza (con l'uso continuativo)"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione marcata e cefalea; trattamento di supporto.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico.",
+      "hepatic": "Cautela.",
+      "elderly": "Iniziare a dose bassa.",
+      "pregnancy": "Solo se necessario.",
+      "breastfeeding": "Cautela."
+    },
+    "alternativeDrugIds": [
+      "isosorbide-mononitrate",
+      "nitroglycerin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Sotto la lingua agisce in pochi minuti (utile prima di uno sforzo che scatena l'angina); in compresse da inghiottire serve per la prevenzione piu' prolungata.",
+    "clinicalExplanation": "Nitrato organico con metabolita attivo (isosorbide-5-mononitrato). Sublinguale a esordio rapido (durata ~2 ore) e orale/rilascio modificato per la profilassi; usato anche come adiuvante nello scompenso.",
+    "molecularExplanation": "Rilascia NO con attivazione della guanilato ciclasi e vasodilatazione (prevalentemente venosa).",
+    "pharmacodynamics": "Riduzione del precarico (venodilatazione) e vasodilatazione coronarica; nello scompenso riduce la congestione.",
+    "molecularTarget": "Via NO-guanilato ciclasi-cGMP",
+    "agonismAntagonism": "Donatore di ossido d'azoto (NO)",
+    "pharmacokinetics": {
+      "onsetSublingual": "2-5 minuti (durata ~2 ore)",
+      "route": "Sublinguale, orale, rilascio modificato",
+      "metabolism": "Epatico (metabolita attivo mononitrato)",
+      "halfLife": "Breve, ~45 minuti (~1 ora); agisce anche tramite i metaboliti attivi isosorbide-2- e -5-mononitrato, che hanno emivite piu' lunghe (2-5 ore) e sostengono l'effetto"
+    },
+    "bibliography": []
+  }
+}

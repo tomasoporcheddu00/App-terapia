@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "insulin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Banca Dati AIFA - insulina umana regolare (Actrapid/Humulin R): classe A, ricetta RR; uso EV in ambito ospedaliero.",
+        "url": "https://www.codifa.it/farmaci/a/actrapid-insulina-umana-insuline",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Prescrivibilita' da portale su base Banca Dati AIFA/EMA; confermare sul prontuario aggiornato."
+  },
+  "drugId": "insulin",
+  "authorisation": "EMA/Nazionale",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RR",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Farmacia/ospedaliera",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "id": "amoxicillin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "SPILF-AEPEI - position statement sulla terapia antibiotica dell'endocardite secondo le linee guida ESC 2023 (strategie per streptococchi, enterococchi e stafilococchi; daptomicina, rifampicina, monitoraggi).",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2666991924001787",
+        "identifier": "SPILF-AEPEI 2024",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "SCOPO DELLA SCHEDA: in questo atlante cardiologico gli antibiotici sono trattati SOLO per il ruolo nell'endocardite infettiva; per ogni altro impiego fare riferimento all'RCP e alla consulenza infettivologica. Regimi sintetizzati dalle linee guida ESC 2023 sull'endocardite (tabelle 7-10) tramite fonti secondarie e dal position statement SPILF-AEPEI: DA CONFERMARE sul testo integrale delle linee guida e sul corrigendum 2025, che ha corretto le dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10. La scelta di molecola, dose e durata dipende da patogeno, MIC, tipo di valvola (nativa o protesica) e funzione renale, e va concordata con l'Endocarditis Team. Stato: revisione fonti (source-review). Ruolo nell'endocardite: la scelta e la durata dipendono da patogeno, MIC e tipo di valvola. Verificare sempre le tabelle ESC 2023 aggiornate al corrigendum e concordare con l'Endocarditis Team.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Amoxicillina",
+    "inn": "amoxicillina",
+    "brandExamplesIt": [
+      "Zimox",
+      "Velamox"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Aminopenicillina",
+  "identity": {
+    "atcCodes": [
+      "J01CA04"
+    ],
+    "formulations": [
+      "Polvere per soluzione iniettabile",
+      "Compresse e sospensione orale"
+    ],
+    "potentialRoutes": [
+      "endovenosa",
+      "orale"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "penicillins"
+  ],
+  "quickSummary": {
+    "whatItIs": "Aminopenicillina ad ampio spettro. Nell'endocardite e' il cardine del trattamento degli enterococchi e, secondo l'approccio SPILF-AEPEI, un'opzione di monoterapia negli streptococchi con MIC bassa.",
+    "mainUses": [
+      "Endocardite da Enterococcus spp. sensibile ai beta-lattamici",
+      "Endocardite da streptococchi con MIC favorevole (monoterapia secondo SPILF-AEPEI)",
+      "Profilassi dell'endocardite prima delle procedure odontoiatriche a rischio nei pazienti ad alto rischio"
+    ],
+    "mainRisks": [
+      "Reazioni di ipersensibilita' fino all'anafilassi",
+      "Dosi molto elevate con carico di volume e di sodio",
+      "Rash in corso di infezione da virus di Epstein-Barr"
+    ],
+    "essentialMonitoring": [
+      "Funzione renale prima e durante il trattamento",
+      "Emocolture di controllo per documentare la sterilizzazione",
+      "Segni di reazione allergica"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Infezioni sostenute da microrganismi sensibili, secondo la scheda tecnica"
+    ],
+    "guidelineIndications": [
+      "Endocardite da Enterococcus spp. sensibile ai beta-lattamici: amoxicillina o ampicillina ad alte dosi per via endovenosa (fino a 12 g al giorno in 4-6 somministrazioni) per 6 settimane, in associazione a gentamicina per 2 settimane oppure, secondo l'approccio a DOPPIO BETA-LATTAMICO che risparmia l'aminoglicoside, in associazione a CEFTRIAXONE per 6 settimane indipendentemente dal livello di resistenza alla gentamicina - ESC 2023 e SPILF-AEPEI",
+      "Endocardite da streptococchi: monoterapia con amoxicillina o ceftriaxone per 4-6 settimane quando la MIC e' <=0,5 mg/L; gentamicina per le prime 2 settimane con amoxicillina ad alte dosi quando la MIC e' >0,5 e <=2 mg/L (4 settimane su valvola nativa, 6 su protesica) - SPILF-AEPEI",
+      "ATTENZIONE: il corrigendum 2025 alle linee guida ESC 2023 ha CORRETTO le dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10: fare riferimento alla versione corretta",
+      "Profilassi dell'endocardite: dose singola per via orale 30-60 minuti prima delle procedure odontoiatriche a rischio nei pazienti ad alto rischio (vedere tabella 6 delle linee guida)"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alle penicilline o ad altri beta-lattamici"
+    ],
+    "warnings": [
+      "Anafilassi e reazioni di ipersensibilita' gravi: anamnesi allergologica accurata",
+      "Le dosi impiegate nell'endocardite (fino a 12 g al giorno) comportano un carico di volume e di sodio rilevante nel paziente con scompenso: sorvegliare stato volemico ed elettroliti",
+      "Adeguare la dose alla funzione renale; nell'insufficienza renale le dosi elevate possono dare neurotossicita'",
+      "Rash cutaneo molto frequente se somministrata in corso di mononucleosi infettiva",
+      "Il corrigendum 2025 ha modificato le dosi riportate nelle tabelle originali: usare la versione aggiornata"
+    ],
+    "adverseEffects": [
+      "Reazioni di ipersensibilita' e rash",
+      "Diarrea e colite da Clostridioides difficile",
+      "Nausea e vomito",
+      "Nefrite interstiziale",
+      "Alterazioni dell'emocromo nei trattamenti prolungati"
+    ],
+    "overdose": "Il sovradosaggio puo' causare disturbi gastrointestinali, cristalluria e, nell'insufficienza renale, neurotossicita' con convulsioni. Idratazione e terapia di supporto; e' rimossa dall'emodialisi.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Ridurre la dose secondo la clearance; rischio di neurotossicita' da accumulo.",
+      "hepatic": "Consultare l'RCP.",
+      "elderly": "Attenzione a funzione renale e carico di sodio.",
+      "pregnancy": "Utilizzabile secondo valutazione clinica.",
+      "breastfeeding": "Consultare l'RCP."
+    },
+    "alternativeDrugIds": [
+      "ampicillin",
+      "ceftriaxone",
+      "penicillin-g"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' l'amoxicillina in vena, a dosi molto alte e per settimane. Nell'endocardite da enterococco e' il farmaco principale, spesso insieme al ceftriaxone per evitare la gentamicina, che e' tossica per reni e udito.",
+    "clinicalExplanation": "Aminopenicillina battericida tempo-dipendente. Nell'endocardite enterococcica e' il cardine: l'associazione con ceftriaxone (doppio beta-lattamico) consente di evitare l'aminoglicoside anche nei ceppi con resistenza di alto livello alla gentamicina, riducendo la tossicita' renale e cocleo-vestibolare. Nelle forme streptococciche con MIC bassa e' un'opzione di monoterapia. Attenzione al carico di volume e sodio delle dosi elevate nel cardiopatico.",
+    "molecularExplanation": "Inibisce le proteine leganti la penicillina bloccando la transpeptidazione del peptidoglicano.",
+    "pharmacodynamics": "Attivita' battericida tempo-dipendente, dipendente dal tempo sopra la MIC.",
+    "molecularTarget": "Proteine leganti la penicillina (PBP)",
+    "agonismAntagonism": "Inibizione della sintesi o della funzione batterica",
+    "pharmacokinetics": {
+      "route": "Endovenosa (e orale per la profilassi)",
+      "halfLife": "Circa 1 ora con funzione renale normale",
+      "note": "Eliminazione prevalentemente renale"
+    },
+    "bibliography": []
+  }
+}

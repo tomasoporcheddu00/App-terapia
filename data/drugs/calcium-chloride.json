@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "id": "calcium-chloride",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Calcio cloruro - RCP (Mediately/S.A.L.F. su base AIFA): sale di calcio EV piu' potente e piu' irritante (via centrale); ipocalcemia/iperkaliemia/antidoto; controindicato con digitale, FV, ipercalcemia.",
+        "url": "https://mediately.co/it/drugs/53dyFY528xcfi6PVQx9Dic49s3S/calcio-cloruro-s-a-l-f-1-g-10-ml-concentrato-per-soluzione-per-infusione",
+        "identifier": "Calcio cloruro RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Agenti d'urgenza: le dosi di emergenza vanno adattate ai protocolli locali.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Calcio cloruro",
+    "inn": "calcio cloruro",
+    "brandExamplesIt": [
+      "Calcio Cloruro (varie)"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Sale di calcio (elettrolita EV, alta concentrazione)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "electrolyte-metabolic-agents"
+  ],
+  "quickSummary": {
+    "whatItIs": "Sale di calcio EV a maggiore contenuto di calcio elementare del gluconato (circa il triplo): piu' potente ma piu' irritante, da somministrare in via centrale. Stesse indicazioni d'urgenza del gluconato.",
+    "mainUses": [
+      "Ipocalcemia acuta sintomatica",
+      "Protezione cardiaca nell'iperkaliemia con alterazioni ECG",
+      "Antidoto: ipermagnesiemia, calcioantagonisti"
+    ],
+    "mainRisks": [
+      "Necrosi grave da stravaso (via centrale)",
+      "Tossicita' digitalica",
+      "Bradicardia/aritmie se somministrato troppo rapidamente"
+    ],
+    "essentialMonitoring": [
+      "Calcemia",
+      "ECG",
+      "Sito di infusione (via centrale)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento dell'ipocalcemia sintomatica acuta",
+      "Protezione cardiaca nell'iperkaliemia con alterazioni ECG (uso da linee guida)",
+      "Antidoto nell'intossicazione da magnesio/calcioantagonisti (uso da centri antiveleni)"
+    ],
+    "guidelineIndications": [
+      "Nell'iperkaliemia con ECG alterato: 10 mL di calcio cloruro 10% EV; contiene circa 3 volte il calcio elementare del gluconato ma e' piu' irritante - ERC 2021",
+      "Preferire la via centrale per l'elevata irritazione venosa - confermare su fonte"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Ipercalcemia, ipercalciuria, gravi patologie renali",
+      "Fibrillazione ventricolare",
+      "Calcoli renali",
+      "Sarcoidosi",
+      "Pazienti in terapia con glicosidi cardioattivi (digitale)"
+    ],
+    "warnings": [
+      "Soluzione ipertonica molto irritante: preferire la via venosa centrale; lo stravaso causa necrosi tissutale grave",
+      "Iniezione EV lenta e a velocita' controllata (rapida: vasodilatazione, ipotensione, bradicardia, aritmie, sincope, arresto)",
+      "Diluire prima della somministrazione (compatibile con glucosata 5% e fisiologica); non con bicarbonato/fosfato",
+      "Cautela nell'insufficienza renale"
+    ],
+    "adverseEffects": [
+      "Necrosi da stravaso (grave)",
+      "Vasodilatazione, vampate, ipotensione",
+      "Bradicardia, aritmie, fibrillazione ventricolare",
+      "Ipercalcemia (sovradosaggio)"
+    ],
+    "overdose": "Il sovradosaggio causa ipercalcemia: fisiologica + furosemide, poi calcitonina/bifosfonati; dialisi come ultima risorsa.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Controindicato nelle gravi patologie renali.",
+      "hepatic": "Cautela.",
+      "elderly": "Cautela.",
+      "pregnancy": "Utilizzabile se necessario.",
+      "breastfeeding": "Compatibile."
+    },
+    "alternativeDrugIds": [
+      "calcium-gluconate",
+      "magnesium-sulfate"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Come il calcio gluconato ma piu' 'concentrato' e piu' aggressivo per le vene: va dato in una vena centrale. Utile quando serve un effetto rapido, ma mai con la digitale.",
+    "clinicalExplanation": "Sale di calcio EV con circa 272 mg di calcio elementare per grammo (circa 3 volte il gluconato): maggiore biodisponibilita' di calcio ma marcata irritazione venosa (via centrale). Stesse indicazioni d'urgenza (ipocalcemia, protezione nell'iperkaliemia, antidoto).",
+    "molecularExplanation": "Fornisce ioni calcio (alta concentrazione) che stabilizzano il potenziale di membrana dei cardiomiociti.",
+    "pharmacodynamics": "Ripristino rapido della calcemia e stabilizzazione miocardica; maggiore potenza per grammo rispetto al gluconato.",
+    "molecularTarget": "Ione calcio (potenziale di membrana)",
+    "agonismAntagonism": "Reintegro elettrolitico / stabilizzazione di membrana",
+    "pharmacokinetics": {
+      "route": "Endovenosa (via centrale, lenta)",
+      "note": "~3x calcio elementare del gluconato; piu' irritante",
+      "halfLife": "Non applicabile in senso farmacocinetico: la calcemia e' regolata dall'omeostasi (PTH, vitamina D) e dall'escrezione renale"
+    },
+    "bibliography": []
+  }
+}

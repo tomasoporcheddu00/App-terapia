@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "id": "carvedilol",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Carvedilolo - RCP (Codifa/Torrinomedica su base AIFA): indicazioni, titolazione, assunzione con cibo nello scompenso.",
+        "url": "https://www.codifa.it/farmaci/c/carvedilolo-eg-carvedilolo-betabloccanti",
+        "identifier": "Carvedilolo RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "Betabloccanti: meccanismo, controindicazioni, avvertenze e interazioni di classe; sintesi da RCP/portali AIFA (Codifa, Mediately, Torrinomedica, Pharmamedix).",
+        "url": "https://www.torrinomedica.it/schede-farmaci/bisoprololo/",
+        "identifier": "Betabloccanti classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Molte controindicazioni/avvertenze/interazioni sono comuni alla classe dei betabloccanti. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Carvedilolo",
+    "inn": "carvedilolo",
+    "brandExamplesIt": [
+      "Dilatrend",
+      "Carvipress"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Betabloccante alfa/beta non selettivo",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "beta-blockers"
+  ],
+  "quickSummary": {
+    "whatItIs": "Betabloccante non selettivo con blocco alfa1 (vasodilatazione), indicato in ipertensione, angina e scompenso cardiaco.",
+    "mainUses": [
+      "Ipertensione arteriosa",
+      "Angina pectoris",
+      "Scompenso cardiaco (da moderato a grave, in aggiunta alla terapia standard)"
+    ],
+    "mainRisks": [
+      "Ipotensione ortostatica",
+      "Bradicardia",
+      "Peggioramento transitorio dello scompenso in titolazione",
+      "Broncospasmo (non selettivo)"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa (anche ortostatica)",
+      "Frequenza cardiaca",
+      "Peso/segni di congestione in titolazione"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipertensione arteriosa essenziale",
+      "Angina pectoris",
+      "Scompenso cardiaco da moderato a grave, in aggiunta a diuretici, ACE-inibitori/ARB, digitale e/o vasodilatatori"
+    ],
+    "guidelineIndications": [
+      "Betabloccante con evidenza di beneficio nello scompenso a FE ridotta e nella disfunzione VS post-infarto (COPERNICUS, CAPRICORN); confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alla molecola o ad altri betabloccanti",
+      "Insufficienza cardiaca acuta o scompensata che richiede terapia inotropa endovenosa; shock cardiogeno",
+      "Blocco atrioventricolare di 2o o 3o grado (senza pacemaker)",
+      "Sindrome del nodo del seno; blocco seno-atriale",
+      "Bradicardia sintomatica clinicamente rilevante",
+      "Ipotensione grave/sintomatica",
+      "Broncospasmo grave / asma bronchiale grave",
+      "Arteriopatia periferica grave o fenomeno di Raynaud grave",
+      "Feocromocitoma non trattato (senza alfa-blocco)",
+      "Acidosi metabolica",
+      "Disfunzione epatica clinicamente manifesta",
+      "Gravidanza e allattamento"
+    ],
+    "warnings": [
+      "Non interrompere bruscamente: rischio di rebound (peggioramento di angina/ischemia, crisi ipertensive); ridurre gradualmente",
+      "Puo' mascherare i sintomi dell'ipoglicemia nel diabetico e i segni dell'ipertiroidismo",
+      "Broncospasmo nei predisposti: preferire i cardioselettivi alla dose minima efficace",
+      "Bradicardia e disturbi della conduzione AV: monitorare frequenza e conduzione",
+      "Nell'avvio/titolazione per lo scompenso puo' verificarsi un transitorio peggioramento (start low, go slow)",
+      "Cautela nell'angina di Prinzmetal (i non selettivi possono peggiorarla)",
+      "Assumere con il cibo nello scompenso per rallentare l'assorbimento e ridurre l'ipotensione ortostatica"
+    ],
+    "adverseEffects": [
+      "Bradicardia",
+      "Ipotensione, capogiro",
+      "Astenia/affaticamento",
+      "Estremita' fredde",
+      "Disturbi del sonno",
+      "Broncospasmo (nei predisposti)",
+      "Ipotensione ortostatica (blocco alfa1)"
+    ],
+    "overdose": null,
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento sistematico; monitorare nei nefropatici scompensati.",
+      "hepatic": "Controindicato nella disfunzione epatica clinicamente manifesta (metabolismo epatico esteso).",
+      "elderly": "Iniziare a dose bassa; monitorare l'ipotensione posturale.",
+      "pregnancy": "Controindicato.",
+      "breastfeeding": "Controindicato."
+    },
+    "alternativeDrugIds": [
+      "bisoprolol",
+      "metoprolol",
+      "nebivolol"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Rilassa i vasi e rallenta il cuore insieme; nello scompenso va assunto con il cibo e aumentato molto lentamente.",
+    "clinicalExplanation": "Alfa/beta-bloccante; nello scompenso a FE ridotta si titola da 3,125 mg due volte/die fino a 25 mg due volte/die, in paziente stabile da >=4 settimane.",
+    "molecularExplanation": "Blocca i recettori beta1/beta2 e alfa1 (vasodilatazione); metabolismo epatico esteso.",
+    "pharmacodynamics": "Riduzione di frequenza cardiaca, contrattilita', conduzione AV e rilascio di renina; calo della pressione e del consumo miocardico di ossigeno.",
+    "molecularTarget": "Recettori beta-adrenergici (beta1 +/- beta2 +/- alfa1)",
+    "agonismAntagonism": "Antagonista recettoriale",
+    "pharmacokinetics": {
+      "metabolism": "Epatico esteso (CYP2D6/2C9)",
+      "elimination": "Prevalentemente biliare/fecale",
+      "halfLife": "~6-10 ore"
+    },
+    "bibliography": [
+      "COPERNICUS (carvedilolo, scompenso grave) - da citare con fonte primaria",
+      "CAPRICORN (carvedilolo post-infarto con disfunzione VS) - da citare con fonte primaria"
+    ]
+  }
+}

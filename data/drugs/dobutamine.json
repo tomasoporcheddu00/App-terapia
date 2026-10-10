@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "id": "dobutamine",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Dobutamina - RCP (Codifa/Mediately/Torrinomedica su base AIFA): beta1-agonista inotropo, supporto a breve termine nello scompenso/post-cardiochirurgia; 2,5-10 mcg/kg/min; aumenta il consumo di O2.",
+        "url": "https://mediately.co/it/drugs/OyimJXajzsiav1wXjvu7zLGqrK/dobutamina-bioindustria-l-i-m-250-mg-20-ml-concentrato-per-soluzione-per-infusione",
+        "identifier": "Dobutamina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC) e da monografie di terapia intensiva: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Agenti vasoattivi EV di terapia intensiva: dosi da titolare con monitoraggio emodinamico continuo.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Dobutamina",
+    "inn": "dobutamina",
+    "brandExamplesIt": [
+      "Dobutamina (varie)"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Inotropo (beta1-agonista)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "inotropes"
+  ],
+  "quickSummary": {
+    "whatItIs": "Catecolamina di sintesi (beta1-agonista) che aumenta la forza di contrazione del cuore; usata in terapia intensiva come supporto inotropo a breve termine nello scompenso a bassa portata e nello shock cardiogeno.",
+    "mainUses": [
+      "Supporto inotropo a breve termine nello scompenso da ridotta contrattilita'",
+      "Shock cardiogeno",
+      "Supporto dopo cardiochirurgia; test da stress con dobutamina"
+    ],
+    "mainRisks": [
+      "Tachicardia e aritmie",
+      "Aumento del consumo miocardico di ossigeno (ischemia)",
+      "Ipotensione o ipertensione"
+    ],
+    "essentialMonitoring": [
+      "ECG e frequenza cardiaca continui",
+      "Pressione arteriosa",
+      "Portata cardiaca/perfusione"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Supporto inotropo parenterale nel trattamento a breve termine di adulti con scompenso cardiaco da depressa contrattilita' miocardica conseguente a cardiopatia organica o a interventi cardiochirurgici"
+    ],
+    "guidelineIndications": [
+      "Inotropo di riferimento nello shock cardiogeno e nello scompenso a bassa portata; nei pazienti in terapia betabloccante l'effetto puo' essere attenuato (competizione) - confermare su ESC",
+      "Beneficio limitato su qualita' di vita e sopravvivenza; nello scompenso avanzato puo' essere pericoloso - confermare su fonte"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' (e ai solfiti per le formulazioni con metabisolfito)",
+      "Ostruzione meccanica significativa al riempimento e/o all'eiezione ventricolare (stenosi aortica grave, cardiomiopatia ipertrofica ostruttiva, tamponamento cardiaco, pericardite costrittiva)"
+    ],
+    "warnings": [
+      "Aumenta il consumo miocardico di ossigeno: rischio di ischemia e aritmie (tachicardia ventricolare/fibrillazione ventricolare)",
+      "Puo' aumentare frequenza cardiaca e pressione (in media +10-20 mmHg di sistolica, +5-15 bpm) e l'ectopia ventricolare: ridurre o interrompere se compaiono",
+      "Correggere l'ipovolemia prima dell'uso; nella fibrillazione atriale a risposta rapida digitalizzare prima",
+      "Cali pressori bruschi possibili (rispondono alla riduzione/interruzione)",
+      "Non miscelare con bicarbonato di sodio o altre soluzioni alcaline (inattivazione); solo uso ospedaliero con monitoraggio",
+      "Puo' sviluppare tolleranza con infusioni oltre 72 ore"
+    ],
+    "adverseEffects": [
+      "Tachicardia, palpitazioni",
+      "Aumento della pressione arteriosa",
+      "Ectopia/aritmie ventricolari",
+      "Angina, dolore toracico",
+      "Ipotensione",
+      "Nausea, cefalea, parestesie"
+    ],
+    "overdose": "Il sovradosaggio causa tachicardia, ipertensione, aritmie e ischemia miocardica; ridurre o interrompere l'infusione (emivita breve); trattare le aritmie secondo necessita' (es. betabloccante a breve durata).",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico.",
+      "hepatic": "Nessun aggiustamento specifico.",
+      "elderly": "Cautela.",
+      "pregnancy": "Solo se strettamente necessario.",
+      "breastfeeding": "Cautela."
+    },
+    "alternativeDrugIds": [
+      "milrinone",
+      "levosimendan",
+      "noradrenaline"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un 'potenziatore' della contrazione del cuore che si da' in vena, in terapia intensiva, quando il cuore pompa poco; fa lavorare di piu' il cuore e ne aumenta il bisogno di ossigeno.",
+    "clinicalExplanation": "Catecolamina sintetica agonista prevalentemente beta1 (con effetti beta2/alfa1 minori): aumenta contrattilita' e gittata cardiaca con modesto effetto sulla frequenza e sulle resistenze. Aumenta il consumo di ossigeno. Titolabile in terapia intensiva.",
+    "molecularExplanation": "Stimola i recettori beta1-adrenergici cardiaci aumentando l'AMP ciclico, la contrattilita' e la gittata.",
+    "pharmacodynamics": "Aumento della contrattilita' e della gittata cardiaca; effetto inotropo positivo con modesto aumento della frequenza.",
+    "molecularTarget": "Recettori beta1-adrenergici (cuore)",
+    "agonismAntagonism": "Agonismo beta1-adrenergico",
+    "pharmacokinetics": {
+      "route": "Infusione endovenosa continua",
+      "onset": "1-2 minuti",
+      "halfLife": "~2 minuti",
+      "metabolism": "COMT (metaboliti inattivi)"
+    },
+    "bibliography": []
+  }
+}

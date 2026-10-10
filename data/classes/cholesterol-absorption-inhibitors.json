@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "id": "cholesterol-absorption-inhibitors",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Inibitori dell'assorbimento del colesterolo (ezetimibe): sintesi da RCP.",
+        "url": "https://www.codifa.it/farmaci/e/ezetimibe",
+        "identifier": "Ezetimibe classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP; confermare su RCP ufficiali e linee guida ESC/EAS."
+  },
+  "name": "Inibitori dell'assorbimento del colesterolo",
+  "atcGroup": "C10AX09",
+  "memberDrugIds": [
+    "ezetimibe"
+  ],
+  "mechanismSummary": "Inibizione selettiva del trasportatore NPC1L1 sull'orletto a spazzola intestinale, con riduzione dell'assorbimento del colesterolo alimentare e biliare e aumento compensatorio dei recettori LDL epatici.",
+  "molecularTarget": "Trasportatore NPC1L1 (orletto a spazzola intestinale)",
+  "pharmacodynamics": "Riduzione dell'assorbimento intestinale del colesterolo; effetto additivo alle statine (~15-20% di riduzione aggiuntiva dell'LDL).",
+  "classEffects": [
+    "Riduzione dell'LDL complementare alle statine",
+    "Opzione in intolleranza alle statine",
+    "Beneficio sugli eventi in add-on a statina dopo SCA (IMPROVE-IT)"
+  ],
+  "sharedContraindications": [
+    "Ipersensibilita'",
+    "In associazione a statina: controindicazioni della statina (epatopatia attiva, gravidanza/allattamento)"
+  ],
+  "sharedAdverseEffects": [
+    "Disturbi gastrointestinali",
+    "Mialgie",
+    "Aumento delle transaminasi (con statina)"
+  ],
+  "monitoring": [
+    "Profilo lipidico",
+    "Transaminasi (in associazione a statina)"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Classe rappresentata dall'ezetimibe. Complementare alle statine per meccanismo (assorbimento vs sintesi); spesso usato in associazione fissa (con statine o con acido bempedoico). Dettagli nella scheda."
+}

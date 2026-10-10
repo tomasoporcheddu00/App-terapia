@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "nsaids",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Ibuprofene - RCP (Torrinomedica: Ibuprofene DR, Ibuprofene Alter, Brufen; Codifa): controindicazioni, avvertenze cardiovascolari e gastrointestinali, interazione con acido acetilsalicilico a basse dosi.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/Ibuprofene_Alter_cp/",
+        "identifier": "Ibuprofene RCP",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "other",
+        "citation": "Pharmamedix - Ibuprofene, sezioni Controindicazioni e Interazioni: revisione EMA 2015 sulle dosi elevate (>=2400 mg/die) e antagonismo sull'effetto antiaggregante dell'ASA.",
+        "url": "https://www.pharmamedix.com/principiovoce.php?pa=Ibuprofene&vo=Controindicazioni",
+        "identifier": "Pharmamedix ibuprofene",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2025 - Linee guida su miocardite e pericardite: FANS ad alte dosi con gastroprotezione, sempre associati a colchicina.",
+        "url": "https://www.giornaledicardiologia.it/archivio/4620/articoli/46292/",
+        "identifier": "ESC 2025 IMPS",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Pagina di classe da RCP e linee guida ESC; l'indometacina resta placeholder."
+  },
+  "name": "FANS (antinfiammatori non steroidei)",
+  "atcGroup": "M01A - Antinfiammatori e antireumatici non steroidei",
+  "memberDrugIds": [
+    "ibuprofen",
+    "indomethacin"
+  ],
+  "mechanismSummary": "Inibizione delle ciclossigenasi COX-1 e COX-2 con riduzione della sintesi di prostaglandine e trombossani: effetto antinfiammatorio, analgesico e antipiretico.",
+  "molecularTarget": "Ciclossigenasi COX-1 e COX-2",
+  "pharmacodynamics": "Riduzione dei mediatori prostanoidi dell'infiammazione; inibizione piastrinica reversibile (a differenza dell'aspirina, irreversibile). Perdita della citoprotezione gastrica e della regolazione prostaglandino-mediata del flusso renale.",
+  "classEffects": [
+    "Cardine sintomatico della pericardite acuta e ricorrente, ad alte dosi e sempre associati alla colchicina",
+    "Ritenzione idrosalina con peggioramento di ipertensione e scompenso cardiaco",
+    "Rischio cardiovascolare alle dosi elevate (limitazioni EMA 2015 per ibuprofene >=2400 mg/die)",
+    "Interferenza con l'effetto antiaggregante dell'aspirina a basse dosi"
+  ],
+  "sharedContraindications": [
+    "Ulcera peptica o emorragia gastrointestinale in atto o ricorrente",
+    "Grave insufficienza cardiaca (NYHA IV), epatica o renale",
+    "Ipersensibilita' ad ASA o altri FANS, specie con poliposi nasale, angioedema o asma",
+    "Terzo trimestre di gravidanza"
+  ],
+  "sharedAdverseEffects": [
+    "Emorragia, ulcerazione e perforazione gastrointestinale, anche fatali",
+    "Ritenzione idrica, edema, ipertensione, peggioramento dello scompenso",
+    "Insufficienza renale acuta e iperkaliemia",
+    "Reazioni di ipersensibilita' e broncospasmo"
+  ],
+  "monitoring": [
+    "Sintomi gastrointestinali",
+    "Pressione arteriosa, peso e segni di congestione",
+    "Creatinina e potassio nei pazienti a rischio"
+  ],
+  "reversal": "Nessun antidoto specifico: sospensione e terapia di supporto; gastroprotezione con inibitore di pompa nei pazienti a rischio.",
+  "notesOnClassVsMolecule": "Nella pericardite le linee guida usano dosi elevate per 1-2 settimane, sempre con gastroprotezione e in associazione alla colchicina. Nel cardiopatico la scelta va pesata contro ritenzione idrosalina, rischio renale e interferenza con l'aspirina."
+}

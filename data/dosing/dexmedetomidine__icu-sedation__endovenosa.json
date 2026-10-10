@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "dexmedetomidine__icu-sedation__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Dexmedetomidina (Dexdor) - RCP EMA/AIFA (Codifa/Torrinomedica/EMA): sedazione in terapia intensiva RASS 0/-3 e sedazione procedurale; 0,7 mcg/kg/h iniziale, range 0,2-1,4; controindicato BAV 2-3 non stimolato, ipotensione non controllata, condizioni cerebrovascolari acute.",
+        "url": "https://www.codifa.it/farmaci/d/dexdor-dexmedetomidina-cloridrato-ipnotici-sedativi",
+        "identifier": "Dexdor RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EMA-AIFA; smpcVerified=false. Sedazione: titolare sulla risposta clinica e sui protocolli locali."
+  },
+  "drugId": "dexmedetomidine",
+  "indication": "icu-sedation",
+  "scenario": "Sedazione in terapia intensiva",
+  "route": "endovenosa",
+  "dose": {
+    "switch": "pazienti gia' intubati e sedati: velocita' iniziale 0,7 mcg/kg/h",
+    "titration": "aggiustare gradualmente nell'intervallo 0,2-1,4 mcg/kg/h fino al livello di sedazione desiderato",
+    "frail": "nei pazienti fragili considerare una velocita' iniziale piu' bassa",
+    "loading": "la dose di carico e' associata a ipertensione transitoria: puo' essere evitata"
+  },
+  "administration": {
+    "notes": "EV in infusione continua, solo uso ospedaliero da personale esperto in terapia intensiva. Monitoraggio ECG e pressorio continuo. Ridurre gradualmente dopo uso prolungato."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

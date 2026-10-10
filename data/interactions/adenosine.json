@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "adenosine",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Adenosina (Krenosin) - RCP (Codifa/Torrinomedica/Mediately su base AIFA): nucleoside, blocco AV transitorio, conversione della TPSV; controindicata in blocco AV II-III/malattia del seno senza PM e broncospasmo; uso ospedaliero.",
+        "url": "https://www.codifa.it/farmaci/k/krenosin-adenosina-cardiovascolari-adenilici-amp-atp-",
+        "identifier": "Krenosin RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "adenosine",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Dipiridamolo",
+      "effect": "Potenziamento marcato dell'effetto dell'adenosina",
+      "management": "Ridurre la dose di adenosina"
+    },
+    {
+      "severity": "major",
+      "agent": "Teofillina/caffeina (metilxantine)",
+      "effect": "Antagonismo dell'effetto dell'adenosina",
+      "management": "Puo' essere necessaria una dose maggiore / evitare"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Carbamazepina",
+      "effect": "Possibile potenziamento del blocco AV",
+      "management": "Cautela"
+    }
+  ]
+}

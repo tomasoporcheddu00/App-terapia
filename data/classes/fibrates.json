@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "id": "fibrates",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Fibrati (agonisti PPAR-alfa, fenofibrato): sintesi da RCP.",
+        "url": "https://mediately.co/it/drugs/KWHSHGPxDdjqSum8mzAxuDRRYKd/fenofibrato-eg-145-mg-compresse",
+        "identifier": "Fibrati classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP; confermare su RCP ufficiali e linee guida ESC/EAS."
+  },
+  "name": "Fibrati",
+  "atcGroup": "C10AB",
+  "memberDrugIds": [
+    "fenofibrate"
+  ],
+  "mechanismSummary": "Agonismo del recettore nucleare PPAR-alfa: aumento della lipoprotein-lipasi e dell'ossidazione degli acidi grassi, riduzione dell'apoC-III, con calo dei trigliceridi e aumento dell'HDL.",
+  "molecularTarget": "Recettore nucleare PPAR-alfa",
+  "pharmacodynamics": "Riduzione prevalente dei trigliceridi (e in parte dell'LDL), aumento dell'HDL.",
+  "classEffects": [
+    "Riduzione dei trigliceridi (ipertrigliceridemia grave, rischio di pancreatite)",
+    "Aumento dell'HDL",
+    "Opzione nella dislipidemia mista quando la statina non basta/non e' tollerata"
+  ],
+  "sharedContraindications": [
+    "Insufficienza epatica o renale grave",
+    "Malattia della colecisti/colelitiasi",
+    "Pancreatite (eccetto da grave ipertrigliceridemia)",
+    "Fotoallergia ai fibrati/ketoprofene",
+    "Gravidanza e allattamento"
+  ],
+  "sharedAdverseEffects": [
+    "Miopatia (aumentata con le statine)",
+    "Aumento reversibile della creatinina",
+    "Disturbi gastrointestinali",
+    "Calcolosi biliare"
+  ],
+  "monitoring": [
+    "Profilo lipidico",
+    "Transaminasi",
+    "Funzione renale",
+    "CK se sintomi muscolari"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Classe rappresentata dal fenofibrato (in Italia il fibrato di riferimento; il gemfibrozil ha un rischio di miopatia maggiore in associazione alle statine ed e' meno usato). I fibrati agiscono soprattutto sui trigliceridi; l'associazione con statina va riservata ai casi ad alto rischio con dislipidemia combinata. Dettagli nella scheda."
+}

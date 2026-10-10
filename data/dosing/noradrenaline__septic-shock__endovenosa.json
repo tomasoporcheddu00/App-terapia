@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "noradrenaline__septic-shock__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Noradrenalina/norepinefrina - RCP (Codifa/Mediately/Torrinomedica su base AIFA): alfa-agonista vasocostrittore, vasopressore di prima scelta nello shock settico; infusione per via centrale; necrosi da stravaso (antidoto fentolamina).",
+        "url": "https://mediately.co/it/drugs/56OYLLMOGOH9vAKkC3TYoJi3qpb/noradrenalina-tartrato-aguettant-0-5-mg-ml-soluzione-per-infusione",
+        "identifier": "Noradrenalina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Agente vasoattivo: titolare con monitoraggio emodinamico continuo; confermare dose e diluizione."
+  },
+  "drugId": "noradrenaline",
+  "indication": "septic-shock",
+  "scenario": "Shock settico / ipotensione grave",
+  "route": "endovenosa",
+  "dose": {
+    "initial": "0,05-0,15 mcg/kg/min (base) o 0,1-0,3 mcg/kg/min (tartrato), titolabile",
+    "target": "titolare per una pressione arteriosa media >=65 mmHg",
+    "range": "fino a ~0,5-1 mcg/kg/min secondo risposta"
+  },
+  "administration": {
+    "notes": "Infusione EV continua per via venosa centrale con pompa; proteggere dalla luce; controllare il sito di infusione. Uso ospedaliero."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

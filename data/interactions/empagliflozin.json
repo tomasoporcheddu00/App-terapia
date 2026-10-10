@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "empagliflozin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Empagliflozin (Jardiance) - RCP/EPAR (EMA, Codifa, Mediately): indicazioni HF/CKD/T2D, dose, chetoacidosi.",
+        "url": "https://www.codifa.it/farmaci/j/jardiance-empagliflozin-ipoglicemizzanti-orali",
+        "identifier": "Empagliflozin RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5; severita' secondo posizionamento RCP e rilevanza clinica.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "empagliflozin",
+  "items": [
+    {
+      "severity": "moderate",
+      "agent": "Insulina e secretagoghi (sulfaniluree)",
+      "effect": "Aumento del rischio di ipoglicemia",
+      "management": "Considerare la riduzione della dose di insulina/secretagogo"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Diuretici",
+      "effect": "Potenziamento della diuresi e rischio di deplezione di volume/ipotensione",
+      "management": "Monitorare volemia e pressione"
+    }
+  ]
+}

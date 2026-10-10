@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "propofol__icu-sedation__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Propofol (Diprivan) - RCP AIFA (Codifa/Mediately): anestesia generale e sedazione in terapia intensiva nei ventilati >16 anni; sedazione UTI 0,3-4,0 mg/kg/h; sindrome da infusione di propofol; contiene olio di soia.",
+        "url": "https://www.codifa.it/farmaci/d/diprivan-emulsione-propofol-anestetici-generali",
+        "identifier": "Diprivan RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EMA-AIFA; smpcVerified=false. Sedazione: titolare sulla risposta clinica e sui protocolli locali."
+  },
+  "drugId": "propofol",
+  "indication": "icu-sedation",
+  "scenario": "Sedazione in terapia intensiva / anestesia",
+  "route": "endovenosa",
+  "dose": {
+    "icu-sedation": "infusione continua 0,3-4,0 mg/kg/h, titolata sulla profondita' di sedazione (solo pazienti >16 anni ventilati)",
+    "induction": "adulti <55 anni 1,5-2,5 mg/kg EV (circa 20-40 mg ogni 10 secondi); ridurre negli anziani e nei gradi ASA III-IV",
+    "anesthesia-maintenance": "boli ripetuti 25-50 mg oppure infusione continua; anziani, defedati, ipovolemici e ASA III-IV: 4 mg/kg/h",
+    "caution": "non superare 4 mg/kg/h in infusione prolungata (rischio di PRIS)"
+  },
+  "administration": {
+    "notes": "EV, da personale addestrato con via aerea e monitoraggio. Titolare sulla risposta. Asepsi rigorosa (emulsione lipidica). Non e' analgesico."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "id": "ampicillin",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "guideline",
+        "citation": "ESC 2023 - Linee guida per la gestione dell'endocardite: tabelle di raccomandazione 7-10 sui regimi antibiotici per patogeno e per terapia empirica.",
+        "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/endocarditis/",
+        "identifier": "ESC 2023 endocardite",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Quick reference dei regimi antibiotici delle linee guida ESC 2023 sull'endocardite (sintesi con dosi e durate).",
+        "url": "https://sattimd.com/guidelines/esc-endocarditis-2023.html",
+        "identifier": "Sintesi regimi ESC 2023",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Corrigendum alle linee guida ESC 2023 sull'endocardite (Eur Heart J 2025): correzione delle dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10.",
+        "url": "https://academic.oup.com/eurheartj/article/46/11/1082/7959358",
+        "identifier": "Corrigendum ESC 2023",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "SCOPO DELLA SCHEDA: in questo atlante cardiologico gli antibiotici sono trattati SOLO per il ruolo nell'endocardite infettiva; per ogni altro impiego fare riferimento all'RCP e alla consulenza infettivologica. Regimi sintetizzati dalle linee guida ESC 2023 sull'endocardite (tabelle 7-10) tramite fonti secondarie e dal position statement SPILF-AEPEI: DA CONFERMARE sul testo integrale delle linee guida e sul corrigendum 2025, che ha corretto le dosi di amoxicillina e ampicillina nelle tabelle 7, 9 e 10. La scelta di molecola, dose e durata dipende da patogeno, MIC, tipo di valvola (nativa o protesica) e funzione renale, e va concordata con l'Endocarditis Team. Stato: revisione fonti (source-review). Ruolo nell'endocardite: la scelta e la durata dipendono da patogeno, MIC e tipo di valvola. Verificare sempre le tabelle ESC 2023 aggiornate al corrigendum e concordare con l'Endocarditis Team.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Ampicillina",
+    "inn": "ampicillina",
+    "brandExamplesIt": [
+      "Ampicillina sodica"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Aminopenicillina",
+  "identity": {
+    "atcCodes": [
+      "J01CA01"
+    ],
+    "formulations": [
+      "Polvere per soluzione iniettabile"
+    ],
+    "potentialRoutes": [
+      "endovenosa"
+    ],
+    "availabilityStatus": "commercializzato",
+    "marketingAuthorisationIt": true
+  },
+  "classIds": [
+    "penicillins"
+  ],
+  "quickSummary": {
+    "whatItIs": "Aminopenicillina endovenosa, alternativa all'amoxicillina negli schemi dell'endocardite enterococcica e componente della terapia empirica iniziale.",
+    "mainUses": [
+      "Endocardite da Enterococcus spp. sensibile ai beta-lattamici",
+      "Terapia empirica iniziale dell'endocardite prima dell'identificazione del patogeno"
+    ],
+    "mainRisks": [
+      "Reazioni di ipersensibilita' fino all'anafilassi",
+      "Carico di volume e sodio alle dosi elevate",
+      "Rash in corso di mononucleosi"
+    ],
+    "essentialMonitoring": [
+      "Funzione renale prima e durante il trattamento",
+      "Emocolture di controllo per documentare la sterilizzazione",
+      "Segni di reazione allergica"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Infezioni sostenute da microrganismi sensibili, secondo la scheda tecnica"
+    ],
+    "guidelineIndications": [
+      "Endocardite enterococcica da ceppi sensibili ai beta-lattamici: ampicillina 12 g al giorno per via endovenosa in 4-6 somministrazioni per 6 settimane, con gentamicina 3 mg/kg al giorno per 2 settimane - ESC 2023",
+      "Terapia EMPIRICA iniziale (prima dell'identificazione del patogeno) nella sintesi dei regimi ESC 2023: ceftriaxone 2 g due volte al giorno + gentamicina 3 mg/kg al giorno + ampicillina 2 g ogni 6 ore, per coprire anche gli enterococchi, con rivalutazione entro 24-48 ore in base a identificazione e antibiogramma",
+      "ATTENZIONE: il corrigendum 2025 ha corretto le dosi di ampicillina nelle tabelle 7, 9 e 10 delle linee guida"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alle penicilline o ad altri beta-lattamici"
+    ],
+    "warnings": [
+      "Anafilassi e reazioni di ipersensibilita' gravi",
+      "Carico di volume e sodio rilevante alle dosi dell'endocardite: sorvegliare stato volemico ed elettroliti nel paziente con scompenso",
+      "Adeguare la dose alla funzione renale (rischio di neurotossicita' da accumulo)",
+      "Rash molto frequente se somministrata in corso di mononucleosi infettiva",
+      "Verificare le dosi sulla versione corretta delle tabelle ESC"
+    ],
+    "adverseEffects": [
+      "Reazioni di ipersensibilita' e rash",
+      "Diarrea e colite da Clostridioides difficile",
+      "Nefrite interstiziale",
+      "Alterazioni dell'emocromo nei trattamenti prolungati"
+    ],
+    "overdose": "Il sovradosaggio, favorito dall'insufficienza renale, puo' causare neurotossicita' e convulsioni. Terapia di supporto; rimossa dall'emodialisi.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Ridurre la dose secondo la clearance.",
+      "hepatic": "Consultare l'RCP.",
+      "elderly": "Attenzione a funzione renale e carico di sodio.",
+      "pregnancy": "Utilizzabile secondo valutazione clinica.",
+      "breastfeeding": "Consultare l'RCP."
+    },
+    "alternativeDrugIds": [
+      "amoxicillin",
+      "ceftriaxone",
+      "gentamicin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "E' la 'cugina' endovenosa dell'amoxicillina, usata negli stessi schemi contro l'enterococco e nella terapia iniziale quando ancora non si sa quale germe sia.",
+    "clinicalExplanation": "Aminopenicillina endovenosa impiegata nell'endocardite enterococcica (12 g/die in 4-6 somministrazioni per 6 settimane con gentamicina per 2 settimane) e nella terapia empirica iniziale in associazione a ceftriaxone e gentamicina. Come per l'amoxicillina, il corrigendum 2025 ha rivisto le dosi delle tabelle originali.",
+    "molecularExplanation": "Inibisce le proteine leganti la penicillina bloccando la sintesi del peptidoglicano.",
+    "pharmacodynamics": "Battericida tempo-dipendente.",
+    "molecularTarget": "Proteine leganti la penicillina (PBP)",
+    "agonismAntagonism": "Inibizione della sintesi o della funzione batterica",
+    "pharmacokinetics": {
+      "route": "Endovenosa",
+      "halfLife": "Circa 1 ora con funzione renale normale",
+      "note": "Eliminazione renale"
+    },
+    "bibliography": []
+  }
+}

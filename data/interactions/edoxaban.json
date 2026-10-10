@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "id": "edoxaban",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Lixiana (edoxaban) sez. 4.2/4.5 - inibitori della P-gp che impongono la riduzione a 30 mg; farmaci che alterano l'emostasi.",
+        "url": "https://mediately.co/it/drugs/YMnCWLklOon82zZK18RVjF8nfmj/lixiana-60-mg-compresse-rivestite",
+        "identifier": "Lixiana 4.5",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Interazioni coerenti con il criterio di riduzione dose gia' documentato (substrato P-gp). Elenco 4.5 completo da verificare sulla RCP integrale.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "edoxaban",
+  "items": [
+    {
+      "agent": "Inibitori specifici della P-gp (ciclosporina, dronedarone, eritromicina, ketoconazolo)",
+      "effect": "Aumento dell'esposizione ad edoxaban",
+      "management": "Ridurre la dose a 30 mg una volta al giorno",
+      "severity": "major"
+    },
+    {
+      "agent": "Induttori della P-gp (rifampicina, fenitoina, carbamazepina, erba di San Giovanni)",
+      "effect": "Riduzione dell'esposizione e dell'efficacia",
+      "management": "Usare con cautela",
+      "severity": "moderate"
+    },
+    {
+      "agent": "Altri anticoagulanti, antiaggreganti, FANS",
+      "effect": "Aumento del rischio emorragico",
+      "management": "Evitare le associazioni non necessarie",
+      "severity": "major"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "id": "nondhp-ccb",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Calcioantagonisti non diidropiridinici (verapamil, diltiazem): sintesi da RCP/portali AIFA.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/verapamil_angenerico/",
+        "identifier": "non-DHP classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe non diidropiridinici sintetizzata da RCP; confermare su RCP ufficiali e linee guida ESC."
+  },
+  "name": "Calcioantagonisti non diidropiridinici",
+  "atcGroup": "C08D (non diidropiridine)",
+  "memberDrugIds": [
+    "verapamil",
+    "diltiazem"
+  ],
+  "mechanismSummary": "Blocco dei canali del calcio di tipo L a livello cardiaco (nodo senoatriale/atrioventricolare e miocardio) oltre che vascolare: riduzione di frequenza, conduzione AV e contrattilita', con vasodilatazione.",
+  "molecularTarget": "Canali del calcio di tipo L (cardiaci e vascolari)",
+  "pharmacodynamics": "Riduzione di contrattilita' (inotropo negativo), frequenza sinusale e conduzione AV (dromotropo negativo), oltre a vasodilatazione: controllo della frequenza nelle tachiaritmie sopraventricolari ed effetto antianginoso/antipertensivo.",
+  "classEffects": [
+    "Controllo della frequenza nelle tachiaritmie sopraventricolari",
+    "Effetto antianginoso e antipertensivo",
+    "Rallentamento della conduzione AV"
+  ],
+  "sharedContraindications": [
+    "Scompenso cardiaco / disfunzione ventricolare sinistra (inotropo negativo)",
+    "Bradicardia grave, malattia del nodo del seno, blocco AV avanzato senza pacemaker",
+    "Ipotensione grave / shock cardiogeno",
+    "Associazione con betabloccanti (soprattutto EV per il verapamil)",
+    "(Verapamil) FA con via accessoria; (diltiazem) associazione con ivabradina"
+  ],
+  "sharedAdverseEffects": [
+    "Bradicardia, blocco AV",
+    "Peggioramento dello scompenso",
+    "Ipotensione, edema",
+    "(Verapamil) stitichezza"
+  ],
+  "monitoring": [
+    "Frequenza cardiaca e conduzione (ECG)",
+    "Pressione arteriosa"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "A differenza delle diidropiridine, verapamil e diltiazem deprimono cuore e conduzione: sono controindicati nell'HFrEF e vanno associati ai betabloccanti solo con estrema cautela. Il verapamil e' il piu' cardiodepressore (e da' piu' stitichezza); il diltiazem e' intermedio. Entrambi sono inibitori del CYP3A4 (interazioni con statine, digossina, ecc.). Dettagli nelle singole schede."
+}

@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "dulaglutide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "AIFA/EMA - dulaglutide (Trulicity): prescrizione con piano terapeutico per il diabete tipo 2.",
+        "url": "https://www.straighthealthcare.com/glp-1-analog-dosing.html",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Verificare piano terapeutico AIFA aggiornato."
+  },
+  "drugId": "dulaglutide",
+  "authorisation": "EMA/Nazionale",
+  "marketed": true,
+  "reimbursementClass": "A (piano terapeutico)",
+  "supplyRegime": "RRL - prescrizione limitativa",
+  "aifaNote": null,
+  "therapeuticPlan": true,
+  "distribution": "Farmacia/Distribuzione diretta",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

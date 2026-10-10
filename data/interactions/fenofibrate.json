@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "id": "fenofibrate",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Fenofibrato - RCP (Mediately/Univadis/Codifa su base AIFA): agonista PPAR-alfa, indicazioni ipertrigliceridemia/dislipidemia mista, dose 145 mg, controindicazioni epatiche/renali/colecisti, miopatia con statine; Nota 13.",
+        "url": "https://mediately.co/it/drugs/KWHSHGPxDdjqSum8mzAxuDRRYKd/fenofibrato-eg-145-mg-compresse",
+        "identifier": "Fenofibrato RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5; severita' secondo posizionamento RCP e rilevanza clinica.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "fenofibrate",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Statine (HMG-CoA reduttasi inibitori)",
+      "effect": "Aumento del rischio di miopatia/rabdomiolisi",
+      "management": "Associazione riservata a dislipidemia grave ad alto rischio senza anamnesi muscolare; monitorare la CK"
+    },
+    {
+      "severity": "major",
+      "agent": "Antagonisti della vitamina K (warfarin)",
+      "effect": "Potenziamento dell'effetto anticoagulante",
+      "management": "Ridurre la dose dell'anticoagulante e monitorare l'INR"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Ciclosporina",
+      "effect": "Rischio di nefrotossicita' additiva",
+      "management": "Monitorare la funzione renale"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Resine a scambio ionico (colestiramina)",
+      "effect": "Riduzione dell'assorbimento",
+      "management": "Distanziare le somministrazioni"
+    }
+  ]
+}

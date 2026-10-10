@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "id": "methyldopa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Metildopa (Aldomet) - RCP (Codifa/Univadis/Torrinomedica su base AIFA): alfa-2 agonista centrale, ipertensione (gold standard in gravidanza); anemia emolitica (Coombs+), epatotossicita', depressione.",
+        "url": "https://www.codifa.it/farmaci/a/aldomet-metildopa-antipertensivi-ad-azione-centrale",
+        "identifier": "Aldomet RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "methyldopa",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Inibitori delle monoaminoossidasi (IMAO)",
+      "effect": "Crisi ipertensive/interazione grave",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "major",
+      "agent": "Altri antipertensivi/anestetici",
+      "effect": "Ipotensione additiva",
+      "management": "Monitorare"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Sali di ferro",
+      "effect": "Riduzione dell'assorbimento e dell'efficacia della metildopa",
+      "management": "Distanziare le somministrazioni"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Litio",
+      "effect": "Rischio di tossicita' da litio",
+      "management": "Monitorare la litiemia"
+    }
+  ]
+}

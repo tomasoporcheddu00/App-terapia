@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "id": "anakinra",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-28T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Kineret (anakinra) - RCP EMA/AIFA (Univadis): posologia, compromissione renale, neutropenia, associazione con anti-TNF, interazioni.",
+        "url": "https://www.univadis.it/references/drug-database/L04/viewdrug/kineret-58211",
+        "identifier": "Kineret RCP",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "other",
+        "citation": "AIFA - elenco Legge 648/96: anakinra (Kineret) rimborsata per la pericardite idiopatica ricorrente corticodipendente e colchicina-resistente, adulto 100 mg/die sottocute.",
+        "url": "https://www.aifa.gov.it/sites/default/files/Allegato_1_anakinra_16.01.2019.pdf",
+        "identifier": "AIFA L.648/96 anakinra",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2025 - Linee guida su miocardite e pericardite: inibitori dell'IL-1 di Classe I nella pericardite recidivante o resistente.",
+        "url": "https://www.giornaledicardiologia.it/archivio/4620/articoli/46292/",
+        "identifier": "ESC 2025 IMPS",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "anakinra",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Antagonisti del TNF-alfa (etanercept, infliximab, adalimumab)",
+      "effect": "Aumento delle infezioni gravi (7%) e della neutropenia senza beneficio clinico aggiuntivo",
+      "management": "Associazione non raccomandata"
+    },
+    {
+      "severity": "major",
+      "agent": "Vaccini vivi attenuati",
+      "effect": "Rischio di infezione da ceppo vaccinale nel paziente immunodepresso",
+      "management": "Non somministrare durante il trattamento"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Altri immunosoppressori e corticosteroidi",
+      "effect": "Effetto additivo sul rischio infettivo",
+      "management": "Sorvegliare segni di infezione ed emocromo"
+    },
+    {
+      "severity": "minor",
+      "agent": "FANS, corticosteroidi e DMARD",
+      "effect": "Negli studi clinici non sono state osservate interazioni rilevanti",
+      "management": "Associazione possibile secondo indicazione clinica"
+    },
+    {
+      "severity": "minor",
+      "agent": "Substrati del citocromo P450",
+      "effect": "Il blocco dell'IL-1 puo' normalizzare la formazione degli enzimi CYP450 soppressa dall'infiammazione cronica, con possibile variazione dell'esposizione ai substrati",
+      "management": "Sorveglianza clinica dei farmaci a indice terapeutico stretto (es. warfarin)"
+    }
+  ]
+}

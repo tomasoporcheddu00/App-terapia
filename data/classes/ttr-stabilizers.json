@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "id": "ttr-stabilizers",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Vyndaqel 61 mg (tafamidis) - RCP EMA (registro comunitario EC, allegato IT; Torrinomedica/Codifa): indicazione ATTR-CM, posologia, criteri diagnostici, interazione con i substrati BCRP.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2023/20230215158175/anx_158175_it.pdf",
+        "identifier": "Vyndaqel RCP EMA",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "smpc",
+        "citation": "Beyonttra (acoramidis) - RCP EMA (registro comunitario EC, allegato IT): indicazione ATTR-CM, posologia 712 mg due volte al giorno, farmacocinetica.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2025/20250210165087/anx_165087_it.pdf",
+        "identifier": "Beyonttra RCP EMA",
+        "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "other",
+        "citation": "Comunicato di approvazione della Commissione Europea (febbraio 2025) e risultati dello studio ATTRibute-CM.",
+        "url": "https://www.bayer.com/media/en-us/heart-drug-beyonttra-acoramidis-approved-in-eu-for-treatment-of-transthyretin-amyloidosis-in-adults-with-cardiomyopathy/",
+        "identifier": "EC/ATTRibute-CM",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Pagina di classe da RCP EMA; verificare disponibilita' e rimborsabilita' italiana dell'acoramidis."
+  },
+  "name": "Stabilizzatori della transtiretina",
+  "atcGroup": "N07XX - Altri farmaci del sistema nervoso (amiloidosi da transtiretina)",
+  "memberDrugIds": [
+    "tafamidis",
+    "acoramidis"
+  ],
+  "mechanismSummary": "Legame selettivo ai siti della tiroxina sul tetramero di transtiretina, che ne impedisce la dissociazione nei monomeri amiloidogenici: e' il passaggio limitante della formazione delle fibrille.",
+  "molecularTarget": "Tetramero della transtiretina (siti di legame della tiroxina)",
+  "pharmacodynamics": "Stabilizzazione cinetica del tetramero con riduzione della formazione di nuovo amiloide; nessun effetto sui depositi gia' presenti.",
+  "classEffects": [
+    "Riduzione di mortalita' e ospedalizzazioni cardiovascolari nell'ATTR-CM (tafamidis nello studio ATTR-ACT, acoramidis in ATTRibute-CM)",
+    "Il beneficio dipende dalla precocita' del trattamento: non rimuovono l'amiloide gia' depositata",
+    "Terapia orale, da aggiungere al trattamento standard dello scompenso"
+  ],
+  "sharedContraindications": [
+    "Ipersensibilita' al principio attivo",
+    "Gravidanza (tafamidis non raccomandato; per acoramidis mancano dati)"
+  ],
+  "sharedAdverseEffects": [
+    "Disturbi gastrointestinali (diarrea, dolore addominale)",
+    "Per il tafamidis, interazioni con i substrati del trasportatore BCRP"
+  ],
+  "monitoring": [
+    "Conferma diagnostica di ATTR-CM ed esclusione dell'amiloidosi AL PRIMA di iniziare",
+    "Classe funzionale e progressione dello scompenso",
+    "Tollerabilita' dei farmaci associati che siano substrati BCRP (tafamidis)"
+  ],
+  "reversal": "Nessun antidoto: in caso di necessita' sospensione e gestione di supporto.",
+  "notesOnClassVsMolecule": "Presupposto comune e imprescindibile: tipizzare l'amiloidosi. L'amiloidosi AL richiede una gestione ematologica urgente e completamente diversa. Il tafamidis e' disponibile da piu' tempo; l'acoramidis, autorizzato dalla Commissione Europea nel febbraio 2025, dichiara in scheda una stabilizzazione quasi completa (>=90%) e si somministra due volte al giorno."
+}

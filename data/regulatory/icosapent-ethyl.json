@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "icosapent-ethyl",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Banca Dati AIFA - icosapent etile (Vazkepa): ipolipemizzante omega-3; prescrizione con piano terapeutico AIFA (in pazienti in statina).",
+        "url": "https://www.ema.europa.eu/it/documents/overview/vazkepa-epar-medicine-overview_it.pdf",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Piano terapeutico/condizioni di rimborso AIFA da confermare sul portale AIFA aggiornato."
+  },
+  "drugId": "icosapent-ethyl",
+  "authorisation": "Nazionale (AIFA)",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RRL (ricetta ripetibile limitativa)",
+  "aifaNote": null,
+  "therapeuticPlan": true,
+  "distribution": "Specialistica",
+  "law648_1996": false,
+  "prescriberRestrictions": "Prescrizione secondo criteri di eleggibilita' AIFA (pazienti in statina con trigliceridi elevati e alto rischio)."
+}

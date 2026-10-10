@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "id": "colchicine__prevenzione-cv__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-28T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Colchicina Lirca - RCP (Torrinomedica/Codifa/Mediately su base AIFA): indicazioni gottose, controindicazioni, interazioni CYP3A4/P-gp, avvertenze.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/colchicina_lirca/",
+        "identifier": "Colchicina Lirca RCP",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2025 - Linee guida su miocardite e pericardite: colchicina come adiuvante di prima linea; dosi per peso e durata.",
+        "url": "https://www.giornaledicardiologia.it/archivio/4620/articoli/46292/",
+        "identifier": "ESC 2025 IMPS",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Posologia da fonti su base RCP/AIFA o da linee guida citate; smpcVerified=false. Verificare sempre su RCP ufficiale e adattare a funzione renale/epatica."
+  },
+  "drugId": "colchicine",
+  "indication": "secondary-prevention",
+  "scenario": "Prevenzione secondaria nella coronaropatia con rischio infiammatorio residuo (da linee guida)",
+  "route": "orale",
+  "dose": {
+    "dose": "0,5 mg una volta al giorno"
+  },
+  "administration": {
+    "notes": "Indicazione da linee guida ESC 2024 sulle sindromi coronariche croniche, non da scheda tecnica italiana. Riservare a pazienti con funzione renale ed epatica conservate; evidenza discordante (CLEAR SYNERGY neutro)."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

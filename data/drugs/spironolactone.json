@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "id": "spironolactone",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Spironolattone - RCP/fonti cliniche (MSD, RALES, portali AIFA): indicazioni scompenso/ipertensione, dose, iperkaliemia, effetti antiandrogeni.",
+        "url": "https://www.msdmanuals.com/it/professionale/disturbi-dell-apparato-cardiovascolare/insufficienza-cardiaca/farmaci-per-l-insufficienza-cardiaca",
+        "identifier": "Spironolattone RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Spironolattone (Aldactone) - RCP (Torrinomedica) e monografie: spironolattone ~1,4 ore, metabolita attivo canrenone ~16-20 ore.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/aldactone/",
+        "identifier": "RCP - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA / EPAR EMA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Spironolattone",
+    "inn": "spironolattone",
+    "brandExamplesIt": [
+      "Aldactone",
+      "Spirolang"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antagonista del recettore dei mineralcorticoidi (steroideo, non selettivo)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "mra"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antialdosteronico steroideo: diuretico risparmiatore di potassio che nello scompenso a FE ridotta migliora la prognosi (RALES).",
+    "mainUses": [
+      "Scompenso cardiaco a FE ridotta (aggiuntivo)",
+      "Ipertensione arteriosa",
+      "Iperaldosteronismo primario",
+      "Edemi (cirrosi, sindrome nefrosica)"
+    ],
+    "mainRisks": [
+      "Iperkaliemia",
+      "Ginecomastia/effetti antiandrogeni",
+      "Peggioramento renale"
+    ],
+    "essentialMonitoring": [
+      "Potassio sierico",
+      "Funzione renale (creatinina)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Scompenso cardiaco (in aggiunta alla terapia standard)",
+      "Ipertensione arteriosa essenziale",
+      "Iperaldosteronismo primario",
+      "Edemi e ritenzione idrica (cirrosi epatica, sindrome nefrosica)",
+      "Ipopotassiemia"
+    ],
+    "guidelineIndications": [
+      "Riduzione di mortalita' e ospedalizzazioni nello scompenso a FE ridotta grave (RALES); caposaldo della terapia HFrEF (confermare su ESC)"
+    ],
+    "absoluteContraindications": [
+      "Iperkaliemia",
+      "Insufficienza renale grave / anuria",
+      "Malattia di Addison",
+      "Uso concomitante con altri risparmiatori di potassio o eplerenone",
+      "Ipersensibilita'"
+    ],
+    "warnings": [
+      "Iperkaliemia: monitorare potassio e creatinina (ogni 1-2 settimane all'avvio e dopo variazioni di dose); sospendere i supplementi di potassio",
+      "Effetti antiandrogeni: ginecomastia, mastodinia, disturbi mestruali, riduzione della libido",
+      "Cautela nell'insufficienza renale e nell'anziano"
+    ],
+    "adverseEffects": [
+      "Iperkaliemia",
+      "Ginecomastia",
+      "Iponatriemia, disidratazione",
+      "Aumento della creatinina"
+    ],
+    "overdose": "Il sovradosaggio puo' causare iperkaliemia grave; sospendere, correggere il potassio, misure di supporto.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Controindicato nell'insufficienza renale grave/anuria; ridurre e monitorare nelle forme moderate.",
+      "hepatic": "Cautela nella cirrosi (rischio di squilibri elettrolitici).",
+      "elderly": "Maggiore rischio di iperkaliemia; iniziare a dose bassa.",
+      "pregnancy": "Usare solo se strettamente necessario.",
+      "breastfeeding": "Il metabolita canrenone passa nel latte; valutare."
+    },
+    "alternativeDrugIds": [
+      "eplerenone",
+      "finerenone"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Blocca l'aldosterone: fa eliminare sodio e acqua trattenendo potassio; nello scompenso grave allunga la vita, ma puo' dare gonfiore/tensione al seno (ginecomastia).",
+    "clinicalExplanation": "MRA steroideo non selettivo; nello scompenso a FE ridotta 25 mg/die (fino a 50) e' add-on prognostico (RALES). L'attivita' su recettori androgeni/progestinici spiega la ginecomastia.",
+    "molecularExplanation": "Antagonista competitivo del recettore dei mineralcorticoidi (e, in parte, androgeni/progesterone).",
+    "pharmacodynamics": "Blocco dell'aldosterone a livello del tubulo distale: aumento dell'escrezione di sodio/acqua e ritenzione di potassio; effetto anti-rimodellamento.",
+    "molecularTarget": "Recettore dei mineralcorticoidi",
+    "agonismAntagonism": "Antagonista recettoriale",
+    "pharmacokinetics": {
+      "metabolism": "Epatico, metabolita attivo canrenone",
+      "elimination": "Renale e biliare",
+      "halfLife": "Spironolattone ~1,4 ore (rapido metabolismo di primo passaggio); agisce tramite metaboliti attivi a lunga durata, in particolare il canrenone (emivita ~16-20 ore), che spiega l'effetto prolungato (picco a 2-3 giorni)"
+    },
+    "bibliography": [
+      "RALES (spironolattone nello scompenso grave) - da citare con fonte primaria"
+    ]
+  }
+}

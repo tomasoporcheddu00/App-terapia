@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "doxazosin",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Doxazosina - RCP (Codifa/Torrinomedica/EC Europa su base AIFA): alfa-1 bloccante, ipertensione (non prima linea) e IPB; ipotensione da prima dose, iride a bandiera, interazione con PDE5-inibitori.",
+        "url": "https://www.codifa.it/farmaci/d/doxazosina-aurobindo-doxazosin-mesilato-alfabloccanti",
+        "identifier": "Doxazosina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "doxazosin",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Inibitori della PDE5 (sildenafil, tadalafil, vardenafil)",
+      "effect": "Ipotensione sintomatica additiva",
+      "management": "Iniziare il PDE5-inibitore solo se emodinamicamente stabile in alfa-blocco; usare cautela"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Altri antipertensivi/diuretici",
+      "effect": "Ipotensione additiva",
+      "management": "Monitorare"
+    }
+  ]
+}

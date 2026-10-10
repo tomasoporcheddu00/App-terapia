@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "isosorbide-mononitrate__angina-prophylaxis__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Isosorbide mononitrato - RCP (Torrinomedica/Mediately/Univadis su base AIFA): profilassi dell'angina, dose 20-60 mg, non idoneo all'attacco acuto, tolleranza, controindicazione PDE5.",
+        "url": "https://mediately.co/it/drugs/852xuOrEMinxo1ybiG5IgLV2kRu/isosorbide-mononitrato-eg-20-mg-compresse",
+        "identifier": "Isosorbide mononitrato RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Da confermare e approvare."
+  },
+  "drugId": "isosorbide-mononitrate",
+  "indication": "angina",
+  "scenario": "Profilassi dell'angina",
+  "route": "orale",
+  "dose": {
+    "initial": "20-40 mg (iniziare basso per limitare la cefalea)",
+    "maintenance": "pronto rilascio 20-40 mg 2-3 volte/die (regime asimmetrico) oppure rilascio prolungato 40-60 mg una volta/die al mattino",
+    "max": "secondo formulazione"
+  },
+  "administration": {
+    "notes": "Dopo i pasti, senza masticare. Prevedere un intervallo libero da nitrati (regime asimmetrico o monosomministrazione mattutina)."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

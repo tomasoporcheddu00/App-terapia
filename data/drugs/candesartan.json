@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "id": "candesartan",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Candesartan cilexetil - RCP (rese da Mediately/Codifa/Torrinomedica su base AIFA): indicazioni, posologia §4.2, controindicazioni §4.3; ATC C09CA06.",
+        "url": "https://mediately.co/it/drugs/GmtUE56ZuiY7WhAoOYpUrpOKpWv/candesartan-sandoz-16-mg-compresse-divisibili",
+        "identifier": "Candesartan RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "Sartani (antagonisti del recettore AT1 dell'angiotensina II): meccanismo, controindicazioni, avvertenze e interazioni di classe; sintesi da RCP/portali AIFA (Codifa, Mediately, Torrinomedica).",
+        "url": "https://www.santagostino.it/magazine/losartan/",
+        "identifier": "Sartani classe",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "Position Paper SIF-SIIA 2015 (Societa' Italiana di Farmacologia / Societa' Italiana dell'Ipertensione Arteriosa), sezione Farmacocinetica di ACE-inibitori e sartani.",
+        "url": "https://sif2022-production.s3.amazonaws.com/uploads/attachment/file_it/1702/sif_position_paper_cardiovascolare_lug15.pdf",
+        "identifier": "SIF-SIIA 2015",
+        "retrievedAt": "2026-07-24"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Controindicazioni/avvertenze/interazioni in gran parte comuni alla classe dei sartani. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Candesartan",
+    "inn": "candesartan",
+    "brandExamplesIt": [
+      "Ratacand",
+      "Blopress"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antagonista del recettore AT1 (sartano), profarmaco (cilexetil)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "arb"
+  ],
+  "quickSummary": {
+    "whatItIs": "Profarmaco (candesartan cilexetil) antagonista AT1 ad elevata affinita' e lenta dissociazione; usato in ipertensione e scompenso (CHARM).",
+    "mainUses": [
+      "Ipertensione arteriosa",
+      "Scompenso cardiaco con FE ridotta (<=40%)"
+    ],
+    "mainRisks": [
+      "Iperkaliemia",
+      "Ipotensione",
+      "Peggioramento della funzione renale"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa",
+      "Potassio sierico",
+      "Funzione renale (creatinina)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipertensione arteriosa essenziale",
+      "Scompenso cardiaco con frazione d'eiezione ventricolare sinistra ridotta (<=40%), in aggiunta agli ACE-inibitori o quando gli ACE-inibitori non sono tollerati"
+    ],
+    "guidelineIndications": [
+      "Riduzione di mortalita' CV e ospedalizzazioni nello scompenso a FE ridotta (programma CHARM) - confermare su fonte primaria"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alla molecola o agli eccipienti",
+      "Secondo e terzo trimestre di gravidanza",
+      "Uso concomitante con aliskiren in diabete mellito o compromissione renale (GFR <60 mL/min/1,73 m2)",
+      "Grave insufficienza epatica e/o colestasi"
+    ],
+    "warnings": [
+      "Ipotensione sintomatica nei pazienti con deplezione di volume/sale (correggere prima o iniziare a dose ridotta)",
+      "Iperkaliemia: rischio aumentato in insufficienza renale, diabete, uso di sali/integratori di potassio o diuretici risparmiatori di potassio; monitorare il potassio",
+      "Monitorare la funzione renale; rischio in stenosi bilaterale dell'arteria renale",
+      "Duplice blocco del sistema renina-angiotensina-aldosterone (ACE-inibitore + sartano o aliskiren) non raccomandato",
+      "Gravidanza: sospendere e non iniziare in gravidanza",
+      "Rispetto agli ACE-inibitori, minore incidenza di tosse secca e (raramente) angioedema",
+      "Non raccomandata la tripla associazione ACE-inibitore + antagonista dei mineralcorticoidi + candesartan"
+    ],
+    "adverseEffects": [
+      "Ipotensione, capogiro",
+      "Iperkaliemia",
+      "Aumento della creatinina/riduzione della funzione renale",
+      "Cefalea",
+      "Angioedema (raro)"
+    ],
+    "overdose": null,
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nella compromissione renale considerare dose iniziale piu' bassa; monitorare creatinina e potassio; esperienza limitata con CrCl <15 mL/min.",
+      "hepatic": "Controindicato nell'insufficienza epatica grave/colestasi; nelle forme lievi-moderate iniziare a dose ridotta.",
+      "elderly": "Monitoraggio della funzione renale, in particolare >=75 anni.",
+      "pregnancy": "Controindicato nel 2o-3o trimestre; evitare in gravidanza.",
+      "breastfeeding": "Sconsigliato."
+    },
+    "alternativeDrugIds": [
+      "valsartan",
+      "losartan",
+      "ramipril"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Abbassa la pressione e aiuta nello scompenso; una compressa al giorno.",
+    "clinicalExplanation": "Profarmaco AT1 a legame stretto e lunga durata; nello scompenso a FE ridotta riduce mortalita' CV e ospedalizzazioni (CHARM), come aggiunta o alternativa agli ACE-inibitori.",
+    "molecularExplanation": "Il candesartan cilexetil e' idrolizzato durante l'assorbimento a candesartan, antagonista AT1 selettivo.",
+    "pharmacodynamics": "Blocco selettivo del recettore AT1: riduzione della vasocostrizione e della secrezione di aldosterone senza accumulo di bradichinina, da cui minore tosse/angioedema rispetto agli ACE-inibitori; aumento di renina e angiotensina II circolanti.",
+    "molecularTarget": "Recettore AT1 dell'angiotensina II",
+    "agonismAntagonism": "Antagonista recettoriale (blocco AT1)",
+    "pharmacokinetics": {
+      "metabolism": "Profarmaco idrolizzato ad candesartan (forma attiva)",
+      "elimination": "Renale e biliare",
+      "halfLife": "~9 ore"
+    },
+    "bibliography": [
+      "CHARM-Alternative/Added/Preserved (candesartan nello scompenso) - da citare con fonte primaria"
+    ]
+  }
+}

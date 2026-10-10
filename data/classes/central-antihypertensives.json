@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Antipertensivi ad azione centrale: sintesi da RCP/portali AIFA.",
+        "url": "https://www.codifa.it/farmaci/c/catapresan-clonidina-cloridrato-antipertensivi-ad-azione-centrale",
+        "identifier": "Centrali classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP; confermare su RCP ufficiali e linee guida ESC.",
+    "id": "central-antihypertensives"
+  },
+  "name": "Antipertensivi ad azione centrale (alfa-2 / imidazolinici)",
+  "atcGroup": "C02A",
+  "memberDrugIds": [
+    "methyldopa",
+    "clonidine",
+    "moxonidine"
+  ],
+  "mechanismSummary": "Riduzione del tono simpatico a livello centrale mediante agonismo dei recettori alfa-2 adrenergici (metildopa, clonidina) e/o dei recettori imidazolinici I1 (moxonidina), con calo delle resistenze periferiche e della pressione.",
+  "molecularTarget": "Recettori alfa-2 adrenergici e imidazolinici I1 (centrali)",
+  "pharmacodynamics": "Riduzione della pressione per diminuzione dell'efflusso simpatico; possibile bradicardia e sedazione.",
+  "classEffects": [
+    "Riduzione della pressione senza tachicardia riflessa",
+    "Sedazione (minore per la moxonidina) e secchezza delle fauci",
+    "Rischio di ipertensione di rimbalzo alla sospensione brusca (clonidina in particolare)"
+  ],
+  "sharedContraindications": [
+    "Bradiaritmia grave / blocco AV avanzato senza pacemaker",
+    "Ipersensibilita'",
+    "Controindicazioni specifiche (epatopatia/feocromocitoma per la metildopa; scompenso grave per la moxonidina)"
+  ],
+  "sharedAdverseEffects": [
+    "Sedazione",
+    "Secchezza delle fauci",
+    "Ipotensione ortostatica, bradicardia",
+    "Depressione (metildopa/clonidina)"
+  ],
+  "monitoring": [
+    "Pressione arteriosa",
+    "Frequenza cardiaca",
+    "Monitoraggi specifici (Coombs/transaminasi per la metildopa; funzione renale per la moxonidina)"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "La metildopa e' il gold standard in gravidanza (ma altrove limitata da anemia emolitica, epatotossicita' e depressione). La clonidina e' potente e utile nelle crisi ipertensive, ma da' ipertensione di rimbalzo alla sospensione brusca (scalare in 2-4 giorni). La moxonidina (imidazolinica) e' meglio tollerata (meno sedazione/secchezza) ma va ridotta nell'insufficienza renale ed e' controindicata nello scompenso grave. Dettagli nelle singole schede."
+}

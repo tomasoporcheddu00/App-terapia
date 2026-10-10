@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "id": "thiazide-diuretics",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Diuretici tiazidici e simil-tiazidici: sintesi da RCP/portali AIFA.",
+        "url": "https://www.codifa.it/farmaci/e/esidrex-idroclorotiazide-diuretici",
+        "identifier": "Tiazidici classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe dei tiazidici/simil-tiazidici sintetizzata da RCP; confermare su RCP ufficiali e linee guida ESC."
+  },
+  "name": "Diuretici tiazidici e simil-tiazidici",
+  "atcGroup": "C03A / C03B",
+  "memberDrugIds": [
+    "hydrochlorothiazide",
+    "chlorthalidone",
+    "indapamide",
+    "metolazone"
+  ],
+  "mechanismSummary": "Inibizione del cotrasportatore sodio-cloro (NCC) nel tubulo contorto distale: natriuresi moderata con ritenzione di calcio ed effetto antipertensivo (in parte vasodilatatore a lungo termine).",
+  "molecularTarget": "Cotrasportatore Na-Cl (NCC) del tubulo distale",
+  "pharmacodynamics": "Natriuresi moderata, riduzione dell'escrezione di calcio (ipercalcemia possibile), effetto antipertensivo sostenuto.",
+  "classEffects": [
+    "Riduzione della pressione arteriosa (cardine dell'ipertensione)",
+    "Effetto diuretico moderato negli edemi",
+    "Riduzione dell'escrezione urinaria di calcio (utile nell'ipercalciuria/nefrolitiasi)"
+  ],
+  "sharedContraindications": [
+    "Insufficienza renale grave (GFR <30: perdita di efficacia, tranne il metolazone)",
+    "Insufficienza epatica grave/encefalopatia",
+    "Ipopotassiemia/iponatriemia refrattarie, ipercalcemia",
+    "Iperuricemia sintomatica; ipersensibilita' ai sulfamidici"
+  ],
+  "sharedAdverseEffects": [
+    "Ipopotassiemia, iponatriemia",
+    "Ipercalcemia",
+    "Iperuricemia/gotta",
+    "Iperglicemia, dislipidemia",
+    "Fotosensibilita'"
+  ],
+  "monitoring": [
+    "Elettroliti (potassio, sodio, calcio)",
+    "Funzione renale",
+    "Glicemia e uricemia"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Idroclorotiazide (tiazidico 'classico'; segnale EMA di tumori cutanei non-melanoma), clortalidone e indapamide sono simil-tiazidici a lunga durata: il clortalidone ha migliori evidenze di esito nell'ipertensione, l'indapamide e' metabolicamente neutra (attenzione al QT). Il metolazone e' potente e resta efficace anche in insufficienza renale, ed e' usato per il blocco sequenziale del nefrone in add-on ai diuretici dell'ansa. A differenza dei diuretici dell'ansa, i tiazidici trattengono il calcio. Dettagli nelle singole schede."
+}

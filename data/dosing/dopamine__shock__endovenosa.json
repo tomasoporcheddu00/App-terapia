@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "dopamine__shock__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Dopamina - RCP (Codifa/Mediately/Torrinomedica su base AIFA): agonista dopaminergico/adrenergico dose-dipendente; shock di varia natura; 5-15 mcg/kg/min; controindicata in feocromocitoma/ipertiroidismo/tachiaritmie/FV.",
+        "url": "https://mediately.co/it/drugs/TGZjSnnN7bsPkRoZgSai54tdMNu/dopamina-pfizer-200-mg-5-ml-concentrato-per-soluzione-per-infusione",
+        "identifier": "Dopamina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Agente vasoattivo: titolare con monitoraggio emodinamico continuo; confermare dose e diluizione."
+  },
+  "drugId": "dopamine",
+  "indication": "cardiogenic-shock",
+  "scenario": "Stati di shock (supporto emodinamico)",
+  "route": "endovenosa",
+  "dose": {
+    "infusion": "5-15 mcg/kg/min in infusione EV continua (in alcuni casi 20 o piu' mcg/kg/min)",
+    "note": "correggere l'ipovolemia prima; ridurre gradualmente alla sospensione",
+    "max": "secondo risposta emodinamica"
+  },
+  "administration": {
+    "notes": "Infusione EV con pompa in vena di grosso calibro/centrale; monitoraggio ECG, pressione e diuresi. Uso ospedaliero."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

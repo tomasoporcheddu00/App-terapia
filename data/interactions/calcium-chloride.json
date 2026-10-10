@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "calcium-chloride",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Calcio cloruro - RCP (Mediately/S.A.L.F. su base AIFA): sale di calcio EV piu' potente e piu' irritante (via centrale); ipocalcemia/iperkaliemia/antidoto; controindicato con digitale, FV, ipercalcemia.",
+        "url": "https://mediately.co/it/drugs/53dyFY528xcfi6PVQx9Dic49s3S/calcio-cloruro-s-a-l-f-1-g-10-ml-concentrato-per-soluzione-per-infusione",
+        "identifier": "Calcio cloruro RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "calcium-chloride",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Glicosidi cardioattivi (digossina)",
+      "effect": "Potenziamento della tossicita' digitalica",
+      "management": "Controindicato salvo ipocalcemia pericolosa per la vita"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Bicarbonato/fosfati (in soluzione)",
+      "effect": "Precipitazione",
+      "management": "Non miscelare"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Diuretici tiazidici",
+      "effect": "Rischio di ipercalcemia",
+      "management": "Monitorare la calcemia"
+    }
+  ]
+}

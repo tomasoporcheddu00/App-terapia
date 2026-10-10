@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "pitavastatin__hypercholesterolemia__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Pitavastatina - RCP (Mediately/Codifa su base AIFA): dose 1-4 mg, minima via CYP3A4, controindicazione con ciclosporina, sospensione con macrolidi.",
+        "url": "https://www.codifa.it/farmaci/l/livazo-pitavastatina",
+        "identifier": "Pitavastatina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "pitavastatin",
+  "indication": "hypercholesterolemia",
+  "scenario": "Ipercolesterolemia / dislipidemia mista",
+  "route": "orale",
+  "dose": {
+    "initial": "1 mg una volta al giorno",
+    "titration": "adeguare a intervalli >=4 settimane (2-4 mg)",
+    "maintenance": "1-4 mg una volta al giorno",
+    "max": "4 mg al giorno"
+  },
+  "administration": {
+    "notes": "In qualsiasi momento, indipendentemente dai pasti."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

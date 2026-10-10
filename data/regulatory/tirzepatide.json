@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "tirzepatide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "AIFA/EMA - tirzepatide (Mounjaro): indicazioni europee per diabete tipo 2 e controllo del peso; in Italia regime prescrittivo e rimborsabilita' differenti per indicazione.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2022/20220915156773/anx_156773_it.pdf",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "ATTENZIONE: la scheda tecnica europea comprende sia il diabete sia il controllo del peso, ma in Italia la rimborsabilita' e il percorso prescrittivo differiscono per indicazione: verificare su AIFA prima di prescrivere."
+  },
+  "drugId": "tirzepatide",
+  "authorisation": "EMA/Nazionale",
+  "marketed": true,
+  "reimbursementClass": "A (piano terapeutico) per il diabete; regime diverso per l'indicazione peso",
+  "supplyRegime": "RRL - prescrizione limitativa",
+  "aifaNote": null,
+  "therapeuticPlan": true,
+  "distribution": "Farmacia/Distribuzione diretta",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

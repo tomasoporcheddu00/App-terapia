@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "selexipag",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Selexipag (Uptravi) - RCP EMA/AIFA: agonista selettivo del recettore IP, orale, per la PAH classe II-III (GRIPHON); titolazione 200-1600 mcg due volte al giorno; controindicato con gemfibrozil.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/EPAR/uptravi",
+        "identifier": "Uptravi RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "selexipag",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Forti inibitori del CYP2C8 (gemfibrozil)",
+      "effect": "Aumento marcato dei livelli di selexipag/metabolita",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Induttori del CYP2C8 (rifampicina)",
+      "effect": "Riduzione dei livelli",
+      "management": "Puo' essere necessario aumentare la dose"
+    }
+  ]
+}

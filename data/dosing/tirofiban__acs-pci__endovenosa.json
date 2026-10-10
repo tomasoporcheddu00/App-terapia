@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "tirofiban__acs-pci__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Tirofiban (Aggrastat) - RCP EMA/AIFA (emc/cercafarmaco su base AIFA): antagonista non peptidico reversibile della GPIIb/IIIa; NSTE-ACS e PCI con ASA+eparina; regime PCI bolo 25 mcg/kg poi 0,15 mcg/kg/min; ridurre nell'insufficienza renale.",
+        "url": "https://www.medicines.org.uk/emc/product/566/smpc",
+        "identifier": "Aggrastat RCP",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EMA-AIFA; smpcVerified=false. Dosi peso-dipendenti ad alto rischio, aggiustare per funzione renale e protocolli locali."
+  },
+  "drugId": "tirofiban",
+  "indication": "pci-antiplatelet",
+  "scenario": "NSTE-ACS / PCI (con ASA ed eparina)",
+  "route": "endovenosa",
+  "dose": {
+    "pci-high-bolus": "bolo 25 mcg/kg EV seguito da infusione 0,15 mcg/kg/min (regime approvato in Europa per la PCI)",
+    "acs": "regime tradizionale con dose di carico seguita da infusione di mantenimento 0,1-0,15 mcg/kg/min (secondo RCP)",
+    "renal": "ridurre la dose di mantenimento (in genere del 50%) in caso di clearance della creatinina ridotta"
+  },
+  "administration": {
+    "notes": "EV in associazione ad ASA ed eparina non frazionata. Controllo delle piastrine prima e poche ore dopo l'inizio. Non associare a trombolitici."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "id": "inclisiran__hypercholesterolemia__sottocutanea",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Inclisiran (Leqvio) - RCP EMA/AIFA (EMA/Codifa/Torrinomedica): siRNA anti-PCSK9 SC, dose 284 mg al giorno 0, a 3 mesi, poi ogni 6 mesi; RRL e registro AIFA.",
+        "url": "https://www.ema.europa.eu/it/documents/product-information/leqvio-epar-product-information_it.pdf",
+        "identifier": "Leqvio RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "inclisiran",
+  "indication": "hypercholesterolemia",
+  "scenario": "Ipercolesterolemia / dislipidemia mista",
+  "route": "sottocutanea",
+  "dose": {
+    "schedule": "284 mg per via sottocutanea all'inizio, nuovamente a 3 mesi, poi ogni 6 mesi",
+    "max": "284 mg per somministrazione (schema semestrale)"
+  },
+  "administration": {
+    "notes": "Iniezione sottocutanea somministrata da un operatore sanitario; proseguire dieta e statina."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

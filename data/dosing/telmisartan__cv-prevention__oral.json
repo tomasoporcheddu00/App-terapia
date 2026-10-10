@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "telmisartan__cv-prevention__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Telmisartan - RCP (rese da Mediately/Torrinomedica/Codifa su base AIFA): indicazioni, posologia §4.2, prevenzione CV (ONTARGET/TRANSCEND).",
+        "url": "https://mediately.co/it/drugs/8GLLnhQ6sJi3fQvjUfzaxryxNdl/telmisartan-doc-generici-40-mg-compresse",
+        "identifier": "Telmisartan RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "telmisartan",
+  "indication": "cv-prevention",
+  "scenario": "Prevenzione cardiovascolare",
+  "route": "orale",
+  "dose": {
+    "initial": "80 mg una volta al giorno",
+    "maintenance": "80 mg una volta al giorno",
+    "max": "80 mg al giorno"
+  },
+  "administration": {
+    "notes": "Monitoraggio attento della pressione all'avvio nei pazienti ad alto rischio."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

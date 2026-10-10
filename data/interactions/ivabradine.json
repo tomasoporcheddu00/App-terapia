@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "id": "ivabradine",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Ivabradina (Procoralan) - RCP/EPAR (EMA, Mediately, Codifa): indicazioni angina/scompenso (ritmo sinusale), dose, fosfeni, controindicazioni.",
+        "url": "https://mediately.co/it/drugs/K62gnQ6kVUKg5xBCm1GEnOaSEwG/procoralan-7-5-mg-compresse-rivestite",
+        "identifier": "Ivabradina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5; severita' secondo posizionamento RCP e rilevanza clinica.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "ivabradine",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Inibitori potenti del CYP3A4 (ketoconazolo, itraconazolo, claritromicina, inibitori delle proteasi HIV, nefazodone)",
+      "effect": "Forte aumento dell'esposizione e della bradicardia",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "contraindicated",
+      "agent": "Verapamil, diltiazem",
+      "effect": "Bradicardia additiva; aumento dei livelli di ivabradina",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "major",
+      "agent": "Farmaci che prolungano il QT (antiaritmici e non)",
+      "effect": "La riduzione della FC puo' aggravare il prolungamento del QT",
+      "management": "Evitare; se necessario, monitoraggio ECG"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Altri farmaci bradicardizzanti (beta-bloccanti, digossina, amiodarone)",
+      "effect": "Bradicardia additiva",
+      "management": "Monitorare la frequenza cardiaca"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Succo di pompelmo, inibitori moderati del CYP3A4",
+      "effect": "Aumento dell'esposizione",
+      "management": "Evitare il pompelmo; cautela"
+    }
+  ]
+}

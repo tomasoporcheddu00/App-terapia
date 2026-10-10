@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "phenylephrine",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Fenilefrina - RCP (Codifa/Torrinomedica/AIFA): alfa1-agonista puro, ipotensione in anestesia/terapia intensiva; bolo 50-100 mcg o infusione 25-100 mcg/min; bradicardia riflessa; controindicata con IMAO e nella vasculopatia grave.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/fenilefrina-aguettant/",
+        "identifier": "Fenilefrina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "phenylephrine",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "IMAO non selettivi (o entro 2 settimane)",
+      "effect": "Ipertensione parossistica e ipertermia potenzialmente fatale",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "major",
+      "agent": "Antidepressivi triciclici / ossitocici",
+      "effect": "Potenziamento dell'effetto pressorio",
+      "management": "Cautela"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Betabloccanti",
+      "effect": "Accentuazione della bradicardia/ipertensione",
+      "management": "Monitorare"
+    }
+  ]
+}

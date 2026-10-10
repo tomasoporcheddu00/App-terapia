@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "bosentan__pah__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Bosentan (Tracleer) - RCP EMA/AIFA: antagonista duale ETA/ETB; PAH classe II-III e ulcere digitali nella sclerosi sistemica; epatotossicita', teratogenicita', anemia; controindicato con ciclosporina.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/EPAR/tracleer",
+        "identifier": "Tracleer RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Titolazione da centro esperto in ipertensione polmonare."
+  },
+  "drugId": "bosentan",
+  "indication": "pulmonary-arterial-hypertension",
+  "scenario": "PAH / ulcere digitali (sclerosi sistemica)",
+  "route": "orale",
+  "dose": {
+    "initial": "62,5 mg due volte al giorno per 4 settimane",
+    "maintenance": "125 mg due volte al giorno",
+    "note": "controllo delle transaminasi prima e ogni mese; 2 settimane dopo un aumento di dose"
+  },
+  "administration": {
+    "notes": "Orale, mattina e sera. Monitoraggio epatico mensile. Programma di prevenzione della gravidanza. Uso specialistico."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

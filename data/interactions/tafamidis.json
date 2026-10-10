@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "tafamidis",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Vyndaqel 61 mg (tafamidis) - RCP EMA (registro comunitario EC, allegato IT; Torrinomedica/Codifa): indicazione ATTR-CM, posologia, criteri diagnostici, interazione con i substrati BCRP.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2023/20230215158175/anx_158175_it.pdf",
+        "identifier": "Vyndaqel RCP EMA",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Interazioni da RCP. L'interazione con i substrati BCRP e' quella clinicamente rilevante in cardiologia (statine e anticoagulanti orali diretti). Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "tafamidis",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Rosuvastatina",
+      "effect": "Tafamidis inibisce il trasportatore BCRP: l'esposizione alla rosuvastatina e' aumentata di circa 2 volte in uno studio su volontari sani",
+      "management": "Considerare la riduzione della dose di rosuvastatina o una statina alternativa; sorvegliare i sintomi muscolari"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Atorvastatina, apixaban, rivaroxaban, metotressato, imatinib (substrati della BCRP)",
+      "effect": "Possibile aumento dell'esposizione al substrato per inibizione del trasportatore di efflusso BCRP",
+      "management": "Sorveglianza clinica; valutare aggiustamenti posologici secondo il substrato"
+    },
+    {
+      "severity": "minor",
+      "agent": "Substrati del CYP3A4",
+      "effect": "Tafamidis non ha prodotto induzione ne' inibizione del CYP3A4 negli studi clinici",
+      "management": "Nessuna precauzione specifica"
+    }
+  ]
+}

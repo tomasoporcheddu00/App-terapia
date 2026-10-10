@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "id": "other-antiarrhythmics",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Altri agenti antiaritmici e del nodo AV: sintesi da RCP/monografie.",
+        "url": "https://www.codifa.it/farmaci/k/krenosin-adenosina-cardiovascolari-adenilici-amp-atp-",
+        "identifier": "Altri antiaritmici classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP; confermare su RCP ufficiali e linee guida ESC/ACLS."
+  },
+  "name": "Altri agenti antiaritmici e del nodo AV",
+  "atcGroup": "Altri agenti (C01EB, C01CA, elettroliti)",
+  "memberDrugIds": [
+    "adenosine",
+    "atropine",
+    "isoprenaline",
+    "magnesium-sulfate"
+  ],
+  "mechanismSummary": "Agenti eterogenei che agiscono sul nodo AV o sull'automatismo: l'adenosina (blocco AV transitorio), l'atropina (blocco vagale, accelera il cuore), l'isoprenalina (beta-agonista, accelera il cuore), il solfato di magnesio (stabilizzazione elettrica, torsione di punta).",
+  "molecularTarget": "Bersagli eterogenei (recettori A1, muscarinici M2, beta-adrenergici; canali ionici/magnesio)",
+  "pharmacodynamics": "Interruzione delle tachicardie da rientro nodale (adenosina) o modulazione della frequenza (atropina/isoprenalina) e soppressione della torsione di punta (magnesio).",
+  "classEffects": [
+    "Interruzione della TPSV (adenosina) e ausilio diagnostico",
+    "Accelerazione della frequenza nella bradicardia/blocco AV (atropina, isoprenalina)",
+    "Trattamento della torsione di punta (magnesio)"
+  ],
+  "sharedContraindications": [
+    "Adenosina: blocco AV II-III/malattia del seno senza pacemaker, asma",
+    "Isoprenalina: tachiaritmie, ischemia/SCA, aritmie da digitale",
+    "Atropina: controindicazioni anticolinergiche (non pertinenti in emergenza)",
+    "Magnesio: insufficienza renale grave"
+  ],
+  "sharedAdverseEffects": [
+    "Adenosina: vampata, dispnea, bradicardia transitoria",
+    "Atropina: effetti anticolinergici, tachicardia",
+    "Isoprenalina: tachiaritmie, angina",
+    "Magnesio: ipotensione, depressione respiratoria (tossicita')"
+  ],
+  "monitoring": [
+    "ECG e pressione",
+    "Parametri specifici per agente (broncospasmo per adenosina; magnesiemia/riflessi per il magnesio)"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Gruppo eterogeneo di agenti per le emergenze aritmiche. L'adenosina interrompe la TPSV da rientro nodale (effetto di pochi secondi); atropina e isoprenalina accelerano un cuore troppo lento (bradicardia/blocco AV, in attesa del pacing); il solfato di magnesio e' il trattamento di scelta della torsione di punta. Dettagli nelle singole schede."
+}

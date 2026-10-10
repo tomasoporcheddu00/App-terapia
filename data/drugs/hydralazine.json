@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Idralazina - RCP/monografie (MSD/Humanitas/centralino su base RCP): vasodilatatore diretto arteriolare; ipertensione add-on, emergenza in gravidanza, scompenso con nitrati; lupus farmaco-indotto, tachicardia riflessa.",
+        "url": "https://www.msdmanuals.com/it/professionale/disturbi-dell-apparato-cardiovascolare/ipertensione/farmaci-per-l-ipertensione",
+        "identifier": "Idralazina RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Idralazina - monografie di farmacocinetica (StatPearls/ScienceDirect): emivita di eliminazione ~2-4 ore, acetilazione polimorfica (NAT2), durata d'azione 2-6 ore.",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK470296/",
+        "identifier": "Monografia - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false,
+    "id": "hydralazine"
+  },
+  "name": {
+    "generic": "idralazina",
+    "inn": "idralazina",
+    "brandExamplesIt": [
+      "Idralazina (varie)"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Vasodilatatore diretto arteriolare",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "direct-vasodilators"
+  ],
+  "quickSummary": {
+    "whatItIs": "Vasodilatatore che rilassa direttamente le arteriole; usato come antipertensivo aggiuntivo, nell'emergenza ipertensiva in gravidanza e (con i nitrati) nello scompenso cardiaco.",
+    "mainUses": [
+      "Ipertensione (add-on/resistente)",
+      "Emergenza ipertensiva in gravidanza (preeclampsia)",
+      "Scompenso cardiaco (in associazione ai nitrati)"
+    ],
+    "mainRisks": [
+      "Tachicardia riflessa (angina nella coronaropatia)",
+      "Ritenzione idrica",
+      "Lupus farmaco-indotto"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa e frequenza cardiaca",
+      "Anticorpi antinucleo (uso prolungato/alte dosi)",
+      "Segni di ritenzione idrica"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipertensione arteriosa (in associazione ad altri antipertensivi)",
+      "Emergenze ipertensive, in particolare in gravidanza (preeclampsia), per via parenterale sotto monitoraggio",
+      "Scompenso cardiaco, in associazione ai nitrati (isosorbide dinitrato)"
+    ],
+    "guidelineIndications": [
+      "Utile come terzo farmaco (con betabloccante e diuretico) e nell'ipertensione gravidica; l'associazione idralazina + isosorbide dinitrato migliora la prognosi nello scompenso in popolazioni selezionate (A-HeFT) - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' (o alla tartrazina)",
+      "Tachicardia grave e scompenso ad alta gittata",
+      "Aneurisma dissecante dell'aorta",
+      "Cardiopatia ischemica grave (la tachicardia riflessa puo' aggravare l'ischemia)",
+      "Valvulopatia reumatica mitralica; cuore polmonare cronico",
+      "Lupus eritematoso sistemico accertato"
+    ],
+    "warnings": [
+      "Lupus farmaco-indotto (soprattutto >200 mg/die e negli acetilatori lenti): ricercare gli ANA e sospendere se compaiono sintomi (in genere reversibile)",
+      "Tachicardia riflessa: associare un betabloccante; puo' scatenare angina nella coronaropatia",
+      "Ritenzione idrosalina: associare un diuretico",
+      "Neuropatia periferica (parestesie): eventuale piridossina (vitamina B6)",
+      "Metabolismo per acetilazione geneticamente determinata (acetilatori lenti a maggior rischio)"
+    ],
+    "adverseEffects": [
+      "Cefalea, tachicardia/palpitazioni",
+      "Vampate",
+      "Ritenzione idrica/edema",
+      "Nausea",
+      "Lupus farmaco-indotto, neuropatia periferica",
+      "Angina (nella coronaropatia)"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione marcata e tachicardia; posizione supina, fluidi, supporto (attenzione ai vasopressori nella tachicardia).",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Cautela (aggiustare nell'insufficienza grave).",
+      "hepatic": "Cautela.",
+      "elderly": "Cautela.",
+      "pregnancy": "Utilizzabile (preeclampsia) sotto monitoraggio.",
+      "breastfeeding": "Compatibile (piccole quantita' nel latte)."
+    },
+    "alternativeDrugIds": [
+      "minoxidil",
+      "isosorbide-dinitrate",
+      "doxazosin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Allarga direttamente le piccole arterie e abbassa la pressione; si usa come 'terzo farmaco', in gravidanza e nello scompenso con i nitrati. Fa accelerare il cuore, quindi si abbina spesso a un betabloccante.",
+    "clinicalExplanation": "Vasodilatatore diretto arteriolare (minimo effetto venoso, quindi scarsa ipotensione ortostatica ma marcata attivazione simpatica riflessa). Add-on nell'ipertensione, utile nella preeclampsia; con i nitrati nello scompenso (A-HeFT). Rischio di lupus farmaco-indotto.",
+    "molecularExplanation": "Rilascia la muscolatura liscia arteriolare (meccanismo non del tutto chiarito, con interferenza sul rilascio di calcio); attivazione simpatica riflessa.",
+    "pharmacodynamics": "Riduzione delle resistenze arteriolari e della pressione con tachicardia riflessa e ritenzione idrica.",
+    "molecularTarget": "Muscolatura liscia arteriolare",
+    "agonismAntagonism": "Vasodilatazione diretta",
+    "pharmacokinetics": {
+      "route": "Orale ed endovenosa",
+      "metabolism": "Acetilazione epatica (acetilatori lenti/rapidi)",
+      "onset": "Orale 30-60 min; EV 10-20 min",
+      "halfLife": "Breve, ~2-4 ore (fino a ~1 ora secondo alcune fonti; 7-16 ore nell'insufficienza renale), fortemente influenzata dal fenotipo di acetilazione (NAT2: acetilatori rapidi/lenti). Durata d'azione 2-6 ore, piu' lunga dell'emivita per l'alta affinita' per la muscolatura vascolare"
+    },
+    "bibliography": []
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "bumetanide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Bumetanide (Burinex): diuretico dell'ansa; disponibilita'/classe in Italia da confermare.",
+        "url": "https://prescriberpoint.com/therapies/bumetanide-d4688d5",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Disponibilita' e classe di rimborso in Italia da confermare (non ampiamente commercializzato); dati da monografie internazionali."
+  },
+  "drugId": "bumetanide",
+  "authorisation": "Nazionale (AIFA)",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RR (ricetta ripetibile)",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Farmacia (convenzionata)",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

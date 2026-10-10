@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "id": "cangrelor",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-21T00:00:00Z",
+    "updatedAt": "2026-07-21T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Cangrelor (Kengrexal) - RCP EMA/AIFA (Codifa/Torrinomedica): inibitore P2Y12 EV reversibile ad azione ultrarapida; con ASA nella PCI in chi non ha ricevuto un P2Y12 orale; bolo 30 mcg/kg poi 4 mcg/kg/min.",
+        "url": "https://www.codifa.it/farmaci/k/kengrexal-cangrelor-antiaggreganti-piastrinici",
+        "identifier": "Kengrexal RCP",
+        "retrievedAt": "2026-07-21"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "cangrelor",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Clopidogrel e prasugrel",
+      "effect": "Il cangrelor occupa il recettore P2Y12 e ne impedisce l'effetto se somministrati durante l'infusione",
+      "management": "Somministrare clopidogrel o prasugrel solo DOPO l'interruzione dell'infusione di cangrelor"
+    },
+    {
+      "severity": "major",
+      "agent": "Anticoagulanti (eparina, fondaparinux, bivalirudina) e trombolitici",
+      "effect": "Aumento del rischio emorragico",
+      "management": "Uso concomitante secondo protocollo; monitorare il sanguinamento"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Ticagrelor",
+      "effect": "Nessuna interferenza rilevante sul recettore",
+      "management": "Puo' essere somministrato durante l'infusione o subito dopo"
+    },
+    {
+      "severity": "minor",
+      "agent": "Acido acetilsalicilico, eparina, nitroglicerina",
+      "effect": "Nessuna interazione farmacocinetica/farmacodinamica osservata negli studi dedicati",
+      "management": "Associazione prevista dall'indicazione (con ASA)"
+    }
+  ]
+}

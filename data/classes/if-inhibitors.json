@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "id": "if-inhibitors",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Inibitori della corrente If: sintesi da RCP/EPAR ivabradina.",
+        "url": "https://mediately.co/it/drugs/K62gnQ6kVUKg5xBCm1GEnOaSEwG/procoralan-7-5-mg-compresse-rivestite",
+        "identifier": "If classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe If sintetizzata da RCP/EPAR; confermare su RCP ufficiale e linee guida ESC."
+  },
+  "name": "Inibitori della corrente If",
+  "atcGroup": "C01EB17",
+  "memberDrugIds": [
+    "ivabradine"
+  ],
+  "mechanismSummary": "Inibizione selettiva della corrente If (funny current) dei canali HCN nel nodo del seno: riduzione della frequenza sinusale senza effetti su contrattilita', conduzione o pressione.",
+  "molecularTarget": "Canali HCN / corrente If del nodo senoatriale",
+  "pharmacodynamics": "Riduzione selettiva della frequenza sinusale, con minore consumo miocardico di ossigeno; efficace solo in ritmo sinusale.",
+  "classEffects": [
+    "Riduzione della frequenza cardiaca in ritmo sinusale",
+    "Riduzione delle ospedalizzazioni nello scompenso a FE ridotta con FC elevata (add-on)",
+    "Effetto antianginoso sintomatico"
+  ],
+  "sharedContraindications": [
+    "Frequenza cardiaca a riposo <70 bpm; malattia del nodo del seno/blocchi; scompenso acuto/instabile; dipendenza da pacemaker; inibitori potenti del CYP3A4; verapamil/diltiazem"
+  ],
+  "sharedAdverseEffects": [
+    "Bradicardia",
+    "Fibrillazione atriale",
+    "Fosfeni (fenomeni luminosi)"
+  ],
+  "monitoring": [
+    "Frequenza cardiaca",
+    "Comparsa di fibrillazione atriale"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Classe rappresentata dall'ivabradina. Agisce solo in ritmo sinusale (inefficace/da evitare nelle tachiaritmie). Non abbassa la pressione ne' deprime la contrattilita', a differenza dei beta-bloccanti. Dettagli nella scheda."
+}

@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "id": "bosentan",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Bosentan (Tracleer) - RCP EMA/AIFA: antagonista duale ETA/ETB; PAH classe II-III e ulcere digitali nella sclerosi sistemica; epatotossicita', teratogenicita', anemia; controindicato con ciclosporina.",
+        "url": "https://www.ema.europa.eu/it/medicines/human/EPAR/tracleer",
+        "identifier": "Tracleer RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Bosentan (Tracleer) - monografie di farmacocinetica: emivita terminale ~5,4 ore, metabolismo CYP2C9/CYP3A4 con autoinduzione, eliminazione biliare.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4815360/table/T1",
+        "identifier": "Monografia - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Farmaci specialistici per l'ipertensione polmonare: prescrizione da centri esperti (piano terapeutico/registro AIFA).",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Bosentan",
+    "inn": "bosentan",
+    "brandExamplesIt": [
+      "Tracleer"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Antagonista duale del recettore dell'endotelina (ETA/ETB)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "era"
+  ],
+  "quickSummary": {
+    "whatItIs": "Antagonista dei recettori dell'endotelina (sia ETA sia ETB) che dilata le arterie polmonari; richiede il controllo mensile del fegato e attente precauzioni in gravidanza.",
+    "mainUses": [
+      "Ipertensione arteriosa polmonare (PAH) classe II-III",
+      "Riduzione delle nuove ulcere digitali nella sclerosi sistemica"
+    ],
+    "mainRisks": [
+      "Epatotossicita' (aumento delle transaminasi)",
+      "Teratogenicita'",
+      "Anemia, ritenzione idrica"
+    ],
+    "essentialMonitoring": [
+      "Transaminasi (prima e mensilmente)",
+      "Emocromo (emoglobina)",
+      "Test di gravidanza; peso/edemi"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento dell'ipertensione arteriosa polmonare (PAH) in classe funzionale OMS III (e II) per migliorare la capacita' di esercizio e i sintomi; efficacia nella PAH idiopatica e associata a malattia del tessuto connettivo",
+      "Riduzione del numero di nuove ulcere digitali in pazienti con sclerosi sistemica e ulcere digitali attive"
+    ],
+    "guidelineIndications": [
+      "ERA di riferimento nella PAH (spesso in combinazione con un PDE5-inibitore); richiede monitoraggio epatico mensile - confermare su ESC/ERS"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Compromissione epatica da moderata a grave (classe B o C di Child-Pugh)",
+      "Valori basali di transaminasi (AST/ALT) >3 volte il limite superiore della norma",
+      "Uso concomitante di ciclosporina A",
+      "Gravidanza",
+      "Donne in eta' fertile che non usano un metodo contraccettivo affidabile"
+    ],
+    "warnings": [
+      "Epatotossicita' dose-dipendente: misurare le transaminasi prima del trattamento, mensilmente e 2 settimane dopo ogni aumento di dose; ridurre/sospendere secondo l'algoritmo",
+      "Teratogeno: controindicato in gravidanza; programma di prevenzione della gravidanza con contraccezione affidabile nelle donne in eta' fertile. Puo' ridurre l'efficacia dei contraccettivi ormonali: usare un metodo aggiuntivo",
+      "Riduzione dell'emoglobina/anemia: controllare l'emocromo",
+      "Ritenzione idrica/edema",
+      "Induttore del CYP2C9 e CYP3A4 (riduce l'efficacia di molti farmaci); non raccomandato con glibenclamide, fluconazolo, rifampicina; evitare l'associazione con inibitori sia del CYP3A4 sia del CYP2C9"
+    ],
+    "adverseEffects": [
+      "Cefalea (molto comune)",
+      "Aumento delle transaminasi",
+      "Anemia",
+      "Edema/ritenzione idrica",
+      "Vampate, ipotensione, palpitazioni"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione marcata; supporto emodinamico e monitoraggio.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico.",
+      "hepatic": "Controindicato nella moderata-grave (Child B/C); non iniziare se transaminasi >3x.",
+      "elderly": "Utilizzabile.",
+      "pregnancy": "Controindicato (teratogeno).",
+      "breastfeeding": "Non raccomandato."
+    },
+    "alternativeDrugIds": [
+      "ambrisentan",
+      "macitentan",
+      "sildenafil"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Blocca l'endotelina, la sostanza che stringe le arterie dei polmoni. Va tenuto d'occhio il fegato ogni mese ed e' assolutamente vietato in gravidanza.",
+    "clinicalExplanation": "Antagonista duale dei recettori dell'endotelina-1 (ETA ed ETB): blocca la vasocostrizione e la proliferazione mediate dall'endotelina. Epatotossicita' dose-dipendente (monitoraggio mensile delle transaminasi) e teratogenicita' (programma di prevenzione della gravidanza). Induttore enzimatico.",
+    "molecularExplanation": "Antagonizza i recettori dell'endotelina-1 di tipo A e B nella muscolatura liscia vascolare polmonare.",
+    "pharmacodynamics": "Vasodilatazione polmonare e riduzione della proliferazione vascolare; riduzione delle resistenze vascolari polmonari.",
+    "molecularTarget": "Recettori dell'endotelina ETA ed ETB",
+    "agonismAntagonism": "Antagonismo recettoriale duale",
+    "pharmacokinetics": {
+      "route": "Orale",
+      "metabolism": "Epatico (CYP2C9, CYP3A4; autoinduttore)",
+      "note": "Induttore enzimatico",
+      "halfLife": "~5 ore (emivita terminale ~5,4 ore); antagonista recettoriale dell'endotelina, metabolismo epatico CYP2C9/CYP3A4 (autoinduttore), eliminazione biliare. Elevato legame proteico (>98%)"
+    },
+    "bibliography": []
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Altri antianginosi (ranolazina, trimetazidina, nicorandil): sintesi da RCP EMA/AIFA.",
+        "url": "https://www.ema.europa.eu/it/documents/product-information/ranexa-epar-product-information_it.pdf",
+        "identifier": "Altri antianginosi classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Pagina di classe sintetizzata da RCP EMA/AIFA; confermare su RCP ufficiali e linee guida ESC.",
+    "id": "other-antianginals"
+  },
+  "name": "Altri antianginosi (metabolici e attivatori dei canali del potassio)",
+  "atcGroup": "C01EB / C01DX",
+  "memberDrugIds": [
+    "ranolazine",
+    "trimetazidine",
+    "nicorandil"
+  ],
+  "mechanismSummary": "Meccanismi antianginosi alternativi ed emodinamicamente 'neutri' o complementari: inibizione della corrente tardiva del sodio (ranolazina), modulazione metabolica del miocardio (trimetazidina), attivazione dei canali del potassio ATP-sensibili con rilascio di NO (nicorandil).",
+  "molecularTarget": "Bersagli eterogenei (late INa; metabolismo del cardiomiocita; canali K-ATP/NO)",
+  "pharmacodynamics": "Riduzione degli attacchi anginosi con approcci diversi dai betabloccanti e calcioantagonisti; ranolazina e trimetazidina non modificano frequenza e pressione, il nicorandil e' vasodilatatore.",
+  "classEffects": [
+    "Terapia aggiuntiva dell'angina quando le terapie di prima linea non bastano/non sono tollerate",
+    "Ranolazina e trimetazidina senza effetti su frequenza e pressione",
+    "Nicorandil con effetto vasodilatatore (precarico e postcarico)"
+  ],
+  "sharedContraindications": [
+    "Ranolazina: IR grave, epatopatia moderata-grave, inibitori potenti del CYP3A4, antiaritmici Ia/III (non amiodarone)",
+    "Trimetazidina: morbo di Parkinson/disturbi del movimento, IR grave",
+    "Nicorandil: inibitori della PDE5/riociguat, shock cardiogeno, ipotensione grave"
+  ],
+  "sharedAdverseEffects": [
+    "Capogiri, cefalea",
+    "Ranolazina: prolungamento del QT",
+    "Trimetazidina: disturbi del movimento",
+    "Nicorandil: ulcerazioni, ipotensione"
+  ],
+  "monitoring": [
+    "Sintomi anginosi",
+    "Parametri specifici per molecola (QT per ranolazina; disturbi del movimento per trimetazidina; ulcerazioni per nicorandil)"
+  ],
+  "reversal": null,
+  "notesOnClassVsMolecule": "Classe eterogenea di antianginosi di seconda linea/aggiuntivi. La ranolazina (inibitore della corrente tardiva del sodio) e la trimetazidina (metabolica) non toccano frequenza e pressione, utili quando betabloccanti/calcioantagonisti non bastano; la ranolazina prolunga il QT e ha molte interazioni, la trimetazidina e' controindicata nei disturbi del movimento. Il nicorandil (K-ATP + NO) e' un vasodilatatore con il rischio caratteristico di ulcerazioni (disponibilita' in Italia da confermare). Dettagli nelle singole schede."
+}

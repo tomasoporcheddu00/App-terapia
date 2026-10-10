@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "id": "landiolol",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Landiololo (Landiobloc) - RCP (Codifa/Mediately/Torrinomedica su base AIFA): indicazioni EV e posologia (bolo/infusione); beta1-selettivita' 255x.",
+        "url": "https://www.codifa.it/farmaci/l/landiobloc-concentrato-per-soluzione-per-infusione-landiololo-cloridrato-betabloccanti",
+        "identifier": "Landiololo RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "Betabloccanti: meccanismo, controindicazioni, avvertenze e interazioni di classe; sintesi da RCP/portali AIFA (Codifa, Mediately, Torrinomedica, Pharmamedix).",
+        "url": "https://www.torrinomedica.it/schede-farmaci/bisoprololo/",
+        "identifier": "Betabloccanti classe",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Molte controindicazioni/avvertenze/interazioni sono comuni alla classe dei betabloccanti. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Landiololo",
+    "inn": "landiololo",
+    "brandExamplesIt": [
+      "Landiobloc",
+      "Rapibloc"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Betabloccante beta1-selettivo endovenoso ultrabreve (altamente selettivo)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "beta-blockers"
+  ],
+  "quickSummary": {
+    "whatItIs": "Betabloccante endovenoso ultrabreve altamente beta1-selettivo (255x vs beta2), per il controllo rapido e titolabile della frequenza.",
+    "mainUses": [
+      "Tachicardia sopraventricolare e controllo rapido della frequenza in FA/flutter (perioperatorio/postoperatorio)",
+      "Tachicardia sinusale non compensatoria"
+    ],
+    "mainRisks": [
+      "Ipotensione",
+      "Bradicardia"
+    ],
+    "essentialMonitoring": [
+      "ECG e pressione in continuo",
+      "Frequenza cardiaca"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Tachicardia sopraventricolare e controllo rapido della frequenza ventricolare in fibrillazione/flutter atriale in ambito perioperatorio, postoperatorio o altre circostanze che richiedano un controllo a breve termine",
+      "Tachicardia sinusale non compensatoria che richiede intervento"
+    ],
+    "guidelineIndications": [
+      "Alta selettivita' beta1 e durata ultrabreve: utile per il controllo della frequenza con minimo impatto pressorio; non per terapia cronica"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita' alla molecola o ad altri betabloccanti",
+      "Insufficienza cardiaca acuta o scompensata che richiede terapia inotropa endovenosa; shock cardiogeno",
+      "Blocco atrioventricolare di 2o o 3o grado (senza pacemaker)",
+      "Sindrome del nodo del seno; blocco seno-atriale",
+      "Bradicardia sintomatica clinicamente rilevante",
+      "Ipotensione grave/sintomatica",
+      "Broncospasmo grave / asma bronchiale grave",
+      "Arteriopatia periferica grave o fenomeno di Raynaud grave",
+      "Feocromocitoma non trattato (senza alfa-blocco)",
+      "Acidosi metabolica",
+      "Uso non cronico; sicurezza/efficacia non stabilite sotto i 18 anni"
+    ],
+    "warnings": [
+      "Non interrompere bruscamente: rischio di rebound (peggioramento di angina/ischemia, crisi ipertensive); ridurre gradualmente",
+      "Puo' mascherare i sintomi dell'ipoglicemia nel diabetico e i segni dell'ipertiroidismo",
+      "Broncospasmo nei predisposti: preferire i cardioselettivi alla dose minima efficace",
+      "Bradicardia e disturbi della conduzione AV: monitorare frequenza e conduzione",
+      "Nell'avvio/titolazione per lo scompenso puo' verificarsi un transitorio peggioramento (start low, go slow)",
+      "Cautela nell'angina di Prinzmetal (i non selettivi possono peggiorarla)",
+      "Somministrare per via endovenosa in ambiente monitorato da personale qualificato; il concentrato contiene etanolo"
+    ],
+    "adverseEffects": [
+      "Bradicardia",
+      "Ipotensione, capogiro",
+      "Astenia/affaticamento",
+      "Estremita' fredde",
+      "Disturbi del sonno",
+      "Broncospasmo (nei predisposti)"
+    ],
+    "overdose": null,
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Cautela; dati limitati.",
+      "hepatic": "Metabolismo indipendente dal fegato (esterasi).",
+      "elderly": "Titolare con prudenza.",
+      "pregnancy": "Solo se strettamente necessario.",
+      "breastfeeding": "Dati limitati."
+    },
+    "alternativeDrugIds": [
+      "esmolol",
+      "metoprolol",
+      "bisoprolol"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Come l'esmololo ma ancora piu' 'mirato' al cuore e piu' delicato sulla pressione: rallenta rapidamente una frequenza troppo alta e si esaurisce in fretta.",
+    "clinicalExplanation": "Beta1-selettivo (255x vs beta2) endovenoso ultrabreve; controllo della frequenza in FA/flutter perioperatoria con effetto rapidamente reversibile.",
+    "molecularExplanation": "Antagonista beta1 altamente selettivo; idrolisi rapida da esterasi.",
+    "pharmacodynamics": "Riduzione di frequenza cardiaca, contrattilita', conduzione AV e rilascio di renina; calo della pressione e del consumo miocardico di ossigeno.",
+    "molecularTarget": "Recettori beta-adrenergici (beta1 +/- beta2 +/- alfa1)",
+    "agonismAntagonism": "Antagonista recettoriale",
+    "pharmacokinetics": {
+      "metabolism": "Idrolisi da esterasi",
+      "halfLife": "~4 minuti (ultrabreve)",
+      "elimination": "Metaboliti"
+    },
+    "bibliography": [
+      "Studi su landiololo nel controllo perioperatorio della frequenza (es. FA postoperatoria) - da citare con fonte primaria"
+    ]
+  }
+}

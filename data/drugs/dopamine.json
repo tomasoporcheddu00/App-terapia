@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "id": "dopamine",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Dopamina - RCP (Codifa/Mediately/Torrinomedica su base AIFA): agonista dopaminergico/adrenergico dose-dipendente; shock di varia natura; 5-15 mcg/kg/min; controindicata in feocromocitoma/ipertiroidismo/tachiaritmie/FV.",
+        "url": "https://mediately.co/it/drugs/TGZjSnnN7bsPkRoZgSai54tdMNu/dopamina-pfizer-200-mg-5-ml-concentrato-per-soluzione-per-infusione",
+        "identifier": "Dopamina RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC) e da monografie di terapia intensiva: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Agenti vasoattivi EV di terapia intensiva: dosi da titolare con monitoraggio emodinamico continuo.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Dopamina",
+    "inn": "dopamina",
+    "brandExamplesIt": [
+      "Revivan",
+      "Dopamina (varie)"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Vasopressore/inotropo (agonista dopaminergico e adrenergico dose-dipendente)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "vasopressors"
+  ],
+  "quickSummary": {
+    "whatItIs": "Catecolamina con effetti che cambiano con la dose: a basse dosi agisce sui recettori dopaminergici, a dosi intermedie sui beta1 (inotropo) e ad alte dosi sugli alfa (vasocostrizione). Usata nello shock (oggi spesso sostituita dalla noradrenalina).",
+    "mainUses": [
+      "Stati di shock (cardiogeno-postinfartuale, chirurgico, ipovolemico/emorragico, tossi-infettivo, anafilattico)"
+    ],
+    "mainRisks": [
+      "Tachiaritmie",
+      "Ischemia/necrosi da stravaso",
+      "Vasocostrizione eccessiva"
+    ],
+    "essentialMonitoring": [
+      "ECG e pressione",
+      "Diuresi e portata cardiaca",
+      "Sito di infusione"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Trattamento degli stati di shock di varia natura (cardiogeno-postinfartuale, chirurgico, ipovolemico o emorragico, tossi-infettivo, anafilattico), come supporto emodinamico dopo l'adeguato ripristino della volemia"
+    ],
+    "guidelineIndications": [
+      "Nello shock settico le linee guida attuali preferiscono la noradrenalina (meno aritmie); la dopamina resta un'opzione in casi selezionati - confermare su fonte"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Feocromocitoma",
+      "Ipertiroidismo",
+      "Tachiaritmie atriali/ventricolari non corrette o fibrillazione ventricolare"
+    ],
+    "warnings": [
+      "In caso di stravaso vi e' rischio di necrosi tissutale da vasocostrizione locale: infiltrare l'area con fentolamina; preferire un catetere venoso centrale.",
+      "Tachiaritmie (dose-dipendenti); un aumento sproporzionato della pressione diastolica (riduzione della pressione differenziale) impone di ridurre l'infusione",
+      "Correggere l'ipovolemia prima; ridurre gradualmente l'infusione per evitare ipotensione da sospensione",
+      "Evitare gli anestetici alogenati/ciclopropano (aritmie); ridurre la dose con gli IMAO (potenziamento)",
+      "Usare vene di grosso calibro / catetere centrale; solo uso ospedaliero"
+    ],
+    "adverseEffects": [
+      "Battiti ectopici, tachicardia",
+      "Angina, palpitazioni",
+      "Ipertensione o ipotensione, vasocostrizione",
+      "Nausea, vomito",
+      "Ischemia/necrosi da stravaso"
+    ],
+    "overdose": "Il sovradosaggio causa ipertensione eccessiva e tachiaritmie; ridurre/interrompere l'infusione (emivita breve); per l'ipertensione grave un alfa-litico (fentolamina).",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento posologico specifico (titolare).",
+      "hepatic": "Nessun aggiustamento specifico.",
+      "elderly": "Cautela.",
+      "pregnancy": "Solo se strettamente necessario.",
+      "breastfeeding": "Cautela."
+    },
+    "alternativeDrugIds": [
+      "noradrenaline",
+      "dobutamine",
+      "adrenaline"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Una catecolamina 'a effetti variabili': a dose bassa agisce su reni e vasi, a dose media rinforza il cuore, a dose alta stringe i vasi e alza la pressione. Usata nello shock, oggi spesso sostituita dalla noradrenalina.",
+    "clinicalExplanation": "Agonista dopaminergico e adrenergico con effetti dose-dipendenti: 0,5-2 mcg/kg/min dopaminergico (vasodilatazione renale/splancnica), ~5-10 beta1 (inotropo), >10 alfa (vasocostrizione). Effetto anche indiretto (rilascio di noradrenalina). Emivita breve.",
+    "molecularExplanation": "Stimola i recettori dopaminergici (D1) e, a dosi crescenti, i recettori beta1 e alfa1-adrenergici; favorisce inoltre il rilascio di noradrenalina.",
+    "pharmacodynamics": "Effetti emodinamici dose-dipendenti: vasodilatazione renale, aumento della contrattilita', vasocostrizione.",
+    "molecularTarget": "Recettori dopaminergici D1 e adrenergici beta1/alfa1",
+    "agonismAntagonism": "Agonismo dopaminergico/adrenergico (dose-dipendente)",
+    "pharmacokinetics": {
+      "route": "Infusione endovenosa continua",
+      "onset": "Rapido",
+      "halfLife": "~2 minuti",
+      "metabolism": "MAO/COMT"
+    },
+    "bibliography": []
+  }
+}

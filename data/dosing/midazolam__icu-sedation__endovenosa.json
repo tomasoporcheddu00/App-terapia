@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "midazolam__icu-sedation__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Midazolam (fiale) - RCP AIFA (Torrinomedica/Codifa/documento AIFA): sedazione in terapia intensiva, carico EV 0,03-0,3 mg/kg a incrementi lenti, mantenimento 0,03-0,2 mg/kg/h; antidoto flumazenil; interazioni CYP3A4.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/midazolam/",
+        "identifier": "Midazolam RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/EMA-AIFA; smpcVerified=false. Sedazione: titolare sulla risposta clinica e sui protocolli locali."
+  },
+  "drugId": "midazolam",
+  "indication": "icu-sedation",
+  "scenario": "Sedazione in terapia intensiva",
+  "route": "endovenosa",
+  "dose": {
+    "loading": "EV 0,03-0,3 mg/kg a incrementi lenti (1-2,5 mg iniettati in 20-30 secondi, intervallo di 2 minuti fra gli incrementi); ridurre o evitare in ipovolemia, vasocostrizione, ipotermia",
+    "maintenance": "EV 0,03-0,2 mg/kg/h, titolata sul livello di sedazione; ridurre negli stessi pazienti e negli anziani",
+    "anesthesia-component": "boli intermittenti 0,03-0,1 mg/kg oppure infusione 0,03-0,1 mg/kg/h, di norma con un analgesico"
+  },
+  "administration": {
+    "notes": "EV, mai in bolo rapido. Se associato ad analgesico potente, somministrare prima l'analgesico. Monitoraggio respiratorio continuo. Svezzamento graduale dopo uso prolungato."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

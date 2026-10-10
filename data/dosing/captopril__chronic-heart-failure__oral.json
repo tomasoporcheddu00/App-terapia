@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "captopril__chronic-heart-failure__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Captopril - RCP (rese da Torrinomedica/Mediately su base AIFA): indicazioni, posologia §4.2, farmacocinetica §5.2.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/captopril-2/",
+        "identifier": "Captopril RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "captopril",
+  "indication": "chronic-heart-failure",
+  "scenario": "Scompenso cardiaco cronico",
+  "route": "orale",
+  "dose": {
+    "initial": "6,25-12,5 mg 2-3 volte al giorno sotto stretto controllo",
+    "titration": "aumento graduale secondo tollerabilita'",
+    "maintenance": "75-150 mg al giorno in dosi suddivise",
+    "max": "150 mg al giorno"
+  },
+  "administration": {
+    "notes": "Avviare sotto controllo medico; ridurre/sospendere il diuretico 2-3 giorni prima se possibile per ridurre l'ipotensione da prima dose."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

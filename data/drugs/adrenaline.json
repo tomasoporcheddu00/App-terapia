@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "id": "adrenaline",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Adrenalina/epinefrina - RCP (Codifa/Mediately/Torrinomedica su base AIFA): alfa+beta-agonista; arresto cardiaco (1 mg EV), anafilassi (0,5 mg IM), shock; EV solo da esperti.",
+        "url": "https://mediately.co/it/drugs/7iqOAuVhUkF2xmQFr1U8BY8vvTi/adrenalina-aguettant-1-mg-10-ml-1-10-000-soluzione-iniettabile",
+        "identifier": "Adrenalina RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "other",
+        "citation": "Pharmamedix - scheda Farmacocinetica del principio attivo (sintesi da letteratura e RCP).",
+        "url": "https://www.pharmamedix.com/principiovoce.php?pa=Adrenalina&vo=Farmacocinetica",
+        "identifier": "Pharmamedix",
+        "retrievedAt": "2026-07-24"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC) e da monografie di terapia intensiva: indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato. Agenti vasoattivi EV di terapia intensiva: dosi da titolare con monitoraggio emodinamico continuo.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Adrenalina",
+    "inn": "adrenalina (epinefrina)",
+    "brandExamplesIt": [
+      "Adrenalina (varie)",
+      "Fastjekt/autoiniettori"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Vasopressore/simpaticomimetico (alfa+beta-agonista)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "vasopressors"
+  ],
+  "quickSummary": {
+    "whatItIs": "Catecolamina ad ampio spettro (alfa e beta): aumenta frequenza, contrattilita' e pressione, dilata i bronchi. Farmaco di prima linea nell'arresto cardiaco e nell'anafilassi; usata anche in infusione nello shock.",
+    "mainUses": [
+      "Arresto cardiaco (rianimazione cardiopolmonare)",
+      "Anafilassi / shock anafilattico",
+      "Shock e ipotensione grave (infusione)"
+    ],
+    "mainRisks": [
+      "Ipertensione, tachicardia, aritmie",
+      "Ischemia miocardica",
+      "Ansia, tremore"
+    ],
+    "essentialMonitoring": [
+      "ECG e pressione (nell'uso EV/infusione)",
+      "Frequenza cardiaca",
+      "Risposta clinica"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Arresto cardiaco (rianimazione cardiopolmonare)",
+      "Trattamento delle reazioni anafilattiche acute (shock anafilattico)",
+      "Supporto dell'ipotensione grave/shock (infusione)"
+    ],
+    "guidelineIndications": [
+      "Prima linea nell'arresto cardiaco (1 mg EV ogni 3-5 minuti) e nell'anafilassi (0,5 mg IM); in infusione nello shock refrattario/anafilattico e nella bradicardia - confermare su linee guida di rianimazione"
+    ],
+    "absoluteContraindications": [
+      "Glaucoma ad angolo chiuso",
+      "Ipersensibilita' ai solfiti (alcune formulazioni)",
+      "Nelle emergenze potenzialmente fatali (arresto cardiaco, anafilassi) non vi sono controindicazioni assolute"
+    ],
+    "warnings": [
+      "Per via endovenosa in pazienti con circolo spontaneo puo' causare ipertensione grave, tachicardia, aritmie e ischemia miocardica: l'uso EV va riservato a personale esperto con monitoraggio (ECG, pressione, ossimetria)",
+      "Nell'anafilassi la via di prima scelta e' intramuscolare (terzo medio antero-laterale della coscia); la via sottocutanea e' sconsigliata",
+      "Cautela in cardiopatia ischemica, ipertensione, ipertiroidismo, diabete, malattia cerebrovascolare",
+      "Non miscelare con soluzioni alcaline; usare vene di grosso calibro"
+    ],
+    "adverseEffects": [
+      "Tachicardia, palpitazioni, ipertensione",
+      "Aritmie, ischemia miocardica",
+      "Ansia, tremore, cefalea",
+      "Iperglicemia",
+      "Pallore, sudorazione"
+    ],
+    "overdose": "Il sovradosaggio causa ipertensione grave, aritmie, edema polmonare ed emorragia cerebrale; ridurre/interrompere; alfa-litici (fentolamina) e/o betabloccanti a breve durata secondo il quadro (attenzione all'alfa non contrastato).",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Nessun aggiustamento specifico.",
+      "hepatic": "Nessun aggiustamento specifico.",
+      "elderly": "Cautela (rischio cardiovascolare).",
+      "pregnancy": "Usare se necessario (emergenza).",
+      "breastfeeding": "Compatibile in acuto (scarso assorbimento orale nel lattante)."
+    },
+    "alternativeDrugIds": [
+      "noradrenaline",
+      "dopamine",
+      "isoprenaline"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "L'ormone dell'emergenza: fa battere il cuore piu' forte e veloce, alza la pressione e apre i bronchi. E' il farmaco chiave nell'arresto cardiaco e nelle allergie gravi.",
+    "clinicalExplanation": "Catecolamina agonista dei recettori alfa e beta: effetto inotropo/cronotropo positivo, vasocostrizione (alfa) e broncodilatazione (beta2). Prima linea nell'arresto cardiaco (bolo EV) e nell'anafilassi (IM); in infusione nello shock.",
+    "molecularExplanation": "Stimola i recettori adrenergici alfa1 (vasocostrizione), beta1 (cuore) e beta2 (broncodilatazione, vasodilatazione muscolare).",
+    "pharmacodynamics": "Aumento di frequenza, contrattilita' e pressione; broncodilatazione; aumento di glicemia e lipolisi.",
+    "molecularTarget": "Recettori adrenergici alfa e beta",
+    "agonismAntagonism": "Agonismo alfa/beta-adrenergico",
+    "pharmacokinetics": {
+      "route": "EV/IO (arresto), IM (anafilassi), infusione (shock)",
+      "onset": "Immediato EV; rapido IM",
+      "metabolism": "COMT/MAO",
+      "halfLife": "Molto breve (pochi minuti): inattivazione rapida a livello epatico e tissutale da MAO e COMT"
+    },
+    "bibliography": []
+  }
+}

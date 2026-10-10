@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "id": "spironolactone",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Spironolattone - RCP/fonti cliniche (MSD, RALES, portali AIFA): indicazioni scompenso/ipertensione, dose, iperkaliemia, effetti antiandrogeni.",
+        "url": "https://www.msdmanuals.com/it/professionale/disturbi-dell-apparato-cardiovascolare/insufficienza-cardiaca/farmaci-per-l-insufficienza-cardiaca",
+        "identifier": "Spironolattone RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5; severita' secondo posizionamento RCP e rilevanza clinica.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "spironolactone",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "ACE-inibitori, sartani, aliskiren",
+      "effect": "Iperkaliemia (blocco combinato del RAAS)",
+      "management": "Monitorare strettamente potassio e funzione renale"
+    },
+    {
+      "severity": "major",
+      "agent": "Sali/integratori di potassio, altri risparmiatori di potassio, eparina",
+      "effect": "Iperkaliemia",
+      "management": "Evitare o monitorare"
+    },
+    {
+      "severity": "major",
+      "agent": "FANS",
+      "effect": "Iperkaliemia e riduzione dell'effetto; nefrotossicita'",
+      "management": "Cautela; monitorare potassio e funzione renale"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Digossina",
+      "effect": "Possibile aumento dei livelli di digossina",
+      "management": "Monitorare la digossinemia"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Litio",
+      "effect": "Aumento della litiemia",
+      "management": "Monitorare"
+    }
+  ]
+}

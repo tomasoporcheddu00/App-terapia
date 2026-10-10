@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "id": "nicorandil",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Nicorandil (Ikorel) - RCP EMA (EC Europa/EMA Art.30): attivatore dei canali del potassio ATP-sensibili + donatore di NO, angina cronica stabile, dose 10-20 mg x2, ulcerazioni GI, controindicazione PDE5.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2015/20150605131936/anx_131936_it.pdf",
+        "identifier": "Ikorel RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "nicorandil",
+  "items": [
+    {
+      "severity": "contraindicated",
+      "agent": "Inibitori della PDE5 (sildenafil, tadalafil, vardenafil)",
+      "effect": "Ipotensione grave",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "contraindicated",
+      "agent": "Stimolatori della guanilato ciclasi (riociguat)",
+      "effect": "Ipotensione grave",
+      "management": "Associazione controindicata"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Altri antipertensivi/vasodilatatori, alcol",
+      "effect": "Potenziamento dell'ipotensione",
+      "management": "Monitorare la pressione"
+    },
+    {
+      "severity": "moderate",
+      "agent": "FANS/corticosteroidi",
+      "effect": "Possibile aumento del rischio di ulcerazioni/complicanze gastrointestinali",
+      "management": "Cautela; sorvegliare"
+    }
+  ]
+}

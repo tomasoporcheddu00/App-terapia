@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "id": "ticagrelor__post-mi-longterm__oral",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": "Curatore clinico",
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": "2026-07-19",
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "RCP Brilique (ticagrelor) sez. 4.2 - post-IM (>=1 anno) ad alto rischio: 60 mg due volte/die con ASA (studio PEGASUS).",
+        "url": "https://www.codifa.it/farmaci/b/brilique-compresse-rivestite-ticagrelor-antiaggreganti-piastrinici",
+        "identifier": "Brilique 60 mg",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Trattamento prolungato dopo IM; passaggio dalla dose 90 mg tipicamente entro il primo anno. id indicazione da riconciliare col vocabolario.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "ticagrelor",
+  "indication": "post-mi-longterm",
+  "scenario": "Prevenzione a lungo termine dopo infarto miocardico ad alto rischio (con ASA)",
+  "route": "oral",
+  "formulation": "compresse 60 mg",
+  "population": "adult-standard",
+  "dose": {
+    "loading": null,
+    "initial": "60 mg due volte al giorno",
+    "interval": "ogni 12 ore",
+    "maintenance": "60 mg due volte al giorno in associazione ad ASA a basse dosi",
+    "target": null,
+    "max": null,
+    "titration": null,
+    "duration": "Prolungata secondo rischio/beneficio",
+    "weightBased": null,
+    "cumulative": null,
+    "renalAdjustment": "Nessun aggiustamento.",
+    "hepaticAdjustment": "Controindicato in compromissione grave; cautela nella moderata.",
+    "elderly": "Nessun aggiustamento specifico.",
+    "pregnancy": "Non raccomandato.",
+    "dialysis": null
+  },
+  "administration": {
+    "preparation": null,
+    "solvent": null,
+    "concentration": null,
+    "rate": null,
+    "access": null,
+    "notes": "Con o senza cibo; mantenere ASA a basse dosi (<=100 mg/die)."
+  },
+  "monitoring": [
+    "Segni di sanguinamento",
+    "Comparsa di dispnea"
+  ],
+  "stoppingCriteria": [
+    "Sanguinamento significativo",
+    "CABG programmata: sospensione >=96 ore prima"
+  ],
+  "approvalEvidence": {
+    "primarySourceVerified": false,
+    "smpcVerified": true,
+    "clinicalReviewDone": true,
+    "verificationDate": "2026-07-18",
+    "reviewer": "Curatore clinico"
+  }
+}

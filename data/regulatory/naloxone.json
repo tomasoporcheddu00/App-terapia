@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "naloxone",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Banca Dati AIFA - naloxone cloridrato: antidoto, uso ospedaliero/emergenza territoriale.",
+        "url": "https://www.codifa.it/farmaci/n/naloxone-cloridrato-salf-naloxone-cloridrato-antidoti",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Disponibile in ambito ospedaliero e nei mezzi di emergenza; regime secondo formulazione. Confermare sul prontuario AIFA."
+  },
+  "drugId": "naloxone",
+  "authorisation": "EMA/Nazionale",
+  "marketed": true,
+  "reimbursementClass": "C",
+  "supplyRegime": "OSP/RR secondo formulazione",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Ospedaliera/emergenza",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

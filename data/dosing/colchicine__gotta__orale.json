@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "id": "colchicine__gotta__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-28T00:00:00Z",
+    "updatedAt": "2026-07-28T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Colchicina Lirca - RCP (Torrinomedica/Codifa/Mediately su base AIFA): indicazioni gottose, controindicazioni, interazioni CYP3A4/P-gp, avvertenze.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/colchicina_lirca/",
+        "identifier": "Colchicina Lirca RCP",
+        "retrievedAt": "2026-07-28"
+      },
+      {
+        "type": "guideline",
+        "citation": "ESC 2025 - Linee guida su miocardite e pericardite: colchicina come adiuvante di prima linea; dosi per peso e durata.",
+        "url": "https://www.giornaledicardiologia.it/archivio/4620/articoli/46292/",
+        "identifier": "ESC 2025 IMPS",
+        "retrievedAt": "2026-07-28"
+      }
+    ],
+    "notes": "Posologia da fonti su base RCP/AIFA o da linee guida citate; smpcVerified=false. Verificare sempre su RCP ufficiale e adattare a funzione renale/epatica."
+  },
+  "drugId": "colchicine",
+  "indication": "gout",
+  "scenario": "Attacco acuto di artrite gottosa (indicazione autorizzata)",
+  "route": "orale",
+  "dose": {
+    "attacco": "secondo RCP, nell'attacco acuto la dose abituale e' di 3 compresse da 1 mg al giorno per tre-quattro giorni, una compressa in media prima di ciascun pasto",
+    "profilassi": "dose ridotta secondo prescrizione, adattata a funzione renale ed epatica"
+  },
+  "administration": {
+    "notes": "Dose da adattare alla funzione renale ed epatica; le linee guida attuali sulla gotta impiegano schemi a dose piu' bassa: fare riferimento alle linee guida ufficiali come indicato nella scheda tecnica."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

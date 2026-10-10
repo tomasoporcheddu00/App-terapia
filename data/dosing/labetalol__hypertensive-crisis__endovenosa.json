@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "labetalol__hypertensive-crisis__endovenosa",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Labetalolo - RCP (Mediately su base AIFA) e schede posologiche (orale ed endovenosa; crisi ipertensive e gravidanza).",
+        "url": "https://mediately.co/it/drugs/CWRWBrVhQr42h2WP2eknnFxekSp/labetalolo-s-a-l-f-5-mg-ml-soluzione-iniettabile-per-infusione",
+        "identifier": "Labetalolo RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "labetalol",
+  "indication": "hypertensive-crisis",
+  "scenario": "Crisi/emergenza ipertensiva (endovenosa, ospedale)",
+  "route": "endovenosa",
+  "dose": {
+    "initial": "50 mg endovena in almeno 1 minuto, ripetibile dopo 5 minuti (max totale 200 mg)",
+    "maintenance": "in alternativa infusione ~2 mg/min fino a risposta (dose utile 50-200 mg)",
+    "max": "secondo risposta; nel feocromocitoma possono servire dosi maggiori"
+  },
+  "administration": {
+    "notes": "Mantenere il paziente supino durante e per >=3 ore dopo la somministrazione EV."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

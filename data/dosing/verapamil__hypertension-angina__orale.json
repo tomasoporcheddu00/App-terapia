@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "verapamil__hypertension-angina__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Verapamil - RCP (Torrinomedica/Mediately/Pharmamedix su base AIFA): indicazioni ipertensione/angina/aritmie SV, dose, controindicazioni (scompenso, WPW+FA, betabloccante EV), stipsi.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/verapamil_angenerico/",
+        "identifier": "Verapamil RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA; smpcVerified=false (non verificata su RCP ufficiale integrale). Da confermare e approvare."
+  },
+  "drugId": "verapamil",
+  "indication": "hypertension",
+  "scenario": "Ipertensione / angina",
+  "route": "orale",
+  "dose": {
+    "initial": "Angina 80-120 mg tre volte al giorno; ipertensione 120 mg/die (rilascio prolungato) fino a 240-480 mg/die",
+    "maintenance": "240-480 mg al giorno in 1-3 dosi secondo formulazione",
+    "max": "480 mg al giorno"
+  },
+  "administration": {
+    "notes": "Rilascio prolungato in 1-2 somministrazioni; non interrompere bruscamente."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "procainamide",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "Procainamide (Pronestyl): non risulta in commercio in Italia; dati da label internazionali.",
+        "url": "https://labeling.pfizer.com/ShowLabeling.aspx?id=4587",
+        "identifier": "AIFA",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Non risulta commercializzato in Italia; eventuale reperimento estero. Confermare disponibilita'."
+  },
+  "drugId": "procainamide",
+  "authorisation": "Nazionale (AIFA)",
+  "marketed": false,
+  "reimbursementClass": "Non in commercio (IT)",
+  "supplyRegime": "Uso ospedaliero (ove disponibile)",
+  "aifaNote": null,
+  "therapeuticPlan": false,
+  "distribution": "Ospedaliera",
+  "law648_1996": false,
+  "prescriberRestrictions": null
+}

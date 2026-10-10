@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "id": "propafenone",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Propafenone (Rytmonorm) - RCP (Codifa/Torrinomedica/my-personaltrainer su base AIFA): classe Ic con lieve effetto betabloccante; controindicazioni Brugada/scompenso/cardiopatia strutturale; ECG dopo l'inizio.",
+        "url": "https://www.codifa.it/farmaci/r/rytmonorm-propafenone-cloridrato-antiaritmici",
+        "identifier": "Rytmonorm RCP",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Interazioni da RCP §4.5.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "propafenone",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Digossina",
+      "effect": "Aumento dei livelli di digossina",
+      "management": "Ridurre la digossina e monitorare"
+    },
+    {
+      "severity": "major",
+      "agent": "Warfarin",
+      "effect": "Potenziamento dell'effetto anticoagulante",
+      "management": "Monitorare l'INR"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Betabloccanti / altri inotropi negativi",
+      "effect": "Effetti additivi su conduzione e contrattilita'",
+      "management": "Cautela"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Inibitori del CYP2D6/CYP3A4 (ISRS, ketoconazolo, ritonavir)",
+      "effect": "Aumento dei livelli di propafenone",
+      "management": "Monitorare"
+    }
+  ]
+}

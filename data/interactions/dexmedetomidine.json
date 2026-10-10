@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "dexmedetomidine",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-23T00:00:00Z",
+    "updatedAt": "2026-07-23T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Dexmedetomidina (Dexdor) - RCP EMA/AIFA (Codifa/Torrinomedica/EMA): sedazione in terapia intensiva RASS 0/-3 e sedazione procedurale; 0,7 mcg/kg/h iniziale, range 0,2-1,4; controindicato BAV 2-3 non stimolato, ipotensione non controllata, condizioni cerebrovascolari acute.",
+        "url": "https://www.codifa.it/farmaci/d/dexdor-dexmedetomidina-cloridrato-ipnotici-sedativi",
+        "identifier": "Dexdor RCP",
+        "retrievedAt": "2026-07-23"
+      }
+    ],
+    "notes": "Interazioni da RCP.  Da confermare su RCP ufficiale integrale."
+  },
+  "drugId": "dexmedetomidine",
+  "items": [
+    {
+      "severity": "major",
+      "agent": "Betabloccanti, calcioantagonisti non diidropiridinici (verapamil, diltiazem), digossina, ivabradina",
+      "effect": "Bradicardia additiva fino a blocco/pausa sinusale",
+      "management": "Cautela e monitoraggio ECG continuo; ridurre la velocita' di infusione"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Anestetici, sedativi, ipnotici e oppioidi",
+      "effect": "Potenziamento degli effetti sedativi ed emodinamici",
+      "management": "Ridurre le dosi di entrambi e titolare"
+    },
+    {
+      "severity": "moderate",
+      "agent": "Antipertensivi",
+      "effect": "Ipotensione additiva",
+      "management": "Monitorare la pressione; supporto volemico se necessario"
+    }
+  ]
+}

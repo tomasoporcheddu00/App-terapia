@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "mavacamten",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-07-29T00:00:00Z",
+    "regulatoryReviewer": null,
+    "regulatoryReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "EMA/AIFA - mavacamten (Camzyos): medicinale soggetto a monitoraggio addizionale, prescrizione limitativa specialistica con piano terapeutico.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2023/20230626159388/anx_159388_it.pdf",
+        "identifier": "AIFA/EMA",
+        "retrievedAt": "2026-07-29"
+      }
+    ],
+    "notes": "Medicinale sottoposto a monitoraggio addizionale. Prescrizione riservata a centri esperti in cardiomiopatie con piano terapeutico e registro AIFA; richiede genotipizzazione CYP2C19 e programma di sorveglianza ecocardiografica."
+  },
+  "drugId": "mavacamten",
+  "authorisation": "EMA/Nazionale",
+  "marketed": true,
+  "reimbursementClass": "A (registro)",
+  "supplyRegime": "RNRL - prescrizione limitativa specialistica",
+  "aifaNote": null,
+  "therapeuticPlan": true,
+  "distribution": "Distribuzione diretta",
+  "law648_1996": false,
+  "prescriberRestrictions": "Centri esperti in cardiomiopatie"
+}

@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Minoxidil (Loniten) - RCP (Codifa/Mediately/Torrinomedica su base AIFA): vasodilatatore diretto (apertura dei canali del potassio); ipertensione grave refrattaria in associazione a simpaticolitico + diuretico dell'ansa; versamento pericardico, ritenzione idrica, ipertricosi.",
+        "url": "https://www.codifa.it/farmaci/l/loniten-minoxidil-vasodilatatori-diretti",
+        "identifier": "Loniten RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Minoxidil - monografia di farmacocinetica (Pharmamedix): emivita ~4,2 ore, escrezione renale come glucuronide.",
+        "url": "https://www.pharmamedix.com/principiovoce.php?pa=Minoxidil&vo=Farmacocinetica",
+        "identifier": "Monografia - farmacocinetica",
+        "retrievedAt": "2026-07-27"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false,
+    "id": "minoxidil"
+  },
+  "name": {
+    "generic": "minoxidil",
+    "inn": "minoxidil",
+    "brandExamplesIt": [
+      "Loniten"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Vasodilatatore diretto (apertura dei canali del potassio)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "direct-vasodilators"
+  ],
+  "quickSummary": {
+    "whatItIs": "Potente vasodilatatore per l'ipertensione grave che non risponde ad altre terapie; va sempre associato a un simpaticolitico (per la tachicardia) e a un diuretico dell'ansa (per la ritenzione idrica).",
+    "mainUses": [
+      "Ipertensione grave refrattaria (in associazione obbligata a diuretico + simpaticolitico)"
+    ],
+    "mainRisks": [
+      "Ritenzione idrosalina marcata",
+      "Versamento pericardico (talora tamponamento)",
+      "Tachicardia riflessa/angina, ipertricosi"
+    ],
+    "essentialMonitoring": [
+      "Peso corporeo e bilancio idrico",
+      "Pressione e frequenza cardiaca",
+      "ECG ed ecocardiogramma (versamento pericardico)"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Ipertensione refrattaria al trattamento con dosi tollerabili di un diuretico piu' un secondo antipertensivo, in associazione a un farmaco attivo sul sistema nervoso simpatico e a un diuretico adeguato (di norma dell'ansa)"
+    ],
+    "guidelineIndications": [
+      "Vasodilatatore di ultima linea nell'ipertensione grave/refrattaria; sempre in triplice associazione per contenere ritenzione idrica e tachicardia riflessa - confermare su ESC"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Feocromocitoma (puo' stimolare la secrezione di catecolamine)"
+    ],
+    "warnings": [
+      "Ritenzione idrosalina marcata: obbligatorio un diuretico dell'ansa (un accumulo di ~1-1,5 kg riduce l'efficacia); puo' precipitare/aggravare lo scompenso",
+      "Versamento pericardico (circa 3-5% dei pazienti non dializzati, talora tamponamento): monitorare con ECG/ecocardiogramma; sospendere se persiste",
+      "Tachicardia riflessa: obbligatorio un simpaticolitico (betabloccante, o clonidina/metildopa); puo' scatenare angina nella coronaropatia",
+      "Post-infarto: usare solo dopo stabilizzazione",
+      "Ipertricosi/irsutismo (frequente, reversibile); ridurre la dose nell'insufficienza renale/dialisi"
+    ],
+    "adverseEffects": [
+      "Ritenzione idrica/edema",
+      "Tachicardia riflessa",
+      "Ipertricosi/irsutismo",
+      "Versamento pericardico",
+      "Alterazioni dell'ECG (onda T)",
+      "Angina (nella coronaropatia)"
+    ],
+    "overdose": "Il sovradosaggio causa ipotensione marcata e tachicardia con ritenzione idrica; supporto, fluidi e vasopressori se necessario (fenilefrina/noradrenalina), diuretici.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Ridurre la dose nell'insufficienza renale/dialisi.",
+      "hepatic": "Cautela.",
+      "elderly": "Cautela.",
+      "pregnancy": "Solo se strettamente necessario.",
+      "breastfeeding": "Escreto nel latte; cautela."
+    },
+    "alternativeDrugIds": [
+      "hydralazine",
+      "doxazosin",
+      "furosemide"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un vasodilatatore molto potente per l'ipertensione grave che non risponde ad altro; va sempre accompagnato da un diuretico (per l'acqua trattenuta) e da un farmaco che rallenti il cuore. Fa crescere i peli e puo' dare liquido intorno al cuore.",
+    "clinicalExplanation": "Vasodilatatore arteriolare diretto: il metabolita attivo (minoxidil solfato) apre i canali del potassio ATP-sensibili (iperpolarizzazione e rilassamento). Riservato all'ipertensione grave refrattaria, sempre in triplice associazione (diuretico dell'ansa + simpaticolitico).",
+    "molecularExplanation": "Il minoxidil solfato apre i canali del potassio ATP-sensibili della muscolatura liscia arteriolare, causando iperpolarizzazione e vasodilatazione.",
+    "pharmacodynamics": "Potente riduzione delle resistenze arteriolari con tachicardia riflessa e ritenzione idrosalina; non riduce l'ipertrofia ventricolare sinistra.",
+    "molecularTarget": "Canali del potassio ATP-sensibili (muscolatura liscia arteriolare)",
+    "agonismAntagonism": "Apertura dei canali del potassio",
+    "pharmacokinetics": {
+      "route": "Orale",
+      "activation": "Profarmaco (minoxidil solfato attivo)",
+      "elimination": "Renale (ridurre nell'IR)",
+      "halfLife": "~4,2 ore (via orale sistemica); non ha metaboliti attivi rilevanti, escreto come glucuronide per via renale. L'effetto ipotensivo dura piu' a lungo dell'emivita plasmatica"
+    },
+    "bibliography": []
+  }
+}

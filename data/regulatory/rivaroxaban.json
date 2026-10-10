@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "rivaroxaban",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.3.0",
+    "editorialStatus": "clinician-approved",
+    "language": "it",
+    "createdAt": "2026-07-18T00:00:00Z",
+    "updatedAt": "2026-07-18T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": "Curatore clinico",
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": "2026-07-19",
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "other",
+        "citation": "AIFA - Nota 97 (Determina DG 1034/2020): NAO/DOAC (incl. rivaroxaban) nella FANV.",
+        "url": "https://www.aifa.gov.it/en/-/adozione-definitiva-della-nota-97-su-terapia-anticoagulante-nei-pazienti-con-fanv",
+        "identifier": "Nota 97",
+        "retrievedAt": "2026-07-18"
+      },
+      {
+        "type": "other",
+        "citation": "AIFA - Aggiornamento Nota 97 in vigore dal 9 luglio 2026 (abrogazione scheda NVAF).",
+        "url": "https://www.aifa.gov.it/-/aggiornamenti-delle-note-aifa-39-74-97-e-99-in-vigore-dal-9-luglio-2026",
+        "identifier": "Aggiornamento Nota 97 (09/07/2026)",
+        "retrievedAt": "2026-07-18"
+      }
+    ],
+    "notes": "Rivaroxaban (Xarelto) autorizzato EMA. FANV in Nota 97; scheda abrogata dal 09/07/2026. Le indicazioni diverse dalla FANV (TEV, dose vascolare 2,5 mg) hanno propria classificazione/regime: da verificare su banca dati AIFA, cosi' come AIC e materiale educazionale (scheda per il prescrittore/patient card).",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "drugId": "rivaroxaban",
+  "authorisation": "Autorizzato dall'EMA con procedura centralizzata (Xarelto).",
+  "marketed": true,
+  "reimbursementClass": "A",
+  "supplyRegime": "RR per la FANV (Nota 97); altre indicazioni/dosaggi da verificare.",
+  "aifaNote": "Nota 97 (per l'indicazione FANV)",
+  "therapeuticPlan": false,
+  "registry": null,
+  "distribution": null,
+  "law648_1996": false,
+  "prescriberRestrictions": "FANV secondo Nota 97; scheda abrogata dal 9 luglio 2026. Presente materiale educazionale/patient alert card (verificare stato attuale).",
+  "availableFormulations": [
+    "compresse 2,5 mg",
+    "compresse 10 mg",
+    "compresse 15 mg",
+    "compresse 20 mg"
+  ],
+  "verificationDate": "2026-07-18"
+}

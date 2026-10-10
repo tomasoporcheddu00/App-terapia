@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "id": "sodium-nitroprusside",
+    "schemaVersion": "1.1.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "regulatoryReviewer": null,
+    "clinicalReviewDate": null,
+    "regulatoryReviewDate": null,
+    "nextReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Sodio nitroprussiato - RCP (Codifa/Torrinomedica/Starbene su base AIFA): donatore diretto di NO, emergenze ipertensive, infusione 0,3-8 mcg/kg/min, tossicita' da cianuro/tiocianato.",
+        "url": "https://www.torrinomedica.it/schede-farmaci/sodio_nitroprussiato/",
+        "identifier": "Sodio nitroprussiato RCP",
+        "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "Nitroprussiato di sodio - Centro Antidoti Emilia-Romagna e RCP: emivita 2-4 minuti; metabolismo a cianuro/tiocianato con accumulo nell'insufficienza renale.",
+        "url": "https://antidoti.ospfe.it/antidoto/nitroprussiato-di-sodio/",
+        "identifier": "Centro Antidoti - farmacocinetica",
+        "retrievedAt": "2026-07-25"
+      }
+    ],
+    "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA, EMA/EC): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
+    "supersedes": null,
+    "supersededBy": null,
+    "deprecatedReason": null,
+    "demo": false
+  },
+  "name": {
+    "generic": "Nitroprussiato di sodio",
+    "inn": "sodio nitroprussiato",
+    "brandExamplesIt": [
+      "Sodio Nitroprussiato Malesci"
+    ]
+  },
+  "synonyms": [],
+  "subclass": "Vasodilatatore diretto (donatore di NO, endovenoso)",
+  "identity": {
+    "atcCodes": []
+  },
+  "classIds": [
+    "vasodilators"
+  ],
+  "quickSummary": {
+    "whatItIs": "Potente vasodilatatore endovenoso a rapidissima azione, donatore diretto di ossido d'azoto; usato in ospedale nelle emergenze ipertensive e nella dissezione aortica.",
+    "mainUses": [
+      "Emergenze ipertensive",
+      "Ipotensione controllata in chirurgia",
+      "Scompenso refrattario / sindromi da bassa portata"
+    ],
+    "mainRisks": [
+      "Ipotensione marcata",
+      "Tossicita' da cianuro/tiocianato",
+      "Ipertensione di rimbalzo alla sospensione"
+    ],
+    "essentialMonitoring": [
+      "Pressione arteriosa continua (invasiva)",
+      "Equilibrio acido-base/lattato",
+      "Durata e velocita' di infusione"
+    ]
+  },
+  "clinical": {
+    "authorisedIndications": [
+      "Emergenze ipertensive",
+      "Induzione di ipotensione controllata in chirurgia",
+      "Emergenze cardiovascolari quali sindromi da bassa portata nello scompenso refrattario o nell'infarto miocardico"
+    ],
+    "guidelineIndications": [
+      "Impiego in terapia intensiva con monitoraggio pressorio continuo; nella dissezione aortica in associazione a un betabloccante - confermare su ESC",
+      "Sostituito in molte situazioni da vasodilatatori piu' maneggevoli per il rischio di tossicita' da cianuro - confermare su fonte"
+    ],
+    "absoluteContraindications": [
+      "Ipersensibilita'",
+      "Ipertensione compensatoria (coartazione aortica, shunt artero-venoso)",
+      "Ambliopia tabagica; atrofia ottica di Leber",
+      "Carenza di vitamina B12",
+      "Ipotiroidismo",
+      "Insufficienza epatica grave",
+      "Insufficienza renale grave"
+    ],
+    "warnings": [
+      "Rischio di accumulo di cianuro/tiocianato con dosi elevate, infusione prolungata (>24-48 ore) o insufficienza renale/epatica: monitorare equilibrio acido-base e lattato; disporre di idrossicobalamina/tiosolfato di sodio",
+      "Proteggere la soluzione dalla luce; non iniettare la soluzione concentrata e non miscelare altri farmaci",
+      "Ipertensione di rimbalzo alla sospensione brusca: ridurre gradualmente",
+      "Ipotensione marcata a rapida insorgenza: infondere solo con pompa e monitoraggio pressorio continuo"
+    ],
+    "adverseEffects": [
+      "Ipotensione marcata",
+      "Cefalea, nausea, vomito",
+      "Palpitazioni, sudorazione, agitazione",
+      "Tossicita' da cianuro/tiocianato (acidosi metabolica, alterazione dello stato mentale, psicosi)"
+    ],
+    "overdose": "Il sovradosaggio provoca ipotensione grave e tossicita' da cianuro: interrompere l'infusione, somministrare idrossicobalamina e/o tiosolfato di sodio; il tiocianato e' rimovibile con emodialisi.",
+    "antidoteDrugIds": [],
+    "specialPopulations": {
+      "renal": "Controindicato nell'insufficienza renale grave (accumulo di tiocianato).",
+      "hepatic": "Controindicato nell'insufficienza epatica grave (ridotta detossificazione del cianuro).",
+      "elderly": "Iniziare a velocita' bassa.",
+      "pregnancy": "Solo se strettamente necessario (rischio di accumulo di cianuro fetale).",
+      "breastfeeding": "Cautela."
+    },
+    "alternativeDrugIds": [
+      "nitroglycerin"
+    ]
+  },
+  "deep": {
+    "simpleExplanation": "Un vasodilatatore fortissimo che si da' solo in vena e in ospedale per abbassare rapidamente una pressione pericolosamente alta; va sorvegliato perche' puo' liberare cianuro.",
+    "clinicalExplanation": "Donatore diretto di NO (a differenza dei nitrati, senza necessita' di bioattivazione), vasodilatatore arterioso e venoso a rapidissima insorgenza e brevissima durata; titolabile in terapia intensiva. Il metabolismo libera cianuro (detossificato a tiocianato), con rischio di tossicita'.",
+    "molecularExplanation": "Rilascia direttamente NO che attiva la guanilato ciclasi (aumento del cGMP) rilasciando la muscolatura liscia arteriosa e venosa.",
+    "pharmacodynamics": "Vasodilatazione arteriosa e venosa con riduzione di precarico e postcarico; effetto immediato e reversibile alla sospensione.",
+    "molecularTarget": "Via NO-guanilato ciclasi-cGMP (donatore diretto di NO)",
+    "agonismAntagonism": "Donatore diretto di ossido d'azoto (NO)",
+    "pharmacokinetics": {
+      "onset": "Immediato (secondi-minuti)",
+      "duration": "1-2 minuti dopo la sospensione",
+      "metabolism": "Rilascio di cianuro -> tiocianato (eliminazione renale)",
+      "light": "Fotosensibile: proteggere dalla luce",
+      "halfLife": "~2-4 minuti (azione ultrarapida, effetto entro 30-60 secondi e durata 1-10 minuti dopo la sospensione); metabolizzato a cianuro poi a tiocianato, che si accumula nell'insufficienza renale (rischio di tossicita')"
+    },
+    "bibliography": []
+  }
+}

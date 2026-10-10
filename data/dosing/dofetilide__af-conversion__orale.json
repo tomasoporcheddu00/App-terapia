@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "dofetilide__af-conversion__orale",
+    "schemaVersion": "1.0.0",
+    "contentVersion": "0.1.0",
+    "editorialStatus": "source-review",
+    "language": "it",
+    "createdAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-07-19T00:00:00Z",
+    "clinicalReviewer": null,
+    "clinicalReviewDate": null,
+    "sources": [
+      {
+        "type": "smpc",
+        "citation": "Dofetilide (Tikosyn) - label FDA/UpToDate/Cleveland Clinic: classe III puro (IKr), conversione/mantenimento nella FA/flutter, sicuro in scompenso/post-IM; inizio ospedaliero >=72h per torsione di punta; non disponibile in Europa.",
+        "url": "https://www.ccjm.org/content/ccjom/68/4/353.full.pdf",
+        "identifier": "Dofetilide label",
+        "retrievedAt": "2026-07-19"
+      }
+    ],
+    "notes": "Posologia da schede su base RCP/Banca Dati AIFA/EMA; smpcVerified=false. Antiaritmico a indice terapeutico stretto: confermare dose, funzione renale/epatica e QT."
+  },
+  "drugId": "dofetilide",
+  "indication": "atrial-fibrillation",
+  "scenario": "Conversione/mantenimento nella FA/flutter (orale, ospedaliero)",
+  "route": "orale",
+  "dose": {
+    "dose": "125-500 mcg due volte al giorno, secondo clearance della creatinina e QTc",
+    "init": "inizio in ospedale con monitoraggio ECG continuo per almeno 72 ore; sospendere se QTc >500 ms dopo la seconda dose",
+    "max": "500 mcg due volte al giorno"
+  },
+  "administration": {
+    "notes": "Inizio obbligatorio in ambiente ospedaliero monitorato. Correggere K/Mg prima. Non disponibile in Italia."
+  },
+  "approvalEvidence": {
+    "smpcVerified": false,
+    "primarySourceVerified": false,
+    "clinicalReviewDone": false
+  }
+}

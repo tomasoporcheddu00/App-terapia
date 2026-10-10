@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "CardioTherapy Atlas"
+message: "Se utilizzi questo lavoro, cita come segue."
+type: software
+abstract: >-
+  Assistente farmacologico-terapeutico cardiovascolare evidence-based per professionisti
+  sanitari: applicazione web statica e offline con schede-farmaco a fonte citata, percorsi
+  terapeutici per patologia, verifica delle interazioni e simulazione basata sul profilo del
+  paziente. Strumento di supporto alla decisione, non un dispositivo medico.
+authors:
+  - family-names: "Porcheddu"
+    given-names: "Tomaso Leonardo"
+    affiliation: "Medico chirurgo, specializzando in Cardiologia"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # da compilare se disponibile
+keywords:
+  - cardiologia
+  - farmacologia clinica
+  - supporto alla decisione clinica
+  - linee guida
+  - progressive web app
+version: "1.0.1"
+date-released: "2026-09-28"
+repository-code: "https://github.com/tomasoporcheddu00/App-terapia"
+url: "https://tomasoporcheddu00.github.io/App-terapia/"
+license: "MIT"          # riguarda il codice; per i contenuti vedi LICENSE-CONTENUTI.md
