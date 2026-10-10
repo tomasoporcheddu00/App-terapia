@@ -1,0 +1,49 @@
+{
+  "order": 5,
+  "meta": {
+    "id": "milrinone",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2021 - Linee guida sullo scompenso cardiaco: tabelle di inotropi, vasopressori e vasodilatatori EV",
+        "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+      },
+      {
+        "label": "RCP milrinone, sezione 4.2 (riduzione nell'insufficienza renale)",
+        "url": null
+      }
+    ],
+    "notes": "Preparazione di esempio a concentrazione standard: la concentrazione è modificabile nel calcolatore e va sempre allineata al protocollo del reparto e alla sacca effettivamente preparata."
+  },
+  "drugId": "milrinone",
+  "name": "Milrinone",
+  "category": "Inotropi",
+  "preparation": {
+    "amount": 10,
+    "unit": "mg",
+    "volume": 50,
+    "diluent": "SG 5% o NaCl 0,9%",
+    "container": "siringa da 50 mL"
+  },
+  "dose": {
+    "unit": "mcg/kg/min",
+    "min": 0.375,
+    "max": 0.75,
+    "steps": [
+      0.375,
+      0.5,
+      0.625,
+      0.75
+    ],
+    "label": "ESC 2021: 0,375–0,75 mcg/kg/min"
+  },
+  "bolus": "ESC 2021: bolo facoltativo 25–75 mcg/kg in 10–20 minuti, da evitare se ipotensione.",
+  "line": "Periferica o centrale",
+  "notes": [],
+  "warnings": [
+    "Eliminazione renale: ridurre la dose nell'insufficienza renale.",
+    "Vasodilatazione e ipotensione; aritmie."
+  ]
+}

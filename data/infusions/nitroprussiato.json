@@ -1,0 +1,52 @@
+{
+  "order": 9,
+  "meta": {
+    "id": "nitroprussiato",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2021 - Linee guida sullo scompenso cardiaco: tabelle di inotropi, vasopressori e vasodilatatori EV",
+        "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+      },
+      {
+        "label": "RCP sodio nitroprussiato, sezioni 4.2, 4.4 e 6.6",
+        "url": null
+      }
+    ],
+    "notes": "Preparazione di esempio a concentrazione standard: la concentrazione è modificabile nel calcolatore e va sempre allineata al protocollo del reparto e alla sacca effettivamente preparata."
+  },
+  "drugId": "sodium-nitroprusside",
+  "name": "Nitroprussiato di sodio",
+  "category": "Vasodilatatori",
+  "preparation": {
+    "amount": 50,
+    "unit": "mg",
+    "volume": 50,
+    "diluent": "SG 5%",
+    "container": "siringa da 50 mL"
+  },
+  "dose": {
+    "unit": "mcg/kg/min",
+    "min": 0.3,
+    "max": 5,
+    "steps": [
+      0.3,
+      0.5,
+      1,
+      2,
+      3,
+      5
+    ],
+    "label": "ESC 2021: avvio 0,3 mcg/kg/min, fino a 5 mcg/kg/min"
+  },
+  "bolus": null,
+  "line": "Centrale, con monitoraggio pressorio invasivo",
+  "notes": [],
+  "warnings": [
+    "Proteggere dalla luce siringa e linea.",
+    "Tossicità da cianuro/tiocianato con dosi alte, infusioni prolungate o insufficienza renale/epatica.",
+    "Uso con cautela nella sindrome coronarica acuta (furto coronarico)."
+  ]
+}

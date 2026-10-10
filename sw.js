@@ -2,7 +2,7 @@
    Strategia: cache-first sull'applicazione, con aggiornamento in background.
    L'app e' un singolo file autonomo: una volta in cache funziona senza connessione.
    Per forzare l'aggiornamento dopo una modifica, incrementare CACHE_NAME. */
-const CACHE_NAME = 'cardiotherapy-atlas-v3';
+const CACHE_NAME = 'cardiotherapy-atlas-v4';
 const CORE = ['./', './index.html', './manifest.webmanifest', './assets/icon.svg',
   './assets/fonts/ibm-plex-mono-latin-400-normal.woff2',
   './assets/fonts/ibm-plex-mono-latin-500-normal.woff2',

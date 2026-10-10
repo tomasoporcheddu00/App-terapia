@@ -1,0 +1,50 @@
+{
+  "order": 6,
+  "meta": {
+    "id": "levosimendan",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2021 - Linee guida sullo scompenso cardiaco: tabelle di inotropi, vasopressori e vasodilatatori EV",
+        "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+      },
+      {
+        "label": "RCP Simdax (levosimendan), sezioni 4.2 e 6.6",
+        "url": null
+      }
+    ],
+    "notes": "Preparazione di esempio a concentrazione standard: la concentrazione è modificabile nel calcolatore e va sempre allineata al protocollo del reparto e alla sacca effettivamente preparata."
+  },
+  "drugId": "levosimendan",
+  "name": "Levosimendan",
+  "category": "Inotropi",
+  "preparation": {
+    "amount": 12.5,
+    "unit": "mg",
+    "volume": 250,
+    "diluent": "SG 5%",
+    "container": "sacca da 250 mL"
+  },
+  "dose": {
+    "unit": "mcg/kg/min",
+    "min": 0.05,
+    "max": 0.2,
+    "steps": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "label": "ESC 2021: 0,1 mcg/kg/min, riducibile a 0,05 o aumentabile a 0,2; infusione di 24 h"
+  },
+  "bolus": "Bolo facoltativo 6–12 mcg/kg in 10 minuti; non raccomandato se ipotensione.",
+  "line": "Periferica o centrale",
+  "notes": [
+    "La RCP prevede anche 12,5 mg in 500 mL (25 mcg/mL)."
+  ],
+  "warnings": [
+    "Ipotensione e ipokaliemia: correggere potassio e volemia prima dell'avvio.",
+    "Metabolita attivo a lunga emivita: effetto che dura giorni dopo la fine dell'infusione."
+  ]
+}

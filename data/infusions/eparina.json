@@ -1,0 +1,50 @@
+{
+  "order": 14,
+  "meta": {
+    "id": "eparina",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2023 - Linee guida sulle sindromi coronariche acute: dosi degli anticoagulanti",
+        "url": "https://academic.oup.com/ehjacc/article/13/1/55/7280662"
+      },
+      {
+        "label": "Raschke RA et al. Ann Intern Med 1993;119:874-81 - nomogramma dell'eparina basato sul peso",
+        "url": null
+      }
+    ],
+    "notes": "Preparazione di esempio a concentrazione standard: la concentrazione è modificabile nel calcolatore e va sempre allineata al protocollo del reparto e alla sacca effettivamente preparata."
+  },
+  "drugId": "unfractionated-heparin",
+  "name": "Eparina non frazionata",
+  "category": "Anticoagulanti",
+  "preparation": {
+    "amount": 25000,
+    "unit": "UI",
+    "volume": 50,
+    "diluent": "NaCl 0,9%",
+    "container": "siringa da 50 mL"
+  },
+  "dose": {
+    "unit": "UI/kg/h",
+    "min": 12,
+    "max": 18,
+    "steps": [
+      12,
+      15,
+      18
+    ],
+    "label": "SCA: 12–15 UI/kg/h (massimo 1000 UI/h). TEV: 18 UI/kg/h (nomogramma di Raschke)"
+  },
+  "bolus": "SCA trattata medicalmente: 60–70 UI/kg (massimo 5000 UI). TEV: 80 UI/kg. Durante PCI: 70–100 UI/kg.",
+  "line": "Periferica o centrale, linea dedicata",
+  "notes": [
+    "Aggiustamento sul aPTT secondo il nomogramma del reparto: non incluso nell'atlante."
+  ],
+  "warnings": [
+    "Controllo del aPTT 6 h dopo l'avvio e dopo ogni variazione.",
+    "Piastrine al basale e periodicamente (trombocitopenia da eparina)."
+  ]
+}

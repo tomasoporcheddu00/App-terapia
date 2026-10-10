@@ -24,7 +24,7 @@ Applicazione web statica, installabile e utilizzabile offline: nessun backend, n
 | Schede di interazioni (sez. 4.5) | **180** |
 | Record regolatori italiani | **181** |
 
-### Le nove sezioni
+### Le dieci sezioni
 
 - **Farmaci** — monografie: indicazioni autorizzate e da linee guida, controindicazioni,
   avvertenze, effetti avversi, sovradosaggio e antidoto, popolazioni speciali, farmacocinetica
@@ -41,6 +41,9 @@ Applicazione web statica, installabile e utilizzabile offline: nessun backend, n
 - **Confronto** — fino a sei farmaci affiancati per colonne su attributi omogenei.
 - **Interazioni** — «pinboard»: si aggiungono i farmaci del paziente e l'app confronta ogni coppia.
 - **Calcolatori** — Cockcroft-Gault, CHA₂DS₂-VA, HAS-BLED, QTc: deterministici e con fonte citata.
+- **UTIC** — 15 farmaci in infusione (vasopressori, inotropi, vasodilatatori, antiaritmici, eparina,
+  furosemide) con preparazione di esempio modificabile, conversione dose ↔ mL/h sul peso, tabella
+  delle velocità, boli, accesso venoso e avvertenze; calcolatore libero per qualsiasi preparazione.
 - **Classi** — meccanismo, effetti di classe, controindicazioni condivise, monitoraggio.
 - **Info** — metodo, copertura e limiti dichiarati.
 
@@ -123,6 +126,7 @@ assets/                       icone e caratteri tipografici (licenza SIL OFL 1.1
 data/                         contenuti clinici in JSON, versionabili e revisionabili
   drugs/ (186)  classes/ (76)  dosing/ (228)  interactions/ (180)  regulatory/ (181)
   recommendations/ (25)  rules/ (1)   ← Mappa terapeutica
+  infusions/ (15)                     ← UTIC
 tools/                        validate_data.py, extract_data.py, embed_data.py
 docs/                         architettura, politica dei contenuti, revisione clinica, storico
 .github/                      workflow Pages, modelli di segnalazione

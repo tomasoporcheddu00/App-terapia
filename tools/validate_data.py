@@ -22,6 +22,8 @@ STATI = {"placeholder", "source-review", "clinician-approved", "regulatory-revie
 SEVERITA = {"contraindicated", "major", "moderate", "minor"}
 CLASSI_RACC = {"I", "IIa", "IIb", "III", None}
 LIVELLI = {"A", "B", "C", None}
+UNITA_DOSE = {"mcg/kg/min", "mcg/min", "mg/h", "UI/kg/h", "UI/h"}
+UNITA_FARMACO = {"mg", "UI"}
 
 errori: list[str] = []
 avvisi: list[str] = []
@@ -66,6 +68,7 @@ def main() -> int:
     regulatory = carica("regulatory")
     recommendations = carica("recommendations")
     rules = carica("rules")
+    infusions = carica("infusions")
 
     if not drugs:
         err("nessuna scheda-farmaco trovata")
@@ -207,6 +210,31 @@ def main() -> int:
                     if did not in drugs:
                         err(f"{q}: farmaco '{did}' non esiste")
 
+    # ---- infusioni UTIC ----
+    for iid, o in infusions.items():
+        p = f"infusions/{iid}"
+        if (o.get("meta") or {}).get("id") != iid:
+            err(f"{p}: meta.id diverso dal nome del file")
+        if not ((o.get("meta") or {}).get("sources") or []):
+            err(f"{p}: nessuna fonte in meta.sources")
+        if o.get("drugId") not in drugs:
+            err(f"{p}: drugId '{o.get('drugId')}' non esiste")
+        pr, ds = o.get("preparation") or {}, o.get("dose") or {}
+        if pr.get("unit") not in UNITA_FARMACO:
+            err(f"{p}: unità del farmaco sconosciuta '{pr.get('unit')}'")
+        if not (isinstance(pr.get("amount"), (int, float)) and pr["amount"] > 0
+                and isinstance(pr.get("volume"), (int, float)) and pr["volume"] > 0):
+            err(f"{p}: quantità e volume della preparazione devono essere numeri positivi")
+        u = ds.get("unit")
+        if u not in UNITA_DOSE:
+            err(f"{p}: unità di dose sconosciuta '{u}'")
+        elif u.startswith("UI") != (pr.get("unit") == "UI"):
+            err(f"{p}: unità di dose '{u}' incompatibile con la preparazione in {pr.get('unit')}")
+        if ds.get("min") is not None and ds.get("max") is not None and ds["min"] > ds["max"]:
+            err(f"{p}: dose minima maggiore della massima")
+        if not ds.get("steps"):
+            err(f"{p}: nessuna dose di esempio in dose.steps")
+
     # ---- copertura ----
     popolati = [k for k, v in drugs.items() if stato(v) != "placeholder"]
     for did in popolati:
@@ -228,6 +256,7 @@ def main() -> int:
         "patologie con classi": len(recommendations),
         "raccomandazioni": n_racc,
         "regole associazioni": sum(len(o.get("rules") or []) for o in rules.values()),
+        "infusioni UTIC": len(infusions),
         "errori": len(errori),
         "avvisi": len(avvisi),
     }

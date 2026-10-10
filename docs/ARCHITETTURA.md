@@ -78,8 +78,13 @@ Simulazione**, ed è la ragione per cui quella funzione non deve indovinare null
   `all` di condizioni (`classes`, `drugs` o `pathologies`) che devono essere soddisfatte da entità
   distinte, un messaggio, la gestione e la fonte.
 
-Queste due cartelle si incorporano in `index.html` con `python3 tools/embed_data.py`, che riscrive
-solo le chiavi `DATA.recommendations` e `DATA.rules`.
+- `data/infusions/<id>.json` — preparazioni della sezione UTIC: farmaco, categoria, ordine,
+  preparazione (`amount` in mg o UI, `volume` in mL, diluente, contenitore), dose (`unit` fra
+  mcg/kg/min, mcg/min, mg/h, UI/kg/h, UI/h; `min`, `max`, `steps`, testo dell'intervallo), bolo,
+  accesso, note, avvertenze e fonti.
+
+Queste tre cartelle si incorporano in `index.html` con `python3 tools/embed_data.py`, che riscrive
+solo le chiavi `DATA.recommendations`, `DATA.rules` e `DATA.infusions`.
 
 ## Come funzionano le sezioni interattive
 
@@ -108,6 +113,11 @@ selezionate; regole di `data/rules`; doppioni nella stessa classe; interazioni d
 raccomandati per la stessa patologia); controindicazioni assolute delle schede che nominano le
 patologie scelte (mappa `MAPRX`). Quando una voce offre più molecole, la scelta predefinita riusa
 quella già presente nella terapia, per evitare doppioni involontari tra patologie.
+
+**UTIC** (`utRate`, `utDoseOf`). Conversione aritmetica fra dose e velocità: con la concentrazione
+C = quantità/volume, mL/h = dose·peso·60/C per mcg/kg/min, dose·60/C per mcg/min, dose/C per mg/h e
+UI/h, dose·peso/C per UI/kg/h (C in mcg/mL per le unità in mcg). Le preparazioni sono esempi: i
+valori inseriti dall'utente restano in memoria solo finché la pagina è aperta.
 
 **Calcolatori.** Formule pubblicate con citazione, calcolate nel browser: Cockcroft-Gault,
 CHA₂DS₂-VA, HAS-BLED, QTc.

@@ -1,0 +1,50 @@
+{
+  "order": 11,
+  "meta": {
+    "id": "esmololo",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2019 - Linee guida sulle tachicardie sopraventricolari: tabella dei farmaci EV",
+        "url": "https://academic.oup.com/eurheartj/article/41/5/655/5556821"
+      },
+      {
+        "label": "RCP Brevibloc (esmololo), sezione 4.2",
+        "url": null
+      }
+    ],
+    "notes": "Preparazione di esempio a concentrazione standard: la concentrazione è modificabile nel calcolatore e va sempre allineata al protocollo del reparto e alla sacca effettivamente preparata."
+  },
+  "drugId": "esmolol",
+  "name": "Esmololo",
+  "category": "Antiaritmici",
+  "preparation": {
+    "amount": 2500,
+    "unit": "mg",
+    "volume": 250,
+    "diluent": "soluzione pronta (premiscelata)",
+    "container": "sacca da 250 mL"
+  },
+  "dose": {
+    "unit": "mcg/kg/min",
+    "min": 50,
+    "max": 300,
+    "steps": [
+      50,
+      100,
+      150,
+      200,
+      300
+    ],
+    "label": "ESC 2019: 0,05–0,3 mg/kg/min (50–300 mcg/kg/min)"
+  },
+  "bolus": "0,5 mg/kg (500 mcg/kg) EV in 1 minuto.",
+  "line": "Periferica (vena di buon calibro) o centrale",
+  "notes": [],
+  "warnings": [
+    "Ipotensione e bradicardia; emivita breve (~9 min): l'effetto cessa rapidamente sospendendo l'infusione.",
+    "Evitare con scompenso acuto e nella FA pre-eccitata."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "order": 15,
+  "meta": {
+    "id": "furosemide",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2021 - Linee guida sullo scompenso cardiaco: tabelle di inotropi, vasopressori e vasodilatatori EV",
+        "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+      }
+    ],
+    "notes": "Preparazione di esempio a concentrazione standard: la concentrazione è modificabile nel calcolatore e va sempre allineata al protocollo del reparto e alla sacca effettivamente preparata."
+  },
+  "drugId": "furosemide",
+  "name": "Furosemide",
+  "category": "Diuretici",
+  "preparation": {
+    "amount": 250,
+    "unit": "mg",
+    "volume": 50,
+    "diluent": "NaCl 0,9%",
+    "container": "siringa da 50 mL"
+  },
+  "dose": {
+    "unit": "mg/h",
+    "min": null,
+    "max": null,
+    "steps": [
+      5,
+      10,
+      20,
+      40
+    ],
+    "label": "ESC 2021: dose EV iniziale pari a 1–2 volte la dose orale domiciliare (20–40 mg se naïve), in boli o in infusione continua; titolare sulla diuresi e sul sodio urinario"
+  },
+  "bolus": null,
+  "line": "Periferica",
+  "notes": [
+    "Velocità massima di somministrazione EV secondo RCP: 4 mg/min (rischio di ototossicità)."
+  ],
+  "warnings": [
+    "Ipokaliemia, ipomagnesiemia, peggioramento della funzione renale: controllo degli elettroliti."
+  ]
+}

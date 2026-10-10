@@ -1,0 +1,46 @@
+{
+  "order": 8,
+  "meta": {
+    "id": "isosorbide-dinitrato",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2021 - Linee guida sullo scompenso cardiaco: tabelle di inotropi, vasopressori e vasodilatatori EV",
+        "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+      }
+    ],
+    "notes": "Preparazione di esempio a concentrazione standard: la concentrazione è modificabile nel calcolatore e va sempre allineata al protocollo del reparto e alla sacca effettivamente preparata."
+  },
+  "drugId": "isosorbide-dinitrate",
+  "name": "Isosorbide dinitrato",
+  "category": "Vasodilatatori",
+  "preparation": {
+    "amount": 50,
+    "unit": "mg",
+    "volume": 50,
+    "diluent": "SG 5% o NaCl 0,9%",
+    "container": "siringa da 50 mL"
+  },
+  "dose": {
+    "unit": "mg/h",
+    "min": 1,
+    "max": 10,
+    "steps": [
+      1,
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "label": "ESC 2021: avvio 1 mg/h, fino a 10 mg/h"
+  },
+  "bolus": null,
+  "line": "Periferica",
+  "notes": [],
+  "warnings": [
+    "Stesse controindicazioni della nitroglicerina."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "order": 10,
+  "meta": {
+    "id": "amiodarone",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "RCP amiodarone soluzione iniettabile, sezioni 4.2 e 6.6",
+        "url": null
+      },
+      {
+        "label": "ERC 2021 - Linee guida European Resuscitation Council, supporto vitale avanzato dell'adulto",
+        "url": "https://www.resuscitationjournal.com/article/S0300-9572(21)00063-0/fulltext"
+      }
+    ],
+    "notes": "Preparazione di esempio a concentrazione standard: la concentrazione è modificabile nel calcolatore e va sempre allineata al protocollo del reparto e alla sacca effettivamente preparata."
+  },
+  "drugId": "amiodarone",
+  "name": "Amiodarone",
+  "category": "Antiaritmici",
+  "preparation": {
+    "amount": 900,
+    "unit": "mg",
+    "volume": 500,
+    "diluent": "solo SG 5%",
+    "container": "sacca da 500 mL"
+  },
+  "dose": {
+    "unit": "mg/h",
+    "min": 37.5,
+    "max": 50,
+    "steps": [
+      25,
+      37.5,
+      50
+    ],
+    "label": "Mantenimento circa 900–1200 mg/24 h (37,5–50 mg/h) dopo il carico"
+  },
+  "bolus": "Carico 150–300 mg EV in 10–60 minuti (5 mg/kg). Arresto da FV/TV refrattaria: 300 mg in bolo dopo il 3° shock, poi 150 mg dopo il 5° (ERC 2021).",
+  "line": "Centrale preferibile; periferica solo a concentrazioni ≤2 mg/mL",
+  "notes": [
+    "Diluire esclusivamente in glucosio 5%: in fisiologica precipita."
+  ],
+  "warnings": [
+    "Ipotensione e bradicardia durante l'infusione rapida.",
+    "Flebite sulle vene periferiche.",
+    "Interazioni: aumenta digossinemia e INR."
+  ]
+}

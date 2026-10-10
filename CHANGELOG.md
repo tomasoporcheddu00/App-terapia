@@ -2,6 +2,23 @@
 
 Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/).
 
+## [1.2.0] — 2026-10-10
+
+### Aggiunto
+- **UTIC — farmaci in infusione e diluizioni** (nuova sezione): noradrenalina, adrenalina, dopamina,
+  dobutamina, milrinone, levosimendan, nitroglicerina, isosorbide dinitrato, nitroprussiato,
+  amiodarone, esmololo, landiololo, isoprenalina, eparina non frazionata, furosemide. Per ognuno:
+  preparazione di esempio (quantità e volume modificabili) con concentrazione risultante,
+  conversione dose → mL/h e mL/h → dose sul peso del paziente, tabella delle velocità, intervallo di
+  dose dalle fonti citate (con evidenza delle dosi fuori intervallo), bolo, accesso venoso, avvertenze.
+- **Calcolatore libero** per qualsiasi preparazione (mg o UI; mcg/kg/min, mcg/min, mg/h, UI/kg/h,
+  UI/h), con caso di test.
+- `data/infusions/` (15 preparazioni), incorporate da `tools/embed_data.py` e controllate da
+  `validate_data.py` (unità, coerenza mg/UI, intervalli) ed `extract_data.py`.
+
+### Modificato
+- Service worker: cache `v4`.
+
 ## [1.1.0] — 2026-10-10
 
 ### Aggiunto

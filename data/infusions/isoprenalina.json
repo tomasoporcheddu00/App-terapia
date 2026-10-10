@@ -1,0 +1,44 @@
+{
+  "order": 13,
+  "meta": {
+    "id": "isoprenalina",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ERC 2021 - Linee guida European Resuscitation Council, supporto vitale avanzato dell'adulto",
+        "url": "https://www.resuscitationjournal.com/article/S0300-9572(21)00063-0/fulltext"
+      }
+    ],
+    "notes": "Preparazione di esempio a concentrazione standard: la concentrazione è modificabile nel calcolatore e va sempre allineata al protocollo del reparto e alla sacca effettivamente preparata."
+  },
+  "drugId": "isoprenaline",
+  "name": "Isoprenalina",
+  "category": "Antiaritmici",
+  "preparation": {
+    "amount": 1,
+    "unit": "mg",
+    "volume": 50,
+    "diluent": "SG 5%",
+    "container": "siringa da 50 mL"
+  },
+  "dose": {
+    "unit": "mcg/min",
+    "min": null,
+    "max": null,
+    "steps": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "label": "ERC 2021: 5 mcg/min nella bradicardia refrattaria all'atropina; titolare sulla frequenza"
+  },
+  "bolus": null,
+  "line": "Periferica o centrale",
+  "notes": [],
+  "warnings": [
+    "Tachiaritmie e ischemia; aumenta il consumo miocardico di ossigeno."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "order": 12,
+  "meta": {
+    "id": "landiololo",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "RCP landiololo soluzione per infusione, sezione 4.2",
+        "url": null
+      }
+    ],
+    "notes": "Preparazione di esempio a concentrazione standard: la concentrazione è modificabile nel calcolatore e va sempre allineata al protocollo del reparto e alla sacca effettivamente preparata."
+  },
+  "drugId": "landiolol",
+  "name": "Landiololo",
+  "category": "Antiaritmici",
+  "preparation": {
+    "amount": 300,
+    "unit": "mg",
+    "volume": 50,
+    "diluent": "NaCl 0,9% o SG 5% (ricostituzione del flacone)",
+    "container": "siringa da 50 mL"
+  },
+  "dose": {
+    "unit": "mcg/kg/min",
+    "min": 1,
+    "max": 40,
+    "steps": [
+      1,
+      5,
+      10,
+      20,
+      40
+    ],
+    "label": "RCP: 10–40 mcg/kg/min; con disfunzione ventricolare avvio da 1 mcg/kg/min con incrementi graduali"
+  },
+  "bolus": null,
+  "line": "Periferica o centrale",
+  "notes": [],
+  "warnings": [
+    "Betabloccante β1-selettivo a brevissima durata d'azione: ipotensione e bradicardia.",
+    "Verificare formulazione e ricostituzione sulla RCP della confezione disponibile."
+  ]
+}

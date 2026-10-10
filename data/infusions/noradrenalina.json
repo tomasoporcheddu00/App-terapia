@@ -1,0 +1,49 @@
+{
+  "order": 1,
+  "meta": {
+    "id": "noradrenalina",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2021 - Linee guida sullo scompenso cardiaco: tabelle di inotropi, vasopressori e vasodilatatori EV",
+        "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+      }
+    ],
+    "notes": "Preparazione di esempio a concentrazione standard: la concentrazione è modificabile nel calcolatore e va sempre allineata al protocollo del reparto e alla sacca effettivamente preparata."
+  },
+  "drugId": "noradrenaline",
+  "name": "Noradrenalina",
+  "category": "Vasopressori",
+  "preparation": {
+    "amount": 4,
+    "unit": "mg",
+    "volume": 50,
+    "diluent": "SG 5%",
+    "container": "siringa da 50 mL"
+  },
+  "dose": {
+    "unit": "mcg/kg/min",
+    "min": 0.05,
+    "max": 1,
+    "steps": [
+      0.05,
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.75,
+      1
+    ],
+    "label": "ESC 2021: 0,2–1,0 mcg/kg/min; in pratica si avvia a dosi più basse e si titola per PAM ≥65 mmHg"
+  },
+  "bolus": null,
+  "line": "Accesso venoso centrale (stravaso: necrosi tissutale)",
+  "notes": [
+    "Dose espressa come noradrenalina base."
+  ],
+  "warnings": [
+    "Verificare se la fiala è dichiarata come base o come tartrato: 2 mg di tartrato corrispondono a circa 1 mg di base, e la concentrazione reale cambia del doppio."
+  ]
+}

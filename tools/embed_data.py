@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
 Incorpora in index.html le cartelle di data/ che l'app legge dall'oggetto DATA ma che non
-richiedono il generatore completo: oggi data/recommendations/ e data/rules/ (Mappa terapeutica).
+richiedono il generatore completo: oggi data/recommendations/ e data/rules/ (Mappa terapeutica) e data/infusions/ (UTIC).
 
-Riscrive solo le chiavi DATA.recommendations e DATA.rules; il resto di DATA resta identico.
+Riscrive solo le chiavi DATA.recommendations, DATA.rules e DATA.infusions; il resto di DATA resta identico.
 
 Uso:
     python3 tools/embed_data.py          # aggiorna index.html
@@ -35,24 +35,24 @@ def main() -> int:
         sys.exit("ERRORE: blocco DATA non trovato in index.html")
     d = json.loads(m.group(2))
 
-    recs, rules = carica("recommendations"), carica("rules")
+    recs, rules, inf = carica("recommendations"), carica("rules"), carica("infusions")
     slugs = {p["slug"] for p in d.get("pathologies", [])}
     ignote = sorted(set(recs) - slugs)
     if ignote:
         sys.exit("ERRORE: raccomandazioni per patologie inesistenti nell'app: " + ", ".join(ignote))
 
-    if d.get("recommendations") == recs and d.get("rules") == rules:
-        print("DATA già allineato con data/recommendations e data/rules")
+    if d.get("recommendations") == recs and d.get("rules") == rules and d.get("infusions") == inf:
+        print("DATA già allineato con data/recommendations, data/rules e data/infusions")
         return 0
     if args.check:
         print("DATA non allineato: eseguire python3 tools/embed_data.py")
         return 1
 
-    d["recommendations"], d["rules"] = recs, rules
+    d["recommendations"], d["rules"], d["infusions"] = recs, rules, inf
     nuovo = json.dumps(d, ensure_ascii=False)
     HTML.write_text(h[:m.start(2)] + nuovo + h[m.end(2):], encoding="utf-8")
     print(f"index.html aggiornato: {len(recs)} patologie con classi, "
-          f"{sum(len(o.get('rules', [])) for o in rules.values())} regole")
+          f"{sum(len(o.get('rules', [])) for o in rules.values())} regole, {len(inf)} infusioni")
     return 0
 
 
