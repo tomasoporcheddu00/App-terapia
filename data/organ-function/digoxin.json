@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "id": "digoxin",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "RCP digossina: da verificare",
+        "url": null
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "digoxin",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 30,
+        "status": "adjust",
+        "text": "Eliminazione renale: ridurre marcatamente la dose di mantenimento e dosare la digossinemia.",
+        "verified": false
+      },
+      {
+        "from": 30,
+        "to": 60,
+        "status": "adjust",
+        "text": "Ridurre la dose di mantenimento; digossinemia.",
+        "verified": false
+      },
+      {
+        "from": 60,
+        "to": null,
+        "status": "ok",
+        "text": "Dose standard; digossinemia se dubbi.",
+        "verified": false
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "ok",
+      "text": "Nessun aggiustamento (eliminazione prevalentemente renale).",
+      "verified": false
+    },
+    "B": {
+      "status": "ok",
+      "text": "Nessun aggiustamento (eliminazione prevalentemente renale).",
+      "verified": false
+    },
+    "C": {
+      "status": "ok",
+      "text": "Nessun aggiustamento (eliminazione prevalentemente renale).",
+      "verified": false
+    },
+    "note": null
+  }
+}

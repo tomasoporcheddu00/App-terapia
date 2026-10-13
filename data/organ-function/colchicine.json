@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "id": "colchicine",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "FDA, etichetta Lodoco 2023",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/215727s000lbl.pdf"
+      },
+      {
+        "label": "DailyMed, Lodoco",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ff06d68f-d65f-d097-e053-6294a90a7e5f"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "colchicine",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 15,
+        "status": "contraindicated",
+        "text": "Controindicata con CrCl <15 mL/min (etichetta USA Lodoco).",
+        "verified": true
+      },
+      {
+        "from": 15,
+        "to": 30,
+        "status": "caution",
+        "text": "Monitorare la tossicità; alcune RCP europee pongono la controindicazione sotto 30 mL/min.",
+        "verified": false
+      },
+      {
+        "from": 30,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento alla dose di 0,5 mg/die.",
+        "verified": true
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "caution",
+      "text": "Monitorare gli effetti avversi.",
+      "verified": true
+    },
+    "B": {
+      "status": "caution",
+      "text": "Monitorare gli effetti avversi.",
+      "verified": true
+    },
+    "C": {
+      "status": "contraindicated",
+      "text": "Controindicata nell'insufficienza epatica grave.",
+      "verified": true
+    },
+    "note": "Con inibitori forti del CYP3A4 o della P-gp controindicata in presenza di insufficienza renale o epatica."
+  }
+}

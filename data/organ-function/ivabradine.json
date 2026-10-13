@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "id": "ivabradine",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "RCP Procoralan (eMC, testo UE)",
+        "url": "https://www.medicines.org.uk/emc/product/166/smpc"
+      },
+      {
+        "label": "FDA, etichetta Corlanor",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/209964lbl.pdf"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "ivabradine",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 15,
+        "status": "caution",
+        "text": "Nessun dato con CrCl <15: usare con precauzione.",
+        "verified": true
+      },
+      {
+        "from": 15,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento.",
+        "verified": true
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": true
+    },
+    "B": {
+      "status": "caution",
+      "text": "Cautela.",
+      "verified": true
+    },
+    "C": {
+      "status": "contraindicated",
+      "text": "Controindicata nell'insufficienza epatica grave.",
+      "verified": true
+    },
+    "note": null
+  }
+}

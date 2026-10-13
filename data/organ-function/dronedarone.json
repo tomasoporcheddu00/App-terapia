@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "id": "dronedarone",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "EMA, informazioni sul prodotto Multaq",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/multaq-epar-product-information_en.pdf"
+      },
+      {
+        "label": "RCP Multaq (eMC, testo UE)",
+        "url": "https://www.medicines.org.uk/emc/product/497/smpc"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "dronedarone",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 30,
+        "status": "contraindicated",
+        "text": "Controindicato con CrCl <30 mL/min.",
+        "verified": true
+      },
+      {
+        "from": 30,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento.",
+        "verified": true
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": true
+    },
+    "B": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": true
+    },
+    "C": {
+      "status": "contraindicated",
+      "text": "Controindicato nell'insufficienza epatica grave (assenza di dati).",
+      "verified": true
+    },
+    "note": null
+  }
+}

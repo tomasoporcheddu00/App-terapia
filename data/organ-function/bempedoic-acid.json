@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "bempedoic-acid",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "RCP Nilemdo: da verificare",
+        "url": null
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "bempedoic-acid",
+  "renal": {
+    "metric": "eGFR",
+    "bands": [
+      {
+        "from": null,
+        "to": 30,
+        "status": "caution",
+        "text": "Dati limitati nell'insufficienza renale grave e in dialisi.",
+        "verified": false
+      },
+      {
+        "from": 30,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento.",
+        "verified": false
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": false
+    },
+    "B": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": false
+    },
+    "C": {
+      "status": "caution",
+      "text": "Nessun dato: cautela.",
+      "verified": false
+    },
+    "note": null
+  }
+}

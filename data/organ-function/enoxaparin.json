@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "id": "enoxaparin",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "NHS GGC, tabella di dosaggio renale dell'enoxaparina",
+        "url": "https://handbook.ggcmedicines.org.uk/guidelines/cardiovascular-system/enoxaparin-dosing-table-renal-dosing/"
+      },
+      {
+        "label": "UK Kidney Association, EBPM profilattiche nell'insufficienza renale (2023)",
+        "url": "https://www.ukkidney.org/sites/renal.org/files/Prophylactic-doses-of-LMWH--Renal%20Impairment%20May%202023.pdf"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "enoxaparin",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 15,
+        "status": "avoid",
+        "text": "Non raccomandata (salvo prevenzione della coagulazione del circuito di emodialisi).",
+        "verified": true
+      },
+      {
+        "from": 15,
+        "to": 30,
+        "status": "adjust",
+        "text": "Terapia: 1 mg/kg una volta al giorno. Profilassi: 20 mg una volta al giorno.",
+        "verified": true
+      },
+      {
+        "from": 30,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento; monitoraggio clinico tra 30 e 80 mL/min.",
+        "verified": false
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "caution",
+      "text": "Cautela (rischio emorragico).",
+      "verified": false
+    },
+    "B": {
+      "status": "caution",
+      "text": "Cautela (rischio emorragico).",
+      "verified": false
+    },
+    "C": {
+      "status": "caution",
+      "text": "Cautela (rischio emorragico).",
+      "verified": false
+    },
+    "note": null
+  }
+}

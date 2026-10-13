@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "id": "sotalol",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "DailyMed, sotalolo cloridrato",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=56326224-fc80-4b89-8ba3-70cb873173b4"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "sotalol",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 40,
+        "status": "contraindicated",
+        "text": "Etichetta USA (FA): avvio controindicato con CrCl <40 mL/min. Verificare la RCP italiana.",
+        "verified": true
+      },
+      {
+        "from": 40,
+        "to": 60,
+        "status": "adjust",
+        "text": "Etichetta USA: una somministrazione al giorno; aumenti di dose dopo almeno 5 somministrazioni.",
+        "verified": true
+      },
+      {
+        "from": 60,
+        "to": null,
+        "status": "ok",
+        "text": "Due somministrazioni al giorno.",
+        "verified": true
+      }
+    ],
+    "dialysis": null,
+    "note": "Le soglie dell'etichetta USA (FA) possono differire dalla RCP europea."
+  },
+  "hepatic": {
+    "A": {
+      "status": "ok",
+      "text": "Nessun aggiustamento (eliminazione renale).",
+      "verified": false
+    },
+    "B": {
+      "status": "ok",
+      "text": "Nessun aggiustamento (eliminazione renale).",
+      "verified": false
+    },
+    "C": {
+      "status": "ok",
+      "text": "Nessun aggiustamento (eliminazione renale).",
+      "verified": false
+    },
+    "note": null
+  }
+}

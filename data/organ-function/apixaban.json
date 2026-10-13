@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "id": "apixaban",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "EMA, informazioni sul prodotto Eliquis",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/eliquis-epar-product-information_en.pdf"
+      },
+      {
+        "label": "Guida per il prescrittore Eliquis (UE)",
+        "url": "https://medicinesauthority.gov.mt/file.aspx?f=5451"
+      },
+      {
+        "label": "FDA, etichetta apixaban 2026",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220073s001lbl.pdf"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "apixaban",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 15,
+        "status": "avoid",
+        "text": "Non raccomandato con CrCl <15 mL/min (nessuna esperienza clinica).",
+        "verified": true
+      },
+      {
+        "from": 15,
+        "to": 30,
+        "status": "adjust",
+        "text": "FA: 2,5 mg due volte al giorno. TEV: usare con cautela.",
+        "verified": true
+      },
+      {
+        "from": 30,
+        "to": null,
+        "status": "ok",
+        "text": "FA: 5 mg due volte al giorno; ridurre a 2,5 mg se almeno 2 tra età ≥80 anni, peso ≤60 kg, creatinina ≥1,5 mg/dL.",
+        "verified": true
+      }
+    ],
+    "dialysis": {
+      "status": "avoid",
+      "text": "Non raccomandato in dialisi (RCP UE); l'etichetta USA prevede uno schema basato su dati farmacocinetici.",
+      "verified": true
+    },
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "caution",
+      "text": "Usare con cautela, senza aggiustamento; esami epatici prima dell'avvio.",
+      "verified": false
+    },
+    "B": {
+      "status": "caution",
+      "text": "Usare con cautela, senza aggiustamento; esami epatici prima dell'avvio.",
+      "verified": false
+    },
+    "C": {
+      "status": "avoid",
+      "text": "Non raccomandato nell'insufficienza epatica grave.",
+      "verified": true
+    },
+    "note": "Controindicato in qualsiasi epatopatia associata a coagulopatia e rischio emorragico clinicamente rilevante."
+  }
+}

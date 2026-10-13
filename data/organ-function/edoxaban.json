@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "id": "edoxaban",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "RCP Lixiana 60 mg (eMC, testo UE)",
+        "url": "https://www.medicines.org.uk/emc/product/6905/smpc"
+      },
+      {
+        "label": "Commissione europea, RCP Lixiana (Allegato I)",
+        "url": "https://ec.europa.eu/health/documents/community-register/2015/20150619132091/anx_132091_en.pdf"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "edoxaban",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 15,
+        "status": "avoid",
+        "text": "Non raccomandato con CrCl <15 mL/min.",
+        "verified": true
+      },
+      {
+        "from": 15,
+        "to": 51,
+        "status": "adjust",
+        "text": "30 mg una volta al giorno (CrCl 15–50).",
+        "verified": true
+      },
+      {
+        "from": 51,
+        "to": null,
+        "status": "ok",
+        "text": "60 mg una volta al giorno (30 mg se peso ≤60 kg o inibitori della P-gp). Nella FA con CrCl molto elevata possibile minore efficacia: valutare il rischio.",
+        "verified": false
+      }
+    ],
+    "dialysis": {
+      "status": "avoid",
+      "text": "Non raccomandato in insufficienza renale terminale e dialisi.",
+      "verified": true
+    },
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "caution",
+      "text": "60 mg/die con cautela.",
+      "verified": true
+    },
+    "B": {
+      "status": "caution",
+      "text": "60 mg/die con cautela.",
+      "verified": true
+    },
+    "C": {
+      "status": "avoid",
+      "text": "Non raccomandato nell'insufficienza epatica grave.",
+      "verified": true
+    },
+    "note": "Controindicato nell'epatopatia con coagulopatia e rischio emorragico rilevante; cautela con ALT/AST >2 volte la norma."
+  }
+}

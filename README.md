@@ -24,7 +24,7 @@ Applicazione web statica, installabile e utilizzabile offline: nessun backend, n
 | Schede di interazioni (sez. 4.5) | **180** |
 | Record regolatori italiani | **181** |
 
-### Le dieci sezioni
+### Le undici sezioni
 
 - **Farmaci** — monografie: indicazioni autorizzate e da linee guida, controindicazioni,
   avvertenze, effetti avversi, sovradosaggio e antidoto, popolazioni speciali, farmacocinetica
@@ -44,6 +44,12 @@ Applicazione web statica, installabile e utilizzabile offline: nessun backend, n
 - **UTIC** — 15 farmaci in infusione (vasopressori, inotropi, vasodilatatori, antiaritmici, eparina,
   furosemide) con preparazione di esempio modificabile, conversione dose ↔ mL/h sul peso, tabella
   delle velocità, boli, accesso venoso e avvertenze; calcolatore libero per qualsiasi preparazione.
+- **Rene e fegato** — soglie strutturate di funzione renale (CrCl Cockcroft-Gault o eGFR CKD-EPI
+  2021, secondo la RCP di ciascun farmaco) e di funzione epatica (Child-Pugh, con calcolatore) per
+  35 farmaci: gliflozine, anticoagulanti orali e parenterali, antiaggreganti, farmaci dello scompenso,
+  antiaritmici, ipolipemizzanti, metformina. Tabella immediata «controindicato / non raccomandato /
+  adeguare la dose» per i valori del paziente; le stesse soglie compaiono nella scheda del farmaco,
+  nella Simulazione e negli avvisi della Mappa.
 - **Classi** — meccanismo, effetti di classe, controindicazioni condivise, monitoraggio.
 - **Info** — metodo, copertura e limiti dichiarati.
 
@@ -127,6 +133,7 @@ data/                         contenuti clinici in JSON, versionabili e revision
   drugs/ (186)  classes/ (76)  dosing/ (228)  interactions/ (180)  regulatory/ (181)
   recommendations/ (25)  rules/ (1)   ← Mappa terapeutica
   infusions/ (15)                     ← UTIC
+  organ-function/ (35)                ← Rene e fegato
 tools/                        validate_data.py, extract_data.py, embed_data.py
 docs/                         architettura, politica dei contenuti, revisione clinica, storico
 .github/                      workflow Pages, modelli di segnalazione

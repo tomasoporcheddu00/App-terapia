@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "vericiguat",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "RCP Verquvo 2,5 mg (eMC, testo UE)",
+        "url": "https://www.medicines.org.uk/emc/product/12773/smpc"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "vericiguat",
+  "renal": {
+    "metric": "eGFR",
+    "bands": [
+      {
+        "from": null,
+        "to": 15,
+        "status": "avoid",
+        "text": "Non raccomandato con eGFR <15 all'avvio o in dialisi.",
+        "verified": true
+      },
+      {
+        "from": 15,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento.",
+        "verified": true
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": true
+    },
+    "B": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": true
+    },
+    "C": {
+      "status": "avoid",
+      "text": "Non raccomandato nell'insufficienza epatica grave (non studiato).",
+      "verified": true
+    },
+    "note": null
+  }
+}

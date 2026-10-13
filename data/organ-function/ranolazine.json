@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "ranolazine",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "RCP Ranexa 375 mg (eMC, testo UE)",
+        "url": "https://www.medicines.org.uk/emc/product/6442/smpc"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "ranolazine",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 30,
+        "status": "contraindicated",
+        "text": "Controindicata con CrCl <30 mL/min.",
+        "verified": true
+      },
+      {
+        "from": 30,
+        "to": null,
+        "status": "caution",
+        "text": "Titolazione attenta tra 30 e 80 mL/min; controllo della funzione renale.",
+        "verified": false
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "caution",
+      "text": "Titolazione attenta.",
+      "verified": true
+    },
+    "B": {
+      "status": "contraindicated",
+      "text": "Controindicata nell'insufficienza epatica moderata.",
+      "verified": true
+    },
+    "C": {
+      "status": "contraindicated",
+      "text": "Controindicata nell'insufficienza epatica grave.",
+      "verified": true
+    },
+    "note": null
+  }
+}

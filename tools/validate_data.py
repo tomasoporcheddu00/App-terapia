@@ -24,6 +24,7 @@ CLASSI_RACC = {"I", "IIa", "IIb", "III", None}
 LIVELLI = {"A", "B", "C", None}
 UNITA_DOSE = {"mcg/kg/min", "mcg/min", "mg/h", "UI/kg/h", "UI/h"}
 UNITA_FARMACO = {"mg", "UI"}
+STATI_ORGANO = {"ok", "adjust", "caution", "avoid", "contraindicated", "nodata"}
 
 errori: list[str] = []
 avvisi: list[str] = []
@@ -69,6 +70,7 @@ def main() -> int:
     recommendations = carica("recommendations")
     rules = carica("rules")
     infusions = carica("infusions")
+    organ = carica("organ-function")
 
     if not drugs:
         err("nessuna scheda-farmaco trovata")
@@ -235,6 +237,41 @@ def main() -> int:
         if not ds.get("steps"):
             err(f"{p}: nessuna dose di esempio in dose.steps")
 
+    # ---- soglie renali ed epatiche ----
+    for did, o in organ.items():
+        p = f"organ-function/{did}"
+        if o.get("drugId") != did or (o.get("meta") or {}).get("id") != did:
+            err(f"{p}: drugId e meta.id devono coincidere con il nome del file")
+        if did not in drugs:
+            err(f"{p}: farmaco inesistente")
+        if not ((o.get("meta") or {}).get("sources") or []):
+            err(f"{p}: nessuna fonte")
+        r = o.get("renal") or {}
+        if r.get("metric") not in ("CrCl", "eGFR"):
+            err(f"{p}: metrica renale sconosciuta '{r.get('metric')}'")
+        bande = r.get("bands") or []
+        if not bande:
+            err(f"{p}: nessuna fascia renale")
+        prec = None
+        for i, b in enumerate(bande):
+            if b.get("status") not in STATI_ORGANO:
+                err(f"{p}: stato renale sconosciuto '{b.get('status')}'")
+            if b.get("from") != prec:
+                err(f"{p}: fasce renali non contigue (fascia {i + 1} inizia da {b.get('from')}, attesa {prec})")
+            if b.get("to") is not None and b.get("from") is not None and b["to"] <= b["from"]:
+                err(f"{p}: fascia renale {i + 1} con estremi invertiti")
+            prec = b.get("to")
+            if not b.get("verified"):
+                avv(f"{p}: fascia renale {i + 1} da verificare")
+        if bande and bande[-1].get("to") is not None:
+            err(f"{p}: l'ultima fascia renale deve essere aperta verso l'alto")
+        for k in ("A", "B", "C"):
+            hk = (o.get("hepatic") or {}).get(k) or {}
+            if hk.get("status") not in STATI_ORGANO:
+                err(f"{p}: stato epatico Child-Pugh {k} sconosciuto '{hk.get('status')}'")
+            elif not hk.get("verified"):
+                avv(f"{p}: Child-Pugh {k} da verificare")
+
     # ---- copertura ----
     popolati = [k for k, v in drugs.items() if stato(v) != "placeholder"]
     for did in popolati:
@@ -257,6 +294,7 @@ def main() -> int:
         "raccomandazioni": n_racc,
         "regole associazioni": sum(len(o.get("rules") or []) for o in rules.values()),
         "infusioni UTIC": len(infusions),
+        "schede rene/fegato": len(organ),
         "errori": len(errori),
         "avvisi": len(avvisi),
     }

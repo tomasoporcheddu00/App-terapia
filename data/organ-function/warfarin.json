@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "id": "warfarin",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "FDA, etichetta Coumadin",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2011/009218s107lbl.pdf"
+      },
+      {
+        "label": "DailyMed, warfarin sodico",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba8b4ead-d080-91e7-e053-2995a90a82fe"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "warfarin",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 30,
+        "status": "caution",
+        "text": "Nessun aggiustamento di dose, ma rischio emorragico maggiore: controlli dell'INR più frequenti. Alcune RCP storiche indicano l'insufficienza renale grave come controindicazione.",
+        "verified": true
+      },
+      {
+        "from": 30,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento; dose guidata dall'INR.",
+        "verified": true
+      }
+    ],
+    "dialysis": null,
+    "note": "Verificare la formulazione italiana sulla RCP AIFA."
+  },
+  "hepatic": {
+    "A": {
+      "status": "caution",
+      "text": "Sensibilità aumentata: dosi iniziali più basse e INR ravvicinato.",
+      "verified": false
+    },
+    "B": {
+      "status": "caution",
+      "text": "Rischio emorragico aumentato e INR instabile; controlli ravvicinati.",
+      "verified": true
+    },
+    "C": {
+      "status": "contraindicated",
+      "text": "Controindicato nell'insufficienza epatica grave in diverse RCP; l'etichetta USA la indica come condizione ad alto rischio.",
+      "verified": true
+    },
+    "note": null
+  }
+}

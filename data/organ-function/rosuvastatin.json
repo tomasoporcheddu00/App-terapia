@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "id": "rosuvastatin",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "EMA, deferimento articolo 29 Crestor (Allegati I-III)",
+        "url": "https://www.ema.europa.eu/en/documents/referral/crestor-5-mg-article-29-referral-annex-i-ii-iii_en.pdf"
+      },
+      {
+        "label": "RCP Crestor 20 mg (HPRA)",
+        "url": "https://assets.hpra.ie/products/Human/33262/LicenseSPC_PPA1463-030-001_02092013164253.pdf"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "rosuvastatin",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 30,
+        "status": "contraindicated",
+        "text": "Controindicata con CrCl <30 mL/min.",
+        "verified": true
+      },
+      {
+        "from": 30,
+        "to": 60,
+        "status": "adjust",
+        "text": "Dose iniziale 5 mg; la dose da 40 mg è controindicata.",
+        "verified": true
+      },
+      {
+        "from": 60,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento.",
+        "verified": true
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "caution",
+      "text": "Cautela; esposizione aumentata con Child-Pugh elevato.",
+      "verified": false
+    },
+    "B": {
+      "status": "contraindicated",
+      "text": "Controindicata in epatopatia attiva o transaminasi persistentemente >3 volte la norma.",
+      "verified": true
+    },
+    "C": {
+      "status": "contraindicated",
+      "text": "Controindicata in epatopatia attiva o transaminasi persistentemente >3 volte la norma.",
+      "verified": true
+    },
+    "note": null
+  }
+}

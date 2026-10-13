@@ -83,8 +83,12 @@ Simulazione**, ed è la ragione per cui quella funzione non deve indovinare null
   mcg/kg/min, mcg/min, mg/h, UI/kg/h, UI/h; `min`, `max`, `steps`, testo dell'intervallo), bolo,
   accesso, note, avvertenze e fonti.
 
-Queste tre cartelle si incorporano in `index.html` con `python3 tools/embed_data.py`, che riscrive
-solo le chiavi `DATA.recommendations`, `DATA.rules` e `DATA.infusions`.
+- `data/organ-function/<farmaco>.json` — soglie renali ed epatiche: `renal.metric` (CrCl o eGFR),
+  `renal.bands` (fasce contigue `from` ≤ valore < `to`, con `status`, `text`, `verified`),
+  `renal.dialysis`, `hepatic.A/B/C` (Child-Pugh) e fonti con data di revisione.
+
+Queste quattro cartelle si incorporano in `index.html` con `python3 tools/embed_data.py`, che riscrive
+solo le chiavi `DATA.recommendations`, `DATA.rules`, `DATA.infusions` e `DATA.organ`.
 
 ## Come funzionano le sezioni interattive
 

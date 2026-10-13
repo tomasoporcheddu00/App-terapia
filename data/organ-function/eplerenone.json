@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "id": "eplerenone",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "FDA, etichetta Inspra 2016",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/021437s013lbl.pdf"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "eplerenone",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 31,
+        "status": "contraindicated",
+        "text": "Controindicato con CrCl ≤30 mL/min.",
+        "verified": true
+      },
+      {
+        "from": 31,
+        "to": 50,
+        "status": "caution",
+        "text": "Nello scompenso post-infarto usare con cautela (CrCl ≤50); nell'ipertensione l'etichetta USA lo controindica sotto 50.",
+        "verified": true
+      },
+      {
+        "from": 50,
+        "to": null,
+        "status": "ok",
+        "text": "Controllo del potassio.",
+        "verified": true
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": false
+    },
+    "B": {
+      "status": "caution",
+      "text": "Cautela; controllo del potassio.",
+      "verified": false
+    },
+    "C": {
+      "status": "contraindicated",
+      "text": "Controindicato nell'insufficienza epatica grave (Child-Pugh C) secondo la RCP UE.",
+      "verified": false
+    },
+    "note": null
+  }
+}

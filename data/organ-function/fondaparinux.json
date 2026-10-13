@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "id": "fondaparinux",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "UK Kidney Association, anticoagulanti profilattici nell'insufficienza renale (2023)",
+        "url": "https://www.ukkidney.org/sites/renal.org/files/Prophylactic-doses-of-LMWH--Renal%20Impairment%20May%202023.pdf"
+      },
+      {
+        "label": "Medscape, fondaparinux",
+        "url": "https://reference.medscape.com/drug/arixtra-fondaparinux-342172"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "fondaparinux",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 20,
+        "status": "contraindicated",
+        "text": "Controindicato con CrCl <20 mL/min.",
+        "verified": true
+      },
+      {
+        "from": 20,
+        "to": 30,
+        "status": "adjust",
+        "text": "Dosi terapeutiche (5–10 mg) controindicate sotto 30 mL/min; in profilassi 1,5 mg/die.",
+        "verified": false
+      },
+      {
+        "from": 30,
+        "to": 50,
+        "status": "adjust",
+        "text": "Profilassi: 1,5 mg/die. Dosi terapeutiche: cautela.",
+        "verified": false
+      },
+      {
+        "from": 50,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento.",
+        "verified": false
+      }
+    ],
+    "dialysis": null,
+    "note": "Le fonti differiscono (20 o 30 mL/min) a seconda della dose: verificare la RCP della formulazione usata."
+  },
+  "hepatic": {
+    "A": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": false
+    },
+    "B": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": false
+    },
+    "C": {
+      "status": "caution",
+      "text": "Cautela (rischio emorragico).",
+      "verified": false
+    },
+    "note": null
+  }
+}

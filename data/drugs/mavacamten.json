@@ -6,7 +6,7 @@
     "editorialStatus": "source-review",
     "language": "it",
     "createdAt": "2026-07-19T00:00:00Z",
-    "updatedAt": "2026-07-29T00:00:00Z",
+    "updatedAt": "2026-10-13T00:00:00Z",
     "clinicalReviewer": null,
     "regulatoryReviewer": null,
     "clinicalReviewDate": null,
@@ -26,6 +26,13 @@
         "url": "https://academic.oup.com/eurheartj/article/44/37/3503/7246608",
         "identifier": "ESC 2023 cardiomiopatie",
         "retrievedAt": "2026-07-29"
+      },
+      {
+        "type": "smpc",
+        "citation": "RCP Camzyos (testo UE, eMC), sezione 4.2: dose iniziale nell'insufficienza epatica.",
+        "url": "https://www.medicines.org.uk/emc/product/15030/smpc",
+        "identifier": "Camzyos",
+        "retrievedAt": "2026-10-13"
       }
     ],
     "notes": "Contenuto sintetizzato da RCP EMA/AIFA e da fonti secondarie derivate dagli RCP (Torrinomedica/Codifa/Mediately, registro comunitario EC). DA CONFERMARE sugli RCP ufficiali. Stato: revisione fonti (source-review), non ancora approvato. Farmaci specialistici per amiloidosi cardiaca e cardiomiopatia ipertrofica: prescrizione in centri esperti, con piano terapeutico e criteri diagnostici stringenti. La titolazione e' guidata dall'ecocardiogramma e dal fenotipo CYP2C19: e' un farmaco da centro esperto, non da avvio ambulatoriale improvvisato.",
@@ -106,7 +113,7 @@
     "antidoteDrugIds": [],
     "specialPopulations": {
       "renal": "Nessun aggiustamento richiesto nella compromissione da lieve a moderata (eGFR 30-89 mL/min/1,73 m2).",
-      "hepatic": "Consultare l'RCP per gli aggiustamenti.",
+      "hepatic": "Dose iniziale 2,5 mg nell'insufficienza epatica lieve (Child-Pugh A) e moderata (Child-Pugh B) per l'aumento dell'esposizione (RCP UE). Grave (Child-Pugh C): non studiato, nessuna raccomandazione possibile.",
       "elderly": "Nessun aggiustamento della dose e dello schema di titolazione nei pazienti di eta' >=65 anni.",
       "pregnancy": "CONTROINDICATO in gravidanza e nelle donne in eta' fertile senza contraccezione efficace; test di gravidanza negativo prima dell'avvio.",
       "breastfeeding": "Non raccomandato."

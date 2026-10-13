@@ -2,6 +2,30 @@
 
 Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/).
 
+## [1.3.0] — 2026-10-13
+
+### Aggiunto
+- **Rene e fegato** (nuova sezione): per 35 farmaci soglie di funzione renale per fasce (CrCl
+  Cockcroft-Gault o eGFR, secondo la metrica della RCP), dialisi e classi Child-Pugh A/B/C, con stato
+  (nessun problema, adeguare la dose, cautela, non raccomandato, controindicato), testo e fonte.
+  Calcolo di CrCl (Cockcroft-Gault) ed eGFR (CKD-EPI 2021), valori misurati facoltativi, calcolatore
+  Child-Pugh. Ogni soglia è marcata «verificata» o «da verificare» (95 su 195 confermate dalle fonti
+  consultate in questa revisione: RCP EMA/eMC, Commissione europea, etichette FDA 2025-2026).
+- Le soglie compaiono nella **scheda del farmaco** (sezione «Rene e fegato — soglie»), nella
+  **Simulazione** (voci in testa per ogni farmaco) e negli **avvisi della Mappa** (CrCl, eGFR e
+  Child-Pugh facoltativi).
+- `data/organ-function/`, incorporata da `embed_data.py` e controllata da `validate_data.py`
+  (fasce contigue, stati ammessi) ed `extract_data.py`.
+
+### Corretto
+- **Dapagliflozin**: la soglia di avvio è eGFR <15 nella RCP europea (la scheda riportava 25, valore
+  dell'etichetta USA); nell'insufficienza epatica grave dose iniziale 5 mg.
+- **Empagliflozin**: aggiunta la soglia di avvio eGFR <20.
+- **Mavacamten**: dose iniziale 2,5 mg nell'insufficienza epatica lieve e moderata (RCP UE).
+
+### Modificato
+- Service worker: cache `v5`.
+
 ## [1.2.0] — 2026-10-10
 
 ### Aggiunto

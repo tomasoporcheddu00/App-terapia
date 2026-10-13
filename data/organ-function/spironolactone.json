@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "id": "spironolactone",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "RCP spironolattone 25 mg (Accord, UE)",
+        "url": "https://www.accord-healthcare.com/ie/system/files/spironolactone_smpc.pdf"
+      },
+      {
+        "label": "Monografia Aldactone (Canada)",
+        "url": "https://pdf.hres.ca/dpd_pm/00068609.PDF"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "spironolactone",
+  "renal": {
+    "metric": "eGFR",
+    "bands": [
+      {
+        "from": null,
+        "to": 30,
+        "status": "contraindicated",
+        "text": "Controindicato con eGFR <30, anuria, insufficienza renale acuta o progressiva.",
+        "verified": true
+      },
+      {
+        "from": 30,
+        "to": 50,
+        "status": "adjust",
+        "text": "Nello scompenso dose iniziale ridotta (es. 25 mg a giorni alterni) e controllo stretto di potassio e creatinina.",
+        "verified": false
+      },
+      {
+        "from": 50,
+        "to": null,
+        "status": "ok",
+        "text": "Controllo di potassio e creatinina.",
+        "verified": true
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": false
+    },
+    "B": {
+      "status": "caution",
+      "text": "Cautela: squilibri elettrolitici e rischio di encefalopatia.",
+      "verified": false
+    },
+    "C": {
+      "status": "caution",
+      "text": "Cautela: squilibri elettrolitici e rischio di encefalopatia.",
+      "verified": false
+    },
+    "note": null
+  }
+}

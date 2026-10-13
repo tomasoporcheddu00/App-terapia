@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "simvastatin",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "RCP simvastatina: da verificare",
+        "url": null
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "simvastatin",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 30,
+        "status": "caution",
+        "text": "Dosi >10 mg/die con cautela.",
+        "verified": false
+      },
+      {
+        "from": 30,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento.",
+        "verified": false
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "caution",
+      "text": "Controllo delle transaminasi.",
+      "verified": false
+    },
+    "B": {
+      "status": "contraindicated",
+      "text": "Controindicata in epatopatia attiva o transaminasi persistentemente elevate.",
+      "verified": false
+    },
+    "C": {
+      "status": "contraindicated",
+      "text": "Controindicata in epatopatia attiva o transaminasi persistentemente elevate.",
+      "verified": false
+    },
+    "note": null
+  }
+}

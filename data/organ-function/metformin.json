@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "id": "metformin",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "DailyMed, metformina a rilascio prolungato",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d09a2eda-fdd8-44ed-8e2f-ea91ddfd3c68"
+      },
+      {
+        "label": "RxFiles, metformina: precauzioni renali ed epatiche",
+        "url": "https://www.rxfiles.ca/rxfiles/uploads/documents/diabetes-metformin-lacticacidosis-qanda.pdf"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "metformin",
+  "renal": {
+    "metric": "eGFR",
+    "bands": [
+      {
+        "from": null,
+        "to": 30,
+        "status": "contraindicated",
+        "text": "Controindicata con eGFR <30.",
+        "verified": true
+      },
+      {
+        "from": 30,
+        "to": 45,
+        "status": "adjust",
+        "text": "Non iniziare; se già in terapia dose massima 1000 mg/die.",
+        "verified": true
+      },
+      {
+        "from": 45,
+        "to": 60,
+        "status": "adjust",
+        "text": "Dose massima 2000 mg/die; controllo della funzione renale ogni 3–6 mesi.",
+        "verified": false
+      },
+      {
+        "from": 60,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento.",
+        "verified": true
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "contraindicated",
+      "text": "Controindicata nell'insufficienza epatica (rischio di acidosi lattica).",
+      "verified": false
+    },
+    "B": {
+      "status": "contraindicated",
+      "text": "Controindicata nell'insufficienza epatica (rischio di acidosi lattica).",
+      "verified": false
+    },
+    "C": {
+      "status": "contraindicated",
+      "text": "Controindicata nell'insufficienza epatica (rischio di acidosi lattica).",
+      "verified": false
+    },
+    "note": null
+  }
+}

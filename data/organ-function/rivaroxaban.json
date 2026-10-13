@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "id": "rivaroxaban",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "RCP Xarelto (eMC, testo UE)",
+        "url": "https://www.medicines.org.uk/emc/product/6402/smpc"
+      },
+      {
+        "label": "FDA, etichetta Xarelto 2025",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/022406s044,215859s005lbl.pdf"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "rivaroxaban",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 15,
+        "status": "avoid",
+        "text": "Non raccomandato con CrCl <15 mL/min.",
+        "verified": true
+      },
+      {
+        "from": 15,
+        "to": 30,
+        "status": "adjust",
+        "text": "Usare con cautela. FA: 15 mg/die. TEV: 15 mg due volte al giorno per 3 settimane, poi 20 mg/die (15 mg se rischio emorragico prevalente).",
+        "verified": true
+      },
+      {
+        "from": 30,
+        "to": 50,
+        "status": "adjust",
+        "text": "FA: 15 mg/die. TEV: 15 mg due volte al giorno per 3 settimane, poi 20 mg/die (15 mg se rischio emorragico prevalente).",
+        "verified": true
+      },
+      {
+        "from": 50,
+        "to": null,
+        "status": "ok",
+        "text": "Dose piena.",
+        "verified": true
+      }
+    ],
+    "dialysis": null,
+    "note": "L'etichetta USA è più restrittiva in alcune indicazioni (eGFR <50)."
+  },
+  "hepatic": {
+    "A": {
+      "status": "ok",
+      "text": "Nessun aggiustamento in assenza di coagulopatia.",
+      "verified": false
+    },
+    "B": {
+      "status": "contraindicated",
+      "text": "Controindicato nei cirrotici Child-Pugh B con coagulopatia e rischio emorragico (RCP UE); l'etichetta USA lo sconsiglia in Child-Pugh B in ogni caso.",
+      "verified": true
+    },
+    "C": {
+      "status": "contraindicated",
+      "text": "Controindicato nei cirrotici Child-Pugh C (RCP UE).",
+      "verified": true
+    },
+    "note": "Controindicato in qualsiasi epatopatia associata a coagulopatia e rischio emorragico clinicamente rilevante."
+  }
+}

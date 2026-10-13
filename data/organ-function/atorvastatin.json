@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "atorvastatin",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "RCP atorvastatina 40 mg (eMC)",
+        "url": "https://www.medicines.org.uk/emc/product/4344/smpc"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "atorvastatin",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento renale; CK prima dell'avvio se insufficienza renale.",
+        "verified": true
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "caution",
+      "text": "Cautela; controllo delle transaminasi.",
+      "verified": false
+    },
+    "B": {
+      "status": "contraindicated",
+      "text": "Controindicata in epatopatia attiva o transaminasi persistentemente >3 volte la norma.",
+      "verified": true
+    },
+    "C": {
+      "status": "contraindicated",
+      "text": "Controindicata in epatopatia attiva o transaminasi persistentemente >3 volte la norma.",
+      "verified": true
+    },
+    "note": null
+  }
+}

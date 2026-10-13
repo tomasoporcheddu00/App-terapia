@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "flecainide",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "RCP flecainide 50 mg (eMC)",
+        "url": "https://www.medicines.org.uk/emc/product/3087/smpc"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "flecainide",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 36,
+        "status": "adjust",
+        "text": "CrCl ≤35: dose iniziale massima 100 mg/die (o 50 mg due volte al giorno) e frequente dosaggio dei livelli plasmatici.",
+        "verified": true
+      },
+      {
+        "from": 36,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento.",
+        "verified": true
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "caution",
+      "text": "Cautela; livelli plasmatici.",
+      "verified": false
+    },
+    "B": {
+      "status": "caution",
+      "text": "Evitare salvo beneficio superiore al rischio; livelli plasmatici.",
+      "verified": false
+    },
+    "C": {
+      "status": "avoid",
+      "text": "Evitare salvo beneficio superiore al rischio; livelli plasmatici.",
+      "verified": false
+    },
+    "note": null
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "mavacamten",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "RCP Camzyos 5 mg (eMC, testo UE)",
+        "url": "https://www.medicines.org.uk/emc/product/15030/smpc"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "mavacamten",
+  "renal": {
+    "metric": "eGFR",
+    "bands": [
+      {
+        "from": null,
+        "to": 30,
+        "status": "nodata",
+        "text": "Nessuna raccomandazione possibile con eGFR <30 (non studiato).",
+        "verified": true
+      },
+      {
+        "from": 30,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento della dose e della titolazione.",
+        "verified": true
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "adjust",
+      "text": "Dose iniziale 2,5 mg (RCP UE; l'etichetta USA non prevede aggiustamenti).",
+      "verified": true
+    },
+    "B": {
+      "status": "adjust",
+      "text": "Dose iniziale 2,5 mg (RCP UE).",
+      "verified": true
+    },
+    "C": {
+      "status": "avoid",
+      "text": "Non studiato nell'insufficienza epatica grave: nessuna raccomandazione, uso sconsigliato.",
+      "verified": true
+    },
+    "note": null
+  }
+}

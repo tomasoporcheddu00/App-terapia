@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "id": "dapagliflozin",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "RCP Forxiga 10 mg (eMC, testo UE)",
+        "url": "https://www.medicines.org.uk/emc/product/7607/smpc"
+      },
+      {
+        "label": "FDA, etichetta Farxiga 2026",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/202293s035lbl.pdf"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "dapagliflozin",
+  "renal": {
+    "metric": "eGFR",
+    "bands": [
+      {
+        "from": null,
+        "to": 15,
+        "status": "avoid",
+        "text": "Avvio non raccomandato con eGFR <15 (RCP UE; l'etichetta USA 2026 pone la soglia a 25).",
+        "verified": true
+      },
+      {
+        "from": 15,
+        "to": 45,
+        "status": "ok",
+        "text": "Nessun aggiustamento per scompenso e CKD; nel diabete l'effetto ipoglicemizzante si riduce sotto 45: valutare un altro ipoglicemizzante.",
+        "verified": false
+      },
+      {
+        "from": 45,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento.",
+        "verified": true
+      }
+    ],
+    "dialysis": {
+      "status": "avoid",
+      "text": "Esperienza molto limitata in dialisi: non iniziare. Etichette USA meno recenti la indicavano come controindicazione.",
+      "verified": false
+    },
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": true
+    },
+    "B": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": true
+    },
+    "C": {
+      "status": "adjust",
+      "text": "Dose iniziale 5 mg, aumentabile a 10 mg se ben tollerata (RCP UE). L'etichetta USA non prevede aggiustamenti.",
+      "verified": true
+    },
+    "note": null
+  }
+}

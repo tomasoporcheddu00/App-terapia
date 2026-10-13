@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "id": "finerenone",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "EMA, informazioni sul prodotto Kerendia",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/kerendia-epar-product-information_en.pdf"
+      },
+      {
+        "label": "NCBI Bookshelf, revisione clinica del finerenone",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK594386/"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "finerenone",
+  "renal": {
+    "metric": "eGFR",
+    "bands": [
+      {
+        "from": null,
+        "to": 15,
+        "status": "avoid",
+        "text": "Sospendere nell'insufficienza renale terminale (eGFR <15).",
+        "verified": true
+      },
+      {
+        "from": 15,
+        "to": 25,
+        "status": "avoid",
+        "text": "Non iniziare con eGFR <25.",
+        "verified": true
+      },
+      {
+        "from": 25,
+        "to": 60,
+        "status": "adjust",
+        "text": "Dose iniziale 10 mg/die (avvio solo con potassio ≤5,0 mmol/L).",
+        "verified": false
+      },
+      {
+        "from": 60,
+        "to": null,
+        "status": "ok",
+        "text": "Dose iniziale 20 mg/die (avvio solo con potassio ≤5,0 mmol/L).",
+        "verified": false
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": false
+    },
+    "B": {
+      "status": "caution",
+      "text": "Cautela; controllo del potassio.",
+      "verified": false
+    },
+    "C": {
+      "status": "avoid",
+      "text": "Non iniziare nell'insufficienza epatica grave.",
+      "verified": false
+    },
+    "note": null
+  }
+}

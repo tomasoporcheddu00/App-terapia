@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "prasugrel",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "Hull University Teaching Hospitals NHS, informazioni di prescrizione del prasugrel",
+        "url": "https://www.hey.nhs.uk/wp/wp-content/uploads/2016/03/prasugrel.pdf"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "prasugrel",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 15,
+        "status": "caution",
+        "text": "Esperienza limitata nell'insufficienza renale terminale.",
+        "verified": false
+      },
+      {
+        "from": 15,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento.",
+        "verified": false
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": false
+    },
+    "B": {
+      "status": "caution",
+      "text": "Esperienza limitata: cautela.",
+      "verified": false
+    },
+    "C": {
+      "status": "contraindicated",
+      "text": "Controindicato nell'insufficienza epatica grave.",
+      "verified": true
+    },
+    "note": null
+  }
+}

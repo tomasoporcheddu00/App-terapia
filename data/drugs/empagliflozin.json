@@ -6,7 +6,7 @@
     "editorialStatus": "source-review",
     "language": "it",
     "createdAt": "2026-07-19T00:00:00Z",
-    "updatedAt": "2026-07-19T00:00:00Z",
+    "updatedAt": "2026-10-13T00:00:00Z",
     "clinicalReviewer": null,
     "regulatoryReviewer": null,
     "clinicalReviewDate": null,
@@ -19,6 +19,13 @@
         "url": "https://www.codifa.it/farmaci/j/jardiance-empagliflozin-ipoglicemizzanti-orali",
         "identifier": "Empagliflozin RCP",
         "retrievedAt": "2026-07-19"
+      },
+      {
+        "type": "smpc",
+        "citation": "RCP Jardiance (Commissione europea, Allegato I 2025), sezione 4.2: soglia di avvio eGFR <20.",
+        "url": "https://ec.europa.eu/health/documents/community-register/2025/20250210165025/anx_165025_en.pdf",
+        "identifier": "Jardiance",
+        "retrievedAt": "2026-10-13"
       }
     ],
     "notes": "Contenuto sintetizzato da fonti secondarie derivate dagli RCP (portali su Banca Dati AIFA / EPAR EMA): indicazioni, posologia §4.2, controindicazioni §4.3, avvertenze §4.4, interazioni §4.5. DA CONFERMARE sugli RCP ufficiali EMA/AIFA in italiano; farmacocinetica §5.2 parziale. Stato: revisione fonti (source-review), non ancora approvato.",
@@ -90,7 +97,7 @@
     "overdose": "Non e' noto un quadro specifico da sovradosaggio; trattamento di supporto.",
     "antidoteDrugIds": [],
     "specialPopulations": {
-      "renal": "Per lo scompenso/CKD si puo' proseguire a eGFR piu' bassi; efficacia glicemica ridotta con eGFR ridotto; per il solo controllo glicemico la dose puo' salire a 25 mg se eGFR >=60.",
+      "renal": "Non iniziare con eGFR <20 mL/min/1,73 m² (esperienza limitata). Nello scompenso e nella CKD nessun aggiustamento; nel diabete l'efficacia glicemica si riduce con eGFR <45 ed è probabilmente assente sotto 30; per il solo controllo glicemico la dose può salire a 25 mg se eGFR ≥60. Non studiato in dialisi.",
       "hepatic": "Cautela nell'insufficienza epatica grave.",
       "elderly": "Attenzione alla deplezione di volume.",
       "pregnancy": "Non raccomandato.",

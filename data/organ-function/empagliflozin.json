@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "id": "empagliflozin",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "EMA, informazioni sul prodotto Jardiance",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/jardiance-epar-product-information_en.pdf"
+      },
+      {
+        "label": "Commissione europea, RCP Jardiance 2025 (Allegato I)",
+        "url": "https://ec.europa.eu/health/documents/community-register/2025/20250210165025/anx_165025_en.pdf"
+      },
+      {
+        "label": "FDA, etichetta Jardiance 2025",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/204629s063lbl.pdf"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "empagliflozin",
+  "renal": {
+    "metric": "eGFR",
+    "bands": [
+      {
+        "from": null,
+        "to": 20,
+        "status": "avoid",
+        "text": "Avvio non raccomandato con eGFR <20 (esperienza limitata).",
+        "verified": true
+      },
+      {
+        "from": 20,
+        "to": 45,
+        "status": "ok",
+        "text": "Nessun aggiustamento per scompenso e CKD; nel diabete l'efficacia glicemica è ridotta sotto 45 e probabilmente assente sotto 30.",
+        "verified": true
+      },
+      {
+        "from": 45,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento; nel solo diabete si può salire a 25 mg con eGFR ≥60.",
+        "verified": false
+      }
+    ],
+    "dialysis": {
+      "status": "avoid",
+      "text": "Pazienti con eGFR <20 o in dialisi non studiati.",
+      "verified": true
+    },
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": false
+    },
+    "B": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": false
+    },
+    "C": {
+      "status": "avoid",
+      "text": "Esperienza limitata nell'insufficienza epatica grave: uso non raccomandato.",
+      "verified": false
+    },
+    "note": null
+  }
+}

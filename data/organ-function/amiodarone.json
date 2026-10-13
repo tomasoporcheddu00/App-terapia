@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "amiodarone",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "RCP amiodarone: da verificare",
+        "url": null
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "amiodarone",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento renale.",
+        "verified": false
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "caution",
+      "text": "Monitorare le transaminasi.",
+      "verified": false
+    },
+    "B": {
+      "status": "caution",
+      "text": "Cautela; monitorare la funzionalità epatica (epatotossicità).",
+      "verified": false
+    },
+    "C": {
+      "status": "avoid",
+      "text": "Evitare se possibile: epatotossicità.",
+      "verified": false
+    },
+    "note": null
+  }
+}

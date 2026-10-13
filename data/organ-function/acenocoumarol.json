@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "acenocoumarol",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "RCP Sintrom (acenocumarolo): da verificare sulla banca dati AIFA",
+        "url": null
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "acenocoumarol",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 30,
+        "status": "contraindicated",
+        "text": "Controindicato nella compromissione renale grave (RCP Sintrom, come riportato nella scheda curata).",
+        "verified": false
+      },
+      {
+        "from": 30,
+        "to": null,
+        "status": "ok",
+        "text": "Dose guidata dall'INR.",
+        "verified": false
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "caution",
+      "text": "INR ravvicinato.",
+      "verified": false
+    },
+    "B": {
+      "status": "caution",
+      "text": "INR ravvicinato.",
+      "verified": false
+    },
+    "C": {
+      "status": "contraindicated",
+      "text": "Insufficienza epatica grave: verificare sulla RCP Sintrom (controindicazione nella maggior parte degli AVK).",
+      "verified": false
+    },
+    "note": null
+  }
+}

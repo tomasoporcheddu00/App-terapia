@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "ezetimibe",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "RCP ezetimibe: da verificare",
+        "url": null
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "ezetimibe",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento renale.",
+        "verified": false
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": false
+    },
+    "B": {
+      "status": "avoid",
+      "text": "Non raccomandato nell'insufficienza epatica moderata.",
+      "verified": false
+    },
+    "C": {
+      "status": "avoid",
+      "text": "Non raccomandato nell'insufficienza epatica grave.",
+      "verified": false
+    },
+    "note": null
+  }
+}

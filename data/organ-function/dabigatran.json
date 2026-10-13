@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "id": "dabigatran",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "EMA, informazioni sul prodotto Pradaxa",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/pradaxa-epar-product-information_en.pdf"
+      },
+      {
+        "label": "Guida per il prescrittore Pradaxa",
+        "url": "https://medicinesauthority.gov.mt/file.aspx?f=3750"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "dabigatran",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 30,
+        "status": "contraindicated",
+        "text": "Controindicato con CrCl <30 mL/min.",
+        "verified": true
+      },
+      {
+        "from": 30,
+        "to": 50,
+        "status": "adjust",
+        "text": "FA: 150 mg due volte al giorno; considerare 110 mg due volte al giorno se alto rischio emorragico.",
+        "verified": true
+      },
+      {
+        "from": 50,
+        "to": null,
+        "status": "ok",
+        "text": "Dose piena (110 mg due volte al giorno dagli 80 anni).",
+        "verified": false
+      }
+    ],
+    "dialysis": {
+      "status": "contraindicated",
+      "text": "Controindicato (CrCl <30 mL/min).",
+      "verified": true
+    },
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "caution",
+      "text": "Sconsigliato se enzimi epatici >2 volte la norma (pazienti esclusi dagli studi).",
+      "verified": true
+    },
+    "B": {
+      "status": "caution",
+      "text": "Sconsigliato se enzimi epatici >2 volte la norma (pazienti esclusi dagli studi).",
+      "verified": true
+    },
+    "C": {
+      "status": "contraindicated",
+      "text": "Controindicato nell'insufficienza o malattia epatica con atteso impatto sulla sopravvivenza.",
+      "verified": true
+    },
+    "note": null
+  }
+}

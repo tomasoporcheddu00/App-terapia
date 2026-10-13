@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "id": "ticagrelor",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "EMA, informazioni sul prodotto Brilique",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/brilique-epar-product-information_en.pdf"
+      },
+      {
+        "label": "Antitrombotici nella malattia renale cronica, Circulation",
+        "url": "https://www.ahajournals.org/doi/10.1161/circulationaha.111.084996"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "ticagrelor",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 15,
+        "status": "avoid",
+        "text": "Nessun dato in dialisi o CKD stadio 5: non raccomandato.",
+        "verified": true
+      },
+      {
+        "from": 15,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento.",
+        "verified": true
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": false
+    },
+    "B": {
+      "status": "caution",
+      "text": "Dati limitati: usare con cautela.",
+      "verified": true
+    },
+    "C": {
+      "status": "contraindicated",
+      "text": "Controindicato nell'insufficienza epatica grave.",
+      "verified": true
+    },
+    "note": null
+  }
+}

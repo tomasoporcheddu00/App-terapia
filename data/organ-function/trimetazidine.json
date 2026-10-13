@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "id": "trimetazidine",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "EMA, revisione della trimetazidina 2012: da verificare",
+        "url": null
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "trimetazidine",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 30,
+        "status": "contraindicated",
+        "text": "Controindicata con CrCl <30 mL/min (revisione EMA 2012).",
+        "verified": false
+      },
+      {
+        "from": 30,
+        "to": 60,
+        "status": "adjust",
+        "text": "Dose ridotta (35 mg una volta al giorno).",
+        "verified": false
+      },
+      {
+        "from": 60,
+        "to": null,
+        "status": "ok",
+        "text": "Dose standard.",
+        "verified": false
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "nodata",
+      "text": "Nessuna indicazione specifica nelle fonti consultate.",
+      "verified": false
+    },
+    "B": {
+      "status": "nodata",
+      "text": "Nessuna indicazione specifica nelle fonti consultate.",
+      "verified": false
+    },
+    "C": {
+      "status": "nodata",
+      "text": "Nessuna indicazione specifica nelle fonti consultate.",
+      "verified": false
+    },
+    "note": null
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "semaglutide",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-13",
+    "sources": [
+      {
+        "label": "Royal Devon NHS, farmaci per il diabete nell'insufficienza renale",
+        "url": "https://www.royaldevon.nhs.uk/media/5febkcrf/rd-e-diabetes-renal-summary-of-diabetes-drugs-v7.pdf"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "semaglutide",
+  "renal": {
+    "metric": "eGFR",
+    "bands": [
+      {
+        "from": null,
+        "to": 15,
+        "status": "avoid",
+        "text": "Insufficienza renale terminale: esperienza limitata, non raccomandata.",
+        "verified": false
+      },
+      {
+        "from": 15,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento; attenzione alla disidratazione da effetti gastrointestinali.",
+        "verified": false
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": false
+    },
+    "B": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": false
+    },
+    "C": {
+      "status": "caution",
+      "text": "Esperienza limitata: cautela.",
+      "verified": false
+    },
+    "note": null
+  }
+}
