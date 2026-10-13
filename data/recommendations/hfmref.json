@@ -6,95 +6,41 @@
     "updatedAt": "2026-10-10",
     "sources": [
       {
-        "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
-        "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+        "label": "ESC 2026 - Linee guida per la gestione dello scompenso cardiaco (classi verificate su sintesi della linea guida)",
+        "url": "https://doi.org/10.1093/eurheartj/ehag100"
       },
       {
-        "label": "ESC 2023 - Focused Update delle linee guida 2021 sullo scompenso cardiaco",
-        "url": "https://academic.oup.com/eurheartj/article/44/37/3627/7246292"
+        "label": "Medscape - Sintesi della linea guida ESC 2026 sullo scompenso",
+        "url": "https://reference.medscape.com/cc2/p10/diagnosis-management-heart-failure-esc-guideline-2026a1000z3k"
       }
     ],
-    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+    "notes": "Classi aggiornate alla linea guida ESC 2026 sullo scompenso, verificate su sintesi della linea guida (testo integrale non consultabile da questo ambiente). Livelli di evidenza 2026: A, B1, B2, C. Le voci con fonte ESC 2021/2023 non sono state confermate nella 2026. Da verificare sul testo integrale."
   },
   "pathology": "hfmref",
   "groups": [
     {
-      "id": "base",
-      "label": "Terapia raccomandata",
+      "id": "classificazione",
+      "label": "Classificazione ESC 2026",
       "items": [
         {
-          "id": "sglt2",
-          "text": "SGLT2-inibitore (dapagliflozin o empagliflozin)",
-          "cor": "I",
-          "loe": "A",
-          "drugIds": [
-            "dapagliflozin",
-            "empagliflozin"
-          ],
-          "source": {
-            "label": "ESC 2023 - Focused Update delle linee guida 2021 sullo scompenso cardiaco",
-            "url": "https://academic.oup.com/eurheartj/article/44/37/3627/7246292"
-          }
-        },
-        {
-          "id": "ansa",
-          "text": "Diuretico dell'ansa in presenza di congestione",
-          "cor": "I",
-          "loe": "C",
-          "drugIds": [
-            "furosemide",
-            "torasemide",
-            "bumetanide"
-          ]
+          "id": "abolito",
+          "text": "La categoria HFmrEF è abolita: con FE <50% il paziente rientra nell'HFrEF e si applica la terapia fondamentale",
+          "cor": null,
+          "loe": null,
+          "drugIds": [],
+          "note": "Selezionare anche la patologia «HFrEF» per la mappa completa."
         }
       ]
     },
     {
-      "id": "possibili",
-      "label": "Da considerare",
+      "id": "fondamentale",
+      "label": "Terapia fondamentale (HFrEF, FE <50%)",
       "items": [
         {
-          "id": "acei",
-          "text": "ACE-inibitore",
-          "cor": "IIb",
-          "loe": "C",
-          "drugIds": [
-            "ramipril",
-            "perindopril",
-            "enalapril",
-            "lisinopril",
-            "zofenopril",
-            "captopril"
-          ]
-        },
-        {
-          "id": "arb",
-          "text": "Sartano",
-          "cor": "IIb",
-          "loe": "C",
-          "drugIds": [
-            "valsartan",
-            "candesartan",
-            "losartan",
-            "telmisartan",
-            "irbesartan",
-            "olmesartan"
-          ]
-        },
-        {
-          "id": "arni",
-          "text": "Sacubitril/valsartan",
-          "cor": "IIb",
-          "loe": "C",
-          "drugIds": [
-            "sacubitril-valsartan"
-          ]
-        },
-        {
           "id": "bb",
-          "text": "Betabloccante",
-          "cor": "IIb",
-          "loe": "C",
+          "text": "Betabloccante nei pazienti stabili con HFrEF sintomatico",
+          "cor": "I",
+          "loe": "A",
           "drugIds": [
             "bisoprolol",
             "carvedilol",
@@ -103,13 +49,57 @@
           ]
         },
         {
+          "id": "acei",
+          "text": "ACE-inibitore (o ARNI) nell'HFrEF sintomatico",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [
+            "enalapril",
+            "ramipril",
+            "lisinopril",
+            "captopril"
+          ],
+          "note": "Livello di evidenza non riportato nelle sintesi consultate."
+        },
+        {
+          "id": "arni",
+          "text": "Passaggio da ACE-inibitore o sartano a sacubitril/valsartan",
+          "cor": "I",
+          "loe": "B1",
+          "drugIds": [
+            "sacubitril-valsartan"
+          ],
+          "note": "Sospendere l'ACE-inibitore almeno 36 h prima."
+        },
+        {
+          "id": "arb",
+          "text": "Sartano se ACE-inibitore e ARNI non sono utilizzabili",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [
+            "candesartan",
+            "valsartan",
+            "losartan"
+          ]
+        },
+        {
           "id": "mra",
-          "text": "Antagonista dei mineralcorticoidi",
-          "cor": "IIb",
-          "loe": "C",
+          "text": "Antagonista steroideo dei mineralcorticoidi",
+          "cor": "I",
+          "loe": "A",
           "drugIds": [
             "spironolactone",
             "eplerenone"
+          ]
+        },
+        {
+          "id": "sglt2",
+          "text": "SGLT2-inibitore (dapagliflozin o empagliflozin), indipendentemente dalla FE",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "dapagliflozin",
+            "empagliflozin"
           ]
         }
       ]

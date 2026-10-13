@@ -6,47 +6,29 @@
     "updatedAt": "2026-10-10",
     "sources": [
       {
-        "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
-        "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+        "label": "ESC 2026 - Linee guida per la gestione dello scompenso cardiaco (classi verificate su sintesi della linea guida)",
+        "url": "https://doi.org/10.1093/eurheartj/ehag100"
       },
       {
-        "label": "ESC 2023 - Focused Update delle linee guida 2021 sullo scompenso cardiaco",
-        "url": "https://academic.oup.com/eurheartj/article/44/37/3627/7246292"
+        "label": "Medscape - Sintesi della linea guida ESC 2026 sullo scompenso",
+        "url": "https://reference.medscape.com/cc2/p10/diagnosis-management-heart-failure-esc-guideline-2026a1000z3k"
+      },
+      {
+        "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+        "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
       }
     ],
-    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+    "notes": "Classi aggiornate alla linea guida ESC 2026 sullo scompenso, verificate su sintesi della linea guida (testo integrale non consultabile da questo ambiente). Livelli di evidenza 2026: A, B1, B2, C. Le voci con fonte ESC 2021/2023 non sono state confermate nella 2026. Da verificare sul testo integrale."
   },
   "pathology": "hfref",
   "groups": [
     {
-      "id": "pilastri",
-      "label": "Quattro pilastri",
+      "id": "fondamentale",
+      "label": "Terapia fondamentale (HFrEF, FE <50%)",
       "items": [
         {
-          "id": "acei",
-          "text": "ACE-inibitore per ridurre ospedalizzazioni e mortalità",
-          "cor": "I",
-          "loe": "A",
-          "drugIds": [
-            "enalapril",
-            "ramipril",
-            "lisinopril",
-            "captopril"
-          ]
-        },
-        {
-          "id": "arni",
-          "text": "Sacubitril/valsartan in sostituzione dell'ACE-inibitore",
-          "cor": "I",
-          "loe": "B",
-          "drugIds": [
-            "sacubitril-valsartan"
-          ],
-          "note": "Come prima scelta in pazienti naïve agli ACE-i: IIb B. Sospendere l'ACE-inibitore almeno 36 h prima."
-        },
-        {
           "id": "bb",
-          "text": "Betabloccante (bisoprololo, carvedilolo, metoprololo succinato, nebivololo)",
+          "text": "Betabloccante nei pazienti stabili con HFrEF sintomatico",
           "cor": "I",
           "loe": "A",
           "drugIds": [
@@ -57,8 +39,42 @@
           ]
         },
         {
+          "id": "acei",
+          "text": "ACE-inibitore (o ARNI) nell'HFrEF sintomatico",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [
+            "enalapril",
+            "ramipril",
+            "lisinopril",
+            "captopril"
+          ],
+          "note": "Livello di evidenza non riportato nelle sintesi consultate."
+        },
+        {
+          "id": "arni",
+          "text": "Passaggio da ACE-inibitore o sartano a sacubitril/valsartan",
+          "cor": "I",
+          "loe": "B1",
+          "drugIds": [
+            "sacubitril-valsartan"
+          ],
+          "note": "Sospendere l'ACE-inibitore almeno 36 h prima."
+        },
+        {
+          "id": "arb",
+          "text": "Sartano se ACE-inibitore e ARNI non sono utilizzabili",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [
+            "candesartan",
+            "valsartan",
+            "losartan"
+          ]
+        },
+        {
           "id": "mra",
-          "text": "Antagonista dei mineralcorticoidi",
+          "text": "Antagonista steroideo dei mineralcorticoidi",
           "cor": "I",
           "loe": "A",
           "drugIds": [
@@ -68,23 +84,12 @@
         },
         {
           "id": "sglt2",
-          "text": "SGLT2-inibitore (dapagliflozin o empagliflozin)",
+          "text": "SGLT2-inibitore (dapagliflozin o empagliflozin), indipendentemente dalla FE",
           "cor": "I",
           "loe": "A",
           "drugIds": [
             "dapagliflozin",
             "empagliflozin"
-          ]
-        },
-        {
-          "id": "arb",
-          "text": "Sartano se intolleranza ad ACE-inibitore e ARNI",
-          "cor": "I",
-          "loe": "B",
-          "drugIds": [
-            "candesartan",
-            "valsartan",
-            "losartan"
           ]
         }
       ]
@@ -102,40 +107,59 @@
             "furosemide",
             "torasemide",
             "bumetanide"
-          ]
+          ],
+          "source": {
+            "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+            "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+          }
         }
       ]
     },
     {
-      "id": "altri",
-      "label": "Terapie aggiuntive selezionate",
+      "id": "aggiuntiva",
+      "label": "Terapia aggiuntiva",
       "items": [
         {
-          "id": "ivab",
-          "text": "Ivabradina in ritmo sinusale con FC ≥70/min nonostante betabloccante alla dose massima tollerata",
+          "id": "digo",
+          "text": "Digossina o digitossina in pazienti selezionati con FE ≤40% sintomatici nonostante terapia fondamentale ottimale",
           "cor": "IIa",
-          "loe": "B",
+          "loe": "B1",
+          "drugIds": [
+            "digoxin"
+          ]
+        },
+        {
+          "id": "veric",
+          "text": "Vericiguat nell'HFrEF sintomatico con FE <45% nonostante terapia ottimale",
+          "cor": "IIa",
+          "loe": "B1",
+          "drugIds": [
+            "vericiguat"
+          ],
+          "note": "Una sintesi riporta anche una raccomandazione IIb per il peggioramento in NYHA II–IV: verificare sul testo integrale."
+        },
+        {
+          "id": "ivab",
+          "text": "Ivabradina in ritmo sinusale con FC ≥70/min, FE ≤35% e recente ospedalizzazione nonostante betabloccante ottimizzato",
+          "cor": "IIa",
+          "loe": null,
           "drugIds": [
             "ivabradine"
           ]
         },
         {
-          "id": "veric",
-          "text": "Vericiguat dopo episodio di peggioramento (NYHA II–IV) nonostante terapia ottimale",
-          "cor": "IIb",
-          "loe": "B",
-          "drugIds": [
-            "vericiguat"
-          ]
+          "id": "ferro",
+          "text": "Ferro EV nella carenza marziale sintomatica, per sintomi e qualità di vita",
+          "cor": "I",
+          "loe": "B1",
+          "drugIds": []
         },
         {
-          "id": "digo",
-          "text": "Digossina in ritmo sinusale se sintomatico nonostante terapia ottimale",
-          "cor": "IIb",
-          "loe": "B",
-          "drugIds": [
-            "digoxin"
-          ]
+          "id": "ferroh",
+          "text": "Ferro EV per ridurre le ospedalizzazioni per scompenso",
+          "cor": "IIa",
+          "loe": "B1",
+          "drugIds": []
         },
         {
           "id": "hisdn",
@@ -146,18 +170,26 @@
             "hydralazine",
             "isosorbide-dinitrate"
           ],
-          "note": "Negli intolleranti ad ACE-i, sartani e ARNI: IIb B."
-        },
-        {
-          "id": "ferro",
-          "text": "Ferro EV (carbossimaltosio o derisomaltosio) se carenza marziale sintomatica, per migliorare sintomi e qualità di vita",
-          "cor": "I",
-          "loe": "A",
-          "drugIds": [],
           "source": {
-            "label": "ESC 2023 - Focused Update delle linee guida 2021 sullo scompenso cardiaco",
-            "url": "https://academic.oup.com/eurheartj/article/44/37/3627/7246292"
+            "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+            "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
           }
+        }
+      ]
+    },
+    {
+      "id": "avanzato",
+      "label": "Scompenso avanzato",
+      "items": [
+        {
+          "id": "downtit",
+          "text": "Riduzione o sospensione di betabloccante o ivabradina in pazienti selezionati con segni di ipoperfusione d'organo",
+          "cor": "IIa",
+          "loe": null,
+          "drugIds": [
+            "bisoprolol",
+            "ivabradine"
+          ]
         }
       ]
     },
@@ -170,21 +202,33 @@
           "text": "ICD in prevenzione primaria nella cardiopatia ischemica con FE ≤35% dopo ≥3 mesi di terapia ottimale",
           "cor": "I",
           "loe": "A",
-          "drugIds": []
+          "drugIds": [],
+          "source": {
+            "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+            "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+          }
         },
         {
           "id": "icdnon",
           "text": "ICD in prevenzione primaria nella cardiomiopatia non ischemica con FE ≤35%",
           "cor": "IIa",
           "loe": "A",
-          "drugIds": []
+          "drugIds": [],
+          "source": {
+            "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+            "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+          }
         },
         {
           "id": "crt",
           "text": "Resincronizzazione (CRT) se FE ≤35%, ritmo sinusale, QRS ≥150 ms con morfologia BBS",
           "cor": "I",
           "loe": "A",
-          "drugIds": []
+          "drugIds": [],
+          "source": {
+            "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+            "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+          }
         }
       ]
     },
@@ -200,7 +244,11 @@
           "drugIds": [
             "diltiazem",
             "verapamil"
-          ]
+          ],
+          "source": {
+            "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+            "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+          }
         },
         {
           "id": "tzd",
@@ -209,7 +257,11 @@
           "loe": "A",
           "drugIds": [
             "pioglitazone"
-          ]
+          ],
+          "source": {
+            "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+            "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+          }
         },
         {
           "id": "fans",
@@ -218,7 +270,11 @@
           "loe": "B",
           "drugIds": [
             "ibuprofen"
-          ]
+          ],
+          "source": {
+            "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+            "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+          }
         }
       ]
     }

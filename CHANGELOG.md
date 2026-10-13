@@ -23,6 +23,15 @@ Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/).
 - **Empagliflozin**: aggiunta la soglia di avvio eGFR <20.
 - **Mavacamten**: dose iniziale 2,5 mg nell'insufficienza epatica lieve e moderata (RCP UE).
 
+- **Scompenso aggiornato alla linea guida ESC 2026**: HFmrEF abolito (FE <50% = HFrEF), terapia
+  fondamentale dell'HFrEF (betabloccante I A, MRA I A, SGLT2-i I A, passaggio ad ARNI I B1), HFpEF
+  (SGLT2-i I A, MRA steroideo o finerenone I A), digossina IIa B1, vericiguat IIa B1, acetazolamide o
+  idroclorotiazide nel sovraccarico IIa B1, ferro EV I B1/IIa B1; nuova mappa «Resistenza ai
+  diuretici». Classi verificate su sintesi ufficiali; le voci non confermate nella 2026 restano con
+  la fonte 2021/2023 dichiarata sulla singola voce. Nuovi livelli di evidenza ESC B1/B2 ammessi.
+- **Embolia polmonare: linea guida AHA/ACC 2026** (categorie cliniche A–E: PERT, EBPM vs eparina non
+  frazionata, DOAC vs AVK, terapie avanzate in E1 e D, anticoagulazione estesa) accanto alla ESC 2019.
+
 ### Modificato
 - Service worker: cache `v5`.
 

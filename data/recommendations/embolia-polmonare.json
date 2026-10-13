@@ -6,14 +6,130 @@
     "updatedAt": "2026-10-10",
     "sources": [
       {
+        "label": "AHA/ACC 2026 - Linee guida sull'embolia polmonare acuta (Circulation/JACC; classi 1/2a/2b/3 riportate come I/IIa/IIb/III)",
+        "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001415"
+      },
+      {
+        "label": "AHA/ACC 2026 - Guideline-at-a-Glance sull'embolia polmonare acuta (JACC)",
+        "url": "https://www.jacc.org/doi/10.1016/j.jacc.2025.12.023"
+      },
+      {
         "label": "ESC 2019 - Linee guida per la diagnosi e la gestione dell'embolia polmonare acuta, in collaborazione con la European Respiratory Society",
         "url": "https://www.giornaledicardiologia.it/archivio/3306/articoli/32765/"
       }
     ],
-    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+    "notes": "Due linee guida: AHA/ACC 2026 (categorie cliniche A–E, classi verificate su sintesi ufficiali; terminologia AHA: «raccomandato» = 1, «ragionevole» = 2a, «può essere considerato» = 2b) ed ESC 2019, ultima edizione europea. Da verificare sul testo integrale."
   },
   "pathology": "embolia-polmonare",
   "groups": [
+    {
+      "id": "aha26",
+      "label": "AHA/ACC 2026 — categorie cliniche A–E",
+      "items": [
+        {
+          "id": "pert",
+          "text": "Valutazione multidisciplinare (PE Response Team) nelle categorie C–E",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [],
+          "note": "Livello di evidenza AHA non riportato nelle sintesi consultate.",
+          "source": {
+            "label": "AHA/ACC 2026 - Linee guida sull'embolia polmonare acuta (Circulation/JACC; classi 1/2a/2b/3 riportate come I/IIa/IIb/III)",
+            "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001415"
+          }
+        },
+        {
+          "id": "ebpmufh",
+          "text": "EBPM preferita all'eparina non frazionata nei ricoverati che necessitano di anticoagulazione parenterale",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [
+            "enoxaparin"
+          ],
+          "note": "Livello di evidenza AHA non riportato nelle sintesi consultate.",
+          "source": {
+            "label": "AHA/ACC 2026 - Guideline-at-a-Glance sull'embolia polmonare acuta (JACC)",
+            "url": "https://www.jacc.org/doi/10.1016/j.jacc.2025.12.023"
+          }
+        },
+        {
+          "id": "doac",
+          "text": "DOAC preferiti agli AVK nei pazienti eleggibili all'anticoagulazione orale, salvo controindicazioni",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [
+            "apixaban",
+            "rivaroxaban",
+            "edoxaban",
+            "dabigatran"
+          ],
+          "note": "Livello di evidenza AHA non riportato nelle sintesi consultate.",
+          "source": {
+            "label": "AHA/ACC 2026 - Guideline-at-a-Glance sull'embolia polmonare acuta (JACC)",
+            "url": "https://www.jacc.org/doi/10.1016/j.jacc.2025.12.023"
+          }
+        },
+        {
+          "id": "e1",
+          "text": "Categoria E1: terapie avanzate (trombolisi sistemica o via catetere, trombectomia meccanica, embolectomia chirurgica) per prevenire il deterioramento e la mortalità precoce",
+          "cor": "IIa",
+          "loe": null,
+          "drugIds": [
+            "alteplase",
+            "tenecteplase"
+          ],
+          "note": "Livello di evidenza AHA non riportato nelle sintesi consultate.",
+          "source": {
+            "label": "AHA/ACC 2026 - Linee guida sull'embolia polmonare acuta (Circulation/JACC; classi 1/2a/2b/3 riportate come I/IIa/IIb/III)",
+            "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001415"
+          }
+        },
+        {
+          "id": "d",
+          "text": "Categoria D (D1–D2): terapie avanzate possono essere considerate (beneficio incerto)",
+          "cor": "IIb",
+          "loe": null,
+          "drugIds": [
+            "alteplase",
+            "tenecteplase"
+          ],
+          "note": "Livello di evidenza AHA non riportato nelle sintesi consultate.",
+          "source": {
+            "label": "AHA/ACC 2026 - Linee guida sull'embolia polmonare acuta (Circulation/JACC; classi 1/2a/2b/3 riportate come I/IIa/IIb/III)",
+            "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001415"
+          }
+        },
+        {
+          "id": "estesa",
+          "text": "Anticoagulazione estesa oltre la fase iniziale (3–6 mesi) dopo un primo episodio senza fattore di rischio maggiore reversibile o con fattore di rischio persistente",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [
+            "apixaban",
+            "edoxaban",
+            "rivaroxaban",
+            "dabigatran"
+          ],
+          "note": "Livello di evidenza AHA non riportato nelle sintesi consultate.",
+          "source": {
+            "label": "AHA/ACC 2026 - Guideline-at-a-Glance sull'embolia polmonare acuta (JACC)",
+            "url": "https://www.jacc.org/doi/10.1016/j.jacc.2025.12.023"
+          }
+        },
+        {
+          "id": "trombo",
+          "text": "Quantificazione del carico trombotico per la stratificazione del rischio nelle categorie A–C",
+          "cor": "III",
+          "loe": null,
+          "drugIds": [],
+          "note": "Classe 3 (nessun beneficio). Livello di evidenza AHA non riportato nelle sintesi consultate.",
+          "source": {
+            "label": "AHA/ACC 2026 - Linee guida sull'embolia polmonare acuta (Circulation/JACC; classi 1/2a/2b/3 riportate come I/IIa/IIb/III)",
+            "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001415"
+          }
+        }
+      ]
+    },
     {
       "id": "fase",
       "label": "Fase acuta",

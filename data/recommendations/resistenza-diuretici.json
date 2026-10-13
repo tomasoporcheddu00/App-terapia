@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "id": "resistenza-diuretici",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-10",
+    "sources": [
+      {
+        "label": "ESC 2026 - Linee guida per la gestione dello scompenso cardiaco (classi verificate su sintesi della linea guida)",
+        "url": "https://doi.org/10.1093/eurheartj/ehag100"
+      },
+      {
+        "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+        "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+      }
+    ],
+    "notes": "Classi aggiornate alla linea guida ESC 2026 sullo scompenso, verificate su sintesi della linea guida (testo integrale non consultabile da questo ambiente). Livelli di evidenza 2026: A, B1, B2, C. Le voci con fonte ESC 2021/2023 non sono state confermate nella 2026. Da verificare sul testo integrale."
+  },
+  "pathology": "resistenza-diuretici",
+  "groups": [
+    {
+      "id": "strategia",
+      "label": "Strategia",
+      "items": [
+        {
+          "id": "ansaev",
+          "text": "Diuretico dell'ansa EV a dose adeguata (almeno pari alla dose orale domiciliare), con valutazione precoce della risposta",
+          "cor": "I",
+          "loe": "C",
+          "drugIds": [
+            "furosemide",
+            "torasemide",
+            "bumetanide"
+          ],
+          "source": {
+            "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+            "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+          }
+        },
+        {
+          "id": "acz",
+          "text": "Aggiunta per breve periodo di acetazolamide EV o idroclorotiazide orale",
+          "cor": "IIa",
+          "loe": "B1",
+          "drugIds": [
+            "acetazolamide",
+            "hydrochlorothiazide"
+          ]
+        },
+        {
+          "id": "metol",
+          "text": "Altri diuretici tiazidici o simil-tiazidici in associazione nella resistenza al diuretico dell'ansa",
+          "cor": "IIa",
+          "loe": null,
+          "drugIds": [
+            "metolazone",
+            "chlorthalidone"
+          ],
+          "note": "Classe dalla sintesi ESC 2026 sulle associazioni di diuretici: livello da verificare."
+        }
+      ]
+    }
+  ]
+}

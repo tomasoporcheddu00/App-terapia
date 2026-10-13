@@ -6,15 +6,15 @@
     "updatedAt": "2026-10-10",
     "sources": [
       {
-        "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
-        "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+        "label": "ESC 2026 - Linee guida per la gestione dello scompenso cardiaco (classi verificate su sintesi della linea guida)",
+        "url": "https://doi.org/10.1093/eurheartj/ehag100"
       },
       {
-        "label": "ESC 2023 - Focused Update delle linee guida 2021 sullo scompenso cardiaco",
-        "url": "https://academic.oup.com/eurheartj/article/44/37/3627/7246292"
+        "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+        "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
       }
     ],
-    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+    "notes": "Classi aggiornate alla linea guida ESC 2026 sullo scompenso, verificate su sintesi della linea guida (testo integrale non consultabile da questo ambiente). Livelli di evidenza 2026: A, B1, B2, C. Le voci con fonte ESC 2021/2023 non sono state confermate nella 2026. Da verificare sul testo integrale."
   },
   "pathology": "scompenso-acuto",
   "groups": [
@@ -31,17 +31,20 @@
             "furosemide",
             "torasemide",
             "bumetanide"
-          ]
+          ],
+          "source": {
+            "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+            "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+          }
         },
         {
-          "id": "tiazide",
-          "text": "Associazione di un tiazidico se la risposta al diuretico dell'ansa è insufficiente",
+          "id": "acz",
+          "text": "Aggiunta per breve periodo di acetazolamide EV o idroclorotiazide orale nel sovraccarico di liquidi già trattato con diuretico dell'ansa",
           "cor": "IIa",
-          "loe": "B",
+          "loe": "B1",
           "drugIds": [
-            "hydrochlorothiazide",
-            "metolazone",
-            "chlorthalidone"
+            "acetazolamide",
+            "hydrochlorothiazide"
           ]
         }
       ]
@@ -59,7 +62,11 @@
             "nitroglycerin",
             "isosorbide-dinitrate",
             "sodium-nitroprusside"
-          ]
+          ],
+          "source": {
+            "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+            "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+          }
         },
         {
           "id": "inotropi",
@@ -70,14 +77,22 @@
             "dobutamine",
             "levosimendan",
             "milrinone"
-          ]
+          ],
+          "source": {
+            "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+            "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+          }
         },
         {
           "id": "inotropino",
           "text": "Inotropi di routine in assenza di ipotensione e ipoperfusione",
           "cor": "III",
           "loe": "C",
-          "drugIds": []
+          "drugIds": [],
+          "source": {
+            "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+            "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+          }
         },
         {
           "id": "vasopress",
@@ -86,7 +101,11 @@
           "loe": "B",
           "drugIds": [
             "noradrenaline"
-          ]
+          ],
+          "source": {
+            "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+            "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+          }
         }
       ]
     },
@@ -99,21 +118,33 @@
           "text": "Ossigeno se SpO₂ <90% o PaO₂ <60 mmHg",
           "cor": "I",
           "loe": "C",
-          "drugIds": []
+          "drugIds": [],
+          "source": {
+            "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+            "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+          }
         },
         {
           "id": "nippv",
           "text": "Ventilazione non invasiva a pressione positiva nel distress respiratorio",
           "cor": "IIa",
           "loe": "B",
-          "drugIds": []
+          "drugIds": [],
+          "source": {
+            "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+            "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+          }
         },
         {
           "id": "oppioidi",
           "text": "Oppioidi di routine",
           "cor": "III",
           "loe": "C",
-          "drugIds": []
+          "drugIds": [],
+          "source": {
+            "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+            "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+          }
         },
         {
           "id": "tev",
@@ -124,7 +155,11 @@
             "enoxaparin",
             "fondaparinux",
             "unfractionated-heparin"
-          ]
+          ],
+          "source": {
+            "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+            "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+          }
         }
       ]
     },
@@ -134,7 +169,7 @@
       "items": [
         {
           "id": "strong",
-          "text": "Avvio e titolazione rapida della terapia raccomandata prima della dimissione e nelle 6 settimane successive, con visite ravvicinate",
+          "text": "Avvio e titolazione rapida della terapia fondamentale prima della dimissione e nelle settimane successive, con visite ravvicinate",
           "cor": "I",
           "loe": "B",
           "drugIds": [],
@@ -148,7 +183,11 @@
           "text": "Visita di controllo precoce entro 1–2 settimane dalla dimissione",
           "cor": "I",
           "loe": "C",
-          "drugIds": []
+          "drugIds": [],
+          "source": {
+            "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
+            "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+          }
         }
       ]
     }

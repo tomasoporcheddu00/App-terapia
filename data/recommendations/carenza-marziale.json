@@ -6,15 +6,19 @@
     "updatedAt": "2026-10-10",
     "sources": [
       {
-        "label": "ESC 2023 - Focused Update delle linee guida 2021 sullo scompenso cardiaco",
-        "url": "https://academic.oup.com/eurheartj/article/44/37/3627/7246292"
+        "label": "ESC 2026 - Linee guida per la gestione dello scompenso cardiaco (classi verificate su sintesi della linea guida)",
+        "url": "https://doi.org/10.1093/eurheartj/ehag100"
+      },
+      {
+        "label": "Medscape - Sintesi della linea guida ESC 2026 sullo scompenso",
+        "url": "https://reference.medscape.com/cc2/p10/diagnosis-management-heart-failure-esc-guideline-2026a1000z3k"
       },
       {
         "label": "ESC 2021 - Linee guida per diagnosi e trattamento dello scompenso cardiaco acuto e cronico",
         "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
       }
     ],
-    "notes": "Classi di raccomandazione e livelli di evidenza riportati dalla linea guida citata. Da verificare sul testo integrale e sulle edizioni successive prima dell'approvazione clinica."
+    "notes": "Classi aggiornate alla linea guida ESC 2026 sullo scompenso, verificate su sintesi della linea guida (testo integrale non consultabile da questo ambiente). Livelli di evidenza 2026: A, B1, B2, C. Le voci con fonte ESC 2021/2023 non sono state confermate nella 2026. Da verificare sul testo integrale."
   },
   "pathology": "carenza-marziale",
   "groups": [
@@ -35,16 +39,16 @@
         },
         {
           "id": "ferrosint",
-          "text": "Ferro EV nei pazienti sintomatici con FE ≤45% (o scompenso recente) per migliorare sintomi e qualità di vita",
+          "text": "Ferro EV nell'HFrEF sintomatico con carenza marziale, per sintomi e qualità di vita",
           "cor": "I",
-          "loe": "A",
+          "loe": "B1",
           "drugIds": []
         },
         {
           "id": "ferrohosp",
           "text": "Ferro EV per ridurre il rischio di ospedalizzazione per scompenso",
           "cor": "IIa",
-          "loe": "A",
+          "loe": "B1",
           "drugIds": []
         }
       ]

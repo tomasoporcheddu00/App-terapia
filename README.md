@@ -34,7 +34,7 @@ Applicazione web statica, installabile e utilizzabile offline: nessun backend, n
   strutturali, tromboembolismo, prevenzione, circolo polmonare, popolazioni speciali.
 - **Mappa terapeutica** — si selezionano le patologie del paziente e per ognuna si apre una mappa
   concettuale delle terapie raccomandate, con **classe di raccomandazione e livello di evidenza**
-  (25 patologie, 250 raccomandazioni); le voci spuntate formano un riepilogo testuale e l'app
+  (26 patologie, 264 raccomandazioni; scompenso aggiornato alla ESC 2026, embolia polmonare con AHA/ACC 2026); le voci spuntate formano un riepilogo testuale e l'app
   segnala incongruenze e associazioni rischiose (49 regole farmaco-farmaco e farmaco-patologia,
   doppioni di classe, interazioni, controindicazioni delle schede).
 - **Simulazione** — profilo del paziente → voci pertinenti delle schede (vedi sotto).
