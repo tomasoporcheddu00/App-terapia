@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "id": "perindopril",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "Dosaggio degli inibitori del RAS nella CKD: analisi delle RCP autorizzate (J Clin Med 2025)",
+        "url": "https://www.mdpi.com/2077-0383/15/20/7771"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "perindopril",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 15,
+        "status": "adjust",
+        "text": "Dialisi: 2–2,5 mg nei giorni di dialisi.",
+        "verified": true
+      },
+      {
+        "from": 15,
+        "to": 30,
+        "status": "adjust",
+        "text": "2–2,5 mg a giorni alterni.",
+        "verified": true
+      },
+      {
+        "from": 30,
+        "to": 60,
+        "status": "adjust",
+        "text": "2–2,5 mg/die.",
+        "verified": true
+      },
+      {
+        "from": 60,
+        "to": null,
+        "status": "ok",
+        "text": "4–5 mg/die (secondo il sale).",
+        "verified": true
+      }
+    ],
+    "dialysis": null,
+    "note": "Le dosi dipendono dal sale (erbumina 4 mg = arginina 5 mg); l'etichetta USA non stabilisce sicurezza sotto 30 mL/min."
+  },
+  "hepatic": {
+    "A": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": false
+    },
+    "B": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": false
+    },
+    "C": {
+      "status": "caution",
+      "text": "Cautela.",
+      "verified": false
+    },
+    "note": null
+  }
+}

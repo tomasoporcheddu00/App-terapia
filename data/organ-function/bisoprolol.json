@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "bisoprolol",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "Farmacocinetica del bisoprololo nell'insufficienza renale (PubMed)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2897297/"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "bisoprolol",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 20,
+        "status": "adjust",
+        "text": "Insufficienza grave o terminale: massimo 10 mg/die.",
+        "verified": true
+      },
+      {
+        "from": 20,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento nella lieve-moderata.",
+        "verified": true
+      }
+    ],
+    "dialysis": null,
+    "note": "Clearance bilanciata renale ed epatica: accumulo limitato in entrambe le insufficienze."
+  },
+  "hepatic": {
+    "A": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": false
+    },
+    "B": {
+      "status": "ok",
+      "text": "Nessun aggiustamento.",
+      "verified": false
+    },
+    "C": {
+      "status": "adjust",
+      "text": "Massimo 10 mg/die (da verificare sulla RCP).",
+      "verified": false
+    },
+    "note": null
+  }
+}

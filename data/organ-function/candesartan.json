@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "candesartan",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "Farmacocinetica del candesartan nell'insufficienza renale ed epatica (PubMed)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9331004/"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "candesartan",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 30,
+        "status": "adjust",
+        "text": "Esposizione ed emivita aumentate: dose iniziale più bassa nell'insufficienza grave e in dialisi (4 mg, da verificare sulla RCP).",
+        "verified": true
+      },
+      {
+        "from": 30,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento della dose iniziale.",
+        "verified": false
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "ok",
+      "text": "Farmacocinetica invariata nella lieve-moderata.",
+      "verified": true
+    },
+    "B": {
+      "status": "ok",
+      "text": "Farmacocinetica invariata nella lieve-moderata.",
+      "verified": true
+    },
+    "C": {
+      "status": "caution",
+      "text": "Insufficienza epatica grave e colestasi: verificare sulla RCP (controindicazione nella maggior parte dei sartani).",
+      "verified": false
+    },
+    "note": null
+  }
+}

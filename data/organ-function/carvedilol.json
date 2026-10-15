@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "id": "carvedilol",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "Medscape, carvedilolo",
+        "url": "https://reference.medscape.com/drug/coreg-cr-carvedilol-342357"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "carvedilol",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento renale.",
+        "verified": false
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "caution",
+      "text": "Cautela.",
+      "verified": true
+    },
+    "B": {
+      "status": "caution",
+      "text": "Cautela.",
+      "verified": true
+    },
+    "C": {
+      "status": "contraindicated",
+      "text": "Controindicato nell'insufficienza epatica grave.",
+      "verified": true
+    },
+    "note": null
+  }
+}

@@ -3,11 +3,11 @@
     "id": "amiodarone",
     "schemaVersion": "1.0.0",
     "editorialStatus": "source-review",
-    "updatedAt": "2026-10-13",
+    "updatedAt": "2026-10-15",
     "sources": [
       {
-        "label": "RCP amiodarone: da verificare",
-        "url": null
+        "label": "Etichetta USA amiodarone (Drugs.com)",
+        "url": "https://www.drugs.com/pro/amiodarone.html"
       }
     ],
     "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
@@ -30,17 +30,17 @@
   "hepatic": {
     "A": {
       "status": "caution",
-      "text": "Monitorare le transaminasi.",
-      "verified": false
+      "text": "Transaminasi al basale e periodiche; ridurre o sospendere se >3 volte la norma (o raddoppio da un basale elevato).",
+      "verified": true
     },
     "B": {
       "status": "caution",
-      "text": "Cautela; monitorare la funzionalità epatica (epatotossicità).",
-      "verified": false
+      "text": "Transaminasi al basale e periodiche; ridurre o sospendere se >3 volte la norma. Rischio raro di insufficienza epatica acuta con la via EV.",
+      "verified": true
     },
     "C": {
       "status": "avoid",
-      "text": "Evitare se possibile: epatotossicità.",
+      "text": "Epatotossicità potenzialmente fatale: evitare se possibile.",
       "verified": false
     },
     "note": null

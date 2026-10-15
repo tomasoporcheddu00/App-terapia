@@ -3,8 +3,16 @@
     "id": "sacubitril-valsartan",
     "schemaVersion": "1.0.0",
     "editorialStatus": "source-review",
-    "updatedAt": "2026-10-13",
+    "updatedAt": "2026-10-15",
     "sources": [
+      {
+        "label": "RCP Entresto 24/26 mg (eMC)",
+        "url": "https://www.medicines.org.uk/emc/product/7751/smpc"
+      },
+      {
+        "label": "EMA, informazioni sul prodotto Entresto",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/entresto-epar-product-information_en.pdf"
+      },
       {
         "label": "Novartis UK, posologia di Entresto",
         "url": "https://www.pro.novartis.com/uk-en/medicines/cardio-metabolic/entresto/dosing"
@@ -31,22 +39,22 @@
         "from": 15,
         "to": 30,
         "status": "adjust",
-        "text": "Dose iniziale 24/26 mg due volte al giorno; cautela (ipotensione).",
+        "text": "Usare con cautela; metà della dose iniziale (24/26 mg due volte al giorno).",
         "verified": true
       },
       {
         "from": 30,
         "to": 60,
         "status": "adjust",
-        "text": "Considerare la dose iniziale di 24/26 mg due volte al giorno (insufficienza moderata).",
-        "verified": false
+        "text": "Considerare metà della dose iniziale (24/26 mg due volte al giorno).",
+        "verified": true
       },
       {
         "from": 60,
         "to": null,
         "status": "ok",
         "text": "Nessun aggiustamento della dose iniziale.",
-        "verified": false
+        "verified": true
       }
     ],
     "dialysis": null,
@@ -56,17 +64,17 @@
     "A": {
       "status": "ok",
       "text": "Nessun aggiustamento.",
-      "verified": true
+      "verified": false
     },
     "B": {
       "status": "adjust",
-      "text": "Dose iniziale 24/26 mg due volte al giorno.",
+      "text": "Esperienza limitata (anche con AST/ALT >2 volte la norma): cautela e metà della dose iniziale.",
       "verified": true
     },
     "C": {
       "status": "contraindicated",
-      "text": "RCP UE: controindicato nell'insufficienza epatica grave, cirrosi biliare e colestasi (da verificare). Etichetta USA: non raccomandato.",
-      "verified": false
+      "text": "Controindicato nell'insufficienza epatica grave, nella cirrosi biliare e nella colestasi.",
+      "verified": true
     },
     "note": null
   }

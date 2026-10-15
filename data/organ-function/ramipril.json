@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "id": "ramipril",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "Dosaggio degli inibitori del RAS nella CKD: analisi delle RCP autorizzate (J Clin Med 2025)",
+        "url": "https://www.mdpi.com/2077-0383/15/20/7771"
+      },
+      {
+        "label": "FDA, etichetta Altace (8.6 insufficienza renale)",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2010/019901s055lbl.pdf"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "ramipril",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 10,
+        "status": "adjust",
+        "text": "Dialisi: 1,25 mg dopo la seduta; titolare con cautela.",
+        "verified": true
+      },
+      {
+        "from": 10,
+        "to": 30,
+        "status": "adjust",
+        "text": "Dose iniziale 1,25 mg/die, massimo 5 mg/die.",
+        "verified": true
+      },
+      {
+        "from": 30,
+        "to": 60,
+        "status": "adjust",
+        "text": "Dose iniziale invariata (RCP UE) ma massimo 5 mg/die; l'etichetta USA indica 1,25 mg iniziali con CrCl ≤40.",
+        "verified": true
+      },
+      {
+        "from": 60,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento.",
+        "verified": true
+      }
+    ],
+    "dialysis": null,
+    "note": "Controllo di potassio e creatinina dopo l'avvio e ogni aumento di dose."
+  },
+  "hepatic": {
+    "A": {
+      "status": "caution",
+      "text": "Cautela; dose massima ridotta nelle RCP.",
+      "verified": false
+    },
+    "B": {
+      "status": "caution",
+      "text": "Cautela; dose massima ridotta nelle RCP.",
+      "verified": false
+    },
+    "C": {
+      "status": "avoid",
+      "text": "Non raccomandato nell'insufficienza epatica grave.",
+      "verified": false
+    },
+    "note": null
+  }
+}

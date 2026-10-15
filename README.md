@@ -46,7 +46,7 @@ Applicazione web statica, installabile e utilizzabile offline: nessun backend, n
   delle velocità, boli, accesso venoso e avvertenze; calcolatore libero per qualsiasi preparazione.
 - **Rene e fegato** — soglie strutturate di funzione renale (CrCl Cockcroft-Gault o eGFR CKD-EPI
   2021, secondo la RCP di ciascun farmaco) e di funzione epatica (Child-Pugh, con calcolatore) per
-  35 farmaci: gliflozine, anticoagulanti orali e parenterali, antiaggreganti, farmaci dello scompenso,
+  44 farmaci: gliflozine, anticoagulanti orali e parenterali, antiaggreganti, farmaci dello scompenso,
   antiaritmici, ipolipemizzanti, metformina. Tabella immediata «controindicato / non raccomandato /
   adeguare la dose» per i valori del paziente; le stesse soglie compaiono nella scheda del farmaco,
   nella Simulazione e negli avvisi della Mappa.

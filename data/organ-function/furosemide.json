@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "id": "furosemide",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "Medscape, furosemide",
+        "url": "https://reference.medscape.com/drug/lasix-furoscix-furosemide-342423"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "furosemide",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": null,
+        "status": "caution",
+        "text": "Controindicata nell'anuria; nell'insufficienza renale servono dosi più alte per ottenere l'effetto, con controllo di elettroliti e volemia.",
+        "verified": false
+      }
+    ],
+    "dialysis": {
+      "status": "contraindicated",
+      "text": "Controindicata nell'anuria.",
+      "verified": true
+    },
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "caution",
+      "text": "Cautela: gli squilibri elettrolitici possono precipitare l'encefalopatia.",
+      "verified": false
+    },
+    "B": {
+      "status": "caution",
+      "text": "Cautela: gli squilibri elettrolitici possono precipitare l'encefalopatia.",
+      "verified": false
+    },
+    "C": {
+      "status": "contraindicated",
+      "text": "Non iniziare nel coma epatico.",
+      "verified": true
+    },
+    "note": null
+  }
+}

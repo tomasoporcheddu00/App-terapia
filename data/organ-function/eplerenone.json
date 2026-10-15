@@ -3,8 +3,12 @@
     "id": "eplerenone",
     "schemaVersion": "1.0.0",
     "editorialStatus": "source-review",
-    "updatedAt": "2026-10-13",
+    "updatedAt": "2026-10-15",
     "sources": [
+      {
+        "label": "RCP Inspra 25 mg (eMC)",
+        "url": "https://www.medicines.org.uk/emc/product/120/smpc"
+      },
       {
         "label": "FDA, etichetta Inspra 2016",
         "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/021437s013lbl.pdf"
@@ -14,20 +18,20 @@
   },
   "drugId": "eplerenone",
   "renal": {
-    "metric": "CrCl",
+    "metric": "eGFR",
     "bands": [
       {
         "from": null,
-        "to": 31,
+        "to": 30,
         "status": "contraindicated",
-        "text": "Controindicato con CrCl ≤30 mL/min.",
+        "text": "Controindicato con eGFR <30 mL/min/1,73 m² (RCP UE; l'etichetta USA usa CrCl ≤30).",
         "verified": true
       },
       {
-        "from": 31,
+        "from": 30,
         "to": 50,
         "status": "caution",
-        "text": "Nello scompenso post-infarto usare con cautela (CrCl ≤50); nell'ipertensione l'etichetta USA lo controindica sotto 50.",
+        "text": "Cautela e controllo frequente del potassio; nell'ipertensione l'etichetta USA lo controindica sotto 50.",
         "verified": true
       },
       {
@@ -39,23 +43,23 @@
       }
     ],
     "dialysis": null,
-    "note": null
+    "note": "Controindicato anche con potassio >5,0 mmol/L all'avvio."
   },
   "hepatic": {
     "A": {
       "status": "ok",
-      "text": "Nessun aggiustamento.",
-      "verified": false
+      "text": "Nessun aggiustamento iniziale; controllo frequente del potassio.",
+      "verified": true
     },
     "B": {
       "status": "caution",
-      "text": "Cautela; controllo del potassio.",
-      "verified": false
+      "text": "Nessun aggiustamento iniziale; controllo frequente del potassio.",
+      "verified": true
     },
     "C": {
       "status": "contraindicated",
-      "text": "Controindicato nell'insufficienza epatica grave (Child-Pugh C) secondo la RCP UE.",
-      "verified": false
+      "text": "Controindicato nell'insufficienza epatica grave (Child-Pugh C).",
+      "verified": true
     },
     "note": null
   }

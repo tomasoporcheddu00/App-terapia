@@ -2,6 +2,24 @@
 
 Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/).
 
+## [1.4.0] — 2026-10-15
+
+### Aggiunto
+- Rene e fegato: 9 nuovi farmaci (ramipril, perindopril, telmisartan, candesartan, atenololo,
+  bisoprololo, carvedilolo, furosemide, indapamide): 44 in totale.
+
+### Corretto
+- Soglie confermate dalle fonti: 161 su 244 (prima 95 su 195). Tra le correzioni:
+  sacubitril/valsartan con metà della dose iniziale per eGFR 30–60 e Child-Pugh B e controindicato
+  in Child-Pugh C, cirrosi biliare e colestasi (RCP UE attuale); eplerenone su eGFR <30 come nella
+  RCP UE; acenocumarolo controindicato nell'insufficienza renale ed epatica grave (RCP Sintrom);
+  digossina con dosi di mantenimento per fascia; ezetimibe non raccomandato in Child-Pugh B e C;
+  clopidogrel, prasugrel, finerenone, empagliflozin, acido bempedoico, amiodarone e trimetazidina
+  confermati sulle RCP.
+
+### Modificato
+- Service worker: cache `v6`.
+
 ## [1.3.0] — 2026-10-13
 
 ### Aggiunto

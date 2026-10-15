@@ -3,8 +3,12 @@
     "id": "prasugrel",
     "schemaVersion": "1.0.0",
     "editorialStatus": "source-review",
-    "updatedAt": "2026-10-13",
+    "updatedAt": "2026-10-15",
     "sources": [
+      {
+        "label": "RCP Efient 10 mg (eMC)",
+        "url": "https://www.medicines.org.uk/emc/product/100009/smpc"
+      },
       {
         "label": "Hull University Teaching Hospitals NHS, informazioni di prescrizione del prasugrel",
         "url": "https://www.hey.nhs.uk/wp/wp-content/uploads/2016/03/prasugrel.pdf"
@@ -20,15 +24,15 @@
         "from": null,
         "to": 15,
         "status": "caution",
-        "text": "Esperienza limitata nell'insufficienza renale terminale.",
-        "verified": false
+        "text": "Nessun aggiustamento anche nell'insufficienza renale terminale, ma esperienza limitata e rischio emorragico aumentato: cautela.",
+        "verified": true
       },
       {
         "from": 15,
         "to": null,
         "status": "ok",
-        "text": "Nessun aggiustamento.",
-        "verified": false
+        "text": "Nessun aggiustamento; esperienza limitata nell'insufficienza renale: cautela.",
+        "verified": true
       }
     ],
     "dialysis": null,
@@ -42,8 +46,8 @@
     },
     "B": {
       "status": "caution",
-      "text": "Esperienza limitata: cautela.",
-      "verified": false
+      "text": "Esperienza limitata nell'insufficienza epatica moderata: cautela.",
+      "verified": true
     },
     "C": {
       "status": "contraindicated",

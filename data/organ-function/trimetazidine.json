@@ -3,11 +3,11 @@
     "id": "trimetazidine",
     "schemaVersion": "1.0.0",
     "editorialStatus": "source-review",
-    "updatedAt": "2026-10-13",
+    "updatedAt": "2026-10-15",
     "sources": [
       {
-        "label": "EMA, revisione della trimetazidina 2012: da verificare",
-        "url": null
+        "label": "RCP Vastarel MR (Servier)",
+        "url": "https://myservier.com.ph/wp-content/uploads/2024/03/Vastarel-MR-SmPC_S-24-01-2018_A-09-03-2018.pdf"
       }
     ],
     "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
@@ -20,14 +20,14 @@
         "from": null,
         "to": 30,
         "status": "contraindicated",
-        "text": "Controindicata con CrCl <30 mL/min (revisione EMA 2012).",
-        "verified": false
+        "text": "Controindicata con CrCl <30 mL/min (esposizione triplicata).",
+        "verified": true
       },
       {
         "from": 30,
         "to": 60,
         "status": "adjust",
-        "text": "Dose ridotta (35 mg una volta al giorno).",
+        "text": "Esposizione aumentata di circa 1,7 volte: dose ridotta (35 mg una volta al giorno, da verificare sulla RCP).",
         "verified": false
       },
       {

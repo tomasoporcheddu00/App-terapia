@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "telmisartan",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "EMA, informazioni sul prodotto Telmisartan Actavis",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/telmisartan-actavis-epar-product-information_en.pdf"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "telmisartan",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 30,
+        "status": "adjust",
+        "text": "Esperienza limitata nell'insufficienza grave e in emodialisi: dose iniziale 20 mg.",
+        "verified": true
+      },
+      {
+        "from": 30,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento nella lieve-moderata.",
+        "verified": true
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "adjust",
+      "text": "Dose massima 40 mg/die.",
+      "verified": true
+    },
+    "B": {
+      "status": "adjust",
+      "text": "Dose massima 40 mg/die.",
+      "verified": true
+    },
+    "C": {
+      "status": "contraindicated",
+      "text": "Controindicato nell'insufficienza epatica grave.",
+      "verified": true
+    },
+    "note": "Controindicato anche nei disturbi ostruttivi biliari e nella colestasi (eliminazione biliare)."
+  }
+}

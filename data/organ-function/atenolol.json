@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "id": "atenolol",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "Drugs.com, posologia dell'atenololo",
+        "url": "https://www.drugs.com/dosage/atenolol.html"
+      },
+      {
+        "label": "AAFP, aggiustamenti di dose nella malattia renale cronica",
+        "url": "https://www.aafp.org/afp/2007/0515/p1487"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "atenolol",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 15,
+        "status": "adjust",
+        "text": "Massimo 25 mg/die (o 50 mg a giorni alterni).",
+        "verified": true
+      },
+      {
+        "from": 15,
+        "to": 36,
+        "status": "adjust",
+        "text": "Massimo 50 mg/die: accumulo significativo sotto 35 mL/min.",
+        "verified": true
+      },
+      {
+        "from": 36,
+        "to": null,
+        "status": "ok",
+        "text": "Nessun aggiustamento.",
+        "verified": true
+      }
+    ],
+    "dialysis": null,
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "ok",
+      "text": "Nessun aggiustamento (eliminazione renale).",
+      "verified": false
+    },
+    "B": {
+      "status": "ok",
+      "text": "Nessun aggiustamento (eliminazione renale).",
+      "verified": false
+    },
+    "C": {
+      "status": "ok",
+      "text": "Nessun aggiustamento (eliminazione renale).",
+      "verified": false
+    },
+    "note": null
+  }
+}

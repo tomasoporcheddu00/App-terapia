@@ -3,8 +3,12 @@
     "id": "finerenone",
     "schemaVersion": "1.0.0",
     "editorialStatus": "source-review",
-    "updatedAt": "2026-10-13",
+    "updatedAt": "2026-10-15",
     "sources": [
+      {
+        "label": "RCP Kerendia 20 mg (UE, febbraio 2023)",
+        "url": "https://www.bayer.com/sites/default/files/kerendia-smpc-feb-2023-0.pdf"
+      },
       {
         "label": "EMA, informazioni sul prodotto Kerendia",
         "url": "https://www.ema.europa.eu/en/documents/product-information/kerendia-epar-product-information_en.pdf"
@@ -60,13 +64,13 @@
     },
     "B": {
       "status": "caution",
-      "text": "Cautela; controllo del potassio.",
-      "verified": false
+      "text": "Nessun aggiustamento iniziale; controllo aggiuntivo del potassio.",
+      "verified": true
     },
     "C": {
       "status": "avoid",
-      "text": "Non iniziare nell'insufficienza epatica grave.",
-      "verified": false
+      "text": "Non iniziare nell'insufficienza epatica grave (non studiata).",
+      "verified": true
     },
     "note": null
   }

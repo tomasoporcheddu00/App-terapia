@@ -3,11 +3,19 @@
     "id": "digoxin",
     "schemaVersion": "1.0.0",
     "editorialStatus": "source-review",
-    "updatedAt": "2026-10-13",
+    "updatedAt": "2026-10-15",
     "sources": [
       {
-        "label": "RCP digossina: da verificare",
-        "url": null
+        "label": "FDA, etichetta Lanoxin",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/020405s013lbl.pdf"
+      },
+      {
+        "label": "RCP digossina (testo UE, copia NAFDAC)",
+        "url": "https://admin.greenbook.nafdac.gov.ng/uploadImage/smpc_files/2024/11/20/2024112076bac859-8177-5543-9a9c-bab94da0a8b3.pdf"
+      },
+      {
+        "label": "RACGP, prescrizione nell'anziano con insufficienza renale cronica",
+        "url": "https://www.racgp.org.au/afp/2013/january-february/prescribing-for-older-people-with-cri"
       }
     ],
     "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
@@ -18,44 +26,51 @@
     "bands": [
       {
         "from": null,
+        "to": 10,
+        "status": "adjust",
+        "text": "Mantenimento 62,5 µg una volta al giorno o a giorni alterni; digossinemia.",
+        "verified": true
+      },
+      {
+        "from": 10,
         "to": 30,
         "status": "adjust",
-        "text": "Eliminazione renale: ridurre marcatamente la dose di mantenimento e dosare la digossinemia.",
-        "verified": false
+        "text": "Mantenimento 62,5–125 µg/die; digossinemia.",
+        "verified": true
       },
       {
         "from": 30,
         "to": 60,
         "status": "adjust",
-        "text": "Ridurre la dose di mantenimento; digossinemia.",
-        "verified": false
+        "text": "Ridurre dose di carico e di mantenimento; digossinemia (rischio di livelli tossici dopo carico standard con CrCl <60).",
+        "verified": true
       },
       {
         "from": 60,
         "to": null,
         "status": "ok",
         "text": "Dose standard; digossinemia se dubbi.",
-        "verified": false
+        "verified": true
       }
     ],
     "dialysis": null,
-    "note": null
+    "note": "Le fasce 10–30 e <10 provengono da una fonte che usa l'eGFR: applicarle alla clearance stimata con cautela."
   },
   "hepatic": {
     "A": {
       "status": "ok",
-      "text": "Nessun aggiustamento (eliminazione prevalentemente renale).",
-      "verified": false
+      "text": "Nessun aggiustamento specifico.",
+      "verified": true
     },
     "B": {
       "status": "ok",
-      "text": "Nessun aggiustamento (eliminazione prevalentemente renale).",
-      "verified": false
+      "text": "Nessun aggiustamento specifico.",
+      "verified": true
     },
     "C": {
       "status": "ok",
-      "text": "Nessun aggiustamento (eliminazione prevalentemente renale).",
-      "verified": false
+      "text": "Nessun aggiustamento specifico.",
+      "verified": true
     },
     "note": null
   }

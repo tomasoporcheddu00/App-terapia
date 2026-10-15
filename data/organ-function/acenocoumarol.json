@@ -3,11 +3,15 @@
     "id": "acenocoumarol",
     "schemaVersion": "1.0.0",
     "editorialStatus": "source-review",
-    "updatedAt": "2026-10-13",
+    "updatedAt": "2026-10-15",
     "sources": [
       {
-        "label": "RCP Sintrom (acenocumarolo): da verificare sulla banca dati AIFA",
-        "url": null
+        "label": "RCP Sintrom 1 mg (Mediately)",
+        "url": "https://mediately.co/it/drugs/6Gu09O9UmaQPz0xj0zavqhdUoSM/sintrom-20-cpr-1-mg"
+      },
+      {
+        "label": "RCP Sintrom (Torrinomedica)",
+        "url": "https://farmaci.torrinomedica.it/sintrom"
       }
     ],
     "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
@@ -20,15 +24,15 @@
         "from": null,
         "to": 30,
         "status": "contraindicated",
-        "text": "Controindicato nella compromissione renale grave (RCP Sintrom, come riportato nella scheda curata).",
-        "verified": false
+        "text": "Controindicato nell'insufficienza renale grave (aumento del rischio emorragico).",
+        "verified": true
       },
       {
         "from": 30,
         "to": null,
-        "status": "ok",
-        "text": "Dose guidata dall'INR.",
-        "verified": false
+        "status": "caution",
+        "text": "Lieve-moderata: cautela; INR guidato.",
+        "verified": true
       }
     ],
     "dialysis": null,
@@ -37,18 +41,18 @@
   "hepatic": {
     "A": {
       "status": "caution",
-      "text": "INR ravvicinato.",
-      "verified": false
+      "text": "Lieve-moderata: cautela.",
+      "verified": true
     },
     "B": {
       "status": "caution",
-      "text": "INR ravvicinato.",
-      "verified": false
+      "text": "Lieve-moderata: cautela.",
+      "verified": true
     },
     "C": {
       "status": "contraindicated",
-      "text": "Insufficienza epatica grave: verificare sulla RCP Sintrom (controindicazione nella maggior parte degli AVK).",
-      "verified": false
+      "text": "Controindicato nell'insufficienza epatica grave.",
+      "verified": true
     },
     "note": null
   }

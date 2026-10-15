@@ -3,11 +3,11 @@
     "id": "ezetimibe",
     "schemaVersion": "1.0.0",
     "editorialStatus": "source-review",
-    "updatedAt": "2026-10-13",
+    "updatedAt": "2026-10-15",
     "sources": [
       {
-        "label": "RCP ezetimibe: da verificare",
-        "url": null
+        "label": "RCP Ezetrol 10 mg (eMC)",
+        "url": "https://www.medicines.org.uk/emc/product/6792/smpc"
       }
     ],
     "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
@@ -20,8 +20,8 @@
         "from": null,
         "to": null,
         "status": "ok",
-        "text": "Nessun aggiustamento renale.",
-        "verified": false
+        "text": "Nessun aggiustamento renale (esposizione ~1,5 volte nell'insufficienza grave, non clinicamente rilevante).",
+        "verified": true
       }
     ],
     "dialysis": null,
@@ -31,17 +31,17 @@
     "A": {
       "status": "ok",
       "text": "Nessun aggiustamento.",
-      "verified": false
+      "verified": true
     },
     "B": {
       "status": "avoid",
-      "text": "Non raccomandato nell'insufficienza epatica moderata.",
-      "verified": false
+      "text": "Non raccomandato nell'insufficienza epatica moderata (Child-Pugh 7–9).",
+      "verified": true
     },
     "C": {
       "status": "avoid",
-      "text": "Non raccomandato nell'insufficienza epatica grave.",
-      "verified": false
+      "text": "Non raccomandato nell'insufficienza epatica grave (Child-Pugh >9).",
+      "verified": true
     },
     "note": null
   }

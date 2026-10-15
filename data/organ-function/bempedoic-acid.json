@@ -3,11 +3,15 @@
     "id": "bempedoic-acid",
     "schemaVersion": "1.0.0",
     "editorialStatus": "source-review",
-    "updatedAt": "2026-10-13",
+    "updatedAt": "2026-10-15",
     "sources": [
       {
-        "label": "RCP Nilemdo: da verificare",
-        "url": null
+        "label": "EMA, informazioni sul prodotto Nilemdo",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/nilemdo-epar-product-information_en.pdf"
+      },
+      {
+        "label": "RCP Nilemdo 180 mg (eMC)",
+        "url": "https://www.medicines.org.uk/emc/product/11743/smpc"
       }
     ],
     "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
@@ -20,15 +24,15 @@
         "from": null,
         "to": 30,
         "status": "caution",
-        "text": "Dati limitati nell'insufficienza renale grave e in dialisi.",
-        "verified": false
+        "text": "Esperienza limitata con eGFR <30 e in dialisi: monitoraggio aggiuntivo delle reazioni avverse.",
+        "verified": true
       },
       {
         "from": 30,
         "to": null,
         "status": "ok",
         "text": "Nessun aggiustamento.",
-        "verified": false
+        "verified": true
       }
     ],
     "dialysis": null,
@@ -47,8 +51,8 @@
     },
     "C": {
       "status": "caution",
-      "text": "Nessun dato: cautela.",
-      "verified": false
+      "text": "Nessun dato: considerare test di funzionalità epatica periodici.",
+      "verified": true
     },
     "note": null
   }

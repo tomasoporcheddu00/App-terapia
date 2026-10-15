@@ -3,11 +3,15 @@
     "id": "clopidogrel",
     "schemaVersion": "1.0.0",
     "editorialStatus": "source-review",
-    "updatedAt": "2026-10-13",
+    "updatedAt": "2026-10-15",
     "sources": [
       {
-        "label": "RCP Plavix (UE): da verificare",
-        "url": null
+        "label": "RCP Plavix 75 mg (eMC)",
+        "url": "https://www.medicines.org.uk/emc/product/5935/smpc"
+      },
+      {
+        "label": "EMA, informazioni sul prodotto Plavix",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/plavix-epar-product-information_en.pdf"
       }
     ],
     "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
@@ -20,15 +24,15 @@
         "from": null,
         "to": 30,
         "status": "caution",
-        "text": "Esperienza limitata nell'insufficienza renale grave.",
-        "verified": false
+        "text": "Esperienza terapeutica limitata nell'insufficienza renale grave: cautela.",
+        "verified": true
       },
       {
         "from": 30,
         "to": null,
         "status": "ok",
         "text": "Nessun aggiustamento.",
-        "verified": false
+        "verified": true
       }
     ],
     "dialysis": null,
@@ -42,13 +46,13 @@
     },
     "B": {
       "status": "caution",
-      "text": "Cautela (rischio emorragico).",
-      "verified": false
+      "text": "Esperienza limitata nell'epatopatia moderata con possibile diatesi emorragica: cautela.",
+      "verified": true
     },
     "C": {
       "status": "contraindicated",
-      "text": "Controindicato nell'insufficienza epatica grave (RCP UE).",
-      "verified": false
+      "text": "Controindicato nell'insufficienza epatica grave.",
+      "verified": true
     },
     "note": null
   }

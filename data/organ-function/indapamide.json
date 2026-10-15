@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "id": "indapamide",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "Drugs.com, monografia dell'indapamide",
+        "url": "https://www.drugs.com/monograph/indapamide.html"
+      }
+    ],
+    "notes": "Soglie dalle RCP europee quando disponibili; le differenze con l'etichetta USA sono segnalate nel testo. «Da verificare» indica una soglia non confermata dalle fonti consultate in questa revisione."
+  },
+  "drugId": "indapamide",
+  "renal": {
+    "metric": "CrCl",
+    "bands": [
+      {
+        "from": null,
+        "to": 30,
+        "status": "avoid",
+        "text": "Inefficace e sconsigliata nell'insufficienza renale grave; controindicata nell'anuria.",
+        "verified": false
+      },
+      {
+        "from": 30,
+        "to": null,
+        "status": "ok",
+        "text": "Controllo di sodio e potassio.",
+        "verified": false
+      }
+    ],
+    "dialysis": {
+      "status": "contraindicated",
+      "text": "Controindicata nell'anuria.",
+      "verified": true
+    },
+    "note": null
+  },
+  "hepatic": {
+    "A": {
+      "status": "caution",
+      "text": "Cautela: le alterazioni idroelettrolitiche possono precipitare il coma epatico.",
+      "verified": true
+    },
+    "B": {
+      "status": "caution",
+      "text": "Cautela: le alterazioni idroelettrolitiche possono precipitare il coma epatico.",
+      "verified": true
+    },
+    "C": {
+      "status": "avoid",
+      "text": "Evitare nell'insufficienza epatica grave.",
+      "verified": false
+    },
+    "note": null
+  }
+}

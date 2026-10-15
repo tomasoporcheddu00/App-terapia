@@ -3,8 +3,12 @@
     "id": "empagliflozin",
     "schemaVersion": "1.0.0",
     "editorialStatus": "source-review",
-    "updatedAt": "2026-10-13",
+    "updatedAt": "2026-10-15",
     "sources": [
+      {
+        "label": "RCP empagliflozin 10 mg (eMC)",
+        "url": "https://www.medicines.org.uk/emc/product/5441/smpc"
+      },
       {
         "label": "EMA, informazioni sul prodotto Jardiance",
         "url": "https://www.ema.europa.eu/en/documents/product-information/jardiance-epar-product-information_en.pdf"
@@ -57,17 +61,17 @@
     "A": {
       "status": "ok",
       "text": "Nessun aggiustamento.",
-      "verified": false
+      "verified": true
     },
     "B": {
       "status": "ok",
       "text": "Nessun aggiustamento.",
-      "verified": false
+      "verified": true
     },
     "C": {
       "status": "avoid",
-      "text": "Esperienza limitata nell'insufficienza epatica grave: uso non raccomandato.",
-      "verified": false
+      "text": "Esposizione aumentata ed esperienza limitata nell'insufficienza epatica grave: uso non raccomandato.",
+      "verified": true
     },
     "note": null
   }
