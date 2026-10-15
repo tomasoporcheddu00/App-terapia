@@ -86,12 +86,28 @@
         },
         {
           "id": "icosa",
-          "text": "Icosapent etile 2 g due volte al giorno se trigliceridi 135–499 mg/dL nonostante statina, in alto rischio",
-          "cor": "IIb",
+          "text": "Icosapent etile ad alte dosi (2 g due volte al giorno) per ridurre i trigliceridi in alto rischio nonostante statina",
+          "cor": "IIa",
           "loe": "B",
           "drugIds": [
             "icosapent-ethyl"
-          ]
+          ],
+          "source": {
+            "label": "ESC/EAS 2025 - Focused Update delle linee guida 2019 sulla gestione delle dislipidemie",
+            "url": "https://academic.oup.com/eurheartj/article/46/42/4359/8234482"
+          }
+        },
+        {
+          "id": "lpa",
+          "text": "Dosaggio della lipoproteina(a) almeno una volta nella vita in tutti gli adulti (elevata se ≥50 mg/dL)",
+          "cor": "IIa",
+          "loe": null,
+          "drugIds": [],
+          "note": "Livello di evidenza non riportato nelle sintesi consultate.",
+          "source": {
+            "label": "ESC/EAS 2025 - Focused Update delle linee guida 2019 sulla gestione delle dislipidemie",
+            "url": "https://academic.oup.com/eurheartj/article/46/42/4359/8234482"
+          }
         }
       ]
     }

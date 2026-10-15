@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "angina-microvascolare",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "ESC 2024 - Linee guida sulle sindromi coronariche croniche",
+        "url": "https://academic.oup.com/eurheartj/article/45/36/3415/7743115"
+      },
+      {
+        "label": "Il dilemma ANOCA/INOCA alla luce delle linee guida ESC 2024 (J Clin Med)",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11508505/"
+      }
+    ],
+    "notes": "Classi verificate su sintesi ufficiali o commenti pubblicati della linea guida (testo integrale non consultabile da questo ambiente). Dove il livello non è riportato resta vuoto; «raccomandato» nel testo = classe I. Da verificare sul testo integrale."
+  },
+  "pathology": "angina-microvascolare",
+  "groups": [
+    {
+      "id": "terapia",
+      "label": "Angina microvascolare (ANOCA/INOCA)",
+      "items": [
+        {
+          "id": "cft",
+          "text": "Test di funzione coronarica invasivo nell'angina refrattaria, per definire l'endotipo e guidare la terapia",
+          "cor": null,
+          "loe": null,
+          "drugIds": [],
+          "note": "Classe non riportata nelle sintesi consultate."
+        },
+        {
+          "id": "mirata",
+          "text": "Terapia medica mirata sui risultati del test di funzione coronarica",
+          "cor": "IIa",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "bb",
+          "text": "Betabloccante per i sintomi nella disfunzione microvascolare con riserva di flusso ridotta",
+          "cor": "IIa",
+          "loe": null,
+          "drugIds": [
+            "bisoprolol",
+            "nebivolol"
+          ],
+          "note": "«Dovrebbe essere considerato» nel testo."
+        },
+        {
+          "id": "acei",
+          "text": "ACE-inibitore nella disfunzione endoteliale",
+          "cor": "IIa",
+          "loe": null,
+          "drugIds": [
+            "ramipril",
+            "perindopril"
+          ],
+          "note": "«Dovrebbe essere considerato» nel testo."
+        },
+        {
+          "id": "rano",
+          "text": "Ranolazina",
+          "cor": null,
+          "loe": null,
+          "drugIds": [
+            "ranolazine"
+          ],
+          "note": "Risultati incoraggianti; classe non riportata nelle sintesi consultate."
+        }
+      ]
+    }
+  ]
+}

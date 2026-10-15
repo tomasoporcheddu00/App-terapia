@@ -12,7 +12,11 @@ Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/).
   insufficienza aortica, mitralica e tricuspidale (ESC/EACTS 2025: TAVI dai 70 anni I A, intervento
   nell'asintomatico IIa A, TEER nella secondaria I A), pericardite e miocardite (ESC 2025), CKD e
   rischio cardiovascolare (ESC/ERA 2026), gravidanza e ipertensione in gravidanza (ESC 2025),
-  arresto cardiaco (ERC 2025, senza classi). Totale: 36 patologie, 316 raccomandazioni.
+  arresto cardiaco (ERC 2025, senza classi). Poi arteriopatia periferica e sindrome aortica acuta (ESC 2024),
+  angina vasospastica e microvascolare (ESC 2024), ipertrigliceridemia e ipercolesterolemia familiare
+  (ESC/EAS 2025); icosapent etile portato a IIa B e aggiunto il dosaggio della Lp(a) (IIa) nella
+  dislipidemia. Totale: 42 patologie, 343 raccomandazioni.
+- Pagina Info: conteggi di Mappa, regole, UTIC e schede rene/fegato.
 
 ### Corretto
 - Soglie confermate dalle fonti: 161 su 244 (prima 95 su 195). Tra le correzioni:

@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "id": "angina-vasospastica",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "ESC 2024 - Linee guida sulle sindromi coronariche croniche",
+        "url": "https://academic.oup.com/eurheartj/article/45/36/3415/7743115"
+      },
+      {
+        "label": "Il dilemma ANOCA/INOCA alla luce delle linee guida ESC 2024 (J Clin Med)",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11508505/"
+      }
+    ],
+    "notes": "Classi verificate su sintesi ufficiali o commenti pubblicati della linea guida (testo integrale non consultabile da questo ambiente). Dove il livello non è riportato resta vuoto; «raccomandato» nel testo = classe I. Da verificare sul testo integrale."
+  },
+  "pathology": "angina-vasospastica",
+  "groups": [
+    {
+      "id": "terapia",
+      "label": "Angina vasospastica",
+      "items": [
+        {
+          "id": "ccb",
+          "text": "Calcioantagonisti per controllare i sintomi e prevenire l'ischemia e le complicanze potenzialmente fatali",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [
+            "amlodipine",
+            "diltiazem",
+            "verapamil",
+            "nifedipine"
+          ],
+          "note": "Le fonti riportano livello A o B: verificare."
+        },
+        {
+          "id": "nitrati",
+          "text": "Nitrati a lunga durata d'azione per prevenire le recidive",
+          "cor": "IIa",
+          "loe": null,
+          "drugIds": [
+            "isosorbide-mononitrate"
+          ],
+          "note": "«Dovrebbero essere considerati» nel testo."
+        },
+        {
+          "id": "cft",
+          "text": "Test di funzione coronarica invasivo nell'angina refrattaria con sospetta ANOCA/INOCA, per definire l'endotipo",
+          "cor": null,
+          "loe": null,
+          "drugIds": [],
+          "note": "Classe non riportata nelle sintesi consultate."
+        }
+      ]
+    }
+  ]
+}

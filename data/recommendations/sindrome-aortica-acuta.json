@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "sindrome-aortica-acuta",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "ESC 2024 - Linee guida sulle malattie arteriose periferiche e aortiche",
+        "url": "https://academic.oup.com/eurheartj/article/45/36/3538/7738955"
+      },
+      {
+        "label": "Rev Esp Cardiol - Commento alle linee guida ESC 2024 su malattie periferiche e aortiche",
+        "url": "https://www.revespcardiol.org/en-comments-on-2024-esc-guidelines-articulo-S1885585724003050"
+      }
+    ],
+    "notes": "Classi verificate su sintesi ufficiali o commenti pubblicati della linea guida (testo integrale non consultabile da questo ambiente). Dove il livello non è riportato resta vuoto; «raccomandato» nel testo = classe I. Da verificare sul testo integrale."
+  },
+  "pathology": "sindrome-aortica-acuta",
+  "groups": [
+    {
+      "id": "gestione",
+      "label": "Sindrome aortica acuta",
+      "items": [
+        {
+          "id": "tevar",
+          "text": "Dissezione di tipo B complicata con anatomia favorevole: riparazione endovascolare (TEVAR)",
+          "cor": "I",
+          "loe": "B",
+          "drugIds": []
+        },
+        {
+          "id": "bb",
+          "text": "Controllo di frequenza e pressione con betabloccante EV, poi vasodilatatore se necessario",
+          "cor": null,
+          "loe": null,
+          "drugIds": [
+            "esmolol",
+            "labetalol",
+            "sodium-nitroprusside"
+          ],
+          "note": "Classe e valori-obiettivo non riportati nelle sintesi consultate."
+        },
+        {
+          "id": "noanti",
+          "text": "Evitare antitrombotici e fibrinolitici finché la dissezione non è esclusa o trattata",
+          "cor": null,
+          "loe": null,
+          "drugIds": [],
+          "note": "Indicazione di sicurezza (vedi regole di associazione), non raccomandazione graduata."
+        }
+      ]
+    }
+  ]
+}
