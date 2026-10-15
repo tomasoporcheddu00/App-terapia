@@ -133,7 +133,8 @@ data/                         contenuti clinici in JSON, versionabili e revision
   drugs/ (186)  classes/ (76)  dosing/ (228)  interactions/ (180)  regulatory/ (181)
   recommendations/ (25)  rules/ (1)   ← Mappa terapeutica
   infusions/ (15)                     ← UTIC
-  organ-function/ (35)                ← Rene e fegato
+  organ-function/ (44)                ← Rene e fegato
+  regimens/ (4)                       ← schemi posologici (pericardite, miocardite)
 tools/                        validate_data.py, extract_data.py, embed_data.py
 docs/                         architettura, politica dei contenuti, revisione clinica, storico
 .github/                      workflow Pages, modelli di segnalazione

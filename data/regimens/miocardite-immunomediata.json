@@ -1,0 +1,91 @@
+{
+  "order": 4,
+  "meta": {
+    "id": "miocardite-immunomediata",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "ESC 2025 - Linee guida su miocardite e pericardite",
+        "url": "https://academic.oup.com/eurheartj/article/46/40/3952/8234483"
+      },
+      {
+        "label": "Rev Esp Cardiol - Commento alle linee guida ESC 2025 su miocardite e pericardite",
+        "url": "https://www.revespcardiol.org/en-insights-into-the-2025-esc-guidelines-fo-articulo-S1885585725003226"
+      }
+    ],
+    "notes": "Schema da linee guida e documenti di consenso citati; dosi per l'adulto. Le righe «da verificare» non sono confermate dalle fonti consultate."
+  },
+  "id": "miocardite-immunomediata",
+  "title": "Miocardite immunomediata (dopo biopsia)",
+  "pathologies": [
+    "miocardite"
+  ],
+  "context": "Immunosoppressione solo nelle forme immunomediate provate o fortemente sospette (miocardite a cellule giganti, eosinofila, sarcoidosi cardiaca); evitarla nell'infezione virale attiva.",
+  "class": null,
+  "lines": [
+    {
+      "name": "Prednisone",
+      "drugId": "prednisone",
+      "role": "Miocardite a cellule giganti, forma non grave: prima linea",
+      "dose": "1 mg/kg/die per os, poi scalo",
+      "duration": null,
+      "taper": null,
+      "weight": {
+        "type": "perkg",
+        "min": 1,
+        "max": 1,
+        "unit": "mg/die",
+        "cap": null
+      },
+      "note": null,
+      "verified": true
+    },
+    {
+      "name": "Metilprednisolone EV → prednisone + azatioprina o micofenolato, oppure ciclosporina",
+      "drugId": "azathioprine",
+      "role": "Miocardite a cellule giganti, forma grave",
+      "dose": "Dosi da protocollo del centro",
+      "duration": null,
+      "taper": null,
+      "weight": null,
+      "note": "Avvio immediato al sospetto per evitare la progressione; seconda linea: globulina antitimocitaria, ciclofosfamide, rituximab.",
+      "verified": true
+    },
+    {
+      "name": "Prednisone",
+      "drugId": "prednisone",
+      "role": "Sarcoidosi cardiaca, forma non grave: prima linea",
+      "dose": "1 mg/kg/die (in genere 40–60 mg/die), poi scalo",
+      "duration": null,
+      "taper": null,
+      "weight": {
+        "type": "perkg",
+        "min": 1,
+        "max": 1,
+        "unit": "mg/die",
+        "cap": 60
+      },
+      "note": null,
+      "verified": true
+    },
+    {
+      "name": "Corticosteroidi",
+      "drugId": "prednisone",
+      "role": "Miocardite eosinofila",
+      "dose": "Dose non riportata nelle sintesi consultate",
+      "duration": null,
+      "taper": null,
+      "weight": null,
+      "note": "Trattare anche la causa sottostante (farmaci, parassiti, sindromi ipereosinofile).",
+      "verified": false
+    }
+  ],
+  "general": [
+    "Gestione in centro con esperienza: la scelta e le dosi dipendono dall'istologia.",
+    "Terapia dello scompenso e delle aritmie secondo le rispettive linee guida."
+  ],
+  "taperTable": null,
+  "taperNote": null
+}

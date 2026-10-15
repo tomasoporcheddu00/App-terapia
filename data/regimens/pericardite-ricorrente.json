@@ -1,0 +1,163 @@
+{
+  "order": 2,
+  "meta": {
+    "id": "pericardite-ricorrente",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "ESC 2025 - Linee guida su miocardite e pericardite",
+        "url": "https://academic.oup.com/eurheartj/article/46/40/3952/8234483"
+      },
+      {
+        "label": "ACC 2025 - Concise Clinical Guidance sulla pericardite (tabella dei farmaci)",
+        "url": "https://www.jacc.org/doi/10.1016/j.jacc.2025.05.023"
+      },
+      {
+        "label": "ESC 2015 - Linee guida sulle malattie del pericardio (tabelle posologiche)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7539677/"
+      },
+      {
+        "label": "J Cardiovasc Med 2024 - Terapia medica della pericardite: dosi e scalo",
+        "url": "https://journals.lww.com/jcardiovascularmedicine/fulltext/2024/06000/medical_therapy_of_pericarditis__tips_and_tricks.2.aspx"
+      },
+      {
+        "label": "Rev Esp Cardiol - Commento alle linee guida ESC 2025 su miocardite e pericardite",
+        "url": "https://www.revespcardiol.org/en-insights-into-the-2025-esc-guidelines-fo-articulo-S1885585725003226"
+      }
+    ],
+    "notes": "Schema da linee guida e documenti di consenso citati; dosi per l'adulto. Le righe «da verificare» non sono confermate dalle fonti consultate."
+  },
+  "id": "pericardite-ricorrente",
+  "title": "Pericardite incessante o ricorrente",
+  "pathologies": [
+    "pericardite"
+  ],
+  "context": "Colchicina sempre come base, con aspirina/FANS o corticosteroide a dose bassa-moderata; anti-IL-1 nelle forme corticodipendenti o refrattarie con fenotipo infiammatorio.",
+  "class": null,
+  "lines": [
+    {
+      "name": "Colchicina",
+      "drugId": "colchicine",
+      "role": "Sempre associata (prima linea)",
+      "dose": "0,5 mg/die se peso <70 kg; 0,5 mg due volte al giorno se ≥70 kg; nessuna dose di carico",
+      "duration": "Almeno 6 mesi (anche più a lungo nelle recidive)",
+      "taper": "Sospenderla per ultima, dopo remissione stabile; lo scalo non è obbligatorio (eventualmente 0,5 mg a giorni alterni se <70 kg o 0,5 mg/die se ≥70 kg).",
+      "weight": {
+        "type": "threshold",
+        "cut": 70,
+        "below": "0,5 mg una volta al giorno",
+        "above": "0,5 mg due volte al giorno"
+      },
+      "note": "Ridurre la dose nell'insufficienza renale ed evitare con inibitori forti del CYP3A4 o della P-gp (vedi Rene e fegato).",
+      "verified": true
+    },
+    {
+      "name": "Acido acetilsalicilico",
+      "drugId": "aspirin",
+      "role": "Prima linea (in alternativa ai FANS)",
+      "dose": "750–1000 mg ogni 8 ore",
+      "duration": "1–2 settimane nelle forme non complicate, guidata da sintomi e PCR",
+      "taper": "Ridurre di 250–500 mg ogni 1–2 settimane",
+      "weight": null,
+      "note": "Preferibile se già indicata la terapia antiaggregante (es. post-infarto).",
+      "verified": true
+    },
+    {
+      "name": "Ibuprofene",
+      "drugId": "ibuprofen",
+      "role": "Prima linea (in alternativa all'aspirina)",
+      "dose": "600–800 mg ogni 8 ore",
+      "duration": "1–2 settimane nelle forme non complicate, guidata da sintomi e PCR",
+      "taper": "Ridurre di 200–400 mg ogni 1–2 settimane",
+      "weight": null,
+      "note": null,
+      "verified": true
+    },
+    {
+      "name": "Indometacina",
+      "drugId": "indomethacin",
+      "role": "Alternativa, di solito nelle recidive",
+      "dose": "25–50 mg ogni 8 ore",
+      "duration": null,
+      "taper": "Ridurre di 25 mg ogni 1–2 settimane, sulla base della valutazione clinica",
+      "weight": null,
+      "note": null,
+      "verified": true
+    },
+    {
+      "name": "Prednisone",
+      "drugId": "prednisone",
+      "role": "Seconda linea (con colchicina)",
+      "dose": "0,2–0,5 mg/kg/die",
+      "duration": "Settimane-mesi",
+      "taper": "Scalo molto lento nell'arco di mesi; la soglia critica per le recidive è 10–15 mg/die.",
+      "weight": {
+        "type": "perkg",
+        "min": 0.2,
+        "max": 0.5,
+        "unit": "mg/die",
+        "cap": null
+      },
+      "note": "Se la recidiva compare durante lo scalo: proseguire la colchicina e aggiungere un FANS invece di aumentare il corticosteroide (ESC 2025).",
+      "verified": true
+    },
+    {
+      "name": "Anakinra",
+      "drugId": "anakinra",
+      "role": "Terza linea: anti-IL-1",
+      "dose": "1–2 mg/kg/die sottocute, massimo 100 mg/die",
+      "duration": "Oltre 12 mesi; sospensione molto graduale",
+      "taper": null,
+      "weight": {
+        "type": "perkg",
+        "min": 1,
+        "max": 2,
+        "unit": "mg/die",
+        "cap": 100
+      },
+      "note": null,
+      "verified": true
+    },
+    {
+      "name": "Rilonacept",
+      "drugId": "rilonacept",
+      "role": "Terza linea: anti-IL-1",
+      "dose": "320 mg sottocute come carico, poi 160 mg una volta alla settimana",
+      "duration": "Oltre 12 mesi",
+      "taper": null,
+      "weight": null,
+      "note": "Verificare la disponibilità e la rimborsabilità in Italia.",
+      "verified": true
+    }
+  ],
+  "general": [
+    "Colchicina sempre come base e sospesa per ultima.",
+    "Corticosteroidi a dose bassa-moderata, mai come sostituto della colchicina; evitare dosi alte.",
+    "Anti-IL-1 (anakinra, rilonacept) indicati come opzione preferenziale nelle forme ricorrenti infiammatorie o corticodipendenti (classe IIa secondo una sintesi della ESC 2025: verificare)."
+  ],
+  "taperTable": [
+    {
+      "range": ">50 mg/die",
+      "step": "10 mg/die",
+      "interval": "ogni 1–2 settimane"
+    },
+    {
+      "range": "50–25 mg/die",
+      "step": "5–10 mg/die",
+      "interval": "ogni 1–2 settimane"
+    },
+    {
+      "range": "25–15 mg/die",
+      "step": "2,5 mg/die",
+      "interval": "ogni 2–4 settimane"
+    },
+    {
+      "range": "<15 mg/die",
+      "step": "1,25–2,5 mg/die",
+      "interval": "ogni 2–6 settimane"
+    }
+  ],
+  "taperNote": "Schema di scalo dei corticosteroidi della linea guida ESC 2015: non confermato dalle fonti consultate in questa revisione, da verificare."
+}

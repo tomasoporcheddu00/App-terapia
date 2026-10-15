@@ -81,6 +81,7 @@ def main() -> int:
     diff += confronta("recommendations", d.get("recommendations", {}) or {}, carica("recommendations"), ["meta", "groups"])
     diff += confronta("rules", d.get("rules", {}) or {}, carica("rules"), ["rules"])
     diff += confronta("organ-function", d.get("organ", {}) or {}, carica("organ-function"), ["meta", "drugId", "renal", "hepatic"])
+    diff += confronta("regimens", d.get("regimens", {}) or {}, carica("regimens"), ["meta", "lines", "pathologies", "taperTable"])
     diff += confronta("infusions", d.get("infusions", {}) or {}, carica("infusions"), ["meta", "drugId", "preparation", "dose", "bolus", "warnings"])
 
     print(f"App: {len(drugs_html)} farmaci · {len(classes_html)} classi · "

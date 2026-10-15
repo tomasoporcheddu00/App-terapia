@@ -1,0 +1,93 @@
+{
+  "order": 1,
+  "meta": {
+    "id": "pericardite-acuta",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "ESC 2025 - Linee guida su miocardite e pericardite",
+        "url": "https://academic.oup.com/eurheartj/article/46/40/3952/8234483"
+      },
+      {
+        "label": "ESC 2015 - Linee guida sulle malattie del pericardio (tabelle posologiche)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7539677/"
+      },
+      {
+        "label": "J Cardiovasc Med 2024 - Terapia medica della pericardite: dosi e scalo",
+        "url": "https://journals.lww.com/jcardiovascularmedicine/fulltext/2024/06000/medical_therapy_of_pericarditis__tips_and_tricks.2.aspx"
+      },
+      {
+        "label": "ESC Cardiology Practice - Gestione della pericardite acuta: terapia e follow-up",
+        "url": "https://www.escardio.org/communities/councils/cardiology-practice/scientific-documents-and-publications/ejournal/volume-15/Management-of-acute-pericarditis-treatment-and-follow-up/"
+      }
+    ],
+    "notes": "Schema da linee guida e documenti di consenso citati; dosi per l'adulto. Le righe «da verificare» non sono confermate dalle fonti consultate."
+  },
+  "id": "pericardite-acuta",
+  "title": "Pericardite acuta — primo episodio",
+  "pathologies": [
+    "pericardite"
+  ],
+  "context": "Terapia di prima linea: aspirina o FANS a dose piena antinfiammatoria + colchicina (classe I A, ESC 2025).",
+  "class": "I A",
+  "lines": [
+    {
+      "name": "Acido acetilsalicilico",
+      "drugId": "aspirin",
+      "role": "Prima linea (in alternativa ai FANS)",
+      "dose": "750–1000 mg ogni 8 ore",
+      "duration": "1–2 settimane nelle forme non complicate, guidata da sintomi e PCR",
+      "taper": "Ridurre di 250–500 mg ogni 1–2 settimane",
+      "weight": null,
+      "note": "Preferibile se già indicata la terapia antiaggregante (es. post-infarto).",
+      "verified": true
+    },
+    {
+      "name": "Ibuprofene",
+      "drugId": "ibuprofen",
+      "role": "Prima linea (in alternativa all'aspirina)",
+      "dose": "600–800 mg ogni 8 ore",
+      "duration": "1–2 settimane nelle forme non complicate, guidata da sintomi e PCR",
+      "taper": "Ridurre di 200–400 mg ogni 1–2 settimane",
+      "weight": null,
+      "note": null,
+      "verified": true
+    },
+    {
+      "name": "Colchicina",
+      "drugId": "colchicine",
+      "role": "Sempre associata (prima linea)",
+      "dose": "0,5 mg/die se peso <70 kg; 0,5 mg due volte al giorno se ≥70 kg; nessuna dose di carico",
+      "duration": "Almeno 3 mesi",
+      "taper": "Sospenderla per ultima, dopo remissione stabile; lo scalo non è obbligatorio (eventualmente 0,5 mg a giorni alterni se <70 kg o 0,5 mg/die se ≥70 kg).",
+      "weight": {
+        "type": "threshold",
+        "cut": 70,
+        "below": "0,5 mg una volta al giorno",
+        "above": "0,5 mg due volte al giorno"
+      },
+      "note": "Ridurre la dose nell'insufficienza renale ed evitare con inibitori forti del CYP3A4 o della P-gp (vedi Rene e fegato).",
+      "verified": true
+    },
+    {
+      "name": "Inibitore di pompa protonica",
+      "drugId": null,
+      "role": "Gastroprotezione",
+      "dose": "Sempre durante aspirina o FANS a dose antinfiammatoria",
+      "duration": null,
+      "taper": null,
+      "weight": null,
+      "note": "Raccomandata dalla linea guida ESC 2025.",
+      "verified": true
+    }
+  ],
+  "general": [
+    "Dose piena antinfiammatoria ogni 8 ore, poi scalo graduale guidato da sintomi e PCR.",
+    "I corticosteroidi non sono di prima scelta: aumentano il rischio di recidiva; riservarli a controindicazioni o mancata risposta.",
+    "Rivalutare la PCR per guidare durata e scalo della terapia."
+  ],
+  "taperTable": null,
+  "taperNote": null
+}

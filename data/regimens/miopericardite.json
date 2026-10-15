@@ -1,0 +1,71 @@
+{
+  "order": 3,
+  "meta": {
+    "id": "miopericardite",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "ESC 2025 - Linee guida su miocardite e pericardite",
+        "url": "https://academic.oup.com/eurheartj/article/46/40/3952/8234483"
+      },
+      {
+        "label": "Rev Esp Cardiol - Commento alle linee guida ESC 2025 su miocardite e pericardite",
+        "url": "https://www.revespcardiol.org/en-insights-into-the-2025-esc-guidelines-fo-articulo-S1885585725003226"
+      }
+    ],
+    "notes": "Schema da linee guida e documenti di consenso citati; dosi per l'adulto. Le righe «da verificare» non sono confermate dalle fonti consultate."
+  },
+  "id": "miopericardite",
+  "title": "Miopericardite",
+  "pathologies": [
+    "pericardite",
+    "miocardite"
+  ],
+  "context": "Terapia guidata dai sintomi; colchicina aggiunta se ci sono sintomi di pericardite, per prevenire le recidive (classe IIa, ESC 2025).",
+  "class": null,
+  "lines": [
+    {
+      "name": "Paracetamolo, aspirina o FANS",
+      "drugId": null,
+      "role": "Sintomatica",
+      "dose": "In base ai sintomi",
+      "duration": null,
+      "taper": null,
+      "weight": null,
+      "note": "La linea guida indica una terapia guidata dai sintomi; gastroprotezione sempre con aspirina o FANS.",
+      "verified": true
+    },
+    {
+      "name": "Colchicina",
+      "drugId": "colchicine",
+      "role": "Sempre associata (prima linea)",
+      "dose": "0,5 mg/die se peso <70 kg; 0,5 mg due volte al giorno se ≥70 kg; nessuna dose di carico",
+      "duration": "Secondo il quadro pericarditico (almeno 3 mesi se pericardite)",
+      "taper": "Sospenderla per ultima, dopo remissione stabile; lo scalo non è obbligatorio (eventualmente 0,5 mg a giorni alterni se <70 kg o 0,5 mg/die se ≥70 kg).",
+      "weight": {
+        "type": "threshold",
+        "cut": 70,
+        "below": "0,5 mg una volta al giorno",
+        "above": "0,5 mg due volte al giorno"
+      },
+      "note": "Ridurre la dose nell'insufficienza renale ed evitare con inibitori forti del CYP3A4 o della P-gp (vedi Rene e fegato).",
+      "verified": true
+    },
+    {
+      "name": "Inibitore di pompa protonica",
+      "drugId": null,
+      "role": "Gastroprotezione",
+      "dose": "Sempre durante aspirina o FANS a dose antinfiammatoria",
+      "duration": null,
+      "taper": null,
+      "weight": null,
+      "note": "Raccomandata dalla linea guida ESC 2025.",
+      "verified": true
+    }
+  ],
+  "general": [],
+  "taperTable": null,
+  "taperNote": null
+}

@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
 Incorpora in index.html le cartelle di data/ che l'app legge dall'oggetto DATA ma che non
-richiedono il generatore completo: oggi data/recommendations/ e data/rules/ (Mappa terapeutica) data/infusions/ (UTIC) e data/organ-function/ (soglie renali ed epatiche).
+richiedono il generatore completo: oggi data/recommendations/ e data/rules/ (Mappa terapeutica) data/infusions/ (UTIC) data/organ-function/ (soglie renali ed epatiche) e data/regimens/ (schemi posologici).
 
-Riscrive solo le chiavi DATA.recommendations, DATA.rules, DATA.infusions e DATA.organ; il resto di DATA resta identico.
+Riscrive solo le chiavi DATA.recommendations, DATA.rules, DATA.infusions, DATA.organ e DATA.regimens; il resto di DATA resta identico.
 
 Uso:
     python3 tools/embed_data.py          # aggiorna index.html
@@ -36,23 +36,24 @@ def main() -> int:
     d = json.loads(m.group(2))
 
     recs, rules, inf, org = carica("recommendations"), carica("rules"), carica("infusions"), carica("organ-function")
+    reg = carica("regimens")
     slugs = {p["slug"] for p in d.get("pathologies", [])}
     ignote = sorted(set(recs) - slugs)
     if ignote:
         sys.exit("ERRORE: raccomandazioni per patologie inesistenti nell'app: " + ", ".join(ignote))
 
-    if d.get("recommendations") == recs and d.get("rules") == rules and d.get("infusions") == inf and d.get("organ") == org:
+    if d.get("recommendations") == recs and d.get("rules") == rules and d.get("infusions") == inf and d.get("organ") == org and d.get("regimens") == reg:
         print("DATA già allineato con data/recommendations, rules, infusions e organ-function")
         return 0
     if args.check:
         print("DATA non allineato: eseguire python3 tools/embed_data.py")
         return 1
 
-    d["recommendations"], d["rules"], d["infusions"], d["organ"] = recs, rules, inf, org
+    d["recommendations"], d["rules"], d["infusions"], d["organ"], d["regimens"] = recs, rules, inf, org, reg
     nuovo = json.dumps(d, ensure_ascii=False)
     HTML.write_text(h[:m.start(2)] + nuovo + h[m.end(2):], encoding="utf-8")
     print(f"index.html aggiornato: {len(recs)} patologie con classi, "
-          f"{sum(len(o.get('rules', [])) for o in rules.values())} regole, {len(inf)} infusioni, {len(org)} schede rene/fegato")
+          f"{sum(len(o.get('rules', [])) for o in rules.values())} regole, {len(inf)} infusioni, {len(org)} schede rene/fegato, {len(reg)} schemi")
     return 0
 
 

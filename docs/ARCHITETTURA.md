@@ -87,8 +87,12 @@ Simulazione**, ed è la ragione per cui quella funzione non deve indovinare null
   `renal.bands` (fasce contigue `from` ≤ valore < `to`, con `status`, `text`, `verified`),
   `renal.dialysis`, `hepatic.A/B/C` (Child-Pugh) e fonti con data di revisione.
 
-Queste quattro cartelle si incorporano in `index.html` con `python3 tools/embed_data.py`, che riscrive
-solo le chiavi `DATA.recommendations`, `DATA.rules`, `DATA.infusions` e `DATA.organ`.
+- `data/regimens/<id>.json` — schemi posologici: patologie collegate, contesto, righe (farmaco,
+  ruolo, dose, durata, scalo, calcolo sul peso `threshold` o `perkg`, nota, `verified`), tabella di
+  scalo facoltativa e fonti.
+
+Queste cinque cartelle si incorporano in `index.html` con `python3 tools/embed_data.py`, che riscrive
+solo le chiavi `DATA.recommendations`, `DATA.rules`, `DATA.infusions`, `DATA.organ` e `DATA.regimens`.
 
 ## Come funzionano le sezioni interattive
 

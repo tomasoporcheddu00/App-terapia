@@ -71,6 +71,7 @@ def main() -> int:
     rules = carica("rules")
     infusions = carica("infusions")
     organ = carica("organ-function")
+    regimens = carica("regimens")
 
     if not drugs:
         err("nessuna scheda-farmaco trovata")
@@ -272,6 +273,27 @@ def main() -> int:
             elif not hk.get("verified"):
                 avv(f"{p}: Child-Pugh {k} da verificare")
 
+    # ---- schemi posologici ----
+    slugs_noti = set(recommendations)
+    for rid, o in regimens.items():
+        p = f"regimens/{rid}"
+        if o.get("id") != rid or (o.get("meta") or {}).get("id") != rid:
+            err(f"{p}: id e meta.id devono coincidere con il nome del file")
+        if not ((o.get("meta") or {}).get("sources") or []):
+            err(f"{p}: nessuna fonte")
+        if not o.get("pathologies"):
+            err(f"{p}: nessuna patologia collegata")
+        for ln in o.get("lines") or []:
+            if ln.get("drugId") and ln["drugId"] not in drugs:
+                err(f"{p}: drugId '{ln['drugId']}' non esiste")
+            if not ln.get("dose"):
+                err(f"{p}: riga '{ln.get('name')}' senza dose")
+            w = ln.get("weight")
+            if w and w.get("type") not in ("threshold", "perkg"):
+                err(f"{p}: tipo di calcolo sul peso sconosciuto '{w.get('type')}'")
+            if not ln.get("verified"):
+                avv(f"{p}: riga '{ln.get('name')}' da verificare")
+
     # ---- copertura ----
     popolati = [k for k, v in drugs.items() if stato(v) != "placeholder"]
     for did in popolati:
@@ -295,6 +317,7 @@ def main() -> int:
         "regole associazioni": sum(len(o.get("rules") or []) for o in rules.values()),
         "infusioni UTIC": len(infusions),
         "schede rene/fegato": len(organ),
+        "schemi posologici": len(regimens),
         "errori": len(errori),
         "avvisi": len(avvisi),
     }

@@ -2,6 +2,19 @@
 
 Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/).
 
+## [1.5.0] — 2026-10-15
+
+### Aggiunto
+- **Schemi posologici antinfiammatori** per pericardite e miocardite, nelle schede di «Terapia per
+  patologia» e nella Mappa terapeutica: pericardite acuta (aspirina/FANS a dose piena + colchicina,
+  I A), pericardite incessante/ricorrente (colchicina ≥6 mesi, FANS, prednisone 0,2–0,5 mg/kg/die
+  con tabella di scalo, anakinra, rilonacept), miopericardite, miocardite immunomediata (cellule
+  giganti, sarcoidosi, eosinofila). Per ogni farmaco dose, durata e scalo; calcolo automatico sul
+  peso (colchicina <70/≥70 kg, prednisone e anakinra in mg/kg con tetto). Fonti: ESC 2025, ESC 2015,
+  ACC 2025; la tabella di scalo dei corticosteroidi è marcata «da verificare».
+- `data/regimens/`, incorporata da `embed_data.py` e controllata da `validate_data.py` ed
+  `extract_data.py`. Service worker `v7`.
+
 ## [1.4.0] — 2026-10-15
 
 ### Aggiunto
