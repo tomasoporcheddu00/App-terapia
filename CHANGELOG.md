@@ -8,6 +8,12 @@ Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/).
 - Rene e fegato: 9 nuovi farmaci (ramipril, perindopril, telmisartan, candesartan, atenololo,
   bisoprololo, carvedilolo, furosemide, indapamide): 44 in totale.
 
+- Mappa terapeutica: classi per 10 nuove patologie da linee guida 2025-2026 — stenosi aortica e
+  insufficienza aortica, mitralica e tricuspidale (ESC/EACTS 2025: TAVI dai 70 anni I A, intervento
+  nell'asintomatico IIa A, TEER nella secondaria I A), pericardite e miocardite (ESC 2025), CKD e
+  rischio cardiovascolare (ESC/ERA 2026), gravidanza e ipertensione in gravidanza (ESC 2025),
+  arresto cardiaco (ERC 2025, senza classi). Totale: 36 patologie, 316 raccomandazioni.
+
 ### Corretto
 - Soglie confermate dalle fonti: 161 su 244 (prima 95 su 195). Tra le correzioni:
   sacubitril/valsartan con metà della dose iniziale per eGFR 30–60 e Child-Pugh B e controindicato

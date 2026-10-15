@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "insufficienza-aortica",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "ESC/EACTS 2025 - Linee guida sulle valvulopatie (Praz et al., Eur Heart J 2025)",
+        "url": "https://academic.oup.com/ehjvshd/article/1/1/xwag001/8429937"
+      },
+      {
+        "label": "PCRonline - Novità delle linee guida ESC/EACTS 2025 sulle valvulopatie",
+        "url": "https://www.pcronline.com/News/Congress-coverages/ESC/2025/Key-updates-in-valvular-heart-disease-management-insights-from-the-2025-ESC-EACTS-Guidelines"
+      }
+    ],
+    "notes": "Classi verificate su sintesi ufficiali o commenti pubblicati della linea guida (testo integrale non consultabile da questo ambiente). Dove il livello non è riportato resta vuoto; «raccomandato» nel testo = classe I. Da verificare sul testo integrale."
+  },
+  "pathology": "insufficienza-aortica",
+  "groups": [
+    {
+      "id": "intervento",
+      "label": "Insufficienza aortica",
+      "items": [
+        {
+          "id": "taviar",
+          "text": "TAVI per l'insufficienza aortica nei pazienti non candidabili alla chirurgia",
+          "cor": "IIb",
+          "loe": "B",
+          "drugIds": []
+        },
+        {
+          "id": "chir",
+          "text": "Chirurgia nell'insufficienza severa sintomatica o con dilatazione/disfunzione ventricolare sinistra",
+          "cor": null,
+          "loe": null,
+          "drugIds": [],
+          "note": "Soglie e classi da verificare sul testo integrale."
+        }
+      ]
+    }
+  ]
+}

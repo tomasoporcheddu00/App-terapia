@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "id": "miocardite",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "ESC 2025 - Linee guida su miocardite e pericardite",
+        "url": "https://academic.oup.com/eurheartj/article/46/40/3952/8234483"
+      },
+      {
+        "label": "Rev Esp Cardiol - Commento alle linee guida ESC 2025 su miocardite e pericardite",
+        "url": "https://www.revespcardiol.org/en-insights-into-the-2025-esc-guidelines-fo-articulo-S1885585725003226"
+      }
+    ],
+    "notes": "Classi verificate su sintesi ufficiali o commenti pubblicati della linea guida (testo integrale non consultabile da questo ambiente). Dove il livello non è riportato resta vuoto; «raccomandato» nel testo = classe I. Da verificare sul testo integrale."
+  },
+  "pathology": "miocardite",
+  "groups": [
+    {
+      "id": "diagnosi",
+      "label": "Diagnosi e stratificazione",
+      "items": [
+        {
+          "id": "cmr",
+          "text": "Risonanza magnetica cardiaca: equivalente alla biopsia per la diagnosi nei casi a rischio basso-intermedio",
+          "cor": null,
+          "loe": null,
+          "drugIds": [],
+          "note": "Classe non riportata nelle sintesi consultate."
+        },
+        {
+          "id": "emb",
+          "text": "Biopsia endomiocardica nella miocardite ad alto rischio con instabilità emodinamica e nei casi a rischio intermedio che non rispondono alla terapia",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [],
+          "note": "«Raccomandata» nel testo. Livello di evidenza non riportato nelle sintesi consultate."
+        },
+        {
+          "id": "cmrfu",
+          "text": "Risonanza magnetica di controllo per documentare la guarigione",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [],
+          "note": "Livello di evidenza non riportato nelle sintesi consultate."
+        }
+      ]
+    },
+    {
+      "id": "terapia",
+      "label": "Terapia",
+      "items": [
+        {
+          "id": "hf",
+          "text": "Terapia dello scompenso e delle aritmie secondo le rispettive linee guida",
+          "cor": null,
+          "loe": null,
+          "drugIds": [],
+          "note": "Non graduata nelle sintesi consultate."
+        },
+        {
+          "id": "immuno",
+          "text": "Immunosoppressione mirata solo nelle forme immunomediate documentate dalla biopsia (a cellule giganti, eosinofila, sarcoidosi)",
+          "cor": null,
+          "loe": null,
+          "drugIds": [
+            "prednisone",
+            "azathioprine"
+          ],
+          "note": "Classe non riportata nelle sintesi consultate."
+        }
+      ]
+    }
+  ]
+}

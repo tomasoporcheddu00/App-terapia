@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "id": "stenosi-aortica",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "ESC/EACTS 2025 - Linee guida sulle valvulopatie (Praz et al., Eur Heart J 2025)",
+        "url": "https://academic.oup.com/ehjvshd/article/1/1/xwag001/8429937"
+      },
+      {
+        "label": "PCRonline - Novità delle linee guida ESC/EACTS 2025 sulle valvulopatie",
+        "url": "https://www.pcronline.com/News/Congress-coverages/ESC/2025/Key-updates-in-valvular-heart-disease-management-insights-from-the-2025-ESC-EACTS-Guidelines"
+      }
+    ],
+    "notes": "Classi verificate su sintesi ufficiali o commenti pubblicati della linea guida (testo integrale non consultabile da questo ambiente). Dove il livello non è riportato resta vuoto; «raccomandato» nel testo = classe I. Da verificare sul testo integrale."
+  },
+  "pathology": "stenosi-aortica",
+  "groups": [
+    {
+      "id": "intervento",
+      "label": "Intervento nella stenosi aortica severa",
+      "items": [
+        {
+          "id": "tavi70",
+          "text": "TAVI transfemorale nei pazienti ≥70 anni con valvola tricuspide e anatomia idonea",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "savr70",
+          "text": "Sostituzione chirurgica (SAVR) nei pazienti <70 anni a basso rischio chirurgico",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "asint",
+          "text": "Intervento come alternativa alla sorveglianza nella stenosi severa asintomatica con FE ≥50% e basso rischio procedurale",
+          "cor": "IIa",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "ccta",
+          "text": "Angio-TC coronarica per escludere la coronaropatia nei candidati a TAVI",
+          "cor": "IIa",
+          "loe": "B",
+          "drugIds": []
+        },
+        {
+          "id": "bicuspide",
+          "text": "Valvola bicuspide: trattamento percutaneo solo nei pazienti ad alto rischio chirurgico con anatomia idonea",
+          "cor": null,
+          "loe": null,
+          "drugIds": [],
+          "note": "Classe non riportata nelle sintesi consultate."
+        }
+      ]
+    },
+    {
+      "id": "medica",
+      "label": "Gestione medica",
+      "items": [
+        {
+          "id": "vasodil",
+          "text": "Vasodilatatori (nitrati, inibitori PDE5) con cautela nella stenosi severa: rischio di ipotensione",
+          "cor": null,
+          "loe": null,
+          "drugIds": [
+            "nitroglycerin",
+            "sildenafil"
+          ],
+          "note": "Indicazione di prudenza, non raccomandazione graduata."
+        }
+      ]
+    }
+  ]
+}

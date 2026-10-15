@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "id": "insufficienza-tricuspidale",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "ESC/EACTS 2025 - Linee guida sulle valvulopatie (Praz et al., Eur Heart J 2025)",
+        "url": "https://academic.oup.com/ehjvshd/article/1/1/xwag001/8429937"
+      },
+      {
+        "label": "Eur Heart J Suppl 2026 - Aggiornamenti pratici ESC/EACTS 2025 su insufficienza mitralica e tricuspidale",
+        "url": "https://doi.org/10.1093/eurheartjsupp/suag001"
+      }
+    ],
+    "notes": "Classi verificate su sintesi ufficiali o commenti pubblicati della linea guida (testo integrale non consultabile da questo ambiente). Dove il livello non è riportato resta vuoto; «raccomandato» nel testo = classe I. Da verificare sul testo integrale."
+  },
+  "pathology": "insufficienza-tricuspidale",
+  "groups": [
+    {
+      "id": "gestione",
+      "label": "Insufficienza tricuspidale",
+      "items": [
+        {
+          "id": "valut",
+          "text": "Invio precoce e valutazione strutturata della funzione ventricolare destra e delle pressioni polmonari",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [],
+          "note": "Livello di evidenza non riportato nelle sintesi consultate."
+        },
+        {
+          "id": "ttvi",
+          "text": "Intervento percutaneo nella tricuspidale severa sintomatica ad alto rischio, nonostante terapia medica, senza disfunzione VD severa né ipertensione polmonare precapillare",
+          "cor": "IIa",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "diur",
+          "text": "Diuretici dell'ansa per la congestione",
+          "cor": null,
+          "loe": null,
+          "drugIds": [
+            "furosemide",
+            "torasemide",
+            "bumetanide"
+          ],
+          "note": "Non graduata nelle sintesi consultate."
+        }
+      ]
+    }
+  ]
+}

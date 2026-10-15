@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "id": "ckd-rischio-cv",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "ESC/ERA 2026 - Linee guida su malattia cardiovascolare e malattia renale cronica",
+        "url": "https://doi.org/10.1093/eurheartj/ehag098"
+      },
+      {
+        "label": "HCPLive - Sintesi delle linee guida ESC/ERA 2026 su CVD e CKD",
+        "url": "https://www.hcplive.com/view/new-esc-era-guideline-calls-for-universal-ckd-screening-in-cardiovascular-disease"
+      }
+    ],
+    "notes": "Classi verificate su sintesi ufficiali o commenti pubblicati della linea guida (testo integrale non consultabile da questo ambiente). Dove il livello non è riportato resta vuoto; «raccomandato» nel testo = classe I. Da verificare sul testo integrale."
+  },
+  "pathology": "ckd-rischio-cv",
+  "groups": [
+    {
+      "id": "base",
+      "label": "Terapia di base nella CKD",
+      "items": [
+        {
+          "id": "statina",
+          "text": "Terapia con statina indipendentemente dai livelli lipidici",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [
+            "atorvastatin",
+            "rosuvastatin"
+          ],
+          "note": "Livello di evidenza non riportato nelle sintesi consultate."
+        },
+        {
+          "id": "raas",
+          "text": "ACE-inibitore o sartano nella maggior parte dei pazienti",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [
+            "ramipril",
+            "perindopril",
+            "candesartan",
+            "telmisartan"
+          ],
+          "note": "Livello di evidenza non riportato nelle sintesi consultate."
+        },
+        {
+          "id": "sglt2dm",
+          "text": "SGLT2-inibitore con ACE-i/sartano nel diabete tipo 2 alla prima evidenza di CKD",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [
+            "dapagliflozin",
+            "empagliflozin"
+          ],
+          "note": "Livello di evidenza non riportato nelle sintesi consultate."
+        },
+        {
+          "id": "sglt2nodm",
+          "text": "SGLT2-inibitore senza diabete se eGFR ≥20 e albuminuria ≥200 mg/g (20 mg/mmol)",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [
+            "dapagliflozin",
+            "empagliflozin"
+          ],
+          "note": "Livello di evidenza non riportato nelle sintesi consultate."
+        }
+      ]
+    },
+    {
+      "id": "dm",
+      "label": "CKD con diabete tipo 2 e albuminuria",
+      "items": [
+        {
+          "id": "finer",
+          "text": "Finerenone per ridurre la progressione della CKD e gli eventi cardiovascolari",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [
+            "finerenone"
+          ],
+          "note": "Livello di evidenza non riportato nelle sintesi consultate."
+        },
+        {
+          "id": "sema",
+          "text": "Semaglutide 1 mg/settimana (studio FLOW) per ridurre la progressione della CKD e gli eventi cardiovascolari",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [
+            "semaglutide"
+          ],
+          "note": "Livello di evidenza non riportato nelle sintesi consultate."
+        }
+      ]
+    },
+    {
+      "id": "screening",
+      "label": "Screening",
+      "items": [
+        {
+          "id": "screen",
+          "text": "Ricerca della CKD (eGFR e albuminuria) in tutti i pazienti con malattia cardiovascolare",
+          "cor": null,
+          "loe": null,
+          "drugIds": [],
+          "note": "Indicata come screening universale nelle sintesi; classe da verificare."
+        }
+      ]
+    }
+  ]
+}

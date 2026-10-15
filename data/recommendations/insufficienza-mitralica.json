@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "id": "insufficienza-mitralica",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "ESC/EACTS 2025 - Linee guida sulle valvulopatie (Praz et al., Eur Heart J 2025)",
+        "url": "https://academic.oup.com/ehjvshd/article/1/1/xwag001/8429937"
+      },
+      {
+        "label": "Eur Heart J Suppl 2026 - Aggiornamenti pratici ESC/EACTS 2025 su insufficienza mitralica e tricuspidale",
+        "url": "https://doi.org/10.1093/eurheartjsupp/suag001"
+      },
+      {
+        "label": "PCRonline - Novità delle linee guida ESC/EACTS 2025 sulle valvulopatie",
+        "url": "https://www.pcronline.com/News/Congress-coverages/ESC/2025/Key-updates-in-valvular-heart-disease-management-insights-from-the-2025-ESC-EACTS-Guidelines"
+      }
+    ],
+    "notes": "Classi verificate su sintesi ufficiali o commenti pubblicati della linea guida (testo integrale non consultabile da questo ambiente). Dove il livello non è riportato resta vuoto; «raccomandato» nel testo = classe I. Da verificare sul testo integrale."
+  },
+  "pathology": "insufficienza-mitralica",
+  "groups": [
+    {
+      "id": "primaria",
+      "label": "Insufficienza mitralica primaria",
+      "items": [
+        {
+          "id": "chirasint",
+          "text": "Chirurgia nei pazienti asintomatici con criteri di rimodellamento (incluso LVESDi ≥20 mm/m²)",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [],
+          "note": "Livello di evidenza non riportato nelle sintesi consultate."
+        },
+        {
+          "id": "teerpri",
+          "text": "TEER nei pazienti sintomatici ad alto rischio chirurgico con anatomia idonea",
+          "cor": "IIa",
+          "loe": "B",
+          "drugIds": [],
+          "note": "Una sintesi riporta IIb B per i pazienti non candidabili alla chirurgia: verificare."
+        }
+      ]
+    },
+    {
+      "id": "secondaria",
+      "label": "Insufficienza mitralica secondaria",
+      "items": [
+        {
+          "id": "gdmt",
+          "text": "Terapia medica ottimale dello scompenso (terapia fondamentale) prima di ogni intervento",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [
+            "bisoprolol",
+            "carvedilol",
+            "metoprolol",
+            "nebivolol",
+            "sacubitril-valsartan",
+            "dapagliflozin",
+            "spironolactone"
+          ],
+          "note": "Raccomandazione della linea guida sullo scompenso."
+        },
+        {
+          "id": "teersec",
+          "text": "TEER nei pazienti selezionati con insufficienza secondaria ventricolare severa, FE <50%, sintomatici nonostante terapia ottimale",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": []
+        },
+        {
+          "id": "atriale",
+          "text": "Insufficienza secondaria atriale: chirurgia",
+          "cor": "IIa",
+          "loe": null,
+          "drugIds": [],
+          "note": "Livello di evidenza non riportato nelle sintesi consultate."
+        },
+        {
+          "id": "atrialetc",
+          "text": "Insufficienza secondaria atriale: trattamento percutaneo",
+          "cor": "IIb",
+          "loe": null,
+          "drugIds": [],
+          "note": "Livello di evidenza non riportato nelle sintesi consultate."
+        }
+      ]
+    }
+  ]
+}

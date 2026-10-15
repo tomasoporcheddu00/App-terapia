@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "id": "ipertensione-gravidanza",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "ESC 2025 - Linee guida su malattie cardiovascolari e gravidanza",
+        "url": "https://academic.oup.com/eurheartj/article/46/43/4462/8234487"
+      },
+      {
+        "label": "Cardiology Advisor - Sintesi delle linee guida ESC 2025 sulla gravidanza",
+        "url": "https://www.thecardiologyadvisor.com/news/esc-publishes-2025-guidelines-on-cardiovascular-care-in-pregnant-patients/"
+      }
+    ],
+    "notes": "Classi verificate su sintesi ufficiali o commenti pubblicati della linea guida (testo integrale non consultabile da questo ambiente). Dove il livello non è riportato resta vuoto; «raccomandato» nel testo = classe I. Da verificare sul testo integrale."
+  },
+  "pathology": "ipertensione-gravidanza",
+  "groups": [
+    {
+      "id": "terapia",
+      "label": "Terapia",
+      "items": [
+        {
+          "id": "farmaci",
+          "text": "Metildopa, labetalolo o calcioantagonisti",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [
+            "methyldopa",
+            "labetalol",
+            "nifedipine"
+          ],
+          "note": "Livello di evidenza non riportato nelle sintesi consultate."
+        },
+        {
+          "id": "asa",
+          "text": "Aspirina 75–100 mg/die dalla 12ª alla 36ª–37ª settimana se rischio moderato o alto di preeclampsia",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [
+            "aspirin"
+          ],
+          "note": "Livello di evidenza non riportato nelle sintesi consultate."
+        }
+      ]
+    },
+    {
+      "id": "controind",
+      "label": "Farmaci controindicati in gravidanza",
+      "items": [
+        {
+          "id": "raas",
+          "text": "ACE-inibitori, sartani, sacubitril/valsartan",
+          "cor": "III",
+          "loe": null,
+          "drugIds": [
+            "ramipril",
+            "valsartan",
+            "sacubitril-valsartan"
+          ],
+          "note": "«Controindicati» nel testo della linea guida; sospensione temporanea prima della gravidanza."
+        },
+        {
+          "id": "mra",
+          "text": "Antagonisti dei mineralcorticoidi",
+          "cor": "III",
+          "loe": null,
+          "drugIds": [
+            "spironolactone",
+            "eplerenone"
+          ],
+          "note": "«Controindicati» nel testo della linea guida."
+        },
+        {
+          "id": "sglt2",
+          "text": "SGLT2-inibitori",
+          "cor": "III",
+          "loe": null,
+          "drugIds": [
+            "dapagliflozin",
+            "empagliflozin"
+          ],
+          "note": "«Controindicati» nel testo della linea guida."
+        },
+        {
+          "id": "doac",
+          "text": "DOAC",
+          "cor": "III",
+          "loe": null,
+          "drugIds": [
+            "apixaban",
+            "edoxaban",
+            "rivaroxaban",
+            "dabigatran"
+          ],
+          "note": "Non raccomandati in gravidanza."
+        }
+      ]
+    }
+  ]
+}

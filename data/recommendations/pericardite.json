@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "pericardite",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "ESC 2025 - Linee guida su miocardite e pericardite",
+        "url": "https://academic.oup.com/eurheartj/article/46/40/3952/8234483"
+      },
+      {
+        "label": "Rev Esp Cardiol - Commento alle linee guida ESC 2025 su miocardite e pericardite",
+        "url": "https://www.revespcardiol.org/en-insights-into-the-2025-esc-guidelines-fo-articulo-S1885585725003226"
+      }
+    ],
+    "notes": "Classi verificate su sintesi ufficiali o commenti pubblicati della linea guida (testo integrale non consultabile da questo ambiente). Dove il livello non è riportato resta vuoto; «raccomandato» nel testo = classe I. Da verificare sul testo integrale."
+  },
+  "pathology": "pericardite",
+  "groups": [
+    {
+      "id": "acuta",
+      "label": "Pericardite acuta",
+      "items": [
+        {
+          "id": "fans",
+          "text": "Aspirina o FANS a dose piena antinfiammatoria associati a colchicina, per almeno 3–6 mesi (la colchicina va sospesa per ultima)",
+          "cor": "I",
+          "loe": "A",
+          "drugIds": [
+            "aspirin",
+            "ibuprofen",
+            "colchicine"
+          ]
+        },
+        {
+          "id": "ppi",
+          "text": "Gastroprotezione con inibitore di pompa protonica durante i FANS",
+          "cor": "I",
+          "loe": null,
+          "drugIds": [],
+          "note": "Livello di evidenza non riportato nelle sintesi consultate."
+        }
+      ]
+    },
+    {
+      "id": "recidiva",
+      "label": "Pericardite incessante o ricorrente",
+      "items": [
+        {
+          "id": "colch",
+          "text": "Colchicina sempre come base, associata ad aspirina/FANS o a corticosteroidi a dose bassa-moderata",
+          "cor": null,
+          "loe": null,
+          "drugIds": [
+            "colchicine",
+            "prednisone"
+          ],
+          "note": "Classe non riportata nelle sintesi consultate."
+        },
+        {
+          "id": "il1",
+          "text": "Anti-IL-1 (anakinra, rilonacept) nelle forme ricorrenti con fenotipo infiammatorio o corticodipendenti",
+          "cor": null,
+          "loe": null,
+          "drugIds": [
+            "anakinra",
+            "rilonacept"
+          ],
+          "note": "Indicati come opzione preferenziale nelle forme ricorrenti infiammatorie; classe da verificare."
+        }
+      ]
+    }
+  ]
+}

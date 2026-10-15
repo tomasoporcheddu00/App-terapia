@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "id": "arresto-cardiaco",
+    "schemaVersion": "1.0.0",
+    "editorialStatus": "source-review",
+    "updatedAt": "2026-10-15",
+    "sources": [
+      {
+        "label": "ERC 2025 - Supporto vitale avanzato dell'adulto",
+        "url": "https://www.resuscitationjournal.com/article/S0300-9572(25)00281-3/fulltext"
+      }
+    ],
+    "notes": "Le linee guida ERC non usano le classi di raccomandazione ESC: le voci sono riportate senza classe. Fonte ERC 2025 (supporto vitale avanzato dell'adulto)."
+  },
+  "pathology": "arresto-cardiaco",
+  "groups": [
+    {
+      "id": "desfib",
+      "label": "Ritmo defibrillabile (FV/TV senza polso)",
+      "items": [
+        {
+          "id": "stacked",
+          "text": "Fino a tre shock consecutivi solo se FV/TV in arresto testimoniato e monitorato con defibrillatore immediatamente disponibile (contano come primo shock)",
+          "cor": null,
+          "loe": null,
+          "drugIds": []
+        },
+        {
+          "id": "adr",
+          "text": "Adrenalina 1 mg EV dopo il 3° shock, poi ogni 3–5 minuti",
+          "cor": null,
+          "loe": null,
+          "drugIds": [
+            "adrenaline"
+          ]
+        },
+        {
+          "id": "amio",
+          "text": "Amiodarone 300 mg EV dopo il 3° shock, 150 mg dopo il 5° (o lidocaina in alternativa)",
+          "cor": null,
+          "loe": null,
+          "drugIds": [
+            "amiodarone",
+            "lidocaine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nondesfib",
+      "label": "Ritmo non defibrillabile",
+      "items": [
+        {
+          "id": "adrnd",
+          "text": "Adrenalina 1 mg EV appena possibile, poi ogni 3–5 minuti",
+          "cor": null,
+          "loe": null,
+          "drugIds": [
+            "adrenaline"
+          ],
+          "note": "Dalle linee guida ERC; da verificare sull'edizione 2025."
+        }
+      ]
+    }
+  ]
+}
