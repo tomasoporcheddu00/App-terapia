@@ -675,24 +675,183 @@ body.scrolled .topbar{box-shadow:0 1px 0 var(--line),0 6px 20px rgba(18,33,47,.0
 .rggen{margin:10px 0 0;padding-left:18px;font-size:12.6px;color:var(--ink-soft)}
 .rggen li{margin-bottom:3px}
 @media (max-width:900px){.rgline{grid-template-columns:1fr}}
+/* =====================================================================
+   RESTYLING 2.0 — identità visiva, navigazione, home
+   ===================================================================== */
+:root{
+  --canvas:#F1F5F8;
+  --grad:linear-gradient(135deg,#0F9AA3 0%,#0B6F8E 52%,#23468F 100%);
+  --grad-soft:linear-gradient(135deg,rgba(15,154,163,.12),rgba(35,70,143,.10));
+  --ink:#0F1B27;
+  --line:#DDE5EC;--line-soft:#EBF0F4;
+  --shadow:0 1px 2px rgba(15,35,55,.04),0 6px 22px rgba(15,35,55,.06);
+  --shadow-lg:0 2px 6px rgba(15,35,55,.05),0 22px 48px rgba(15,35,55,.12);
+  --radius:18px;
+}
+html,body{background:var(--canvas)}
+body{background:radial-gradient(1200px 520px at 85% -120px,rgba(15,154,163,.10),transparent 60%),radial-gradient(900px 480px at -10% -80px,rgba(35,70,143,.08),transparent 60%),var(--canvas);background-repeat:no-repeat;min-height:100vh}
+h1{letter-spacing:-.025em}
+.card{border:1px solid rgba(15,35,55,.07);border-radius:var(--radius);box-shadow:var(--shadow);background:#fff}
+
+/* ---- header ---- */
+.topbar{background:rgba(255,255,255,.72);border-bottom:1px solid rgba(15,35,55,.07);backdrop-filter:saturate(1.8) blur(14px);-webkit-backdrop-filter:saturate(1.8) blur(14px)}
+.topbar-inner{max-width:1280px;padding:10px 22px;gap:14px 18px}
+.brand .glyph{width:38px;height:38px;border-radius:11px;background:var(--grad);display:flex;align-items:center;justify-content:center;box-shadow:0 6px 16px rgba(11,111,142,.35),inset 0 0 0 1px rgba(255,255,255,.18)}
+.brand .glyph::before,.brand .glyph::after{display:none}
+.brand .glyph svg{width:24px;height:24px;color:#fff}
+.brand .name{font-size:16.5px}
+.brand .name span{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent!important}
+.brand .sub{font-size:11px;color:var(--muted)}
+.search input{border-radius:12px;background:#fff;border-color:var(--line);padding:10px 14px 10px 38px;box-shadow:inset 0 1px 0 rgba(15,35,55,.02)}
+.search .ico{left:13px;color:var(--faint);display:flex}
+.search .ico svg{width:16px;height:16px}
+.search .kbd{position:absolute;right:10px;top:50%;transform:translateY(-50%);font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);border:1px solid var(--line);border-bottom-width:2px;border-radius:6px;padding:1px 6px;background:var(--surface-2);pointer-events:none}
+.devpill{display:none!important}
+.tabs{gap:3px;flex-wrap:wrap}
+.tab{display:inline-flex;align-items:center;gap:7px;border-radius:999px;padding:7px 12px;font-size:13px;font-weight:500;color:var(--ink-soft)}
+.tab svg{width:16px;height:16px;opacity:.75;flex:0 0 auto}
+.tab:hover{background:rgba(15,154,163,.08);color:var(--teal-deep)}
+.tab.active{background:var(--grad);color:#fff;box-shadow:0 6px 16px rgba(11,111,142,.28)}
+.tab.active svg{opacity:1}
+.tab.active::after{display:none}
+
+/* ---- layout e correzioni ---- */
+.wrap{max-width:1280px;padding:24px 22px 64px}
+.split{grid-template-columns:290px minmax(0,1fr)}
+.split>*,.detailpane,.ptlay>*{min-width:0}
+.badges{min-width:0;flex-wrap:wrap}
+.dh-top .badges{max-width:100%}
+.status-band{flex-wrap:wrap}.status-band .txt{min-width:0;flex:1 1 260px}
+.sidebar{scrollbar-width:thin}
+.drug-item{border-radius:10px}
+.drug-item.active{background:#fff;box-shadow:inset 3px 0 0 #0F9AA3,var(--shadow)}
+.drug-item:hover{background:rgba(255,255,255,.8)}
+.detail-head{background:linear-gradient(180deg,rgba(15,154,163,.06),transparent);border-radius:var(--radius) var(--radius) 0 0}
+.dh-title h1{font-size:30px}
+.secnav{background:rgba(255,255,255,.88)}
+.secnav a{border-radius:999px}
+.section>h3 .mk{width:10px;height:10px;border-radius:3px;background:var(--grad)}
+.subcard{border-radius:14px;background:#F7FAFC}
+.chip,.mpchip,.member,.badge,.cmpbar .ghost,.mmtools button{border-radius:999px}
+.member{background:#fff;box-shadow:0 1px 2px rgba(15,35,55,.05)}
+.member:hover{border-color:#0F9AA3;transform:translateY(-1px)}
+.classsel,.cmpbar select{border-radius:12px}
+.ptstat{border-radius:14px}
+.areahead{font-size:15px}
+.footer{max-width:1280px;color:var(--muted);line-height:1.6}
+.footer b{color:var(--ink)}
+.ptwarn,.simband{border-radius:14px}
+::selection{background:rgba(15,154,163,.18)}
+
+/* ---- comparsa delle pagine ---- */
+@keyframes ctaRise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+#app>*{animation:ctaRise .38s cubic-bezier(.2,.7,.2,1) both}
+#app>*:nth-child(2){animation-delay:.04s}#app>*:nth-child(3){animation-delay:.08s}#app>*:nth-child(4){animation-delay:.12s}
+
+/* ---- home ---- */
+.hm-hero{position:relative;overflow:hidden;border-radius:26px;background:var(--grad);color:#fff;padding:44px 44px 30px;box-shadow:var(--shadow-lg)}
+.hm-hero::before{content:"";position:absolute;right:-120px;top:-160px;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.22),transparent 65%)}
+.hm-hero .ecg{position:absolute;left:48%;right:0;bottom:-6px;height:120px;opacity:.18;pointer-events:none}
+.hm-demo{position:absolute;right:46px;top:50%;transform:translateY(-50%);width:330px;display:flex;flex-direction:column;gap:12px;pointer-events:none}
+.hm-dc{background:rgba(255,255,255,.95);color:var(--ink);border-radius:16px;padding:13px 15px;box-shadow:0 18px 40px rgba(8,30,60,.28);display:flex;gap:11px;align-items:center}
+.hm-dc:nth-child(1){transform:translateX(-18px) rotate(-1.5deg)}.hm-dc:nth-child(2){transform:translateX(12px) rotate(1deg)}.hm-dc:nth-child(3){transform:translateX(-6px) rotate(-.5deg)}
+.hm-dc .ic{width:36px;height:36px;border-radius:10px;background:var(--grad);color:#fff;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+.hm-dc .ic svg{width:19px;height:19px}
+.hm-dc .t{font-size:12.5px;line-height:1.35;color:var(--ink-soft)}
+.hm-dc .t b{display:block;font-size:13.5px;color:var(--ink);font-family:"Space Grotesk",sans-serif}
+.hm-dc .og,.hm-dc .cor{margin-left:auto;flex:0 0 auto}
+@media (max-width:1180px){.hm-demo{display:none}.hm-hero .ecg{left:0}}
+.hm-hero .ecg path{stroke:#fff;stroke-width:2.2;fill:none}
+.hm-kick{position:relative;font-family:"IBM Plex Mono",monospace;font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;opacity:.85}
+.hm-hero h1{position:relative;font-size:44px;line-height:1.05;margin:12px 0 12px;font-weight:700;max-width:18ch}
+.hm-hero p{position:relative;font-size:16px;line-height:1.55;margin:0;max-width:62ch;opacity:.92}
+.hm-search{position:relative;margin:24px 0 0;max-width:640px;display:flex;align-items:center;background:#fff;border-radius:16px;box-shadow:0 14px 34px rgba(8,30,60,.25);padding:4px 6px 4px 16px}
+.hm-search svg{width:19px;height:19px;color:var(--muted);flex:0 0 auto}
+.hm-search input{flex:1;border:0;outline:none;font-size:16px;padding:13px 10px;font-family:inherit;color:var(--ink);background:transparent;min-width:0}
+.hm-search button{border:0;background:var(--grad);color:#fff;font-weight:600;font-size:14px;border-radius:12px;padding:11px 18px;cursor:pointer;font-family:inherit}
+.hm-stats{position:relative;display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.hm-stat{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:14px;padding:10px 14px;min-width:120px;backdrop-filter:blur(6px)}
+.hm-stat b{display:block;font-family:"Space Grotesk",sans-serif;font-size:24px;line-height:1.05}
+.hm-stat span{font-size:11.5px;opacity:.88}
+.hm-h2{font-family:"Space Grotesk",sans-serif;font-size:19px;font-weight:600;margin:32px 4px 14px;display:flex;align-items:center;gap:10px}
+.hm-h2 small{font-family:"IBM Plex Sans",sans-serif;font-size:12.5px;font-weight:400;color:var(--muted)}
+.hm-tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.hm-tile{display:flex;flex-direction:column;gap:8px;padding:18px 18px 16px;cursor:pointer;text-align:left;font-family:inherit;transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
+.hm-tile:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg);border-color:rgba(15,154,163,.35)}
+.hm-tile .ic{width:42px;height:42px;border-radius:12px;background:var(--grad-soft);color:#0B6F8E;display:flex;align-items:center;justify-content:center}
+.hm-tile .ic svg{width:22px;height:22px}
+.hm-tile.hot .ic{background:var(--grad);color:#fff;box-shadow:0 8px 18px rgba(11,111,142,.3)}
+.hm-tile h3{font-size:16px;margin:4px 0 0;color:var(--ink)}
+.hm-tile p{margin:0;font-size:13px;color:var(--ink-soft);line-height:1.45;flex:1}
+.hm-tile .mt{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--teal-deep);font-weight:600}
+.hm-grid2{display:grid;grid-template-columns:1.4fr 1fr;gap:16px}
+.hm-news{padding:20px 22px}
+.hm-news ul{list-style:none;margin:0;padding:0}
+.hm-news li{display:flex;gap:12px;padding:11px 0;border-top:1px solid var(--line-soft);font-size:13.2px;color:var(--ink-soft);line-height:1.45}
+.hm-news li:first-child{border-top:0;padding-top:2px}
+.hm-news .tg{flex:0 0 auto;font-family:"IBM Plex Mono",monospace;font-size:10px;font-weight:600;letter-spacing:.04em;color:#fff;background:var(--grad);border-radius:6px;padding:3px 7px;height:fit-content;margin-top:1px}
+.hm-news b{color:var(--ink)}
+.hm-rule{padding:20px 22px;background:linear-gradient(160deg,#fff,#F3F8FA)}
+.hm-rule .q{font-family:"Space Grotesk",sans-serif;font-size:21px;font-weight:600;line-height:1.25;color:var(--ink);margin:6px 0 10px}
+.hm-rule p{font-size:13px;color:var(--ink-soft);margin:0 0 8px;line-height:1.5}
+
+/* ---- navigazione mobile ---- */
+.bnav{display:none}
+.sheet{display:none}
+@media (max-width:900px){
+  .topbar-inner{padding:10px 14px;gap:10px}
+  .brand .sub{display:none}
+  .tabs{display:none!important}
+  .search{order:2;flex:1 1 100%}
+  .search .kbd{display:none}
+  body{padding-bottom:calc(78px + env(safe-area-inset-bottom))}
+  .bnav{display:flex;position:fixed;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:60;background:rgba(255,255,255,.86);backdrop-filter:saturate(1.8) blur(16px);-webkit-backdrop-filter:saturate(1.8) blur(16px);border:1px solid rgba(15,35,55,.08);border-radius:22px;box-shadow:0 12px 34px rgba(15,35,55,.18);padding:6px}
+  .bnav button{flex:1;border:0;background:transparent;display:flex;flex-direction:column;align-items:center;gap:3px;padding:7px 2px;border-radius:16px;color:var(--muted);font-family:inherit;font-size:10.5px;font-weight:600;cursor:pointer}
+  .bnav button svg{width:22px;height:22px}
+  .bnav button.on{color:#fff;background:var(--grad);box-shadow:0 6px 14px rgba(11,111,142,.3)}
+  .sheet.on{display:block;position:fixed;inset:0;z-index:70}
+  .sheet .bg{position:absolute;inset:0;background:rgba(10,25,40,.35);backdrop-filter:blur(2px)}
+  .sheet .pn{position:absolute;left:0;right:0;bottom:0;background:#fff;border-radius:24px 24px 0 0;padding:10px 16px calc(22px + env(safe-area-inset-bottom));box-shadow:0 -12px 40px rgba(10,25,40,.2);animation:ctaRise .25s ease both}
+  .sheet .hd{width:42px;height:5px;border-radius:3px;background:var(--line);margin:4px auto 12px}
+  .sheet h3{font-size:15px;margin:0 4px 10px}
+  .sheet .gr{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+  .sheet .gr button{border:1px solid var(--line-soft);background:#F7FAFC;border-radius:16px;padding:13px 6px;display:flex;flex-direction:column;align-items:center;gap:6px;font-family:inherit;font-size:11.5px;font-weight:600;color:var(--ink-soft);cursor:pointer}
+  .sheet .gr button svg{width:22px;height:22px;color:#0B6F8E}
+  .sheet .gr button.on{background:var(--grad);color:#fff;border-color:transparent}.sheet .gr button.on svg{color:#fff}
+  .hm-hero{padding:30px 22px 24px;border-radius:22px}
+  .hm-hero h1{font-size:31px}
+  .hm-hero p{font-size:14.5px}
+  .hm-search button{display:none}
+  .hm-stat{min-width:0;flex:1 1 40%}
+  .hm-grid2{grid-template-columns:1fr}
+  .hm-tiles{grid-template-columns:1fr 1fr;gap:10px}
+  .hm-tile{padding:14px 13px}
+  .hm-tile p{display:none}
+  .hm-tile h3{font-size:14.5px}
+  .wrap{padding:16px 12px 30px}
+  .swup{bottom:calc(92px + env(safe-area-inset-bottom))}
+}
+@media print{.bnav,.sheet{display:none!important}}
+@media (prefers-reduced-motion:reduce){#app>*{animation:none!important}.hm-tile:hover,.member:hover{transform:none}}
 </style>
 </head>
 <body data-mob="list">
 <div class="topbar">
   <div class="topbar-inner">
     <div class="brand" onclick="go('#/')">
-      <div class="glyph"></div>
+      <div class="glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12h4l2-5 3 11 3-14 2 8h6"/></svg></div>
       <div><div class="name">CardioTherapy <span style="color:var(--teal-deep)">Atlas</span></div>
-      <div class="sub">181 schede · 80 percorsi terapeutici · fonte-verificata</div></div>
+      <div class="sub">Assistente farmacologico cardiovascolare · fonte-verificata</div></div>
     </div>
-    <div class="search"><span class="ico">⌕</span>
-      <input id="q" type="search" placeholder="Cerca farmaco, ATC, indicazione…  (premi /)" autocomplete="off"></div>
+    <div class="search"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16z M21 21l-4.3-4.3"/></svg></span><span class="kbd">/</span>
+      <input id="q" type="search" placeholder="Cerca farmaco, ATC, indicazione…" autocomplete="off"></div>
     <div class="tabs" id="tabs"></div>
     <div class="devpill" title="Modalità di visualizzazione"><span class="dot"></span><span class="lg-only">Desktop</span><span class="mb-only">Mobile</span></div>
   </div>
 </div>
 
 <div class="wrap" id="app"></div>
+<nav class="bnav" id="bnav" aria-label="Navigazione"></nav><div class="sheet" id="sheet"></div>
 <div class="swup" id="swup"><span>È disponibile una versione aggiornata dell'atlante.</span><button onclick="location.reload()">Ricarica</button></div>
 
 <div class="footer">
@@ -715,8 +874,10 @@ function isPlaceholder(d){return !!(d&&d.meta&&d.meta.editorialStatus==='placeho
 function onClassFilter(v){activeClass=v||null;route();}
 
 function renderTabs(active){
-  document.getElementById('tabs').innerHTML=TABS.map(([h,l])=>
-    '<button class="tab '+(active===h?'active':'')+'" onclick="go(\''+h+'\')">'+l+'</button>').join('');
+  const k=navKey();
+  document.getElementById('tabs').innerHTML=NAV.slice(1).map(([hh,l,i])=>
+    '<button class="tab '+(k===hh?'active':'')+'" onclick="go(\''+hh+'\')">'+ico(i)+'<span>'+l+'</span></button>').join('');
+  renderNav();
 }
 
 /* ---------- sidebar (farmaci) ---------- */
@@ -864,17 +1025,14 @@ function jump(e,id){e.preventDefault();const el=document.getElementById(id);if(e
 
 /* ---------- overview ---------- */
 function overviewHTML(){
-  const nDos=Object.values(DATA.dosing).reduce((a,b)=>a+b.length,0);
-  let h='<div class="card"><div class="hero"><div class="kicker">Assistente farmacologico cardiovascolare</div><h1>Atlante degli antitrombotici</h1>';
-  h+='<p class="lead">Atlante della farmacologia cardiovascolare. Il <b>Lotto 1</b> — 12 antitrombotici tra anticoagulanti e antiaggreganti — è completo e approvato; il resto della libreria è già presente come <b>record placeholder</b>, pronto a essere popolato per lotti verificati. Ogni campo nasce da una fonte citata; dove la fonte tace, il campo resta vuoto.</p>';
   const nAppr=DATA.drugs.filter(d=>d.meta.editorialStatus==='clinician-approved').length;
-  const nSrc=DATA.drugs.filter(d=>d.meta.editorialStatus==='source-review').length;
-  const nPh=DATA.drugs.filter(isPlaceholder).length, nClsPop=DATA.classOrder.filter(id=>!isPlaceholder(DATA.classes[id])).length;
-  h+='<div class="statband"><div class="s"><b>'+DATA.drugs.length+'</b><span>farmaci · '+nAppr+' approvati · '+nSrc+' verificati · '+nPh+' in preparazione</span></div><div class="s"><b>'+DATA.classOrder.length+'</b><span>classi ('+nClsPop+' con contenuti)</span></div><div class="s"><b>'+DATA.pathologies.length+'</b><span>patologie in 10 aree</span></div><div class="s"><b>'+Object.keys(DATA.interactions).length+'</b><span>schede interazioni</span></div><div class="s"><b>4</b><span>calcolatori</span></div></div>';
-  h+='<div class="notice"><span class="tag" style="background:var(--green);color:#fff">STATO</span><div><div class="nt">Lotto 1 approvato · popolamento da fonti avviato</div><div class="nb">I 12 antitrombotici del Lotto 1 sono <b>approvati</b>. <b>Ramipril</b> e la classe <b>ACE-inibitori</b> sono i primi contenuti popolati da fonte citata (stato «revisione fonti»: da confermare su RCP ufficiale AIFA/EMA e da approvare). I restanti '+nPh+' farmaci restano <b>placeholder</b>, da popolare per lotti verificati. «Meglio un campo vuoto che un campo inventato».</div></div></div>';
+  const nSrc=DATA.drugs.filter(d=>d.meta.editorialStatus==='source-review').length,nPh=DATA.drugs.filter(isPlaceholder).length;
+  let h='<div class="card"><div class="hero"><div class="kicker">Monografie</div><h1>Farmaci cardiovascolari</h1>';
+  h+='<p class="lead">Scegli un principio attivo dall\'elenco o filtra per classe. Ogni scheda riporta indicazioni autorizzate e da linee guida, controindicazioni, popolazioni speciali, <b>soglie renali ed epatiche</b>, posologia, interazioni, farmacologia, prescrivibilità in Italia e fonti.</p>';
+  h+='<div class="statband"><div class="s"><b>'+DATA.drugs.length+'</b><span>principi attivi</span></div><div class="s"><b>'+nAppr+'</b><span>approvati dal curatore</span></div><div class="s"><b>'+nSrc+'</b><span>da fonti citate, in revisione</span></div><div class="s"><b>'+Object.keys(DATA.organ||{}).length+'</b><span>con soglie rene/fegato</span></div><div class="s"><b>'+DATA.classOrder.length+'</b><span>classi</span></div></div>';
+  h+='<div class="notice review"><span class="tag">REGOLA</span><div><div class="nt">Meglio un campo vuoto che un campo inventato</div><div class="nb">Le schede in stato «revisione fonti» derivano da RCP e linee guida citate e attendono la validazione clinica'+(nPh?'; '+nPh+' farmaci sono ancora in preparazione':'')+'.</div></div></div>';
   h+='<div class="notice aifa"><span class="tag">AIFA</span><div><div class="nt">Nota 97 — aggiornamento in vigore dal 9 luglio 2026</div><div class="nb">Per DOAC e AVK nella FANV è stata <b>abrogata la Scheda di Valutazione e Prescrizione</b>: piano terapeutico non più richiesto per questa indicazione.</div></div></div>';
-  h+='<div class="legend"><div class="lg"><span class="dot" style="background:var(--teal)"></span>clinico</div><div class="lg"><span class="dot" style="background:var(--crimson)"></span>controindicazioni</div><div class="lg"><span class="dot" style="background:var(--amber)"></span>avvertenze</div><div class="lg"><span class="dot" style="background:var(--green)"></span>vantaggi</div><div class="lg"><span class="dot" style="background:var(--indigo)"></span>stato editoriale</div></div></div>';
-  h+='<div class="ov-note">Scegli un principio attivo a sinistra, oppure apri <b>Terapia per patologia</b> per partire dalla condizione clinica, <b>Confronto</b> per la tabella d\'insieme, <b>Calcolatori</b> per gli score (CHA₂DS₂-VA, HAS-BLED, Cockcroft-Gault, QTc) e <b>Classi</b> per i meccanismi. <b>ESC/EACTS 2024</b>: i DOAC come classe sono preferiti agli AVK nei pazienti eleggibili (classe I), eccetto protesi meccaniche e stenosi mitralica moderata-severa.</div></div>';
+  h+='<div class="legend"><div class="lg"><span class="dot" style="background:var(--teal)"></span>clinico</div><div class="lg"><span class="dot" style="background:var(--crimson)"></span>controindicazioni</div><div class="lg"><span class="dot" style="background:var(--amber)"></span>avvertenze</div><div class="lg"><span class="dot" style="background:var(--green)"></span>vantaggi</div><div class="lg"><span class="dot" style="background:var(--indigo)"></span>stato editoriale</div></div></div></div>';
   return h;
 }
 
@@ -1783,6 +1941,78 @@ function regimenHTML(r){
 function regimensHTML(slug,collapsed){const L=regimensFor(slug);if(!L.length)return '';
   return '<details class="rgwrap"'+(collapsed?'':' open')+'><summary>Schemi posologici ('+L.length+')</summary>'+L.map(regimenHTML).join('')+'</details>';}
 
+/* ================= RESTYLING 2.0: icone, navigazione, home ================= */
+const ICO={
+ home:'M3 11l9-8 9 8v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z',
+ pill:'M10.5 20.5a5 5 0 0 1-7.07-7.07l6-6a5 5 0 0 1 7.07 7.07z M8.5 8.5l7 7',
+ steth:'M5 3v5a4 4 0 0 0 8 0V3 M9 12v3a5 5 0 0 0 10 0v-2 M19 13a2 2 0 1 0 0-4 2 2 0 0 0 0 4z',
+ map:'M9 4L3 6v14l6-2 6 2 6-2V4l-6 2-6-2z M9 4v14 M15 6v14',
+ pulse:'M3 12h4l3-7 4 14 3-7h4',
+ cols:'M4 4h6v16H4z M14 4h6v16h-6z',
+ link:'M10 14a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1 1 M14 10a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1-1',
+ calc:'M7 3h10a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z M8.5 7h7 M8.5 11.5h.01 M12 11.5h.01 M15.5 11.5h.01 M8.5 15h.01 M12 15h.01 M15.5 15h.01 M8.5 18.5h.01 M12 18.5h.01 M15.5 18.5h.01',
+ drop:'M12 2.7s6 6.4 6 10.8a6 6 0 0 1-12 0C6 9.1 12 2.7 12 2.7z M9.5 14.5a2.5 2.5 0 0 0 2.5 2.5',
+ flask:'M9 3h6 M10 3v6.2L4.8 18a2 2 0 0 0 1.7 3h11a2 2 0 0 0 1.7-3L14 9.2V3 M7.5 15h9',
+ layers:'M12 3l9 5-9 5-9-5 9-5z M3 13l9 5 9-5',
+ info:'M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z M12 11v5 M12 7.6h.01',
+ menu:'M4 6h16 M4 12h16 M4 18h16',
+ search:'M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16z M21 21l-4.3-4.3',
+ spark:'M12 3v4 M12 17v4 M3 12h4 M17 12h4 M5.6 5.6l2.8 2.8 M15.6 15.6l2.8 2.8 M5.6 18.4l2.8-2.8 M15.6 8.4l2.8-2.8',
+ ecg:'M2 12h4l2-5 3 11 3-14 2 8h6'
+};
+function ico(n){return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="'+(ICO[n]||'')+'"/></svg>';}
+const NAV=[['#/','Home','home'],['#/farmaci','Farmaci','pill'],['#/terapia','Patologie','steth'],['#/mappa','Mappa','map'],['#/paziente','Simulazione','pulse'],
+  ['#/confronto','Confronto','cols'],['#/interazioni','Interazioni','link'],['#/calcolatori','Calcolatori','calc'],['#/utic','UTIC','drop'],
+  ['#/rene-fegato','Rene e fegato','flask'],['#/classi','Classi','layers'],['#/info','Info','info']];
+const BNAV=[['#/','Home','home'],['#/farmaci','Farmaci','pill'],['#/mappa','Mappa','map'],['#/utic','UTIC','drop']];
+function navKey(){const v=(location.hash||'#/').replace(/^#\/?/,'').split('/')[0];
+  return v===''?'#/':v==='farmaco'?'#/farmaci':v==='classe'?'#/classi':'#/'+v;}
+function renderNav(){const k=navKey();
+  const b=document.getElementById('bnav');
+  if(b)b.innerHTML=BNAV.map(([h,l,i])=>'<button class="'+(k===h?'on':'')+'" onclick="go(\''+h+'\')">'+ico(i)+'<span>'+l+'</span></button>').join('')+
+    '<button class="'+(BNAV.some(x=>x[0]===k)?'':'on')+'" onclick="sheetOpen()">'+ico('menu')+'<span>Altro</span></button>';
+  const s=document.getElementById('sheet');
+  if(s)s.innerHTML='<div class="bg" onclick="sheetClose()"></div><div class="pn" role="dialog" aria-label="Sezioni"><div class="hd"></div><h3>Tutte le sezioni</h3><div class="gr">'+
+    NAV.map(([h,l,i])=>'<button class="'+(k===h?'on':'')+'" onclick="sheetClose();go(\''+h+'\')">'+ico(i)+'<span>'+l+'</span></button>').join('')+'</div></div>';}
+function sheetOpen(){const s=document.getElementById('sheet');if(s)s.classList.add('on');}
+function sheetClose(){const s=document.getElementById('sheet');if(s)s.classList.remove('on');}
+function homeSearch(v){const q=document.getElementById('q');q.value=v;query=v;if(v.trim())go('#/farmaci');}
+function homeHTML(){
+  const nR=Object.keys(DATA.recommendations||{}).length,nItems=Object.values(DATA.recommendations||{}).reduce((a,r)=>a+r.groups.reduce((b,g)=>b+g.items.length,0),0);
+  const nOrg=Object.keys(DATA.organ||{}).length,nInf=Object.keys(DATA.infusions||{}).length,nRules=Object.values(DATA.rules||{}).reduce((a,d)=>a+(d.rules||[]).length,0);
+  const nDr=DATA.drugs.filter(d=>!isPlaceholder(d)).length,nIx=Object.keys(DATA.interactions).length,nReg=Object.keys(DATA.regimens||{}).length;
+  const tile=(h,i,t,p,m,hot)=>'<button class="card hm-tile'+(hot?' hot':'')+'" onclick="go(\''+h+'\')"><span class="ic">'+ico(i)+'</span><h3>'+t+'</h3><p>'+p+'</p><span class="mt">'+m+'</span></button>';
+  let h='<section class="hm-hero"><svg class="ecg" viewBox="0 0 1200 120" preserveAspectRatio="none"><path d="M0 80 H260 l18 -26 16 52 22 -96 20 82 14 -12 H560 l18 -26 16 52 22 -96 20 82 14 -12 H860 l18 -26 16 52 22 -96 20 82 14 -12 H1200"/></svg>'+
+    '<div class="hm-demo" aria-hidden="true">'+
+      '<div class="hm-dc"><span class="ic">'+ico('map')+'</span><span class="t"><b>HFrEF · SGLT2-inibitore</b>Terapia fondamentale ESC 2026</span>'+mapCor('I')+'</div>'+
+      '<div class="hm-dc"><span class="ic">'+ico('flask')+'</span><span class="t"><b>Dabigatran · CrCl 28</b>Soglia renale dalla RCP</span><span class="og contraindicated">Controindicato</span></div>'+
+      '<div class="hm-dc"><span class="ic">'+ico('drop')+'</span><span class="t"><b>Noradrenalina 0,1 mcg/kg/min</b>80 mcg/mL · 70 kg → <b style="display:inline;color:#0B6F8E">5,25 mL/h</b></span></div>'+
+    '</div><div class="hm-kick">Assistente farmacologico cardiovascolare</div><h1>La terapia cardiologica, a colpo d\'occhio.</h1>'+
+    '<p>Schede farmaco con fonte, mappe terapeutiche con classi di evidenza ESC, soglie renali ed epatiche, infusioni di UTIC e avvisi sulle associazioni a rischio. Funziona offline, nessun dato paziente salvato.</p>'+
+    '<div class="hm-search">'+ico('search')+'<input type="search" placeholder="Cerca un farmaco, una classe o un\'indicazione…" onkeydown="if(event.key===\'Enter\')homeSearch(this.value)" aria-label="Cerca"><button onclick="homeSearch(this.previousElementSibling.value)">Cerca</button></div>'+
+    '<div class="hm-stats"><div class="hm-stat"><b>'+nDr+'</b><span>schede farmaco</span></div><div class="hm-stat"><b>'+nR+'</b><span>patologie con classi</span></div>'+
+    '<div class="hm-stat"><b>'+nOrg+'</b><span>farmaci rene/fegato</span></div><div class="hm-stat"><b>'+nInf+'</b><span>infusioni UTIC</span></div></div></section>';
+  h+='<div class="hm-h2">Strumenti <small>tocca per aprire</small></div><div class="hm-tiles">'+
+    tile('#/mappa','map','Mappa terapeutica','Patologie del paziente → terapie con classe di evidenza, riepilogo e avvisi.',nR+' patologie · '+nItems+' raccomandazioni',1)+
+    tile('#/rene-fegato','flask','Rene e fegato','CrCl, eGFR e Child-Pugh: cosa è controindicato e cosa va ridotto.',nOrg+' farmaci',1)+
+    tile('#/utic','drop','UTIC','Diluizioni e conversione dose ↔ mL/h sul peso.',nInf+' infusioni + calcolatore',1)+
+    tile('#/farmaci','pill','Farmaci','Monografie con indicazioni, controindicazioni, posologia e fonti.',nDr+' schede')+
+    tile('#/terapia','steth','Terapia per patologia','Percorsi a step e schemi posologici.',DATA.pathologies.length+' percorsi · '+nReg+' schemi')+
+    tile('#/paziente','pulse','Simulazione','Profilo del paziente → voci pertinenti delle schede.','renale, epatico, gravidanza…')+
+    tile('#/interazioni','link','Interazioni','Confronto di ogni coppia della terapia.',nIx+' schede 4.5')+
+    tile('#/calcolatori','calc','Calcolatori','CHA₂DS₂-VA, HAS-BLED, Cockcroft-Gault, QTc.','4 calcolatori')+'</div>';
+  h+='<div class="hm-grid2" style="margin-top:16px"><div class="card hm-news"><div class="hm-h2" style="margin:0 0 10px">'+ico('spark').replace('<svg','<svg style="width:20px;height:20px;color:#0B6F8E"')+'Novità</div><ul>'+
+    '<li><span class="tg">2026</span><span><b>Scompenso ESC 2026</b>: HFmrEF abolito, terapia fondamentale, nuovi livelli B1/B2 nella Mappa.</span></li>'+
+    '<li><span class="tg">2026</span><span><b>Embolia polmonare AHA/ACC 2026</b> e <b>CKD ESC/ERA 2026</b>.</span></li>'+
+    '<li><span class="tg">NUOVO</span><span><b>Rene e fegato</b>: '+nOrg+' farmaci con soglie per CrCl/eGFR e Child-Pugh, collegate a Simulazione e Mappa.</span></li>'+
+    '<li><span class="tg">NUOVO</span><span><b>Schemi antinfiammatori</b> per pericardite e miocardite con calcolo sul peso.</span></li>'+
+    '<li><span class="tg">2025</span><span>Valvulopatie, mio-pericardite, gravidanza e dislipidemie aggiornate alle linee guida 2025.</span></li></ul></div>'+
+    '<div class="card hm-rule"><div class="hm-kick" style="color:#0B6F8E;opacity:1">La regola</div><div class="q">Meglio un campo vuoto che un campo inventato.</div>'+
+    '<p>Ogni dato clinico viene da una RCP o da una linea guida citata. Dove la fonte non è stata confermata trovi «da verificare»; dove manca, il campo resta vuoto.</p>'+
+    '<p><b>Supporto alla decisione</b>, non dispositivo medico: non sostituisce il giudizio clinico, le RCP e le linee guida ufficiali.</p>'+
+    '<p style="margin:0"><a href="#/info">Metodo e copertura →</a></p></div></div>';
+  return h;}
+
 /* ---------- router ---------- */
 function route(){
   const raw=(location.hash||'#/').replace(/^#\/?/,'');
@@ -1791,6 +2021,7 @@ function route(){
   const isFarm=(view===''||view==='farmaci'||view==='farmaco');
   renderTabs(view==='terapia'?'#/terapia':view==='mappa'?'#/mappa':view==='paziente'?'#/paziente':view==='confronto'?'#/confronto':view==='interazioni'?'#/interazioni':view==='calcolatori'?'#/calcolatori':view==='utic'?'#/utic':view==='rene-fegato'?'#/rene-fegato':(view==='classi'||view==='classe')?'#/classi':view==='info'?'#/info':'#/');
   document.body.setAttribute('data-mob', view==='farmaco'?'detail':'list');
+  if(view===''){app.innerHTML=homeHTML();window.scrollTo(0,0);return;}
 
   if(view==='terapia'){app.innerHTML=terapiaHTML();window.scrollTo(0,0);return;}
   if(view==='mappa'){app.innerHTML=mapHTML();mapRenderAll();window.scrollTo(0,0);return;}
@@ -1809,10 +2040,10 @@ function route(){
   if(view==='farmaco')window.scrollTo(0,0);
 }
 window.addEventListener('scroll',()=>{document.body.classList.toggle('scrolled',window.scrollY>4);},{passive:true});
-function mobList(){document.body.setAttribute('data-mob','list');history.length&&go('#/');}
+function mobList(){document.body.setAttribute('data-mob','list');go('#/farmaci');}
 
 document.getElementById('q').addEventListener('input',e=>{query=e.target.value;
-  if(!/^#\/(farmaci|farmaco)?$/.test(location.hash||'#/')&&location.hash!=='#/'&&location.hash!==''){go('#/');}
+  if(!/^#\/(farmaci|farmaco)/.test(location.hash||'')){go('#/farmaci');}
   else route();});
 document.addEventListener('keydown',e=>{if(e.key==='/'&&document.activeElement.tagName!=='INPUT'){e.preventDefault();document.getElementById('q').focus();}});
 window.addEventListener('hashchange',route);

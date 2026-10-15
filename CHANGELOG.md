@@ -2,6 +2,24 @@
 
 Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/).
 
+## [1.6.0] — 2026-10-15
+
+### Modificato — restyling
+- **Nuova identità visiva**: sfondo con sfumature leggere, schede bianche in rilievo, gradiente
+  teal-blu, angoli più ampi, ombre morbide, micro-animazioni di comparsa (disattivate con «riduci
+  movimento»).
+- **Header**: logo con tracciato ECG, menu a pillole con icone e nomi brevi (Farmaci, Patologie,
+  Mappa…), scorciatoia «/» per la ricerca.
+- **Nuova home** (`#/`): intestazione con ricerca, numeri dell'atlante e anteprima delle funzioni,
+  riquadri di accesso rapido a tutti gli strumenti, riquadro «Novità» e la regola dell'atlante.
+  L'elenco dei farmaci si trova ora in `#/farmaci`, con una pagina iniziale aggiornata.
+- **Telefono**: barra di navigazione in basso (Home, Farmaci, Mappa, UTIC, Altro) con pannello di
+  tutte le sezioni; il menu non va più a capo su più righe.
+
+### Corretto
+- La scheda farmaco sforava a destra su desktop (badge e banda di stato tagliati).
+- Service worker: cache `v8`.
+
 ## [1.5.0] — 2026-10-15
 
 ### Aggiunto
